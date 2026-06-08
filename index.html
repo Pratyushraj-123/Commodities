@@ -658,17 +658,22 @@ async function checkServerConnection() {
         refreshBtn.style.display = 'inline-block';
         refreshBtn.title = "Connected to local server. Click to refresh live prices.";
       }
+    } else {
+      showOnlineButton(refreshBtn);
     }
   } catch (e) {
     console.log("Local backend server is not running. Standing alone mode active.");
-    if (refreshBtn) {
-      // If we are online (GitHub Pages) but local server is not running, show the button anyway
-      if (window.location.protocol.startsWith('http')) {
-        refreshBtn.style.display = 'inline-block';
-        refreshBtn.title = "Online Mode. Click to view details.";
-      } else {
-        refreshBtn.style.display = 'none';
-      }
+    showOnlineButton(refreshBtn);
+  }
+}
+
+function showOnlineButton(refreshBtn) {
+  if (refreshBtn) {
+    if (window.location.protocol.startsWith('http')) {
+      refreshBtn.style.display = 'inline-block';
+      refreshBtn.title = "Online Mode. Click to view details.";
+    } else {
+      refreshBtn.style.display = 'none';
     }
   }
 }
