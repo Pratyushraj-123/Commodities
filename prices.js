@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4314.2,
-  "silver": 67.635,
-  "platinum": 1774.2,
-  "palladium": 1229.0,
-  "copper": 6.3406,
-  "nickel": 18496.0,
-  "zinc": 3531.8,
+  "gold": 4329.19,
+  "silver": 68.533,
+  "platinum": 1779.2,
+  "palladium": 1225.5,
+  "copper": 6.3598,
+  "nickel": 18469.0,
+  "zinc": 3530.9,
   "lithium": 163750.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,5 +16,5 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "08 Jun 2026, 16:49"
+  "_last_updated": "08 Jun 2026, 12:28"
 };
