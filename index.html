@@ -702,16 +702,30 @@ function applyApiPrices(apiPrices) {
 
 async function fetchLivePrices() {
   const refreshBtn = document.getElementById('refreshBtn');
-  
-  // If hosted online statically and local server isn't running
-  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-    showNotification("Automated Online Mode", "Prices update automatically every day at 1:30 PM IST (8:00 AM UTC). To run on-demand updates, launch the server locally using run_dashboard.bat.", "#0ea5e9");
-    return;
-  }
-  
   const originalText = refreshBtn.innerHTML;
   refreshBtn.disabled = true;
   refreshBtn.innerHTML = "⏳ Fetching...";
+  
+  // If hosted online statically and local server isn't running
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    try {
+      // Fetch latest prices.json directly from GitHub Pages using a cache-buster
+      const res = await fetch(`prices.json?t=${Date.now()}`);
+      if (res.ok) {
+        const data = await res.json();
+        applyApiPrices(data);
+        showNotification("Refreshed", "Loaded latest prices from GitHub! (Updates automatically daily at 1:30 PM IST)", "#16a34a");
+      } else {
+        showNotification("Error", "Could not fetch latest prices from GitHub Pages.", "#b91c1c");
+      }
+    } catch (e) {
+      showNotification("Error", "Network error: " + e.message, "#b91c1c");
+    } finally {
+      refreshBtn.disabled = false;
+      refreshBtn.innerHTML = originalText;
+    }
+    return;
+  }
   
   try {
     const res = await fetch(`${API_URL}/refresh`);
