@@ -14,10 +14,10 @@ DEFAULT_PRICES = {
     "silver": 76.11,
     "platinum": 1973.0,
     "palladium": 1387.0,
-    "copper": 13200.0,
+    "copper": 6.0,          # USD/lb
     "nickel": 19143.0,
     "zinc": 3100.0,
-    "lithium": 24300.0,
+    "lithium": 176175.0,    # CNY/t
     "uranium": 93.0,
     "cobalt": 34000.0,
     "rareearth": 245.0,
@@ -25,7 +25,7 @@ DEFAULT_PRICES = {
     "tungsten": 3050.0,
     "vanadium": 10500.0,
     "niobium": 50.0,
-    "titanium": 14500.0,
+    "titanium": 48.5,       # CNY/kg
     "fluorite": 580.0
 }
 
@@ -140,9 +140,9 @@ def run_scraper():
             if "palladium" in te_data:
                 prices["palladium"] = te_data["palladium"]
                 
-            # 5. Copper (USD/Lbs -> USD/Tonne)
+            # 5. Copper (USD/Lbs)
             if "copper" in te_data:
-                prices["copper"] = round(te_data["copper"] * 2204.62262, 1)
+                prices["copper"] = te_data["copper"]
                 
             # 6. Nickel (USD/t)
             if "nickel" in te_data:
@@ -152,9 +152,9 @@ def run_scraper():
             if "zinc" in te_data:
                 prices["zinc"] = te_data["zinc"]
                 
-            # 8. Lithium (CNY/t -> USD/t)
+            # 8. Lithium (CNY/t)
             if "lithium" in te_data:
-                prices["lithium"] = round(te_data["lithium"] / usd_cny, 1)
+                prices["lithium"] = te_data["lithium"]
                 
             # 9. Uranium (USD/lb)
             if "uranium" in te_data:
@@ -168,9 +168,9 @@ def run_scraper():
             if "neodymium" in te_data:
                 prices["rareearth"] = round((te_data["neodymium"] / 945000.0) * 245.0, 1)
                 
-            # 12. Titanium (Titanium CNY/kg -> Titanium USD/t scale)
+            # 12. Titanium (Titanium CNY/kg)
             if "titanium" in te_data:
-                prices["titanium"] = round((te_data["titanium"] / 48.5) * 14500.0, 1)
+                prices["titanium"] = te_data["titanium"]
 
             # Date format: dd MMM yyyy, HH:MM
             prices["_last_updated"] = time.strftime("%d %b %Y, %H:%M")

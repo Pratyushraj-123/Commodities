@@ -1,12 +1,12 @@
 {
-  "gold": 4303.22,
-  "silver": 66.993,
-  "platinum": 1754.2,
-  "palladium": 1229.5,
-  "copper": 13784.8,
-  "nickel": 18586.0,
-  "zinc": 3522.3,
-  "lithium": 24138.4,
+  "gold": 4314.2,
+  "silver": 67.635,
+  "platinum": 1774.2,
+  "palladium": 1229.0,
+  "copper": 6.3406,
+  "nickel": 18496.0,
+  "zinc": 3531.8,
+  "lithium": 163750.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
   "rareearth": 245.0,
@@ -14,7 +14,7 @@
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
-  "titanium": 14500.0,
+  "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "08 Jun 2026, 11:36"
+  "_last_updated": "08 Jun 2026, 16:49"
 }

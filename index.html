@@ -452,12 +452,105 @@ let savedPrices = loadSaved();
 function getP(m){ return savedPrices[m.id] || m.price; }
 function getD(m){ return savedPrices['date_'+m.id] || m.date; }
 
-function fN(n){
-  if(n>=10000) return '$'+Math.round(n).toLocaleString();
-  if(n>=100)   return '$'+Math.round(n).toLocaleString();
-  if(n>=10)    return '$'+n.toFixed(1);
-  return '$'+n.toFixed(2);
+function fN(n, unit){
+  const sym = (unit && unit.startsWith('CNY')) ? '¥' : '$';
+  if(n===0) return sym+'0.00';
+  if(n>=10000) return sym+Math.round(n).toLocaleString();
+  if(n>=100)   return sym+Math.round(n).toLocaleString();
+  if(n>=1)     return sym+n.toFixed(2);
+  if(n>=0.1)   return sym+n.toFixed(3);
+  return sym+n.toFixed(4);
 }
+
+// ── DYNAMIC UNIT CONVERSION (Trading Economics Units) ──
+const CONVERSIONS = {
+  gold: { conv: 1.0, targetUnit: 'USD/oz', origUnit: 'USD/oz' },
+  silver: { conv: 1.0, targetUnit: 'USD/oz', origUnit: 'USD/oz' },
+  platinum: { conv: 1.0, targetUnit: 'USD/oz', origUnit: 'USD/oz' },
+  palladium: { conv: 1.0, targetUnit: 'USD/oz', origUnit: 'USD/oz' },
+  copper: { conv: 1 / 2204.62262, targetUnit: 'USD/lb', origUnit: 'USD/lb' },
+  nickel: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' },
+  zinc: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' },
+  lithium: { conv: 7.25, targetUnit: 'CNY/t', origUnit: 'CNY/t' },
+  uranium: { conv: 1.0, targetUnit: 'USD/lb', origUnit: 'USD/lb' },
+  cobalt: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' },
+  rareearth: { conv: 1.0, targetUnit: 'USD/kg', origUnit: 'USD/kg' },
+  antimony: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' },
+  tungsten: { conv: 1.0, targetUnit: 'USD/mtu', origUnit: 'USD/mtu' },
+  vanadium: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' },
+  niobium: { conv: 1.0, targetUnit: 'USD/kg', origUnit: 'USD/kg' },
+  titanium: { conv: 48.5 / 14500, targetUnit: 'CNY/kg', origUnit: 'CNY/kg' },
+  fluorite: { conv: 1.0, targetUnit: 'USD/t', origUnit: 'USD/t' }
+};
+
+METALS.forEach(m => {
+  const conf = CONVERSIONS[m.id];
+  if (conf) {
+    m.conv = conf.conv;
+    m.origUnit = conf.origUnit;
+    
+    if (m.conv !== 1.0) {
+      // 1. Convert the initial hardcoded price
+      m.price = m.price * m.conv;
+      
+      // 2. Convert the historical arrays
+      m.hist = m.hist.map(v => v * m.conv);
+      m.mo = m.mo.map(v => v * m.conv);
+      
+      // 3. Convert peak label text
+      if (m.pkl) {
+        m.pkl = m.pkl.replace(/\$([\d,]+(\.\d+)?)/g, (match, p1) => {
+          const val = parseFloat(p1.replace(/,/g, ''));
+          return fN(val * m.conv, conf.targetUnit);
+        });
+        m.pkl = m.pkl.replace(/\/t(onne)?/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/lb/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/kg/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/mtu/g, '/' + conf.targetUnit.split('/')[1]);
+      }
+      
+      // 4. Convert tags text
+      if (m.tags) {
+        m.tags = m.tags.map(([text, bg, color]) => {
+          let newText = text;
+          newText = newText.replace(/\$([\d,]+(\.\d+)?)/g, (match, p1) => {
+            const val = parseFloat(p1.replace(/,/g, ''));
+            return fN(val * m.conv, conf.targetUnit);
+          });
+          newText = newText.replace(/\$(\d+)k/g, (match, p1) => {
+            const val = parseFloat(p1) * 1000;
+            return fN(val * m.conv, conf.targetUnit);
+          });
+          newText = newText.replace(/\/t(onne)?/g, '/' + conf.targetUnit.split('/')[1])
+                           .replace(/\/lb/g, '/' + conf.targetUnit.split('/')[1])
+                           .replace(/\/kg/g, '/' + conf.targetUnit.split('/')[1])
+                           .replace(/\/mtu/g, '/' + conf.targetUnit.split('/')[1]);
+          return [newText, bg, color];
+        });
+      }
+      
+      // 5. Convert summary text
+      if (m.sum) {
+        m.sum = m.sum.replace(/\$([\d,]+(\.\d+)?)/g, (match, p1) => {
+          const val = parseFloat(p1.replace(/,/g, ''));
+          return fN(val * m.conv, conf.targetUnit);
+        });
+        m.sum = m.sum.replace(/\$(\d+)k/g, (match, p1) => {
+          const val = parseFloat(p1) * 1000;
+          return fN(val * m.conv, conf.targetUnit);
+        });
+        m.sum = m.sum.replace(/\/t(onne)?/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/lb/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/kg/g, '/' + conf.targetUnit.split('/')[1])
+                     .replace(/\/mtu/g, '/' + conf.targetUnit.split('/')[1]);
+      }
+    }
+    
+    // Set the unit to target unit
+    m.unit = conf.targetUnit;
+  }
+});
+
 
 // ── TOGGLE UPDATE PANEL ──────────────────────────────────
 function toggleUpdate(){
@@ -471,9 +564,11 @@ function buildInputGrid(){
   METALS.forEach(m=>{
     const d = document.createElement('div');
     d.className = 'up-field';
-    d.innerHTML = `<label>${m.emoji} ${m.name} (${m.unit})</label>
+    const labelUnit = m.origUnit || m.unit;
+    const rawPrice = savedPrices[m.id] || m.price;
+    d.innerHTML = `<label>${m.emoji} ${m.name} (${labelUnit})</label>
       <input type="number" id="inp_${m.id}" step="any"
-        placeholder="${getP(m)}" value="" />`;
+        placeholder="${rawPrice}" value="" />`;
     grid.appendChild(d);
   });
 }
@@ -506,7 +601,7 @@ function updateAllDisplays(){
     const d = getD(m);
     ['pv_','mp_'].forEach(pre=>{
       const el=document.getElementById(pre+m.id);
-      if(el) el.textContent=fN(p);
+      if(el) el.textContent=fN(p, m.unit);
     });
     const de=document.getElementById('pd_'+m.id);
     if(de) de.textContent=d+' · '+m.src;
@@ -520,7 +615,7 @@ function renderCharts(id){
   const m=METALS.find(x=>x.id===id);
   const o={
     responsive:true,maintainAspectRatio:false,
-    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.parsed.y.toLocaleString()+' '+m.unit}}},
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+fN(c.parsed.y, m.unit)+' '+m.unit}}},
     scales:{
       x:{ticks:{color:'#4a5162',font:{size:9},maxRotation:0,autoSkip:true},grid:{display:false},border:{color:'rgba(0,0,0,0.06)'}},
       y:{ticks:{color:'#4a5162',font:{size:9}},grid:{color:'rgba(0,0,0,0.05)'},border:{display:false}}
@@ -557,13 +652,13 @@ function buildPanel(m){
         <div class="hsrcs">${sH}</div>
       </div>
       <div class="hprice">
-        <div class="pval" id="pv_${m.id}" style="color:${m.color}">${fN(p)}</div>
+        <div class="pval" id="pv_${m.id}" style="color:${m.color}">${fN(p, m.unit)}</div>
         <div class="punit">${m.unit}</div>
         <div class="pdate" id="pd_${m.id}">${d} · ${m.src}</div>
       </div>
     </div>
     <div class="mets">
-      <div class="met"><div class="ml">Current Price</div><div class="mv" id="mp_${m.id}" style="color:${m.color}">${fN(p)}</div><div class="ms">${m.unit}</div></div>
+      <div class="met"><div class="ml">Current Price</div><div class="mv" id="mp_${m.id}" style="color:${m.color}">${fN(p, m.unit)}</div><div class="ms">${m.unit}</div></div>
       <div class="met"><div class="ml">10-Year Change</div><div class="mv ${pc.up?'up-c':'dn-c'}">${pc.up?'+':'-'}${pc.v}%</div><div class="ms">2016 → 2026</div></div>
       <div class="met"><div class="ml">Market Size 2026</div><div class="mv">$${ms}B</div><div class="ms">USD Billion est.</div></div>
       <div class="met"><div class="ml">Demand Growth</div><div class="mv ${dc.up?'up-c':'dn-c'}">${dc.up?'+':'-'}${dc.v}%</div><div class="ms">10-yr cumulative</div></div>
