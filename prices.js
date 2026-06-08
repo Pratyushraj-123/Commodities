@@ -1,0 +1,20 @@
+window.LIVE_COMMODITY_PRICES = {
+  "gold": 4303.22,
+  "silver": 66.993,
+  "platinum": 1754.2,
+  "palladium": 1229.5,
+  "copper": 13784.8,
+  "nickel": 18586.0,
+  "zinc": 3522.3,
+  "lithium": 24138.4,
+  "uranium": 85.7,
+  "cobalt": 56290.0,
+  "rareearth": 245.0,
+  "antimony": 22500.0,
+  "tungsten": 3050.0,
+  "vanadium": 10500.0,
+  "niobium": 50.0,
+  "titanium": 14500.0,
+  "fluorite": 580.0,
+  "_last_updated": "08 Jun 2026, 11:36"
+};

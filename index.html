@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Critical Minerals — ASX Investment Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="prices.js" defer></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+:root{
+  --bg:#f4f5f7;--s1:#ffffff;--s2:#eef0f3;
+  --bd:rgba(0,0,0,0.09);--bd2:rgba(0,0,0,0.15);
+  --tx:#1a1d22;--mu:#5a6172;--ac:#b8960a;--up:#15803d;--dn:#dc2626;
+  --fn:'IBM Plex Sans',sans-serif;--mo:'IBM Plex Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
+
+.topbar{background:var(--s1);border-bottom:1px solid var(--bd);padding:13px 24px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;gap:10px;flex-wrap:wrap;}
+.tl h1{font-size:15px;font-weight:600;color:var(--ac);letter-spacing:-.3px;}
+.tl p{font-size:11px;color:var(--mu);margin-top:1px;}
+.tr{display:flex;align-items:center;gap:10px;}
+.ts{font-size:11px;color:var(--mu);font-family:var(--mo);}
+.rbtn{padding:8px 20px;border-radius:5px;border:none;font-size:13px;font-family:var(--fn);cursor:pointer;font-weight:600;background:var(--ac);color:#000;transition:all .15s;}
+.rbtn:hover{background:#d4b03c;}
+.btn-refresh {
+  background: #16a34a;
+  color: #fff;
+}
+.btn-refresh:hover {
+  background: #15803d;
+}
+
+/* PRICE UPDATE PANEL - hidden by default */
+.update-panel{display:none;background:var(--s1);border-bottom:1px solid var(--bd);padding:16px 24px;}
+.update-panel.open{display:block;}
+.up-title{font-size:13px;font-weight:600;color:var(--tx);margin-bottom:4px;}
+.up-sub{font-size:11px;color:var(--mu);margin-bottom:14px;line-height:1.6;}
+.up-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-bottom:12px;}
+.up-field{display:flex;flex-direction:column;gap:3px;}
+.up-field label{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.4px;}
+.up-field input{background:var(--s2);border:1px solid var(--bd2);color:var(--tx);padding:6px 10px;border-radius:4px;font-size:12px;font-family:var(--mo);outline:none;}
+.up-field input:focus{border-color:var(--ac);}
+.up-actions{display:flex;gap:8px;align-items:center;}
+.ubtn{padding:7px 16px;border-radius:5px;border:1px solid;font-size:12px;font-family:var(--fn);cursor:pointer;font-weight:600;}
+.ubtn-p{background:var(--ac);color:#000;border-color:var(--ac);}
+.ubtn-p:hover{background:#d4b03c;}
+.ubtn-s{background:transparent;color:var(--mu);border-color:var(--bd2);}
+.ubtn-s:hover{color:var(--tx);}
+.up-src{font-size:11px;color:var(--mu);}
+.up-src a{color:var(--ac);text-decoration:none;}
+
+.main{padding:18px 24px;}
+.tlbl{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+.tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px;}
+.gsep{font-size:9px;color:#c8cdd6;padding:5px 0 2px;width:100%;text-transform:uppercase;letter-spacing:1px;}
+.tab{padding:5px 12px;font-size:12px;font-weight:500;border:1px solid var(--bd2);border-radius:4px;cursor:pointer;background:var(--s1);color:var(--mu);transition:all .12s;font-family:var(--fn);}
+.tab:hover{background:var(--s2);color:var(--tx);}
+.tab.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600;}
+
+.panel{display:none;animation:fi .18s ease;}
+.panel.active{display:block;}
+@keyframes fi{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+
+.hero{display:flex;gap:14px;align-items:flex-start;margin-bottom:15px;padding-bottom:14px;border-bottom:1px solid var(--bd);}
+.hicon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.hbody{flex:1;}
+.hbody h2{font-size:18px;font-weight:600;letter-spacing:-.4px;}
+.gbadge{font-size:10px;color:var(--mu);font-weight:400;margin-left:6px;}
+.sum{font-size:12px;color:var(--mu);margin-top:4px;line-height:1.65;max-width:680px;}
+.htags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;}
+.htag{font-size:10px;padding:2px 7px;border-radius:3px;}
+.hsrcs{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px;}
+.hsrc{font-size:10px;color:var(--mu);text-decoration:none;border:1px solid var(--bd2);padding:2px 7px;border-radius:3px;}
+.hsrc:hover{color:var(--ac);border-color:rgba(232,197,71,.4);}
+.hprice{text-align:right;flex-shrink:0;min-width:155px;}
+.pval{font-size:30px;font-weight:600;font-family:var(--mo);letter-spacing:-1px;}
+.punit{font-size:10px;color:var(--mu);margin-top:3px;}
+.pdate{font-size:10px;color:var(--mu);margin-top:2px;}
+
+.mets{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:13px;}
+.met{background:var(--s1);border:1px solid var(--bd);border-radius:6px;padding:12px 13px;}
+.ml{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px;}
+.mv{font-size:18px;font-weight:600;font-family:var(--mo);letter-spacing:-.5px;}
+.ms{font-size:10px;color:var(--mu);margin-top:3px;}
+.up-c{color:var(--up);}.dn-c{color:var(--dn);}
+
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:11px;}
+.r3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:11px;}
+.cc{background:var(--s1);border:1px solid var(--bd);border-radius:6px;padding:13px;}
+.ct{font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:.4px;margin-bottom:9px;}
+.leg{display:flex;gap:12px;margin-top:6px;}
+.li{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--mu);}
+.ld{width:14px;height:2px;border-radius:1px;}
+.ldd{background:repeating-linear-gradient(90deg,#555 0,#555 3px,transparent 3px,transparent 6px);}
+.dr{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.dl{font-size:11px;color:var(--mu);width:115px;flex-shrink:0;}
+.dbg{flex:1;height:5px;background:var(--s2);border-radius:3px;overflow:hidden;}
+.dbf{height:100%;border-radius:3px;}
+.dp{font-size:11px;font-family:var(--mo);width:32px;text-align:right;}
+.rcs{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px;}
+.rc{font-size:10px;padding:2px 7px;border-radius:3px;background:var(--s2);border:1px solid var(--bd);color:var(--tx);}
+.rc strong{color:var(--ac);margin-left:2px;}
+
+.footer{border-top:1px solid var(--bd);padding:11px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:18px;}
+.footer p{font-size:10px;color:var(--mu);line-height:1.6;}
+
+@media(max-width:760px){
+  .main,.topbar{padding:12px 14px;}
+  .mets{grid-template-columns:repeat(2,1fr);}
+  .r2,.r3{grid-template-columns:1fr;}
+  .hero{flex-direction:column;}.hprice{text-align:left;}
+  .up-grid{grid-template-columns:1fr 1fr;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="tl">
+    <h1>⛏ Critical Minerals — ASX Investment Dashboard</h1>
+    <p>Rare Earth & Critical Metals · Research · Updated May 2026</p>
+  </div>
+  <div class="tr">
+    <span class="ts" id="tsEl">Prices: May 25, 2026</span>
+    <button class="rbtn btn-refresh" id="refreshBtn" onclick="fetchLivePrices()" style="display:none; margin-right:8px;">🔄 Auto-Refresh Prices</button>
+    <button class="rbtn" onclick="toggleUpdate()">✏️ Update Prices</button>
+  </div>
+</div>
+
+<!-- STANDALONE FILE WARNING BANNER -->
+<div id="fileWarningBanner" style="display:none; background:#fef3c7; border-bottom:1px solid #f59e0b; padding:10px 24px; color:#92400e; font-size:12px; font-weight:500; line-height:1.5;">
+  ⚠️ <strong>Standalone Mode:</strong> Opened directly as a file. Browser security policies (CORS/Private Network Access) will block the automatic price refresh. 
+  Please double-click <strong><code>run_dashboard.bat</code></strong> to launch the interactive version with live updates enabled!
+</div>
+
+<!-- PRICE UPDATE PANEL -->
+<div class="update-panel" id="updatePanel">
+  <div class="up-title">Update Current Prices</div>
+  <div class="up-sub">
+    Check latest prices from these free sources, enter below, then click Apply.<br>
+    Sources: <a href="https://tradingeconomics.com/commodities" target="_blank">tradingeconomics.com/commodities</a> &nbsp;|&nbsp;
+    <a href="https://www.kitco.com/price/precious-metals" target="_blank">kitco.com</a> &nbsp;|&nbsp;
+    <a href="https://www.lme.com" target="_blank">lme.com</a>
+  </div>
+  <div class="up-grid" id="inputGrid"></div>
+  <div class="up-actions">
+    <button class="ubtn ubtn-p" onclick="applyPrices()">✅ Apply & Save</button>
+    <button class="ubtn ubtn-s" onclick="toggleUpdate()">Close</button>
+    <span class="up-src">Prices save automatically — will show next time you open this file.</span>
+  </div>
+</div>
+
+<div class="main">
+  <div class="tlbl">Select Commodity</div>
+  <div class="tabs" id="tabsEl"></div>
+  <div id="panelsEl"></div>
+</div>
+
+<div class="footer">
+  <p>Sources: LME · Kitco · USGS · World Bank · Fastmarkets · TradingEconomics · SMM<br>
+     Historical data: 2016–2026 · Verified May 25, 2026</p>
+  <p>For investment research purposes only · Not financial advice<br>
+     Verify all data before making investment decisions</p>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// VERIFIED PRICES — May 25, 2026
+// Sources listed per metal
+// NO external API calls — 100% safe for corporate networks
+// ═══════════════════════════════════════════════════════════
+
+const YRS=[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,'2026*'];
+const MOS=['Nov-24','Dec-24','Jan-25','Feb-25','Mar-25','Apr-25','May-25','Jun-25','Jul-25','Aug-25','Sep-25','Oct-25','Nov-25','Dec-25','Jan-26','Feb-26','Mar-26','Apr-26','May-26'];
+
+const METALS=[
+// ── PRECIOUS METALS ─────────────────────────────────────
+{id:'gold',name:'Gold',emoji:'🥇',grp:'Precious Metals',unit:'USD/oz',
+ price:4509,date:'May 24, 2026',src:'goldpricez.com',
+ color:'#e8c547',bg:'rgba(232,197,71,0.1)',
+ hist:[1251,1257,1268,1393,1770,1800,1800,1940,2300,3200,4509],
+ mo:[2630,2650,2750,2850,2950,3100,3280,3250,3380,3520,3700,3850,4200,4500,5602,4900,4650,4516,4509],
+ pk:14,pkl:'ATH Jan 28-26: $5,602/oz',
+ mkt:[180,188,195,210,250,260,270,290,320,380,490],
+ dem:[4309,4072,4345,4356,4021,4666,4741,4899,5000,5080,5200],
+ sup:[4570,4480,4490,4480,4020,4660,4730,4840,4900,4940,4980],
+ reg:[['China','11%'],['Australia','10%'],['Russia','9%'],['Canada','7%'],['US','6%'],['Others','57%']],
+ use:[['Jewellery','46%',46],['Investment/ETF','25%',25],['Central Banks','15%',15],['Technology','8%',8],['Other','6%',6]],
+ sum:'Hit ATH $5,602/oz on Jan 28, 2026 (US-Iran war). Now $4,509 (-19.5% from ATH, still +35% vs May 2025). Holding above $4,500 support — peace talks stalling on Iran uranium transfer demand. Central bank buying + USD weakness = structural bull. Australia = world #2 producer with strong ASX exposure.',
+ tags:[['ATH $5,602 Jan-26','rgba(232,197,71,.15)','#e8c547'],['-19.5% from Peak','rgba(239,68,68,.12)','#ef4444'],['ASX Top Play','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'goldpricez.com',u:'https://goldpricez.com'},{n:'Kitco Live',u:'https://www.kitco.com/price/precious-metals'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/gold'}]},
+
+{id:'silver',name:'Silver',emoji:'🥈',grp:'Precious Metals',unit:'USD/oz',
+ price:76.11,date:'May 22, 2026',src:'USAGOLD',
+ color:'#94a3b8',bg:'rgba(148,163,184,0.1)',
+ hist:[17.1,17.0,15.7,16.2,20.6,25.1,21.8,23.4,28.0,35.0,76],
+ mo:[31,30,31,33,35,37,38,36,37,39,42,46,50,52,75,78,80,76,76],
+ pk:16,pkl:'Mar-26 ~$80/oz high',
+ mkt:[14,15,14,14,18,23,20,22,26,34,50],
+ dem:[1027,1032,1000,995,900,1033,1242,1312,1350,1410,1480],
+ sup:[1016,985,998,995,918,1038,1240,1270,1320,1350,1400],
+ reg:[['Mexico','23%'],['China','14%'],['Peru','13%'],['Chile','6%'],['Australia','6%'],['Others','38%']],
+ use:[['Solar Panels','30%',30],['Industrial','28%',28],['Jewellery','22%',22],['Investment','15%',15],['Other','5%',5]],
+ sum:'$76.11/oz. Gold:Silver ratio = 59.4:1 — near historical fair value. Solar panel demand = 30%+ of consumption and growing. Supply deficit 4 consecutive years since 2021. Strong institutional demand continuing.',
+ tags:[['Solar Metal','rgba(148,163,184,.15)','#94a3b8'],['Supply Deficit 4yr','rgba(239,68,68,.12)','#ef4444'],['Ratio 59.4:1','rgba(232,197,71,.1)','#e8c547']],
+ srcs:[{n:'USAGOLD',u:'https://www.usagold.com/daily-gold-price-history/'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/silver'}]},
+
+{id:'platinum',name:'Platinum',emoji:'💎',grp:'Precious Metals',unit:'USD/oz',
+ price:1973,date:'May 22, 2026',src:'Mining.com',
+ color:'#cbd5e1',bg:'rgba(203,213,225,0.08)',
+ hist:[985,946,880,895,924,1093,970,1000,970,1200,1973],
+ mo:[975,980,1000,1020,1010,990,1200,1400,1500,1600,1700,1750,1800,1850,1900,1950,1960,1970,1973],
+ pk:18,pkl:'May-26: $1,973 (+4.22% day)',
+ mkt:[5.9,6.0,5.7,5.8,6.2,7.5,7.0,7.2,7.0,9.0,14.0],
+ dem:[7920,8040,8110,8040,7990,7820,7810,7820,7850,7890,7960],
+ sup:[8100,7810,7820,7590,7020,7320,7400,7500,7550,7590,7640],
+ reg:[['South Africa','72%'],['Russia','12%'],['Zimbabwe','8%'],['Canada','3%'],['Others','5%']],
+ use:[['Autocatalyst','40%',40],['Jewellery','28%',28],['Industrial','22%',22],['Investment','6%',6],['Hydrogen FC','4%',4]],
+ sum:'Surging — $1,973/oz, up +4.22% on May 22. Citi target $1,800-$1,950 already exceeded. Hydrogen economy driving demand. Green hydrogen fuel cells use platinum as catalyst. Supply concentrated in South Africa (72%).',
+ tags:[['$1,973 +4.22% Today','rgba(34,197,94,.12)','#22c55e'],['Citi Target Exceeded','rgba(232,197,71,.1)','#e8c547'],['Hydrogen Economy','rgba(203,213,225,.12)','#cbd5e1']],
+ srcs:[{n:'Mining.com',u:'https://www.mining.com'},{n:'WPIC',u:'https://platinuminvestment.com'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/platinum'}]},
+
+{id:'palladium',name:'Palladium',emoji:'🚗',grp:'Precious Metals',unit:'USD/oz',
+ price:1387,date:'May 22, 2026',src:'JMBullion',
+ color:'#22d3ee',bg:'rgba(34,211,238,0.08)',
+ hist:[614,1019,1093,1566,2336,2398,2100,1400,1050,980,1387],
+ mo:[1000,980,960,940,920,910,900,890,920,930,920,910,900,895,920,940,1200,1500,1387],
+ pk:17,pkl:'Apr-26 ~$1,500 (war peak)',
+ mkt:[8.5,14,15.5,22,32,33,29,20,16,14,15],
+ dem:[9800,10200,10500,10600,8800,10600,10400,9800,9500,9200,9100],
+ sup:[10100,10300,10600,10500,8600,10500,10300,9600,9200,9000,8900],
+ reg:[['Russia','40%'],['South Africa','37%'],['Canada','9%'],['Zimbabwe','6%'],['Others','8%']],
+ use:[['Autocatalyst','85%',85],['Electronics','6%',6],['Dental','4%',4],['Investment','3%',3],['Other','2%',2]],
+ sum:'$1,387/oz (May 22). JP Morgan projects $1,600 by Q4 2026. China imported record 8.6 tonnes April-26. Russia = 40% supply risk. Long-term EV headwind — gasoline cars declining. Short-term geopolitical premium.',
+ tags:[['JP Morgan Target $1,600','rgba(34,211,238,.12)','#22d3ee'],['China Record Import','rgba(34,197,94,.1)','#22c55e'],['Russia 40% Risk','rgba(239,68,68,.1)','#ef4444']],
+ srcs:[{n:'JMBullion',u:'https://www.jmbullion.com/charts/palladium-price/'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/palladium'}]},
+
+// ── BASE METALS ──────────────────────────────────────────
+{id:'copper',name:'Copper',emoji:'🔶',grp:'Base Metals',unit:'USD/t',
+ price:13200,date:'May 2026',src:'LME',
+ color:'#f97316',bg:'rgba(249,115,22,0.1)',
+ hist:[4820,6166,6530,5999,6174,9320,8800,8500,9200,11500,13200],
+ mo:[9200,9300,9500,10000,10800,11200,12000,12800,12500,12200,11800,11500,11000,10500,13270,12500,12200,13000,13200],
+ pk:14,pkl:'Jan-26 ATH: $13,270/t',
+ mkt:[130,165,175,165,175,250,250,240,270,295,330],
+ dem:[23900,24200,24500,25000,24600,26000,26500,27000,27600,28400,29300],
+ sup:[24000,24300,24700,25000,24800,26300,26700,27200,27400,27900,28500],
+ reg:[['Chile','27%'],['Peru','10%'],['China','8%'],['DRC','8%'],['Australia','5%'],['Others','42%']],
+ use:[['Construction','28%',28],['Electronics','24%',24],['Energy/Renewables','19%',19],['Transport','15%',15],['Industrial','14%',14]],
+ sum:'Goldman Sachs 2026 target $13,000/t. Hit ATH $13,270/t in Jan-26. 2025 = best year since 2009 (+40%). Supply deficit projected 2026-2030. Each EV needs 4x more copper than ICE. Core electrification metal for ASX investment.',
+ tags:[['Goldman Target $13,000/t','rgba(249,115,22,.15)','#f97316'],['Best Year Since 2009','rgba(34,197,94,.1)','#22c55e'],['Supply Deficit 2026+','rgba(239,68,68,.12)','#ef4444']],
+ srcs:[{n:'LME Official',u:'https://www.lme.com/metals/non-ferrous/lme-copper'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/copper'}]},
+
+{id:'nickel',name:'Nickel',emoji:'🔩',grp:'Base Metals',unit:'USD/t',
+ price:19143,date:'May 8, 2026',src:'LME',
+ color:'#22c55e',bg:'rgba(34,197,94,0.08)',
+ hist:[9600,10400,13400,14100,13800,18600,25700,21500,15500,16000,19143],
+ mo:[15800,15500,15200,15000,15500,16000,16200,15800,16800,17000,17200,17400,17200,17000,16200,16500,17500,18500,19143],
+ pk:18,pkl:'May-26: $19,143/t (2-yr high)',
+ mkt:[25,30,38,42,40,60,80,65,55,60,70],
+ dem:[1920,2000,2200,2350,2400,2800,3100,3300,3500,3700,3900],
+ sup:[1950,2080,2180,2360,2420,2850,3200,3350,3450,3620,3820],
+ reg:[['Indonesia','48%'],['Philippines','11%'],['Russia','9%'],['New Caledonia','5%'],['Australia','4%'],['Others','23%']],
+ use:[['Stainless Steel','69%',69],['EV Batteries','15%',15],['Alloys','8%',8],['Plating','5%',5],['Other','3%',3]],
+ sum:'2-year high $19,143/t (+19.5% YoY). Indonesia cut 2026 production quota from 379Mt to 250-260Mt — major supply shock. Crashed $25,700→$15,500 (2022-24) but firmly recovering. Long-term EV battery demand driver.',
+ tags:[['2-Year High','rgba(34,197,94,.12)','#22c55e'],['Indonesia Cut Quota','rgba(239,68,68,.12)','#ef4444'],['+19.5% YoY','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'LME Official',u:'https://www.lme.com/en/metals/non-ferrous/lme-nickel'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/nickel'}]},
+
+{id:'zinc',name:'Zinc',emoji:'🏭',grp:'Base Metals',unit:'USD/t',
+ price:3100,date:'May 2026',src:'LME',
+ color:'#e879f9',bg:'rgba(232,121,249,0.08)',
+ hist:[2090,2896,2922,2550,2267,3003,3499,2630,2500,2800,3100],
+ mo:[2480,2500,2520,2550,2580,2650,2700,2680,2720,2760,2800,2850,2900,2950,3000,3050,3100,3100,3100],
+ pk:18,pkl:'May-26 ~$3,100/t',
+ mkt:[30,40,42,36,34,48,58,44,42,46,52],
+ dem:[13900,14200,13900,13700,13200,14200,14400,14500,14700,14900,15100],
+ sup:[13900,14300,14000,13800,13400,14300,14500,14600,14750,14900,15050],
+ reg:[['China','33%'],['Peru','11%'],['Australia','10%'],['India','7%'],['US','6%'],['Others','33%']],
+ use:[['Galvanizing Steel','60%',60],['Die Casting','14%',14],['Brass & Bronze','11%',11],['Rolled Zinc','8%',8],['Other','7%',7]],
+ sum:'Steady recovery. Zinc consensus price upgraded for 2026. Australia = top-3 global producer. Infrastructure and construction drive demand. Mine supply tightening from closures 2022-24.',
+ tags:[['Infrastructure Metal','rgba(232,121,249,.12)','#e879f9'],['Australia Top-3','rgba(34,197,94,.1)','#22c55e'],['2026 Forecast Upgraded','rgba(232,197,71,.1)','#e8c547']],
+ srcs:[{n:'LME Official',u:'https://www.lme.com'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/zinc'}]},
+
+// ── BATTERY METALS ───────────────────────────────────────
+{id:'lithium',name:'Lithium',emoji:'⚡',grp:'Battery Metals',unit:'USD/t (LCE)',
+ price:24300,date:'May 2026',src:'Fastmarkets (USD international)',
+ color:'#3b82f6',bg:'rgba(59,130,246,0.1)',
+ hist:[7000,8500,13500,9000,6800,17000,78000,17000,9000,11000,24300],
+ mo:[9500,9000,8700,8500,8800,9600,11200,13000,12000,13003,13500,14000,15000,13400,26278,22000,21000,23000,24300],
+ pk:14,pkl:'Jan-26 ATH: $26,278/t',
+ mkt:[3.8,5.5,7.2,6.5,5.8,12,25,9,6,9,18],
+ dem:[185,215,260,302,350,480,650,820,950,1100,1300],
+ sup:[192,220,268,310,360,490,660,790,930,1080,1260],
+ reg:[['Australia','47%'],['Chile','26%'],['China','14%'],['Argentina','8%'],['Others','5%']],
+ use:[['EV Batteries','70%',70],['Grid Storage','15%',15],['Consumer Electronics','9%',9],['Heavy Transport','4%',4],['Other','2%',2]],
+ sum:'NOTE: USD/t international price shown. Chinese media quotes CNY — divide CNY by 7.2 to get USD. Crashed $78k→$8.5k, surged +95% to $26,278/t in Jan-26 on Zimbabwe export ban. Now ~$24,300. Australia = world #1 producer.',
+ tags:[['Jan-26 ATH: $26,278/t','rgba(59,130,246,.15)','#3b82f6'],['USD not CNY','rgba(232,197,71,.1)','#e8c547'],['Australia #1 Producer','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'Fastmarkets',u:'https://www.fastmarkets.com/commodities/battery-materials/lithium'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/lithium'}]},
+
+{id:'uranium',name:'Uranium',emoji:'☢️',grp:'Battery Metals',unit:'USD/lb (U3O8)',
+ price:93,date:'May 2026',src:'UxC / Cameco',
+ color:'#a855f7',bg:'rgba(168,85,247,0.08)',
+ hist:[26,22,27,26,30,43,51,91,85,92,93],
+ mo:[82,84,86,90,92,93,94,94,95,96,97,98,97,95,93,91,90,91,93],
+ pk:11,pkl:'Oct-25 ~$98/lb (recent peak)',
+ mkt:[4.2,3.8,4.5,4.4,5.1,7.8,9.0,17,16,18,20],
+ dem:[160,162,162,160,157,162,165,173,180,190,200],
+ sup:[165,158,155,143,125,132,148,160,168,175,185],
+ reg:[['Kazakhstan','43%'],['Namibia','11%'],['Canada','9%'],['Australia','8%'],['Russia','6%'],['Others','23%']],
+ use:[['Nuclear Power Plants','90%',90],['Research Reactors','5%',5],['Naval Reactors','3%',3],['Other','2%',2]],
+ sum:'Nuclear renaissance firmly underway. Surged $26→$91 (2020-23), plateauing $90-95/lb. Net-zero policies driving global reactor buildout (US, UK, China, India). Australia = 28% of world reserves. ASX uranium stocks delivered 200-500% returns 2021-24.',
+ tags:[['Nuclear Renaissance','rgba(168,85,247,.12)','#a855f7'],['$90-95/lb Plateau','rgba(232,197,71,.1)','#e8c547'],['Australia 28% Reserves','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'UxC Spot',u:'https://www.uxc.com/p/prices/UxCPrices.aspx'},{n:'Cameco',u:'https://www.cameco.com/invest/markets/uranium-price'}]},
+
+{id:'cobalt',name:'Cobalt',emoji:'🔋',grp:'Battery Metals',unit:'USD/t',
+ price:34000,date:'May 2026',src:'Fastmarkets',
+ color:'#0ea5e9',bg:'rgba(14,165,233,0.08)',
+ hist:[25000,32000,80000,33000,33000,53000,82000,33000,26000,30000,34000],
+ mo:[26000,27000,27500,28000,29000,29500,30000,30500,31000,32000,33000,34000,34500,35000,35500,35000,34800,34500,34000],
+ pk:14,pkl:'Jan-26: $35,500/t',
+ mkt:[7.2,9,22,9.5,9.5,15.5,25,10.5,8.5,10,12],
+ dem:[102,110,130,140,155,170,200,225,250,280,315],
+ sup:[108,115,133,142,158,172,208,230,255,285,320],
+ reg:[['Congo DRC','73%'],['Russia','4%'],['Australia','3%'],['Philippines','3%'],['Others','17%']],
+ use:[['EV Batteries','42%',42],['Consumer Electronics','28%',28],['Superalloys','18%',18],['Battery Other','8%',8],['Other','4%',4]],
+ sum:'Gradual recovery from $82k→$26k crash. DRC = 73% supply risk (extreme concentration). Battery chemistry shifting to less-cobalt LFP cells = structural headwind. DRC export quotas adding upward price pressure.',
+ tags:[['DRC 73% Risk','rgba(239,68,68,.12)','#ef4444'],['Slow Recovery','rgba(14,165,233,.12)','#0ea5e9'],['LFP Headwind','rgba(148,163,184,.1)','#94a3b8']],
+ srcs:[{n:'Fastmarkets',u:'https://www.fastmarkets.com/commodities/battery-materials/cobalt'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/cobalt'}]},
+
+// ── CRITICAL MINERALS ────────────────────────────────────
+{id:'rareearth',name:'Rare Earths (NdPr)',emoji:'🧲',grp:'Critical Minerals',unit:'USD/kg (NdPr oxide)',
+ price:245,date:'May 2026',src:'Strategic Metals Invest',
+ color:'#e879f9',bg:'rgba(232,121,249,0.08)',
+ hist:[50,55,60,55,50,80,160,70,52,90,245],
+ mo:[52,52,53,54,56,60,65,70,80,90,100,120,130,140,180,220,240,245,245],
+ pk:18,pkl:'May-26 ~$245/kg (China export controls)',
+ mkt:[2.5,2.8,3.5,3.0,2.8,4.0,10.5,4.8,3.5,6.5,15.0],
+ dem:[55,58,62,65,70,80,90,85,75,90,110],
+ sup:[58,60,65,68,72,82,92,88,78,92,112],
+ reg:[['China','70%'],['Australia Lynas','10%'],['USA','6%'],['Myanmar','5%'],['Others','9%']],
+ use:[['EV Motors NdFeB','42%',42],['Wind Turbines','22%',22],['Industrial Motors','18%',18],['Electronics','10%',10],['Other','8%',8]],
+ sum:'Hottest critical mineral 2025-26. China export controls (Apr-25) surged price $52→$245/kg (+371%). Every EV motor, wind turbine, and robot uses NdPr magnets. Lynas Rare Earths (ASX:LYC) = only major non-China producer globally.',
+ tags:[['China Export Ban Apr-25','rgba(232,121,249,.15)','#e879f9'],['+371% from Low','rgba(239,68,68,.12)','#ef4444'],['ASX:LYC Key Play','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'Strategic Metals',u:'https://strategicmetalsinvest.com/current-strategic-metals-prices/'},{n:'SMM',u:'https://www.metal.com/Rare-Earth-Metals/'}]},
+
+{id:'antimony',name:'Antimony',emoji:'🔥',grp:'Critical Minerals',unit:'USD/t',
+ price:22500,date:'May 2026',src:'Fastmarkets',
+ color:'#f87171',bg:'rgba(248,113,113,0.08)',
+ hist:[5200,5800,6500,5500,5200,7200,8500,9000,12000,18000,22500],
+ mo:[12000,13000,14000,15000,16000,17000,18000,19000,20000,21000,21500,22000,22500,22800,23000,22500,22200,22500,22500],
+ pk:14,pkl:'Jan-26 ~$23,000/t',
+ mkt:[1.6,1.8,2.0,1.7,1.6,2.2,2.6,2.8,3.8,5.8,7.2],
+ dem:[145,148,152,148,140,150,155,158,162,168,175],
+ sup:[148,150,155,150,142,152,158,160,165,170,178],
+ reg:[['China','55%'],['Russia','7%'],['Bolivia','7%'],['Tajikistan','6%'],['Australia','2%'],['Others','23%']],
+ use:[['Flame Retardants','50%',50],['Lead-Acid Batteries','25%',25],['Semiconductors','12%',12],['Glass & Ceramics','8%',8],['Other','5%',5]],
+ sum:'China export ban (Aug 2024) caused $9k→$23k surge (+155%). Consolidating ~$22,500. Critical for defense (armor, night-vision), semiconductors, flame retardants. Classified critical mineral: US, EU, Australia.',
+ tags:[['China Export Ban','rgba(248,113,113,.15)','#f87171'],['$9k→$23k +155%','rgba(239,68,68,.12)','#ef4444'],['Defence Critical','rgba(232,197,71,.1)','#e8c547']],
+ srcs:[{n:'Fastmarkets',u:'https://www.fastmarkets.com'},{n:'USGS',u:'https://www.usgs.gov'}]},
+
+{id:'tungsten',name:'Tungsten',emoji:'⚙️',grp:'Critical Minerals',unit:'USD/mtu (APT)',
+ price:3050,date:'May 7, 2026',src:'SMM',
+ color:'#fbbf24',bg:'rgba(251,191,36,0.08)',
+ hist:[190,200,230,210,190,185,220,250,290,400,3050],
+ mo:[290,310,330,360,395,440,520,580,640,700,800,950,1200,1800,2500,2900,3000,3050,3050],
+ pk:18,pkl:'May-26: $3,050/mtu — 500% in 1yr',
+ mkt:[3.9,4.0,4.4,4.2,3.8,3.6,4.0,4.4,4.8,7.2,12.0],
+ dem:[84,86,88,86,82,80,84,88,90,94,98],
+ sup:[86,88,90,88,84,82,86,90,92,96,100],
+ reg:[['China','80%'],['Vietnam','6%'],['Russia','4%'],['Bolivia','3%'],['Others','7%']],
+ use:[['Cutting Tools/Carbide','60%',60],['Steel Alloys','20%',20],['Electronics','8%',8],['Defense','7%',7],['Other','5%',5]],
+ sum:'Supercycle 2026: APT surged 500% in 12 months to $3,050/mtu (SMM, May 7). China APT exports fell to ZERO in late 2025. World has "sleepwalked into a tungsten crunch" (BMO Capital Markets). Hardest metal — irreplaceable in cutting tools, drill bits, armor-piercing ammunition.',
+ tags:[['$3,050/mtu 500% Rally','rgba(251,191,36,.15)','#fbbf24'],['China Exports → Zero','rgba(239,68,68,.12)','#ef4444'],['Defence Supercycle','rgba(232,197,71,.1)','#e8c547']],
+ srcs:[{n:'SMM Verified',u:'https://www-old.metal.com/price/Minor-Metals/Tungsten'},{n:'Fastmarkets APT',u:'https://www.fastmarkets.com/metals-and-mining/minor-metals/tungsten-prices/'}]},
+
+{id:'vanadium',name:'Vanadium',emoji:'🔋',grp:'Critical Minerals',unit:'USD/t (V2O5)',
+ price:10500,date:'May 2026',src:'USGS / INN',
+ color:'#84cc16',bg:'rgba(132,204,22,0.08)',
+ hist:[7000,8000,29000,18000,10000,8500,10000,8000,6000,9500,10500],
+ mo:[6000,6200,6500,7000,7800,8500,9341,9584,9766,10000,10200,10500,10800,11000,10500,10200,10200,10500,10500],
+ pk:13,pkl:'Dec-25 ~$11,000/t',
+ mkt:[2.8,3.0,6.5,4.5,3.2,2.8,3.2,2.5,2.0,3.2,3.8],
+ dem:[84,88,96,92,88,86,90,86,82,90,96],
+ sup:[86,90,98,94,90,88,92,88,84,92,98],
+ reg:[['China','56%'],['Russia','17%'],['South Africa','13%'],['Brazil','8%'],['Others','6%']],
+ use:[['Steel Alloying','88%',88],['Flow Batteries VRFB','7%',7],['Chemicals','3%',3],['Other','2%',2]],
+ sum:'Steel alloying (88%) + growing flow battery (VRFB) storage use. 2018 peak $29,000, crashed, recovering ~$10,500. New Chinese rebar standards require more vanadium per tonne. ASX:AVL (Australian Vanadium Ltd) key play.',
+ tags:[['VRFB Energy Storage','rgba(132,204,22,.12)','#84cc16'],['Steel 88%','rgba(148,163,184,.1)','#94a3b8'],['ASX:AVL','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'USGS Vanadium',u:'https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information'},{n:'INN',u:'https://investingnews.com/vanadium-forecast/'}]},
+
+{id:'niobium',name:'Niobium',emoji:'🔬',grp:'Critical Minerals',unit:'USD/kg',
+ price:50,date:'May 2026',src:'USGS',
+ color:'#818cf8',bg:'rgba(129,140,248,0.08)',
+ hist:[36,36,36,36,36,36,36,41,45,48,50],
+ mo:[45,46,46,47,47,48,48,48,48,49,49,50,50,50,51,51,51,51,50],
+ pk:14,pkl:'Early 2026 ~$51/kg',
+ mkt:[2.5,2.6,2.7,2.6,2.5,2.6,2.7,3.0,3.4,3.7,4.0],
+ dem:[65,67,70,68,63,67,70,74,78,83,88],
+ sup:[66,68,71,69,64,68,71,75,79,84,89],
+ reg:[['Brazil CBMM','88%'],['Canada','8%'],['Others','4%']],
+ use:[['High-Strength Steel','80%',80],['Superalloys Aero','15%',15],['EV Battery Anodes','3%',3],['Other','2%',2]],
+ sum:'Brazil CBMM = 88% monopoly. Remarkably stable pricing — low volatility, low risk. Used to dramatically strengthen steel in tiny amounts. Emerging EV battery anode material. Critical mineral: US, EU, Australia.',
+ tags:[['Brazil 88% Monopoly','rgba(129,140,248,.15)','#818cf8'],['Stable Low-Risk','rgba(34,197,94,.1)','#22c55e'],['Battery Anode Emerging','rgba(232,197,71,.1)','#e8c547']],
+ srcs:[{n:'USGS Niobium',u:'https://www.usgs.gov/centers/national-minerals-information-center/niobium-statistics-and-information'}]},
+
+{id:'titanium',name:'Titanium',emoji:'🛸',grp:'Critical Minerals',unit:'USD/t',
+ price:14500,date:'May 2026',src:'USGS',
+ color:'#d1d5db',bg:'rgba(209,213,219,0.06)',
+ hist:[11000,10500,11500,12000,10500,10800,14000,15000,13500,14000,14500],
+ mo:[13500,13600,13700,13800,13900,14000,14100,14100,14200,14300,14400,14500,14500,14500,14500,14500,14500,14500,14500],
+ pk:11,pkl:'Oct-25: $14,500/t',
+ mkt:[4.2,4.4,5,5.2,4.8,5,6.5,7,6.8,7.2,7.8],
+ dem:[215,220,235,240,220,225,260,280,275,290,310],
+ sup:[218,222,238,242,222,228,265,285,278,295,315],
+ reg:[['China','45%'],['Russia','15%'],['Japan','10%'],['Kazakhstan','9%'],['India','6%'],['Others','15%']],
+ use:[['Aerospace','44%',44],['Industrial','22%',22],['Medical Implants','12%',12],['Marine','8%',8],['Consumer','14%',14]],
+ sum:'Boeing 787 = 15% titanium by weight. Medical implant demand growing fast. Russia supply (15%) tightened post-sanctions. China dominates at 45%. Defense spending globally = key tailwind. Steady upward trend.',
+ tags:[['Aerospace & Defence','rgba(209,213,219,.1)','#d1d5db'],['Medical Implants','rgba(34,197,94,.1)','#22c55e'],['Russia Supply Risk','rgba(239,68,68,.1)','#ef4444']],
+ srcs:[{n:'USGS Titanium',u:'https://www.usgs.gov/centers/national-minerals-information-center/titanium-statistics-and-information'}]},
+
+{id:'fluorite',name:'Fluorite',emoji:'💜',grp:'Critical Minerals',unit:'USD/t (acid grade)',
+ price:580,date:'May 2026',src:'USGS',
+ color:'#c084fc',bg:'rgba(192,132,252,0.08)',
+ hist:[280,290,310,320,300,310,380,420,450,520,580],
+ mo:[455,460,468,475,482,490,498,505,515,525,535,545,555,565,570,575,578,580,580],
+ pk:18,pkl:'May-26 ~$580/t',
+ mkt:[2.2,2.3,2.5,2.6,2.4,2.5,2.9,3.2,3.5,3.9,4.3],
+ dem:[6800,7000,7200,7100,6800,6900,7200,7300,7400,7600,7800],
+ sup:[6900,7100,7300,7200,6900,7000,7300,7400,7500,7700,7900],
+ reg:[['China','60%'],['Mexico','15%'],['Mongolia','10%'],['South Africa','5%'],['Others','10%']],
+ use:[['Aluminum Smelting','35%',35],['HF/Refrigerants','30%',30],['Steel Flux','15%',15],['Li Battery Electrolyte','12%',12],['Other','8%',8]],
+ sum:'Overlooked critical mineral essential for aluminum smelting, refrigerants, and lithium battery electrolytes. China = 60% supply. Steady price rise driven by EV battery electrolyte demand. Often absent from investor radar — potential opportunity.',
+ tags:[['Battery Electrolyte','rgba(192,132,252,.15)','#c084fc'],['Overlooked Opportunity','rgba(232,197,71,.1)','#e8c547'],['Steady Growth','rgba(34,197,94,.1)','#22c55e']],
+ srcs:[{n:'USGS Fluorspar',u:'https://www.usgs.gov/centers/national-minerals-information-center/fluorspar-statistics-and-information'}]}
+];
+
+// ═══════════════════════════════════════════════════════════
+// PRICE STORAGE — uses localStorage, no external calls
+// ═══════════════════════════════════════════════════════════
+function loadSaved(){
+  try{ return JSON.parse(localStorage.getItem('cm_prices_v2')||'{}'); }
+  catch(e){ return {}; }
+}
+function savePrices(obj){
+  try{ localStorage.setItem('cm_prices_v2',JSON.stringify(obj)); }catch(e){}
+}
+
+let savedPrices = loadSaved();
+
+function getP(m){ return savedPrices[m.id] || m.price; }
+function getD(m){ return savedPrices['date_'+m.id] || m.date; }
+
+function fN(n){
+  if(n>=10000) return '$'+Math.round(n).toLocaleString();
+  if(n>=100)   return '$'+Math.round(n).toLocaleString();
+  if(n>=10)    return '$'+n.toFixed(1);
+  return '$'+n.toFixed(2);
+}
+
+// ── TOGGLE UPDATE PANEL ──────────────────────────────────
+function toggleUpdate(){
+  document.getElementById('updatePanel').classList.toggle('open');
+}
+
+// ── BUILD INPUT GRID ─────────────────────────────────────
+function buildInputGrid(){
+  const grid = document.getElementById('inputGrid');
+  grid.innerHTML = '';
+  METALS.forEach(m=>{
+    const d = document.createElement('div');
+    d.className = 'up-field';
+    d.innerHTML = `<label>${m.emoji} ${m.name} (${m.unit})</label>
+      <input type="number" id="inp_${m.id}" step="any"
+        placeholder="${getP(m)}" value="" />`;
+    grid.appendChild(d);
+  });
+}
+
+function applyPrices(){
+  const today = new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+  METALS.forEach(m=>{
+    const el = document.getElementById('inp_'+m.id);
+    const v = parseFloat(el?.value);
+    if(!isNaN(v) && v > 0){
+      savedPrices[m.id] = v;
+      savedPrices['date_'+m.id] = today;
+    }
+  });
+  savePrices(savedPrices);
+  updateAllDisplays();
+  document.getElementById('tsEl').textContent = 'Updated: '+today;
+  toggleUpdate();
+  // clear inputs
+  METALS.forEach(m=>{
+    const el=document.getElementById('inp_'+m.id);
+    if(el) el.value='';
+  });
+}
+
+// ── UPDATE DISPLAYS ──────────────────────────────────────
+function updateAllDisplays(){
+  METALS.forEach(m=>{
+    const p = getP(m);
+    const d = getD(m);
+    ['pv_','mp_'].forEach(pre=>{
+      const el=document.getElementById(pre+m.id);
+      if(el) el.textContent=fN(p);
+    });
+    const de=document.getElementById('pd_'+m.id);
+    if(de) de.textContent=d+' · '+m.src;
+  });
+}
+
+// ── CHART RENDER ─────────────────────────────────────────
+const rendered={};
+function renderCharts(id){
+  if(rendered[id]) return; rendered[id]=true;
+  const m=METALS.find(x=>x.id===id);
+  const o={
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.parsed.y.toLocaleString()+' '+m.unit}}},
+    scales:{
+      x:{ticks:{color:'#4a5162',font:{size:9},maxRotation:0,autoSkip:true},grid:{display:false},border:{color:'rgba(0,0,0,0.06)'}},
+      y:{ticks:{color:'#4a5162',font:{size:9}},grid:{color:'rgba(0,0,0,0.05)'},border:{display:false}}
+    }
+  };
+  new Chart(document.getElementById('ca_'+id),{type:'line',data:{labels:YRS,datasets:[{data:m.hist,borderColor:m.color,backgroundColor:m.bg,fill:true,tension:.35,borderWidth:2,pointRadius:3,pointBackgroundColor:m.color}]},options:{...o}});
+  const pC=m.mo.map((_,i)=>i===m.pk?'#ef4444':m.color);
+  const pR=m.mo.map((_,i)=>i===m.pk?7:2);
+  new Chart(document.getElementById('cb_'+id),{type:'line',data:{labels:MOS,datasets:[{data:m.mo,borderColor:m.color,backgroundColor:m.bg,fill:true,tension:.3,borderWidth:2,pointRadius:pR,pointBackgroundColor:pC,pointBorderColor:pC}]},options:{...o}});
+  new Chart(document.getElementById('cc_'+id),{type:'bar',data:{labels:YRS,datasets:[{data:m.mkt,backgroundColor:m.bg,borderColor:m.color,borderWidth:1.5,borderRadius:3}]},options:{...o}});
+  new Chart(document.getElementById('cd_'+id),{type:'line',data:{labels:YRS,datasets:[
+    {data:m.dem,borderColor:m.color,backgroundColor:'transparent',tension:.3,borderWidth:2,pointRadius:2},
+    {data:m.sup,borderColor:'#b0b8c6',backgroundColor:'transparent',tension:.3,borderWidth:2,pointRadius:2,borderDash:[4,3]}
+  ]},options:{...o}});
+}
+
+// ── BUILD PANEL ──────────────────────────────────────────
+function pct(a){const c=(a[a.length-1]-a[0])/a[0]*100;return{v:Math.abs(c).toFixed(0),up:c>=0};}
+
+function buildPanel(m){
+  const div=document.createElement('div');
+  div.className='panel'; div.id='pnl_'+m.id;
+  const p=getP(m),d=getD(m);
+  const pc=pct(m.hist),dc=pct(m.dem),ms=m.mkt[m.mkt.length-1];
+  const tH=m.tags.map(([t,bg,c])=>`<span class="htag" style="background:${bg};color:${c};border:1px solid ${c}40">${t}</span>`).join('');
+  const sH=m.srcs.map(s=>`<a class="hsrc" href="${s.u}" target="_blank">↗ ${s.n}</a>`).join('');
+  div.innerHTML=`
+    <div class="hero">
+      <div class="hicon" style="background:${m.bg}">${m.emoji}</div>
+      <div class="hbody">
+        <h2 style="color:${m.color}">${m.name}<span class="gbadge">${m.grp}</span></h2>
+        <div class="sum">${m.sum}</div>
+        <div class="htags">${tH}</div>
+        <div class="hsrcs">${sH}</div>
+      </div>
+      <div class="hprice">
+        <div class="pval" id="pv_${m.id}" style="color:${m.color}">${fN(p)}</div>
+        <div class="punit">${m.unit}</div>
+        <div class="pdate" id="pd_${m.id}">${d} · ${m.src}</div>
+      </div>
+    </div>
+    <div class="mets">
+      <div class="met"><div class="ml">Current Price</div><div class="mv" id="mp_${m.id}" style="color:${m.color}">${fN(p)}</div><div class="ms">${m.unit}</div></div>
+      <div class="met"><div class="ml">10-Year Change</div><div class="mv ${pc.up?'up-c':'dn-c'}">${pc.up?'+':'-'}${pc.v}%</div><div class="ms">2016 → 2026</div></div>
+      <div class="met"><div class="ml">Market Size 2026</div><div class="mv">$${ms}B</div><div class="ms">USD Billion est.</div></div>
+      <div class="met"><div class="ml">Demand Growth</div><div class="mv ${dc.up?'up-c':'dn-c'}">${dc.up?'+':'-'}${dc.v}%</div><div class="ms">10-yr cumulative</div></div>
+    </div>
+    <div class="r2">
+      <div class="cc"><div class="ct">📈 10-Year Annual Trend · ${m.unit}</div><div style="height:190px"><canvas id="ca_${m.id}"></canvas></div></div>
+      <div class="cc">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
+          <div class="ct" style="margin-bottom:0">🔍 Last 19 Months Monthly · ${m.unit}</div>
+          <span style="font-size:9px;padding:2px 6px;border-radius:3px;background:rgba(239,68,68,.12);color:#ef4444;border:1px solid rgba(239,68,68,.2);white-space:nowrap">${m.pkl}</span>
+        </div>
+        <div style="height:190px"><canvas id="cb_${m.id}"></canvas></div>
+      </div>
+    </div>
+    <div class="r3">
+      <div class="cc"><div class="ct">Market Size · B USD</div><div style="height:160px"><canvas id="cc_${m.id}"></canvas></div></div>
+      <div class="cc"><div class="ct">Demand vs Supply</div><div style="height:160px"><canvas id="cd_${m.id}"></canvas></div>
+        <div class="leg"><div class="li"><div class="ld" style="background:${m.color}"></div>Demand</div><div class="li"><div class="ld ldd"></div>Supply</div></div>
+      </div>
+      <div class="cc">
+        <div class="ct">Demand Breakdown 2026</div>
+        ${m.use.map(([l,pct,v])=>`<div class="dr"><div class="dl">${l}</div><div class="dbg"><div class="dbf" style="width:${v}%;background:${m.color}"></div></div><div class="dp">${pct}</div></div>`).join('')}
+        <div style="margin-top:9px"><div class="ct">Supply Regions</div>
+        <div class="rcs">${m.reg.map(([c,p])=>`<span class="rc">${c}<strong>${p}</strong></span>`).join('')}</div></div>
+      </div>
+    </div>`;
+  return div;
+}
+
+// ── INIT ─────────────────────────────────────────────────
+const tabsEl=document.getElementById('tabsEl');
+const panelsEl=document.getElementById('panelsEl');
+const groups=[...new Set(METALS.map(m=>m.grp))];
+
+groups.forEach(g=>{
+  const sep=document.createElement('div');
+  sep.className='gsep'; sep.textContent=g;
+  tabsEl.appendChild(sep);
+  METALS.filter(m=>m.grp===g).forEach(m=>{
+    const btn=document.createElement('button');
+    btn.className='tab'+(m.id==='gold'?' active':'');
+    btn.dataset.id=m.id;
+    btn.textContent=m.emoji+' '+m.name;
+    btn.onclick=()=>activate(m.id);
+    tabsEl.appendChild(btn);
+    panelsEl.appendChild(buildPanel(m));
+  });
+});
+
+buildInputGrid();
+
+function activate(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.id===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='pnl_'+id));
+  setTimeout(()=>renderCharts(id),50);
+}
+
+activate('gold');
+
+// Show last update time if prices were saved
+if(Object.keys(savedPrices).length > 0){
+  updateAllDisplays();
+}
+
+// ═══════════════════════════════════════════════════════════
+// AUTOMATIC PRICE INTEGRATION VIA LOCAL SCRAPER & STATIC JS
+// ═══════════════════════════════════════════════════════════
+
+const API_URL = window.location.protocol.startsWith('http') 
+  ? `${window.location.origin}/api` 
+  : "http://localhost:8000/api";
+
+async function checkServerConnection() {
+  const refreshBtn = document.getElementById('refreshBtn');
+  const warningBanner = document.getElementById('fileWarningBanner');
+  
+  if (window.location.protocol === 'file:') {
+    if (warningBanner) warningBanner.style.display = 'block';
+    console.log("Opened as standalone file. Hiding auto-refresh to avoid security blocks.");
+    if (refreshBtn) refreshBtn.style.display = 'none';
+    return;
+  } else {
+    if (warningBanner) warningBanner.style.display = 'none';
+  }
+  
+  try {
+    const res = await fetch(`${API_URL}/prices`);
+    if (res.ok) {
+      const data = await res.json();
+      applyApiPrices(data);
+      if (refreshBtn) {
+        refreshBtn.style.display = 'inline-block';
+        refreshBtn.title = "Connected to local server. Click to refresh live prices.";
+      }
+    }
+  } catch (e) {
+    console.log("Local backend server is not running. Standing alone mode active.");
+    if (refreshBtn) {
+      refreshBtn.style.display = 'none';
+    }
+  }
+}
+
+function applyApiPrices(apiPrices) {
+  if (!apiPrices) return;
+  METALS.forEach(m => {
+    if (apiPrices[m.id] !== undefined) {
+      m.price = apiPrices[m.id];
+    }
+  });
+  
+  if (apiPrices._last_updated) {
+    document.getElementById('tsEl').textContent = 'Live Prices: ' + apiPrices._last_updated;
+    METALS.forEach(m => {
+      // Update dates only if there is no manual override in localStorage
+      if (!savedPrices[m.id]) {
+        const de = document.getElementById('pd_' + m.id);
+        if (de) de.textContent = apiPrices._last_updated + ' · ' + m.src;
+      }
+    });
+  }
+  
+  updateAllDisplays();
+}
+
+async function fetchLivePrices() {
+  const refreshBtn = document.getElementById('refreshBtn');
+  const originalText = refreshBtn.innerHTML;
+  refreshBtn.disabled = true;
+  refreshBtn.innerHTML = "⏳ Fetching...";
+  
+  try {
+    const res = await fetch(`${API_URL}/refresh`);
+    if (res.ok) {
+      const data = await res.json();
+      applyApiPrices(data);
+      showNotification("Success", "Commodity prices updated from live sources!", "#166534");
+    } else {
+      const errData = await res.json().catch(() => ({}));
+      const errMsg = errData.error || "Server failed to refresh prices.";
+      showNotification("Error", errMsg, "#b91c1c");
+    }
+  } catch (e) {
+    showNotification("Error", "Could not connect to backend server: " + e.message, "#b91c1c");
+  } finally {
+    refreshBtn.disabled = false;
+    refreshBtn.innerHTML = originalText;
+  }
+}
+
+function showNotification(title, msg, color) {
+  const toast = document.createElement('div');
+  toast.style.position = 'fixed';
+  toast.style.bottom = '20px';
+  toast.style.right = '20px';
+  toast.style.background = '#1e293b';
+  toast.style.color = '#fff';
+  toast.style.padding = '12px 20px';
+  toast.style.borderRadius = '6px';
+  toast.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.3)';
+  toast.style.borderLeft = `5px solid ${color}`;
+  toast.style.fontFamily = "var(--fn)";
+  toast.style.zIndex = '9999';
+  toast.style.transition = 'all 0.3s ease';
+  toast.innerHTML = `<strong style="color:${color}; display:block; margin-bottom:2px;">${title}</strong>${msg}`;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    setTimeout(() => toast.remove(), 300);
+  }, 3500);
+}
+
+// Function to apply statically loaded prices from prices.js (scraped in the cloud)
+function applyStaticPrices() {
+  if (window.LIVE_COMMODITY_PRICES) {
+    console.log("Statically loaded prices found:", window.LIVE_COMMODITY_PRICES);
+    applyApiPrices(window.LIVE_COMMODITY_PRICES);
+  }
+}
+
+// Initialize prices on page load
+applyStaticPrices();
+checkServerConnection();
+</script>
+</body>
+</html>
