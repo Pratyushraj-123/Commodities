@@ -662,7 +662,13 @@ async function checkServerConnection() {
   } catch (e) {
     console.log("Local backend server is not running. Standing alone mode active.");
     if (refreshBtn) {
-      refreshBtn.style.display = 'none';
+      // If we are online (GitHub Pages) but local server is not running, show the button anyway
+      if (window.location.protocol.startsWith('http')) {
+        refreshBtn.style.display = 'inline-block';
+        refreshBtn.title = "Online Mode. Click to view details.";
+      } else {
+        refreshBtn.style.display = 'none';
+      }
     }
   }
 }
@@ -691,6 +697,13 @@ function applyApiPrices(apiPrices) {
 
 async function fetchLivePrices() {
   const refreshBtn = document.getElementById('refreshBtn');
+  
+  // If hosted online statically and local server isn't running
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    showNotification("Automated Online Mode", "Prices update automatically every day at 1:30 PM IST (8:00 AM UTC). To run on-demand updates, launch the server locally using run_dashboard.bat.", "#0ea5e9");
+    return;
+  }
+  
   const originalText = refreshBtn.innerHTML;
   refreshBtn.disabled = true;
   refreshBtn.innerHTML = "⏳ Fetching...";
@@ -733,7 +746,7 @@ function showNotification(title, msg, color) {
   setTimeout(() => {
     toast.style.opacity = '0';
     setTimeout(() => toast.remove(), 300);
-  }, 3500);
+  }, 4000);
 }
 
 // Function to apply statically loaded prices from prices.js (scraped in the cloud)
@@ -741,6 +754,9 @@ function applyStaticPrices() {
   if (window.LIVE_COMMODITY_PRICES) {
     console.log("Statically loaded prices found:", window.LIVE_COMMODITY_PRICES);
     applyApiPrices(window.LIVE_COMMODITY_PRICES);
+    if (window.LIVE_COMMODITY_PRICES._last_updated) {
+      showNotification("Live Prices Loaded", `Dashboard updated with live prices from: ${window.LIVE_COMMODITY_PRICES._last_updated}`, "#16a34a");
+    }
   }
 }
 
