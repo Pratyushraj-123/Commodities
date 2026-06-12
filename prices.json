@@ -1,11 +1,11 @@
 {
-  "gold": 4186.95,
-  "silver": 66.835,
-  "platinum": 1733.2,
-  "palladium": 1297.5,
-  "copper": 6.3883,
-  "nickel": 17855.0,
-  "zinc": 3530.35,
+  "gold": 4227.85,
+  "silver": 67.497,
+  "platinum": 1731.4,
+  "palladium": 1322.0,
+  "copper": 6.4209,
+  "nickel": 17841.0,
+  "zinc": 3556.4,
   "lithium": 170500.0,
   "uranium": 85.0,
   "cobalt": 56290.0,
@@ -16,5 +16,5 @@
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Jun 2026, 05:22"
+  "_last_updated": "12 Jun 2026, 09:49"
 }
