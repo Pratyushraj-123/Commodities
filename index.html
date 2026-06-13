@@ -1137,13 +1137,20 @@ function renderIndexCards(indexes) {
   
   const order = ['dow', 'nasdaq', 'asx200', 'asx300', 'ftse'];
   
-  if (indexes.dow && indexes.dow.hist) {
-    currentDowHist = indexes.dow.hist;
-    currentDowIsUp = (parseFloat(indexes.dow.change) || 0) >= 0;
+  let histData = (indexes.dow && indexes.dow.hist) ? indexes.dow.hist : null;
+  if (!histData && window.FALLBACK_INDEX_PRICES.dow) {
+    histData = window.FALLBACK_INDEX_PRICES.dow.hist;
+  }
+  
+  if (histData) {
+    currentDowHist = histData;
+    const dowChange = indexes.dow ? (parseFloat(indexes.dow.change) || 0) : 0;
+    currentDowIsUp = dowChange >= 0;
     const subset = currentDowHist.slice(-currentDowDays);
     renderDowChart(subset, currentDowIsUp);
   } else {
-    document.getElementById('dowChartContainer').style.display = 'none';
+    const chartCont = document.getElementById('dowChartContainer');
+    if (chartCont) chartCont.style.display = 'none';
   }
   
   order.forEach(key => {
