@@ -29,26 +29,55 @@ DEFAULT_PRICES = {
     "fluorite": 580.0
 }
 
+DEFAULT_INDEXES = {
+    "sp500": {"name": "S&P 500", "price": 7520.36, "change": 1.24, "pct": 0.02, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
+    "dow": {"name": "Dow Jones", "price": 50591.52, "change": -52.76, "pct": -0.10, "flag": "🇺🇸", "updated": "13 Jun, 16:07"},
+    "nasdaq": {"name": "Nasdaq", "price": 26674.73, "change": 18.55, "pct": 0.07, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
+    "asx200": {"name": "ASX 200", "price": 8450.20, "change": 45.10, "pct": 0.54, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
+    "asx300": {"name": "ASX 300", "price": 8390.40, "change": 40.20, "pct": 0.48, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
+    "nikkei": {"name": "Nikkei 225", "price": 64606.00, "change": -393.41, "pct": -0.61, "flag": "🇯🇵", "updated": "13 Jun, 11:30"},
+    "ftse": {"name": "FTSE 100", "price": 10400.07, "change": -104.94, "pct": -1.00, "flag": "🇬🇧", "updated": "13 Jun, 16:07"},
+    "dax": {"name": "DAX", "price": 25017.40, "change": -160.40, "pct": -0.64, "flag": "🇩🇪", "updated": "13 Jun, 16:07"}
+}
+
+INDEX_TICKERS = {
+    "sp500": {"name": "S&P 500", "ticker": "^GSPC", "flag": "🇺🇸"},
+    "dow": {"name": "Dow Jones", "ticker": "^DJI", "flag": "🇺🇸"},
+    "nasdaq": {"name": "Nasdaq", "ticker": "^IXIC", "flag": "🇺🇸"},
+    "asx200": {"name": "ASX 200", "ticker": "^AXJO", "flag": "🇦🇺"},
+    "asx300": {"name": "ASX 300", "ticker": "^AXKO", "flag": "🇦🇺"},
+    "nikkei": {"name": "Nikkei 225", "ticker": "^N225", "flag": "🇯🇵"},
+    "ftse": {"name": "FTSE 100", "ticker": "^FTSE", "flag": "🇬🇧"},
+    "dax": {"name": "DAX", "ticker": "^GDAXI", "flag": "🇩🇪"}
+}
+
 def load_stored_prices():
-    # Attempt to load from JSON first, then JS, then defaults
+    prices = None
     if os.path.exists(JSON_FILE):
         try:
             with open(JSON_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                prices = json.load(f)
         except Exception as e:
             print(f"Error reading prices.json: {e}")
             
-    if os.path.exists(JS_FILE):
+    if not prices and os.path.exists(JS_FILE):
         try:
             with open(JS_FILE, "r", encoding="utf-8") as f:
                 content = f.read()
                 match = re.search(r'window\.LIVE_COMMODITY_PRICES\s*=\s*(\{.*?\});', content, re.DOTALL)
                 if match:
-                    return json.loads(match.group(1))
+                    prices = json.loads(match.group(1))
         except Exception as e:
             print(f"Error parsing prices.js: {e}")
             
-    return DEFAULT_PRICES.copy()
+    if not prices:
+        prices = DEFAULT_PRICES.copy()
+        
+    if "indexes" not in prices:
+        prices["indexes"] = DEFAULT_INDEXES.copy()
+        
+    return prices
+
 
 def save_stored_prices(prices):
     # Save to JSON
@@ -92,11 +121,50 @@ def fetch_usd_cny():
         print(f"Error fetching live USD/CNY rate, using fallback 7.25: {e}")
     return 7.25
 
+def fetch_index_price(ticker):
+    encoded_ticker = ticker.replace('^', '%5E').replace('&', '%26')
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_ticker}?interval=1d&range=1d"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=5.0) as response:
+            data = json.loads(response.read().decode())
+            meta = data['chart']['result'][0]['meta']
+            price = float(meta['regularMarketPrice'])
+            prev_close = float(meta['chartPreviousClose'])
+            change = price - prev_close
+            pct = (change / prev_close) * 100
+            return {
+                "price": round(price, 2),
+                "change": round(change, 2),
+                "pct": round(pct, 2),
+                "updated": time.strftime("%d %b, %H:%M")
+            }
+    except Exception as e:
+        print(f"Error fetching index {ticker}: {e}")
+        return None
+
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")
     prices = load_stored_prices()
     
     usd_cny = fetch_usd_cny()
+    
+    # Scrape Stock Market Indexes
+    print("Fetching stock market indexes from Yahoo Finance...")
+    for idx_key, idx_info in INDEX_TICKERS.items():
+        res = fetch_index_price(idx_info["ticker"])
+        if res:
+            if idx_key not in prices["indexes"]:
+                prices["indexes"][idx_key] = {}
+            prices["indexes"][idx_key].update({
+                "name": idx_info["name"],
+                "price": res["price"],
+                "change": res["change"],
+                "pct": res["pct"],
+                "flag": idx_info["flag"],
+                "updated": res["updated"]
+            })
+            print(f"  {idx_info['name']}: {res['price']} ({res['change']} / {res['pct']}%)")
     
     url = "https://tradingeconomics.com/commodities"
     req = urllib.request.Request(url, headers=headers)

@@ -103,6 +103,109 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
 .rc{font-size:10px;padding:2px 7px;border-radius:3px;background:var(--s2);border:1px solid var(--bd);color:var(--tx);}
 .rc strong{color:var(--ac);margin-left:2px;}
 
+/* SIDEBAR LAYOUT & CARDS */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 20px;
+  align-items: start;
+}
+.left-col {
+  min-width: 0;
+}
+.right-col {
+  position: sticky;
+  top: 75px;
+}
+.sidebar-card {
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 6px;
+  padding: 16px;
+}
+.sidebar-title {
+  font-size: 11px;
+  color: var(--mu);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--bd);
+  font-weight: 600;
+}
+.index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.index-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--s2);
+}
+.index-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.index-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.index-name-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.index-flag {
+  font-size: 14px;
+}
+.index-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx);
+}
+.index-time {
+  font-size: 9px;
+  color: var(--mu);
+  font-family: var(--mo);
+}
+.index-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.index-val {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--mo);
+  color: var(--tx);
+}
+.index-change {
+  font-size: 10px;
+  font-weight: 500;
+  font-family: var(--mo);
+  white-space: nowrap;
+}
+.idx-up {
+  color: var(--up);
+}
+.idx-dn {
+  color: var(--dn);
+}
+
+@media(max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  .right-col {
+    position: static;
+  }
+}
+
 .footer{border-top:1px solid var(--bd);padding:11px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:18px;}
 .footer p{font-size:10px;color:var(--mu);line-height:1.6;}
 
@@ -153,9 +256,21 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
 </div>
 
 <div class="main">
-  <div class="tlbl">Select Commodity</div>
-  <div class="tabs" id="tabsEl"></div>
-  <div id="panelsEl"></div>
+  <div class="dashboard-grid">
+    <div class="left-col">
+      <div class="tlbl">Select Commodity</div>
+      <div class="tabs" id="tabsEl"></div>
+      <div id="panelsEl"></div>
+    </div>
+    <div class="right-col">
+      <div class="sidebar-card">
+        <h3 class="sidebar-title">📊 Global Markets</h3>
+        <div class="index-list" id="indexListEl">
+          <!-- Dynamically populated stock index rows -->
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="footer">
@@ -781,6 +896,13 @@ function applyApiPrices(apiPrices) {
     }
   });
   
+  // Render stock indexes if present
+  if (apiPrices.indexes) {
+    renderIndexCards(apiPrices.indexes);
+  } else {
+    renderIndexCards(window.FALLBACK_INDEX_PRICES);
+  }
+  
   if (apiPrices._last_updated) {
     document.getElementById('tsEl').textContent = 'Live Prices: ' + apiPrices._last_updated;
     METALS.forEach(m => {
@@ -874,7 +996,62 @@ function applyStaticPrices() {
   }
 }
 
+// ── STOCK INDEX RENDERING & FALLBACKS ──────────────────
+window.FALLBACK_INDEX_PRICES = {
+  "sp500": {"name": "S&P 500", "price": 7520.36, "change": 1.24, "pct": 0.02, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
+  "dow": {"name": "Dow Jones", "price": 50591.52, "change": -52.76, "pct": -0.10, "flag": "🇺🇸", "updated": "13 Jun, 16:07"},
+  "nasdaq": {"name": "Nasdaq", "price": 26674.73, "change": 18.55, "pct": 0.07, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
+  "asx200": {"name": "ASX 200", "price": 8450.20, "change": 45.10, "pct": 0.54, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
+  "asx300": {"name": "ASX 300", "price": 8390.40, "change": 40.20, "pct": 0.48, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
+  "nikkei": {"name": "Nikkei 225", "price": 64606.00, "change": -393.41, "pct": -0.61, "flag": "🇯🇵", "updated": "13 Jun, 11:30"},
+  "ftse": {"name": "FTSE 100", "price": 10400.07, "change": -104.94, "pct": -1.00, "flag": "🇬🇧", "updated": "13 Jun, 16:07"},
+  "dax": {"name": "DAX", "price": 25017.40, "change": -160.40, "pct": -0.64, "flag": "🇩🇪", "updated": "13 Jun, 16:07"}
+};
+
+function renderIndexCards(indexes) {
+  const container = document.getElementById('indexListEl');
+  if (!container) return;
+  container.innerHTML = '';
+  
+  const order = ['sp500', 'dow', 'nasdaq', 'asx200', 'asx300', 'nikkei', 'ftse', 'dax'];
+  
+  order.forEach(key => {
+    const data = indexes[key];
+    if (!data) return;
+    
+    const priceNum = parseFloat(data.price) || 0;
+    const changeNum = parseFloat(data.change) || 0;
+    const pctNum = parseFloat(data.pct) || 0;
+    
+    const isUp = changeNum >= 0;
+    const changeClass = isUp ? 'idx-up' : 'idx-dn';
+    const changeSign = isUp ? '▲ +' : '▼ ';
+    const flag = data.flag || '';
+    
+    const row = document.createElement('div');
+    row.className = 'index-row';
+    row.innerHTML = `
+      <div class="index-info">
+        <div class="index-name-container">
+          <span class="index-flag">${flag}</span>
+          <span class="index-name">${data.name}</span>
+        </div>
+        <div class="index-time">${data.updated || ''}</div>
+      </div>
+      <div class="index-stats">
+        <span class="index-val">${priceNum.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
+        <span class="index-change ${changeClass}">
+          ${changeSign}${Math.abs(changeNum).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} 
+          (${isUp ? '+' : '-'}${Math.abs(pctNum).toFixed(2)}%)
+        </span>
+      </div>
+    `;
+    container.appendChild(row);
+  });
+}
+
 // Initialize prices on page load
+renderIndexCards(window.FALLBACK_INDEX_PRICES);
 applyStaticPrices();
 checkServerConnection();
 </script>
