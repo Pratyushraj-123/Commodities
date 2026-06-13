@@ -30,25 +30,19 @@ DEFAULT_PRICES = {
 }
 
 DEFAULT_INDEXES = {
-    "sp500": {"name": "S&P 500", "price": 7520.36, "change": 1.24, "pct": 0.02, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
-    "dow": {"name": "Dow Jones", "price": 50591.52, "change": -52.76, "pct": -0.10, "flag": "🇺🇸", "updated": "13 Jun, 16:07"},
+    "dow": {"name": "Dow Jones", "price": 50591.52, "change": -52.76, "pct": -0.10, "flag": "🇺🇸", "updated": "13 Jun, 16:07", "hist": [49200, 49350, 49500, 49800, 50100, 50350, 50400, 50200, 50150, 50250, 50450, 50600, 50591.52]},
     "nasdaq": {"name": "Nasdaq", "price": 26674.73, "change": 18.55, "pct": 0.07, "flag": "🇺🇸", "updated": "13 Jun, 01:29"},
     "asx200": {"name": "ASX 200", "price": 8450.20, "change": 45.10, "pct": 0.54, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
     "asx300": {"name": "ASX 300", "price": 8390.40, "change": 40.20, "pct": 0.48, "flag": "🇦🇺", "updated": "13 Jun, 16:10"},
-    "nikkei": {"name": "Nikkei 225", "price": 64606.00, "change": -393.41, "pct": -0.61, "flag": "🇯🇵", "updated": "13 Jun, 11:30"},
-    "ftse": {"name": "FTSE 100", "price": 10400.07, "change": -104.94, "pct": -1.00, "flag": "🇬🇧", "updated": "13 Jun, 16:07"},
-    "dax": {"name": "DAX", "price": 25017.40, "change": -160.40, "pct": -0.64, "flag": "🇩🇪", "updated": "13 Jun, 16:07"}
+    "ftse": {"name": "FTSE 100", "price": 10400.07, "change": -104.94, "pct": -1.00, "flag": "🇬🇧", "updated": "13 Jun, 16:07"}
 }
 
 INDEX_TICKERS = {
-    "sp500": {"name": "S&P 500", "ticker": "^GSPC", "flag": "🇺🇸"},
     "dow": {"name": "Dow Jones", "ticker": "^DJI", "flag": "🇺🇸"},
     "nasdaq": {"name": "Nasdaq", "ticker": "^IXIC", "flag": "🇺🇸"},
     "asx200": {"name": "ASX 200", "ticker": "^AXJO", "flag": "🇦🇺"},
     "asx300": {"name": "ASX 300", "ticker": "^AXKO", "flag": "🇦🇺"},
-    "nikkei": {"name": "Nikkei 225", "ticker": "^N225", "flag": "🇯🇵"},
-    "ftse": {"name": "FTSE 100", "ticker": "^FTSE", "flag": "🇬🇧"},
-    "dax": {"name": "DAX", "ticker": "^GDAXI", "flag": "🇩🇪"}
+    "ftse": {"name": "FTSE 100", "ticker": "^FTSE", "flag": "🇬🇧"}
 }
 
 def load_stored_prices():
@@ -143,12 +137,33 @@ def fetch_index_price(ticker):
         print(f"Error fetching index {ticker}: {e}")
         return None
 
+def fetch_index_history(ticker):
+    encoded_ticker = ticker.replace('^', '%5E').replace('&', '%26')
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_ticker}?interval=1d&range=1y"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=5.0) as response:
+            data = json.loads(response.read().decode())
+            result = data['chart']['result'][0]
+            quotes = result.get('indicators', {}).get('quote', [{}])[0]
+            close_prices = quotes.get('close', [])
+            return [round(c, 2) for c in close_prices if c is not None]
+    except Exception as e:
+        print(f"Error fetching history for {ticker}: {e}")
+        return None
+
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")
     prices = load_stored_prices()
     
     usd_cny = fetch_usd_cny()
     
+    # Clean up any indexes that are no longer in INDEX_TICKERS
+    if "indexes" in prices:
+        prices["indexes"] = {k: v for k, v in prices["indexes"].items() if k in INDEX_TICKERS}
+    else:
+        prices["indexes"] = {}
+
     # Scrape Stock Market Indexes
     print("Fetching stock market indexes from Yahoo Finance...")
     for idx_key, idx_info in INDEX_TICKERS.items():
@@ -164,6 +179,10 @@ def run_scraper():
                 "flag": idx_info["flag"],
                 "updated": res["updated"]
             })
+            if idx_key == "dow":
+                hist = fetch_index_history(idx_info["ticker"])
+                if hist:
+                    prices["indexes"][idx_key]["hist"] = hist
             print(f"  {idx_info['name']}: {res['price']} ({res['change']} / {res['pct']}%)")
     
     url = "https://tradingeconomics.com/commodities"
@@ -244,6 +263,7 @@ def run_scraper():
             prices["_last_updated"] = time.strftime("%d %b %Y, %H:%M")
             print(f"Scrape completed successfully at {prices['_last_updated']}!")
             save_stored_prices(prices)
+            return prices
             
     except Exception as e:
         print(f"Error occurred during scraping: {e}")
