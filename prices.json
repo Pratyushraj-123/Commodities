@@ -1,32 +1,31 @@
 {
-  "gold": 4322.58,
-  "silver": 70.493,
-  "platinum": 1782.2,
-  "palladium": 1342.5,
-  "copper": 6.53,
-  "nickel": 17921.0,
-  "zinc": 3608.05,
+  "gold": 4362.81,
+  "silver": 70.901,
+  "platinum": 1795.7,
+  "palladium": 1371.0,
+  "copper": 6.4787,
+  "nickel": 17919.0,
+  "zinc": 3588.95,
   "lithium": 170500.0,
   "uranium": 85.35,
   "cobalt": 56290.0,
-  "rareearth": 243.1,
+  "rareearth": 244.4,
   "antimony": 22500.0,
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "15 Jun 2026, 02:10",
+  "_last_updated": "15 Jun 2026, 14:51",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51202.26,
-      "change": 353.46,
-      "pct": 0.7,
+      "price": 51859.58,
+      "change": 657.32,
+      "pct": 1.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Jun, 02:10",
+      "updated": "15 Jun, 14:51",
       "hist": [
-        42197.79,
         42515.09,
         42215.8,
         42171.66,
@@ -276,40 +275,41 @@
         50872.11,
         49918.78,
         50848.75,
-        51202.26
+        51202.26,
+        51857.62
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25888.84,
-      "change": 79.14,
-      "pct": 0.31,
+      "price": 26515.53,
+      "change": 626.69,
+      "pct": 2.42,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Jun, 02:10"
+      "updated": "15 Jun, 14:51"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8923.2,
-      "change": 119.2,
-      "pct": 1.35,
+      "price": 8914.0,
+      "change": 110.0,
+      "pct": 1.25,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Jun, 02:10"
+      "updated": "15 Jun, 14:51"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8858.4,
-      "change": 120.4,
-      "pct": 1.38,
+      "price": 8850.1,
+      "change": 112.1,
+      "pct": 1.28,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Jun, 02:10"
+      "updated": "15 Jun, 14:51"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10471.72,
-      "change": 167.82,
-      "pct": 1.63,
+      "price": 10439.31,
+      "change": -32.41,
+      "pct": -0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "15 Jun, 02:10"
+      "updated": "15 Jun, 14:51"
     }
   }
 }
