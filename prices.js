@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4222.0,
-  "silver": 67.761,
-  "platinum": 1712.2,
-  "palladium": 1291.5,
-  "copper": 6.4305,
-  "nickel": 17790.0,
-  "zinc": 3578.25,
+  "gold": 4322.58,
+  "silver": 70.493,
+  "platinum": 1782.2,
+  "palladium": 1342.5,
+  "copper": 6.53,
+  "nickel": 17921.0,
+  "zinc": 3608.05,
   "lithium": 170500.0,
   "uranium": 85.35,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Jun 2026, 16:37",
+  "_last_updated": "15 Jun 2026, 02:10",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
       "price": 51202.26,
-      "change": 353.51,
+      "change": 353.46,
       "pct": 0.7,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Jun, 16:37",
+      "updated": "15 Jun, 02:10",
       "hist": [
         42197.79,
         42515.09,
@@ -282,34 +282,34 @@ window.LIVE_COMMODITY_PRICES = {
     "nasdaq": {
       "name": "Nasdaq",
       "price": 25888.84,
-      "change": 79.18,
+      "change": 79.14,
       "pct": 0.31,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Jun, 16:37"
+      "updated": "15 Jun, 02:10"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8804.0,
-      "change": 170.8,
-      "pct": 1.98,
+      "price": 8923.2,
+      "change": 119.2,
+      "pct": 1.35,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Jun, 16:37"
+      "updated": "15 Jun, 02:10"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8738.0,
-      "change": 169.2,
-      "pct": 1.97,
+      "price": 8858.4,
+      "change": 120.4,
+      "pct": 1.38,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Jun, 16:37"
+      "updated": "15 Jun, 02:10"
     },
     "ftse": {
       "name": "FTSE 100",
       "price": 10471.72,
-      "change": 167.84,
+      "change": 167.82,
       "pct": 1.63,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Jun, 16:37"
+      "updated": "15 Jun, 02:10"
     }
   }
 };
