@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4336.44,
-  "silver": 70.142,
-  "platinum": 1809.7,
-  "palladium": 1364.0,
-  "copper": 6.4788,
-  "nickel": 17955.0,
-  "zinc": 3565.6,
+  "gold": 4341.49,
+  "silver": 70.349,
+  "platinum": 1815.1,
+  "palladium": 1366.0,
+  "copper": 6.507,
+  "nickel": 17923.0,
+  "zinc": 3563.55,
   "lithium": 169000.0,
-  "uranium": 85.65,
+  "uranium": 85.8,
   "cobalt": 56290.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Jun 2026, 23:15",
+  "_last_updated": "17 Jun 2026, 02:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 328.64,
       "pct": 0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jun, 23:15",
+      "updated": "17 Jun, 02:09",
       "hist": [
         42215.8,
         42171.66,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -307.6,
       "pct": -1.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jun, 23:15"
+      "updated": "17 Jun, 02:09"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8917.7,
-      "change": 3.7,
-      "pct": 0.04,
+      "price": 8947.9,
+      "change": 30.2,
+      "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jun, 23:15"
+      "updated": "17 Jun, 02:09"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8855.9,
-      "change": 5.8,
-      "pct": 0.07,
+      "price": 8886.1,
+      "change": 30.2,
+      "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jun, 23:15"
+      "updated": "17 Jun, 02:09"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 63.59,
       "pct": 0.61,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Jun, 23:15"
+      "updated": "17 Jun, 02:09"
     }
   }
 };
