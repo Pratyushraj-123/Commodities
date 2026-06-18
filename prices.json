@@ -1,11 +1,11 @@
 {
-  "gold": 4242.7,
-  "silver": 66.802,
-  "platinum": 1696.7,
-  "palladium": 1284.0,
-  "copper": 6.3486,
-  "nickel": 17902.0,
-  "zinc": 3577.0,
+  "gold": 4249.88,
+  "silver": 66.585,
+  "platinum": 1719.9,
+  "palladium": 1296.5,
+  "copper": 6.4007,
+  "nickel": 17886.0,
+  "zinc": 3620.1,
   "lithium": 167250.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Jun 2026, 11:41",
+  "_last_updated": "18 Jun 2026, 14:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51492.55,
-      "change": -507.12,
-      "pct": -0.98,
+      "price": 51734.04,
+      "change": 241.49,
+      "pct": 0.47,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Jun, 11:41",
+      "updated": "18 Jun, 14:36",
       "hist": [
         42171.66,
         42206.82,
@@ -276,16 +276,17 @@
         51202.26,
         51671.03,
         51999.67,
-        51492.55
+        51492.55,
+        51734.49
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26021.66,
-      "change": -354.69,
-      "pct": -1.34,
+      "price": 26307.68,
+      "change": 286.02,
+      "pct": 1.1,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Jun, 11:41"
+      "updated": "18 Jun, 14:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": -55.2,
       "pct": -0.62,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Jun, 11:41"
+      "updated": "18 Jun, 14:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": -56.5,
       "pct": -0.63,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Jun, 11:41"
+      "updated": "18 Jun, 14:36"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10396.31,
-      "change": -112.3,
-      "pct": -1.07,
+      "price": 10385.39,
+      "change": -123.22,
+      "pct": -1.17,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Jun, 11:41"
+      "updated": "18 Jun, 14:36"
     }
   }
 }
