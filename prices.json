@@ -1,11 +1,11 @@
 {
-  "gold": 4121.77,
-  "silver": 61.734,
-  "platinum": 1655.7,
-  "palladium": 1239.5,
-  "copper": 6.1288,
+  "gold": 4113.61,
+  "silver": 61.561,
+  "platinum": 1652.9,
+  "palladium": 1238.5,
+  "copper": 6.123,
   "nickel": 17230.0,
-  "zinc": 3498.73,
+  "zinc": 3498.85,
   "lithium": 158500.0,
   "uranium": 85.75,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "23 Jun 2026, 19:45",
+  "_last_updated": "23 Jun 2026, 21:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51673.26,
-      "change": -39.45,
-      "pct": -0.08,
+      "price": 51666.84,
+      "change": -45.87,
+      "pct": -0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Jun, 19:45",
+      "updated": "23 Jun, 21:20",
       "hist": [
-        42581.78,
         43089.02,
         42982.43,
         43386.84,
@@ -277,16 +276,16 @@
         51492.55,
         51564.7,
         51712.71,
-        51673.26
+        51666.84
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25645.51,
-      "change": -521.09,
-      "pct": -1.99,
+      "price": 25587.04,
+      "change": -579.56,
+      "pct": -2.21,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Jun, 19:45"
+      "updated": "23 Jun, 21:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": -29.1,
       "pct": -0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Jun, 19:45"
+      "updated": "23 Jun, 21:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": -32.7,
       "pct": -0.37,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Jun, 19:45"
+      "updated": "23 Jun, 21:20"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": -9.0,
       "pct": -0.09,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Jun, 19:45"
+      "updated": "23 Jun, 21:20"
     }
   }
 }
