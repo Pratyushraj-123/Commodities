@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4002.14,
-  "silver": 58.604,
-  "platinum": 1582.1,
-  "palladium": 1176.5,
-  "copper": 5.9381,
-  "nickel": 16830.0,
-  "zinc": 3417.9,
+  "gold": 3986.25,
+  "silver": 56.859,
+  "platinum": 1567.5,
+  "palladium": 1161.0,
+  "copper": 5.9382,
+  "nickel": 16820.0,
+  "zinc": 3415.85,
   "lithium": 157500.0,
   "uranium": 85.5,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "24 Jun 2026, 16:20",
+  "_last_updated": "24 Jun 2026, 18:24",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52116.12,
-      "change": 449.28,
-      "pct": 0.87,
+      "price": 51892.89,
+      "change": 226.05,
+      "pct": 0.44,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jun, 16:20",
+      "updated": "24 Jun, 18:24",
       "hist": [
         43089.02,
         42982.43,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         51564.7,
         51712.71,
         51666.84,
-        52117.41
+        51892.89
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25759.83,
-      "change": 172.79,
-      "pct": 0.68,
+      "price": 25542.09,
+      "change": -44.95,
+      "pct": -0.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jun, 16:20"
+      "updated": "24 Jun, 18:24"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 21.4,
       "pct": 0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jun, 16:20"
+      "updated": "24 Jun, 18:24"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 20.8,
       "pct": 0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jun, 16:20"
+      "updated": "24 Jun, 18:24"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 32.78,
       "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Jun, 16:20"
+      "updated": "24 Jun, 18:24"
     }
   }
 };
