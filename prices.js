@@ -1,12 +1,12 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4017.82,
-  "silver": 57.607,
-  "platinum": 1591.6,
-  "palladium": 1187.0,
-  "copper": 6.0514,
-  "nickel": 16865.0,
-  "zinc": 3443.85,
-  "lithium": 157000.0,
+  "gold": 4012.47,
+  "silver": 56.445,
+  "platinum": 1569.2,
+  "palladium": 1179.0,
+  "copper": 5.9654,
+  "nickel": 16619.0,
+  "zinc": 3395.2,
+  "lithium": 152500.0,
   "uranium": 85.75,
   "cobalt": 56290.0,
   "rareearth": 257.3,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "26 Jun 2026, 00:01",
+  "_last_updated": "26 Jun 2026, 04:59",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 71.72,
       "pct": 0.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Jun, 00:01",
+      "updated": "26 Jun, 04:59",
       "hist": [
         43386.84,
         43819.27,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -118.03,
       "pct": -0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Jun, 00:01"
+      "updated": "26 Jun, 04:59"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8748.7,
-      "change": -59.7,
-      "pct": -0.68,
+      "price": 8746.6,
+      "change": -2.1,
+      "pct": -0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Jun, 00:01"
+      "updated": "26 Jun, 04:59"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8684.6,
-      "change": -59.9,
-      "pct": -0.69,
+      "price": 8680.9,
+      "change": -3.7,
+      "pct": -0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Jun, 00:01"
+      "updated": "26 Jun, 04:59"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 68.26,
       "pct": 0.65,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "26 Jun, 00:01"
+      "updated": "26 Jun, 04:59"
     }
   }
 };
