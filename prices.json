@@ -1,22 +1,22 @@
 {
-  "gold": 4061.13,
-  "silver": 58.319,
-  "platinum": 1602.6,
-  "palladium": 1207.0,
-  "copper": 6.0907,
-  "nickel": 16749.0,
-  "zinc": 3485.6,
-  "lithium": 152500.0,
+  "gold": 4059.26,
+  "silver": 58.538,
+  "platinum": 1620.6,
+  "palladium": 1224.0,
+  "copper": 6.1516,
+  "nickel": 16736.0,
+  "zinc": 3509.9,
+  "lithium": 151750.0,
   "uranium": 85.25,
   "cobalt": 56290.0,
-  "rareearth": 254.7,
+  "rareearth": 257.3,
   "antimony": 22500.0,
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
   "titanium": 48.5,
   "fluorite": 580.0,
-  "_last_updated": "29 Jun 2026, 02:00",
+  "_last_updated": "29 Jun 2026, 07:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -44.49,
       "pct": -0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jun, 02:00",
+      "updated": "29 Jun, 07:17",
       "hist": [
         43819.27,
         44094.77,
@@ -285,31 +285,31 @@
       "change": -60.98,
       "pct": -0.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jun, 02:00"
+      "updated": "29 Jun, 07:17"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8786.5,
-      "change": 22.3,
-      "pct": 0.25,
+      "price": 8823.4,
+      "change": 59.2,
+      "pct": 0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jun, 02:00"
+      "updated": "29 Jun, 07:17"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8722.2,
-      "change": 23.5,
-      "pct": 0.27,
+      "price": 8757.2,
+      "change": 58.5,
+      "pct": 0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jun, 02:00"
+      "updated": "29 Jun, 07:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10508.02,
-      "change": -21.88,
-      "pct": -0.21,
+      "price": 10492.59,
+      "change": -15.43,
+      "pct": -0.15,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Jun, 02:00"
+      "updated": "29 Jun, 07:17"
     }
   }
 }
