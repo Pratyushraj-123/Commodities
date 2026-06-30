@@ -1,12 +1,12 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3966.34,
-  "silver": 57.351,
-  "platinum": 1573.8,
-  "palladium": 1210.5,
-  "copper": 6.0869,
-  "nickel": 16251.0,
-  "zinc": 3471.05,
-  "lithium": 151750.0,
+  "gold": 3979.5,
+  "silver": 57.254,
+  "platinum": 1576.0,
+  "palladium": 1219.0,
+  "copper": 6.1141,
+  "nickel": 16428.0,
+  "zinc": 3483.95,
+  "lithium": 156500.0,
   "uranium": 85.25,
   "cobalt": 56290.0,
   "rareearth": 257.3,
@@ -14,9 +14,9 @@ window.LIVE_COMMODITY_PRICES = {
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
-  "titanium": 48.5,
+  "titanium": 47.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Jun 2026, 01:54",
+  "_last_updated": "30 Jun 2026, 05:58",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 306.63,
       "pct": 0.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jun, 01:54",
+      "updated": "30 Jun, 05:58",
       "hist": [
         44094.77,
         44494.94,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 522.53,
       "pct": 2.07,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jun, 01:54"
+      "updated": "30 Jun, 05:58"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8836.4,
-      "change": 13.0,
-      "pct": 0.15,
+      "price": 8789.7,
+      "change": -33.7,
+      "pct": -0.38,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jun, 01:54"
+      "updated": "30 Jun, 05:58"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8770.0,
-      "change": 12.8,
-      "pct": 0.15,
+      "price": 8726.1,
+      "change": -31.1,
+      "pct": -0.36,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jun, 01:54"
+      "updated": "30 Jun, 05:58"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -23.8,
       "pct": -0.23,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Jun, 01:54"
+      "updated": "30 Jun, 05:58"
     }
   }
 };
