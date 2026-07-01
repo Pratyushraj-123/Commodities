@@ -1,12 +1,12 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3976.92,
-  "silver": 57.698,
-  "platinum": 1546.1,
-  "palladium": 1201.0,
-  "copper": 6.1059,
-  "nickel": 16232.0,
-  "zinc": 3531.0,
-  "lithium": 156500.0,
+  "gold": 3967.48,
+  "silver": 57.448,
+  "platinum": 1544.8,
+  "palladium": 1187.5,
+  "copper": 6.0614,
+  "nickel": 16168.0,
+  "zinc": 3526.4,
+  "lithium": 160000.0,
   "uranium": 85.5,
   "cobalt": 56290.0,
   "rareearth": 257.3,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 47.5,
   "fluorite": 580.0,
-  "_last_updated": "01 Jul 2026, 02:00",
+  "_last_updated": "01 Jul 2026, 06:26",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 136.46,
       "pct": 0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Jul, 02:00",
+      "updated": "01 Jul, 06:26",
       "hist": [
         44494.94,
         44484.42,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 393.57,
       "pct": 1.52,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Jul, 02:00"
+      "updated": "01 Jul, 06:26"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8764.9,
-      "change": -13.8,
-      "pct": -0.16,
+      "price": 8722.6,
+      "change": -56.1,
+      "pct": -0.64,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Jul, 02:00"
+      "updated": "01 Jul, 06:26"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8701.1,
-      "change": -13.6,
-      "pct": -0.16,
+      "price": 8659.0,
+      "change": -55.7,
+      "pct": -0.64,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Jul, 02:00"
+      "updated": "01 Jul, 06:26"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 12.9,
       "pct": 0.12,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "01 Jul, 02:00"
+      "updated": "01 Jul, 06:26"
     }
   }
 };
