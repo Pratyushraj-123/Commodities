@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4059.59,
-  "silver": 59.639,
-  "platinum": 1593.1,
-  "palladium": 1220.0,
-  "copper": 6.1112,
+  "gold": 4038.36,
+  "silver": 59.194,
+  "platinum": 1587.3,
+  "palladium": 1219.5,
+  "copper": 6.1054,
   "nickel": 16390.0,
-  "zinc": 3502.15,
+  "zinc": 3505.25,
   "lithium": 160000.0,
   "uranium": 85.5,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 47.5,
   "fluorite": 580.0,
-  "_last_updated": "01 Jul 2026, 18:52",
+  "_last_updated": "01 Jul 2026, 20:30",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52364.88,
-      "change": 45.68,
-      "pct": 0.09,
+      "price": 52305.24,
+      "change": -13.96,
+      "pct": -0.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Jul, 18:52",
+      "updated": "01 Jul, 20:30",
       "hist": [
-        44494.94,
         44484.42,
         44828.53,
         44406.36,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51876.11,
         52182.74,
         52319.2,
-        52366.68
+        52305.24
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26092.61,
-      "change": -121.11,
-      "pct": -0.46,
+      "price": 26040.03,
+      "change": -173.69,
+      "pct": -0.66,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Jul, 18:52"
+      "updated": "01 Jul, 20:30"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -55.8,
       "pct": -0.64,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Jul, 18:52"
+      "updated": "01 Jul, 20:30"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -55.2,
       "pct": -0.63,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Jul, 18:52"
+      "updated": "01 Jul, 20:30"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -18.78,
       "pct": -0.18,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "01 Jul, 18:52"
+      "updated": "01 Jul, 20:30"
     }
   }
 };
