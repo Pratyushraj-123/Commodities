@@ -1,22 +1,22 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4060.65,
-  "silver": 60.073,
-  "platinum": 1622.6,
-  "palladium": 1234.5,
-  "copper": 6.1244,
-  "nickel": 16314.0,
-  "zinc": 3505.65,
-  "lithium": 160000.0,
+  "gold": 4072.86,
+  "silver": 60.02,
+  "platinum": 1623.1,
+  "palladium": 1232.0,
+  "copper": 6.1013,
+  "nickel": 16246.0,
+  "zinc": 3473.2,
+  "lithium": 162500.0,
   "uranium": 86.05,
   "cobalt": 56290.0,
-  "rareearth": 257.3,
+  "rareearth": 260.6,
   "antimony": 22500.0,
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
-  "titanium": 47.5,
+  "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Jul 2026, 02:59",
+  "_last_updated": "02 Jul 2026, 06:39",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -13.96,
       "pct": -0.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Jul, 02:59",
+      "updated": "02 Jul, 06:39",
       "hist": [
         44484.42,
         44828.53,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -173.69,
       "pct": -0.66,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Jul, 02:59"
+      "updated": "02 Jul, 06:39"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8712.0,
-      "change": -10.9,
-      "pct": -0.12,
+      "price": 8724.5,
+      "change": 1.6,
+      "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Jul, 02:59"
+      "updated": "02 Jul, 06:39"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8647.9,
-      "change": -11.6,
-      "pct": -0.13,
+      "price": 8660.5,
+      "change": 1.0,
+      "pct": 0.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Jul, 02:59"
+      "updated": "02 Jul, 06:39"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -18.78,
       "pct": -0.18,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Jul, 02:59"
+      "updated": "02 Jul, 06:39"
     }
   }
 };
