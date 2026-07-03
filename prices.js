@@ -1,22 +1,22 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4186.72,
-  "silver": 62.165,
-  "platinum": 1667.6,
-  "palladium": 1290.0,
-  "copper": 6.1738,
-  "nickel": 16405.0,
-  "zinc": 3502.55,
-  "lithium": 162500.0,
+  "gold": 4177.33,
+  "silver": 62.465,
+  "platinum": 1666.8,
+  "palladium": 1286.0,
+  "copper": 6.184,
+  "nickel": 16490.0,
+  "zinc": 3503.1,
+  "lithium": 165250.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
-  "rareearth": 260.6,
+  "rareearth": 263.1,
   "antimony": 22500.0,
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Jul 2026, 01:23",
+  "_last_updated": "03 Jul 2026, 05:37",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 594.83,
       "pct": 1.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Jul, 01:23",
+      "updated": "03 Jul, 05:37",
       "hist": [
         44828.53,
         44406.36,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -207.36,
       "pct": -0.8,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Jul, 01:23"
+      "updated": "03 Jul, 05:37"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8794.6,
-      "change": 70.1,
-      "pct": 0.8,
+      "price": 8851.4,
+      "change": 126.9,
+      "pct": 1.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Jul, 01:23"
+      "updated": "03 Jul, 05:37"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8728.8,
-      "change": 68.3,
-      "pct": 0.79,
+      "price": 8785.7,
+      "change": 125.2,
+      "pct": 1.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Jul, 01:23"
+      "updated": "03 Jul, 05:37"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 174.53,
       "pct": 1.67,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Jul, 01:23"
+      "updated": "03 Jul, 05:37"
     }
   }
 };
