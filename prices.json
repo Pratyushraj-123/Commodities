@@ -1,11 +1,11 @@
 {
-  "gold": 4122.74,
-  "silver": 60.573,
-  "platinum": 1617.3,
-  "palladium": 1254.0,
-  "copper": 6.1493,
-  "nickel": 16339.0,
-  "zinc": 3586.65,
+  "gold": 4126.86,
+  "silver": 60.909,
+  "platinum": 1637.3,
+  "palladium": 1268.0,
+  "copper": 6.1782,
+  "nickel": 16321.0,
+  "zinc": 3596.75,
   "lithium": 164500.0,
   "uranium": 85.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Jul 2026, 05:54",
+  "_last_updated": "07 Jul 2026, 08:58",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 155.84,
       "pct": 0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Jul, 05:54",
+      "updated": "07 Jul, 08:58",
       "hist": [
         44406.36,
         44240.76,
@@ -285,31 +285,31 @@
       "change": 288.49,
       "pct": 1.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Jul, 05:54"
+      "updated": "07 Jul, 08:58"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8791.1,
-      "change": -39.9,
-      "pct": -0.45,
+      "price": 8803.9,
+      "change": -27.1,
+      "pct": -0.31,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Jul, 05:54"
+      "updated": "07 Jul, 08:58"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8726.4,
-      "change": -40.4,
-      "pct": -0.46,
+      "price": 8738.8,
+      "change": -28.0,
+      "pct": -0.32,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Jul, 05:54"
+      "updated": "07 Jul, 08:58"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10651.77,
-      "change": -27.26,
-      "pct": -0.26,
+      "price": 10698.44,
+      "change": 46.67,
+      "pct": 0.44,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Jul, 05:54"
+      "updated": "07 Jul, 08:58"
     }
   }
 }
