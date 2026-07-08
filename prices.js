@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4046.16,
-  "silver": 58.34,
-  "platinum": 1578.1,
-  "palladium": 1214.0,
-  "copper": 6.0406,
-  "nickel": 16364.0,
-  "zinc": 3539.85,
+  "gold": 4065.6,
+  "silver": 58.88,
+  "platinum": 1590.5,
+  "palladium": 1219.5,
+  "copper": 6.0299,
+  "nickel": 16342.0,
+  "zinc": 3538.6,
   "lithium": 164000.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "08 Jul 2026, 10:01",
+  "_last_updated": "08 Jul 2026, 12:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
       "price": 52925.15,
-      "change": -130.76,
+      "change": -130.75,
       "pct": -0.25,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Jul, 10:01",
+      "updated": "08 Jul, 12:09",
       "hist": [
         44240.76,
         44458.3,
@@ -282,10 +282,10 @@ window.LIVE_COMMODITY_PRICES = {
     "nasdaq": {
       "name": "Nasdaq",
       "price": 25818.69,
-      "change": -302.47,
+      "change": -302.51,
       "pct": -1.16,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Jul, 10:01"
+      "updated": "08 Jul, 12:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -18.8,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Jul, 10:01"
+      "updated": "08 Jul, 12:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.5,
       "pct": -0.22,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Jul, 10:01"
+      "updated": "08 Jul, 12:09"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10493.48,
-      "change": -172.4,
-      "pct": -1.62,
+      "price": 10537.4,
+      "change": -128.48,
+      "pct": -1.2,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "08 Jul, 10:01"
+      "updated": "08 Jul, 12:09"
     }
   }
 };
