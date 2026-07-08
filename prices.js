@@ -1,30 +1,30 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4125.96,
-  "silver": 60.357,
-  "platinum": 1646.6,
-  "palladium": 1271.0,
-  "copper": 6.1528,
-  "nickel": 16302.0,
-  "zinc": 3583.05,
+  "gold": 4117.28,
+  "silver": 60.49,
+  "platinum": 1633.7,
+  "palladium": 1266.5,
+  "copper": 6.1051,
+  "nickel": 16293.0,
+  "zinc": 3563.55,
   "lithium": 164000.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
-  "rareearth": 263.1,
+  "rareearth": 265.7,
   "antimony": 22500.0,
   "tungsten": 3050.0,
   "vanadium": 10500.0,
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "08 Jul 2026, 04:53",
+  "_last_updated": "08 Jul 2026, 07:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
       "price": 52925.15,
-      "change": -130.76,
+      "change": -130.75,
       "pct": -0.25,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Jul, 04:53",
+      "updated": "08 Jul, 07:18",
       "hist": [
         44240.76,
         44458.3,
@@ -285,31 +285,31 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -302.51,
       "pct": -1.16,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Jul, 04:53"
+      "updated": "08 Jul, 07:18"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8754.4,
-      "change": -49.5,
-      "pct": -0.56,
+      "price": 8785.1,
+      "change": -18.8,
+      "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Jul, 04:53"
+      "updated": "08 Jul, 07:18"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8688.4,
-      "change": -50.4,
-      "pct": -0.58,
+      "price": 8719.3,
+      "change": -19.5,
+      "pct": -0.22,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Jul, 04:53"
+      "updated": "08 Jul, 07:18"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10665.88,
-      "change": 14.11,
-      "pct": 0.13,
+      "price": 10607.9,
+      "change": -57.98,
+      "pct": -0.54,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "08 Jul, 04:53"
+      "updated": "08 Jul, 07:18"
     }
   }
 };
