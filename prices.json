@@ -1,11 +1,11 @@
 {
-  "gold": 4107.14,
-  "silver": 58.973,
-  "platinum": 1623.1,
-  "palladium": 1249.5,
-  "copper": 6.1814,
-  "nickel": 16536.0,
-  "zinc": 3601.95,
+  "gold": 4118.53,
+  "silver": 59.96,
+  "platinum": 1625.2,
+  "palladium": 1251.0,
+  "copper": 6.2045,
+  "nickel": 16499.0,
+  "zinc": 3613.85,
   "lithium": 158500.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "09 Jul 2026, 11:48",
+  "_last_updated": "09 Jul 2026, 14:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52348.39,
-      "change": -576.76,
-      "pct": -1.09,
+      "price": 52360.8,
+      "change": 12.41,
+      "pct": 0.02,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Jul, 11:48",
+      "updated": "09 Jul, 14:19",
       "hist": [
         44458.3,
         44650.64,
@@ -276,16 +276,17 @@
         52900.07,
         53055.91,
         52925.15,
-        52348.39
+        52348.39,
+        52360.8
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25870.65,
-      "change": 51.96,
-      "pct": 0.2,
+      "price": 25861.93,
+      "change": -8.72,
+      "pct": -0.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Jul, 11:48"
+      "updated": "09 Jul, 14:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": -22.6,
       "pct": -0.26,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Jul, 11:48"
+      "updated": "09 Jul, 14:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": -21.1,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Jul, 11:48"
+      "updated": "09 Jul, 14:19"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10431.15,
-      "change": -57.89,
-      "pct": -0.55,
+      "price": 10451.46,
+      "change": -37.58,
+      "pct": -0.36,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Jul, 11:48"
+      "updated": "09 Jul, 14:19"
     }
   }
 }
