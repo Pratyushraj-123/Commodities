@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4098.05,
-  "silver": 59.301,
-  "platinum": 1622.4,
-  "palladium": 1273.0,
-  "copper": 6.2046,
-  "nickel": 16586.0,
-  "zinc": 3586.1,
+  "gold": 4101.21,
+  "silver": 59.732,
+  "platinum": 1631.1,
+  "palladium": 1276.0,
+  "copper": 6.2224,
+  "nickel": 16739.0,
+  "zinc": 3623.35,
   "lithium": 155000.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Jul 2026, 11:38",
+  "_last_updated": "10 Jul 2026, 13:46",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52487.41,
-      "change": 139.02,
-      "pct": 0.27,
+      "price": 52526.92,
+      "change": 39.51,
+      "pct": 0.08,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Jul, 11:38",
+      "updated": "10 Jul, 13:46",
       "hist": [
         44650.64,
         44371.51,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         53055.91,
         52925.15,
         52348.39,
-        52487.41
+        52487.41,
+        52527.48
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26206.89,
-      "change": 336.24,
-      "pct": 1.3,
+      "price": 26201.04,
+      "change": -5.85,
+      "pct": -0.02,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Jul, 11:38"
+      "updated": "10 Jul, 13:46"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.5,
       "pct": 0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Jul, 11:38"
+      "updated": "10 Jul, 13:46"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.1,
       "pct": 0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Jul, 11:38"
+      "updated": "10 Jul, 13:46"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10485.76,
-      "change": 13.31,
-      "pct": 0.13,
+      "price": 10502.95,
+      "change": 30.5,
+      "pct": 0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Jul, 11:38"
+      "updated": "10 Jul, 13:46"
     }
   }
 };
