@@ -1,11 +1,11 @@
 {
-  "gold": 4047.47,
-  "silver": 58.164,
-  "platinum": 1626.4,
-  "palladium": 1263.0,
-  "copper": 6.2808,
-  "nickel": 16765.0,
-  "zinc": 3571.7,
+  "gold": 4011.81,
+  "silver": 57.973,
+  "platinum": 1622.2,
+  "palladium": 1260.5,
+  "copper": 6.2492,
+  "nickel": 16791.0,
+  "zinc": 3565.85,
   "lithium": 154000.0,
   "uranium": 85.75,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Jul 2026, 13:52",
+  "_last_updated": "13 Jul 2026, 16:16",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52725.62,
-      "change": 88.61,
-      "pct": 0.17,
+      "price": 52467.17,
+      "change": -169.84,
+      "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Jul, 13:52",
+      "updated": "13 Jul, 16:16",
       "hist": [
         44459.65,
         44023.29,
@@ -276,16 +276,16 @@
         52348.39,
         52487.41,
         52637.01,
-        52725.62
+        52465.68
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25991.81,
-      "change": -289.79,
+      "price": 25993.03,
+      "change": -288.58,
       "pct": -1.1,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Jul, 13:52"
+      "updated": "13 Jul, 16:16"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 2.5,
       "pct": 0.03,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Jul, 13:52"
+      "updated": "13 Jul, 16:16"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 0.4,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Jul, 13:52"
+      "updated": "13 Jul, 16:16"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10488.14,
-      "change": -9.15,
-      "pct": -0.09,
+      "price": 10498.29,
+      "change": 1.0,
+      "pct": 0.01,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Jul, 13:52"
+      "updated": "13 Jul, 16:16"
     }
   }
 }
