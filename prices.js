@@ -1,10 +1,10 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4063.22,
-  "silver": 58.805,
-  "platinum": 1641.8,
-  "palladium": 1306.5,
-  "copper": 6.3257,
-  "nickel": 16805.0,
+  "gold": 4050.98,
+  "silver": 58.576,
+  "platinum": 1639.4,
+  "palladium": 1304.5,
+  "copper": 6.3166,
+  "nickel": 16750.0,
   "zinc": 3597.35,
   "lithium": 154000.0,
   "uranium": 85.6,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Jul 2026, 17:53",
+  "_last_updated": "14 Jul 2026, 18:55",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52439.19,
-      "change": -59.45,
-      "pct": -0.11,
+      "price": 52489.96,
+      "change": -8.68,
+      "pct": -0.02,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Jul, 17:53",
+      "updated": "14 Jul, 18:54",
       "hist": [
         44459.65,
         44023.29,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52487.41,
         52637.01,
         52498.64,
-        52437.04
+        52489.96
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26148.65,
-      "change": 275.48,
-      "pct": 1.06,
+      "price": 26144.47,
+      "change": 271.3,
+      "pct": 1.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Jul, 17:53"
+      "updated": "14 Jul, 18:54"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Jul, 17:53"
+      "updated": "14 Jul, 18:54"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.1,
       "pct": -0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Jul, 17:53"
+      "updated": "14 Jul, 18:55"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 31.1,
       "pct": 0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Jul, 17:53"
+      "updated": "14 Jul, 18:55"
     }
   }
 };
