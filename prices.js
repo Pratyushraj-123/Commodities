@@ -1,12 +1,12 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4047.73,
-  "silver": 57.468,
-  "platinum": 1677.4,
-  "palladium": 1314.0,
-  "copper": 6.3233,
-  "nickel": 16813.0,
-  "zinc": 3556.55,
-  "lithium": 154000.0,
+  "gold": 4033.11,
+  "silver": 57.039,
+  "platinum": 1677.0,
+  "palladium": 1313.5,
+  "copper": 6.3686,
+  "nickel": 17197.0,
+  "zinc": 3574.5,
+  "lithium": 151000.0,
   "uranium": 85.25,
   "cobalt": 56290.0,
   "rareearth": 260.6,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Jul 2026, 01:12",
+  "_last_updated": "16 Jul 2026, 04:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 150.37,
       "pct": 0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 01:12",
+      "updated": "16 Jul, 04:45",
       "hist": [
         44254.78,
         44484.49,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 162.22,
       "pct": 0.62,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 01:12"
+      "updated": "16 Jul, 04:45"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8845.0,
-      "change": 3.9,
-      "pct": 0.04,
+      "price": 8820.0,
+      "change": -21.1,
+      "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 01:12"
+      "updated": "16 Jul, 04:45"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8777.5,
-      "change": 3.6,
-      "pct": 0.04,
+      "price": 8753.6,
+      "change": -20.3,
+      "pct": -0.23,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 01:12"
+      "updated": "16 Jul, 04:45"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -13.47,
       "pct": -0.13,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Jul, 01:12"
+      "updated": "16 Jul, 04:45"
     }
   }
 };
