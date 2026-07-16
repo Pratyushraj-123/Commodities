@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3995.75,
-  "silver": 56.146,
-  "platinum": 1648.9,
-  "palladium": 1275.5,
-  "copper": 6.2916,
+  "gold": 3985.04,
+  "silver": 55.706,
+  "platinum": 1635.0,
+  "palladium": 1263.0,
+  "copper": 6.2624,
   "nickel": 17140.0,
   "zinc": 3580.65,
   "lithium": 151000.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Jul 2026, 16:57",
+  "_last_updated": "16 Jul 2026, 18:00",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52701.28,
-      "change": 42.64,
-      "pct": 0.08,
+      "price": 52530.73,
+      "change": -127.91,
+      "pct": -0.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 16:57",
+      "updated": "16 Jul, 18:00",
       "hist": [
         44254.78,
         44484.49,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52498.64,
         52508.27,
         52658.64,
-        52701.28
+        52530.73
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26041.55,
-      "change": -227.67,
-      "pct": -0.87,
+      "price": 25976.13,
+      "change": -293.1,
+      "pct": -1.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 16:57"
+      "updated": "16 Jul, 18:00"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.4,
       "pct": -0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 16:57"
+      "updated": "16 Jul, 18:00"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.3,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 16:57"
+      "updated": "16 Jul, 18:00"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 56.32,
       "pct": 0.54,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Jul, 16:57"
+      "updated": "16 Jul, 18:00"
     }
   }
 };
