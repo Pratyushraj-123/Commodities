@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4029.56,
-  "silver": 57.055,
-  "platinum": 1665.2,
-  "palladium": 1302.0,
-  "copper": 6.3448,
-  "nickel": 17186.0,
-  "zinc": 3577.3,
+  "gold": 4032.31,
+  "silver": 56.923,
+  "platinum": 1676.2,
+  "palladium": 1301.5,
+  "copper": 6.3411,
+  "nickel": 17125.0,
+  "zinc": 3583.4,
   "lithium": 151000.0,
   "uranium": 85.25,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Jul 2026, 07:11",
+  "_last_updated": "16 Jul 2026, 09:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 150.34,
       "pct": 0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 07:11",
+      "updated": "16 Jul, 09:50",
       "hist": [
         44254.78,
         44484.49,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 162.23,
       "pct": 0.62,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Jul, 07:11"
+      "updated": "16 Jul, 09:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.4,
       "pct": -0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 07:11"
+      "updated": "16 Jul, 09:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.3,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Jul, 07:11"
+      "updated": "16 Jul, 09:50"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10515.92,
-      "change": 0.0,
-      "pct": 0.0,
+      "price": 10475.91,
+      "change": -40.01,
+      "pct": -0.38,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Jul, 07:11"
+      "updated": "16 Jul, 09:50"
     }
   }
 };
