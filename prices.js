@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4014.41,
-  "silver": 55.938,
-  "platinum": 1605.6,
-  "palladium": 1250.0,
-  "copper": 6.2228,
-  "nickel": 16998.0,
-  "zinc": 3518.1,
+  "gold": 4009.43,
+  "silver": 55.962,
+  "platinum": 1611.6,
+  "palladium": 1254.0,
+  "copper": 6.2224,
+  "nickel": 17015.0,
+  "zinc": 3524.6,
   "lithium": 152000.0,
   "uranium": 85.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Jul 2026, 16:04",
+  "_last_updated": "17 Jul 2026, 17:53",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52417.12,
-      "change": -135.85,
-      "pct": -0.26,
+      "price": 52273.19,
+      "change": -279.78,
+      "pct": -0.53,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Jul, 16:04",
+      "updated": "17 Jul, 17:53",
       "hist": [
         44484.49,
         44342.19,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52508.27,
         52658.64,
         52552.97,
-        52417.12
+        52273.19
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25558.84,
-      "change": -323.1,
-      "pct": -1.25,
+      "price": 25608.99,
+      "change": -272.96,
+      "pct": -1.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Jul, 16:04"
+      "updated": "17 Jul, 17:53"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -44.0,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Jul, 16:04"
+      "updated": "17 Jul, 17:53"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -48.5,
       "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Jul, 16:04"
+      "updated": "17 Jul, 17:53"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.13,
       "pct": 0.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Jul, 16:04"
+      "updated": "17 Jul, 17:53"
     }
   }
 };
