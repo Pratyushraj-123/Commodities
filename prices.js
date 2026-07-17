@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3970.08,
-  "silver": 55.21,
-  "platinum": 1577.9,
-  "palladium": 1238.5,
-  "copper": 6.1574,
-  "nickel": 16831.0,
-  "zinc": 3512.55,
+  "gold": 4001.01,
+  "silver": 55.856,
+  "platinum": 1591.4,
+  "palladium": 1249.0,
+  "copper": 6.202,
+  "nickel": 16926.0,
+  "zinc": 3518.8,
   "lithium": 152000.0,
   "uranium": 85.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Jul 2026, 12:53",
+  "_last_updated": "17 Jul 2026, 14:21",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52552.97,
-      "change": -105.67,
-      "pct": -0.2,
+      "price": 52560.89,
+      "change": 7.92,
+      "pct": 0.02,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Jul, 12:53",
+      "updated": "17 Jul, 14:21",
       "hist": [
         44484.49,
         44342.19,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52498.64,
         52508.27,
         52658.64,
-        52552.97
+        52552.97,
+        52560.89
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25881.95,
-      "change": -387.28,
-      "pct": -1.47,
+      "price": 25558.33,
+      "change": -323.62,
+      "pct": -1.25,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Jul, 12:53"
+      "updated": "17 Jul, 14:21"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -44.0,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Jul, 12:53"
+      "updated": "17 Jul, 14:21"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -48.5,
       "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Jul, 12:53"
+      "updated": "17 Jul, 14:21"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10572.94,
-      "change": 0.7,
-      "pct": 0.01,
+      "price": 10580.22,
+      "change": 7.98,
+      "pct": 0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Jul, 12:53"
+      "updated": "17 Jul, 14:21"
     }
   }
 };
