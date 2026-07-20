@@ -1,9 +1,12 @@
 import urllib.request
+import urllib.parse
 import ssl
 import re
 import json
 import time
 import os
+import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 
 JS_FILE = "prices.js"
 JSON_FILE = "prices.json"
@@ -43,6 +46,28 @@ INDEX_TICKERS = {
     "asx200": {"name": "ASX 200", "ticker": "^AXJO", "flag": "🇦🇺"},
     "asx300": {"name": "ASX 300", "ticker": "^AXKO", "flag": "🇦🇺"},
     "ftse": {"name": "FTSE 100", "ticker": "^FTSE", "flag": "🇬🇧"}
+}
+
+SELECTED_ASX_COMPANIES = {
+    "PC2": "PC Gold", "TM1": "Terra Metals", "FRS": "Forrestania Resources",
+    "BNZ": "BENZ Mining Corp", "MM1": "Midas Minerals", "BCN": "Beacon Minerals",
+    "SLS": "Solstice Minerals", "MM8": "Medallion Metals", "WTM": "Waratah Minerals Ltd",
+    "LRV": "Larvotto Resources", "TVN": "Tivan Ltd", "TGN": "Tungsten Mining",
+    "EQR": "EQ Resources Ltd", "ENR": "Encounter Resources", "MI6": "Minerals 260",
+    "OBM": "Ora Banda Mining Ltd", "DVP": "Develop Global", "CYL": "Catalyst Metals",
+    "SPD": "Southern Palladium", "BGD": "Barton Gold Holdings", "AZY": "Antipa Minerals",
+    "STN": "Saturn Metals Ltd", "MKR": "Manuka Resources", "CRS": "Caprice Resources",
+    "TNC": "True North Copper", "GML": "Gateway Mining Ltd", "AQI": "Alicanto Minerals Ltd",
+    "GA8": "Goldarc Resources", "SKY": "SKY Metals Ltd", "BCA": "Black Canyon Ltd",
+    "CBE": "Cobre Ltd", "USL": "Unico Silver Ltd", "BM1": "Ballard Mining Ltd",
+    "LM1": "Leeuwin Metals Ltd", "FFM": "Firefly Metals Ltd", "BRE": "Brazilian Rare Earths Ltd",
+    "LIN": "Lindian Resources Ltd", "CYM": "Cyprium Metals", "SGQ": "ST George Mining",
+    "BPM": "BPM Minerals", "BMR": "Ballymore Resources", "FML": "Focus Minerals",
+    "TTM": "Titan Minerals", "NMR": "Native Mineral Resources", "LSA": "Lachlan Star Ltd",
+    "SKS": "SKS Technologies Group Ltd", "MP1": "Megaport Ltd", "EDU": "EDU Holdings Ltd",
+    "GNP": "Genusplus Group Ltd", "4DX": "4DMEDICAL Ltd", "PME": "Pro Medicus Ltd",
+    "EIQ": "Echoiq Ltd", "NEU": "Neuren Pharmaceuticals Ltd", "LTR": "Liontown Ltd",
+    "PLS": "PLS Group Ltd", "WC8": "Wildcat Resources Ltd"
 }
 
 def load_stored_prices():
@@ -152,11 +177,97 @@ def fetch_index_history(ticker):
         print(f"Error fetching history for {ticker}: {e}")
         return None
 
+def fetch_single_stock_quote(code, name):
+    ticker = f"{code}.AX"
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=5.0) as response:
+            data = json.loads(response.read().decode())
+            meta = data['chart']['result'][0]['meta']
+            price = float(meta.get('regularMarketPrice', 0))
+            prev_close = float(meta.get('chartPreviousClose', 0))
+            change = price - prev_close
+            pct = (change / prev_close) * 100 if prev_close else 0
+            return code, {
+                "name": name,
+                "code": code,
+                "price": round(price, 3),
+                "change": round(change, 3),
+                "pct": round(pct, 2)
+            }
+    except Exception:
+        return code, None
+
+def fetch_watchlist_prices():
+    print(f"Fetching quotes for {len(SELECTED_ASX_COMPANIES)} ASX watchlist companies...")
+    watchlist = {}
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = [executor.submit(fetch_single_stock_quote, code, name) for code, name in SELECTED_ASX_COMPANIES.items()]
+        for future in futures:
+            code, res = future.result()
+            if res:
+                watchlist[code] = res
+    print(f"Watchlist fetch completed: {len(watchlist)} / {len(SELECTED_ASX_COMPANIES)} stocks updated.")
+    return watchlist
+
+def fetch_asx_announcements():
+    print(f"Fetching ASX company announcements for {len(SELECTED_ASX_COMPANIES)} selected companies...")
+    codes = list(SELECTED_ASX_COMPANIES.keys())
+    chunk_size = 20
+    all_articles = []
+    
+    for i in range(0, len(codes), chunk_size):
+        chunk = codes[i:i+chunk_size]
+        query_str = " OR ".join([f"ASX:{c}" for c in chunk])
+        encoded_query = urllib.parse.quote(f"({query_str})")
+        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-AU&gl=AU&ceid=AU:en"
+        
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, context=ctx, timeout=8.0) as response:
+                xml_data = response.read().decode('utf-8', errors='ignore')
+                root = ET.fromstring(xml_data)
+                items = root.findall('./channel/item')
+                for item in items:
+                    title = item.findtext('title') or ""
+                    link = item.findtext('link') or ""
+                    pubDate = item.findtext('pubDate') or ""
+                    
+                    matched_code = "ASX"
+                    for c in chunk:
+                        if c in title or f"({c})" in title:
+                            matched_code = c
+                            break
+                    all_articles.append({
+                        "code": matched_code,
+                        "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
+                        "title": title,
+                        "link": link,
+                        "date": pubDate
+                    })
+        except Exception as e:
+            print(f"Error fetching announcements chunk {i}: {e}")
+            
+    print(f"Announcements fetch completed: {len(all_articles)} headlines collected.")
+    return all_articles[:15]
+
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")
     prices = load_stored_prices()
     
     usd_cny = fetch_usd_cny()
+    
+    # Scrape 56 ASX watchlist stock quotes and announcements
+    try:
+        prices["watchlist"] = fetch_watchlist_prices()
+    except Exception as e:
+        print(f"Error updating watchlist: {e}")
+        
+    try:
+        prices["announcements"] = fetch_asx_announcements()
+    except Exception as e:
+        print(f"Error updating announcements: {e}")
     
     # Clean up any indexes that are no longer in INDEX_TICKERS
     if "indexes" in prices:
@@ -192,28 +303,56 @@ def run_scraper():
         with urllib.request.urlopen(req, context=ctx, timeout=8.0) as response:
             html = response.read().decode('utf-8', errors='ignore')
             
-            # Simple regex to extract name and price from TE table
+            # Extract name, price, change, and pct change from TE table
             pattern = re.compile(
-                r'href="/commodity/([^"]+)"[^>]*>.*?<b>([^<]+)</b>.*?<td id="p" class="datatable-item"[^>]*>\s*([\d,.]+)\s*</td>',
+                r'href="/commodity/([^"]+)"[^>]*>.*?<b>([^<]+)</b>.*?<td id="p" class="datatable-item"[^>]*>\s*([\d,.]+)\s*td>\s*<td id="nch"[^>]*>.*?([-\d,.]+)\s*</td>\s*<td id="pch"[^>]*>.*?([-\d,.]+)\s*%?\s*</td>',
                 re.DOTALL | re.IGNORECASE
             )
             
             matches = pattern.findall(html)
-            te_data = {}
-            for path, name, val in matches:
-                clean_val_str = re.sub(r'[^\d.]', '', val.strip())
+            te_data, te_chg, te_pct = {}, {}, {}
+            for path, name, val, chg, pchg in matches:
+                c_val = re.sub(r'[^\d.]', '', val.strip())
+                c_chg = re.sub(r'[^\d.-]', '', chg.strip())
+                c_pct = re.sub(r'[^\d.-]', '', pchg.strip())
                 try:
-                    te_data[path.lower()] = float(clean_val_str)
+                    p_key = path.lower()
+                    te_data[p_key] = float(c_val)
+                    te_chg[p_key] = float(c_chg) if c_chg else 0.0
+                    te_pct[p_key] = float(c_pct) if c_pct else 0.0
                 except ValueError:
                     pass
             
             if not te_data:
+                # Fallback simple regex if table structure differs
+                pattern_simple = re.compile(
+                    r'href="/commodity/([^"]+)"[^>]*>.*?<b>([^<]+)</b>.*?<td id="p" class="datatable-item"[^>]*>\s*([\d,.]+)\s*</td>',
+                    re.DOTALL | re.IGNORECASE
+                )
+                for path, name, val in pattern_simple.findall(html):
+                    c_val = re.sub(r'[^\d.]', '', val.strip())
+                    try:
+                        te_data[path.lower()] = float(c_val)
+                    except ValueError:
+                        pass
+                        
+            if not te_data:
                 raise Exception("Failed to parse any commodity data from Trading Economics HTML.")
             
-            # Apply mappings and conversions
-            # 1. Gold (USD/oz)
-            if "gold" in te_data:
-                prices["gold"] = te_data["gold"]
+            # Map metals with daily change & percentage change
+            metals_keys = [
+                ("gold", "gold"), ("silver", "silver"), ("platinum", "platinum"), ("palladium", "palladium"),
+                ("copper", "copper"), ("nickel", "nickel"), ("zinc", "zinc"), ("lithium", "lithium"),
+                ("uranium", "uranium"), ("cobalt", "cobalt"), ("rareearth", "neodymium"),
+                ("antimony", "antimony"), ("tungsten", "tungsten"), ("vanadium", "vanadium"),
+                ("niobium", "niobium"), ("titanium", "titanium"), ("fluorite", "fluorite")
+            ]
+            
+            for m_id, te_k in metals_keys:
+                if te_k in te_data:
+                    prices[m_id] = te_data[te_k]
+                    prices[f"{m_id}_change"] = te_chg.get(te_k, 0.0)
+                    prices[f"{m_id}_pct"] = te_pct.get(te_k, 0.0)
             
             # 2. Silver (USD/oz)
             if "silver" in te_data:

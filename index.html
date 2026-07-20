@@ -306,6 +306,27 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
           <!-- Dynamically populated stock index rows -->
         </div>
       </div>
+
+      <!-- 56 ASX Stock Watchlist Card -->
+      <div class="sidebar-card" style="margin-top: 16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
+          <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">⛏️ Company Watchlist</h3>
+          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">56 ASX Stocks</span>
+        </div>
+        <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 56 companies..." onkeyup="filterWatchlist()" 
+               style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
+        <div id="watchlistContainer" style="max-height: 280px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px;">
+          <!-- Dynamically populated 56 ASX stock quotes -->
+        </div>
+      </div>
+
+      <!-- ASX Announcements Feed Card -->
+      <div class="sidebar-card" style="margin-top: 16px;">
+        <h3 class="sidebar-title">📰 ASX Announcements & News</h3>
+        <div id="announcementsContainer" style="max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+          <!-- Dynamically populated company announcements feed -->
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -806,11 +827,13 @@ function buildPanel(m){
       <div class="hprice">
         <div class="pval" id="pv_${m.id}" style="color:${m.color}">${fN(p, m.unit)}</div>
         <div class="punit">${m.unit}</div>
+        <div id="pchg_${m.id}" style="font-size:11px; font-weight:600; font-family:var(--mo); margin-top:3px;"></div>
         <div class="pdate" id="pd_${m.id}">${d} · ${m.src}</div>
       </div>
     </div>
-    <div class="mets">
+    <div class="mets" style="grid-template-columns:repeat(5,1fr);">
       <div class="met"><div class="ml">Current Price</div><div class="mv" id="mp_${m.id}" style="color:${m.color}">${fN(p, m.unit)}</div><div class="ms">${m.unit}</div></div>
+      <div class="met"><div class="ml">Daily Move</div><div class="mv" id="mdchg_${m.id}">--</div><div class="ms" id="mdpct_${m.id}">Today's Move</div></div>
       <div class="met"><div class="ml">10-Year Change</div><div class="mv ${pc.up?'up-c':'dn-c'}">${pc.up?'+':'-'}${pc.v}%</div><div class="ms">2016 → 2026</div></div>
       <div class="met"><div class="ml">Market Size 2026</div><div class="mv">$${ms}B</div><div class="ms">USD Billion est.</div></div>
       <div class="met"><div class="ml">Demand Growth</div><div class="mv ${dc.up?'up-c':'dn-c'}">${dc.up?'+':'-'}${dc.v}%</div><div class="ms">10-yr cumulative</div></div>
@@ -931,6 +954,29 @@ function applyApiPrices(apiPrices) {
     if (apiPrices[m.id] !== undefined) {
       m.price = apiPrices[m.id];
     }
+    
+    // Update Daily Change & Percentage Change
+    const chgEl = document.getElementById('pchg_' + m.id);
+    const mdChgEl = document.getElementById('mdchg_' + m.id);
+    const mdPctEl = document.getElementById('mdpct_' + m.id);
+    
+    const chg = apiPrices[m.id + '_change'] || 0;
+    const pct = apiPrices[m.id + '_pct'] || 0;
+    const isUp = pct >= 0;
+    const sign = isUp ? '▲ +' : '▼ ';
+    const colorClass = isUp ? 'up-c' : 'dn-c';
+    
+    if (chgEl && (chg !== 0 || pct !== 0)) {
+      chgEl.className = colorClass;
+      chgEl.textContent = `${sign}${Math.abs(pct).toFixed(2)}% Today`;
+    }
+    if (mdChgEl && (chg !== 0 || pct !== 0)) {
+      mdChgEl.className = 'mv ' + colorClass;
+      mdChgEl.textContent = `${sign}${Math.abs(pct).toFixed(2)}%`;
+    }
+    if (mdPctEl && (chg !== 0 || pct !== 0)) {
+      mdPctEl.textContent = `${isUp ? '+' : ''}${chg.toFixed(2)} move`;
+    }
   });
   
   // Render stock indexes if present
@@ -938,6 +984,16 @@ function applyApiPrices(apiPrices) {
     renderIndexCards(apiPrices.indexes);
   } else {
     renderIndexCards(window.FALLBACK_INDEX_PRICES);
+  }
+  
+  // Render 56 ASX Watchlist stocks if present
+  if (apiPrices.watchlist) {
+    renderWatchlistCards(apiPrices.watchlist);
+  }
+  
+  // Render 56 ASX Announcements if present
+  if (apiPrices.announcements) {
+    renderAnnouncements(apiPrices.announcements);
   }
   
   if (apiPrices._last_updated) {
@@ -1185,6 +1241,100 @@ function renderIndexCards(indexes) {
       </div>
     `;
     container.appendChild(row);
+  });
+}
+
+// ── 56 ASX STOCK WATCHLIST & ANNOUNCEMENTS RENDERING ──
+window.CURRENT_WATCHLIST = null;
+
+function renderWatchlistCards(watchlist) {
+  const container = document.getElementById('watchlistContainer');
+  if (!container) return;
+  window.CURRENT_WATCHLIST = watchlist;
+  filterWatchlist();
+}
+
+function filterWatchlist() {
+  const container = document.getElementById('watchlistContainer');
+  if (!container || !window.CURRENT_WATCHLIST) return;
+  
+  const searchVal = (document.getElementById('watchlistSearchInp')?.value || '').toLowerCase().trim();
+  container.innerHTML = '';
+  
+  const codes = Object.keys(window.CURRENT_WATCHLIST);
+  let count = 0;
+  
+  codes.forEach(code => {
+    const item = window.CURRENT_WATCHLIST[code];
+    if (!item) return;
+    
+    const matchSearch = !searchVal || code.toLowerCase().includes(searchVal) || (item.name && item.name.toLowerCase().includes(searchVal));
+    if (!matchSearch) return;
+    
+    count++;
+    const isUp = (item.pct || 0) >= 0;
+    const sign = isUp ? '▲ +' : '▼ ';
+    const colorClass = isUp ? 'idx-up' : 'idx-dn';
+    
+    const row = document.createElement('div');
+    row.className = 'index-row';
+    row.style.paddingBottom = '6px';
+    row.style.marginBottom = '4px';
+    row.innerHTML = `
+      <div class="index-info">
+        <div class="index-name-container">
+          <span style="font-size:10px; font-weight:700; background:var(--s2); border:1px solid var(--bd2); padding:1px 5px; border-radius:3px; font-family:var(--mo); color:var(--ac);">${code}</span>
+          <span class="index-name" style="font-size:12px;">${item.name}</span>
+        </div>
+      </div>
+      <div class="index-stats">
+        <span class="index-val" style="font-size:13px;">A$${(item.price || 0).toFixed(3)}</span>
+        <span class="index-change ${colorClass}" style="font-size:9px;">
+          ${sign}${Math.abs(item.pct || 0).toFixed(2)}%
+        </span>
+      </div>
+    `;
+    container.appendChild(row);
+  });
+  
+  if (count === 0) {
+    container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0; text-align:center;">No matching companies found.</div>`;
+  }
+}
+
+function renderAnnouncements(items) {
+  const container = document.getElementById('announcementsContainer');
+  if (!container) return;
+  container.innerHTML = '';
+  
+  if (!items || items.length === 0) {
+    container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0;">No recent company announcements.</div>`;
+    return;
+  }
+  
+  items.forEach(item => {
+    const card = document.createElement('a');
+    card.href = item.link || '#';
+    card.target = '_blank';
+    card.style.textDecoration = 'none';
+    card.style.color = 'inherit';
+    card.style.background = 'var(--s2)';
+    card.style.border = '1px solid var(--bd)';
+    card.style.borderRadius = '5px';
+    card.style.padding = '8px 10px';
+    card.style.display = 'block';
+    card.style.transition = 'all 0.12s';
+    card.onmouseover = () => { card.style.borderColor = 'var(--ac)'; };
+    card.onmouseout = () => { card.style.borderColor = 'var(--bd)'; };
+    
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+        <span style="font-size:9px; font-weight:700; background:var(--ac); color:#000; padding:1px 5px; border-radius:3px; font-family:var(--mo);">${item.code || 'ASX'}</span>
+        <span style="font-size:9px; color:var(--mu); font-family:var(--mo);">${item.date ? item.date.replace(/GMT.*$/, '').trim() : ''}</span>
+      </div>
+      <div style="font-size:11px; font-weight:500; color:var(--tx); line-height:1.4;">${item.title}</div>
+    `;
+    container.appendChild(card);
   });
 }
 
