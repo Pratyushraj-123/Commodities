@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4005.84,
-  "silver": 56.25,
-  "platinum": 1595.5,
-  "palladium": 1255.0,
-  "copper": 6.2915,
+  "gold": 4007.76,
+  "silver": 56.315,
+  "platinum": 1598.7,
+  "palladium": 1257.0,
+  "copper": 6.3,
   "nickel": 16910.0,
   "zinc": 3515.3,
   "lithium": 151500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 22:42",
+  "_last_updated": "20 Jul 2026, 23:43",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -307.16,
       "pct": -0.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 22:42",
+      "updated": "20 Jul, 23:43",
       "hist": [
         44323.07,
         44502.44,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -12.17,
       "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 22:42"
+      "updated": "20 Jul, 23:43"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 22:42"
+      "updated": "20 Jul, 23:43"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 22:42"
+      "updated": "20 Jul, 23:43"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -75.61,
       "pct": -0.71,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 22:42"
+      "updated": "20 Jul, 23:43"
     }
   },
   "watchlist": {
@@ -717,7 +717,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates",
+      "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "20 Jul 2026"
     },
@@ -741,18 +741,25 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "St George Mining (ASX: SGQ) Announces Investor Webinar on Arax\u00e1 Niobium-Rare Earths Project Update",
       "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "20 Jul 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "Evolution Mining (ASX:EVN), Mineral Resources (ASX:MIN) and PLS Group (ASX:PLS) Face Fresh Chart Pressure",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "20 Jul 2026"
     }
   ],
-  "gold_change": 11.11,
-  "gold_pct": -0.28,
-  "silver_change": 0.35,
-  "silver_pct": 0.63,
-  "platinum_change": 17.0,
-  "platinum_pct": -1.05,
-  "palladium_change": 2.0,
-  "palladium_pct": 0.16,
-  "copper_change": 0.0715,
-  "copper_pct": 1.15,
+  "gold_change": 9.19,
+  "gold_pct": -0.23,
+  "silver_change": 0.415,
+  "silver_pct": 0.74,
+  "platinum_change": 13.8,
+  "platinum_pct": -0.86,
+  "palladium_change": 4.0,
+  "palladium_pct": 0.32,
+  "copper_change": 0.08,
+  "copper_pct": 1.29,
   "nickel_change": 135.0,
   "nickel_pct": -0.79,
   "zinc_change": 9.5,
