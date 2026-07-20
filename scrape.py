@@ -223,19 +223,24 @@ def fetch_asx_announcements():
     from concurrent.futures import ThreadPoolExecutor
     
     now = datetime.datetime.now()
-    today_str = now.strftime("%d %b %Y")                                     # e.g., "20 Jul 2026"
-    yesterday_str = (now - datetime.timedelta(days=1)).strftime("%d %b %Y")  # e.g., "19 Jul 2026"
+    today_day_str = now.strftime("%d")            # e.g., "20"
+    today_mon_str = now.strftime("%b")            # e.g., "Jul"
+    today_year_str = now.strftime("%Y")          # e.g., "2026"
+    today_full_date = f"{today_day_str} {today_mon_str} {today_year_str}"
     
-    MEDIA_COMMENTARY_PHRASES = [
-        "why is", "turning heads", "share price in focus", "retreats", "slips",
+    MEDIA_COMMENTARY_EXCLUSIONS = [
+        "why is", "turning heads", "back in focus", "share price in focus", "retreats", "slips",
         "shares jump", "shares fall", "shares slide", "facing a", "under pressure",
         "caught in the", "takes a breather", "is the exploration story", "what today",
-        "dips alongside", "surges to the top", "whats behind"
+        "dips alongside", "surges to the top", "whats behind", "breakdown risk",
+        "leading the ai", "fair value debate", "is it a buy", "head & shoulders",
+        "latest gain"
     ]
     
-    print(f"Fetching genuine official ASX company announcements released TODAY ({today_str})...")
+    print(f"Fetching genuine official ASX company announcements released TODAY ({today_full_date})...")
     
-    def fetch_single_ticker(code):
+    def check_company_today(item):
+        code, name = item
         url = f"https://news.google.com/rss/search?q={urllib.parse.quote(f'\"ASX:{code}\" OR \"{code}.AX\"')}&hl=en-AU&gl=AU&ceid=AU:en"
         req = urllib.request.Request(url, headers=headers)
         found = []
@@ -244,27 +249,27 @@ def fetch_asx_announcements():
                 xml_data = response.read().decode('utf-8', errors='ignore')
                 root = ET.fromstring(xml_data)
                 items = root.findall('./channel/item')
-                for item in items:
-                    raw_title = item.findtext('title') or ""
-                    pubDate = item.findtext('pubDate') or ""
+                for it in items:
+                    raw_title = it.findtext('title') or ""
+                    pubDate = it.findtext('pubDate') or ""
                     title_lower = raw_title.lower()
                     
-                    # Filter strictly for today's trading day window (including GMT shift)
-                    is_recent = (today_str in pubDate) or (yesterday_str in pubDate)
-                    if not is_recent:
+                    # STRICT DATE CHECK: Must match exact current day & month
+                    is_exact_today = (today_full_date in pubDate) or (f"{today_day_str} {today_mon_str}" in pubDate)
+                    if not is_exact_today:
                         continue
                         
                     # Filter out media commentary
-                    if any(phrase in title_lower for phrase in MEDIA_COMMENTARY_PHRASES):
+                    if any(ex in title_lower for ex in MEDIA_COMMENTARY_EXCLUSIONS):
                         continue
                         
                     clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
                     found.append({
                         "code": code,
-                        "name": SELECTED_ASX_COMPANIES.get(code, code),
+                        "name": name,
                         "title": clean_title,
                         "link": f"https://www.marketindex.com.au/asx/{code.lower()}/announcements",
-                        "date": pubDate[:16] if pubDate else today_str
+                        "date": today_full_date
                     })
         except Exception as e:
             pass
@@ -274,7 +279,7 @@ def fetch_asx_announcements():
     seen_codes = set()
     
     with ThreadPoolExecutor(max_workers=20) as executor:
-        results = executor.map(fetch_single_ticker, list(SELECTED_ASX_COMPANIES.keys()))
+        results = executor.map(check_company_today, list(SELECTED_ASX_COMPANIES.items()))
         for res in results:
             for item in res:
                 code = item["code"]
@@ -282,7 +287,7 @@ def fetch_asx_announcements():
                     seen_codes.add(code)
                     all_announcements.append(item)
                     
-    print(f"Announcements fetch completed: {len(all_announcements)} companies released announcements TODAY.")
+    print(f"Announcements fetch completed: {len(all_announcements)} companies released official announcements TODAY ({today_full_date}).")
     return all_announcements
 
 def run_scraper():
