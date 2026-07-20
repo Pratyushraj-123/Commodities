@@ -1,12 +1,12 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4014.96,
-  "silver": 56.986,
-  "platinum": 1610.7,
-  "palladium": 1245.0,
-  "copper": 6.2539,
-  "nickel": 17015.0,
-  "zinc": 3535.1,
-  "lithium": 152000.0,
+  "gold": 4012.23,
+  "silver": 56.726,
+  "platinum": 1601.6,
+  "palladium": 1245.5,
+  "copper": 6.2314,
+  "nickel": 17036.0,
+  "zinc": 3529.4,
+  "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
   "rareearth": 260.6,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 02:43",
+  "_last_updated": "20 Jul 2026, 05:23",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -406.58,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 02:43",
+      "updated": "20 Jul, 05:23",
       "hist": [
         44342.19,
         44323.07,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -361.66,
       "pct": -1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 02:43"
+      "updated": "20 Jul, 05:23"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8794.0,
-      "change": -2.7,
-      "pct": -0.03,
+      "price": 8811.2,
+      "change": 14.5,
+      "pct": 0.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 02:43"
+      "updated": "20 Jul, 05:23"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8722.8,
-      "change": -2.9,
-      "pct": -0.03,
+      "price": 8740.1,
+      "change": 14.4,
+      "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 02:43"
+      "updated": "20 Jul, 05:23"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.17,
       "pct": 0.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 02:43"
+      "updated": "20 Jul, 05:23"
     }
   }
 };
