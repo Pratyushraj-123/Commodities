@@ -1,11 +1,11 @@
 {
-  "gold": 4018.76,
-  "silver": 56.961,
-  "platinum": 1611.3,
-  "palladium": 1262.0,
-  "copper": 6.2802,
-  "nickel": 16998.0,
-  "zinc": 3520.5,
+  "gold": 4023.03,
+  "silver": 57.09,
+  "platinum": 1615.2,
+  "palladium": 1265.0,
+  "copper": 6.2719,
+  "nickel": 16937.0,
+  "zinc": 3522.33,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 13:18",
+  "_last_updated": "20 Jul 2026, 08:30",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -406.58,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 13:18",
+      "updated": "20 Jul, 08:30",
       "hist": [
         44342.19,
         44323.07,
@@ -285,7 +285,7 @@
       "change": -361.66,
       "pct": -1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 13:18"
+      "updated": "20 Jul, 08:30"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 13:18"
+      "updated": "20 Jul, 08:30"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 13:18"
+      "updated": "20 Jul, 08:30"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10545.97,
-      "change": -54.4,
-      "pct": -0.51,
+      "price": 10569.03,
+      "change": -31.34,
+      "pct": -0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 13:18"
+      "updated": "20 Jul, 08:30"
     }
   },
   "watchlist": {
@@ -724,9 +724,9 @@
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources Ltd (ASX:EQR) Surges to the Top of the ASX Leaderboard \u2014 What's Behind the Move? - Kalkine",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmpZenRBU3ZySWlrbjlXaVM0MTRZU1ZJdWV3LVpSX0hPQXVuVTlnX2gzM1ctUjZCelZ5SlRsU044dDJPc3FJT0Z4ZDZuN0lJS09qa2twSGZFZmIyWTFNaEFiTkhHUlJjTThYZzM5VGQ3YkRISURocjVMUzZZRlY5MVIyNVFlX1VkYlZvaFRBUGFncllFSkMtd1RrRno4MTQ5OXF3V1ZjUm00NlZ3ZTlZQWVnci16cmF2TDV4ZEdR?oc=5",
-      "date": "Mon, 20 Jul 2026 02:41:00 GMT"
+      "title": "EQ Resources (ASX:EQR) Revenue Reaches A$44.53M\u2014Is Its Tungsten Growth Story Gathering Momentum? - Kalkine",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa0kyRTVCMDBlQWstMGt5TWo3RURMNUxRRlY4WU1CT1JXdkZ1bEFMTTNVRjY3WDBJWDlOQUVka2V4bDRrYVAxNEtwY0pZZm13NFFXQTBKNF9OVXJiU1pfRURjdHlneGJ3VDlWMnVwdTlyRm05WEVoUVNPWFBiLVVZalhzd3NraUNHcWtRTmNGMHRaYWl5d1hPenpZdlRnYjZEN2pVUVpPVXpuUWpIZjRCeXJqeW9tV01ZdkFpSU9Kem0teDN4UDBxb2N3?oc=5",
+      "date": "Mon, 20 Jul 2026 05:04:00 GMT"
     },
     {
       "code": "OBM",
@@ -738,9 +738,9 @@
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Revenue Reaches A$44.53M\u2014Is Its Tungsten Growth Story Gathering Momentum? - Kalkine",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa0kyRTVCMDBlQWstMGt5TWo3RURMNUxRRlY4WU1CT1JXdkZ1bEFMTTNVRjY3WDBJWDlOQUVka2V4bDRrYVAxNEtwY0pZZm13NFFXQTBKNF9OVXJiU1pfRURjdHlneGJ3VDlWMnVwdTlyRm05WEVoUVNPWFBiLVVZalhzd3NraUNHcWtRTmNGMHRaYWl5d1hPenpZdlRnYjZEN2pVUVpPVXpuUWpIZjRCeXJqeW9tV01ZdkFpSU9Kem0teDN4UDBxb2N3?oc=5",
-      "date": "Mon, 20 Jul 2026 05:04:00 GMT"
+      "title": "EQ Resources Ltd (ASX:EQR) Surges to the Top of the ASX Leaderboard \u2014 What's Behind the Move? - Kalkine",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmpZenRBU3ZySWlrbjlXaVM0MTRZU1ZJdWV3LVpSX0hPQXVuVTlnX2gzM1ctUjZCelZ5SlRsU044dDJPc3FJT0Z4ZDZuN0lJS09qa2twSGZFZmIyWTFNaEFiTkhHUlJjTThYZzM5VGQ3YkRISURocjVMUzZZRlY5MVIyNVFlX1VkYlZvaFRBUGFncllFSkMtd1RrRno4MTQ5OXF3V1ZjUm00NlZ3ZTlZQWVnci16cmF2TDV4ZEdR?oc=5",
+      "date": "Mon, 20 Jul 2026 02:41:00 GMT"
     },
     {
       "code": "FRS",
