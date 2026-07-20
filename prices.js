@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4023.03,
-  "silver": 57.09,
-  "platinum": 1615.2,
-  "palladium": 1265.0,
-  "copper": 6.2719,
-  "nickel": 16937.0,
-  "zinc": 3522.33,
+  "gold": 4022.19,
+  "silver": 56.944,
+  "platinum": 1606.2,
+  "palladium": 1269.5,
+  "copper": 6.2805,
+  "nickel": 17020.0,
+  "zinc": 3533.35,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 08:30",
+  "_last_updated": "20 Jul 2026, 11:31",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -406.58,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 08:30",
+      "updated": "20 Jul, 11:30",
       "hist": [
         44342.19,
         44323.07,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -361.66,
       "pct": -1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 08:30"
+      "updated": "20 Jul, 11:30"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 08:30"
+      "updated": "20 Jul, 11:30"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 08:30"
+      "updated": "20 Jul, 11:30"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10569.03,
-      "change": -31.34,
-      "pct": -0.3,
+      "price": 10561.13,
+      "change": -39.24,
+      "pct": -0.37,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 08:30"
+      "updated": "20 Jul, 11:30"
     }
   },
   "watchlist": {
@@ -710,9 +710,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates - Kalkine",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWTlhUzA0YzFjYXNNUmNzYXYxSzgzN2tqZFRPSVIyMnJjaEJQSk5feWtZazJVYXNXbEdGNG5BTUR0anlBOFJjcm5nODc3WHlwWmlnaDdJRC1WbF9yUTJhYmJUVlVUeU03b2tybWI2UE1BOHVrOEdxa2R6U0RtSHdOQWZuSmVwWmdJQVpILTJ2ejV6QWJDU1ZZdUs0SGkzc0VlWU45d1ZyR0k5cENjaXNSMnZrcXp6UzRUUE9Z?oc=5",
-      "date": "Mon, 20 Jul 2026 05:59:00 GMT"
+      "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring - Kalkine",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1MyTlFCZ3haQnEzZ21SZEZtUUFTNEF4MWVFZVVlY3ZOY25GT2ppX1UtUTNnSUlsb3NsVTVyQlFCaWM0YW5pNHg0MjVoMnZDbjJaalQ2U2lNcy1ldjJ1N2lFb3p0T1M1aERIVnotTUptNFBEXzVyb1hTcnFhdF9pR0FQZnlhUjB1WnJJeDRiOFE5LTJhTXd4bFBETnE4Ni05YU9iOEpHNDJzb2NrYVZ3YU02UUt0OUszUUEtM3hXUHhRb2Y0c2ZMQjNmX0ZTMUc4Q0NZdDBjcXJXRWtveWdlUFN3?oc=5",
+      "date": "Mon, 20 Jul 2026 09:49:00 GMT"
     },
     {
       "code": "EQR",
@@ -724,16 +724,16 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
+      "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates - Kalkine",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWTlhUzA0YzFjYXNNUmNzYXYxSzgzN2tqZFRPSVIyMnJjaEJQSk5feWtZazJVYXNXbEdGNG5BTUR0anlBOFJjcm5nODc3WHlwWmlnaDdJRC1WbF9yUTJhYmJUVlVUeU03b2tybWI2UE1BOHVrOEdxa2R6U0RtSHdOQWZuSmVwWmdJQVpILTJ2ejV6QWJDU1ZZdUs0SGkzc0VlWU45d1ZyR0k5cENjaXNSMnZrcXp6UzRUUE9Z?oc=5",
+      "date": "Mon, 20 Jul 2026 05:59:00 GMT"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
       "title": "EQ Resources (ASX:EQR) Revenue Reaches A$44.53M\u2014Is Its Tungsten Growth Story Gathering Momentum? - Kalkine",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa0kyRTVCMDBlQWstMGt5TWo3RURMNUxRRlY4WU1CT1JXdkZ1bEFMTTNVRjY3WDBJWDlOQUVka2V4bDRrYVAxNEtwY0pZZm13NFFXQTBKNF9OVXJiU1pfRURjdHlneGJ3VDlWMnVwdTlyRm05WEVoUVNPWFBiLVVZalhzd3NraUNHcWtRTmNGMHRaYWl5d1hPenpZdlRnYjZEN2pVUVpPVXpuUWpIZjRCeXJqeW9tV01ZdkFpSU9Kem0teDN4UDBxb2N3?oc=5",
       "date": "Mon, 20 Jul 2026 05:04:00 GMT"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Why Is Ora Banda Mining (ASX:OBM) Turning Heads Right Now? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmtTRnBFTWxHMnUwSEw1bjFaNEJqb2NhcFplWVRyOUlRdEJ1OGxHUXl2MW9DRXJEcUZ2VWphUGhwVDI5N0VOY1RWSGRRWkdjaDlrRGxPNzlodjNRLWw5TFhPSDg4SW4tT0U2YjhMQVlOU01MSFJtUTc1bUM2T0xDY0x6RkgtSEpfV3NxRzNuTTdfT2l1dk83M0Fscw?oc=5",
-      "date": "Mon, 20 Jul 2026 03:26:00 GMT"
     },
     {
       "code": "EQR",
