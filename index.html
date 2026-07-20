@@ -1357,9 +1357,13 @@ function renderAnnouncements(items) {
   }
   
   items.forEach(item => {
+    const code = (item.code || 'ASX').toUpperCase();
+    const marketIndexUrl = `https://www.marketindex.com.au/asx/${code.toLowerCase()}/announcements`;
+    
     const card = document.createElement('a');
-    card.href = item.link || '#';
+    card.href = marketIndexUrl;
     card.target = '_blank';
+    card.title = `Click to view ${item.name || code} (${code}) official ASX filings & PDF announcements on MarketIndex`;
     card.style.textDecoration = 'none';
     card.style.color = 'inherit';
     card.style.background = 'var(--s2)';
@@ -1373,8 +1377,8 @@ function renderAnnouncements(items) {
     
     card.innerHTML = `
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
-        <span style="font-size:9px; font-weight:700; background:var(--ac); color:#000; padding:1px 5px; border-radius:3px; font-family:var(--mo);">${item.code || 'ASX'}</span>
-        <span style="font-size:9px; color:var(--mu); font-family:var(--mo);">${item.date ? item.date.replace(/GMT.*$/, '').trim() : ''}</span>
+        <span style="font-size:9px; font-weight:700; background:var(--ac); color:#000; padding:1px 5px; border-radius:3px; font-family:var(--mo);">${code}</span>
+        <span style="font-size:9px; color:var(--ac); font-weight:600; font-family:var(--mo);">MarketIndex Filings ↗</span>
       </div>
       <div style="font-size:11px; font-weight:500; color:var(--tx); line-height:1.4;">${item.title}</div>
     `;

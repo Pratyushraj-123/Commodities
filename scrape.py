@@ -255,7 +255,7 @@ def fetch_asx_announcements():
                         "code": matched_code,
                         "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
                         "title": clean_title,
-                        "link": link,
+                        "link": f"https://www.marketindex.com.au/asx/{matched_code.lower()}/announcements",
                         "date": pubDate[:16] if pubDate else ""
                     })
         except Exception as e:

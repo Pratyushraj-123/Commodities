@@ -1,11 +1,11 @@
 {
-  "gold": 4010.71,
-  "silver": 56.747,
-  "platinum": 1593.3,
-  "palladium": 1259.0,
-  "copper": 6.2886,
-  "nickel": 16953.0,
-  "zinc": 3522.4,
+  "gold": 4010.5,
+  "silver": 56.871,
+  "platinum": 1595.9,
+  "palladium": 1266.0,
+  "copper": 6.302,
+  "nickel": 16961.0,
+  "zinc": 3529.4,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 13:31",
+  "_last_updated": "20 Jul 2026, 19:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52350.96,
-      "change": 204.54,
-      "pct": 0.39,
+      "price": 52217.23,
+      "change": 70.81,
+      "pct": 0.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 13:31",
+      "updated": "20 Jul, 19:17",
       "hist": [
         44323.07,
         44502.44,
@@ -276,16 +276,16 @@
         52658.64,
         52552.97,
         52146.42,
-        52349.35
+        52212.28
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25734.56,
-      "change": 214.31,
-      "pct": 0.84,
+      "price": 25785.22,
+      "change": 264.98,
+      "pct": 1.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 13:31"
+      "updated": "20 Jul, 19:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 13:31"
+      "updated": "20 Jul, 19:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 13:31"
+      "updated": "20 Jul, 19:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10533.64,
-      "change": -66.73,
-      "pct": -0.63,
+      "price": 10553.67,
+      "change": -46.7,
+      "pct": -0.44,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 13:31"
+      "updated": "20 Jul, 19:17"
     }
   },
   "watchlist": {
@@ -711,122 +711,122 @@
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1MyTlFCZ3haQnEzZ21SZEZtUUFTNEF4MWVFZVVlY3ZOY25GT2ppX1UtUTNnSUlsb3NsVTVyQlFCaWM0YW5pNHg0MjVoMnZDbjJaalQ2U2lNcy1ldjJ1N2lFb3p0T1M1aERIVnotTUptNFBEXzVyb1hTcnFhdF9pR0FQZnlhUjB1WnJJeDRiOFE5LTJhTXd4bFBETnE4Ni05YU9iOEpHNDJzb2NrYVZ3YU02UUt0OUszUUEtM3hXUHhRb2Y0c2ZMQjNmX0ZTMUc4Q0NZdDBjcXJXRWtveWdlUFN3?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "Andrew Forrest takes 16.8% of EQ Resources (ASX:EQR) as Oaktree exits",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWFKUlhIOXQyejNqNGhSMlk3RWt6WDNCdm1lX2sxX0hqdGp3Yl9tR0ZRZUJPWmIxa2VmY3Y1Y3U5MHRtSTRQUUdWQjJNUjBkUC1kVUlQa3A1QVNUNHZwel9mcWtEMVV1U0JyTGVxN2dMWEs1aWhXQ3lIS2pRcUNLNHBrNA?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWTlhUzA0YzFjYXNNUmNzYXYxSzgzN2tqZFRPSVIyMnJjaEJQSk5feWtZazJVYXNXbEdGNG5BTUR0anlBOFJjcm5nODc3WHlwWmlnaDdJRC1WbF9yUTJhYmJUVlVUeU03b2tybWI2UE1BOHVrOEdxa2R6U0RtSHdOQWZuSmVwWmdJQVpILTJ2ejV6QWJDU1ZZdUs0SGkzc0VlWU45d1ZyR0k5cENjaXNSMnZrcXp6UzRUUE9Z?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "FRS",
       "name": "Forrestania Resources",
       "title": "Forrestania Resources (ASX:FRS) Share Price in Focus as Materials Stock Pulls Back",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVdEZ1VrbGpVLVcxN1hsMi1OemZ3V0phNnVJaWtBY1BnRHBWc2tlUGRaVjY5dGFxdXZ3M1JHaDkyWEszRi1BQzRwU0laUzN6TFU2LUpHRmFmaUhrOFhDLXBUaWUzdnY2Szl6Y2xrMWVzM3cyQXdnX3VTeXVSSEQzc1pobmZ3VU15Y2VaRTNCN2RHS095OVFpUUp1T0l4X1Zqc1RGMUZuUnJzeklTOVNJWm5pT08?oc=5",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources (ASX:EQR) Revenue Reaches A$44.53M\u2014Is Its Tungsten Growth Story Gathering Momentum?",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa0kyRTVCMDBlQWstMGt5TWo3RURMNUxRRlY4WU1CT1JXdkZ1bEFMTTNVRjY3WDBJWDlOQUVka2V4bDRrYVAxNEtwY0pZZm13NFFXQTBKNF9OVXJiU1pfRURjdHlneGJ3VDlWMnVwdTlyRm05WEVoUVNPWFBiLVVZalhzd3NraUNHcWtRTmNGMHRaYWl5d1hPenpZdlRnYjZEN2pVUVpPVXpuUWpIZjRCeXJqeW9tV01ZdkFpSU9Kem0teDN4UDBxb2N3?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources Ltd (ASX:EQR) Surges to the Top of the ASX Leaderboard \u2014 What's Behind the Move?",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmpZenRBU3ZySWlrbjlXaVM0MTRZU1ZJdWV3LVpSX0hPQXVuVTlnX2gzM1ctUjZCelZ5SlRsU044dDJPc3FJT0Z4ZDZuN0lJS09qa2twSGZFZmIyWTFNaEFiTkhHUlJjTThYZzM5VGQ3YkRISURocjVMUzZZRlY5MVIyNVFlX1VkYlZvaFRBUGFncllFSkMtd1RrRno4MTQ5OXF3V1ZjUm00NlZ3ZTlZQWVnci16cmF2TDV4ZEdR?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "FRS",
       "name": "Forrestania Resources",
       "title": "Forrestania Resources (ASX:FRS) Retreats \u2014 Nickel Explorer Faces Ongoing Sector Headwinds",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNE1ldjhxRTFITHZVR2wtWDMwcXlHbGtVY2p5WXd1c0Z3d2JZYzBoa3lscklNXzhoa25WTTVnd0hwS2wtUlVEa3RvN1p4Q3lMXzhfVmRCZUNsYVlydnF4WDlmZmNuYkNzMU5PZWNxV1Z1VnBXWjExQXg4X2lZMlc1NHc1dGdaNldTV3UzTVViRE82Vk1kTHFpUnp3V18wZFhDWmVtZWM3OHNvRUEyUHdWc1JWcFhuNG94dGdr?oc=5",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "Mon, 20 Jul 2026"
     },
     {
       "code": "TVN",
       "name": "Tivan Ltd",
       "title": "Tivan (ASX: TVN): What the Decline Means for Its Critical-Minerals Development and Financing Strategy",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUXJvOEs1U1dNSU9xWXRaN0VXb1UtVmFKMzlJaFN5aDZGR0VDM1BDVjNYdDhYMTZ1TWVfUDc3eDRaYnA1QUEzSlB5a0dmbllLdTBjN05FWjRHVE9UM2k5SmZZb1V6dWdYUTVTV0VxbkNubHRzbkdXNGdqZjluVWxIZzE5NHJqMHRoQnFjWTBJc0w3cUwtT09yeDJDYXp1eDlVSWRIWC03UGJlYnI0ZzZsVzQ2LWxEWHZmN2lnZHBMTFZyeDhQSFZEOG5sQ2k?oc=5",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "What's Driving the Fall in the Ora Banda Mining (ASX:OBM) Share Price Today?",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFItOENIUUlFbWl1eGF3RG11THFzX2FJQjdick12UlNoTDVrNXdJa1MxZVBlbXJZOW0xRlk4ZjREY1J1bmNwd08yblY4N0JsdjRZRnZuY29hT3VRTnA3MndxcmZFMnhnNndDcFlHSTg4OWxaUE8td1JNYWtpRXF0YmVjdmplNU5TdHRNZGNvQ2FrVVZxY3Brc29GUWFLVUl3VUFGeFRwREZOZw?oc=5",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "TVN",
       "name": "Tivan Ltd",
       "title": "Tivan (ASX:TVN) Shares Slide as Market Assesses Materials Stocks",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYnpuNXdaMDdkWjlNNDRqNXNTTEtDaWtOZTA1RXJxUzlTSkk4VlU3Q3I3dTYwTTB3eGhaRUJtbEFwa0JTQzFWdllKNmFVVXJqZk1uV0EtYy10TnpTZV9vcWRHZXQxbWNqSlJYNVhtMnYwbHljZE5ZSTMzTENQNjE3R0xkLVhOVzA1cDFrRXZwX0lTbFk0Rm9JSVJOeXo?oc=5",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Shares Fall About as Gold-Sector Selling Sweeps the ASX",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1hCQ0dqSm04WGhFZEdOQ3FURG1rckdkaER6bWZ1dGFyY1pqQ29qMDN1SWxoeDZERTV3MS1uYWszT1U4OXlNZko4bFRtb21GejdzLUE1ZFFuWXJEWkc0TDJTQlQ3NWZScVk4MkRIelItdm9mZFhlRktiWU50SDdZVHRjemF4Tkd1MGhIN2k4SVMtOTg4dTFwLXB1UGJMRTJScGowZ0lUSUphQVZiZnpzTHlCMjM?oc=5",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources Limited (ASX:EQR) Shares Fall Around 9% as the Tungsten Rally Takes a Breather",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcmFwMmRSekdua3pXb0VGUTRyUmNFLV96TERSdnlzN0xOMkZqa29QUUwtRmczV3BCb3NLSktPSTRPTE5rWjZUb3dFT2VwMmZ0bG5ROWszYTJqYm9CcTlKRjVGcEFmYW5KOFQ1VUJHQ1NIY0owWEY0Ui1aT05oSHRIcXhYOEtWanRVNUZQY3hXTDNGd2pLTUtpd3UzNWp6NUczbUVBRTVmLTFSLTJ0d2hsb2gxNnhiQ0xkNzBqdE51T1NEX3hudzlr?oc=5",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
       "title": "Waratah Minerals (ASX: WTM): Is the Exploration Story Still Intact After the Latest Share-Price Pullback?",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONEVSOElSLS1PTUVnYjk0S00wZnVSUUE2WURIN3hEbHUwU09udWs0U1JpZ3RtZHhuTkpGX3hDZTdUaWlrYmsxa0ZlNkVySXhLS0E4QzV3OG1kbHBtVXVwa2kzQmJwRHROVGotZ0JiMjVNTUFXckRxa0FGSFN3S1lnX2MwNDdWS1oyUjFUQ2diaWE1QVBaZWV4NldhaHJyaW5jTHczZE1oenhrZldZcUR0ODFhZTRGT2RoUFhVR2hlSUNEam1aQk9tNjRxaU9xODFN?oc=5",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
       "code": "TVN",
       "name": "Tivan Ltd",
       "title": "Tivan Limited (ASX:TVN) Surges Today After Key Business Update",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNGJ5cWdJeTRjYUNpejZZcHVqTWRsVl8ySWpYV0VNUWJFdjJvekJNZGpRREVQSWpLQngySFNYcWxxVmtScW9OSnpQZktaRW54UlZrTTl3Wmx4TldrSkdOYS1ZZjkzRkpGNng0X3JMU3dLN1ViUFNwdXF4dHhjM0xnM2hwSE1fT2ZCalk1bTdEWS1DRzB1bXFQM2dn?oc=5",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
       "date": "Thu, 16 Jul 2026"
     },
     {
       "code": "BCN",
       "name": "Beacon Minerals",
       "title": "Can Beacon Minerals (ASX:BCN) Maintain Momentum After Its Latest Quarterly Update?",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZHNoWW9QckxJWmhQTlNoNHFfZTQ2LXZ3V1RQUFVFb1lkcHVsTEVKWUdOV2xTeldvNjEzcFc5RVdlcmNpdm90RzRJQjY2QjNaZmlUTU9ObG8zZ29lbGR3dzFkQ05yZ0pYc0tTSTBLU240RGNTWnY5VEJQSmxzNHhTZXV1Tk45eDQ2bklXZm5NSGJrbHNhSmduNThMeDdXbjhJQXM3YWpkOXJlVkpxa3ZsU1ZtZw?oc=5",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
       "date": "Fri, 17 Jul 2026"
     }
   ],
-  "gold_change": 6.24,
+  "gold_change": 6.45,
   "gold_pct": -0.16,
-  "silver_change": 0.847,
-  "silver_pct": 1.52,
-  "platinum_change": 19.2,
-  "platinum_pct": -1.19,
-  "palladium_change": 6.0,
-  "palladium_pct": 0.48,
-  "copper_change": 0.0686,
-  "copper_pct": 1.1,
-  "nickel_change": 92.0,
-  "nickel_pct": -0.54,
-  "zinc_change": 2.4,
-  "zinc_pct": -0.07,
+  "silver_change": 0.971,
+  "silver_pct": 1.74,
+  "platinum_change": 16.6,
+  "platinum_pct": -1.03,
+  "palladium_change": 13.0,
+  "palladium_pct": 1.04,
+  "copper_change": 0.082,
+  "copper_pct": 1.32,
+  "nickel_change": 84.0,
+  "nickel_pct": -0.49,
+  "zinc_change": 4.6,
+  "zinc_pct": 0.13,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,
