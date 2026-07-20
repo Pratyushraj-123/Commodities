@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4004.93,
-  "silver": 56.748,
-  "platinum": 1588.8,
-  "palladium": 1261.0,
-  "copper": 6.3034,
-  "nickel": 16929.0,
-  "zinc": 3524.85,
+  "gold": 3999.7,
+  "silver": 56.538,
+  "platinum": 1587.7,
+  "palladium": 1260.0,
+  "copper": 6.3007,
+  "nickel": 16899.0,
+  "zinc": 3522.6,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 19:37",
+  "_last_updated": "20 Jul 2026, 19:47",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52076.49,
-      "change": -69.93,
-      "pct": -0.13,
+      "price": 52043.53,
+      "change": -102.89,
+      "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 19:37",
+      "updated": "20 Jul, 19:47",
       "hist": [
         44323.07,
         44502.44,
@@ -276,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         52658.64,
         52552.97,
         52146.42,
-        52061.16
+        52043.53
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25679.6,
-      "change": 159.36,
-      "pct": 0.62,
+      "price": 25633.99,
+      "change": 113.75,
+      "pct": 0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 19:37"
+      "updated": "20 Jul, 19:47"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 19:37"
+      "updated": "20 Jul, 19:47"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 19:37"
+      "updated": "20 Jul, 19:47"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10530.82,
-      "change": -69.55,
-      "pct": -0.66,
+      "price": 10527.51,
+      "change": -72.86,
+      "pct": -0.69,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 19:37"
+      "updated": "20 Jul, 19:47"
     }
   },
   "watchlist": {
@@ -713,92 +713,22 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Share Price in Focus as Materials Stock Pulls Back",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Why Is Ora Banda Mining (ASX:OBM) Turning Heads Right Now?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) Shares Jump 7%: Why Did the Copper-Gold Explorer Gain Momentum?",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources (ASX:WC8) Dips Alongside a Weaker Materials Sector",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies Group (ASX:SKS) Slips \u2014 Here\u2019s Why",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Why Is Pro Medicus (ASX:PME) Turning Heads Right Now?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) shares under pressure as contract in focus after 16% slide",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Caught in the Tech Sell-Off as Investors Question the AI Infrastructure Boom",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Why Is Liontown (ASX:LTR) Facing a Lithium Reality Check?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "Why Is Pilbara Minerals (ASX:PLS) Back in Lithium Focus?",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "Mon, 20 Jul 2026"
     }
   ],
-  "gold_change": 12.02,
-  "gold_pct": -0.3,
-  "silver_change": 0.848,
-  "silver_pct": 1.52,
-  "platinum_change": 23.7,
-  "platinum_pct": -1.47,
-  "palladium_change": 8.0,
-  "palladium_pct": 0.64,
-  "copper_change": 0.0834,
-  "copper_pct": 1.34,
-  "nickel_change": 116.0,
-  "nickel_pct": -0.68,
-  "zinc_change": 0.05,
-  "zinc_pct": 0.0,
+  "gold_change": 17.25,
+  "gold_pct": -0.43,
+  "silver_change": 0.638,
+  "silver_pct": 1.14,
+  "platinum_change": 24.8,
+  "platinum_pct": -1.54,
+  "palladium_change": 7.5,
+  "palladium_pct": 0.6,
+  "copper_change": 0.0807,
+  "copper_pct": 1.3,
+  "nickel_change": 146.0,
+  "nickel_pct": -0.86,
+  "zinc_change": 2.2,
+  "zinc_pct": -0.06,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,

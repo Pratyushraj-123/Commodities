@@ -225,18 +225,32 @@ def fetch_asx_announcements():
     today_str_2 = now.strftime("%d %B %Y")       # e.g., "20 July 2026"
     today_day = str(now.day)
     
-    print(f"Fetching official ASX company announcements released TODAY ({today_str_1})...")
+    OFFICIAL_FILING_KEYWORDS = [
+        "announcement", "quarterly", "report", "results", "half year", "full year",
+        "exploration", "drilling", "resource", "trading halt", "presentation",
+        "agm", "mou", "agreement", "acquisition", "offtake", "appointment",
+        "notice of meeting", "investor update", "placement", "entitlement", "secures", "funding", "contract"
+    ]
+    
+    MEDIA_COMMENTARY_PHRASES = [
+        "why is", "turning heads", "share price in focus", "retreats", "slips",
+        "shares jump", "shares fall", "shares slide", "facing a", "under pressure",
+        "caught in the", "takes a breather", "is the exploration story", "what today",
+        "dips alongside", "surges to the top", "whats behind"
+    ]
+    
+    print(f"Fetching genuine official ASX company announcements released TODAY ({today_str_1})...")
     codes = list(SELECTED_ASX_COMPANIES.keys())
     chunk_size = 20
     seen_codes = set()
     today_announcements = []
     
-    official_filter = '("Announcement" OR "Quarterly" OR "Report" OR "Results" OR "Release" OR "Update" OR "Presentation" OR "Trading Halt" OR "Option" OR "Agreement")'
+    official_query = '("ASX Announcement" OR "Quarterly Report" OR "Financial Results" OR "Exploration Update" OR "Trading Halt" OR "Investor Presentation" OR "AGM" OR "MOU" OR "Agreement")'
     
     for i in range(0, len(codes), chunk_size):
         chunk = codes[i:i+chunk_size]
         query_codes = " OR ".join([f"ASX:{c}" for c in chunk])
-        full_query = f"({query_codes}) AND {official_filter}"
+        full_query = f"({query_codes}) AND {official_query}"
         url = f"https://news.google.com/rss/search?q={urllib.parse.quote(full_query)}&hl=en-AU&gl=AU&ceid=AU:en"
         
         try:
@@ -250,11 +264,22 @@ def fetch_asx_announcements():
                     link = item.findtext('link') or ""
                     pubDate = item.findtext('pubDate') or ""
                     
-                    # Clean trailing media source names like "- Kalkine", "- Stocks Down Under"
-                    clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
+                    title_lower = raw_title.lower()
+                    
+                    # Exclude general media commentary
+                    if any(phrase in title_lower for phrase in MEDIA_COMMENTARY_PHRASES):
+                        continue
+                        
+                    # Must contain genuine official filing keywords
+                    if not any(kw in title_lower for kw in OFFICIAL_FILING_KEYWORDS):
+                        continue
                     
                     # Filter strictly for today's release date
                     is_today = (today_str_1 in pubDate) or (today_str_2 in pubDate) or (f" {today_day} " in pubDate and now.strftime("%b") in pubDate)
+                    if not is_today:
+                        continue
+                    
+                    clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
                     
                     matched_code = None
                     for c in chunk:
@@ -262,7 +287,7 @@ def fetch_asx_announcements():
                             matched_code = c
                             break
                             
-                    if matched_code and is_today and matched_code not in seen_codes:
+                    if matched_code and matched_code not in seen_codes:
                         seen_codes.add(matched_code)
                         today_announcements.append({
                             "code": matched_code,
@@ -274,7 +299,7 @@ def fetch_asx_announcements():
         except Exception as e:
             print(f"Error fetching announcements chunk {i}: {e}")
             
-    print(f"Announcements fetch completed: {len(today_announcements)} companies released announcements TODAY.")
+    print(f"Announcements fetch completed: {len(today_announcements)} genuine official company announcements released TODAY.")
     return today_announcements
 
 def run_scraper():
