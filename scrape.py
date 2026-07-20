@@ -220,17 +220,11 @@ def fetch_watchlist_prices():
 
 def fetch_asx_announcements():
     import datetime
-    now = datetime.datetime.now()
-    today_str_1 = now.strftime("%d %b %Y")       # e.g., "20 Jul 2026"
-    today_str_2 = now.strftime("%d %B %Y")       # e.g., "20 July 2026"
-    today_day = str(now.day)
+    from concurrent.futures import ThreadPoolExecutor
     
-    OFFICIAL_FILING_KEYWORDS = [
-        "announcement", "quarterly", "report", "results", "half year", "full year",
-        "exploration", "drilling", "resource", "trading halt", "presentation",
-        "agm", "mou", "agreement", "acquisition", "offtake", "appointment",
-        "notice of meeting", "investor update", "placement", "entitlement", "secures", "funding", "contract"
-    ]
+    now = datetime.datetime.now()
+    today_str = now.strftime("%d %b %Y")                                     # e.g., "20 Jul 2026"
+    yesterday_str = (now - datetime.timedelta(days=1)).strftime("%d %b %Y")  # e.g., "19 Jul 2026"
     
     MEDIA_COMMENTARY_PHRASES = [
         "why is", "turning heads", "share price in focus", "retreats", "slips",
@@ -239,68 +233,57 @@ def fetch_asx_announcements():
         "dips alongside", "surges to the top", "whats behind"
     ]
     
-    print(f"Fetching genuine official ASX company announcements released TODAY ({today_str_1})...")
-    codes = list(SELECTED_ASX_COMPANIES.keys())
-    chunk_size = 20
-    seen_codes = set()
-    today_announcements = []
+    print(f"Fetching genuine official ASX company announcements released TODAY ({today_str})...")
     
-    official_query = '("ASX Announcement" OR "Quarterly Report" OR "Financial Results" OR "Exploration Update" OR "Trading Halt" OR "Investor Presentation" OR "AGM" OR "MOU" OR "Agreement")'
-    
-    for i in range(0, len(codes), chunk_size):
-        chunk = codes[i:i+chunk_size]
-        query_codes = " OR ".join([f"ASX:{c}" for c in chunk])
-        full_query = f"({query_codes}) AND {official_query}"
-        url = f"https://news.google.com/rss/search?q={urllib.parse.quote(full_query)}&hl=en-AU&gl=AU&ceid=AU:en"
-        
+    def fetch_single_ticker(code):
+        url = f"https://news.google.com/rss/search?q={urllib.parse.quote(f'\"ASX:{code}\" OR \"{code}.AX\"')}&hl=en-AU&gl=AU&ceid=AU:en"
+        req = urllib.request.Request(url, headers=headers)
+        found = []
         try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, context=ctx, timeout=6.0) as response:
+            with urllib.request.urlopen(req, context=ctx, timeout=4.0) as response:
                 xml_data = response.read().decode('utf-8', errors='ignore')
                 root = ET.fromstring(xml_data)
                 items = root.findall('./channel/item')
                 for item in items:
                     raw_title = item.findtext('title') or ""
-                    link = item.findtext('link') or ""
                     pubDate = item.findtext('pubDate') or ""
-                    
                     title_lower = raw_title.lower()
                     
-                    # Exclude general media commentary
+                    # Filter strictly for today's trading day window (including GMT shift)
+                    is_recent = (today_str in pubDate) or (yesterday_str in pubDate)
+                    if not is_recent:
+                        continue
+                        
+                    # Filter out media commentary
                     if any(phrase in title_lower for phrase in MEDIA_COMMENTARY_PHRASES):
                         continue
                         
-                    # Must contain genuine official filing keywords
-                    if not any(kw in title_lower for kw in OFFICIAL_FILING_KEYWORDS):
-                        continue
-                    
-                    # Filter strictly for today's release date
-                    is_today = (today_str_1 in pubDate) or (today_str_2 in pubDate) or (f" {today_day} " in pubDate and now.strftime("%b") in pubDate)
-                    if not is_today:
-                        continue
-                    
                     clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
-                    
-                    matched_code = None
-                    for c in chunk:
-                        if c in raw_title or f"({c})" in raw_title or f"ASX:{c}" in raw_title:
-                            matched_code = c
-                            break
-                            
-                    if matched_code and matched_code not in seen_codes:
-                        seen_codes.add(matched_code)
-                        today_announcements.append({
-                            "code": matched_code,
-                            "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
-                            "title": clean_title,
-                            "link": f"https://www.marketindex.com.au/asx/{matched_code.lower()}/announcements",
-                            "date": pubDate[:16] if pubDate else today_str_1
-                        })
+                    found.append({
+                        "code": code,
+                        "name": SELECTED_ASX_COMPANIES.get(code, code),
+                        "title": clean_title,
+                        "link": f"https://www.marketindex.com.au/asx/{code.lower()}/announcements",
+                        "date": pubDate[:16] if pubDate else today_str
+                    })
         except Exception as e:
-            print(f"Error fetching announcements chunk {i}: {e}")
-            
-    print(f"Announcements fetch completed: {len(today_announcements)} genuine official company announcements released TODAY.")
-    return today_announcements
+            pass
+        return found
+        
+    all_announcements = []
+    seen_codes = set()
+    
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        results = executor.map(fetch_single_ticker, list(SELECTED_ASX_COMPANIES.keys()))
+        for res in results:
+            for item in res:
+                code = item["code"]
+                if code not in seen_codes:
+                    seen_codes.add(code)
+                    all_announcements.append(item)
+                    
+    print(f"Announcements fetch completed: {len(all_announcements)} companies released announcements TODAY.")
+    return all_announcements
 
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")
