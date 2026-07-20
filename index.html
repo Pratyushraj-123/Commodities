@@ -1402,7 +1402,11 @@ function filterAnnouncements() {
   });
   
   if (count === 0) {
-    container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0; text-align:center;">No matching announcements found.</div>`;
+    if (window.CURRENT_ANNOUNCEMENTS.length === 0) {
+      container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:14px 10px; text-align:center; background:var(--s1); border:1px solid var(--bd); border-radius:5px;">No new ASX company announcements released today.</div>`;
+    } else {
+      container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0; text-align:center;">No matching announcements found.</div>`;
+    }
   }
 }
 

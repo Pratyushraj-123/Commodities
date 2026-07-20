@@ -219,10 +219,17 @@ def fetch_watchlist_prices():
     return watchlist
 
 def fetch_asx_announcements():
-    print(f"Fetching official ASX company announcements for {len(SELECTED_ASX_COMPANIES)} selected companies...")
+    import datetime
+    now = datetime.datetime.now()
+    today_str_1 = now.strftime("%d %b %Y")       # e.g., "20 Jul 2026"
+    today_str_2 = now.strftime("%d %B %Y")       # e.g., "20 July 2026"
+    today_day = str(now.day)
+    
+    print(f"Fetching official ASX company announcements released TODAY ({today_str_1})...")
     codes = list(SELECTED_ASX_COMPANIES.keys())
     chunk_size = 20
-    by_code = {}
+    seen_codes = set()
+    today_announcements = []
     
     official_filter = '("Announcement" OR "Quarterly" OR "Report" OR "Results" OR "Release" OR "Update" OR "Presentation" OR "Trading Halt" OR "Option" OR "Agreement")'
     
@@ -246,39 +253,29 @@ def fetch_asx_announcements():
                     # Clean trailing media source names like "- Kalkine", "- Stocks Down Under"
                     clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
                     
+                    # Filter strictly for today's release date
+                    is_today = (today_str_1 in pubDate) or (today_str_2 in pubDate) or (f" {today_day} " in pubDate and now.strftime("%b") in pubDate)
+                    
                     matched_code = None
                     for c in chunk:
                         if c in raw_title or f"({c})" in raw_title or f"ASX:{c}" in raw_title:
                             matched_code = c
                             break
-                    if matched_code:
-                        if matched_code not in by_code:
-                            by_code[matched_code] = []
-                        by_code[matched_code].append({
+                            
+                    if matched_code and is_today and matched_code not in seen_codes:
+                        seen_codes.add(matched_code)
+                        today_announcements.append({
                             "code": matched_code,
                             "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
                             "title": clean_title,
                             "link": f"https://www.marketindex.com.au/asx/{matched_code.lower()}/announcements",
-                            "date": pubDate[:16] if pubDate else "Live ASX"
+                            "date": pubDate[:16] if pubDate else today_str_1
                         })
         except Exception as e:
             print(f"Error fetching announcements chunk {i}: {e}")
             
-    final_announcements = []
-    for code, name in SELECTED_ASX_COMPANIES.items():
-        if code in by_code and len(by_code[code]) > 0:
-            final_announcements.append(by_code[code][0])
-        else:
-            final_announcements.append({
-                "code": code,
-                "name": name,
-                "title": f"{name} ({code}) - Official ASX Announcements & PDF Filings",
-                "link": f"https://www.marketindex.com.au/asx/{code.lower()}/announcements",
-                "date": "Live ASX"
-            })
-            
-    print(f"Announcements fetch completed: {len(final_announcements)} company entries generated for all 57 companies.")
-    return final_announcements
+    print(f"Announcements fetch completed: {len(today_announcements)} companies released announcements TODAY.")
+    return today_announcements
 
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")
