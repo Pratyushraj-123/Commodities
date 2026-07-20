@@ -1,11 +1,11 @@
 {
-  "gold": 4010.94,
-  "silver": 56.852,
-  "platinum": 1594.8,
-  "palladium": 1261.5,
-  "copper": 6.2881,
-  "nickel": 16961.0,
-  "zinc": 3523.35,
+  "gold": 4010.71,
+  "silver": 56.747,
+  "platinum": 1593.3,
+  "palladium": 1259.0,
+  "copper": 6.2886,
+  "nickel": 16953.0,
+  "zinc": 3522.4,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 18:54",
+  "_last_updated": "20 Jul 2026, 13:31",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52146.42,
-      "change": -406.58,
-      "pct": -0.77,
+      "price": 52350.96,
+      "change": 204.54,
+      "pct": 0.39,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 18:54",
+      "updated": "20 Jul, 13:31",
       "hist": [
-        44342.19,
         44323.07,
         44502.44,
         45010.29,
@@ -276,16 +275,17 @@
         52508.27,
         52658.64,
         52552.97,
-        52146.42
+        52146.42,
+        52349.35
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25520.24,
-      "change": -361.66,
-      "pct": -1.4,
+      "price": 25734.56,
+      "change": 214.31,
+      "pct": 0.84,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 18:54"
+      "updated": "20 Jul, 13:31"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 18:54"
+      "updated": "20 Jul, 13:31"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 18:54"
+      "updated": "20 Jul, 13:31"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10546.49,
-      "change": -53.88,
-      "pct": -0.51,
+      "price": 10533.64,
+      "change": -66.73,
+      "pct": -0.63,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 18:54"
+      "updated": "20 Jul, 13:31"
     }
   },
   "watchlist": {
@@ -813,20 +813,20 @@
       "date": "Fri, 17 Jul 2026"
     }
   ],
-  "gold_change": 6.01,
-  "gold_pct": -0.15,
-  "silver_change": 0.952,
-  "silver_pct": 1.7,
-  "platinum_change": 17.7,
-  "platinum_pct": -1.1,
-  "palladium_change": 8.5,
-  "palladium_pct": 0.68,
-  "copper_change": 0.0681,
-  "copper_pct": 1.09,
-  "nickel_change": 84.0,
-  "nickel_pct": -0.49,
-  "zinc_change": 1.45,
-  "zinc_pct": -0.04,
+  "gold_change": 6.24,
+  "gold_pct": -0.16,
+  "silver_change": 0.847,
+  "silver_pct": 1.52,
+  "platinum_change": 19.2,
+  "platinum_pct": -1.19,
+  "palladium_change": 6.0,
+  "palladium_pct": 0.48,
+  "copper_change": 0.0686,
+  "copper_pct": 1.1,
+  "nickel_change": 92.0,
+  "nickel_pct": -0.54,
+  "zinc_change": 2.4,
+  "zinc_pct": -0.07,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,
