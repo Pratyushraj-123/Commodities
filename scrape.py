@@ -219,44 +219,49 @@ def fetch_watchlist_prices():
     return watchlist
 
 def fetch_asx_announcements():
-    print(f"Fetching ASX company announcements for {len(SELECTED_ASX_COMPANIES)} selected companies...")
+    print(f"Fetching official ASX company announcements for {len(SELECTED_ASX_COMPANIES)} selected companies...")
     codes = list(SELECTED_ASX_COMPANIES.keys())
     chunk_size = 20
     all_articles = []
     
+    official_filter = '("Announcement" OR "Quarterly" OR "Report" OR "Results" OR "Release" OR "Update" OR "Presentation" OR "Trading Halt" OR "Option" OR "Agreement")'
+    
     for i in range(0, len(codes), chunk_size):
         chunk = codes[i:i+chunk_size]
-        query_str = " OR ".join([f"ASX:{c}" for c in chunk])
-        encoded_query = urllib.parse.quote(f"({query_str})")
-        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-AU&gl=AU&ceid=AU:en"
+        query_codes = " OR ".join([f"ASX:{c}" for c in chunk])
+        full_query = f"({query_codes}) AND {official_filter}"
+        url = f"https://news.google.com/rss/search?q={urllib.parse.quote(full_query)}&hl=en-AU&gl=AU&ceid=AU:en"
         
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, context=ctx, timeout=8.0) as response:
+            with urllib.request.urlopen(req, context=ctx, timeout=6.0) as response:
                 xml_data = response.read().decode('utf-8', errors='ignore')
                 root = ET.fromstring(xml_data)
                 items = root.findall('./channel/item')
                 for item in items:
-                    title = item.findtext('title') or ""
+                    raw_title = item.findtext('title') or ""
                     link = item.findtext('link') or ""
                     pubDate = item.findtext('pubDate') or ""
                     
+                    # Clean trailing media source names like "- Kalkine", "- Stocks Down Under"
+                    clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
+                    
                     matched_code = "ASX"
                     for c in chunk:
-                        if c in title or f"({c})" in title:
+                        if c in raw_title or f"({c})" in raw_title or f"ASX:{c}" in raw_title:
                             matched_code = c
                             break
                     all_articles.append({
                         "code": matched_code,
                         "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
-                        "title": title,
+                        "title": clean_title,
                         "link": link,
-                        "date": pubDate
+                        "date": pubDate[:16] if pubDate else ""
                     })
         except Exception as e:
             print(f"Error fetching announcements chunk {i}: {e}")
             
-    print(f"Announcements fetch completed: {len(all_articles)} headlines collected.")
+    print(f"Announcements fetch completed: {len(all_articles)} official company release items collected.")
     return all_articles[:15]
 
 def run_scraper():
