@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4010.28,
-  "silver": 56.763,
-  "platinum": 1592.1,
-  "palladium": 1260.0,
-  "copper": 6.2711,
-  "nickel": 16931.0,
-  "zinc": 3519.5,
+  "gold": 4009.03,
+  "silver": 56.887,
+  "platinum": 1594.0,
+  "palladium": 1262.0,
+  "copper": 6.2765,
+  "nickel": 16951.0,
+  "zinc": 3516.4,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 18:38",
+  "_last_updated": "20 Jul 2026, 18:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -406.58,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 18:38",
+      "updated": "20 Jul, 18:45",
       "hist": [
         44342.19,
         44323.07,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -361.66,
       "pct": -1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 18:38"
+      "updated": "20 Jul, 18:45"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 18:38"
+      "updated": "20 Jul, 18:45"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 18:38"
+      "updated": "20 Jul, 18:45"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10562.69,
-      "change": -37.68,
-      "pct": -0.36,
+      "price": 10550.69,
+      "change": -49.68,
+      "pct": -0.47,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 18:38"
+      "updated": "20 Jul, 18:45"
     }
   },
   "watchlist": {
@@ -813,20 +813,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "Fri, 17 Jul 2026 07:55:00 GMT"
     }
   ],
-  "gold_change": 6.67,
-  "gold_pct": -0.17,
-  "silver_change": 0.863,
-  "silver_pct": 1.54,
-  "platinum_change": 20.4,
-  "platinum_pct": -1.27,
-  "palladium_change": 7.0,
-  "palladium_pct": 0.56,
-  "copper_change": 0.0511,
-  "copper_pct": 0.82,
-  "nickel_change": 114.0,
-  "nickel_pct": -0.67,
-  "zinc_change": 5.3,
-  "zinc_pct": -0.15,
+  "gold_change": 7.92,
+  "gold_pct": -0.2,
+  "silver_change": 0.987,
+  "silver_pct": 1.77,
+  "platinum_change": 18.5,
+  "platinum_pct": -1.15,
+  "palladium_change": 9.0,
+  "palladium_pct": 0.72,
+  "copper_change": 0.0565,
+  "copper_pct": 0.91,
+  "nickel_change": 94.0,
+  "nickel_pct": -0.55,
+  "zinc_change": 8.4,
+  "zinc_pct": -0.24,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,

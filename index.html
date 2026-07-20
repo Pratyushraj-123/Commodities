@@ -1303,21 +1303,38 @@ function filterWatchlist() {
     const sign = isUp ? '▲ +' : '▼ ';
     const colorClass = isUp ? 'idx-up' : 'idx-dn';
     
-    const row = document.createElement('div');
+    const row = document.createElement('a');
+    row.href = item.url || `https://finance.yahoo.com/quote/${code}.AX`;
+    row.target = '_blank';
     row.className = 'index-row';
-    row.style.paddingBottom = '6px';
-    row.style.marginBottom = '4px';
+    row.style.textDecoration = 'none';
+    row.style.color = 'inherit';
+    row.style.cursor = 'pointer';
+    row.style.padding = '4px 6px';
+    row.style.marginBottom = '3px';
+    row.style.borderRadius = '4px';
+    row.style.transition = 'all 0.12s';
+    row.title = `Click to view ${item.name} (${code}) live web page & announcements`;
+    
+    row.onmouseover = () => { row.style.background = 'var(--s2)'; };
+    row.onmouseout = () => { row.style.background = 'transparent'; };
+
+    const chgVal = item.change || 0;
+    const pctVal = item.pct || 0;
+    const isUpVal = pctVal >= 0;
+    const chgSign = isUpVal ? '+' : '-';
+    
     row.innerHTML = `
       <div class="index-info">
         <div class="index-name-container">
           <span style="font-size:10px; font-weight:700; background:var(--s2); border:1px solid var(--bd2); padding:1px 5px; border-radius:3px; font-family:var(--mo); color:var(--ac);">${code}</span>
-          <span class="index-name" style="font-size:12px;">${item.name}</span>
+          <span class="index-name" style="font-size:12px; font-weight:500;">${item.name} <span style="font-size:9px; color:var(--mu);">↗</span></span>
         </div>
       </div>
       <div class="index-stats">
-        <span class="index-val" style="font-size:13px;">A$${(item.price || 0).toFixed(3)}</span>
+        <span class="index-val" style="font-size:12px;">A$${(item.price || 0).toFixed(3)}</span>
         <span class="index-change ${colorClass}" style="font-size:9px;">
-          ${sign}${Math.abs(item.pct || 0).toFixed(2)}%
+          ${sign}${chgSign}A$${Math.abs(chgVal).toFixed(3)} (${Math.abs(pctVal).toFixed(2)}%)
         </span>
       </div>
     `;
