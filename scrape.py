@@ -222,7 +222,7 @@ def fetch_asx_announcements():
     print(f"Fetching official ASX company announcements for {len(SELECTED_ASX_COMPANIES)} selected companies...")
     codes = list(SELECTED_ASX_COMPANIES.keys())
     chunk_size = 20
-    all_articles = []
+    by_code = {}
     
     official_filter = '("Announcement" OR "Quarterly" OR "Report" OR "Results" OR "Release" OR "Update" OR "Presentation" OR "Trading Halt" OR "Option" OR "Agreement")'
     
@@ -246,23 +246,39 @@ def fetch_asx_announcements():
                     # Clean trailing media source names like "- Kalkine", "- Stocks Down Under"
                     clean_title = re.sub(r'\s*-\s*[^-]+$', '', raw_title).strip()
                     
-                    matched_code = "ASX"
+                    matched_code = None
                     for c in chunk:
                         if c in raw_title or f"({c})" in raw_title or f"ASX:{c}" in raw_title:
                             matched_code = c
                             break
-                    all_articles.append({
-                        "code": matched_code,
-                        "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
-                        "title": clean_title,
-                        "link": f"https://www.marketindex.com.au/asx/{matched_code.lower()}/announcements",
-                        "date": pubDate[:16] if pubDate else ""
-                    })
+                    if matched_code:
+                        if matched_code not in by_code:
+                            by_code[matched_code] = []
+                        by_code[matched_code].append({
+                            "code": matched_code,
+                            "name": SELECTED_ASX_COMPANIES.get(matched_code, matched_code),
+                            "title": clean_title,
+                            "link": f"https://www.marketindex.com.au/asx/{matched_code.lower()}/announcements",
+                            "date": pubDate[:16] if pubDate else "Live ASX"
+                        })
         except Exception as e:
             print(f"Error fetching announcements chunk {i}: {e}")
             
-    print(f"Announcements fetch completed: {len(all_articles)} official company release items collected.")
-    return all_articles[:15]
+    final_announcements = []
+    for code, name in SELECTED_ASX_COMPANIES.items():
+        if code in by_code and len(by_code[code]) > 0:
+            final_announcements.append(by_code[code][0])
+        else:
+            final_announcements.append({
+                "code": code,
+                "name": name,
+                "title": f"{name} ({code}) - Official ASX Announcements & PDF Filings",
+                "link": f"https://www.marketindex.com.au/asx/{code.lower()}/announcements",
+                "date": "Live ASX"
+            })
+            
+    print(f"Announcements fetch completed: {len(final_announcements)} company entries generated for all 57 companies.")
+    return final_announcements
 
 def run_scraper():
     print("Scraping latest commodities data from Trading Economics...")

@@ -307,22 +307,27 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
         </div>
       </div>
 
-      <!-- 56 ASX Stock Watchlist Card -->
+      <!-- 57 ASX Stock Watchlist Card -->
       <div class="sidebar-card" style="margin-top: 16px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
           <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">⛏️ Company Watchlist</h3>
-          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">56 ASX Stocks</span>
+          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">57 ASX Stocks</span>
         </div>
-        <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 56 companies..." onkeyup="filterWatchlist()" 
+        <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 57 companies..." onkeyup="filterWatchlist()" 
                style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
         <div id="watchlistContainer" style="max-height: 280px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px;">
-          <!-- Dynamically populated 56 ASX stock quotes -->
+          <!-- Dynamically populated 57 ASX stock quotes -->
         </div>
       </div>
 
       <!-- ASX Announcements Feed Card -->
       <div class="sidebar-card" style="margin-top: 16px;">
-        <h3 class="sidebar-title">📰 Official ASX Company Announcements</h3>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
+          <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">📰 Official ASX Announcements</h3>
+          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">57 Companies</span>
+        </div>
+        <input type="text" id="announcementsSearchInp" placeholder="🔍 Search company filings (e.g. EQR, AYA, PLS)..." onkeyup="filterAnnouncements()" 
+               style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
         <div id="announcementsContainer" style="max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
           <!-- Dynamically populated company announcements feed -->
         </div>
@@ -1346,24 +1351,35 @@ function filterWatchlist() {
   }
 }
 
+window.CURRENT_ANNOUNCEMENTS = null;
+
 function renderAnnouncements(items) {
+  window.CURRENT_ANNOUNCEMENTS = items;
+  filterAnnouncements();
+}
+
+function filterAnnouncements() {
   const container = document.getElementById('announcementsContainer');
-  if (!container) return;
+  if (!container || !window.CURRENT_ANNOUNCEMENTS) return;
+  
+  const searchVal = (document.getElementById('announcementsSearchInp')?.value || '').toLowerCase().trim();
   container.innerHTML = '';
   
-  if (!items || items.length === 0) {
-    container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0;">No recent company announcements.</div>`;
-    return;
-  }
-  
-  items.forEach(item => {
+  let count = 0;
+  window.CURRENT_ANNOUNCEMENTS.forEach(item => {
     const code = (item.code || 'ASX').toUpperCase();
+    const name = item.name || code;
+    
+    const matchSearch = !searchVal || code.toLowerCase().includes(searchVal) || name.toLowerCase().includes(searchVal) || (item.title && item.title.toLowerCase().includes(searchVal));
+    if (!matchSearch) return;
+    
+    count++;
     const marketIndexUrl = `https://www.marketindex.com.au/asx/${code.toLowerCase()}/announcements`;
     
     const card = document.createElement('a');
     card.href = marketIndexUrl;
     card.target = '_blank';
-    card.title = `Click to view ${item.name || code} (${code}) official ASX filings & PDF announcements on MarketIndex`;
+    card.title = `Click to view ${name} (${code}) official ASX filings & PDF announcements on MarketIndex`;
     card.style.textDecoration = 'none';
     card.style.color = 'inherit';
     card.style.background = 'var(--s2)';
@@ -1384,6 +1400,10 @@ function renderAnnouncements(items) {
     `;
     container.appendChild(card);
   });
+  
+  if (count === 0) {
+    container.innerHTML = `<div style="font-size:11px; color:var(--mu); padding:10px 0; text-align:center;">No matching announcements found.</div>`;
+  }
 }
 
 // Initialize prices on page load

@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4010.5,
-  "silver": 56.871,
-  "platinum": 1595.9,
-  "palladium": 1266.0,
-  "copper": 6.302,
-  "nickel": 16961.0,
-  "zinc": 3529.4,
+  "gold": 4009.53,
+  "silver": 56.887,
+  "platinum": 1595.6,
+  "palladium": 1267.0,
+  "copper": 6.3077,
+  "nickel": 16934.0,
+  "zinc": 3525.3,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 19:17",
+  "_last_updated": "20 Jul 2026, 19:28",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52217.23,
-      "change": 70.81,
-      "pct": 0.14,
+      "price": 52119.48,
+      "change": -26.94,
+      "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 19:17",
+      "updated": "20 Jul, 19:28",
       "hist": [
         44323.07,
         44502.44,
@@ -276,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         52658.64,
         52552.97,
         52146.42,
-        52212.28
+        52125.19
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25785.22,
-      "change": 264.98,
-      "pct": 1.04,
+      "price": 25673.98,
+      "change": 153.74,
+      "pct": 0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 19:17"
+      "updated": "20 Jul, 19:28"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 19:17"
+      "updated": "20 Jul, 19:28"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 19:17"
+      "updated": "20 Jul, 19:28"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10553.67,
-      "change": -46.7,
-      "pct": -0.44,
+      "price": 10537.03,
+      "change": -63.34,
+      "pct": -0.6,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 19:17"
+      "updated": "20 Jul, 19:28"
     }
   },
   "watchlist": {
@@ -708,25 +708,18 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Mon, 20 Jul 2026"
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold Ltd (ASX: PC2) Share Price Jumps Over 380% in a Year: Can Its Gold Exploration Strategy Deliver Sustainable Growth?",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "Fri, 03 Jul 2026"
     },
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "Andrew Forrest takes 16.8% of EQ Resources (ASX:EQR) as Oaktree exits",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Mon, 20 Jul 2026"
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals (ASX: TM1) Share Price Falls 7% Today \u2013 Here\u2019s Why",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "Thu, 02 Jul 2026"
     },
     {
       "code": "FRS",
@@ -736,60 +729,39 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "Mon, 20 Jul 2026"
     },
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Revenue Reaches A$44.53M\u2014Is Its Tungsten Growth Story Gathering Momentum?",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Mon, 20 Jul 2026"
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "Benz Mining (ASX:BNZ) Extends Exceptional Annual Gains with Favourable Daily Rise",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "Thu, 16 Jul 2026"
     },
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources Ltd (ASX:EQR) Surges to the Top of the ASX Leaderboard \u2014 What's Behind the Move?",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Mon, 20 Jul 2026"
+      "code": "MM1",
+      "name": "Midas Minerals",
+      "title": "Midas Minerals (MM1) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/mm1/announcements",
+      "date": "Live ASX"
     },
     {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Retreats \u2014 Nickel Explorer Faces Ongoing Sector Headwinds",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "Mon, 20 Jul 2026"
-    },
-    {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan (ASX: TVN): What the Decline Means for Its Critical-Minerals Development and Financing Strategy",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Can Beacon Minerals (ASX:BCN) Maintain Momentum After Its Latest Quarterly Update?",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
       "date": "Fri, 17 Jul 2026"
     },
     {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "What's Driving the Fall in the Ora Banda Mining (ASX:OBM) Share Price Today?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "Fri, 17 Jul 2026"
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS) Drops as ASX Gold Explorers Lose Some Shine",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "Fri, 10 Jul 2026"
     },
     {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan (ASX:TVN) Shares Slide as Market Assesses Materials Stocks",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
-      "date": "Fri, 17 Jul 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Shares Fall About as Gold-Sector Selling Sweeps the ASX",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "Fri, 17 Jul 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources Limited (ASX:EQR) Shares Fall Around 9% as the Tungsten Rally Takes a Breather",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "Fri, 17 Jul 2026"
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Slips: Tracking the Ravensthorpe Gold-Copper Development",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "Mon, 13 Jul 2026"
     },
     {
       "code": "WTM",
@@ -799,34 +771,349 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "Fri, 17 Jul 2026"
     },
     {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (LRV) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "Live ASX"
+    },
+    {
       "code": "TVN",
       "name": "Tivan Ltd",
-      "title": "Tivan Limited (ASX:TVN) Surges Today After Key Business Update",
+      "title": "Tivan (ASX: TVN): What the Decline Means for Its Critical-Minerals Development and Financing Strategy",
       "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "Fri, 17 Jul 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Analysts Expect Breakeven For Tungsten Mining NL (ASX:TGN) Before Long",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "Tue, 23 Jun 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "ENR",
+      "name": "Encounter Resources",
+      "title": "We Think Encounter Resources (ASX:ENR) Can Afford To Drive Business Growth",
+      "link": "https://www.marketindex.com.au/asx/enr/announcements",
+      "date": "Fri, 03 Jul 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX: MI6) Share Price Slips As Exploration Stock Tracks Materials Sector Weakness",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "Thu, 16 Jul 2026"
     },
     {
-      "code": "BCN",
-      "name": "Beacon Minerals",
-      "title": "Can Beacon Minerals (ASX:BCN) Maintain Momentum After Its Latest Quarterly Update?",
-      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "What's Driving the Fall in the Ora Banda Mining (ASX:OBM) Share Price Today?",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "Fri, 17 Jul 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (DVP) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (CYL) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Southern Palladium (SPD) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold Holdings (BGD) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "AZY",
+      "name": "Antipa Minerals",
+      "title": "ASX: AZY Share Watch\u2014How Antipa Minerals Fits into the Gold Exploration Story",
+      "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "date": "Fri, 03 Jul 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN) Retreats: A Look at the Apollo Hill Gold Development",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "Mon, 13 Jul 2026"
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "title": "Manuka Resources (MKR) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "CRS",
+      "name": "Caprice Resources",
+      "title": "Caprice Resources (ASX:CRS) Completes Non-Core Asset Sale to Support Gold Strategy",
+      "link": "https://www.marketindex.com.au/asx/crs/announcements",
+      "date": "Fri, 03 Jul 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Confirms High-Grade Wallace North Structure",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "Thu, 02 Jul 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML) maps a 4km gold core with silver pointing straight at it",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "Tue, 23 Jun 2026"
+    },
+    {
+      "code": "AQI",
+      "name": "Alicanto Minerals Ltd",
+      "title": "Why Alicanto Minerals (ASX:AQI) Shares Are Moving Lower",
+      "link": "https://www.marketindex.com.au/asx/aqi/announcements",
+      "date": "Fri, 03 Jul 2026"
+    },
+    {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "GoldArc Resources (ASX:GA8) Advances Toward Production with Latest Mt Stirling Grade Control Results",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "Tue, 14 Jul 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Sky Metals (ASX: SKY): What Triggered the Sharp Sell-Off and What Should Investors Examine Next?",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "Fri, 17 Jul 2026"
+    },
+    {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Should Investors Follow Black Canyon (ASX:BCA) as Wandanya Resource Drilling Advances?",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "Tue, 07 Jul 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre Limited (ASX:CBE) Sierra Atacama Operational Update",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "Thu, 16 Jul 2026"
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "title": "Unico Silver (ASX:USL) Rises Almost 4% \u2014 What Is Behind the Argentine Silver Explorer\u2019s Gain?",
+      "link": "https://www.marketindex.com.au/asx/usl/announcements",
+      "date": "Tue, 14 Jul 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Enterprise value to revenue forward of Ballard Mining Limited \u2013 ASX:BM1",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "Tue, 14 Jul 2026"
+    },
+    {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Gross profit of Leeuwin Metals Ltd \u2013 ASX:LM1",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
+      "date": "Sun, 05 Jul 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Shares Jump 7%: Why Did the Copper-Gold Explorer Gain Momentum?",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE) hits 5.8% yttrium and heavy rare earths get real",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "Wed, 15 Jul 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources Ltd (LIN) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Cyprium Metals (CYM) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "ST George Mining (SGQ) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "BPM",
+      "name": "BPM Minerals",
+      "title": "BPM Minerals (BPM) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "BMR",
+      "name": "Ballymore Resources",
+      "title": "Is Ballymore Resources Ltd (ASX: BMR) Building Momentum Following Recent Drilling Results?",
+      "link": "https://www.marketindex.com.au/asx/bmr/announcements",
+      "date": "Mon, 13 Jul 2026"
+    },
+    {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Focus Minerals (FML) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "title": "Titan Minerals (TTM) - Official ASX Announcements & PDF Filings",
+      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
+      "date": "Live ASX"
+    },
+    {
+      "code": "NMR",
+      "name": "Native Mineral Resources",
+      "title": "Why Is Native Mineral Resources (ASX:NMR) Issuing New Shares?",
+      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
+      "date": "Wed, 15 Jul 2026"
+    },
+    {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "title": "Enterprise value to EBIT forward of Lachlan Star Limited \u2013 ASX:LSA",
+      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
+      "date": "Fri, 17 Jul 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies Group (ASX:SKS) Slips \u2014 Here\u2019s Why",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) Caught in the Tech Sell-Off as Investors Question the AI Infrastructure Boom",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "title": "Why EDU Holdings (ASX:EDU) Is on the Market Watchlist Today",
+      "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "Fri, 03 Jul 2026"
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "GenusPlus Group (ASX:GNP) Shares Gain 5% Today \u2014 Is This Pilbara Infrastructure Play Building Momentum?",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
+      "date": "Wed, 15 Jul 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX) Wins TGA Approval, But Is The Growth Story Already Priced In",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "Sun, 05 Jul 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Why Is Pro Medicus (ASX:PME) Turning Heads Right Now?",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "Echo IQ (ASX:EIQ) Names A New CFO, Is The Stock Overvalued Or Undervalued?",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "Wed, 01 Jul 2026"
+    },
+    {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "How Investors Are Reacting To Neuren Pharmaceuticals (ASX:NEU) Larger-Than-Expected Phelan-McDermid Syndrome Population Estimate",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
+      "date": "Wed, 15 Jul 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Why Is Liontown (ASX:LTR) Facing a Lithium Reality Check?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "Mon, 20 Jul 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Pushes Deeper Into Lithium Processing As Fair Value Debate Builds",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "Wed, 15 Jul 2026"
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Wildcat Resources (ASX:WC8) Dips Alongside a Weaker Materials Sector",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "Mon, 20 Jul 2026"
     }
   ],
-  "gold_change": 6.45,
-  "gold_pct": -0.16,
-  "silver_change": 0.971,
-  "silver_pct": 1.74,
-  "platinum_change": 16.6,
-  "platinum_pct": -1.03,
-  "palladium_change": 13.0,
-  "palladium_pct": 1.04,
-  "copper_change": 0.082,
-  "copper_pct": 1.32,
-  "nickel_change": 84.0,
-  "nickel_pct": -0.49,
-  "zinc_change": 4.6,
-  "zinc_pct": 0.13,
+  "gold_change": 7.42,
+  "gold_pct": -0.18,
+  "silver_change": 0.987,
+  "silver_pct": 1.77,
+  "platinum_change": 16.9,
+  "platinum_pct": -1.05,
+  "palladium_change": 14.0,
+  "palladium_pct": 1.12,
+  "copper_change": 0.0877,
+  "copper_pct": 1.41,
+  "nickel_change": 111.0,
+  "nickel_pct": -0.65,
+  "zinc_change": 0.5,
+  "zinc_pct": 0.01,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,
