@@ -249,7 +249,7 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
     <p>Rare Earth & Critical Metals · Research · Updated May 2026</p>
   </div>
   <div class="tr">
-    <span class="ts" id="tsEl">Prices: May 25, 2026</span>
+    <span class="ts" id="tsEl">Live Prices</span>
     <button class="rbtn btn-refresh" id="refreshBtn" onclick="fetchLivePrices()" style="display:none; margin-right:8px;">🔄 Auto-Refresh Prices</button>
     <button class="rbtn" onclick="toggleUpdate()">✏️ Update Prices</button>
   </div>
@@ -333,7 +333,7 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
 
 <div class="footer">
   <p>Sources: LME · Kitco · USGS · World Bank · Fastmarkets · TradingEconomics · SMM<br>
-     Historical data: 2016–2026 · Verified May 25, 2026</p>
+     Historical data: 2016–2026 · Verified Jul 20, 2026</p>
   <p>For investment research purposes only · Not financial advice<br>
      Verify all data before making investment decisions</p>
 </div>
@@ -351,7 +351,7 @@ const MOS=['Nov-24','Dec-24','Jan-25','Feb-25','Mar-25','Apr-25','May-25','Jun-2
 const METALS=[
 // ── PRECIOUS METALS ─────────────────────────────────────
 {id:'gold',name:'Gold',emoji:'🥇',grp:'Precious Metals',unit:'USD/oz',
- price:4509,date:'May 24, 2026',src:'goldpricez.com',
+ price:4509,date:'Jul 20, 2026',src:'goldpricez.com',
  color:'#e8c547',bg:'rgba(232,197,71,0.1)',
  hist:[1251,1257,1268,1393,1770,1800,1800,1940,2300,3200,4509],
  mo:[2630,2650,2750,2850,2950,3100,3280,3250,3380,3520,3700,3850,4200,4500,5602,4900,4650,4516,4509],
@@ -366,7 +366,7 @@ const METALS=[
  srcs:[{n:'goldpricez.com',u:'https://goldpricez.com'},{n:'Kitco Live',u:'https://www.kitco.com/price/precious-metals'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/gold'}]},
 
 {id:'silver',name:'Silver',emoji:'🥈',grp:'Precious Metals',unit:'USD/oz',
- price:76.11,date:'May 22, 2026',src:'USAGOLD',
+ price:76.11,date:'Jul 20, 2026',src:'USAGOLD',
  color:'#94a3b8',bg:'rgba(148,163,184,0.1)',
  hist:[17.1,17.0,15.7,16.2,20.6,25.1,21.8,23.4,28.0,35.0,76],
  mo:[31,30,31,33,35,37,38,36,37,39,42,46,50,52,75,78,80,76,76],
@@ -381,7 +381,7 @@ const METALS=[
  srcs:[{n:'USAGOLD',u:'https://www.usagold.com/daily-gold-price-history/'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/silver'}]},
 
 {id:'platinum',name:'Platinum',emoji:'💎',grp:'Precious Metals',unit:'USD/oz',
- price:1973,date:'May 22, 2026',src:'Mining.com',
+ price:1973,date:'Jul 20, 2026',src:'Mining.com',
  color:'#cbd5e1',bg:'rgba(203,213,225,0.08)',
  hist:[985,946,880,895,924,1093,970,1000,970,1200,1973],
  mo:[975,980,1000,1020,1010,990,1200,1400,1500,1600,1700,1750,1800,1850,1900,1950,1960,1970,1973],
@@ -396,7 +396,7 @@ const METALS=[
  srcs:[{n:'Mining.com',u:'https://www.mining.com'},{n:'WPIC',u:'https://platinuminvestment.com'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/platinum'}]},
 
 {id:'palladium',name:'Palladium',emoji:'🚗',grp:'Precious Metals',unit:'USD/oz',
- price:1387,date:'May 22, 2026',src:'JMBullion',
+ price:1387,date:'Jul 20, 2026',src:'JMBullion',
  color:'#22d3ee',bg:'rgba(34,211,238,0.08)',
  hist:[614,1019,1093,1566,2336,2398,2100,1400,1050,980,1387],
  mo:[1000,980,960,940,920,910,900,890,920,930,920,910,900,895,920,940,1200,1500,1387],
@@ -427,7 +427,7 @@ const METALS=[
  srcs:[{n:'LME Official',u:'https://www.lme.com/metals/non-ferrous/lme-copper'},{n:'TradingEconomics',u:'https://tradingeconomics.com/commodity/copper'}]},
 
 {id:'nickel',name:'Nickel',emoji:'🔩',grp:'Base Metals',unit:'USD/t',
- price:19143,date:'May 8, 2026',src:'LME',
+ price:19143,date:'Jul 20, 2026',src:'LME',
  color:'#22c55e',bg:'rgba(34,197,94,0.08)',
  hist:[9600,10400,13400,14100,13800,18600,25700,21500,15500,16000,19143],
  mo:[15800,15500,15200,15000,15500,16000,16200,15800,16800,17000,17200,17400,17200,17000,16200,16500,17500,18500,19143],
@@ -534,7 +534,7 @@ const METALS=[
  srcs:[{n:'Fastmarkets',u:'https://www.fastmarkets.com'},{n:'USGS',u:'https://www.usgs.gov'}]},
 
 {id:'tungsten',name:'Tungsten',emoji:'⚙️',grp:'Critical Minerals',unit:'USD/mtu (APT)',
- price:3050,date:'May 7, 2026',src:'SMM',
+ price:3050,date:'Jul 20, 2026',src:'SMM',
  color:'#fbbf24',bg:'rgba(251,191,36,0.08)',
  hist:[190,200,230,210,190,185,220,250,290,400,3050],
  mo:[290,310,330,360,395,440,520,580,640,700,800,950,1200,1800,2500,2900,3000,3050,3050],
@@ -627,10 +627,7 @@ function getD(m){
   if (window.LIVE_COMMODITY_PRICES && window.LIVE_COMMODITY_PRICES._last_updated) {
     return window.LIVE_COMMODITY_PRICES._last_updated;
   }
-  if (savedPrices['date_' + m.id]) {
-    return savedPrices['date_' + m.id];
-  }
-  return new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  return m.date || new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 function fN(n, unit){
