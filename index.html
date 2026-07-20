@@ -623,7 +623,15 @@ function savePrices(obj){
 let savedPrices = loadSaved();
 
 function getP(m){ return savedPrices[m.id] || m.price; }
-function getD(m){ return savedPrices['date_'+m.id] || m.date; }
+function getD(m){
+  if (window.LIVE_COMMODITY_PRICES && window.LIVE_COMMODITY_PRICES._last_updated) {
+    return window.LIVE_COMMODITY_PRICES._last_updated;
+  }
+  if (savedPrices['date_' + m.id]) {
+    return savedPrices['date_' + m.id];
+  }
+  return new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
 
 function fN(n, unit){
   const sym = (unit && unit.startsWith('CNY')) ? '¥' : '$';
@@ -1024,11 +1032,8 @@ function applyApiPrices(apiPrices) {
   if (apiPrices._last_updated) {
     document.getElementById('tsEl').textContent = 'Live Prices: ' + apiPrices._last_updated;
     METALS.forEach(m => {
-      // Update dates only if there is no manual override in localStorage
-      if (!savedPrices[m.id]) {
-        const de = document.getElementById('pd_' + m.id);
-        if (de) de.textContent = apiPrices._last_updated + ' · ' + m.src;
-      }
+      const de = document.getElementById('pd_' + m.id);
+      if (de) de.textContent = apiPrices._last_updated + ' · ' + m.src;
     });
   }
   
