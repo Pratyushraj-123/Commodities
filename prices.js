@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4007.84,
-  "silver": 56.408,
-  "platinum": 1601.2,
-  "palladium": 1254.5,
-  "copper": 6.3006,
+  "gold": 4007.71,
+  "silver": 56.404,
+  "platinum": 1591.0,
+  "palladium": 1261.0,
+  "copper": 6.2979,
   "nickel": 16910.0,
   "zinc": 3515.3,
   "lithium": 151500.0,
-  "uranium": 85.7,
+  "uranium": 85.55,
   "cobalt": 56290.0,
   "rareearth": 260.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 20:56",
+  "_last_updated": "20 Jul 2026, 21:54",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -307.16,
       "pct": -0.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 20:56",
+      "updated": "20 Jul, 21:54",
       "hist": [
         44323.07,
         44502.44,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -12.17,
       "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 20:56"
+      "updated": "20 Jul, 21:54"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 20:56"
+      "updated": "20 Jul, 21:54"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 20:56"
+      "updated": "20 Jul, 21:54"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -75.61,
       "pct": -0.71,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 20:56"
+      "updated": "20 Jul, 21:54"
     }
   },
   "watchlist": {
@@ -708,6 +708,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (ASX:LRV) Edges Higher While Maintaining Positive Long-Term Momentum",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "20 Jul 2026"
+    },
+    {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates",
@@ -736,24 +743,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "20 Jul 2026"
     }
   ],
-  "gold_change": 9.11,
+  "gold_change": 9.24,
   "gold_pct": -0.23,
-  "silver_change": 0.508,
-  "silver_pct": 0.91,
-  "platinum_change": 11.3,
-  "platinum_pct": -0.7,
-  "palladium_change": 1.5,
-  "palladium_pct": 0.12,
-  "copper_change": 0.0806,
-  "copper_pct": 1.3,
+  "silver_change": 0.504,
+  "silver_pct": 0.9,
+  "platinum_change": 21.5,
+  "platinum_pct": -1.33,
+  "palladium_change": 8.0,
+  "palladium_pct": 0.64,
+  "copper_change": 0.0779,
+  "copper_pct": 1.25,
   "nickel_change": 135.0,
   "nickel_pct": -0.79,
   "zinc_change": 9.5,
   "zinc_pct": -0.27,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
-  "uranium_change": 0.25,
-  "uranium_pct": 0.29,
+  "uranium_change": 0.15,
+  "uranium_pct": -0.18,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
