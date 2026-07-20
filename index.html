@@ -821,7 +821,7 @@ function buildPanel(m){
       <div class="hbody">
         <h2 style="color:${m.color}">${m.name}<span class="gbadge">${m.grp}</span></h2>
         <div class="sum">${m.sum}</div>
-        <div class="htags">${tH}</div>
+        <div class="htags" id="tags_${m.id}">${tH}</div>
         <div class="hsrcs">${sH}</div>
       </div>
       <div class="hprice">
@@ -955,27 +955,52 @@ function applyApiPrices(apiPrices) {
       m.price = apiPrices[m.id];
     }
     
-    // Update Daily Change & Percentage Change
-    const chgEl = document.getElementById('pchg_' + m.id);
-    const mdChgEl = document.getElementById('mdchg_' + m.id);
-    const mdPctEl = document.getElementById('mdpct_' + m.id);
+    // Update Daily Change (Points & Percentage)
+    const chg = apiPrices[m.id + '_change'] !== undefined ? apiPrices[m.id + '_change'] : 0;
+    const pct = apiPrices[m.id + '_pct'] !== undefined ? apiPrices[m.id + '_pct'] : 0;
     
-    const chg = apiPrices[m.id + '_change'] || 0;
-    const pct = apiPrices[m.id + '_pct'] || 0;
-    const isUp = pct >= 0;
-    const sign = isUp ? '▲ +' : '▼ ';
-    const colorClass = isUp ? 'up-c' : 'dn-c';
-    
-    if (chgEl && (chg !== 0 || pct !== 0)) {
-      chgEl.className = colorClass;
-      chgEl.textContent = `${sign}${Math.abs(pct).toFixed(2)}% Today`;
-    }
-    if (mdChgEl && (chg !== 0 || pct !== 0)) {
-      mdChgEl.className = 'mv ' + colorClass;
-      mdChgEl.textContent = `${sign}${Math.abs(pct).toFixed(2)}%`;
-    }
-    if (mdPctEl && (chg !== 0 || pct !== 0)) {
-      mdPctEl.textContent = `${isUp ? '+' : ''}${chg.toFixed(2)} move`;
+    if (chg !== 0 || pct !== 0) {
+      const isUp = pct >= 0;
+      const sign = isUp ? '+' : '-';
+      const arrow = isUp ? '▲ ' : '▼ ';
+      const absChg = Math.abs(chg);
+      const absPct = Math.abs(pct);
+      const colorClass = isUp ? 'up-c' : 'dn-c';
+      
+      const chgStr = absChg >= 100 ? absChg.toFixed(1) : absChg >= 1 ? absChg.toFixed(2) : absChg.toFixed(3);
+      const pctStr = absPct.toFixed(2);
+      const moveText = `${sign}$${chgStr} (${sign}${pctStr}%) Today`;
+      
+      // 1. Update Hero Price Badge (Top Right)
+      const chgEl = document.getElementById('pchg_' + m.id);
+      if (chgEl) {
+        chgEl.className = colorClass;
+        chgEl.textContent = `${arrow}${moveText}`;
+      }
+      
+      // 2. Update Primary Tag under Summary (like Platinum reference picture)
+      const tagCont = document.getElementById('tags_' + m.id);
+      if (tagCont && m.tags && m.tags.length > 0) {
+        const bg = isUp ? 'rgba(34,197,94,.12)' : 'rgba(239,68,68,.12)';
+        const color = isUp ? '#22c55e' : '#ef4444';
+        const liveTagHtml = `<span class="htag" style="background:${bg};color:${color};border:1px solid ${color}40;font-weight:600;">${moveText}</span>`;
+        
+        const tags = m.tags.map(([t, tbg, tc]) => `<span class="htag" style="background:${tbg};color:${tc};border:1px solid ${tc}40">${t}</span>`);
+        tags[0] = liveTagHtml;
+        tagCont.innerHTML = tags.join('');
+      }
+      
+      // 3. Update Metric Grid Card (Daily Move)
+      const mdChgEl = document.getElementById('mdchg_' + m.id);
+      const mdPctEl = document.getElementById('mdpct_' + m.id);
+      if (mdChgEl) {
+        mdChgEl.className = 'mv ' + colorClass;
+        mdChgEl.textContent = `${sign}$${chgStr}`;
+      }
+      if (mdPctEl) {
+        mdPctEl.className = 'ms ' + colorClass;
+        mdPctEl.textContent = `${sign}${pctStr}% Today`;
+      }
     }
   });
   

@@ -5,8 +5,12 @@ import re
 import json
 import time
 import os
+import socket
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
+
+# Set global socket timeout to 5.0s to prevent network requests from hanging indefinitely
+socket.setdefaulttimeout(5.0)
 
 JS_FILE = "prices.js"
 JSON_FILE = "prices.json"
@@ -205,9 +209,12 @@ def fetch_watchlist_prices():
     with ThreadPoolExecutor(max_workers=15) as executor:
         futures = [executor.submit(fetch_single_stock_quote, code, name) for code, name in SELECTED_ASX_COMPANIES.items()]
         for future in futures:
-            code, res = future.result()
-            if res:
-                watchlist[code] = res
+            try:
+                code, res = future.result(timeout=6.0)
+                if res:
+                    watchlist[code] = res
+            except Exception:
+                pass
     print(f"Watchlist fetch completed: {len(watchlist)} / {len(SELECTED_ASX_COMPANIES)} stocks updated.")
     return watchlist
 
@@ -305,7 +312,7 @@ def run_scraper():
             
             # Extract name, price, change, and pct change from TE table
             pattern = re.compile(
-                r'href="/commodity/([^"]+)"[^>]*>.*?<b>([^<]+)</b>.*?<td id="p" class="datatable-item"[^>]*>\s*([\d,.]+)\s*td>\s*<td id="nch"[^>]*>.*?([-\d,.]+)\s*</td>\s*<td id="pch"[^>]*>.*?([-\d,.]+)\s*%?\s*</td>',
+                r'href="/commodity/([^"]+)"[^>]*>.*?<b>([^<]+)</b>.*?<td id="p" class="datatable-item"[^>]*>\s*([\d,.]+)\s*</td>\s*<td id="nch"[^>]*>.*?([-\d,.]+)\s*</td>\s*<td id="pch"[^>]*>.*?([-\d,.]+)\s*%?\s*</td>',
                 re.DOTALL | re.IGNORECASE
             )
             
