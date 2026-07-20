@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4011.3,
-  "silver": 56.931,
-  "platinum": 1602.4,
-  "palladium": 1267.0,
-  "copper": 6.3018,
-  "nickel": 16899.0,
-  "zinc": 3514.9,
+  "gold": 4011.16,
+  "silver": 56.906,
+  "platinum": 1605.0,
+  "palladium": 1265.5,
+  "copper": 6.2969,
+  "nickel": 16905.0,
+  "zinc": 3515.3,
   "lithium": 151500.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Jul 2026, 15:41",
+  "_last_updated": "20 Jul 2026, 17:13",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52022.75,
-      "change": -123.67,
-      "pct": -0.24,
+      "price": 51956.3,
+      "change": -190.12,
+      "pct": -0.36,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 15:41",
+      "updated": "20 Jul, 17:13",
       "hist": [
         44323.07,
         44502.44,
@@ -276,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         52658.64,
         52552.97,
         52146.42,
-        52015.19
+        51955.36
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25683.96,
-      "change": 163.72,
-      "pct": 0.64,
+      "price": 25616.34,
+      "change": 96.09,
+      "pct": 0.38,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Jul, 15:41"
+      "updated": "20 Jul, 17:13"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.4,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 15:41"
+      "updated": "20 Jul, 17:13"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -5.1,
       "pct": -0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Jul, 15:41"
+      "updated": "20 Jul, 17:13"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10540.62,
-      "change": -59.75,
-      "pct": -0.56,
+      "price": 10524.76,
+      "change": -75.61,
+      "pct": -0.71,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Jul, 15:41"
+      "updated": "20 Jul, 17:13"
     }
   },
   "watchlist": {
@@ -717,7 +717,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR): Andrew Forrest's $190 Million Tungsten Bet Sends This ASX Critical-Minerals Stock Soaring",
+      "title": "EQ Resources Ltd (ASX: EQR) Share Price Soars 31.82% as Market Activity Accelerates",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "20 Jul 2026"
     },
@@ -743,20 +743,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "20 Jul 2026"
     }
   ],
-  "gold_change": 5.65,
+  "gold_change": 5.79,
   "gold_pct": -0.14,
-  "silver_change": 1.031,
-  "silver_pct": 1.84,
-  "platinum_change": 10.1,
-  "platinum_pct": -0.63,
-  "palladium_change": 14.0,
-  "palladium_pct": 1.12,
-  "copper_change": 0.0818,
-  "copper_pct": 1.32,
-  "nickel_change": 146.0,
-  "nickel_pct": -0.86,
-  "zinc_change": 9.9,
-  "zinc_pct": -0.28,
+  "silver_change": 1.006,
+  "silver_pct": 1.8,
+  "platinum_change": 7.5,
+  "platinum_pct": -0.47,
+  "palladium_change": 12.5,
+  "palladium_pct": 1.0,
+  "copper_change": 0.0769,
+  "copper_pct": 1.24,
+  "nickel_change": 140.0,
+  "nickel_pct": -0.82,
+  "zinc_change": 9.5,
+  "zinc_pct": -0.27,
   "lithium_change": 500.0,
   "lithium_pct": -0.33,
   "uranium_change": 0.25,
