@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4062.97,
-  "silver": 59.006,
-  "platinum": 1634.6,
-  "palladium": 1279.0,
-  "copper": 6.4779,
-  "nickel": 17139.0,
-  "zinc": 3561.9,
+  "gold": 4059.12,
+  "silver": 58.901,
+  "platinum": 1639.6,
+  "palladium": 1280.0,
+  "copper": 6.4795,
+  "nickel": 17124.0,
+  "zinc": 3555.85,
   "lithium": 144000.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Jul 2026, 10:09",
+  "_last_updated": "21 Jul 2026, 12:16",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -307.16,
       "pct": -0.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 07:24",
+      "updated": "21 Jul, 12:16",
       "hist": [
         44323.07,
         44502.44,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -12.17,
       "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 10:09"
+      "updated": "21 Jul, 12:16"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 10:09"
+      "updated": "21 Jul, 12:16"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 3.2,
       "pct": 0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 10:09"
+      "updated": "21 Jul, 12:16"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10492.16,
-      "change": -32.6,
-      "pct": -0.31,
+      "price": 10545.27,
+      "change": 20.51,
+      "pct": 0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Jul, 07:24"
+      "updated": "21 Jul, 12:16"
     }
   },
   "watchlist": {
@@ -509,13 +509,6 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.002,
       "pct": -3.45
     },
-    "SKY": {
-      "name": "SKY Metals Ltd",
-      "code": "SKY",
-      "price": 0.245,
-      "change": 0.015,
-      "pct": 6.52
-    },
     "BCA": {
       "name": "Black Canyon Ltd",
       "code": "BCA",
@@ -529,13 +522,6 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.26,
       "change": 0.01,
       "pct": 4.0
-    },
-    "USL": {
-      "name": "Unico Silver Ltd",
-      "code": "USL",
-      "price": 0.64,
-      "change": 0.04,
-      "pct": 6.67
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -620,6 +606,13 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.05,
       "change": 0.001,
       "pct": 2.04
+    },
+    "LSA": {
+      "name": "Lachlan Star Ltd",
+      "code": "LSA",
+      "price": 0.105,
+      "change": 0.0,
+      "pct": 0.0
     },
     "SKS": {
       "name": "SKS Technologies Group Ltd",
@@ -717,7 +710,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Stakes A$310m on Edna May Gold Hub in Defining Capital-Raise Moment",
+      "title": "Forrestania Resources (ASX: FRS) Raises A$310 Million to Fund Edna May Gold Hub Acquisition",
       "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "21 Jul 2026"
     },
@@ -766,14 +759,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "TNC",
       "name": "True North Copper",
-      "title": "True North Copper (ASX:TNC) Sharpens Focus on Queensland Copper Pipeline as Non-Core Bundarra Goes Up for Sale",
+      "title": "True North Copper (ASX: TNC) Reviews Non-Core Asset as Queensland Copper Strategy Advances",
       "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "21 Jul 2026"
     },
     {
       "code": "GML",
       "name": "Gateway Mining Ltd",
-      "title": "Gateway Mining (ASX:GML) Runs Three Rigs at Yandal as It Chases District-Scale Gold in WA",
+      "title": "Gateway Mining (ASX: GML) Runs Three Rigs at Yandal in Search of District-Scale Gold",
       "link": "https://www.marketindex.com.au/asx/gml/announcements",
       "date": "21 Jul 2026"
     },
@@ -794,8 +787,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Raises A$827m to Pivot From Network Provider to AI Infrastructure Platform",
+      "title": "Megaport (ASX: MP1) Raises Capital to Expand AI Infrastructure Strategy",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX: 4DX) Eases in Early Trade as Investors Digest AIR CARE for Vets Act",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "21 Jul 2026"
     },
     {
@@ -820,20 +820,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Jul 2026"
     }
   ],
-  "gold_change": 54.93,
-  "gold_pct": 1.37,
-  "silver_change": 2.616,
-  "silver_pct": 4.64,
-  "platinum_change": 31.1,
-  "platinum_pct": 1.94,
-  "palladium_change": 10.5,
-  "palladium_pct": 0.83,
-  "copper_change": 0.1789,
-  "copper_pct": 2.84,
-  "nickel_change": 229.0,
-  "nickel_pct": 1.35,
-  "zinc_change": 46.6,
-  "zinc_pct": 1.33,
+  "gold_change": 51.08,
+  "gold_pct": 1.27,
+  "silver_change": 2.511,
+  "silver_pct": 4.45,
+  "platinum_change": 35.6,
+  "platinum_pct": 2.22,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.99,
+  "copper_change": 0.1805,
+  "copper_pct": 2.87,
+  "nickel_change": 214.0,
+  "nickel_pct": 1.27,
+  "zinc_change": 40.55,
+  "zinc_pct": 1.15,
   "lithium_change": 7500.0,
   "lithium_pct": -4.95,
   "uranium_change": 0.15,
