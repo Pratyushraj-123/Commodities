@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4059.12,
-  "silver": 58.901,
-  "platinum": 1639.6,
-  "palladium": 1280.0,
-  "copper": 6.4795,
-  "nickel": 17124.0,
-  "zinc": 3555.85,
+  "gold": 4069.53,
+  "silver": 59.014,
+  "platinum": 1630.1,
+  "palladium": 1275.0,
+  "copper": 6.4945,
+  "nickel": 17053.0,
+  "zinc": 3548.45,
   "lithium": 144000.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Jul 2026, 12:16",
+  "_last_updated": "21 Jul 2026, 14:51",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51839.26,
-      "change": -307.16,
-      "pct": -0.59,
+      "price": 52127.75,
+      "change": 288.49,
+      "pct": 0.56,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 12:16",
+      "updated": "21 Jul, 14:51",
       "hist": [
         44323.07,
         44502.44,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52658.64,
         52552.97,
         52146.42,
-        51839.26
+        51839.26,
+        52127.75
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25508.07,
-      "change": -12.17,
-      "pct": -0.05,
+      "price": 25796.81,
+      "change": 288.74,
+      "pct": 1.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 12:16"
+      "updated": "21 Jul, 14:51"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 12:16"
+      "updated": "21 Jul, 14:51"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 3.2,
       "pct": 0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 12:16"
+      "updated": "21 Jul, 14:51"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10545.27,
-      "change": 20.51,
-      "pct": 0.19,
+      "price": 10565.12,
+      "change": 40.36,
+      "pct": 0.38,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Jul, 12:16"
+      "updated": "21 Jul, 14:51"
     }
   },
   "watchlist": {
@@ -509,6 +510,13 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.002,
       "pct": -3.45
     },
+    "SKY": {
+      "name": "SKY Metals Ltd",
+      "code": "SKY",
+      "price": 0.245,
+      "change": 0.015,
+      "pct": 6.52
+    },
     "BCA": {
       "name": "Black Canyon Ltd",
       "code": "BCA",
@@ -522,6 +530,13 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.26,
       "change": 0.01,
       "pct": 4.0
+    },
+    "USL": {
+      "name": "Unico Silver Ltd",
+      "code": "USL",
+      "price": 0.64,
+      "change": 0.04,
+      "pct": 6.67
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -715,6 +730,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Jul 2026"
     },
     {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Shares Retreat, but Longer-Term Momentum Remains Positive",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
       "title": "WTM grows Spur Zone with shallow gold",
@@ -731,15 +753,22 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "TGN",
       "name": "Tungsten Mining",
-      "title": "Tungsten Mining (ASX: TGN) Advances as Investors Await Drilling Results from Mt Mulgine",
+      "title": "Tungsten Mining NL (ASX:TGN) in Focus as Critical-Minerals Interest and a Volatile Tungsten Market Collide",
       "link": "https://www.marketindex.com.au/asx/tgn/announcements",
       "date": "21 Jul 2026"
     },
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX: EQR) Pulls Back After Sharp Rally as Tungsten Story Remains in Focus",
+      "title": "Inside the $190 Million Tungsten Stake Purchase Reshaping EQ Resources (ASX: EQR)",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 Limited (ASX:MI6) Surges as Bullabulling Gold Study Sharpens the Development Story",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "21 Jul 2026"
     },
     {
@@ -747,6 +776,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Ora Banda Mining Ltd",
       "title": "Can Ora Banda (ASX:OBM) Extend Its Mine Life With Fresh Ounces?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "AZY",
+      "name": "Antipa Minerals",
+      "title": "Antipa Minerals (ASX:AZY) Extends Positive Momentum as Resource Stocks Stay in Focus",
+      "link": "https://www.marketindex.com.au/asx/azy/announcements",
       "date": "21 Jul 2026"
     },
     {
@@ -775,6 +811,20 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "SKY Metals Ltd",
       "title": "Sky Metals advances Tallebung Project with $17.6M cash",
       "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Could a $90 Million Capital Raise Accelerate Cobre\u2019s Copper Growth? (ASX: CBE)",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining (ASX: SGQ) Raises A$60 Million With Hancock Backing: Can Arax\u00e1 Become a Rare-Earths Growth Story?",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "21 Jul 2026"
     },
     {
@@ -815,25 +865,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Pilbara (ASX:PLS) shares swing as spodumene prices cool",
+      "title": "Why Are Pilbara Minerals (ASX:PLS) Shares Wobbling?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "21 Jul 2026"
     }
   ],
-  "gold_change": 51.08,
-  "gold_pct": 1.27,
-  "silver_change": 2.511,
-  "silver_pct": 4.45,
-  "platinum_change": 35.6,
-  "platinum_pct": 2.22,
-  "palladium_change": 12.5,
-  "palladium_pct": 0.99,
-  "copper_change": 0.1805,
-  "copper_pct": 2.87,
-  "nickel_change": 214.0,
-  "nickel_pct": 1.27,
-  "zinc_change": 40.55,
-  "zinc_pct": 1.15,
+  "gold_change": 61.49,
+  "gold_pct": 1.53,
+  "silver_change": 2.624,
+  "silver_pct": 4.65,
+  "platinum_change": 26.1,
+  "platinum_pct": 1.63,
+  "palladium_change": 6.5,
+  "palladium_pct": 0.51,
+  "copper_change": 0.1955,
+  "copper_pct": 3.1,
+  "nickel_change": 143.0,
+  "nickel_pct": 0.85,
+  "zinc_change": 33.15,
+  "zinc_pct": 0.94,
   "lithium_change": 7500.0,
   "lithium_pct": -4.95,
   "uranium_change": 0.15,
