@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4070.7,
-  "silver": 58.908,
-  "platinum": 1642.1,
-  "palladium": 1291.5,
-  "copper": 6.4422,
-  "nickel": 17092.0,
-  "zinc": 3557.15,
+  "gold": 4062.97,
+  "silver": 59.006,
+  "platinum": 1634.6,
+  "palladium": 1279.0,
+  "copper": 6.4779,
+  "nickel": 17139.0,
+  "zinc": 3561.9,
   "lithium": 144000.0,
   "uranium": 85.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Jul 2026, 07:24",
+  "_last_updated": "21 Jul 2026, 10:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -12.17,
       "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 07:24"
+      "updated": "21 Jul, 10:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 07:24"
+      "updated": "21 Jul, 10:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 3.2,
       "pct": 0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 07:24"
+      "updated": "21 Jul, 10:09"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -621,13 +621,6 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.001,
       "pct": 2.04
     },
-    "LSA": {
-      "name": "Lachlan Star Ltd",
-      "code": "LSA",
-      "price": 0.105,
-      "change": 0.0,
-      "pct": 0.0
-    },
     "SKS": {
       "name": "SKS Technologies Group Ltd",
       "code": "SKS",
@@ -706,21 +699,141 @@ window.LIVE_COMMODITY_PRICES = {
       "pct": -1.33
     }
   },
-  "announcements": [],
-  "gold_change": 62.66,
-  "gold_pct": 1.56,
-  "silver_change": 2.518,
-  "silver_pct": 4.47,
-  "platinum_change": 38.1,
-  "platinum_pct": 2.38,
-  "palladium_change": 23.0,
-  "palladium_pct": 1.81,
-  "copper_change": 0.1432,
-  "copper_pct": 2.27,
-  "nickel_change": 182.0,
-  "nickel_pct": 1.07,
-  "zinc_change": 41.85,
-  "zinc_pct": 1.19,
+  "announcements": [
+    {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold (ASX:PC2) lifts Spring Hill resource 84% to 1.51Moz Au",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals (ASX:TM1) Climbs 10.26% as Market Tracks Exploration Momentum",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Stakes A$310m on Edna May Gold Hub in Defining Capital-Raise Moment",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "WTM grows Spur Zone with shallow gold",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Signs MoU with Sumitomo for Sandover Fluorite Project",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining (ASX: TGN) Advances as Investors Await Drilling Results from Mt Mulgine",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX: EQR) Pulls Back After Sharp Rally as Tungsten Story Remains in Focus",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Can Ora Banda (ASX:OBM) Extend Its Mine Life With Fresh Ounces?",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "title": "MKR Stock Price and Chart \u2014 ASX:MKR",
+      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Sharpens Focus on Queensland Copper Pipeline as Non-Core Bundarra Goes Up for Sale",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML) Runs Three Rigs at Yandal as It Chases District-Scale Gold in WA",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Sky Metals advances Tallebung Project with $17.6M cash",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Focus Minerals (ASX:FML): WA Gold Minnows Back in the Spotlight",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) Raises A$827m to Pivot From Network Provider to AI Infrastructure Platform",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Can Pro Medicus (ASX:PME) Sustain Its Contract-Driven Rebound?",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Can Liontown (ASX:LTR) Ride a Firmer Spodumene Signal Higher?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "21 Jul 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "Pilbara (ASX:PLS) shares swing as spodumene prices cool",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "21 Jul 2026"
+    }
+  ],
+  "gold_change": 54.93,
+  "gold_pct": 1.37,
+  "silver_change": 2.616,
+  "silver_pct": 4.64,
+  "platinum_change": 31.1,
+  "platinum_pct": 1.94,
+  "palladium_change": 10.5,
+  "palladium_pct": 0.83,
+  "copper_change": 0.1789,
+  "copper_pct": 2.84,
+  "nickel_change": 229.0,
+  "nickel_pct": 1.35,
+  "zinc_change": 46.6,
+  "zinc_pct": 1.33,
   "lithium_change": 7500.0,
   "lithium_pct": -4.95,
   "uranium_change": 0.15,
