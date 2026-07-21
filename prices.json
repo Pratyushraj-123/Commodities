@@ -1,9 +1,9 @@
 {
-  "gold": 4083.97,
-  "silver": 58.891,
-  "platinum": 1640.0,
-  "palladium": 1283.0,
-  "copper": 6.4897,
+  "gold": 4080.5,
+  "silver": 58.808,
+  "platinum": 1640.3,
+  "palladium": 1283.5,
+  "copper": 6.4896,
   "nickel": 17100.0,
   "zinc": 3552.05,
   "lithium": 144000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Jul 2026, 22:41",
+  "_last_updated": "21 Jul 2026, 23:44",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 385.38,
       "pct": 0.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 22:41",
+      "updated": "21 Jul, 23:44",
       "hist": [
         44502.44,
         45010.29,
@@ -285,7 +285,7 @@
       "change": 329.13,
       "pct": 1.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 22:41"
+      "updated": "21 Jul, 23:44"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 22:41"
+      "updated": "21 Jul, 23:44"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 3.2,
       "pct": 0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 22:41"
+      "updated": "21 Jul, 23:44"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 61.15,
       "pct": 0.58,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Jul, 22:41"
+      "updated": "21 Jul, 23:44"
     }
   },
   "watchlist": {
@@ -710,7 +710,7 @@
     {
       "code": "PC2",
       "name": "PC Gold",
-      "title": "Price to earnings forward of PC Gold Ltd. \u2013 ASX:PC2",
+      "title": "PC Gold (ASX:PC2) lifts Spring Hill resource 84% to 1.51Moz Au",
       "link": "https://www.marketindex.com.au/asx/pc2/announcements",
       "date": "21 Jul 2026"
     },
@@ -862,15 +862,15 @@
       "date": "21 Jul 2026"
     }
   ],
-  "gold_change": 75.93,
-  "gold_pct": 1.89,
-  "silver_change": 2.501,
-  "silver_pct": 4.44,
-  "platinum_change": 36.0,
-  "platinum_pct": 2.24,
-  "palladium_change": 14.5,
-  "palladium_pct": 1.14,
-  "copper_change": 0.1907,
+  "gold_change": 72.46,
+  "gold_pct": 1.81,
+  "silver_change": 2.418,
+  "silver_pct": 4.29,
+  "platinum_change": 36.3,
+  "platinum_pct": 2.26,
+  "palladium_change": 15.0,
+  "palladium_pct": 1.18,
+  "copper_change": 0.1906,
   "copper_pct": 3.03,
   "nickel_change": 190.0,
   "nickel_pct": 1.12,
