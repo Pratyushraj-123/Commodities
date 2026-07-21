@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4077.72,
-  "silver": 58.793,
-  "platinum": 1630.5,
-  "palladium": 1274.0,
-  "copper": 6.4876,
+  "gold": 4083.97,
+  "silver": 58.891,
+  "platinum": 1640.0,
+  "palladium": 1283.0,
+  "copper": 6.4897,
   "nickel": 17100.0,
   "zinc": 3552.05,
   "lithium": 144000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Jul 2026, 21:49",
+  "_last_updated": "21 Jul 2026, 22:41",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 385.38,
       "pct": 0.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 21:49",
+      "updated": "21 Jul, 22:41",
       "hist": [
         44502.44,
         45010.29,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 329.13,
       "pct": 1.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Jul, 21:49"
+      "updated": "21 Jul, 22:41"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 21:49"
+      "updated": "21 Jul, 22:41"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 3.2,
       "pct": 0.04,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Jul, 21:49"
+      "updated": "21 Jul, 22:41"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 61.15,
       "pct": 0.58,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Jul, 21:49"
+      "updated": "21 Jul, 22:41"
     }
   },
   "watchlist": {
@@ -710,7 +710,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PC2",
       "name": "PC Gold",
-      "title": "PC Gold (ASX:PC2) lifts Spring Hill resource 84% to 1.51Moz Au",
+      "title": "Price to earnings forward of PC Gold Ltd. \u2013 ASX:PC2",
       "link": "https://www.marketindex.com.au/asx/pc2/announcements",
       "date": "21 Jul 2026"
     },
@@ -754,13 +754,6 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "EQ Resources Ltd",
       "title": "Inside the $190 Million Tungsten Stake Purchase Reshaping EQ Resources (ASX: EQR)",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "21 Jul 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 Limited (ASX:MI6) Surges as Bullabulling Gold Study Sharpens the Development Story",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "21 Jul 2026"
     },
     {
@@ -869,16 +862,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Jul 2026"
     }
   ],
-  "gold_change": 69.68,
-  "gold_pct": 1.74,
-  "silver_change": 2.403,
-  "silver_pct": 4.26,
-  "platinum_change": 26.5,
-  "platinum_pct": 1.65,
-  "palladium_change": 5.5,
-  "palladium_pct": 0.43,
-  "copper_change": 0.1886,
-  "copper_pct": 2.99,
+  "gold_change": 75.93,
+  "gold_pct": 1.89,
+  "silver_change": 2.501,
+  "silver_pct": 4.44,
+  "platinum_change": 36.0,
+  "platinum_pct": 2.24,
+  "palladium_change": 14.5,
+  "palladium_pct": 1.14,
+  "copper_change": 0.1907,
+  "copper_pct": 3.03,
   "nickel_change": 190.0,
   "nickel_pct": 1.12,
   "zinc_change": 37.3,
