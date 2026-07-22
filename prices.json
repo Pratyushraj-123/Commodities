@@ -1,10 +1,10 @@
 {
-  "gold": 4142.57,
-  "silver": 59.987,
-  "platinum": 1650.1,
-  "palladium": 1302.0,
-  "copper": 6.4397,
-  "nickel": 17200.0,
+  "gold": 4136.56,
+  "silver": 59.888,
+  "platinum": 1647.5,
+  "palladium": 1299.0,
+  "copper": 6.4345,
+  "nickel": 17150.0,
   "zinc": 3592.65,
   "lithium": 143000.0,
   "uranium": 85.7,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Jul 2026, 17:58",
+  "_last_updated": "22 Jul 2026, 19:07",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52309.9,
-      "change": 85.26,
-      "pct": 0.16,
+      "price": 52264.02,
+      "change": 39.38,
+      "pct": 0.08,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 17:58",
+      "updated": "22 Jul, 19:07",
       "hist": [
         44502.44,
         45010.29,
@@ -277,16 +277,16 @@
         52146.42,
         51839.26,
         52224.64,
-        52310.56
+        52264.5
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25754.75,
-      "change": -82.46,
-      "pct": -0.32,
+      "price": 25757.64,
+      "change": -79.57,
+      "pct": -0.31,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 17:58"
+      "updated": "22 Jul, 19:07"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": 29.7,
       "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 17:58"
+      "updated": "22 Jul, 19:07"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": 28.5,
       "pct": 0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 17:58"
+      "updated": "22 Jul, 19:07"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": 131.06,
       "pct": 1.24,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Jul, 17:58"
+      "updated": "22 Jul, 19:07"
     }
   },
   "watchlist": {
@@ -807,6 +807,13 @@
       "date": "22 Jul 2026"
     },
     {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "title": "Lachlan Star Confirms High-Grade Gold Discovery at New Waverley",
+      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
       "title": "Is Megaport (ASX:MP1) Using Wasabi Partnership To Quietly Reframe Its AI Infrastructure Ambitions?",
@@ -842,18 +849,18 @@
       "date": "22 Jul 2026"
     }
   ],
-  "gold_change": 64.85,
-  "gold_pct": 1.59,
-  "silver_change": 1.222,
-  "silver_pct": 2.08,
-  "platinum_change": 12.2,
-  "platinum_pct": 0.74,
-  "palladium_change": 15.5,
-  "palladium_pct": 1.2,
-  "copper_change": 0.0713,
-  "copper_pct": -1.1,
-  "nickel_change": 100.0,
-  "nickel_pct": 0.58,
+  "gold_change": 58.84,
+  "gold_pct": 1.44,
+  "silver_change": 1.123,
+  "silver_pct": 1.91,
+  "platinum_change": 9.6,
+  "platinum_pct": 0.59,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.97,
+  "copper_change": 0.0765,
+  "copper_pct": -1.17,
+  "nickel_change": 50.0,
+  "nickel_pct": 0.29,
   "zinc_change": 40.05,
   "zinc_pct": 1.13,
   "lithium_change": 1000.0,
