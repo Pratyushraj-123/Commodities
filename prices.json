@@ -1,11 +1,11 @@
 {
-  "gold": 4125.75,
-  "silver": 59.41,
-  "platinum": 1664.8,
-  "palladium": 1322.0,
-  "copper": 6.474,
-  "nickel": 17121.0,
-  "zinc": 3587.7,
+  "gold": 4145.68,
+  "silver": 60.198,
+  "platinum": 1655.6,
+  "palladium": 1311.0,
+  "copper": 6.4625,
+  "nickel": 17185.0,
+  "zinc": 3580.5,
   "lithium": 143000.0,
   "uranium": 85.7,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Jul 2026, 12:18",
+  "_last_updated": "22 Jul 2026, 14:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52224.64,
-      "change": 385.38,
-      "pct": 0.74,
+      "price": 52287.58,
+      "change": 62.94,
+      "pct": 0.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 12:18",
+      "updated": "22 Jul, 14:50",
       "hist": [
         44502.44,
         45010.29,
@@ -276,16 +276,17 @@
         52552.97,
         52146.42,
         51839.26,
-        52224.64
+        52224.64,
+        52287.58
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25837.21,
-      "change": 329.13,
-      "pct": 1.29,
+      "price": 25721.17,
+      "change": -116.03,
+      "pct": -0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 12:18"
+      "updated": "22 Jul, 14:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 29.7,
       "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 12:18"
+      "updated": "22 Jul, 14:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 28.5,
       "pct": 0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 12:18"
+      "updated": "22 Jul, 14:50"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10724.38,
-      "change": 138.47,
-      "pct": 1.31,
+      "price": 10748.25,
+      "change": 162.34,
+      "pct": 1.53,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Jul, 12:18"
+      "updated": "22 Jul, 14:50"
     }
   },
   "watchlist": {
@@ -724,7 +725,7 @@
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX: EQR) Drops on Huge Volume \u2014 Why This Tungsten Miner Is Suddenly in Focus",
+      "title": "EQ Resources (ASX:EQR) Eases 5.4%: Tungsten Producer Pulls Back Against Materials Strength",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "22 Jul 2026"
     },
@@ -759,7 +760,7 @@
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "title": "Unico Silver (ASX:USL) Gains as Joaquin Moves Closer to a Key Study Milestone",
+      "title": "Unico Silver (ASX:USL) Climbs 7.8%: Silver Explorer Rides Materials Rally",
       "link": "https://www.marketindex.com.au/asx/usl/announcements",
       "date": "22 Jul 2026"
     },
@@ -787,7 +788,7 @@
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX: BRE): A Near-$1 Billion Explorer Faces a Valuation Test",
+      "title": "Brazilian Rare Earths (ASX:BRE) Gains 7.8%: Critical Minerals Demand in the Spotlight",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "22 Jul 2026"
     },
@@ -796,6 +797,20 @@
       "name": "BPM Minerals",
       "title": "BPM Minerals (ASX:BPM) Falls\u2014 Is the Exploration Stock\u2019s Latest Dip Worth Watching?",
       "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Focus Minerals (ASX:FML) Surges 8.3% as Gold Stocks Rally Hard",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "title": "Lachlan Star Confirms High-Grade Gold Discovery at New Waverley",
+      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
       "date": "22 Jul 2026"
     },
     {
@@ -827,20 +842,20 @@
       "date": "22 Jul 2026"
     }
   ],
-  "gold_change": 48.03,
-  "gold_pct": 1.18,
-  "silver_change": 0.645,
-  "silver_pct": 1.1,
-  "platinum_change": 26.9,
-  "platinum_pct": 1.64,
-  "palladium_change": 35.5,
-  "palladium_pct": 2.76,
-  "copper_change": 0.037,
-  "copper_pct": -0.57,
-  "nickel_change": 21.0,
-  "nickel_pct": 0.13,
-  "zinc_change": 35.1,
-  "zinc_pct": 0.99,
+  "gold_change": 67.96,
+  "gold_pct": 1.67,
+  "silver_change": 1.433,
+  "silver_pct": 2.44,
+  "platinum_change": 17.7,
+  "platinum_pct": 1.08,
+  "palladium_change": 24.5,
+  "palladium_pct": 1.9,
+  "copper_change": 0.0485,
+  "copper_pct": -0.74,
+  "nickel_change": 85.0,
+  "nickel_pct": 0.49,
+  "zinc_change": 27.9,
+  "zinc_pct": 0.79,
   "lithium_change": 1000.0,
   "lithium_pct": -0.69,
   "uranium_change": 0.15,
