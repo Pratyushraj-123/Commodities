@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4119.15,
-  "silver": 59.392,
-  "platinum": 1668.8,
-  "palladium": 1310.5,
-  "copper": 6.4744,
-  "nickel": 17159.0,
-  "zinc": 3579.35,
+  "gold": 4116.5,
+  "silver": 59.363,
+  "platinum": 1662.5,
+  "palladium": 1310.0,
+  "copper": 6.4758,
+  "nickel": 17109.0,
+  "zinc": 3584.8,
   "lithium": 143000.0,
-  "uranium": 85.55,
+  "uranium": 85.7,
   "cobalt": 56290.0,
   "rareearth": 260.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Jul 2026, 07:26",
+  "_last_updated": "22 Jul 2026, 10:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 385.38,
       "pct": 0.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 07:26",
+      "updated": "22 Jul, 10:09",
       "hist": [
         44502.44,
         45010.29,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 329.13,
       "pct": 1.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 07:26"
+      "updated": "22 Jul, 10:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 29.7,
       "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 07:26"
+      "updated": "22 Jul, 10:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.5,
       "pct": 0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 07:26"
+      "updated": "22 Jul, 10:09"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10573.18,
-      "change": -12.73,
-      "pct": -0.12,
+      "price": 10675.93,
+      "change": 90.02,
+      "pct": 0.85,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Jul, 07:26"
+      "updated": "22 Jul, 10:09"
     }
   },
   "watchlist": {
@@ -708,6 +708,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold (ASX:PC2) Slides \u2014 Has the Market Turned Too Bearish on This Gold Explorer?",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
       "code": "MM8",
       "name": "Medallion Metals",
       "title": "TG Metals and Medallion Metals Sign Ore Processing Agreement for Van Uden Gold Stockpiles",
@@ -757,6 +764,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Jul 2026"
     },
     {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Price to sales forward of Ballard Mining Limited \u2013 ASX:BM1",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Dilution adjustment of Leeuwin Metals Ltd \u2013 ASX:LM1",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
       "title": "FireFly Metals (ASX: FFM): Can Copper Market Momentum Continue Supporting Investor Interest?",
@@ -787,8 +808,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Can Liontown (ASX:LTR) Steady Lithium Nerves?",
+      "title": "Liontown Limited (ASX: LTR) Sinks 5.3% as More Than 30 Million Shares Change Hands",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "Pilbara Minerals (ASX:PLS) Shares in Focus Amid Elevated Trading Activity and Increased Investor Cautiousness",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "22 Jul 2026"
     },
     {
@@ -799,24 +827,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Jul 2026"
     }
   ],
-  "gold_change": 41.43,
-  "gold_pct": 1.02,
-  "silver_change": 0.627,
-  "silver_pct": 1.07,
-  "platinum_change": 30.9,
-  "platinum_pct": 1.89,
-  "palladium_change": 24.0,
-  "palladium_pct": 1.87,
-  "copper_change": 0.0366,
-  "copper_pct": -0.56,
-  "nickel_change": 59.0,
-  "nickel_pct": 0.35,
-  "zinc_change": 27.3,
-  "zinc_pct": 0.77,
+  "gold_change": 38.78,
+  "gold_pct": 0.95,
+  "silver_change": 0.598,
+  "silver_pct": 1.02,
+  "platinum_change": 24.6,
+  "platinum_pct": 1.5,
+  "palladium_change": 23.5,
+  "palladium_pct": 1.83,
+  "copper_change": 0.0352,
+  "copper_pct": -0.54,
+  "nickel_change": 9.0,
+  "nickel_pct": 0.05,
+  "zinc_change": 32.2,
+  "zinc_pct": 0.91,
   "lithium_change": 1000.0,
   "lithium_pct": -0.69,
   "uranium_change": 0.15,
-  "uranium_pct": -0.18,
+  "uranium_pct": 0.18,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
