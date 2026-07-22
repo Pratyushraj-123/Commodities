@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4136.56,
-  "silver": 59.888,
-  "platinum": 1647.5,
-  "palladium": 1299.0,
-  "copper": 6.4345,
+  "gold": 4130.06,
+  "silver": 59.721,
+  "platinum": 1650.1,
+  "palladium": 1298.0,
+  "copper": 6.4438,
   "nickel": 17150.0,
   "zinc": 3592.65,
   "lithium": 143000.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Jul 2026, 19:07",
+  "_last_updated": "22 Jul 2026, 20:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52264.02,
-      "change": 39.38,
-      "pct": 0.08,
+      "price": 52218.58,
+      "change": -6.06,
+      "pct": -0.01,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 19:07",
+      "updated": "22 Jul, 20:50",
       "hist": [
-        44502.44,
         45010.29,
         44693.91,
         44901.92,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         52146.42,
         51839.26,
         52224.64,
-        52264.5
+        52218.58
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25757.64,
-      "change": -79.57,
-      "pct": -0.31,
+      "price": 25690.9,
+      "change": -146.31,
+      "pct": -0.57,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Jul, 19:07"
+      "updated": "22 Jul, 20:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 29.7,
       "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 19:07"
+      "updated": "22 Jul, 20:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.5,
       "pct": 0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Jul, 19:07"
+      "updated": "22 Jul, 20:50"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 131.06,
       "pct": 1.24,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Jul, 19:07"
+      "updated": "22 Jul, 20:50"
     }
   },
   "watchlist": {
@@ -716,6 +715,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Jul 2026"
     },
     {
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "ChartWatch ASX scans: Mineral Resources, Netwealth, GQG Partners, Baby Bunting, Benz Mining, Havilah Resources",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "22 Jul 2026"
+    },
+    {
       "code": "MM8",
       "name": "Medallion Metals",
       "title": "TG Metals and Medallion Metals Sign Ore Processing Agreement for Van Uden Gold Stockpiles",
@@ -849,16 +855,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Jul 2026"
     }
   ],
-  "gold_change": 58.84,
-  "gold_pct": 1.44,
-  "silver_change": 1.123,
-  "silver_pct": 1.91,
-  "platinum_change": 9.6,
-  "platinum_pct": 0.59,
-  "palladium_change": 12.5,
-  "palladium_pct": 0.97,
-  "copper_change": 0.0765,
-  "copper_pct": -1.17,
+  "gold_change": 52.34,
+  "gold_pct": 1.28,
+  "silver_change": 0.956,
+  "silver_pct": 1.63,
+  "platinum_change": 12.2,
+  "platinum_pct": 0.74,
+  "palladium_change": 12.0,
+  "palladium_pct": 0.93,
+  "copper_change": 0.0672,
+  "copper_pct": -1.03,
   "nickel_change": 50.0,
   "nickel_pct": 0.29,
   "zinc_change": 40.05,
