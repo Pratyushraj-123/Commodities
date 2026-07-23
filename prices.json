@@ -1,11 +1,11 @@
 {
-  "gold": 4081.32,
-  "silver": 58.416,
-  "platinum": 1627.2,
-  "palladium": 1266.0,
-  "copper": 6.415,
-  "nickel": 17394.0,
-  "zinc": 3616.15,
+  "gold": 4058.38,
+  "silver": 57.781,
+  "platinum": 1606.2,
+  "palladium": 1261.5,
+  "copper": 6.3231,
+  "nickel": 17206.0,
+  "zinc": 3588.45,
   "lithium": 146500.0,
   "uranium": 85.75,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.5,
   "fluorite": 580.0,
-  "_last_updated": "23 Jul 2026, 12:16",
+  "_last_updated": "23 Jul 2026, 14:56",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52218.58,
-      "change": -6.06,
-      "pct": -0.01,
+      "price": 51719.35,
+      "change": -499.23,
+      "pct": -0.96,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Jul, 12:16",
+      "updated": "23 Jul, 14:56",
       "hist": [
         45010.29,
         44693.91,
@@ -276,16 +276,17 @@
         52146.42,
         51839.26,
         52224.64,
-        52218.58
+        52218.58,
+        51719.35
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25690.9,
-      "change": -146.31,
-      "pct": -0.57,
+      "price": 25083.9,
+      "change": -607.0,
+      "pct": -2.36,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Jul, 12:16"
+      "updated": "23 Jul, 14:56"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 16.0,
       "pct": 0.18,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Jul, 12:16"
+      "updated": "23 Jul, 14:56"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 15.6,
       "pct": 0.18,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Jul, 12:16"
+      "updated": "23 Jul, 14:56"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10694.29,
-      "change": -22.68,
-      "pct": -0.21,
+      "price": 10641.26,
+      "change": -75.71,
+      "pct": -0.71,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Jul, 12:16"
+      "updated": "23 Jul, 14:56"
     }
   },
   "watchlist": {
@@ -715,10 +716,31 @@
       "date": "23 Jul 2026"
     },
     {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Why Beacon Minerals (ASX:BCN) Is Trading Higher Today",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "23 Jul 2026"
+    },
+    {
       "code": "MI6",
       "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6) Draws Attention as Bullabulling Project Advances",
+      "title": "Minerals 260 (ASX:MI6) Is Moving \u2014 What's Driving the Fresh Investor Interest in This Gold Stock?",
       "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "23 Jul 2026"
+    },
+    {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold Holdings (ASX:BGD) Shares Gain as Tunkillia Drilling Progress Remains in Focus",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "23 Jul 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN) Is Moving Higher \u2014 What's Behind the Apollo Hill Gold Project Story?",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
       "date": "23 Jul 2026"
     },
     {
@@ -729,9 +751,16 @@
       "date": "23 Jul 2026"
     },
     {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Gains as Bundarra Sale Retains Royalty and Equity Exposure",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "23 Jul 2026"
+    },
+    {
       "code": "CBE",
       "name": "Cobre Ltd",
-      "title": "ASX-listed Cobre secures US$25M Botswana copper deal",
+      "title": "Cobre (ASX:CBE) Shares Gain After Sierra Atacama Posts Its First Consecutive Cash-Flow-Positive Months",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
       "date": "23 Jul 2026"
     },
@@ -801,32 +830,32 @@
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Pilbara Minerals (ASX:PLS): Lithium Titan Watches for Recovery Signals",
+      "title": "PLS Group (ASX:PLS) Is Rising \u2014 Is the Lithium Major's Expansion Story Worth Revisiting?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "23 Jul 2026"
     },
     {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
-      "title": "Price to earnings forward of Wildcat Resources Ltd. \u2013 ASX:WC8",
+      "title": "Wildcat Resources (ASX:WC8) Shares Gain as Bolt Cutter Metallurgy Remains in Focus",
       "link": "https://www.marketindex.com.au/asx/wc8/announcements",
       "date": "23 Jul 2026"
     }
   ],
-  "gold_change": 49.27,
-  "gold_pct": -1.19,
-  "silver_change": 1.3,
-  "silver_pct": -2.18,
-  "platinum_change": 26.1,
-  "platinum_pct": -1.58,
-  "palladium_change": 44.0,
-  "palladium_pct": -3.36,
-  "copper_change": 0.036,
-  "copper_pct": -0.56,
-  "nickel_change": 244.0,
-  "nickel_pct": 1.42,
-  "zinc_change": 23.3,
-  "zinc_pct": 0.65,
+  "gold_change": 72.21,
+  "gold_pct": -1.75,
+  "silver_change": 1.935,
+  "silver_pct": -3.24,
+  "platinum_change": 47.1,
+  "platinum_pct": -2.85,
+  "palladium_change": 48.5,
+  "palladium_pct": -3.7,
+  "copper_change": 0.1279,
+  "copper_pct": -1.98,
+  "nickel_change": 56.0,
+  "nickel_pct": 0.33,
+  "zinc_change": 4.4,
+  "zinc_pct": -0.12,
   "lithium_change": 3500.0,
   "lithium_pct": 2.45,
   "uranium_change": 0.05,
