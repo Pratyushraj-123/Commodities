@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4053.95,
-  "silver": 58.182,
-  "platinum": 1599.7,
-  "palladium": 1244.0,
-  "copper": 6.2974,
+  "gold": 4052.0,
+  "silver": 58.187,
+  "platinum": 1599.1,
+  "palladium": 1245.0,
+  "copper": 6.3014,
   "nickel": 17310.0,
   "zinc": 3589.65,
   "lithium": 145500.0,
-  "uranium": 85.85,
+  "uranium": 86.05,
   "cobalt": 56290.0,
   "rareearth": 258.0,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "24 Jul 2026, 20:06",
+  "_last_updated": "24 Jul 2026, 21:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 235.6,
       "pct": 0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 20:06",
+      "updated": "24 Jul, 21:50",
       "hist": [
         44901.92,
         44837.56,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -161.87,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 20:06"
+      "updated": "24 Jul, 21:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -66.7,
       "pct": -0.75,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 20:06"
+      "updated": "24 Jul, 21:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -68.1,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 20:06"
+      "updated": "24 Jul, 21:50"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 97.06,
       "pct": 0.91,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Jul, 20:06"
+      "updated": "24 Jul, 21:50"
     }
   },
   "watchlist": {
@@ -706,166 +706,25 @@ window.LIVE_COMMODITY_PRICES = {
       "pct": -4.05
     }
   },
-  "announcements": [
-    {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Here's Why Forrestania Resources (ASX:FRS) Is Falling",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "BNZ",
-      "name": "BENZ Mining Corp",
-      "title": "Benz Mining (ASX:BNZ) Gains Nearly 3% as Exploration Interest Builds",
-      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "title": "Solstice Minerals (ASX:SLS): The Gold Explorer Delivering One of the ASX's Most Compelling Yearly Returns",
-      "link": "https://www.marketindex.com.au/asx/sls/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR): How a Tungsten Producer Captured the Attention of Critical Minerals Investors",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6) Drops More Than 5% as Resource Stocks Lose Momentum",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Falls as Gold Sector Experiences Broad Weakness",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL) Tumbles as ASX Gold Producers Face a Difficult Session",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "STN",
-      "name": "Saturn Metals Ltd",
-      "title": "Saturn Metals secures three exploration licences across 135km2",
-      "link": "https://www.marketindex.com.au/asx/stn/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE): The Copper Explorer That Has Electrified Returns Over the Past Year",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "LIN",
-      "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources (ASX:LIN): The African Bauxite Developer That Has Delivered a Standout Year for ASX Investors",
-      "link": "https://www.marketindex.com.au/asx/lin/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CYM",
-      "name": "Cyprium Metals",
-      "title": "Cyprium Metals (ASX:CYM) Slides Nearly 8% as Copper and Mining Stocks Lose Ground",
-      "link": "https://www.marketindex.com.au/asx/cym/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "MasTec Stock And 2 Renewable Infrastructure Names Worth A Closer Look",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Shares Move Lower as Technology Sector Sentiment Weakens",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "title": "Genusplus Group (ASX:GNP): Inside the Engineering Services Company That Has More Than Doubled the Index",
-      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Shares Closed Down Today: What Are Investors Watching?",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Could Pro Medicus (ASX:PME) Be Approaching a Crucial Growth-Stock Moment?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "EIQ",
-      "name": "Echoiq Ltd",
-      "title": "EchoIQ (ASX:EIQ) Edges Lower Amid Broad Selling Across ASX Technology Companies",
-      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals (ASX:NEU) Climbs Against the Market\u2014Can the Momentum Continue?",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR) Shares Retreat While Long-Term Share Performance Stays Positive",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources Limited (ASX: WC8) - Share Price",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "24 Jul 2026"
-    }
-  ],
-  "gold_change": 4.18,
-  "gold_pct": 0.1,
-  "silver_change": 0.548,
-  "silver_pct": 0.95,
-  "platinum_change": 9.1,
-  "platinum_pct": -0.57,
-  "palladium_change": 18.5,
-  "palladium_pct": -1.47,
-  "copper_change": 0.0076,
-  "copper_pct": -0.12,
+  "announcements": [],
+  "gold_change": 2.23,
+  "gold_pct": 0.06,
+  "silver_change": 0.553,
+  "silver_pct": 0.96,
+  "platinum_change": 9.7,
+  "platinum_pct": -0.6,
+  "palladium_change": 17.5,
+  "palladium_pct": -1.39,
+  "copper_change": 0.0036,
+  "copper_pct": -0.06,
   "nickel_change": 15.0,
   "nickel_pct": 0.09,
   "zinc_change": 3.8,
   "zinc_pct": 0.11,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
-  "uranium_change": 0.1,
-  "uranium_pct": 0.12,
+  "uranium_change": 0.2,
+  "uranium_pct": 0.23,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
