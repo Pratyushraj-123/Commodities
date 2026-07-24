@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "24 Jul 2026, 22:47",
+  "_last_updated": "24 Jul 2026, 23:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 235.6,
       "pct": 0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 22:47",
+      "updated": "24 Jul, 23:50",
       "hist": [
         44901.92,
         44837.56,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -161.87,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 22:47"
+      "updated": "24 Jul, 23:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -66.7,
       "pct": -0.75,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 22:47"
+      "updated": "24 Jul, 23:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -68.1,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 22:47"
+      "updated": "24 Jul, 23:50"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 97.06,
       "pct": 0.91,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Jul, 22:47"
+      "updated": "24 Jul, 23:50"
     }
   },
   "watchlist": {
@@ -757,17 +757,17 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "24 Jul 2026"
     },
     {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold Holdings Limited Revenue Breakdown \u2013 ASX:BGD",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "24 Jul 2026"
+    },
+    {
       "code": "STN",
       "name": "Saturn Metals Ltd",
       "title": "Saturn Metals secures three exploration licences across 135km2",
       "link": "https://www.marketindex.com.au/asx/stn/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North survey hones in on copper-bearing targets at Mt Oxide",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "24 Jul 2026"
     },
     {
