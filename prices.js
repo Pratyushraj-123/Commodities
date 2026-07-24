@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4048.57,
-  "silver": 58.244,
-  "platinum": 1600.3,
-  "palladium": 1243.5,
-  "copper": 6.3204,
-  "nickel": 17435.0,
-  "zinc": 3588.85,
+  "gold": 4059.78,
+  "silver": 58.43,
+  "platinum": 1614.7,
+  "palladium": 1259.0,
+  "copper": 6.3255,
+  "nickel": 17421.0,
+  "zinc": 3590.05,
   "lithium": 145500.0,
   "uranium": 85.85,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "24 Jul 2026, 07:22",
+  "_last_updated": "24 Jul 2026, 10:02",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -506.93,
       "pct": -0.97,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 07:22",
+      "updated": "24 Jul, 10:01",
       "hist": [
         44693.91,
         44901.92,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -553.21,
       "pct": -2.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 07:22"
+      "updated": "24 Jul, 10:01"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -66.7,
       "pct": -0.75,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 07:22"
+      "updated": "24 Jul, 10:02"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -68.1,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 07:22"
+      "updated": "24 Jul, 10:02"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10627.59,
-      "change": -11.58,
-      "pct": -0.11,
+      "price": 10677.32,
+      "change": 38.15,
+      "pct": 0.36,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Jul, 07:22"
+      "updated": "24 Jul, 10:02"
     }
   },
   "watchlist": {
@@ -710,7 +710,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "title": "Here's Why Forrestania Resources (ASX:FRS) Is Falling",
+      "title": "Forrestania Resources (ASX:FRS) Falls 7.5% as Small-Cap Mining Volatility Intensifies",
       "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "24 Jul 2026"
     },
@@ -719,6 +719,20 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "BENZ Mining Corp",
       "title": "Benz Mining (ASX:BNZ) Gains Nearly 3% as Exploration Interest Builds",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "24 Jul 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS): The Gold Explorer Delivering One of the ASX's Most Compelling Yearly Returns",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "24 Jul 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR): How a Tungsten Producer Captured the Attention of Critical Minerals Investors",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "24 Jul 2026"
     },
     {
@@ -752,8 +766,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CBE",
       "name": "Cobre Ltd",
-      "title": "What's Driving Cobre's (ASX:CBE) Drop Today",
+      "title": "Cobre (ASX:CBE): The Copper Explorer That Has Electrified Returns Over the Past Year",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "24 Jul 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN): The African Bauxite Developer That Has Delivered a Standout Year for ASX Investors",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
       "date": "24 Jul 2026"
     },
     {
@@ -771,9 +792,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "24 Jul 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX): The Lung Imaging Technology Company Redefining What an ASX Healthcare Rally Looks Like",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "24 Jul 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Could Pro Medicus (ASX:PME) Be Approaching a Crucial Growth-Stock Moment?",
+      "title": "Could Pro Medicus (ASX:PME) Be Approaching a Crucial Healthcare Moment?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "24 Jul 2026"
     },
@@ -806,20 +834,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "24 Jul 2026"
     }
   ],
-  "gold_change": 1.2,
-  "gold_pct": -0.03,
-  "silver_change": 0.61,
-  "silver_pct": 1.06,
-  "platinum_change": 8.5,
-  "platinum_pct": -0.53,
-  "palladium_change": 19.0,
-  "palladium_pct": -1.5,
-  "copper_change": 0.0154,
-  "copper_pct": 0.24,
-  "nickel_change": 140.0,
-  "nickel_pct": 0.81,
-  "zinc_change": 3.0,
-  "zinc_pct": 0.08,
+  "gold_change": 10.01,
+  "gold_pct": 0.25,
+  "silver_change": 0.796,
+  "silver_pct": 1.38,
+  "platinum_change": 5.9,
+  "platinum_pct": 0.37,
+  "palladium_change": 3.5,
+  "palladium_pct": -0.28,
+  "copper_change": 0.0205,
+  "copper_pct": 0.33,
+  "nickel_change": 126.0,
+  "nickel_pct": 0.73,
+  "zinc_change": 4.2,
+  "zinc_pct": 0.12,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
   "uranium_change": 0.1,
