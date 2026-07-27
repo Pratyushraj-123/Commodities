@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4052.0,
-  "silver": 57.98,
-  "platinum": 1599.1,
-  "palladium": 1245.0,
-  "copper": 6.3014,
-  "nickel": 17310.0,
-  "zinc": 3589.65,
+  "gold": 4102.11,
+  "silver": 59.595,
+  "platinum": 1626.2,
+  "palladium": 1271.5,
+  "copper": 6.3249,
+  "nickel": 17305.0,
+  "zinc": 3601.15,
   "lithium": 145500.0,
   "uranium": 86.05,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "24 Jul 2026, 23:50",
+  "_last_updated": "27 Jul 2026, 01:23",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
       "price": 51947.25,
-      "change": 235.6,
+      "change": 235.65,
       "pct": 0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 23:50",
+      "updated": "27 Jul, 01:23",
       "hist": [
         44901.92,
         44837.56,
@@ -275,225 +275,224 @@ window.LIVE_COMMODITY_PRICES = {
         51839.26,
         52224.64,
         52218.58,
-        51711.65,
-        51947.25
+        51711.65
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
       "price": 24975.82,
-      "change": -161.87,
+      "change": -161.88,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Jul, 23:50"
+      "updated": "27 Jul, 01:23"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 8772.3,
-      "change": -66.7,
-      "pct": -0.75,
+      "price": 8852.3,
+      "change": 80.0,
+      "pct": 0.91,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 23:50"
+      "updated": "27 Jul, 01:23"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 8699.8,
-      "change": -68.1,
-      "pct": -0.78,
+      "price": 8779.7,
+      "change": 79.9,
+      "pct": 0.92,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Jul, 23:50"
+      "updated": "27 Jul, 01:23"
     },
     "ftse": {
       "name": "FTSE 100",
       "price": 10736.23,
-      "change": 97.06,
+      "change": 97.03,
       "pct": 0.91,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Jul, 23:50"
+      "updated": "27 Jul, 01:23"
     }
   },
   "watchlist": {
     "PC2": {
       "name": "PC Gold",
       "code": "PC2",
-      "price": 0.885,
-      "change": -0.03,
-      "pct": -3.28
+      "price": 0.895,
+      "change": 0.01,
+      "pct": 1.13
     },
     "TM1": {
       "name": "Terra Metals",
       "code": "TM1",
-      "price": 0.21,
-      "change": -0.005,
-      "pct": -2.33
+      "price": 0.2,
+      "change": -0.01,
+      "pct": -4.76
     },
     "FRS": {
       "name": "Forrestania Resources",
       "code": "FRS",
-      "price": 0.37,
-      "change": -0.03,
-      "pct": -7.5
+      "price": 0.375,
+      "change": 0.005,
+      "pct": 1.35
     },
     "BNZ": {
       "name": "BENZ Mining Corp",
       "code": "BNZ",
-      "price": 3.26,
-      "change": 0.25,
-      "pct": 8.31
+      "price": 3.36,
+      "change": 0.1,
+      "pct": 3.07
     },
     "MM1": {
       "name": "Midas Minerals",
       "code": "MM1",
-      "price": 0.74,
-      "change": -0.02,
-      "pct": -2.63
+      "price": 0.78,
+      "change": 0.04,
+      "pct": 5.41
     },
     "BCN": {
       "name": "Beacon Minerals",
       "code": "BCN",
-      "price": 2.7,
-      "change": -0.05,
-      "pct": -1.82
+      "price": 2.76,
+      "change": 0.06,
+      "pct": 2.22
     },
     "SLS": {
       "name": "Solstice Minerals",
       "code": "SLS",
-      "price": 2.36,
-      "change": -0.06,
-      "pct": -2.48
+      "price": 2.4,
+      "change": 0.04,
+      "pct": 1.69
     },
     "MM8": {
       "name": "Medallion Metals",
       "code": "MM8",
-      "price": 0.4,
-      "change": -0.025,
-      "pct": -5.88
+      "price": 0.42,
+      "change": 0.02,
+      "pct": 5.0
     },
     "WTM": {
       "name": "Waratah Minerals Ltd",
       "code": "WTM",
-      "price": 0.465,
-      "change": -0.03,
-      "pct": -6.06
+      "price": 0.485,
+      "change": 0.02,
+      "pct": 4.3
     },
     "LRV": {
       "name": "Larvotto Resources",
       "code": "LRV",
-      "price": 1.13,
-      "change": -0.04,
-      "pct": -3.42
+      "price": 1.165,
+      "change": 0.035,
+      "pct": 3.1
     },
     "TVN": {
       "name": "Tivan Ltd",
       "code": "TVN",
-      "price": 0.28,
-      "change": -0.015,
-      "pct": -5.08
+      "price": 0.285,
+      "change": 0.005,
+      "pct": 1.79
     },
     "TGN": {
       "name": "Tungsten Mining",
       "code": "TGN",
-      "price": 0.215,
-      "change": -0.01,
-      "pct": -4.44
+      "price": 0.22,
+      "change": 0.005,
+      "pct": 2.33
     },
     "EQR": {
       "name": "EQ Resources Ltd",
       "code": "EQR",
-      "price": 0.26,
-      "change": -0.01,
-      "pct": -3.7
+      "price": 0.272,
+      "change": 0.012,
+      "pct": 4.62
     },
     "ENR": {
       "name": "Encounter Resources",
       "code": "ENR",
       "price": 0.23,
-      "change": -0.005,
-      "pct": -2.13
+      "change": 0.0,
+      "pct": 0.0
     },
     "MI6": {
       "name": "Minerals 260",
       "code": "MI6",
-      "price": 0.625,
-      "change": -0.035,
-      "pct": -5.3
+      "price": 0.65,
+      "change": 0.025,
+      "pct": 4.0
     },
     "OBM": {
       "name": "Ora Banda Mining Ltd",
       "code": "OBM",
-      "price": 1.05,
-      "change": -0.04,
-      "pct": -3.67
+      "price": 1.125,
+      "change": 0.075,
+      "pct": 7.14
     },
     "DVP": {
       "name": "Develop Global",
       "code": "DVP",
-      "price": 5.37,
-      "change": -0.34,
-      "pct": -5.95
+      "price": 5.585,
+      "change": 0.215,
+      "pct": 4.0
     },
     "CYL": {
       "name": "Catalyst Metals",
       "code": "CYL",
-      "price": 5.63,
-      "change": -0.38,
-      "pct": -6.32
+      "price": 6.13,
+      "change": 0.5,
+      "pct": 8.88
     },
     "SPD": {
       "name": "Southern Palladium",
       "code": "SPD",
-      "price": 1.3,
-      "change": -0.015,
-      "pct": -1.14
+      "price": 1.4,
+      "change": 0.1,
+      "pct": 7.69
     },
     "BGD": {
       "name": "Barton Gold Holdings",
       "code": "BGD",
-      "price": 0.735,
-      "change": -0.02,
-      "pct": -2.65
+      "price": 0.75,
+      "change": 0.015,
+      "pct": 2.04
     },
     "AZY": {
       "name": "Antipa Minerals",
       "code": "AZY",
       "price": 0.57,
-      "change": -0.03,
-      "pct": -5.0
+      "change": 0.0,
+      "pct": 0.0
     },
     "STN": {
       "name": "Saturn Metals Ltd",
       "code": "STN",
       "price": 0.45,
-      "change": -0.02,
-      "pct": -4.26
+      "change": 0.0,
+      "pct": 0.0
     },
     "MKR": {
       "name": "Manuka Resources",
       "code": "MKR",
-      "price": 0.081,
-      "change": -0.006,
-      "pct": -6.9
+      "price": 0.084,
+      "change": 0.003,
+      "pct": 3.7
     },
     "CRS": {
       "name": "Caprice Resources",
       "code": "CRS",
-      "price": 0.082,
-      "change": 0.0,
-      "pct": 0.0
+      "price": 0.085,
+      "change": 0.003,
+      "pct": 3.66
     },
     "TNC": {
       "name": "True North Copper",
       "code": "TNC",
-      "price": 0.39,
-      "change": -0.015,
-      "pct": -3.7
+      "price": 0.385,
+      "change": -0.005,
+      "pct": -1.28
     },
     "GML": {
       "name": "Gateway Mining Ltd",
       "code": "GML",
       "price": 0.052,
-      "change": 0.001,
-      "pct": 1.96
+      "change": 0.0,
+      "pct": 0.0
     },
     "AQI": {
       "name": "Alicanto Minerals Ltd",
@@ -506,15 +505,15 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Goldarc Resources",
       "code": "GA8",
       "price": 0.055,
-      "change": -0.002,
-      "pct": -3.51
+      "change": 0.0,
+      "pct": 0.0
     },
     "SKY": {
       "name": "SKY Metals Ltd",
       "code": "SKY",
-      "price": 0.215,
-      "change": -0.005,
-      "pct": -2.27
+      "price": 0.22,
+      "change": 0.005,
+      "pct": 2.33
     },
     "BCA": {
       "name": "Black Canyon Ltd",
@@ -526,65 +525,65 @@ window.LIVE_COMMODITY_PRICES = {
     "CBE": {
       "name": "Cobre Ltd",
       "code": "CBE",
-      "price": 0.255,
-      "change": -0.025,
-      "pct": -8.93
+      "price": 0.267,
+      "change": 0.012,
+      "pct": 4.71
     },
     "USL": {
       "name": "Unico Silver Ltd",
       "code": "USL",
-      "price": 0.66,
-      "change": -0.045,
-      "pct": -6.38
+      "price": 0.735,
+      "change": 0.075,
+      "pct": 11.36
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
       "code": "BM1",
-      "price": 0.605,
-      "change": -0.045,
-      "pct": -6.92
+      "price": 0.645,
+      "change": 0.04,
+      "pct": 6.61
     },
     "LM1": {
       "name": "Leeuwin Metals Ltd",
       "code": "LM1",
       "price": 0.175,
-      "change": -0.005,
-      "pct": -2.78
+      "change": 0.0,
+      "pct": 0.0
     },
     "FFM": {
       "name": "Firefly Metals Ltd",
       "code": "FFM",
-      "price": 1.65,
-      "change": -0.13,
-      "pct": -7.3
+      "price": 1.79,
+      "change": 0.14,
+      "pct": 8.48
     },
     "BRE": {
       "name": "Brazilian Rare Earths Ltd",
       "code": "BRE",
-      "price": 3.78,
-      "change": -0.23,
-      "pct": -5.74
+      "price": 3.86,
+      "change": 0.08,
+      "pct": 2.12
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
       "code": "LIN",
-      "price": 0.72,
-      "change": -0.025,
-      "pct": -3.36
+      "price": 0.797,
+      "change": 0.077,
+      "pct": 10.69
     },
     "CYM": {
       "name": "Cyprium Metals",
       "code": "CYM",
       "price": 0.42,
-      "change": -0.03,
-      "pct": -6.67
+      "change": 0.0,
+      "pct": 0.0
     },
     "SGQ": {
       "name": "ST George Mining",
       "code": "SGQ",
       "price": 0.074,
-      "change": -0.003,
-      "pct": -3.9
+      "change": 0.0,
+      "pct": 0.0
     },
     "BPM": {
       "name": "BPM Minerals",
@@ -603,279 +602,139 @@ window.LIVE_COMMODITY_PRICES = {
     "FML": {
       "name": "Focus Minerals",
       "code": "FML",
-      "price": 1.825,
-      "change": -0.075,
-      "pct": -3.95
+      "price": 1.935,
+      "change": 0.11,
+      "pct": 6.03
     },
     "TTM": {
       "name": "Titan Minerals",
       "code": "TTM",
-      "price": 0.585,
-      "change": -0.01,
-      "pct": -1.68
+      "price": 0.59,
+      "change": 0.005,
+      "pct": 0.85
     },
     "NMR": {
       "name": "Native Mineral Resources",
       "code": "NMR",
-      "price": 0.053,
-      "change": 0.002,
-      "pct": 3.92
+      "price": 0.051,
+      "change": -0.002,
+      "pct": -3.77
     },
     "LSA": {
       "name": "Lachlan Star Ltd",
       "code": "LSA",
-      "price": 0.1,
-      "change": -0.01,
-      "pct": -9.09
+      "price": 0.095,
+      "change": -0.005,
+      "pct": -5.0
     },
     "SKS": {
       "name": "SKS Technologies Group Ltd",
       "code": "SKS",
-      "price": 8.29,
-      "change": -0.11,
-      "pct": -1.31
+      "price": 8.14,
+      "change": -0.15,
+      "pct": -1.81
     },
     "MP1": {
       "name": "Megaport Ltd",
       "code": "MP1",
-      "price": 18.47,
-      "change": -0.62,
-      "pct": -3.25
+      "price": 18.8,
+      "change": 0.33,
+      "pct": 1.79
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
       "code": "EDU",
-      "price": 0.99,
-      "change": -0.005,
-      "pct": -0.5
+      "price": 1.12,
+      "change": 0.13,
+      "pct": 13.13
     },
     "GNP": {
       "name": "Genusplus Group Ltd",
       "code": "GNP",
-      "price": 9.11,
-      "change": -0.12,
-      "pct": -1.3
+      "price": 9.225,
+      "change": 0.115,
+      "pct": 1.26
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
       "code": "4DX",
-      "price": 3.11,
-      "change": -0.13,
-      "pct": -4.01
+      "price": 3.185,
+      "change": 0.075,
+      "pct": 2.41
     },
     "PME": {
       "name": "Pro Medicus Ltd",
       "code": "PME",
-      "price": 159.82,
-      "change": -2.31,
-      "pct": -1.42
+      "price": 159.27,
+      "change": -0.55,
+      "pct": -0.34
     },
     "EIQ": {
       "name": "Echoiq Ltd",
       "code": "EIQ",
-      "price": 1.315,
-      "change": 0.005,
-      "pct": 0.38
+      "price": 1.335,
+      "change": 0.02,
+      "pct": 1.52
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
       "code": "NEU",
-      "price": 16.46,
-      "change": 0.0,
-      "pct": 0.0
+      "price": 16.55,
+      "change": 0.09,
+      "pct": 0.55
     },
     "LTR": {
       "name": "Liontown Ltd",
       "code": "LTR",
-      "price": 1.185,
-      "change": -0.095,
-      "pct": -7.42
+      "price": 1.227,
+      "change": 0.042,
+      "pct": 3.54
     },
     "PLS": {
       "name": "PLS Group Ltd",
       "code": "PLS",
-      "price": 4.14,
-      "change": -0.09,
-      "pct": -2.13
+      "price": 4.25,
+      "change": 0.11,
+      "pct": 2.66
     },
     "WC8": {
       "name": "Wildcat Resources Ltd",
       "code": "WC8",
-      "price": 0.355,
-      "change": -0.015,
-      "pct": -4.05
+      "price": 0.365,
+      "change": 0.01,
+      "pct": 2.82
     }
   },
   "announcements": [
     {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Falls 7.5% as Small-Cap Mining Volatility Intensifies",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
-      "title": "Benz Mining (ASX:BNZ) Gains Nearly 3% as Exploration Interest Builds",
+      "title": "Benz Mining unearths new \u2018high-grade\u2019 copper and gold discoveries at Eastmain Project in Canada",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
-      "date": "24 Jul 2026"
+      "date": "27 Jul 2026"
     },
     {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "title": "Solstice Minerals (ASX:SLS): The Gold Explorer Delivering One of the ASX's Most Compelling Yearly Returns",
-      "link": "https://www.marketindex.com.au/asx/sls/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR): How a Tungsten Producer Captured the Attention of Critical Minerals Investors",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6) Drops More Than 5% as Resource Stocks Lose Momentum",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Is Down 7.6% After Major Resource Upgrade at Davyhurst Gold Project",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL) Tumbles as ASX Gold Producers Face a Difficult Session",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "BGD",
-      "name": "Barton Gold Holdings",
-      "title": "Barton Gold Holdings Limited Revenue Breakdown \u2013 ASX:BGD",
-      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "STN",
-      "name": "Saturn Metals Ltd",
-      "title": "Saturn Metals secures three exploration licences across 135km2",
-      "link": "https://www.marketindex.com.au/asx/stn/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE): The Copper Explorer That Has Electrified Returns Over the Past Year",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "BRZLINRARE FPO [BRE] (BRE.AX) stock price, news, quote and history",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "LIN",
-      "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources (ASX:LIN): The African Bauxite Developer That Has Delivered a Standout Year for ASX Investors",
-      "link": "https://www.marketindex.com.au/asx/lin/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "CYM",
-      "name": "Cyprium Metals",
-      "title": "Cyprium Metals (ASX:CYM) Slides Nearly 8% as Copper and Mining Stocks Lose Ground",
-      "link": "https://www.marketindex.com.au/asx/cym/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "MasTec Stock And 2 Renewable Infrastructure Names Worth A Closer Look",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Shares Move Lower as Technology Sector Sentiment Weakens",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "title": "Genusplus Group (ASX:GNP): Inside the Engineering Services Company That Has More Than Doubled the Index",
-      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Shares Closed Down Today: What Are Investors Watching?",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Could Pro Medicus (ASX:PME) Be Approaching a Crucial Growth-Stock Moment?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "EIQ",
-      "name": "Echoiq Ltd",
-      "title": "EchoIQ (ASX:EIQ) Edges Lower Amid Broad Selling Across ASX Technology Companies",
-      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals (ASX:NEU) Climbs Against the Market\u2014Can the Momentum Continue?",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR) Shares Retreat While Long-Term Share Performance Stays Positive",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "24 Jul 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources Limited (ASX: WC8) - Share Price",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "24 Jul 2026"
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "title": "EDU Holdings expects H1 revenue to rise 48% to $53.5M",
+      "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "27 Jul 2026"
     }
   ],
-  "gold_change": 2.23,
-  "gold_pct": 0.06,
-  "silver_change": 0.346,
-  "silver_pct": 0.6,
-  "platinum_change": 9.7,
-  "platinum_pct": -0.6,
-  "palladium_change": 17.5,
-  "palladium_pct": -1.39,
-  "copper_change": 0.0036,
-  "copper_pct": -0.06,
-  "nickel_change": 15.0,
-  "nickel_pct": 0.09,
-  "zinc_change": 3.8,
-  "zinc_pct": 0.11,
+  "gold_change": 50.11,
+  "gold_pct": 1.24,
+  "silver_change": 1.615,
+  "silver_pct": 2.79,
+  "platinum_change": 27.1,
+  "platinum_pct": 1.69,
+  "palladium_change": 26.5,
+  "palladium_pct": 2.13,
+  "copper_change": 0.0235,
+  "copper_pct": 0.37,
+  "nickel_change": 5.0,
+  "nickel_pct": -0.03,
+  "zinc_change": 11.5,
+  "zinc_pct": 0.32,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
   "uranium_change": 0.2,
