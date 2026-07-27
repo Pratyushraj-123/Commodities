@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4095.93,
-  "silver": 59.441,
-  "platinum": 1644.6,
-  "palladium": 1285.0,
-  "copper": 6.3512,
-  "nickel": 17378.0,
-  "zinc": 3629.25,
+  "gold": 4083.21,
+  "silver": 58.83,
+  "platinum": 1640.2,
+  "palladium": 1284.5,
+  "copper": 6.3416,
+  "nickel": 17358.0,
+  "zinc": 3613.5,
   "lithium": 146500.0,
   "uranium": 86.05,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "27 Jul 2026, 08:59",
+  "_last_updated": "27 Jul 2026, 12:21",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 235.65,
       "pct": 0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Jul, 08:59",
+      "updated": "27 Jul, 12:21",
       "hist": [
         44901.92,
         44837.56,
@@ -275,7 +275,8 @@ window.LIVE_COMMODITY_PRICES = {
         51839.26,
         52224.64,
         52218.58,
-        51711.65
+        51711.65,
+        51947.25
       ]
     },
     "nasdaq": {
@@ -284,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -161.88,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Jul, 08:59"
+      "updated": "27 Jul, 12:21"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 121.7,
       "pct": 1.39,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Jul, 08:59"
+      "updated": "27 Jul, 12:21"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 119.8,
       "pct": 1.38,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Jul, 08:59"
+      "updated": "27 Jul, 12:21"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10782.86,
-      "change": 46.63,
-      "pct": 0.43,
+      "price": 10802.22,
+      "change": 65.99,
+      "pct": 0.61,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "27 Jul, 08:59"
+      "updated": "27 Jul, 12:21"
     }
   },
   "watchlist": {
@@ -588,9 +589,9 @@ window.LIVE_COMMODITY_PRICES = {
     "BPM": {
       "name": "BPM Minerals",
       "code": "BPM",
-      "price": 0.167,
-      "change": 0.012,
-      "pct": 7.74
+      "price": 0.168,
+      "change": 0.013,
+      "pct": 8.39
     },
     "BMR": {
       "name": "Ballymore Resources",
@@ -721,6 +722,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "27 Jul 2026"
     },
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6) Advances Bullabulling After Resource Upgrade and Favourable PFS Results",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Jumps 8% as Its Resource Base Swells 75%\u2014Could Davyhurst Become a 300,000-Ounce Powerhouse?",
@@ -751,7 +759,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "title": "Unico Silver (ASX:USL) Rides Strength Across Precious Metals",
+      "title": "Unico Silver (ASX:USL) Explodes 12% as Joaquin Advances\u2014Is This Silver Story Entering a New Phase?",
       "link": "https://www.marketindex.com.au/asx/usl/announcements",
       "date": "27 Jul 2026"
     },
@@ -765,14 +773,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
-      "title": "Firefly Metals (ASX:FFM) Gains Amid Broader Resources Strength",
+      "title": "FireFly Metals (ASX:FFM) Confirms Green Bay\u2019s High-Grade Copper Core Ahead of Maiden Economic Study",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
       "date": "27 Jul 2026"
     },
     {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources (ASX:LIN) Rallies 8% After the First Blast at Kangankunde\u2014Has the Rare-Earths Producer Era Begun?",
+      "title": "Lindian Resources (ASX:LIN) Targets Q4 2026 Kangankunde Production as Kazakhstan Refinery Strategy Advances",
       "link": "https://www.marketindex.com.au/asx/lin/announcements",
       "date": "27 Jul 2026"
     },
@@ -791,9 +799,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "27 Jul 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX: 4DX) Highlights US Veterans Bill as Lung Imaging Expansion Gains Momentum",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What Market Signal Is Building Around Pro Medicus (ASX:PME)?",
+      "title": "Pro Medicus (ASX:PME) Jumps as Investors Assess Healthcare Technology Outlook",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "27 Jul 2026"
     },
@@ -812,20 +827,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "27 Jul 2026"
     }
   ],
-  "gold_change": 43.93,
-  "gold_pct": 1.08,
-  "silver_change": 1.461,
-  "silver_pct": 2.52,
-  "platinum_change": 45.5,
-  "platinum_pct": 2.85,
-  "palladium_change": 40.0,
-  "palladium_pct": 3.21,
-  "copper_change": 0.0498,
-  "copper_pct": 0.79,
-  "nickel_change": 68.0,
-  "nickel_pct": 0.39,
-  "zinc_change": 39.6,
-  "zinc_pct": 1.1,
+  "gold_change": 31.21,
+  "gold_pct": 0.77,
+  "silver_change": 0.85,
+  "silver_pct": 1.47,
+  "platinum_change": 41.1,
+  "platinum_pct": 2.57,
+  "palladium_change": 39.5,
+  "palladium_pct": 3.17,
+  "copper_change": 0.0402,
+  "copper_pct": 0.64,
+  "nickel_change": 48.0,
+  "nickel_pct": 0.28,
+  "zinc_change": 23.85,
+  "zinc_pct": 0.66,
   "lithium_change": 1000.0,
   "lithium_pct": 0.69,
   "uranium_change": 0.2,
