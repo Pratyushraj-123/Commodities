@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4074.15,
-  "silver": 58.383,
-  "platinum": 1628.1,
-  "palladium": 1289.0,
-  "copper": 6.35,
+  "gold": 4070.33,
+  "silver": 58.336,
+  "platinum": 1625.5,
+  "palladium": 1288.5,
+  "copper": 6.3414,
   "nickel": 17270.0,
   "zinc": 3618.3,
   "lithium": 146500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "27 Jul 2026, 22:54",
+  "_last_updated": "27 Jul 2026, 23:50",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 262.83,
       "pct": 0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Jul, 22:54",
+      "updated": "27 Jul, 23:50",
       "hist": [
         44837.56,
         44632.99,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -43.74,
       "pct": -0.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Jul, 22:54"
+      "updated": "27 Jul, 23:50"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 121.7,
       "pct": 1.39,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Jul, 22:54"
+      "updated": "27 Jul, 23:50"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 119.8,
       "pct": 1.38,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Jul, 22:54"
+      "updated": "27 Jul, 23:50"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 45.52,
       "pct": 0.42,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "27 Jul, 22:54"
+      "updated": "27 Jul, 23:50"
     }
   },
   "watchlist": {
@@ -706,17 +706,137 @@ window.LIVE_COMMODITY_PRICES = {
       "pct": 1.41
     }
   },
-  "announcements": [],
-  "gold_change": 22.15,
-  "gold_pct": 0.55,
-  "silver_change": 0.403,
-  "silver_pct": 0.7,
-  "platinum_change": 29.0,
-  "platinum_pct": 1.81,
-  "palladium_change": 44.0,
-  "palladium_pct": 3.53,
-  "copper_change": 0.0486,
-  "copper_pct": 0.77,
+  "announcements": [
+    {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Advances Amid Broader Resources Strength",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6) Advances Bullabulling After Resource Upgrade and Favourable PFS Results",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Ora Banda Mining (ASX:OBM) Jumps 8% as Its Resource Base Swells 75%\u2014Could Davyhurst Become a 300,000-Ounce Powerhouse?",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL) Surges 9% After Record Production\u2014Can Three New Mines Supercharge Its Growth?",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN) Launches a $100 Million Raising: What Is the Gold Explorer Planning Next?",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "StockTake: GoldArc Resources",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "title": "Unico Silver (ASX:USL) Explodes 12% as Joaquin Advances\u2014Is This Silver Story Entering a New Phase?",
+      "link": "https://www.marketindex.com.au/asx/usl/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Ballard Mining Ltd Share Price - BM1, RNS News, Articles, Quotes, & Charts (ASX:BM1)",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Confirms Green Bay\u2019s High-Grade Copper Core Ahead of Maiden Economic Study",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN) Targets Q4 2026 Kangankunde Production as Kazakhstan Refinery Strategy Advances",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) Gains as Cloud Networking Names Recover in a Stronger Session",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "title": "EDU Holdings (ASX:EDU) Guides First-Half Revenue Around 48% Higher",
+      "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX: 4DX) Highlights US Veterans Bill as Lung Imaging Expansion Gains Momentum",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Pro Medicus (ASX:PME) Jumps as Investors Assess Healthcare Technology Outlook",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "EchoIQ (ASX:EIQ) Ticks Higher as Healthcare Technology Stocks Benefit From Sector Lift",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown Resources (ASX:LTR) Gains as Lithium Sentiment Improves",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "27 Jul 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Rises as Lithium Sentiment Improves",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "27 Jul 2026"
+    }
+  ],
+  "gold_change": 18.33,
+  "gold_pct": 0.45,
+  "silver_change": 0.356,
+  "silver_pct": 0.61,
+  "platinum_change": 26.4,
+  "platinum_pct": 1.65,
+  "palladium_change": 43.5,
+  "palladium_pct": 3.49,
+  "copper_change": 0.04,
+  "copper_pct": 0.63,
   "nickel_change": 40.0,
   "nickel_pct": -0.23,
   "zinc_change": 28.65,
