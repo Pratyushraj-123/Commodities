@@ -1,11 +1,11 @@
 {
-  "gold": 4032.41,
-  "silver": 57.301,
-  "platinum": 1604.6,
-  "palladium": 1263.0,
-  "copper": 6.28,
-  "nickel": 17043.0,
-  "zinc": 3579.8,
+  "gold": 4022.9,
+  "silver": 56.972,
+  "platinum": 1610.5,
+  "palladium": 1263.5,
+  "copper": 6.289,
+  "nickel": 16927.0,
+  "zinc": 3566.9,
   "lithium": 145500.0,
   "uranium": 86.3,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "28 Jul 2026, 12:27",
+  "_last_updated": "28 Jul 2026, 15:07",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52210.08,
-      "change": 262.88,
-      "pct": 0.51,
+      "price": 52579.33,
+      "change": 369.25,
+      "pct": 0.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Jul, 12:27",
+      "updated": "28 Jul, 15:07",
       "hist": [
         44837.56,
         44632.99,
@@ -276,16 +276,17 @@
         52218.58,
         51711.65,
         51947.25,
-        52210.08
+        52210.08,
+        52579.33
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 24932.08,
-      "change": -43.72,
-      "pct": -0.18,
+      "price": 24736.29,
+      "change": -195.79,
+      "pct": -0.79,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Jul, 12:27"
+      "updated": "28 Jul, 15:07"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 53.8,
       "pct": 0.6,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Jul, 12:27"
+      "updated": "28 Jul, 15:07"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 51.9,
       "pct": 0.59,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Jul, 12:27"
+      "updated": "28 Jul, 15:07"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10835.76,
-      "change": 54.01,
-      "pct": 0.5,
+      "price": 10867.81,
+      "change": 86.06,
+      "pct": 0.8,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "28 Jul, 12:27"
+      "updated": "28 Jul, 15:07"
     }
   },
   "watchlist": {
@@ -780,7 +781,7 @@
     {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals\u2019 June quarter delivers encouraging Green Bay copper-gold results",
+      "title": "Firefly Metals' Resource update to feed August economic study",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
       "date": "28 Jul 2026"
     },
@@ -789,6 +790,13 @@
       "name": "Lindian Resources Ltd",
       "title": "Lindian Resources (ASX:LIN) Slides Amid Rare Earths Volatility",
       "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "28 Jul 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies (ASX:SKS) Expands Data Centre Exposure as FY27 Order Book Reaches A$312 Million",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "28 Jul 2026"
     },
     {
@@ -834,20 +842,20 @@
       "date": "28 Jul 2026"
     }
   ],
-  "gold_change": 45.03,
-  "gold_pct": -1.1,
-  "silver_change": 1.104,
-  "silver_pct": -1.89,
-  "platinum_change": 27.6,
-  "platinum_pct": -1.69,
-  "palladium_change": 34.0,
-  "palladium_pct": -2.62,
-  "copper_change": 0.059,
-  "copper_pct": -0.93,
-  "nickel_change": 227.0,
-  "nickel_pct": -1.32,
-  "zinc_change": 38.5,
-  "zinc_pct": -1.06,
+  "gold_change": 54.54,
+  "gold_pct": -1.34,
+  "silver_change": 1.433,
+  "silver_pct": -2.45,
+  "platinum_change": 21.7,
+  "platinum_pct": -1.33,
+  "palladium_change": 33.5,
+  "palladium_pct": -2.58,
+  "copper_change": 0.05,
+  "copper_pct": -0.79,
+  "nickel_change": 343.0,
+  "nickel_pct": -1.98,
+  "zinc_change": 51.4,
+  "zinc_pct": -1.42,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
   "uranium_change": 0.25,
