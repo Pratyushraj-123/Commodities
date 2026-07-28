@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4023.77,
-  "silver": 57.094,
-  "platinum": 1612.4,
-  "palladium": 1267.0,
-  "copper": 6.3016,
+  "gold": 4028.33,
+  "silver": 57.101,
+  "platinum": 1613.7,
+  "palladium": 1263.5,
+  "copper": 6.2993,
   "nickel": 16945.0,
   "zinc": 3578.3,
   "lithium": 145500.0,
-  "uranium": 86.3,
+  "uranium": 86.45,
   "cobalt": 56290.0,
   "rareearth": 258.0,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "28 Jul 2026, 20:15",
+  "_last_updated": "28 Jul 2026, 21:52",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 537.24,
       "pct": 1.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Jul, 20:15",
+      "updated": "28 Jul, 21:52",
       "hist": [
         44632.99,
         44461.28,
@@ -284,7 +284,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -55.17,
       "pct": -0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Jul, 20:15"
+      "updated": "28 Jul, 21:52"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +292,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 53.8,
       "pct": 0.6,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Jul, 20:15"
+      "updated": "28 Jul, 21:52"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,7 +300,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 51.9,
       "pct": 0.59,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Jul, 20:15"
+      "updated": "28 Jul, 21:52"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -308,7 +308,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 89.27,
       "pct": 0.83,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "28 Jul, 20:15"
+      "updated": "28 Jul, 21:52"
     }
   },
   "watchlist": {
@@ -763,6 +763,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "28 Jul 2026"
     },
     {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "When Can We Expect A Profit From Sky Metals Limited (ASX:SKY)?",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "28 Jul 2026"
+    },
+    {
       "code": "USL",
       "name": "Unico Silver Ltd",
       "title": "Unico Silver (ASX:USL) Falls Amid Silver Sector Pullback",
@@ -840,24 +847,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "28 Jul 2026"
     }
   ],
-  "gold_change": 53.67,
-  "gold_pct": -1.32,
-  "silver_change": 1.311,
-  "silver_pct": -2.24,
-  "platinum_change": 19.8,
-  "platinum_pct": -1.21,
-  "palladium_change": 30.0,
-  "palladium_pct": -2.31,
-  "copper_change": 0.0374,
-  "copper_pct": -0.59,
+  "gold_change": 49.11,
+  "gold_pct": -1.2,
+  "silver_change": 1.304,
+  "silver_pct": -2.23,
+  "platinum_change": 18.5,
+  "platinum_pct": -1.13,
+  "palladium_change": 33.5,
+  "palladium_pct": -2.58,
+  "copper_change": 0.0397,
+  "copper_pct": -0.63,
   "nickel_change": 325.0,
   "nickel_pct": -1.88,
   "zinc_change": 40.0,
   "zinc_pct": -1.11,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
-  "uranium_change": 0.25,
-  "uranium_pct": 0.29,
+  "uranium_change": 0.15,
+  "uranium_pct": 0.17,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 5000.0,
