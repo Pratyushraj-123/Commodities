@@ -1,13 +1,13 @@
 {
-  "gold": 4046.12,
-  "silver": 57.201,
-  "platinum": 1616.7,
-  "palladium": 1256.5,
-  "copper": 6.3088,
+  "gold": 4066.0,
+  "silver": 57.646,
+  "platinum": 1622.5,
+  "palladium": 1259.0,
+  "copper": 6.3091,
   "nickel": 17140.0,
   "zinc": 3575.8,
   "lithium": 146000.0,
-  "uranium": 86.45,
+  "uranium": 86.6,
   "cobalt": 56290.0,
   "rareearth": 256.7,
   "antimony": 22500.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "29 Jul 2026, 20:04",
+  "_last_updated": "29 Jul 2026, 21:42",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51594.5,
-      "change": -1152.82,
+      "price": 51594.14,
+      "change": -1153.18,
       "pct": -2.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 20:04",
+      "updated": "29 Jul, 21:42",
       "hist": [
         44461.28,
         44130.98,
@@ -276,7 +276,7 @@
         51947.25,
         52210.08,
         52747.32,
-        51594.5
+        51594.14
       ]
     },
     "nasdaq": {
@@ -285,7 +285,7 @@
       "change": -433.97,
       "pct": -1.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 20:04"
+      "updated": "29 Jul, 21:42"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 90.8,
       "pct": 1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 20:04"
+      "updated": "29 Jul, 21:42"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 88.2,
       "pct": 0.99,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 20:04"
+      "updated": "29 Jul, 21:42"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 37.39,
       "pct": 0.34,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Jul, 20:04"
+      "updated": "29 Jul, 21:42"
     }
   },
   "watchlist": {
@@ -829,7 +829,7 @@
     {
       "code": "EDU",
       "name": "EDU Holdings Ltd",
-      "title": "EDU Holdings (ASX:EDU) Expands Higher Education Growth as Ikon Momentum Meets Policy Challenges",
+      "title": "EDU Holdings Limited Revenue Breakdown \u2013 ASX:EDU",
       "link": "https://www.marketindex.com.au/asx/edu/announcements",
       "date": "29 Jul 2026"
     },
@@ -876,16 +876,16 @@
       "date": "29 Jul 2026"
     }
   ],
-  "gold_change": 17.79,
-  "gold_pct": 0.44,
-  "silver_change": 0.103,
-  "silver_pct": 0.18,
-  "platinum_change": 6.6,
-  "platinum_pct": -0.41,
-  "palladium_change": 17.0,
-  "palladium_pct": -1.33,
-  "copper_change": 0.0182,
-  "copper_pct": -0.29,
+  "gold_change": 37.67,
+  "gold_pct": 0.94,
+  "silver_change": 0.548,
+  "silver_pct": 0.96,
+  "platinum_change": 0.8,
+  "platinum_pct": -0.05,
+  "palladium_change": 14.5,
+  "palladium_pct": -1.14,
+  "copper_change": 0.0179,
+  "copper_pct": -0.28,
   "nickel_change": 195.0,
   "nickel_pct": 1.15,
   "zinc_change": 2.5,
