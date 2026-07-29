@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4021.08,
-  "silver": 57.209,
-  "platinum": 1594.5,
-  "palladium": 1249.5,
-  "copper": 6.2691,
-  "nickel": 17156.0,
-  "zinc": 3575.3,
+  "gold": 4004.47,
+  "silver": 56.998,
+  "platinum": 1588.0,
+  "palladium": 1244.0,
+  "copper": 6.2635,
+  "nickel": 17085.0,
+  "zinc": 3569.88,
   "lithium": 146000.0,
   "uranium": 86.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "29 Jul 2026, 12:52",
+  "_last_updated": "29 Jul 2026, 15:00",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52747.32,
-      "change": 537.24,
-      "pct": 1.03,
+      "price": 51900.0,
+      "change": -847.32,
+      "pct": -1.61,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 12:52",
+      "updated": "29 Jul, 15:00",
       "hist": [
         44632.99,
         44461.28,
@@ -274,16 +274,19 @@ window.LIVE_COMMODITY_PRICES = {
         52224.64,
         52218.58,
         51711.65,
-        52210.08
+        51947.25,
+        52210.08,
+        52747.32,
+        51900.0
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 24876.91,
-      "change": -55.17,
-      "pct": -0.22,
+      "price": 24633.97,
+      "change": -242.94,
+      "pct": -0.98,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 12:52"
+      "updated": "29 Jul, 15:00"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 90.8,
       "pct": 1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 12:52"
+      "updated": "29 Jul, 15:00"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 88.2,
       "pct": 0.99,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 12:52"
+      "updated": "29 Jul, 15:00"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10901.97,
-      "change": 30.95,
-      "pct": 0.28,
+      "price": 10880.4,
+      "change": 9.38,
+      "pct": 0.09,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Jul, 12:52"
+      "updated": "29 Jul, 15:00"
     }
   },
   "watchlist": {
@@ -713,6 +716,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Jul 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX: EQR): Tungsten Producer Under Test",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "29 Jul 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Enters Expansion Phase as Davyhurst Growth Plan Drives Investor Focus",
@@ -727,10 +737,10 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Jul 2026"
     },
     {
-      "code": "AZY",
-      "name": "Antipa Minerals",
-      "title": "Antipa Minerals Limited Revenue Breakdown \u2013 ASX:AZY",
-      "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Southern Palladium (ASX: SPD): PGM-Chrome Reset",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
       "date": "29 Jul 2026"
     },
     {
@@ -750,7 +760,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CBE",
       "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE) Expands Copper Strategy as Chile Production and Botswana Exploration Shape Growth Path",
+      "title": "Cobre (ASX:CBE): Can Sierra Atacama Sustain Its Copper Producer Transition?",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
       "date": "29 Jul 2026"
     },
@@ -799,7 +809,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies (ASX:SKS): Why Investors Should Be Paying Attention",
+      "title": "SKS Technologies (ASX:SKS) Advances Data Centre Integration Growth Story as Market Assesses Long-Term Momentum",
       "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "29 Jul 2026"
     },
@@ -860,20 +870,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Jul 2026"
     }
   ],
-  "gold_change": 7.25,
-  "gold_pct": -0.18,
-  "silver_change": 0.111,
-  "silver_pct": 0.19,
-  "platinum_change": 28.8,
-  "platinum_pct": -1.77,
-  "palladium_change": 24.0,
-  "palladium_pct": -1.88,
-  "copper_change": 0.0579,
-  "copper_pct": -0.92,
-  "nickel_change": 211.0,
-  "nickel_pct": 1.24,
-  "zinc_change": 3.0,
-  "zinc_pct": -0.08,
+  "gold_change": 23.86,
+  "gold_pct": -0.59,
+  "silver_change": 0.1,
+  "silver_pct": -0.17,
+  "platinum_change": 35.3,
+  "platinum_pct": -2.17,
+  "palladium_change": 29.5,
+  "palladium_pct": -2.32,
+  "copper_change": 0.0635,
+  "copper_pct": -1.0,
+  "nickel_change": 140.0,
+  "nickel_pct": 0.82,
+  "zinc_change": 8.42,
+  "zinc_pct": -0.24,
   "lithium_change": 500.0,
   "lithium_pct": 0.34,
   "uranium_change": 0.15,
