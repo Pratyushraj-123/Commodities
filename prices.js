@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4004.47,
-  "silver": 56.998,
-  "platinum": 1588.0,
-  "palladium": 1244.0,
-  "copper": 6.2635,
-  "nickel": 17085.0,
-  "zinc": 3569.88,
+  "gold": 4027.69,
+  "silver": 57.724,
+  "platinum": 1599.7,
+  "palladium": 1251.5,
+  "copper": 6.2744,
+  "nickel": 17140.0,
+  "zinc": 3576.05,
   "lithium": 146000.0,
   "uranium": 86.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 46.0,
   "fluorite": 580.0,
-  "_last_updated": "29 Jul 2026, 15:00",
+  "_last_updated": "29 Jul 2026, 16:59",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51900.0,
-      "change": -847.32,
-      "pct": -1.61,
+      "price": 51946.66,
+      "change": -800.66,
+      "pct": -1.52,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 15:00",
+      "updated": "29 Jul, 16:59",
       "hist": [
         44632.99,
         44461.28,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         51947.25,
         52210.08,
         52747.32,
-        51900.0
+        51946.66
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 24633.97,
-      "change": -242.94,
-      "pct": -0.98,
+      "price": 24654.77,
+      "change": -222.15,
+      "pct": -0.89,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Jul, 15:00"
+      "updated": "29 Jul, 16:59"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 90.8,
       "pct": 1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 15:00"
+      "updated": "29 Jul, 16:59"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 88.2,
       "pct": 0.99,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Jul, 15:00"
+      "updated": "29 Jul, 16:59"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10880.4,
-      "change": 9.38,
-      "pct": 0.09,
+      "price": 10908.41,
+      "change": 37.39,
+      "pct": 0.34,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Jul, 15:00"
+      "updated": "29 Jul, 16:59"
     }
   },
   "watchlist": {
@@ -744,6 +744,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Jul 2026"
     },
     {
+      "code": "AZY",
+      "name": "Antipa Minerals",
+      "title": "Antipa Minerals Limited Revenue Breakdown \u2013 ASX:AZY",
+      "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "date": "29 Jul 2026"
+    },
+    {
       "code": "STN",
       "name": "Saturn Metals Ltd",
       "title": "Saturn Metals (ASX:STN) Advances Apollo Hill Gold Development Strategy as Funding Supports Next Feasibility Phase",
@@ -802,7 +809,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGQ",
       "name": "ST George Mining",
-      "title": "St George mining (ASX:SGQ) hits 207m of rare earths from surface at Arax\u00e1",
+      "title": "St George Mining (ASX: SGQ) Secures A$60 Million Placement to Advance Its Arax\u00e1 Project in Brazil",
       "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "29 Jul 2026"
     },
@@ -870,20 +877,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Jul 2026"
     }
   ],
-  "gold_change": 23.86,
-  "gold_pct": -0.59,
-  "silver_change": 0.1,
-  "silver_pct": -0.17,
-  "platinum_change": 35.3,
-  "platinum_pct": -2.17,
-  "palladium_change": 29.5,
-  "palladium_pct": -2.32,
-  "copper_change": 0.0635,
-  "copper_pct": -1.0,
-  "nickel_change": 140.0,
-  "nickel_pct": 0.82,
-  "zinc_change": 8.42,
-  "zinc_pct": -0.24,
+  "gold_change": 0.64,
+  "gold_pct": -0.02,
+  "silver_change": 0.626,
+  "silver_pct": 1.1,
+  "platinum_change": 23.6,
+  "platinum_pct": -1.45,
+  "palladium_change": 22.0,
+  "palladium_pct": -1.73,
+  "copper_change": 0.0526,
+  "copper_pct": -0.83,
+  "nickel_change": 195.0,
+  "nickel_pct": 1.15,
+  "zinc_change": 2.25,
+  "zinc_pct": -0.06,
   "lithium_change": 500.0,
   "lithium_pct": 0.34,
   "uranium_change": 0.15,
