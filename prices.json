@@ -1,9 +1,9 @@
 {
-  "gold": 4114.96,
-  "silver": 59.259,
-  "platinum": 1672.3,
-  "palladium": 1321.5,
-  "copper": 6.4712,
+  "gold": 4103.4,
+  "silver": 59.0,
+  "platinum": 1669.5,
+  "palladium": 1301.5,
+  "copper": 5.9916,
   "nickel": 17315.0,
   "zinc": 3617.5,
   "lithium": 146000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 45.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Jul 2026, 20:08",
+  "_last_updated": "30 Jul 2026, 21:54",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 613.92,
       "pct": 1.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 20:08",
+      "updated": "30 Jul, 21:54",
       "hist": [
         44130.98,
         43588.58,
@@ -285,7 +285,7 @@
       "change": 679.24,
       "pct": 2.78,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 20:08"
+      "updated": "30 Jul, 21:54"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -70.9,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 20:08"
+      "updated": "30 Jul, 21:54"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": -71.5,
       "pct": -0.8,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 20:08"
+      "updated": "30 Jul, 21:54"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": -11.14,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Jul, 20:08"
+      "updated": "30 Jul, 21:54"
     }
   },
   "watchlist": {
@@ -729,6 +729,13 @@
       "date": "30 Jul 2026"
     },
     {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Targets 2027 Gold as High-Grade Forrestania Drilling Adds Upside",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Why This Is on Investors' Radar: Tungsten Mining (ASX:TGN) Launches a Major Mt Mulgine Drill Push",
@@ -855,24 +862,24 @@
       "date": "30 Jul 2026"
     }
   ],
-  "gold_change": 48.96,
-  "gold_pct": 1.2,
-  "silver_change": 1.644,
-  "silver_pct": 2.85,
-  "platinum_change": 70.0,
-  "platinum_pct": 4.37,
-  "palladium_change": 69.0,
-  "palladium_pct": 5.51,
-  "copper_change": 0.1927,
-  "copper_pct": 3.07,
+  "gold_change": 37.4,
+  "gold_pct": 0.92,
+  "silver_change": 1.385,
+  "silver_pct": 2.4,
+  "platinum_change": 67.2,
+  "platinum_pct": 4.19,
+  "palladium_change": 49.0,
+  "palladium_pct": 3.91,
+  "copper_change": 0.2869,
+  "copper_pct": -4.57,
   "nickel_change": 175.0,
   "nickel_pct": 1.02,
   "zinc_change": 41.7,
   "zinc_pct": 1.17,
   "lithium_change": 0.0,
   "lithium_pct": 0.0,
-  "uranium_change": 0.15,
-  "uranium_pct": 0.17,
+  "uranium_change": 0.0,
+  "uranium_pct": 0.0,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 5000.0,
