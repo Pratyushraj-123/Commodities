@@ -1,11 +1,11 @@
 {
-  "gold": 4065.19,
-  "silver": 57.832,
-  "platinum": 1621.1,
-  "palladium": 1278.5,
-  "copper": 6.4019,
-  "nickel": 17111.0,
-  "zinc": 3586.7,
+  "gold": 4073.48,
+  "silver": 58.11,
+  "platinum": 1625.3,
+  "palladium": 1282.0,
+  "copper": 6.4193,
+  "nickel": 17129.0,
+  "zinc": 3604.6,
   "lithium": 146000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 45.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Jul 2026, 10:06",
+  "_last_updated": "30 Jul 2026, 12:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -1153.18,
       "pct": -2.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 10:06",
+      "updated": "30 Jul, 12:19",
       "hist": [
         44461.28,
         44130.98,
@@ -285,7 +285,7 @@
       "change": -433.97,
       "pct": -1.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 10:06"
+      "updated": "30 Jul, 12:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -70.9,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 10:06"
+      "updated": "30 Jul, 12:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -71.5,
       "pct": -0.8,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 10:06"
+      "updated": "30 Jul, 12:19"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10954.74,
-      "change": 46.33,
-      "pct": 0.42,
+      "price": 10944.63,
+      "change": 36.22,
+      "pct": 0.33,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Jul, 10:06"
+      "updated": "30 Jul, 12:19"
     }
   },
   "watchlist": {
@@ -715,6 +715,62 @@
       "date": "30 Jul 2026"
     },
     {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Backs A$310m Raising to Fund Edna May Gold Hub Buy",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS) Extends Nanadie Copper-Gold System at Depth as Assays Roll In",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Why This Is on Investors' Radar: Tungsten Mining (ASX:TGN) Launches a Major Mt Mulgine Drill Push",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6): Gold Strategy and Market Volatility",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP): Copper Ramp-Up and Quarterly Revenue",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Southern Palladium (ASX:SPD): Bengwenyama PGM and Chrome Strategy",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Is Saturn Metals (ASX:STN) Stock Suitable for Your Portfolio After Its $100 Million Apollo Hill Raise?",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Is Sky Metals (ASX:SKY) Stock Worth Considering After Its Tallebung Resource Upgrade?",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
       "code": "CBE",
       "name": "Cobre Ltd",
       "title": "Why This Is on Investors' Radar: Cobre Limited (ASX:CBE) Raises A$90 Million for Its Copper Ambitions",
@@ -745,7 +801,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Why Does Pro Medicus (ASX:PME) Still A Growth Gauge?",
+      "title": "What Makes Pro Medicus (ASX:PME) A Key Healthcare Market Indicator?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "30 Jul 2026"
     },
@@ -785,20 +841,20 @@
       "date": "30 Jul 2026"
     }
   ],
-  "gold_change": 0.81,
-  "gold_pct": -0.02,
-  "silver_change": 0.217,
-  "silver_pct": 0.38,
-  "platinum_change": 18.8,
-  "platinum_pct": 1.17,
-  "palladium_change": 26.0,
-  "palladium_pct": 2.08,
-  "copper_change": 0.1234,
-  "copper_pct": 1.97,
-  "nickel_change": 29.0,
-  "nickel_pct": -0.17,
-  "zinc_change": 10.9,
-  "zinc_pct": 0.3,
+  "gold_change": 7.48,
+  "gold_pct": 0.18,
+  "silver_change": 0.495,
+  "silver_pct": 0.86,
+  "platinum_change": 23.0,
+  "platinum_pct": 1.44,
+  "palladium_change": 29.5,
+  "palladium_pct": 2.36,
+  "copper_change": 0.1408,
+  "copper_pct": 2.24,
+  "nickel_change": 11.0,
+  "nickel_pct": -0.07,
+  "zinc_change": 28.8,
+  "zinc_pct": 0.81,
   "lithium_change": 0.0,
   "lithium_pct": 0.0,
   "uranium_change": 0.15,
