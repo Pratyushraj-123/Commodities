@@ -1,10 +1,10 @@
 {
-  "gold": 4106.06,
-  "silver": 58.809,
-  "platinum": 1663.0,
-  "palladium": 1308.0,
-  "copper": 6.4455,
-  "nickel": 17310.0,
+  "gold": 4103.45,
+  "silver": 58.998,
+  "platinum": 1669.0,
+  "palladium": 1316.5,
+  "copper": 6.4602,
+  "nickel": 17315.0,
   "zinc": 3617.5,
   "lithium": 146000.0,
   "uranium": 86.6,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 45.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Jul 2026, 18:06",
+  "_last_updated": "31 Jul 2026, 00:42",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52133.19,
-      "change": 539.05,
-      "pct": 1.04,
+      "price": 52247.65,
+      "change": 653.51,
+      "pct": 1.27,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 18:06",
+      "updated": "31 Jul, 00:42",
       "hist": [
         44461.28,
         44130.98,
@@ -277,16 +277,16 @@
         52210.08,
         52747.32,
         51594.14,
-        52135.1
+        52247.65
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25070.05,
-      "change": 627.11,
-      "pct": 2.57,
+      "price": 25154.07,
+      "change": 711.13,
+      "pct": 2.91,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 18:06"
+      "updated": "31 Jul, 00:42"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -70.9,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 18:06"
+      "updated": "31 Jul, 00:42"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -71.5,
       "pct": -0.8,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 18:06"
+      "updated": "31 Jul, 00:42"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": -11.14,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Jul, 18:06"
+      "updated": "31 Jul, 00:42"
     }
   },
   "watchlist": {
@@ -709,158 +709,32 @@
   },
   "announcements": [
     {
-      "code": "PC2",
-      "name": "PC Gold",
-      "title": "Why Investors Are Watching PC Gold (ASX:PC2) Stock After Its Spring Hill Resource Upgrade",
-      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
-      "date": "30 Jul 2026"
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "GML Stock Price and Chart \u2014 ASX:GML",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "31 Jul 2026"
     },
     {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Backs A$310m Raising to Fund Edna May Gold Hub Buy",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "title": "Solstice Minerals (ASX:SLS) Extends Nanadie Copper-Gold System at Depth as Assays Roll In",
-      "link": "https://www.marketindex.com.au/asx/sls/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "TGN",
-      "name": "Tungsten Mining",
-      "title": "Why This Is on Investors' Radar: Tungsten Mining (ASX:TGN) Launches a Major Mt Mulgine Drill Push",
-      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6): Gold Strategy and Market Volatility",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "DVP",
-      "name": "Develop Global",
-      "title": "Develop Global (ASX:DVP): Copper Ramp-Up and Quarterly Revenue",
-      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "SPD",
-      "name": "Southern Palladium",
-      "title": "Southern Palladium (ASX:SPD): Bengwenyama PGM and Chrome Strategy",
-      "link": "https://www.marketindex.com.au/asx/spd/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "STN",
-      "name": "Saturn Metals Ltd",
-      "title": "Is Saturn Metals (ASX:STN) Stock Suitable for Your Portfolio After Its $100 Million Apollo Hill Raise?",
-      "link": "https://www.marketindex.com.au/asx/stn/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "SKY",
-      "name": "SKY Metals Ltd",
-      "title": "Is Sky Metals (ASX:SKY) Stock Worth Considering After Its Tallebung Resource Upgrade?",
-      "link": "https://www.marketindex.com.au/asx/sky/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Why This Is on Investors' Radar: Cobre Limited (ASX:CBE) Raises A$90 Million for Its Copper Ambitions",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "BM1",
-      "name": "Ballard Mining Ltd",
-      "title": "Why Investors Are Watching Ballard Mining (ASX:BM1) Stock After Its Mt Ida Resource Upgrade",
-      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Can Brazilian Rare Earths (ASX:BRE) Sustain Market Attention?",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "CYM",
-      "name": "Cyprium Metals",
-      "title": "Is Cyprium Metals (ASX:CYM) Stock Suitable for Your Portfolio as the Nifty Copper Restart Nears?",
-      "link": "https://www.marketindex.com.au/asx/cym/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "SGQ",
-      "name": "ST George Mining",
-      "title": "St George Mining (ASX:SGQ) Grows Arax\u00e1 to 70.9Mt as Hancock-Backed A$60m Funds Brazil Push",
-      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "What Makes Pro Medicus (ASX:PME) A Key Healthcare Market Indicator?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "EIQ",
-      "name": "Echoiq Ltd",
-      "title": "Why EchoIQ (ASX: EIQ) Stock Is Rising Today?",
-      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Why Neuren Pharmaceuticals (ASX: NEU) Stock Is Rising Today?",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR): FY27 Cost and Capital Guidance",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS): Record Lithium Sales and Growth Plans",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "30 Jul 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Companies Like Wildcat Resources (ASX:WC8) Are In A Position To Invest In Growth",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "30 Jul 2026"
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources Limited (LIN.AX) company profile and facts",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "31 Jul 2026"
     }
   ],
-  "gold_change": 40.06,
-  "gold_pct": 0.99,
-  "silver_change": 1.194,
-  "silver_pct": 2.07,
-  "platinum_change": 60.7,
-  "platinum_pct": 3.79,
-  "palladium_change": 56.5,
-  "palladium_pct": 4.51,
-  "copper_change": 0.167,
-  "copper_pct": 2.66,
-  "nickel_change": 170.0,
-  "nickel_pct": 0.99,
+  "gold_change": 37.45,
+  "gold_pct": 0.92,
+  "silver_change": 1.383,
+  "silver_pct": 2.4,
+  "platinum_change": 66.7,
+  "platinum_pct": 4.16,
+  "palladium_change": 64.0,
+  "palladium_pct": 5.11,
+  "copper_change": 0.1817,
+  "copper_pct": 2.89,
+  "nickel_change": 175.0,
+  "nickel_pct": 1.02,
   "zinc_change": 41.7,
   "zinc_pct": 1.17,
   "lithium_change": 0.0,

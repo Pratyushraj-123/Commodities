@@ -1309,7 +1309,7 @@ function filterWatchlist() {
     const colorClass = isUp ? 'idx-up' : 'idx-dn';
     
     const row = document.createElement('a');
-    row.href = item.url || `https://finance.yahoo.com/quote/${code}.AX`;
+    row.href = `https://www.tradingview.com/symbols/ASX-${code.toUpperCase()}/`;
     row.target = '_blank';
     row.className = 'index-row';
     row.style.textDecoration = 'none';
@@ -1319,7 +1319,7 @@ function filterWatchlist() {
     row.style.marginBottom = '3px';
     row.style.borderRadius = '4px';
     row.style.transition = 'all 0.12s';
-    row.title = `Click to view ${item.name} (${code}) live web page & announcements`;
+    row.title = `Click to view ${item.name} (${code}) live details on TradingView`;
     
     row.onmouseover = () => { row.style.background = 'var(--s2)'; };
     row.onmouseout = () => { row.style.background = 'transparent'; };
