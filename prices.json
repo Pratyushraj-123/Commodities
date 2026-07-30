@@ -1,11 +1,11 @@
 {
-  "gold": 4046.22,
-  "silver": 57.36,
-  "platinum": 1601.9,
-  "palladium": 1255.5,
-  "copper": 6.3467,
-  "nickel": 17135.0,
-  "zinc": 3588.3,
+  "gold": 4065.19,
+  "silver": 57.832,
+  "platinum": 1621.1,
+  "palladium": 1278.5,
+  "copper": 6.4019,
+  "nickel": 17111.0,
+  "zinc": 3586.7,
   "lithium": 146000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 45.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Jul 2026, 07:23",
+  "_last_updated": "30 Jul 2026, 10:06",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -1153.18,
       "pct": -2.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 07:23",
+      "updated": "30 Jul, 10:06",
       "hist": [
         44461.28,
         44130.98,
@@ -285,7 +285,7 @@
       "change": -433.97,
       "pct": -1.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Jul, 07:23"
+      "updated": "30 Jul, 10:06"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -70.9,
       "pct": -0.78,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 07:23"
+      "updated": "30 Jul, 10:06"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -71.5,
       "pct": -0.8,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Jul, 07:23"
+      "updated": "30 Jul, 10:06"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10888.53,
-      "change": -19.88,
-      "pct": -0.18,
+      "price": 10954.74,
+      "change": 46.33,
+      "pct": 0.42,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Jul, 07:23"
+      "updated": "30 Jul, 10:06"
     }
   },
   "watchlist": {
@@ -708,6 +708,27 @@
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "Why Investors Are Watching PC Gold (ASX:PC2) Stock After Its Spring Hill Resource Upgrade",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Why This Is on Investors' Radar: Cobre Limited (ASX:CBE) Raises A$90 Million for Its Copper Ambitions",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Why Investors Are Watching Ballard Mining (ASX:BM1) Stock After Its Mt Ida Resource Upgrade",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
       "title": "Can Brazilian Rare Earths (ASX:BRE) Sustain Market Attention?",
@@ -715,9 +736,16 @@
       "date": "30 Jul 2026"
     },
     {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Is Cyprium Metals (ASX:CYM) Stock Suitable for Your Portfolio as the Nifty Copper Restart Nears?",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
+      "date": "30 Jul 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What Makes Pro Medicus (ASX:PME) A Key Growth Market Indicator?",
+      "title": "Why Does Pro Medicus (ASX:PME) Still A Growth Gauge?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "30 Jul 2026"
     },
@@ -757,20 +785,20 @@
       "date": "30 Jul 2026"
     }
   ],
-  "gold_change": 19.78,
-  "gold_pct": -0.49,
-  "silver_change": 0.255,
-  "silver_pct": -0.44,
-  "platinum_change": 0.4,
-  "platinum_pct": -0.02,
-  "palladium_change": 3.0,
-  "palladium_pct": 0.24,
-  "copper_change": 0.0682,
-  "copper_pct": 1.09,
-  "nickel_change": 5.0,
-  "nickel_pct": -0.03,
-  "zinc_change": 12.5,
-  "zinc_pct": 0.35,
+  "gold_change": 0.81,
+  "gold_pct": -0.02,
+  "silver_change": 0.217,
+  "silver_pct": 0.38,
+  "platinum_change": 18.8,
+  "platinum_pct": 1.17,
+  "palladium_change": 26.0,
+  "palladium_pct": 2.08,
+  "copper_change": 0.1234,
+  "copper_pct": 1.97,
+  "nickel_change": 29.0,
+  "nickel_pct": -0.17,
+  "zinc_change": 10.9,
+  "zinc_pct": 0.3,
   "lithium_change": 0.0,
   "lithium_pct": 0.0,
   "uranium_change": 0.15,
