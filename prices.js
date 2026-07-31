@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4051.76,
-  "silver": 57.82,
-  "platinum": 1658.8,
-  "palladium": 1281.0,
-  "copper": 6.4889,
+  "gold": 4042.0,
+  "silver": 57.558,
+  "platinum": 1654.5,
+  "palladium": 1277.0,
+  "copper": 6.4803,
   "nickel": 17255.0,
   "zinc": 3645.5,
   "lithium": 143000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "31 Jul 2026, 20:48",
+  "_last_updated": "31 Jul 2026, 21:53",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 276.97,
       "pct": 0.53,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 20:48",
+      "updated": "31 Jul, 21:53",
       "hist": [
         43588.58,
         44173.64,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 251.68,
       "pct": 1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 20:48"
+      "updated": "31 Jul, 21:53"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 9.1,
       "pct": 0.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 20:48"
+      "updated": "31 Jul, 21:53"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 11.3,
       "pct": 0.13,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 20:48"
+      "updated": "31 Jul, 21:53"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -29.22,
       "pct": -0.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "31 Jul, 20:48"
+      "updated": "31 Jul, 21:53"
     }
   },
   "watchlist": {
@@ -706,137 +706,17 @@ window.LIVE_COMMODITY_PRICES = {
       "pct": 3.08
     }
   },
-  "announcements": [
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) and the Little Gem Question: Is a Second Davyhurst Gold Engine Emerging?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL): Plutonic Gold Belt Expansion and Record Production Support Growth Strategy",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "AZY",
-      "name": "Antipa Minerals",
-      "title": "Antipa Minerals (ASX:AZY) Rallies \u2014 Is Gold Exposure Boosting This Explorer?",
-      "link": "https://www.marketindex.com.au/asx/azy/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper (ASX:TNC) Confirms a Broad Copper System at Mt Oxide",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "GML",
-      "name": "Gateway Mining Ltd",
-      "title": "GML Stock Price and Chart \u2014 ASX:GML",
-      "link": "https://www.marketindex.com.au/asx/gml/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "title": "Why Discerning Investors Are Circling Black Canyon's (ASX:BCA) High-Grade Manganese Story",
-      "link": "https://www.marketindex.com.au/asx/bca/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE) Surges \u2014 Is This Junior Explorer Gaining Real Traction?",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "Firefly Metals (ASX:FFM) Surges \u2014 Why Copper Explorers Are Drawing Attention",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "LIN",
-      "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources advances Kangankunde toward Q4 production after milestone June quarter",
-      "link": "https://www.marketindex.com.au/asx/lin/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "SGQ",
-      "name": "ST George Mining",
-      "title": "St George Mining's Record Arax\u00e1 Intercepts Turn Up the Volume on the ASX:SGQ Brazil Story",
-      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "Why Are Champion Iron (ASX:CIA), SHAPE (ASX:SHA) and SKS (ASX:SKS) Drawing Attention?",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Why Are Megaport (ASX:MP1) Shares Trading Higher on Friday?",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "title": "A New Rio Tinto Substation Contract Adds Voltage to GenusPlus Group (ASX:GNP)",
-      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX): A Full Set of Regulatory Wins Meets a Wary Market",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "EIQ",
-      "name": "Echoiq Ltd",
-      "title": "Why Are Xero (ASX:XRO), Aura (ASX:AXQ) and Echo IQ (ASX:EIQ) Driving AI Software Conversations?",
-      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Can Neuren (ASX:NEU) Sustain Fresh Momentum?",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "31 Jul 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR) Banks a Record Cash Quarter \u2014 Why Are Costs Taking Centre Stage?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "31 Jul 2026"
-    }
-  ],
-  "gold_change": 51.64,
-  "gold_pct": -1.26,
-  "silver_change": 1.187,
-  "silver_pct": -2.01,
-  "platinum_change": 1.4,
-  "platinum_pct": -0.08,
-  "palladium_change": 27.5,
-  "palladium_pct": -2.1,
-  "copper_change": 0.0444,
-  "copper_pct": 0.69,
+  "announcements": [],
+  "gold_change": 61.4,
+  "gold_pct": -1.5,
+  "silver_change": 1.449,
+  "silver_pct": -2.46,
+  "platinum_change": 5.7,
+  "platinum_pct": -0.34,
+  "palladium_change": 31.5,
+  "palladium_pct": -2.41,
+  "copper_change": 0.0358,
+  "copper_pct": 0.56,
   "nickel_change": 60.0,
   "nickel_pct": -0.35,
   "zinc_change": 28.0,
