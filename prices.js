@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "31 Jul 2026, 22:45",
+  "_last_updated": "31 Jul 2026, 23:48",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 276.97,
       "pct": 0.53,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 22:45",
+      "updated": "31 Jul, 23:48",
       "hist": [
         43588.58,
         44173.64,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 251.68,
       "pct": 1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 22:45"
+      "updated": "31 Jul, 23:48"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 9.1,
       "pct": 0.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 22:45"
+      "updated": "31 Jul, 23:48"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 11.3,
       "pct": 0.13,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 22:45"
+      "updated": "31 Jul, 23:48"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -29.22,
       "pct": -0.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "31 Jul, 22:45"
+      "updated": "31 Jul, 23:48"
     }
   },
   "watchlist": {
