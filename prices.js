@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4063.25,
-  "silver": 58.217,
-  "platinum": 1646.5,
-  "palladium": 1299.5,
-  "copper": 6.4831,
-  "nickel": 17300.0,
-  "zinc": 3628.95,
+  "gold": 4058.14,
+  "silver": 57.962,
+  "platinum": 1643.6,
+  "palladium": 1292.5,
+  "copper": 6.4622,
+  "nickel": 17321.0,
+  "zinc": 3627.0,
   "lithium": 143000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "31 Jul 2026, 08:24",
+  "_last_updated": "31 Jul 2026, 11:13",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 613.92,
       "pct": 1.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 08:24",
+      "updated": "31 Jul, 11:13",
       "hist": [
         44130.98,
         43588.58,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 679.24,
       "pct": 2.78,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Jul, 08:24"
+      "updated": "31 Jul, 11:13"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 9.1,
       "pct": 0.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 08:24"
+      "updated": "31 Jul, 11:13"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 11.3,
       "pct": 0.13,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Jul, 08:24"
+      "updated": "31 Jul, 11:13"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10971.45,
-      "change": 74.18,
-      "pct": 0.68,
+      "price": 10937.63,
+      "change": 40.36,
+      "pct": 0.37,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "31 Jul, 08:24"
+      "updated": "31 Jul, 11:13"
     }
   },
   "watchlist": {
@@ -710,7 +710,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining expands Little Gem prospect strike",
+      "title": "Ora Banda Mining (ASX:OBM) and the Little Gem Question: Is a Second Davyhurst Gold Engine Emerging?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "31 Jul 2026"
     },
@@ -726,6 +726,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Antipa Minerals",
       "title": "Antipa Minerals (ASX:AZY) Rallies \u2014 Is Gold Exposure Boosting This Explorer?",
       "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "date": "31 Jul 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Confirms a Broad Copper System at Mt Oxide",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "31 Jul 2026"
     },
     {
@@ -766,7 +773,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGQ",
       "name": "ST George Mining",
-      "title": "St George Mining accelerates Arax\u00e1 development after strong June quarter",
+      "title": "St George Mining's Record Arax\u00e1 Intercepts Turn Up the Volume on the ASX:SGQ Brazil Story",
       "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "31 Jul 2026"
     },
@@ -782,6 +789,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Megaport Ltd",
       "title": "Why Are Megaport (ASX:MP1) Shares Trading Higher on Friday?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "31 Jul 2026"
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "A New Rio Tinto Substation Contract Adds Voltage to GenusPlus Group (ASX:GNP)",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
       "date": "31 Jul 2026"
     },
     {
@@ -813,20 +827,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "31 Jul 2026"
     }
   ],
-  "gold_change": 40.15,
-  "gold_pct": -0.98,
-  "silver_change": 0.79,
-  "silver_pct": -1.34,
-  "platinum_change": 13.7,
-  "platinum_pct": -0.83,
-  "palladium_change": 9.0,
-  "palladium_pct": -0.69,
-  "copper_change": 0.0386,
-  "copper_pct": 0.6,
-  "nickel_change": 15.0,
-  "nickel_pct": -0.09,
-  "zinc_change": 11.45,
-  "zinc_pct": 0.32,
+  "gold_change": 45.26,
+  "gold_pct": -1.1,
+  "silver_change": 1.045,
+  "silver_pct": -1.77,
+  "platinum_change": 16.6,
+  "platinum_pct": -1.0,
+  "palladium_change": 16.0,
+  "palladium_pct": -1.22,
+  "copper_change": 0.0177,
+  "copper_pct": 0.27,
+  "nickel_change": 6.0,
+  "nickel_pct": 0.03,
+  "zinc_change": 9.5,
+  "zinc_pct": 0.26,
   "lithium_change": 3000.0,
   "lithium_pct": -2.05,
   "uranium_change": 0.0,
