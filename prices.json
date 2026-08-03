@@ -1,11 +1,11 @@
 {
-  "gold": 4033.24,
-  "silver": 57.251,
-  "platinum": 1627.5,
-  "palladium": 1256.0,
-  "copper": 6.4736,
-  "nickel": 17030.0,
-  "zinc": 3638.45,
+  "gold": 4035.06,
+  "silver": 57.676,
+  "platinum": 1626.3,
+  "palladium": 1255.0,
+  "copper": 6.5022,
+  "nickel": 17195.0,
+  "zinc": 3636.4,
   "lithium": 140000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Aug 2026, 15:33",
+  "_last_updated": "03 Aug 2026, 17:31",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53013.65,
-      "change": 528.62,
-      "pct": 1.01,
+      "price": 52995.01,
+      "change": 509.98,
+      "pct": 0.97,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 15:33",
+      "updated": "03 Aug, 17:31",
       "hist": [
         44173.64,
         44111.74,
@@ -276,16 +276,16 @@
         51594.14,
         52208.06,
         52485.03,
-        53013.65
+        52995.01
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25834.28,
-      "change": 460.42,
-      "pct": 1.81,
+      "price": 25926.82,
+      "change": 552.97,
+      "pct": 2.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 15:33"
+      "updated": "03 Aug, 17:31"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 42.5,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 15:33"
+      "updated": "03 Aug, 17:31"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 43.1,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 15:33"
+      "updated": "03 Aug, 17:31"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10836.62,
-      "change": -31.43,
-      "pct": -0.29,
+      "price": 10857.7,
+      "change": -10.35,
+      "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Aug, 15:33"
+      "updated": "03 Aug, 17:31"
     }
   },
   "watchlist": {
@@ -785,6 +785,13 @@
       "date": "03 Aug 2026"
     },
     {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "STN:ASX Announcement - Share Purchase Plan - Underwritten - 03 Aug 2026",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
       "title": "FireFly Metals (ASX:FFM) \u2013 Strikes 11.1% Copper at Green Bay \u2013 Has This ASX Miner Uncovered a Monster?",
@@ -855,20 +862,20 @@
       "date": "03 Aug 2026"
     }
   ],
-  "gold_change": 9.73,
-  "gold_pct": -0.24,
-  "silver_change": 0.369,
-  "silver_pct": -0.64,
-  "platinum_change": 31.2,
-  "platinum_pct": -1.88,
-  "palladium_change": 25.5,
-  "palladium_pct": -1.99,
-  "copper_change": 0.0376,
-  "copper_pct": 0.58,
-  "nickel_change": 225.0,
-  "nickel_pct": -1.31,
-  "zinc_change": 7.05,
-  "zinc_pct": -0.19,
+  "gold_change": 7.91,
+  "gold_pct": -0.2,
+  "silver_change": 0.056,
+  "silver_pct": 0.1,
+  "platinum_change": 32.4,
+  "platinum_pct": -1.95,
+  "palladium_change": 26.5,
+  "palladium_pct": -2.07,
+  "copper_change": 0.0662,
+  "copper_pct": 1.03,
+  "nickel_change": 60.0,
+  "nickel_pct": -0.35,
+  "zinc_change": 9.1,
+  "zinc_pct": -0.25,
   "lithium_change": 3000.0,
   "lithium_pct": -2.1,
   "uranium_change": 0.0,
