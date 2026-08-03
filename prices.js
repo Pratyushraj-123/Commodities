@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4059.31,
-  "silver": 57.975,
-  "platinum": 1647.1,
-  "palladium": 1270.0,
-  "copper": 6.454,
-  "nickel": 16955.0,
-  "zinc": 3669.0,
+  "gold": 4033.24,
+  "silver": 57.251,
+  "platinum": 1627.5,
+  "palladium": 1256.0,
+  "copper": 6.4736,
+  "nickel": 17030.0,
+  "zinc": 3638.45,
   "lithium": 140000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Aug 2026, 12:08",
+  "_last_updated": "03 Aug 2026, 15:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52485.03,
-      "change": 276.93,
-      "pct": 0.53,
+      "price": 53013.65,
+      "change": 528.62,
+      "pct": 1.01,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 12:08",
+      "updated": "03 Aug, 15:33",
       "hist": [
-        43588.58,
         44173.64,
         44111.74,
         44193.12,
@@ -276,16 +275,17 @@ window.LIVE_COMMODITY_PRICES = {
         52747.32,
         51594.14,
         52208.06,
-        52485.03
+        52485.03,
+        53013.65
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25373.85,
-      "change": 251.65,
-      "pct": 1.0,
+      "price": 25834.28,
+      "change": 460.42,
+      "pct": 1.81,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 12:08"
+      "updated": "03 Aug, 15:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.5,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 12:08"
+      "updated": "03 Aug, 15:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.1,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 12:08"
+      "updated": "03 Aug, 15:33"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10899.57,
-      "change": 31.52,
-      "pct": 0.29,
+      "price": 10836.62,
+      "change": -31.43,
+      "pct": -0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Aug, 12:08"
+      "updated": "03 Aug, 15:33"
     }
   },
   "watchlist": {
@@ -717,7 +717,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
-      "title": "Why Does Benz Mining (ASX:BNZ) Matter Right Now?",
+      "title": "BENZ Mining Corp (ASX:BNZ): Is Stock Worth Considering Right Now?",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
       "date": "03 Aug 2026"
     },
@@ -726,6 +726,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Solstice Minerals",
       "title": "Could Solstice Minerals (ASX:SLS) Be Entering a Key Phase?",
       "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals (ASX:WTM) Leaps Nearly 8%: Why Investors Are Watching This ASX Explorer Closely",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
       "date": "03 Aug 2026"
     },
     {
@@ -829,14 +836,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "What Could Shape Liontown Resources (ASX:LTR) Next?",
+      "title": "Liontown Resources (ASX:LTR): Can Operating Delivery Change the Story?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "03 Aug 2026"
     },
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS) \u2013 Falls as Lithium readers Brace for Another Volatile Chapter",
+      "title": "PLS Group Limited (ASX:PLS): Share Price and Market Capitalisation Snapshot",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "03 Aug 2026"
     },
@@ -848,20 +855,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Aug 2026"
     }
   ],
-  "gold_change": 16.34,
-  "gold_pct": 0.4,
-  "silver_change": 0.355,
-  "silver_pct": 0.62,
-  "platinum_change": 11.6,
-  "platinum_pct": -0.7,
-  "palladium_change": 11.5,
-  "palladium_pct": -0.9,
-  "copper_change": 0.018,
-  "copper_pct": 0.28,
-  "nickel_change": 300.0,
-  "nickel_pct": -1.74,
-  "zinc_change": 23.5,
-  "zinc_pct": 0.64,
+  "gold_change": 9.73,
+  "gold_pct": -0.24,
+  "silver_change": 0.369,
+  "silver_pct": -0.64,
+  "platinum_change": 31.2,
+  "platinum_pct": -1.88,
+  "palladium_change": 25.5,
+  "palladium_pct": -1.99,
+  "copper_change": 0.0376,
+  "copper_pct": 0.58,
+  "nickel_change": 225.0,
+  "nickel_pct": -1.31,
+  "zinc_change": 7.05,
+  "zinc_pct": -0.19,
   "lithium_change": 3000.0,
   "lithium_pct": -2.1,
   "uranium_change": 0.0,
