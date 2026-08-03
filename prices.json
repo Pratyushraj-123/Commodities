@@ -1,9 +1,9 @@
 {
-  "gold": 4052.42,
-  "silver": 58.147,
-  "platinum": 1638.5,
-  "palladium": 1262.5,
-  "copper": 6.5164,
+  "gold": 4052.34,
+  "silver": 58.199,
+  "platinum": 1639.7,
+  "palladium": 1264.5,
+  "copper": 6.529,
   "nickel": 17210.0,
   "zinc": 3636.35,
   "lithium": 140000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Aug 2026, 22:45",
+  "_last_updated": "03 Aug 2026, 23:55",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 693.38,
       "pct": 1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 22:45",
+      "updated": "03 Aug, 23:55",
       "hist": [
         44173.64,
         44111.74,
@@ -285,7 +285,7 @@
       "change": 540.04,
       "pct": 2.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 22:45"
+      "updated": "03 Aug, 23:55"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 42.5,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 22:45"
+      "updated": "03 Aug, 23:55"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 43.1,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 22:45"
+      "updated": "03 Aug, 23:55"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": -10.35,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Aug, 22:45"
+      "updated": "03 Aug, 23:55"
     }
   },
   "watchlist": {
@@ -785,13 +785,6 @@
       "date": "03 Aug 2026"
     },
     {
-      "code": "STN",
-      "name": "Saturn Metals Ltd",
-      "title": "STN:ASX Announcement - Share Purchase Plan - Underwritten - 03 Aug 2026",
-      "link": "https://www.marketindex.com.au/asx/stn/announcements",
-      "date": "03 Aug 2026"
-    },
-    {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
       "title": "FireFly Metals (ASX:FFM) Green Bay Core Zone Upgrade Tests Depth of Its Copper-Gold Strategy",
@@ -862,16 +855,16 @@
       "date": "03 Aug 2026"
     }
   ],
-  "gold_change": 9.45,
+  "gold_change": 9.37,
   "gold_pct": 0.23,
-  "silver_change": 0.527,
-  "silver_pct": 0.91,
-  "platinum_change": 20.2,
-  "platinum_pct": -1.22,
-  "palladium_change": 19.0,
-  "palladium_pct": -1.48,
-  "copper_change": 0.0804,
-  "copper_pct": 1.25,
+  "silver_change": 0.579,
+  "silver_pct": 1.0,
+  "platinum_change": 19.0,
+  "platinum_pct": -1.15,
+  "palladium_change": 17.0,
+  "palladium_pct": -1.33,
+  "copper_change": 0.093,
+  "copper_pct": 1.44,
   "nickel_change": 45.0,
   "nickel_pct": -0.26,
   "zinc_change": 9.15,
