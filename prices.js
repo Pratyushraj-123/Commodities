@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4059.4,
-  "silver": 58.325,
-  "platinum": 1662.6,
-  "palladium": 1284.0,
-  "copper": 6.5132,
-  "nickel": 17015.0,
-  "zinc": 3687.55,
+  "gold": 4059.31,
+  "silver": 57.975,
+  "platinum": 1647.1,
+  "palladium": 1270.0,
+  "copper": 6.454,
+  "nickel": 16955.0,
+  "zinc": 3669.0,
   "lithium": 140000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Aug 2026, 08:53",
+  "_last_updated": "03 Aug 2026, 12:08",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 276.93,
       "pct": 0.53,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 08:53",
+      "updated": "03 Aug, 12:08",
       "hist": [
         43588.58,
         44173.64,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 251.65,
       "pct": 1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 08:53"
+      "updated": "03 Aug, 12:08"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.5,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 08:53"
+      "updated": "03 Aug, 12:08"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.1,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 08:53"
+      "updated": "03 Aug, 12:08"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10858.47,
-      "change": -9.58,
-      "pct": -0.09,
+      "price": 10899.57,
+      "change": 31.52,
+      "pct": 0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Aug, 08:53"
+      "updated": "03 Aug, 12:08"
     }
   },
   "watchlist": {
@@ -708,6 +708,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals Slides 6.8% (ASX:TM1): Is This Weakness Just the Beginning?",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
       "title": "Why Does Benz Mining (ASX:BNZ) Matter Right Now?",
@@ -722,10 +729,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Aug 2026"
     },
     {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (ASX:LRV): Why Are Investors Keeping Stock On Radar?",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining Falls 7% (ASX:TGN): Is the Market Ignoring the Bigger Picture?",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
       "code": "ENR",
       "name": "Encounter Resources",
       "title": "What Could Shape Encounter Resources (ASX:ENR) Next?",
       "link": "https://www.marketindex.com.au/asx/enr/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 Adds (ASX:MI6): Could This Billion-Dollar Resources Story Have Further to Run?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "03 Aug 2026"
     },
     {
@@ -764,10 +792,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Aug 2026"
     },
     {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Focus Minerals (ASX:FML) Drops Today: What Has Investors Heading for the Exit?",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies (ASX:SKS) \u2013 Is Set to Smash Its Profit Guidance by 15.6 Per Cent \u2013 Could This Be August's Big ASX Earnings Surprise?",
+      "title": "SKS Technologies (ASX:SKS) Extends Its Run as Data-Centre Demand Lifts Expectations",
       "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "03 Aug 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) \u2013 Slides Ahead of Earnings \u2013 Is AI Disruption Becoming the ASX Software Sector's Biggest Risk?",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "03 Aug 2026"
     },
     {
@@ -787,7 +829,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR): Why Insider Confidence Is Putting This Growth Stock in Spotlight",
+      "title": "What Could Shape Liontown Resources (ASX:LTR) Next?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "03 Aug 2026"
     },
@@ -806,20 +848,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Aug 2026"
     }
   ],
-  "gold_change": 16.43,
-  "gold_pct": 0.41,
-  "silver_change": 0.705,
-  "silver_pct": 1.22,
-  "platinum_change": 3.9,
-  "platinum_pct": 0.24,
-  "palladium_change": 2.5,
-  "palladium_pct": 0.2,
-  "copper_change": 0.0772,
-  "copper_pct": 1.2,
-  "nickel_change": 240.0,
-  "nickel_pct": -1.39,
-  "zinc_change": 42.05,
-  "zinc_pct": 1.15,
+  "gold_change": 16.34,
+  "gold_pct": 0.4,
+  "silver_change": 0.355,
+  "silver_pct": 0.62,
+  "platinum_change": 11.6,
+  "platinum_pct": -0.7,
+  "palladium_change": 11.5,
+  "palladium_pct": -0.9,
+  "copper_change": 0.018,
+  "copper_pct": 0.28,
+  "nickel_change": 300.0,
+  "nickel_pct": -1.74,
+  "zinc_change": 23.5,
+  "zinc_pct": 0.64,
   "lithium_change": 3000.0,
   "lithium_pct": -2.1,
   "uranium_change": 0.0,
