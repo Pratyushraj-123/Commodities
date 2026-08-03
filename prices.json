@@ -1,9 +1,9 @@
 {
-  "gold": 4055.13,
-  "silver": 58.182,
-  "platinum": 1638.0,
-  "palladium": 1256.5,
-  "copper": 6.5161,
+  "gold": 4052.42,
+  "silver": 58.147,
+  "platinum": 1638.5,
+  "palladium": 1262.5,
+  "copper": 6.5164,
   "nickel": 17210.0,
   "zinc": 3636.35,
   "lithium": 140000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Aug 2026, 21:54",
+  "_last_updated": "03 Aug 2026, 22:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 693.38,
       "pct": 1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 21:54",
+      "updated": "03 Aug, 22:45",
       "hist": [
         44173.64,
         44111.74,
@@ -285,7 +285,7 @@
       "change": 540.04,
       "pct": 2.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Aug, 21:54"
+      "updated": "03 Aug, 22:45"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 42.5,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 21:54"
+      "updated": "03 Aug, 22:45"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 43.1,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Aug, 21:54"
+      "updated": "03 Aug, 22:45"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": -10.35,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Aug, 21:54"
+      "updated": "03 Aug, 22:45"
     }
   },
   "watchlist": {
@@ -794,7 +794,7 @@
     {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) \u2013 Strikes 11.1% Copper at Green Bay \u2013 Has This ASX Miner Uncovered a Monster?",
+      "title": "FireFly Metals (ASX:FFM) Green Bay Core Zone Upgrade Tests Depth of Its Copper-Gold Strategy",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
       "date": "03 Aug 2026"
     },
@@ -862,16 +862,16 @@
       "date": "03 Aug 2026"
     }
   ],
-  "gold_change": 12.16,
-  "gold_pct": 0.3,
-  "silver_change": 0.562,
-  "silver_pct": 0.97,
-  "platinum_change": 20.7,
-  "platinum_pct": -1.25,
-  "palladium_change": 25.0,
-  "palladium_pct": -1.95,
-  "copper_change": 0.0801,
-  "copper_pct": 1.24,
+  "gold_change": 9.45,
+  "gold_pct": 0.23,
+  "silver_change": 0.527,
+  "silver_pct": 0.91,
+  "platinum_change": 20.2,
+  "platinum_pct": -1.22,
+  "palladium_change": 19.0,
+  "palladium_pct": -1.48,
+  "copper_change": 0.0804,
+  "copper_pct": 1.25,
   "nickel_change": 45.0,
   "nickel_pct": -0.26,
   "zinc_change": 9.15,
