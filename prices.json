@@ -1,11 +1,11 @@
 {
-  "gold": 4083.65,
-  "silver": 59.657,
-  "platinum": 1748.5,
-  "palladium": 1357.0,
-  "copper": 6.6095,
+  "gold": 4077.63,
+  "silver": 59.53,
+  "platinum": 1747.3,
+  "palladium": 1350.0,
+  "copper": 6.6039,
   "nickel": 17150.0,
-  "zinc": 3667.95,
+  "zinc": 3666.9,
   "lithium": 140000.0,
   "uranium": 86.6,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "04 Aug 2026, 19:13",
+  "_last_updated": "04 Aug 2026, 20:58",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 54200.68,
-      "change": 1022.27,
-      "pct": 1.92,
+      "price": 54085.88,
+      "change": 907.47,
+      "pct": 1.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Aug, 19:13",
+      "updated": "04 Aug, 20:58",
       "hist": [
-        44173.64,
         44111.74,
         44193.12,
         43968.64,
@@ -277,16 +276,16 @@
         52208.06,
         52485.03,
         53178.41,
-        54200.68
+        54085.88
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26652.26,
-      "change": 738.37,
-      "pct": 2.85,
+      "price": 26584.99,
+      "change": 671.1,
+      "pct": 2.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Aug, 19:13"
+      "updated": "04 Aug, 20:58"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": 126.5,
       "pct": 1.4,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Aug, 19:13"
+      "updated": "04 Aug, 20:58"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": 127.3,
       "pct": 1.42,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Aug, 19:13"
+      "updated": "04 Aug, 20:58"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": 21.68,
       "pct": 0.2,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "04 Aug, 19:13"
+      "updated": "04 Aug, 20:58"
     }
   },
   "watchlist": {
@@ -760,7 +759,7 @@
     {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies (ASX:SKS) Gains Limelight Today \u2013 Here\u2019s Why",
+      "title": "SKS Technologies (ASX:SKS) Powers Higher on Data-Centre Expansion",
       "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "04 Aug 2026"
     },
@@ -814,20 +813,20 @@
       "date": "04 Aug 2026"
     }
   ],
-  "gold_change": 28.52,
-  "gold_pct": 0.7,
-  "silver_change": 1.971,
-  "silver_pct": 3.42,
-  "platinum_change": 122.2,
-  "platinum_pct": 7.51,
-  "palladium_change": 101.0,
-  "palladium_pct": 8.04,
-  "copper_change": 0.0955,
-  "copper_pct": 1.47,
+  "gold_change": 22.5,
+  "gold_pct": 0.55,
+  "silver_change": 1.844,
+  "silver_pct": 3.2,
+  "platinum_change": 121.0,
+  "platinum_pct": 7.44,
+  "palladium_change": 93.5,
+  "palladium_pct": 7.44,
+  "copper_change": 0.0899,
+  "copper_pct": 1.38,
   "nickel_change": 60.0,
   "nickel_pct": -0.35,
-  "zinc_change": 31.6,
-  "zinc_pct": 0.87,
+  "zinc_change": 30.55,
+  "zinc_pct": 0.84,
   "lithium_change": 0.0,
   "lithium_pct": 0.0,
   "uranium_change": 0.0,
