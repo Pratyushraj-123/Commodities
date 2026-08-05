@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4244.21,
-  "silver": 61.983,
-  "platinum": 1746.2,
-  "palladium": 1369.0,
-  "copper": 6.7174,
+  "gold": 4248.0,
+  "silver": 62.013,
+  "platinum": 1747.4,
+  "palladium": 1365.0,
+  "copper": 6.7206,
   "nickel": 17140.0,
   "zinc": 3729.1,
   "lithium": 140250.0,
-  "uranium": 86.3,
+  "uranium": 86.35,
   "cobalt": 56290.0,
   "rareearth": 252.8,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "05 Aug 2026, 20:51",
+  "_last_updated": "05 Aug 2026, 22:01",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 263.24,
       "pct": 0.49,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 20:51",
+      "updated": "05 Aug, 22:01",
       "hist": [
         44193.12,
         43968.64,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -221.55,
       "pct": -0.83,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 20:51"
+      "updated": "05 Aug, 22:01"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 82.0,
       "pct": 0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 20:51"
+      "updated": "05 Aug, 22:01"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 84.3,
       "pct": 0.93,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 20:51"
+      "updated": "05 Aug, 22:01"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 8.92,
       "pct": 0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "05 Aug, 20:51"
+      "updated": "05 Aug, 22:01"
     }
   },
   "watchlist": {
@@ -773,7 +773,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FFM",
       "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) Heats Up With a Rally as Copper and Gold Stocks Shine",
+      "title": "Is FireFly Metals (ASX:FFM) Undervalued Following Green Bay Drill Results?",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
       "date": "05 Aug 2026"
     },
@@ -848,24 +848,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "05 Aug 2026"
     }
   ],
-  "gold_change": 166.35,
-  "gold_pct": 4.08,
-  "silver_change": 2.477,
-  "silver_pct": 4.16,
-  "platinum_change": 9.7,
-  "platinum_pct": -0.55,
-  "palladium_change": 9.0,
-  "palladium_pct": 0.66,
-  "copper_change": 0.0989,
-  "copper_pct": 1.49,
+  "gold_change": 170.14,
+  "gold_pct": 4.17,
+  "silver_change": 2.507,
+  "silver_pct": 4.21,
+  "platinum_change": 8.6,
+  "platinum_pct": -0.49,
+  "palladium_change": 4.0,
+  "palladium_pct": 0.29,
+  "copper_change": 0.1021,
+  "copper_pct": 1.54,
   "nickel_change": 10.0,
   "nickel_pct": -0.06,
   "zinc_change": 62.2,
   "zinc_pct": 1.7,
   "lithium_change": 250.0,
   "lithium_pct": 0.18,
-  "uranium_change": 0.3,
-  "uranium_pct": -0.35,
+  "uranium_change": 0.05,
+  "uranium_pct": 0.06,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 10000.0,
