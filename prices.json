@@ -1,11 +1,11 @@
 {
-  "gold": 4165.08,
-  "silver": 61.715,
-  "platinum": 1783.7,
-  "palladium": 1390.5,
-  "copper": 6.6403,
-  "nickel": 17040.0,
-  "zinc": 3704.05,
+  "gold": 4151.26,
+  "silver": 61.286,
+  "platinum": 1761.5,
+  "palladium": 1375.5,
+  "copper": 6.6287,
+  "nickel": 17023.0,
+  "zinc": 3699.4,
   "lithium": 140250.0,
   "uranium": 86.3,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "05 Aug 2026, 07:28",
+  "_last_updated": "05 Aug 2026, 10:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 907.47,
       "pct": 1.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 07:28",
+      "updated": "05 Aug, 10:18",
       "hist": [
         44111.74,
         44193.12,
@@ -285,7 +285,7 @@
       "change": 671.1,
       "pct": 2.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 07:28"
+      "updated": "05 Aug, 10:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 82.0,
       "pct": 0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 07:28"
+      "updated": "05 Aug, 10:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 84.3,
       "pct": 0.93,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 07:28"
+      "updated": "05 Aug, 10:18"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10921.09,
-      "change": 41.71,
-      "pct": 0.38,
+      "price": 10891.42,
+      "change": 12.04,
+      "pct": 0.11,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "05 Aug, 07:28"
+      "updated": "05 Aug, 10:18"
     }
   },
   "watchlist": {
@@ -710,7 +710,7 @@
     {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "title": "Forrestania Resources increases gold resource to 126,290 ounces",
+      "title": "Forrestania Resources (ASX:FRS) Delivers Resource Upgrade at British Hill",
       "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "05 Aug 2026"
     },
@@ -724,7 +724,7 @@
     {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Extends Its Run After a Strategic Stake and US Listing Plan",
+      "title": "EQ Resources (ASX:EQR) Rockets Higher to Lead the All Ordinaries",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "05 Aug 2026"
     },
@@ -787,14 +787,14 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "How Does Where Does Pro Medicus (ASX:PME) Fit the 5 August Market Shift?",
+      "title": "What Keeps Pro Medicus (ASX:PME) on Watch This Reporting Season?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "05 Aug 2026"
     },
     {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals reports US$125M quarterly sales",
+      "title": "Neuren Pharmaceuticals (ASX:NEU) Soars on Record DAYBUE Sales and Upgraded Royalty Forecast",
       "link": "https://www.marketindex.com.au/asx/neu/announcements",
       "date": "05 Aug 2026"
     },
@@ -806,20 +806,20 @@
       "date": "05 Aug 2026"
     }
   ],
-  "gold_change": 87.22,
-  "gold_pct": 2.14,
-  "silver_change": 2.209,
-  "silver_pct": 3.71,
-  "platinum_change": 27.7,
-  "platinum_pct": 1.58,
-  "palladium_change": 29.5,
-  "palladium_pct": 2.17,
-  "copper_change": 0.0218,
-  "copper_pct": 0.33,
-  "nickel_change": 110.0,
-  "nickel_pct": -0.64,
-  "zinc_change": 37.15,
-  "zinc_pct": 1.01,
+  "gold_change": 73.4,
+  "gold_pct": 1.8,
+  "silver_change": 1.78,
+  "silver_pct": 2.99,
+  "platinum_change": 5.5,
+  "platinum_pct": 0.31,
+  "palladium_change": 14.5,
+  "palladium_pct": 1.07,
+  "copper_change": 0.0102,
+  "copper_pct": 0.15,
+  "nickel_change": 127.0,
+  "nickel_pct": -0.74,
+  "zinc_change": 32.5,
+  "zinc_pct": 0.89,
   "lithium_change": 250.0,
   "lithium_pct": 0.18,
   "uranium_change": 0.3,
