@@ -1,10 +1,10 @@
 {
-  "gold": 4241.74,
-  "silver": 61.997,
-  "platinum": 1744.7,
-  "palladium": 1371.5,
-  "copper": 6.7041,
-  "nickel": 17125.0,
+  "gold": 4261.27,
+  "silver": 62.251,
+  "platinum": 1750.7,
+  "palladium": 1373.5,
+  "copper": 6.7314,
+  "nickel": 17140.0,
   "zinc": 3729.15,
   "lithium": 140250.0,
   "uranium": 86.3,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "05 Aug 2026, 17:15",
+  "_last_updated": "05 Aug 2026, 19:06",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 54542.49,
-      "change": 456.61,
-      "pct": 0.84,
+      "price": 54485.17,
+      "change": 399.29,
+      "pct": 0.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 17:15",
+      "updated": "05 Aug, 19:06",
       "hist": [
         44111.74,
         44193.12,
@@ -277,16 +277,16 @@
         52485.03,
         53178.41,
         54085.88,
-        54542.49
+        54483.39
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26480.71,
-      "change": -104.29,
-      "pct": -0.39,
+      "price": 26449.05,
+      "change": -135.94,
+      "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 17:15"
+      "updated": "05 Aug, 19:06"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": 82.0,
       "pct": 0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 17:15"
+      "updated": "05 Aug, 19:06"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": 84.3,
       "pct": 0.93,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 17:15"
+      "updated": "05 Aug, 19:06"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": 8.92,
       "pct": 0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "05 Aug, 17:15"
+      "updated": "05 Aug, 19:06"
     }
   },
   "watchlist": {
@@ -737,6 +737,13 @@
       "date": "05 Aug 2026"
     },
     {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Ora Banda Mining (ASX:OBM) Moves Higher on Gold Sector Activity and Broader Market Conditions",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "05 Aug 2026"
+    },
+    {
       "code": "DVP",
       "name": "Develop Global",
       "title": "Develop Global (ASX:DVP) Powers Higher as Mining Stocks Lead the Market",
@@ -746,7 +753,7 @@
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "title": "Are Ramelius (ASX:RMS), Kingsgate (ASX:KCN) And Catalyst (ASX:CYL) Gold Stocks Worth Watching As Bullion Strengthens?",
+      "title": "Catalyst Metals (ASX:CYL) Share Price Advances as Investors Track Gold Market Developments",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
       "date": "05 Aug 2026"
     },
@@ -762,6 +769,20 @@
       "name": "Goldarc Resources",
       "title": "Can Goldarc Resources (ASX:GA8) Expand Its Gold Discovery Potential?",
       "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "05 Aug 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Heats Up With a Rally as Copper and Gold Stocks Shine",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "05 Aug 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN) Crashes as Sellers Take Control",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
       "date": "05 Aug 2026"
     },
     {
@@ -828,18 +849,18 @@
       "date": "05 Aug 2026"
     }
   ],
-  "gold_change": 163.88,
-  "gold_pct": 4.02,
-  "silver_change": 2.491,
-  "silver_pct": 4.19,
-  "platinum_change": 11.3,
-  "platinum_pct": -0.64,
-  "palladium_change": 10.5,
-  "palladium_pct": 0.77,
-  "copper_change": 0.0856,
-  "copper_pct": 1.29,
-  "nickel_change": 25.0,
-  "nickel_pct": -0.15,
+  "gold_change": 183.41,
+  "gold_pct": 4.5,
+  "silver_change": 2.745,
+  "silver_pct": 4.61,
+  "platinum_change": 5.0,
+  "platinum_pct": -0.28,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.92,
+  "copper_change": 0.1129,
+  "copper_pct": 1.71,
+  "nickel_change": 10.0,
+  "nickel_pct": -0.06,
   "zinc_change": 62.25,
   "zinc_pct": 1.7,
   "lithium_change": 250.0,
