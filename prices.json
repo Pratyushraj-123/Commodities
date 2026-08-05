@@ -1,11 +1,11 @@
 {
-  "gold": 4151.26,
-  "silver": 61.286,
-  "platinum": 1761.5,
-  "palladium": 1375.5,
-  "copper": 6.6287,
-  "nickel": 17023.0,
-  "zinc": 3699.4,
+  "gold": 4208.58,
+  "silver": 62.435,
+  "platinum": 1767.5,
+  "palladium": 1376.5,
+  "copper": 6.6535,
+  "nickel": 17093.0,
+  "zinc": 3700.9,
   "lithium": 140250.0,
   "uranium": 86.3,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "05 Aug 2026, 10:18",
+  "_last_updated": "05 Aug 2026, 12:29",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 907.47,
       "pct": 1.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 10:18",
+      "updated": "05 Aug, 12:29",
       "hist": [
         44111.74,
         44193.12,
@@ -285,7 +285,7 @@
       "change": 671.1,
       "pct": 2.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Aug, 10:18"
+      "updated": "05 Aug, 12:29"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 82.0,
       "pct": 0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 10:18"
+      "updated": "05 Aug, 12:29"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 84.3,
       "pct": 0.93,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Aug, 10:18"
+      "updated": "05 Aug, 12:29"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10891.42,
-      "change": 12.04,
-      "pct": 0.11,
+      "price": 10912.4,
+      "change": 33.02,
+      "pct": 0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "05 Aug, 10:18"
+      "updated": "05 Aug, 12:29"
     }
   },
   "watchlist": {
@@ -787,8 +787,15 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What Keeps Pro Medicus (ASX:PME) on Watch This Reporting Season?",
+      "title": "How Does Where Does Pro Medicus (ASX:PME) Fit the 5 August Market Shift?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "05 Aug 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "EchoIQ (ASX:EIQ) Surges as Pro Medicus Partnership Expands the Cardiac AI Story",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
       "date": "05 Aug 2026"
     },
     {
@@ -806,20 +813,20 @@
       "date": "05 Aug 2026"
     }
   ],
-  "gold_change": 73.4,
-  "gold_pct": 1.8,
-  "silver_change": 1.78,
-  "silver_pct": 2.99,
-  "platinum_change": 5.5,
-  "platinum_pct": 0.31,
-  "palladium_change": 14.5,
-  "palladium_pct": 1.07,
-  "copper_change": 0.0102,
-  "copper_pct": 0.15,
-  "nickel_change": 127.0,
-  "nickel_pct": -0.74,
-  "zinc_change": 32.5,
-  "zinc_pct": 0.89,
+  "gold_change": 130.72,
+  "gold_pct": 3.21,
+  "silver_change": 2.929,
+  "silver_pct": 4.92,
+  "platinum_change": 11.5,
+  "platinum_pct": 0.65,
+  "palladium_change": 15.5,
+  "palladium_pct": 1.14,
+  "copper_change": 0.035,
+  "copper_pct": 0.53,
+  "nickel_change": 58.0,
+  "nickel_pct": -0.34,
+  "zinc_change": 34.0,
+  "zinc_pct": 0.93,
   "lithium_change": 250.0,
   "lithium_pct": 0.18,
   "uranium_change": 0.3,
