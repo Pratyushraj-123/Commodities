@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4263.22,
-  "silver": 61.909,
-  "platinum": 1762.1,
-  "palladium": 1377.0,
-  "copper": 6.7001,
-  "nickel": 16678.0,
-  "zinc": 3732.55,
+  "gold": 4268.33,
+  "silver": 61.812,
+  "platinum": 1765.5,
+  "palladium": 1386.0,
+  "copper": 6.7895,
+  "nickel": 16730.0,
+  "zinc": 3789.25,
   "lithium": 141500.0,
   "uranium": 86.35,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "06 Aug 2026, 07:28",
+  "_last_updated": "06 Aug 2026, 10:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 263.24,
       "pct": 0.49,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 07:28",
+      "updated": "06 Aug, 10:20",
       "hist": [
         44193.12,
         43968.64,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -221.55,
       "pct": -0.83,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 07:28"
+      "updated": "06 Aug, 10:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 07:28"
+      "updated": "06 Aug, 10:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 07:28"
+      "updated": "06 Aug, 10:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10922.39,
-      "change": 34.09,
-      "pct": 0.31,
+      "price": 10920.84,
+      "change": 32.54,
+      "pct": 0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "06 Aug, 07:28"
+      "updated": "06 Aug, 10:20"
     }
   },
   "watchlist": {
@@ -715,6 +715,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Share Closed in Red on Thursday \u2013 Here\u2019s Why",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
       "code": "MI6",
       "name": "Minerals 260",
       "title": "Minerals 260 (ASX:MI6) Share Price Climbs, Bullabulling Gold Project Exploration Advances",
@@ -724,8 +731,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Why Are Ora Banda (ASX:OBM), DroneShield and Sigma in Focus?",
+      "title": "Ora Banda Mining (ASX:OBM) Share Price Rises as Little Gem Gold Discovery Expands Mineralised Footprint",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML) Tests Gold Potential Near Benz\u2019s Glenburgh Discovery",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
       "date": "06 Aug 2026"
     },
     {
@@ -764,17 +778,17 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     },
     {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies (ASX:SKS) On Radar, Profit Forecast Surpasses Market Guidance",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
       "title": "Could Megaport (ASX:MP1) Shape the Next Chapter?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "06 Aug 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical Limited (ASX:4DX) - Shares, Dividends & News",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "06 Aug 2026"
     },
     {
@@ -801,25 +815,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Pilbara Minerals (ASX:PLS): Why Does Lithium-Cycle Cash Discipline Matter?",
+      "title": "Pilbara Minerals (ASX:PLS): What Puts Lithium-Cycle Cash Discipline in Focus?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "06 Aug 2026"
     }
   ],
-  "gold_change": 15.82,
-  "gold_pct": 0.37,
-  "silver_change": 0.112,
-  "silver_pct": -0.18,
-  "platinum_change": 15.2,
-  "platinum_pct": 0.87,
-  "palladium_change": 7.0,
-  "palladium_pct": 0.51,
-  "copper_change": 0.0029,
-  "copper_pct": -0.04,
-  "nickel_change": 462.0,
-  "nickel_pct": -2.7,
-  "zinc_change": 3.45,
-  "zinc_pct": 0.09,
+  "gold_change": 20.93,
+  "gold_pct": 0.49,
+  "silver_change": 0.209,
+  "silver_pct": -0.34,
+  "platinum_change": 18.6,
+  "platinum_pct": 1.06,
+  "palladium_change": 16.0,
+  "palladium_pct": 1.17,
+  "copper_change": 0.0865,
+  "copper_pct": 1.29,
+  "nickel_change": 410.0,
+  "nickel_pct": -2.39,
+  "zinc_change": 60.15,
+  "zinc_pct": 1.61,
   "lithium_change": 1250.0,
   "lithium_pct": 0.89,
   "uranium_change": 0.05,
