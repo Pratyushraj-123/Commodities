@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4266.54,
-  "silver": 61.625,
-  "platinum": 1749.3,
-  "palladium": 1381.0,
-  "copper": 6.76,
-  "nickel": 16777.0,
-  "zinc": 3787.0,
+  "gold": 4269.22,
+  "silver": 61.651,
+  "platinum": 1757.5,
+  "palladium": 1391.0,
+  "copper": 6.727,
+  "nickel": 16743.0,
+  "zinc": 3781.15,
   "lithium": 141500.0,
   "uranium": 86.35,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "06 Aug 2026, 12:47",
+  "_last_updated": "06 Aug 2026, 15:02",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 54349.12,
-      "change": 263.24,
-      "pct": 0.49,
+      "price": 54183.86,
+      "change": -165.26,
+      "pct": -0.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 12:47",
+      "updated": "06 Aug, 15:02",
       "hist": [
         44193.12,
         43968.64,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52485.03,
         53178.41,
         54085.88,
-        54349.12
+        54349.12,
+        54183.86
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26363.44,
-      "change": -221.55,
-      "pct": -0.83,
+      "price": 26450.59,
+      "change": 87.15,
+      "pct": 0.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 12:47"
+      "updated": "06 Aug, 15:02"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 12:47"
+      "updated": "06 Aug, 15:02"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 12:47"
+      "updated": "06 Aug, 15:02"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10920.84,
-      "change": 32.54,
-      "pct": 0.3,
+      "price": 10889.93,
+      "change": 1.63,
+      "pct": 0.01,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "06 Aug, 12:47"
+      "updated": "06 Aug, 15:02"
     }
   },
   "watchlist": {
@@ -708,6 +709,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "Benz Mining (ASX:BNZ) Share Price Falls, Heres\u2019 What Happening",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
       "code": "LRV",
       "name": "Larvotto Resources",
       "title": "Why Are Black Cat (ASX:BC8), Bravura (ASX:BVS) and Larvotto (ASX:LRV) in the Spotlight?",
@@ -740,6 +748,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Gateway Mining Ltd",
       "title": "Gateway Mining (ASX:GML) Tests Gold Potential Near Benz\u2019s Glenburgh Discovery",
       "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "GoldArc Resources to Issue 2.77 Million Shares as Finder's Fee for Regener8 Deal",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
       "date": "06 Aug 2026"
     },
     {
@@ -799,6 +814,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical Limited (ASX:4DX) - Shares, Dividends & News",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Could Pro Medicus (ASX:PME) Shape the Next Chapter?",
@@ -829,25 +851,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Pilbara Minerals (ASX:PLS): What Puts Lithium-Cycle Cash Discipline in Focus?",
+      "title": "PLS Group (ASX:PLS) Could Be 21% Undervalued Following Its P2000 Expansion Reveal",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "06 Aug 2026"
     }
   ],
-  "gold_change": 19.14,
-  "gold_pct": 0.45,
-  "silver_change": 0.396,
-  "silver_pct": -0.64,
-  "platinum_change": 2.4,
-  "platinum_pct": 0.14,
-  "palladium_change": 11.0,
-  "palladium_pct": 0.8,
-  "copper_change": 0.057,
-  "copper_pct": 0.85,
-  "nickel_change": 363.0,
-  "nickel_pct": -2.12,
-  "zinc_change": 57.9,
-  "zinc_pct": 1.55,
+  "gold_change": 21.82,
+  "gold_pct": 0.51,
+  "silver_change": 0.37,
+  "silver_pct": -0.6,
+  "platinum_change": 10.6,
+  "platinum_pct": 0.61,
+  "palladium_change": 21.0,
+  "palladium_pct": 1.53,
+  "copper_change": 0.024,
+  "copper_pct": 0.36,
+  "nickel_change": 397.0,
+  "nickel_pct": -2.32,
+  "zinc_change": 52.05,
+  "zinc_pct": 1.4,
   "lithium_change": 1250.0,
   "lithium_pct": 0.89,
   "uranium_change": 0.05,
