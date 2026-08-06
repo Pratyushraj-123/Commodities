@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4244.09,
-  "silver": 61.409,
-  "platinum": 1741.0,
-  "palladium": 1376.5,
-  "copper": 6.6847,
-  "nickel": 16725.0,
+  "gold": 4240.88,
+  "silver": 61.519,
+  "platinum": 1737.9,
+  "palladium": 1377.5,
+  "copper": 6.6986,
+  "nickel": 16720.0,
   "zinc": 3761.55,
   "lithium": 141500.0,
-  "uranium": 86.35,
+  "uranium": 86.5,
   "cobalt": 56290.0,
   "rareearth": 252.8,
   "antimony": 22500.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "06 Aug 2026, 22:41",
+  "_last_updated": "06 Aug 2026, 22:39",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53972.29,
-      "change": -376.83,
-      "pct": -0.69,
+      "price": 53885.1,
+      "change": -464.02,
+      "pct": -0.85,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 22:41",
+      "updated": "06 Aug, 22:39",
       "hist": [
-        44193.12,
         43968.64,
         44175.61,
         43975.09,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         53178.41,
         54085.88,
         54349.12,
-        53972.29
+        53885.1
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26349.82,
-      "change": -13.62,
-      "pct": -0.05,
+      "price": 26348.35,
+      "change": -15.09,
+      "pct": -0.06,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 22:41"
+      "updated": "06 Aug, 22:39"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 22:41"
+      "updated": "06 Aug, 22:39"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 22:41"
+      "updated": "06 Aug, 22:39"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -20.41,
       "pct": -0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "06 Aug, 22:41"
+      "updated": "06 Aug, 22:39"
     }
   },
   "watchlist": {
@@ -732,7 +731,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MI6",
       "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6) Share Price Climbs, Bullabulling Gold Project Exploration Advances",
+      "title": "Minerals 260 (ASX:MI6) Extends Its Rise as Bullabulling Work Advances",
       "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "06 Aug 2026"
     },
@@ -809,8 +808,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Could Megaport (ASX:MP1) Shape the Next Chapter?",
+      "title": "Price to book forward of Megaport Ltd. \u2013 ASX:MP1",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "06 Aug 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical Limited (ASX:4DX) - Shares, Dividends & News",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "06 Aug 2026"
     },
     {
@@ -849,24 +855,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     }
   ],
-  "gold_change": 3.31,
-  "gold_pct": -0.08,
-  "silver_change": 0.612,
-  "silver_pct": -0.99,
-  "platinum_change": 5.9,
-  "platinum_pct": -0.34,
-  "palladium_change": 7.0,
-  "palladium_pct": 0.51,
-  "copper_change": 0.0183,
-  "copper_pct": -0.27,
-  "nickel_change": 415.0,
-  "nickel_pct": -2.42,
+  "gold_change": 6.52,
+  "gold_pct": -0.15,
+  "silver_change": 0.502,
+  "silver_pct": -0.81,
+  "platinum_change": 9.0,
+  "platinum_pct": -0.52,
+  "palladium_change": 7.5,
+  "palladium_pct": 0.55,
+  "copper_change": 0.0044,
+  "copper_pct": -0.07,
+  "nickel_change": 420.0,
+  "nickel_pct": -2.45,
   "zinc_change": 32.45,
   "zinc_pct": 0.87,
   "lithium_change": 1250.0,
   "lithium_pct": 0.89,
-  "uranium_change": 0.05,
-  "uranium_pct": 0.06,
+  "uranium_change": 0.15,
+  "uranium_pct": 0.17,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
