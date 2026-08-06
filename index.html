@@ -197,6 +197,45 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
   color: var(--dn);
 }
 
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 16px;
+  max-height: 480px;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding-right: 6px;
+}
+.watchlist-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.watchlist-card:hover {
+  background: rgba(255,255,255,0.03);
+  border-color: var(--ac);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+@media(max-width: 1200px) {
+  .watchlist-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 768px) {
+  .watchlist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media(max-width: 1024px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
@@ -307,19 +346,6 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
         </div>
       </div>
 
-      <!-- 58 ASX Stock Watchlist Card -->
-      <div class="sidebar-card" style="margin-top: 16px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
-          <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">⛏️ Company Watchlist</h3>
-          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">58 ASX Stocks</span>
-        </div>
-        <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 58 companies..." onkeyup="filterWatchlist()" 
-               style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
-        <div id="watchlistContainer" style="max-height: 280px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px;">
-          <!-- Dynamically populated 58 ASX stock quotes -->
-        </div>
-      </div>
-
       <!-- ASX Announcements Feed Card -->
       <div class="sidebar-card" style="margin-top: 16px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
@@ -328,10 +354,25 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
         </div>
         <input type="text" id="announcementsSearchInp" placeholder="🔍 Search company filings (e.g. EQR, AYA, PLS)..." onkeyup="filterAnnouncements()" 
                style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
-        <div id="announcementsContainer" style="max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+        <div id="announcementsContainer" style="max-height: 640px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
           <!-- Dynamically populated company announcements feed -->
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Full Width Company Watchlist Card -->
+  <div class="sidebar-card" style="margin-top: 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid var(--bd);">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none; font-size:13px; letter-spacing:1.5px;">⛏️ Company Watchlist</h3>
+        <span style="font-size:10px; color:var(--mu); font-family:var(--mo); background:var(--s2); padding:2px 6px; border-radius:3px; border:1px solid var(--bd2);">58 ASX Stocks</span>
+      </div>
+      <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 58 companies..." onkeyup="filterWatchlist()" 
+             style="width:280px; padding:6px 12px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none;">
+    </div>
+    <div id="watchlistContainer" class="watchlist-grid">
+      <!-- Dynamically populated 58 ASX stock quotes in 3 columns -->
     </div>
   </div>
 </div>
@@ -1311,18 +1352,8 @@ function filterWatchlist() {
     const row = document.createElement('a');
     row.href = `https://www.tradingview.com/symbols/ASX-${code.toUpperCase()}/`;
     row.target = '_blank';
-    row.className = 'index-row';
-    row.style.textDecoration = 'none';
-    row.style.color = 'inherit';
-    row.style.cursor = 'pointer';
-    row.style.padding = '4px 6px';
-    row.style.marginBottom = '3px';
-    row.style.borderRadius = '4px';
-    row.style.transition = 'all 0.12s';
+    row.className = 'watchlist-card';
     row.title = `Click to view ${item.name} (${code}) live details on TradingView`;
-    
-    row.onmouseover = () => { row.style.background = 'var(--s2)'; };
-    row.onmouseout = () => { row.style.background = 'transparent'; };
 
     const chgVal = item.change || 0;
     const pctVal = item.pct || 0;

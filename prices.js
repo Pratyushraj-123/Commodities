@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4269.22,
-  "silver": 61.651,
-  "platinum": 1757.5,
-  "palladium": 1391.0,
-  "copper": 6.727,
-  "nickel": 16743.0,
-  "zinc": 3781.15,
+  "gold": 4244.09,
+  "silver": 61.409,
+  "platinum": 1741.0,
+  "palladium": 1376.5,
+  "copper": 6.6847,
+  "nickel": 16725.0,
+  "zinc": 3761.55,
   "lithium": 141500.0,
   "uranium": 86.35,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "06 Aug 2026, 15:02",
+  "_last_updated": "06 Aug 2026, 22:41",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 54183.86,
-      "change": -165.26,
-      "pct": -0.3,
+      "price": 53972.29,
+      "change": -376.83,
+      "pct": -0.69,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 15:02",
+      "updated": "06 Aug, 22:41",
       "hist": [
         44193.12,
         43968.64,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53178.41,
         54085.88,
         54349.12,
-        54183.86
+        53972.29
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26450.59,
-      "change": 87.15,
-      "pct": 0.33,
+      "price": 26349.82,
+      "change": -13.62,
+      "pct": -0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Aug, 15:02"
+      "updated": "06 Aug, 22:41"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 15:02"
+      "updated": "06 Aug, 22:41"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 42.8,
       "pct": 0.47,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Aug, 15:02"
+      "updated": "06 Aug, 22:41"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10889.93,
-      "change": 1.63,
-      "pct": 0.01,
+      "price": 10867.89,
+      "change": -20.41,
+      "pct": -0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "06 Aug, 15:02"
+      "updated": "06 Aug, 22:41"
     }
   },
   "watchlist": {
@@ -814,13 +814,6 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     },
     {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical Limited (ASX:4DX) - Shares, Dividends & News",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "06 Aug 2026"
-    },
-    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Could Pro Medicus (ASX:PME) Shape the Next Chapter?",
@@ -856,20 +849,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "06 Aug 2026"
     }
   ],
-  "gold_change": 21.82,
-  "gold_pct": 0.51,
-  "silver_change": 0.37,
-  "silver_pct": -0.6,
-  "platinum_change": 10.6,
-  "platinum_pct": 0.61,
-  "palladium_change": 21.0,
-  "palladium_pct": 1.53,
-  "copper_change": 0.024,
-  "copper_pct": 0.36,
-  "nickel_change": 397.0,
-  "nickel_pct": -2.32,
-  "zinc_change": 52.05,
-  "zinc_pct": 1.4,
+  "gold_change": 3.31,
+  "gold_pct": -0.08,
+  "silver_change": 0.612,
+  "silver_pct": -0.99,
+  "platinum_change": 5.9,
+  "platinum_pct": -0.34,
+  "palladium_change": 7.0,
+  "palladium_pct": 0.51,
+  "copper_change": 0.0183,
+  "copper_pct": -0.27,
+  "nickel_change": 415.0,
+  "nickel_pct": -2.42,
+  "zinc_change": 32.45,
+  "zinc_pct": 0.87,
   "lithium_change": 1250.0,
   "lithium_pct": 0.89,
   "uranium_change": 0.05,
