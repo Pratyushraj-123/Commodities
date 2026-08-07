@@ -183,22 +183,41 @@ def fetch_index_history(ticker):
 
 def fetch_single_stock_quote(code, name):
     ticker = f"{code}.AX"
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1mo"
     req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req, context=ctx, timeout=5.0) as response:
             data = json.loads(response.read().decode())
-            meta = data['chart']['result'][0]['meta']
+            result = data['chart']['result'][0]
+            meta = result['meta']
+            
             price = float(meta.get('regularMarketPrice', 0))
             prev_close = float(meta.get('chartPreviousClose', 0))
             change = price - prev_close
             pct = (change / prev_close) * 100 if prev_close else 0
+            
+            # Volume surge calculation
+            current_vol = float(meta.get('regularMarketVolume', 0))
+            
+            indicators = result.get('indicators', {}).get('quote', [{}])[0]
+            volumes = [v for v in indicators.get('volume', []) if v is not None]
+            
+            avg_vol_30d = 0.0
+            volume_surge_pct = 0.0
+            if volumes:
+                avg_vol_30d = sum(volumes) / len(volumes)
+                if avg_vol_30d > 0:
+                    volume_surge_pct = ((current_vol - avg_vol_30d) / avg_vol_30d) * 100
+            
             return code, {
                 "name": name,
                 "code": code,
                 "price": round(price, 3),
                 "change": round(change, 3),
-                "pct": round(pct, 2)
+                "pct": round(pct, 2),
+                "volume": int(current_vol),
+                "avg_volume": round(avg_vol_30d, 2),
+                "volume_surge": round(volume_surge_pct, 2)
             }
     except Exception:
         return code, None
@@ -299,6 +318,22 @@ def run_scraper():
     # Scrape 56 ASX watchlist stock quotes and announcements
     try:
         prices["watchlist"] = fetch_watchlist_prices()
+        # Compile volume alerts (surge >= 50%)
+        volume_alerts = []
+        for code, stock in prices["watchlist"].items():
+            surge = stock.get("volume_surge", 0.0)
+            if surge >= 50.0:
+                volume_alerts.append({
+                    "code": code,
+                    "name": stock.get("name"),
+                    "volume": stock.get("volume"),
+                    "avg_volume": stock.get("avg_volume"),
+                    "volume_surge": surge
+                })
+        # Sort alerts descending by surge percentage
+        volume_alerts.sort(key=lambda x: x["volume_surge"], reverse=True)
+        prices["volume_alerts"] = volume_alerts
+        print(f"Compiled {len(volume_alerts)} high volume alerts.")
     except Exception as e:
         print(f"Error updating watchlist: {e}")
         
