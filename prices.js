@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
   "gold": 4343.43,
   "silver": 63.563,
-  "platinum": 1757.2,
-  "palladium": 1382.0,
-  "copper": 6.5622,
+  "platinum": 1757.4,
+  "palladium": 1383.0,
+  "copper": 6.571,
   "nickel": 16970.0,
   "zinc": 3697.35,
   "lithium": 142750.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 21:25",
+  "_last_updated": "07 Aug 2026, 22:21",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 151.83,
       "pct": 0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 21:25",
+      "updated": "07 Aug, 22:21",
       "hist": [
         44175.61,
         43975.09,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 342.26,
       "pct": 1.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 21:25"
+      "updated": "07 Aug, 22:21"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 21:25"
+      "updated": "07 Aug, 22:21"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 21:25"
+      "updated": "07 Aug, 22:21"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.2,
       "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 21:25"
+      "updated": "07 Aug, 22:21"
     }
   },
   "watchlist": {
@@ -982,8 +982,8 @@ window.LIVE_COMMODITY_PRICES = {
   "platinum_pct": 1.12,
   "palladium_change": 5.5,
   "palladium_pct": 0.4,
-  "copper_change": 0.1248,
-  "copper_pct": -1.87,
+  "copper_change": 0.116,
+  "copper_pct": -1.73,
   "nickel_change": 250.0,
   "nickel_pct": 1.5,
   "zinc_change": 64.2,
