@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4356.87,
-  "silver": 64.777,
-  "platinum": 1776.0,
-  "palladium": 1388.5,
-  "copper": 6.6198,
-  "nickel": 16949.0,
-  "zinc": 3727.5,
+  "gold": 4345.91,
+  "silver": 63.908,
+  "platinum": 1757.0,
+  "palladium": 1374.5,
+  "copper": 6.5981,
+  "nickel": 16939.0,
+  "zinc": 3710.8,
   "lithium": 142750.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 12:32",
+  "_last_updated": "07 Aug 2026, 14:02",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53885.1,
-      "change": -464.02,
-      "pct": -0.85,
+      "price": 53991.22,
+      "change": 106.12,
+      "pct": 0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 12:32",
+      "updated": "07 Aug, 14:02",
       "hist": [
         43968.64,
         44175.61,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         53178.41,
         54085.88,
         54349.12,
-        53885.1
+        53885.1,
+        53992.1
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26348.35,
-      "change": -15.09,
-      "pct": -0.06,
+      "price": 26534.53,
+      "change": 186.17,
+      "pct": 0.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 12:32"
+      "updated": "07 Aug, 14:02"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 12:32"
+      "updated": "07 Aug, 14:02"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 12:32"
+      "updated": "07 Aug, 14:02"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10943.53,
-      "change": 75.64,
-      "pct": 0.7,
+      "price": 10912.63,
+      "change": 44.74,
+      "pct": 0.41,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 12:32"
+      "updated": "07 Aug, 14:02"
     }
   },
   "watchlist": {
@@ -944,22 +945,29 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "Pilbara Minerals (ASX:PLS) and Liontown Resources (ASX:LTR) Rise as Lithium Sentiment Improves",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "07 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "Pilbara Minerals (ASX:PLS) and Liontown Resources (ASX:LTR) Rise as Lithium Sentiment Improves",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "07 Aug 2026"
     }
   ],
-  "gold_change": 117.02,
-  "gold_pct": 2.76,
-  "silver_change": 3.279,
-  "silver_pct": 5.33,
-  "platinum_change": 38.1,
-  "platinum_pct": 2.19,
-  "palladium_change": 11.0,
-  "palladium_pct": 0.8,
-  "copper_change": 0.0672,
-  "copper_pct": -1.0,
-  "nickel_change": 229.0,
-  "nickel_pct": 1.37,
-  "zinc_change": 34.05,
-  "zinc_pct": -0.91,
+  "gold_change": 106.06,
+  "gold_pct": 2.5,
+  "silver_change": 2.41,
+  "silver_pct": 3.92,
+  "platinum_change": 19.1,
+  "platinum_pct": 1.1,
+  "palladium_change": 3.0,
+  "palladium_pct": -0.22,
+  "copper_change": 0.0889,
+  "copper_pct": -1.33,
+  "nickel_change": 219.0,
+  "nickel_pct": 1.31,
+  "zinc_change": 50.75,
+  "zinc_pct": -1.35,
   "lithium_change": 1250.0,
   "lithium_pct": 0.88,
   "uranium_change": 0.15,
