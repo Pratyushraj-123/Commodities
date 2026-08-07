@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4353.14,
-  "silver": 63.549,
-  "platinum": 1758.3,
-  "palladium": 1375.0,
-  "copper": 6.5815,
-  "nickel": 17005.0,
-  "zinc": 3705.4,
+  "gold": 4338.54,
+  "silver": 63.301,
+  "platinum": 1759.0,
+  "palladium": 1378.0,
+  "copper": 6.5701,
+  "nickel": 16980.0,
+  "zinc": 3697.1,
   "lithium": 142750.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 15:39",
+  "_last_updated": "07 Aug 2026, 16:37",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53988.66,
-      "change": 103.56,
-      "pct": 0.19,
+      "price": 53939.9,
+      "change": 54.8,
+      "pct": 0.1,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 15:39",
+      "updated": "07 Aug, 16:37",
       "hist": [
         43968.64,
         44175.61,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         54085.88,
         54349.12,
         53885.1,
-        53989.75
+        53939.9
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26693.66,
-      "change": 345.31,
-      "pct": 1.31,
+      "price": 26607.69,
+      "change": 259.34,
+      "pct": 0.98,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 15:39"
+      "updated": "07 Aug, 16:37"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 15:39"
+      "updated": "07 Aug, 16:37"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 15:39"
+      "updated": "07 Aug, 16:37"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10909.43,
-      "change": 41.54,
-      "pct": 0.38,
+      "price": 10901.09,
+      "change": 33.2,
+      "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 15:39"
+      "updated": "07 Aug, 16:37"
     }
   },
   "watchlist": {
@@ -875,106 +875,21 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": 63.77
     }
   },
-  "announcements": [
-    {
-      "code": "TM1",
-      "name": "Terra Metals",
-      "title": "How Far Can Terra Metals (ASX:TM1) Extend the Southwest PGM-Copper-Nickel System?",
-      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan (ASX:TVN) Advances Speewah Fluorite Project Financing as ICA Natural Resources Joins Development Strategy",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Could Ora Banda Mining (ASX:OBM) Be Returning to Investor Watchlists After Share Price Move?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "LIN",
-      "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources (ASX:LIN) Faces Malawi Licence Scrutiny as Shares Enter Suspension",
-      "link": "https://www.marketindex.com.au/asx/lin/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "LSA",
-      "name": "Lachlan Star Ltd",
-      "title": "Enterprise value to revenue forward of Lachlan Star Limited \u2013 ASX:LSA",
-      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies Group Limited's (ASX:SKS) Stock Is Going Strong: Is the Market Following Fundamentals?",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Can Megaport (ASX:MP1) Keep Its AI-Fuelled Momentum Going?",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Expands Global Lung Imaging Technology Platform, Shares Drop",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Can Pro Medicus (ASX:PME) Keep Health Tech Grounded?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals (ASX:NEU) in Focus on Biotech Progress",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Pilbara Minerals (ASX:PLS) and Liontown Resources (ASX:LTR) Rise as Lithium Sentiment Improves",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "07 Aug 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "Pilbara Minerals (ASX:PLS) and Liontown Resources (ASX:LTR) Rise as Lithium Sentiment Improves",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "07 Aug 2026"
-    }
-  ],
-  "gold_change": 113.29,
-  "gold_pct": 2.67,
-  "silver_change": 2.051,
-  "silver_pct": 3.34,
-  "platinum_change": 20.4,
-  "platinum_pct": 1.17,
-  "palladium_change": 2.5,
-  "palladium_pct": -0.18,
-  "copper_change": 0.1055,
-  "copper_pct": -1.58,
-  "nickel_change": 285.0,
-  "nickel_pct": 1.71,
-  "zinc_change": 56.15,
-  "zinc_pct": -1.49,
+  "announcements": [],
+  "gold_change": 98.69,
+  "gold_pct": 2.33,
+  "silver_change": 1.803,
+  "silver_pct": 2.93,
+  "platinum_change": 21.1,
+  "platinum_pct": 1.21,
+  "palladium_change": 0.5,
+  "palladium_pct": 0.04,
+  "copper_change": 0.1169,
+  "copper_pct": -1.75,
+  "nickel_change": 260.0,
+  "nickel_pct": 1.56,
+  "zinc_change": 64.45,
+  "zinc_pct": -1.71,
   "lithium_change": 1250.0,
   "lithium_pct": 0.88,
   "uranium_change": 0.15,
