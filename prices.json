@@ -1,11 +1,11 @@
 {
-  "gold": 4345.91,
-  "silver": 63.908,
-  "platinum": 1757.0,
-  "palladium": 1374.5,
-  "copper": 6.5981,
-  "nickel": 16939.0,
-  "zinc": 3710.8,
+  "gold": 4353.14,
+  "silver": 63.549,
+  "platinum": 1758.3,
+  "palladium": 1375.0,
+  "copper": 6.5815,
+  "nickel": 17005.0,
+  "zinc": 3705.4,
   "lithium": 142750.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 14:02",
+  "_last_updated": "07 Aug 2026, 15:39",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53991.22,
-      "change": 106.12,
-      "pct": 0.2,
+      "price": 53988.66,
+      "change": 103.56,
+      "pct": 0.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 14:02",
+      "updated": "07 Aug, 15:39",
       "hist": [
         43968.64,
         44175.61,
@@ -277,16 +277,16 @@
         54085.88,
         54349.12,
         53885.1,
-        53992.1
+        53989.75
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26534.53,
-      "change": 186.17,
-      "pct": 0.71,
+      "price": 26693.66,
+      "change": 345.31,
+      "pct": 1.31,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 14:02"
+      "updated": "07 Aug, 15:39"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 14:02"
+      "updated": "07 Aug, 15:39"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 14:02"
+      "updated": "07 Aug, 15:39"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10912.63,
-      "change": 44.74,
-      "pct": 0.41,
+      "price": 10909.43,
+      "change": 41.54,
+      "pct": 0.38,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 14:02"
+      "updated": "07 Aug, 15:39"
     }
   },
   "watchlist": {
@@ -905,6 +905,13 @@
       "date": "07 Aug 2026"
     },
     {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "title": "Enterprise value to revenue forward of Lachlan Star Limited \u2013 ASX:LSA",
+      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
+      "date": "07 Aug 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
       "title": "SKS Technologies Group Limited's (ASX:SKS) Stock Is Going Strong: Is the Market Following Fundamentals?",
@@ -954,20 +961,20 @@
       "date": "07 Aug 2026"
     }
   ],
-  "gold_change": 106.06,
-  "gold_pct": 2.5,
-  "silver_change": 2.41,
-  "silver_pct": 3.92,
-  "platinum_change": 19.1,
-  "platinum_pct": 1.1,
-  "palladium_change": 3.0,
-  "palladium_pct": -0.22,
-  "copper_change": 0.0889,
-  "copper_pct": -1.33,
-  "nickel_change": 219.0,
-  "nickel_pct": 1.31,
-  "zinc_change": 50.75,
-  "zinc_pct": -1.35,
+  "gold_change": 113.29,
+  "gold_pct": 2.67,
+  "silver_change": 2.051,
+  "silver_pct": 3.34,
+  "platinum_change": 20.4,
+  "platinum_pct": 1.17,
+  "palladium_change": 2.5,
+  "palladium_pct": -0.18,
+  "copper_change": 0.1055,
+  "copper_pct": -1.58,
+  "nickel_change": 285.0,
+  "nickel_pct": 1.71,
+  "zinc_change": 56.15,
+  "zinc_pct": -1.49,
   "lithium_change": 1250.0,
   "lithium_pct": 0.88,
   "uranium_change": 0.15,
