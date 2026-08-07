@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4317.6,
-  "silver": 64.415,
-  "platinum": 1782.3,
-  "palladium": 1391.0,
-  "copper": 6.6642,
-  "nickel": 16956.0,
-  "zinc": 3720.5,
+  "gold": 4325.54,
+  "silver": 64.226,
+  "platinum": 1771.2,
+  "palladium": 1386.0,
+  "copper": 6.6163,
+  "nickel": 16902.0,
+  "zinc": 3733.55,
   "lithium": 142750.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 10:38",
+  "_last_updated": "07 Aug 2026, 11:34",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -464.02,
       "pct": -0.85,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 10:38",
+      "updated": "07 Aug, 11:34",
       "hist": [
         43968.64,
         44175.61,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -15.09,
       "pct": -0.06,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 10:38"
+      "updated": "07 Aug, 11:34"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 10:38"
+      "updated": "07 Aug, 11:34"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 10:38"
+      "updated": "07 Aug, 11:34"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10929.98,
-      "change": 62.09,
-      "pct": 0.57,
+      "price": 10945.56,
+      "change": 77.67,
+      "pct": 0.71,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 10:38"
+      "updated": "07 Aug, 11:34"
     }
   },
   "watchlist": {
@@ -939,20 +939,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "07 Aug 2026"
     }
   ],
-  "gold_change": 77.75,
-  "gold_pct": 1.83,
-  "silver_change": 2.917,
-  "silver_pct": 4.74,
-  "platinum_change": 44.4,
-  "platinum_pct": 2.55,
-  "palladium_change": 13.5,
-  "palladium_pct": 0.98,
-  "copper_change": 0.0228,
-  "copper_pct": -0.34,
-  "nickel_change": 236.0,
-  "nickel_pct": 1.41,
-  "zinc_change": 41.05,
-  "zinc_pct": -1.09,
+  "gold_change": 85.69,
+  "gold_pct": 2.02,
+  "silver_change": 2.728,
+  "silver_pct": 4.44,
+  "platinum_change": 33.3,
+  "platinum_pct": 1.92,
+  "palladium_change": 8.5,
+  "palladium_pct": 0.62,
+  "copper_change": 0.0707,
+  "copper_pct": -1.06,
+  "nickel_change": 182.0,
+  "nickel_pct": 1.09,
+  "zinc_change": 28.0,
+  "zinc_pct": -0.74,
   "lithium_change": 1250.0,
   "lithium_pct": 0.88,
   "uranium_change": 0.15,
