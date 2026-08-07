@@ -1,11 +1,11 @@
 {
-  "gold": 4325.54,
-  "silver": 64.226,
-  "platinum": 1771.2,
-  "palladium": 1386.0,
-  "copper": 6.6163,
-  "nickel": 16902.0,
-  "zinc": 3733.55,
+  "gold": 4356.87,
+  "silver": 64.777,
+  "platinum": 1776.0,
+  "palladium": 1388.5,
+  "copper": 6.6198,
+  "nickel": 16949.0,
+  "zinc": 3727.5,
   "lithium": 142750.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Aug 2026, 11:34",
+  "_last_updated": "07 Aug 2026, 12:32",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -464.02,
       "pct": -0.85,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 11:34",
+      "updated": "07 Aug, 12:32",
       "hist": [
         43968.64,
         44175.61,
@@ -285,7 +285,7 @@
       "change": -15.09,
       "pct": -0.06,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Aug, 11:34"
+      "updated": "07 Aug, 12:32"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 11:34"
+      "updated": "07 Aug, 12:32"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Aug, 11:34"
+      "updated": "07 Aug, 12:32"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10945.56,
-      "change": 77.67,
-      "pct": 0.71,
+      "price": 10943.53,
+      "change": 75.64,
+      "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Aug, 11:34"
+      "updated": "07 Aug, 12:32"
     }
   },
   "watchlist": {
@@ -937,22 +937,29 @@
       "title": "Neuren Pharmaceuticals (ASX:NEU) in Focus on Biotech Progress",
       "link": "https://www.marketindex.com.au/asx/neu/announcements",
       "date": "07 Aug 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Pilbara Minerals (ASX:PLS) and Liontown Resources (ASX:LTR) Rise as Lithium Sentiment Improves",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "07 Aug 2026"
     }
   ],
-  "gold_change": 85.69,
-  "gold_pct": 2.02,
-  "silver_change": 2.728,
-  "silver_pct": 4.44,
-  "platinum_change": 33.3,
-  "platinum_pct": 1.92,
-  "palladium_change": 8.5,
-  "palladium_pct": 0.62,
-  "copper_change": 0.0707,
-  "copper_pct": -1.06,
-  "nickel_change": 182.0,
-  "nickel_pct": 1.09,
-  "zinc_change": 28.0,
-  "zinc_pct": -0.74,
+  "gold_change": 117.02,
+  "gold_pct": 2.76,
+  "silver_change": 3.279,
+  "silver_pct": 5.33,
+  "platinum_change": 38.1,
+  "platinum_pct": 2.19,
+  "palladium_change": 11.0,
+  "palladium_pct": 0.8,
+  "copper_change": 0.0672,
+  "copper_pct": -1.0,
+  "nickel_change": 229.0,
+  "nickel_pct": 1.37,
+  "zinc_change": 34.05,
+  "zinc_pct": -0.91,
   "lithium_change": 1250.0,
   "lithium_pct": 0.88,
   "uranium_change": 0.15,
