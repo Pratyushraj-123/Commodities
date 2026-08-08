@@ -361,16 +361,29 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
     </div>
   </div>
 
-  <!-- High Volume Alerts Card -->
-  <div class="sidebar-card" style="margin-top: 20px; border-color: rgba(239, 68, 68, 0.4); background: linear-gradient(180deg, rgba(239, 68, 68, 0.05) 0%, var(--s1) 100%);">
+  <!-- High Volume Surges Card -->
+  <div class="sidebar-card" style="margin-top: 20px; border-color: rgba(34, 197, 94, 0.4); background: linear-gradient(180deg, rgba(34, 197, 94, 0.05) 0%, var(--s1) 100%);">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
       <div style="display:flex; align-items:center; gap:8px;">
-        <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none; font-size:13px; letter-spacing:1.5px; color:#ef4444;">⚡ High Volume Alerts (50%+)</h3>
-        <span style="font-size:9px; font-weight:700; background:#ef4444; color:#fff; padding:1px 5px; border-radius:3px; font-family:var(--mo);">TRADINGVIEW SIGNALS</span>
+        <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none; font-size:13px; letter-spacing:1.5px; color:#22c55e;">⚡ High Volume Surges (50%+)</h3>
+        <span style="font-size:9px; font-weight:700; background:#22c55e; color:#000; padding:1px 5px; border-radius:3px; font-family:var(--mo);">TRADINGVIEW SIGNALS</span>
       </div>
     </div>
-    <div id="volumeAlertsContainer" class="watchlist-grid" style="max-height: 200px; margin-top: 5px;">
-      <!-- Dynamically populated volume alerts with TradingView redirects -->
+    <div id="volumeSurgesContainer" class="watchlist-grid" style="max-height: 200px; margin-top: 5px;">
+      <!-- Dynamically populated volume surges with TradingView redirects -->
+    </div>
+  </div>
+
+  <!-- Low Volume Drops Card -->
+  <div class="sidebar-card" style="margin-top: 20px; border-color: rgba(168, 85, 247, 0.4); background: linear-gradient(180deg, rgba(168, 85, 247, 0.05) 0%, var(--s1) 100%);">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none; font-size:13px; letter-spacing:1.5px; color:#a855f7;">📉 Low Volume Drops (30%+)</h3>
+        <span style="font-size:9px; font-weight:700; background:#a855f7; color:#fff; padding:1px 5px; border-radius:3px; font-family:var(--mo);">TRADINGVIEW SIGNALS</span>
+      </div>
+    </div>
+    <div id="volumeDropsContainer" class="watchlist-grid" style="max-height: 200px; margin-top: 5px;">
+      <!-- Dynamically populated volume drops with TradingView redirects -->
     </div>
   </div>
 
@@ -1085,11 +1098,18 @@ function applyApiPrices(apiPrices) {
     renderAnnouncements(apiPrices.announcements);
   }
 
-  // Render Volume Alerts if present
-  if (apiPrices.volume_alerts) {
-    renderVolumeAlerts(apiPrices.volume_alerts);
+  // Render Volume Surges if present
+  if (apiPrices.volume_surges) {
+    renderVolumeSurges(apiPrices.volume_surges);
   } else {
-    renderVolumeAlerts([]);
+    renderVolumeSurges([]);
+  }
+
+  // Render Volume Drops if present
+  if (apiPrices.volume_drops) {
+    renderVolumeDrops(apiPrices.volume_drops);
+  } else {
+    renderVolumeDrops([]);
   }
   
   if (apiPrices._last_updated) {
@@ -1337,21 +1357,21 @@ function renderIndexCards(indexes) {
   });
 }
 
-function renderVolumeAlerts(alerts) {
-  const container = document.getElementById('volumeAlertsContainer');
+function renderVolumeSurges(surges) {
+  const container = document.getElementById('volumeSurgesContainer');
   if (!container) return;
   container.innerHTML = '';
   
-  if (!alerts || alerts.length === 0) {
+  if (!surges || surges.length === 0) {
     container.innerHTML = `
       <div style="grid-column: 1 / -1; font-size:11px; color:var(--mu); padding:16px 0; text-align:center; background:rgba(255,255,255,0.01); border:1px dashed var(--bd); border-radius:6px; font-family:var(--fn);">
-        ℹ️ Volume is normal across all 58 watchlist companies today.
+        ℹ️ No companies with 50% or more volume surge today.
       </div>
     `;
     return;
   }
   
-  alerts.forEach(item => {
+  surges.forEach(item => {
     const code = item.code.toUpperCase();
     const surge = item.volume_surge || 0;
     
@@ -1365,18 +1385,65 @@ function renderVolumeAlerts(alerts) {
     card.href = `https://www.tradingview.com/symbols/ASX-${code}/`;
     card.target = '_blank';
     card.className = 'watchlist-card';
-    card.style.borderColor = 'rgba(239, 68, 68, 0.25)';
+    card.style.borderColor = 'rgba(34, 197, 94, 0.25)';
     card.title = `Click to view ${item.name} (${code}) live charts & technical indicator on TradingView`;
     
     card.innerHTML = `
       <div class="index-info">
         <div class="index-name-container">
-          <span style="font-size:10px; font-weight:700; background:rgba(239,68,68,0.15); border:1px solid #ef4444; padding:1px 5px; border-radius:3px; font-family:var(--mo); color:#ef4444;">${code}</span>
+          <span style="font-size:10px; font-weight:700; background:rgba(34,197,94,0.15); border:1px solid #22c55e; padding:1px 5px; border-radius:3px; font-family:var(--mo); color:#22c55e;">${code}</span>
           <span class="index-name" style="font-size:12px; font-weight:500;">${item.name}</span>
         </div>
       </div>
       <div class="index-stats" style="align-items:flex-end;">
-        <span style="font-size:12px; font-weight:700; color:#ef4444; font-family:var(--mo);">+${surge.toFixed(1)}% Surge</span>
+        <span style="font-size:12px; font-weight:700; color:#22c55e; font-family:var(--mo);">+${surge.toFixed(1)}% Surge</span>
+        <span style="font-size:9px; color:var(--mu); font-family:var(--mo);">Vol: ${formatVol(item.volume)} (Avg: ${formatVol(item.avg_volume)})</span>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderVolumeDrops(drops) {
+  const container = document.getElementById('volumeDropsContainer');
+  if (!container) return;
+  container.innerHTML = '';
+  
+  if (!drops || drops.length === 0) {
+    container.innerHTML = `
+      <div style="grid-column: 1 / -1; font-size:11px; color:var(--mu); padding:16px 0; text-align:center; background:rgba(255,255,255,0.01); border:1px dashed var(--bd); border-radius:6px; font-family:var(--fn);">
+        ℹ️ No companies with 30% or more volume drop today.
+      </div>
+    `;
+    return;
+  }
+  
+  drops.forEach(item => {
+    const code = item.code.toUpperCase();
+    const surge = item.volume_surge || 0;
+    
+    const formatVol = v => {
+      if (v >= 1e6) return (v / 1e6).toFixed(2) + 'M';
+      if (v >= 1e3) return (v / 1e3).toFixed(2) + 'K';
+      return v;
+    };
+    
+    const card = document.createElement('a');
+    card.href = `https://www.tradingview.com/symbols/ASX-${code}/`;
+    card.target = '_blank';
+    card.className = 'watchlist-card';
+    card.style.borderColor = 'rgba(168, 85, 247, 0.25)';
+    card.title = `Click to view ${item.name} (${code}) live charts & technical indicator on TradingView`;
+    
+    card.innerHTML = `
+      <div class="index-info">
+        <div class="index-name-container">
+          <span style="font-size:10px; font-weight:700; background:rgba(168,85,247,0.15); border:1px solid #a855f7; padding:1px 5px; border-radius:3px; font-family:var(--mo); color:#a855f7;">${code}</span>
+          <span class="index-name" style="font-size:12px; font-weight:500;">${item.name}</span>
+        </div>
+      </div>
+      <div class="index-stats" style="align-items:flex-end;">
+        <span style="font-size:12px; font-weight:700; color:#a855f7; font-family:var(--mo);">${surge.toFixed(1)}% Drop</span>
         <span style="font-size:9px; color:var(--mu); font-family:var(--mo);">Vol: ${formatVol(item.volume)} (Avg: ${formatVol(item.avg_volume)})</span>
       </div>
     `;

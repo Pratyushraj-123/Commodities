@@ -318,22 +318,33 @@ def run_scraper():
     # Scrape 56 ASX watchlist stock quotes and announcements
     try:
         prices["watchlist"] = fetch_watchlist_prices()
-        # Compile volume alerts (surge >= 50%)
-        volume_alerts = []
+        # Compile volume surges (>= 50%) and volume drops (<= -30%)
+        volume_surges = []
+        volume_drops = []
         for code, stock in prices["watchlist"].items():
             surge = stock.get("volume_surge", 0.0)
+            item_data = {
+                "code": code,
+                "name": stock.get("name"),
+                "volume": stock.get("volume"),
+                "avg_volume": stock.get("avg_volume"),
+                "volume_surge": surge
+            }
             if surge >= 50.0:
-                volume_alerts.append({
-                    "code": code,
-                    "name": stock.get("name"),
-                    "volume": stock.get("volume"),
-                    "avg_volume": stock.get("avg_volume"),
-                    "volume_surge": surge
-                })
-        # Sort alerts descending by surge percentage
-        volume_alerts.sort(key=lambda x: x["volume_surge"], reverse=True)
-        prices["volume_alerts"] = volume_alerts
-        print(f"Compiled {len(volume_alerts)} high volume alerts.")
+                volume_surges.append(item_data)
+            elif surge <= -30.0:
+                volume_drops.append(item_data)
+                
+        # Sort surges descending (highest surge first)
+        volume_surges.sort(key=lambda x: x["volume_surge"], reverse=True)
+        # Sort drops ascending (steepest drop first)
+        volume_drops.sort(key=lambda x: x["volume_surge"])
+        
+        prices["volume_surges"] = volume_surges
+        prices["volume_drops"] = volume_drops
+        prices["volume_alerts"] = volume_surges
+        
+        print(f"Compiled {len(volume_surges)} volume surges (>=50%) and {len(volume_drops)} volume drops (<=-30%).")
     except Exception as e:
         print(f"Error updating watchlist: {e}")
         
