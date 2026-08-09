@@ -53,6 +53,7 @@ INDEX_TICKERS = {
 }
 
 SELECTED_ASX_COMPANIES = {
+    # Column 1
     "PC2": "PC Gold", "TM1": "Terra Metals", "FRS": "Forrestania Resources",
     "BNZ": "BENZ Mining Corp", "MM1": "Midas Minerals", "BCN": "Beacon Minerals",
     "SLS": "Solstice Minerals", "MM8": "Medallion Metals", "WTM": "Waratah Minerals Ltd",
@@ -61,17 +62,20 @@ SELECTED_ASX_COMPANIES = {
     "OBM": "Ora Banda Mining Ltd", "DVP": "Develop Global", "CYL": "Catalyst Metals",
     "SPD": "Southern Palladium", "BGD": "Barton Gold Holdings", "AZY": "Antipa Minerals",
     "STN": "Saturn Metals Ltd", "MKR": "Manuka Resources", "CRS": "Caprice Resources",
-    "TNC": "True North Copper", "GML": "Gateway Mining Ltd", "AQI": "Alicanto Minerals Ltd",
-    "GA8": "Goldarc Resources", "SKY": "SKY Metals Ltd", "BCA": "Black Canyon Ltd",
-    "CBE": "Cobre Ltd", "USL": "Unico Silver Ltd", "BM1": "Ballard Mining Ltd",
-    "LM1": "Leeuwin Metals Ltd", "FFM": "Firefly Metals Ltd", "BRE": "Brazilian Rare Earths Ltd",
-    "LIN": "Lindian Resources Ltd", "CYM": "Cyprium Metals", "SGQ": "ST George Mining",
-    "BPM": "BPM Minerals", "BMR": "Ballymore Resources", "FML": "Focus Minerals",
-    "TTM": "Titan Minerals", "NMR": "Native Mineral Resources", "LSA": "Lachlan Star Ltd",
-    "SKS": "SKS Technologies Group Ltd", "MP1": "Megaport Ltd", "EDU": "EDU Holdings Ltd",
-    "GNP": "Genusplus Group Ltd", "4DX": "4DMEDICAL Ltd", "PME": "Pro Medicus Ltd",
-    "EIQ": "Echoiq Ltd", "NEU": "Neuren Pharmaceuticals Ltd", "LTR": "Liontown Ltd",
-    "PLS": "PLS Group Ltd", "WC8": "Wildcat Resources Ltd"
+    "TNC": "True North Copper", "GML": "Gateway Mining Ltd", "SGC": "Sinclair Gold Ltd",
+    "GA8": "Goldarc Resources", "SKY": "SKY Metals Ltd",
+    
+    # Column 2
+    "BCA": "Black Canyon Ltd", "CBE": "Cobre Ltd", "USL": "Unico Silver Ltd",
+    "BM1": "Ballard Mining Ltd", "LM1": "Leeuwin Metals Ltd", "FFM": "Firefly Metals Ltd",
+    "BRE": "Brazilian Rare Earths Ltd", "LIN": "Lindian Resources Ltd", "CYM": "Cyprium Metals",
+    "SGQ": "ST George Mining", "BPM": "BPM Minerals", "BMR": "Ballymore Resources",
+    "FML": "Focus Minerals", "TTM": "Titan Minerals", "NMR": "Native Mineral Resources",
+    "LSA": "Lachlan Star Ltd", "SKS": "SKS Technologies Group Ltd", "MP1": "Megaport Ltd",
+    "EDU": "EDU Holdings Ltd", "GNP": "Genusplus Group Ltd", "4DX": "4DMEDICAL Ltd",
+    "PME": "Pro Medicus Ltd", "EIQ": "Echoiq Ltd", "NEU": "Neuren Pharmaceuticals Ltd",
+    "AYA": "ARTRYA Ltd", "LTR": "Liontown Ltd", "PLS": "PLS Group Ltd",
+    "WC8": "Wildcat Resources Ltd", "POD": "Podium Minerals"
 }
 
 def load_stored_prices():

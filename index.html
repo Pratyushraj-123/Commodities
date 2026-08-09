@@ -1461,6 +1461,15 @@ function renderWatchlistCards(watchlist) {
   filterWatchlist();
 }
 
+const WATCHLIST_ORDER = [
+  "PC2", "TM1", "FRS", "BNZ", "MM1", "BCN", "SLS", "MM8", "WTM",
+  "LRV", "TVN", "TGN", "EQR", "ENR", "MI6", "OBM", "DVP", "CYL", "SPD",
+  "BGD", "AZY", "STN", "MKR", "CRS", "TNC", "GML", "SGC", "GA8", "SKY",
+  "BCA", "CBE", "USL", "BM1", "LM1", "FFM", "BRE", "LIN", "CYM", "SGQ",
+  "BPM", "BMR", "FML", "TTM", "NMR", "LSA", "SKS", "MP1", "EDU", "GNP",
+  "4DX", "PME", "EIQ", "NEU", "AYA", "LTR", "PLS", "WC8", "POD"
+];
+
 function filterWatchlist() {
   const container = document.getElementById('watchlistContainer');
   if (!container || !window.CURRENT_WATCHLIST) return;
@@ -1468,11 +1477,10 @@ function filterWatchlist() {
   const searchVal = (document.getElementById('watchlistSearchInp')?.value || '').toLowerCase().trim();
   container.innerHTML = '';
   
-  const codes = Object.keys(window.CURRENT_WATCHLIST);
   let count = 0;
   
-  codes.forEach(code => {
-    const item = window.CURRENT_WATCHLIST[code];
+  WATCHLIST_ORDER.forEach(code => {
+    const item = window.CURRENT_WATCHLIST[code.toUpperCase()];
     if (!item) return;
     
     const matchSearch = !searchVal || code.toLowerCase().includes(searchVal) || (item.name && item.name.toLowerCase().includes(searchVal));
@@ -1497,7 +1505,7 @@ function filterWatchlist() {
     row.innerHTML = `
       <div class="index-info">
         <div class="index-name-container">
-          <span style="font-size:10px; font-weight:700; background:var(--s2); border:1px solid var(--bd2); padding:1px 5px; border-radius:3px; font-family:var(--mo); color:var(--ac);">${code}</span>
+          <span style="font-size:10px; font-weight:700; background:var(--s2); border:1px solid var(--bd2); padding:1px 5px; border-radius:3px; font-family:var(--mo); color:var(--ac);">${code.toUpperCase()}</span>
           <span class="index-name" style="font-size:12px; font-weight:500;">${item.name} <span style="font-size:9px; color:var(--mu);">↗</span></span>
         </div>
       </div>

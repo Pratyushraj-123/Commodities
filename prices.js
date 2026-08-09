@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "09 Aug 2026, 01:19",
+  "_last_updated": "09 Aug 2026, 12:22",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 151.83,
       "pct": 0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Aug, 01:19",
+      "updated": "09 Aug, 12:22",
       "hist": [
         44175.61,
         43975.09,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 342.26,
       "pct": 1.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Aug, 01:19"
+      "updated": "09 Aug, 12:22"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.0,
       "pct": -0.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Aug, 01:19"
+      "updated": "09 Aug, 12:22"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -7.1,
       "pct": -0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Aug, 01:19"
+      "updated": "09 Aug, 12:22"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.2,
       "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Aug, 01:19"
+      "updated": "09 Aug, 12:22"
     }
   },
   "watchlist": {
@@ -573,15 +573,15 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 1313691.25,
       "volume_surge": 151.95
     },
-    "AQI": {
-      "name": "Alicanto Minerals Ltd",
-      "code": "AQI",
-      "price": 1.37,
-      "change": 0.06,
-      "pct": 4.58,
-      "volume": 84039,
-      "avg_volume": 87395.38,
-      "volume_surge": -3.84
+    "SGC": {
+      "name": "Sinclair Gold Ltd",
+      "code": "SGC",
+      "price": 1.32,
+      "change": -0.04,
+      "pct": -2.94,
+      "volume": 46421,
+      "avg_volume": 91960.08,
+      "volume_surge": -49.52
     },
     "GA8": {
       "name": "Goldarc Resources",
@@ -843,6 +843,16 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 525893.62,
       "volume_surge": 50.39
     },
+    "AYA": {
+      "name": "ARTRYA Ltd",
+      "code": "AYA",
+      "price": 4.44,
+      "change": -1.54,
+      "pct": -25.75,
+      "volume": 295805,
+      "avg_volume": 751275.5,
+      "volume_surge": -60.63
+    },
     "LTR": {
       "name": "Liontown Ltd",
       "code": "LTR",
@@ -872,6 +882,16 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 6214972,
       "avg_volume": 3794845.42,
       "volume_surge": 63.77
+    },
+    "POD": {
+      "name": "Podium Minerals",
+      "code": "POD",
+      "price": 0.041,
+      "change": 0.005,
+      "pct": 13.89,
+      "volume": 647962,
+      "avg_volume": 669139.29,
+      "volume_surge": -3.16
     }
   },
   "announcements": [
@@ -883,10 +903,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "09 Aug 2026"
     },
     {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Aristocrat Leisure Stock Stands Out Among High ROE Australian Shares",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "09 Aug 2026"
+    },
+    {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
       "title": "LIN Stock Price and Chart \u2014 ASX:LIN",
       "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "09 Aug 2026"
+    },
+    {
+      "code": "AYA",
+      "name": "ARTRYA Ltd",
+      "title": "Artrya Limited (AYA.AX) company profile and facts",
+      "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "09 Aug 2026"
     }
   ],
@@ -1235,11 +1269,25 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -69.49
     },
     {
+      "code": "AYA",
+      "name": "ARTRYA Ltd",
+      "volume": 295805,
+      "avg_volume": 751275.5,
+      "volume_surge": -60.63
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 747701,
       "avg_volume": 1690362.67,
       "volume_surge": -55.77
+    },
+    {
+      "code": "SGC",
+      "name": "Sinclair Gold Ltd",
+      "volume": 46421,
+      "avg_volume": 91960.08,
+      "volume_surge": -49.52
     },
     {
       "code": "CYM",
