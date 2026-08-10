@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4333.93,
-  "silver": 63.793,
-  "platinum": 1761.3,
-  "palladium": 1370.0,
-  "copper": 6.5878,
-  "nickel": 16937.0,
-  "zinc": 3689.3,
+  "gold": 4358.85,
+  "silver": 64.242,
+  "platinum": 1769.3,
+  "palladium": 1380.0,
+  "copper": 6.613,
+  "nickel": 16963.0,
+  "zinc": 3714.85,
   "lithium": 144500.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Aug 2026, 05:12",
+  "_last_updated": "10 Aug 2026, 07:00",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 151.83,
       "pct": 0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 05:12",
+      "updated": "10 Aug, 07:00",
       "hist": [
         44175.61,
         43975.09,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 342.22,
       "pct": 1.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 05:12"
+      "updated": "10 Aug, 07:00"
     },
     "asx200": {
       "name": "ASX 200",
-      "price": 9227.5,
-      "change": -36.1,
-      "pct": -0.39,
+      "price": 9232.6,
+      "change": -31.0,
+      "pct": -0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 05:12"
+      "updated": "10 Aug, 07:00"
     },
     "asx300": {
       "name": "ASX 300",
-      "price": 9157.5,
-      "change": -32.4,
-      "pct": -0.35,
+      "price": 9162.7,
+      "change": -27.2,
+      "pct": -0.3,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 05:12"
+      "updated": "10 Aug, 07:00"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,49 +309,49 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.19,
       "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Aug, 05:12"
+      "updated": "10 Aug, 07:00"
     }
   },
   "watchlist": {
     "PC2": {
       "name": "PC Gold",
       "code": "PC2",
-      "price": 1.015,
-      "change": -0.12,
-      "pct": -10.57,
-      "volume": 414072,
-      "avg_volume": 312852.59,
-      "volume_surge": 32.35
+      "price": 1.0,
+      "change": -0.135,
+      "pct": -11.89,
+      "volume": 441975,
+      "avg_volume": 314120.91,
+      "volume_surge": 40.7
     },
     "TM1": {
       "name": "Terra Metals",
       "code": "TM1",
-      "price": 0.245,
-      "change": 0.01,
-      "pct": 4.26,
-      "volume": 675431,
-      "avg_volume": 1372186.73,
-      "volume_surge": -50.78
+      "price": 0.25,
+      "change": 0.015,
+      "pct": 6.38,
+      "volume": 877326,
+      "avg_volume": 1381363.77,
+      "volume_surge": -36.49
     },
     "FRS": {
       "name": "Forrestania Resources",
       "code": "FRS",
-      "price": 0.385,
-      "change": -0.015,
-      "pct": -3.75,
-      "volume": 917632,
-      "avg_volume": 5094968.55,
-      "volume_surge": -81.99
+      "price": 0.39,
+      "change": -0.01,
+      "pct": -2.5,
+      "volume": 2230931,
+      "avg_volume": 5154663.95,
+      "volume_surge": -56.72
     },
     "BNZ": {
       "name": "BENZ Mining Corp",
       "code": "BNZ",
-      "price": 3.89,
-      "change": 1.31,
-      "pct": 50.78,
-      "volume": 443206,
-      "avg_volume": 1242520.45,
-      "volume_surge": -64.33
+      "price": 3.93,
+      "change": 1.35,
+      "pct": 52.33,
+      "volume": 837781,
+      "avg_volume": 1260455.68,
+      "volume_surge": -33.53
     },
     "MM1": {
       "name": "Midas Minerals",
@@ -359,59 +359,59 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.03,
       "change": 0.18,
       "pct": 21.18,
-      "volume": 1625341,
-      "avg_volume": 557446.64,
-      "volume_surge": 191.57
+      "volume": 1857861,
+      "avg_volume": 568015.73,
+      "volume_surge": 227.08
     },
     "BCN": {
       "name": "Beacon Minerals",
       "code": "BCN",
-      "price": 3.0,
-      "change": -0.089,
-      "pct": -2.88,
-      "volume": 62793,
-      "avg_volume": 66570.05,
-      "volume_surge": -5.67
+      "price": 3.02,
+      "change": -0.069,
+      "pct": -2.23,
+      "volume": 67130,
+      "avg_volume": 66767.18,
+      "volume_surge": 0.54
     },
     "SLS": {
       "name": "Solstice Minerals",
       "code": "SLS",
-      "price": 2.27,
-      "change": 0.07,
-      "pct": 3.18,
-      "volume": 228588,
-      "avg_volume": 400251.41,
-      "volume_surge": -42.89
+      "price": 2.26,
+      "change": 0.06,
+      "pct": 2.73,
+      "volume": 374408,
+      "avg_volume": 406879.59,
+      "volume_surge": -7.98
     },
     "MM8": {
       "name": "Medallion Metals",
       "code": "MM8",
-      "price": 0.485,
-      "change": 0.05,
-      "pct": 11.49,
-      "volume": 1815698,
-      "avg_volume": 719167.09,
-      "volume_surge": 152.47
+      "price": 0.49,
+      "change": 0.055,
+      "pct": 12.64,
+      "volume": 2162601,
+      "avg_volume": 734935.41,
+      "volume_surge": 194.26
     },
     "WTM": {
       "name": "Waratah Minerals Ltd",
       "code": "WTM",
-      "price": 0.55,
-      "change": 0.09,
-      "pct": 19.57,
-      "volume": 677741,
-      "avg_volume": 895563.59,
-      "volume_surge": -24.32
+      "price": 0.56,
+      "change": 0.1,
+      "pct": 21.74,
+      "volume": 1224829,
+      "avg_volume": 920431.23,
+      "volume_surge": 33.07
     },
     "LRV": {
       "name": "Larvotto Resources",
       "code": "LRV",
-      "price": 1.275,
-      "change": 0.015,
-      "pct": 1.19,
-      "volume": 3334979,
-      "avg_volume": 1688794.95,
-      "volume_surge": 97.48
+      "price": 1.28,
+      "change": 0.02,
+      "pct": 1.59,
+      "volume": 3517166,
+      "avg_volume": 1697076.18,
+      "volume_surge": 107.25
     },
     "TVN": {
       "name": "Tivan Ltd",
@@ -419,9 +419,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.245,
       "change": -0.095,
       "pct": -27.94,
-      "volume": 1451117,
-      "avg_volume": 2036646.68,
-      "volume_surge": -28.75
+      "volume": 2182339,
+      "avg_volume": 2069884.05,
+      "volume_surge": 5.43
     },
     "TGN": {
       "name": "Tungsten Mining",
@@ -429,19 +429,19 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.205,
       "change": -0.025,
       "pct": -10.87,
-      "volume": 1299330,
-      "avg_volume": 742212.5,
-      "volume_surge": 75.06
+      "volume": 1959051,
+      "avg_volume": 772199.82,
+      "volume_surge": 153.7
     },
     "EQR": {
       "name": "EQ Resources Ltd",
       "code": "EQR",
-      "price": 0.307,
-      "change": 0.032,
-      "pct": 11.64,
-      "volume": 15335006,
-      "avg_volume": 30260780.82,
-      "volume_surge": -49.32
+      "price": 0.305,
+      "change": 0.03,
+      "pct": 10.91,
+      "volume": 19275215,
+      "avg_volume": 30439881.23,
+      "volume_surge": -36.68
     },
     "ENR": {
       "name": "Encounter Resources",
@@ -449,79 +449,79 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.22,
       "change": -0.03,
       "pct": -12.0,
-      "volume": 1038990,
-      "avg_volume": 434035.59,
-      "volume_surge": 139.38
+      "volume": 1115180,
+      "avg_volume": 437498.77,
+      "volume_surge": 154.9
     },
     "MI6": {
       "name": "Minerals 260",
       "code": "MI6",
-      "price": 0.8,
-      "change": 0.18,
-      "pct": 29.03,
-      "volume": 10051146,
-      "avg_volume": 12064626.95,
-      "volume_surge": -16.69
+      "price": 0.815,
+      "change": 0.195,
+      "pct": 31.45,
+      "volume": 14371288,
+      "avg_volume": 12260997.05,
+      "volume_surge": 17.21
     },
     "OBM": {
       "name": "Ora Banda Mining Ltd",
       "code": "OBM",
-      "price": 1.352,
-      "change": 0.232,
-      "pct": 20.71,
-      "volume": 9047616,
-      "avg_volume": 6623224.05,
-      "volume_surge": 36.6
+      "price": 1.365,
+      "change": 0.245,
+      "pct": 21.87,
+      "volume": 11162890,
+      "avg_volume": 6719372.86,
+      "volume_surge": 66.13
     },
     "DVP": {
       "name": "Develop Global",
       "code": "DVP",
-      "price": 5.15,
-      "change": -0.88,
-      "pct": -14.59,
-      "volume": 852999,
-      "avg_volume": 1753381.59,
-      "volume_surge": -51.35
+      "price": 5.1,
+      "change": -0.93,
+      "pct": -15.42,
+      "volume": 1792744,
+      "avg_volume": 1796097.27,
+      "volume_surge": -0.19
     },
     "CYL": {
       "name": "Catalyst Metals",
       "code": "CYL",
-      "price": 6.56,
-      "change": 0.8,
-      "pct": 13.89,
-      "volume": 1024148,
-      "avg_volume": 1179092.55,
-      "volume_surge": -13.14
+      "price": 6.54,
+      "change": 0.78,
+      "pct": 13.54,
+      "volume": 1450893,
+      "avg_volume": 1198490.05,
+      "volume_surge": 21.06
     },
     "SPD": {
       "name": "Southern Palladium",
       "code": "SPD",
-      "price": 2.12,
-      "change": 0.755,
-      "pct": 55.31,
-      "volume": 219852,
-      "avg_volume": 115365.86,
-      "volume_surge": 90.57
+      "price": 2.13,
+      "change": 0.765,
+      "pct": 56.04,
+      "volume": 264475,
+      "avg_volume": 117394.18,
+      "volume_surge": 125.29
     },
     "BGD": {
       "name": "Barton Gold Holdings",
       "code": "BGD",
-      "price": 0.83,
-      "change": 0.05,
-      "pct": 6.41,
-      "volume": 461089,
-      "avg_volume": 197851.18,
-      "volume_surge": 133.05
+      "price": 0.85,
+      "change": 0.07,
+      "pct": 8.97,
+      "volume": 559068,
+      "avg_volume": 202304.77,
+      "volume_surge": 176.35
     },
     "AZY": {
       "name": "Antipa Minerals",
       "code": "AZY",
-      "price": 0.64,
-      "change": 0.02,
-      "pct": 3.23,
-      "volume": 954207,
-      "avg_volume": 633909.27,
-      "volume_surge": 50.53
+      "price": 0.65,
+      "change": 0.03,
+      "pct": 4.84,
+      "volume": 1357308,
+      "avg_volume": 652232.05,
+      "volume_surge": 108.1
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -529,49 +529,49 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.475,
       "change": -0.005,
       "pct": -1.04,
-      "volume": 1622750,
-      "avg_volume": 1501640.5,
-      "volume_surge": 8.07
+      "volume": 1874375,
+      "avg_volume": 1513078.0,
+      "volume_surge": 23.88
     },
     "MKR": {
       "name": "Manuka Resources",
       "code": "MKR",
-      "price": 0.078,
-      "change": -0.011,
-      "pct": -12.36,
-      "volume": 4961976,
-      "avg_volume": 2782784.41,
-      "volume_surge": 78.31
+      "price": 0.079,
+      "change": -0.01,
+      "pct": -11.24,
+      "volume": 6328274,
+      "avg_volume": 2844888.86,
+      "volume_surge": 122.44
     },
     "CRS": {
       "name": "Caprice Resources",
       "code": "CRS",
-      "price": 0.088,
-      "change": 0.005,
-      "pct": 6.02,
-      "volume": 748776,
-      "avg_volume": 2327852.14,
-      "volume_surge": -67.83
+      "price": 0.09,
+      "change": 0.007,
+      "pct": 8.43,
+      "volume": 987772,
+      "avg_volume": 2338715.59,
+      "volume_surge": -57.76
     },
     "TNC": {
       "name": "True North Copper",
       "code": "TNC",
-      "price": 0.45,
-      "change": 0.025,
-      "pct": 5.88,
-      "volume": 48739,
-      "avg_volume": 214477.14,
-      "volume_surge": -77.28
+      "price": 0.44,
+      "change": 0.015,
+      "pct": 3.53,
+      "volume": 49370,
+      "avg_volume": 214505.82,
+      "volume_surge": -76.98
     },
     "GML": {
       "name": "Gateway Mining Ltd",
       "code": "GML",
-      "price": 0.074,
-      "change": 0.025,
-      "pct": 51.02,
-      "volume": 2367306,
-      "avg_volume": 1476904.23,
-      "volume_surge": 60.29
+      "price": 0.075,
+      "change": 0.026,
+      "pct": 53.06,
+      "volume": 2390002,
+      "avg_volume": 1477935.86,
+      "volume_surge": 61.71
     },
     "SGC": {
       "name": "Sinclair Gold Ltd",
@@ -579,29 +579,29 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.29,
       "change": -0.11,
       "pct": -7.86,
-      "volume": 234042,
-      "avg_volume": 98654.91,
-      "volume_surge": 137.23
+      "volume": 268748,
+      "avg_volume": 100232.45,
+      "volume_surge": 168.12
     },
     "GA8": {
       "name": "Goldarc Resources",
       "code": "GA8",
-      "price": 0.06,
-      "change": -0.004,
-      "pct": -6.25,
-      "volume": 450601,
-      "avg_volume": 784750.5,
-      "volume_surge": -42.58
+      "price": 0.059,
+      "change": -0.005,
+      "pct": -7.81,
+      "volume": 467315,
+      "avg_volume": 785510.23,
+      "volume_surge": -40.51
     },
     "SKY": {
       "name": "SKY Metals Ltd",
       "code": "SKY",
-      "price": 0.245,
-      "change": -0.015,
-      "pct": -5.77,
-      "volume": 4337558,
-      "avg_volume": 1454054.23,
-      "volume_surge": 198.31
+      "price": 0.25,
+      "change": -0.01,
+      "pct": -3.85,
+      "volume": 5018468,
+      "avg_volume": 1485004.68,
+      "volume_surge": 237.94
     },
     "BCA": {
       "name": "Black Canyon Ltd",
@@ -619,19 +619,19 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.32,
       "change": 0.055,
       "pct": 20.75,
-      "volume": 1501766,
-      "avg_volume": 4215192.91,
-      "volume_surge": -64.37
+      "volume": 2186690,
+      "avg_volume": 4246325.82,
+      "volume_surge": -48.5
     },
     "USL": {
       "name": "Unico Silver Ltd",
       "code": "USL",
-      "price": 0.8,
-      "change": 0.12,
-      "pct": 17.65,
-      "volume": 2628759,
-      "avg_volume": 2147666.5,
-      "volume_surge": 22.4
+      "price": 0.825,
+      "change": 0.145,
+      "pct": 21.32,
+      "volume": 3498512,
+      "avg_volume": 2187200.73,
+      "volume_surge": 59.95
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -639,9 +639,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.68,
       "change": 0.01,
       "pct": 1.49,
-      "volume": 235706,
-      "avg_volume": 350628.73,
-      "volume_surge": -32.78
+      "volume": 268438,
+      "avg_volume": 352116.55,
+      "volume_surge": -23.76
     },
     "LM1": {
       "name": "Leeuwin Metals Ltd",
@@ -649,99 +649,99 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.18,
       "change": -0.03,
       "pct": -14.29,
-      "volume": 75975,
-      "avg_volume": 114821.14,
-      "volume_surge": -33.83
+      "volume": 135975,
+      "avg_volume": 117548.41,
+      "volume_surge": 15.68
     },
     "FFM": {
       "name": "Firefly Metals Ltd",
       "code": "FFM",
-      "price": 1.897,
-      "change": 0.097,
-      "pct": 5.39,
-      "volume": 2342995,
-      "avg_volume": 2944278.95,
-      "volume_surge": -20.42
+      "price": 1.905,
+      "change": 0.105,
+      "pct": 5.83,
+      "volume": 3214475,
+      "avg_volume": 2983891.68,
+      "volume_surge": 7.73
     },
     "BRE": {
       "name": "Brazilian Rare Earths Ltd",
       "code": "BRE",
-      "price": 4.22,
-      "change": 0.22,
-      "pct": 5.5,
-      "volume": 156236,
-      "avg_volume": 358842.91,
-      "volume_surge": -56.46
+      "price": 4.24,
+      "change": 0.24,
+      "pct": 6.0,
+      "volume": 266794,
+      "avg_volume": 363868.27,
+      "volume_surge": -26.68
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
       "code": "LIN",
-      "price": 0.792,
-      "change": -0.023,
-      "pct": -2.82,
-      "volume": 24436855,
-      "avg_volume": 10349481.5,
-      "volume_surge": 136.12
+      "price": 0.825,
+      "change": 0.01,
+      "pct": 1.23,
+      "volume": 35745665,
+      "avg_volume": 10863518.32,
+      "volume_surge": 229.04
     },
     "CYM": {
       "name": "Cyprium Metals",
       "code": "CYM",
-      "price": 0.465,
-      "change": 0.035,
-      "pct": 8.14,
-      "volume": 731219,
-      "avg_volume": 1058255.32,
-      "volume_surge": -30.9
+      "price": 0.47,
+      "change": 0.04,
+      "pct": 9.3,
+      "volume": 822590,
+      "avg_volume": 1062408.55,
+      "volume_surge": -22.57
     },
     "SGQ": {
       "name": "ST George Mining",
       "code": "SGQ",
-      "price": 0.081,
-      "change": -0.012,
-      "pct": -12.9,
-      "volume": 12289112,
-      "avg_volume": 13607715.73,
-      "volume_surge": -9.69
+      "price": 0.082,
+      "change": -0.011,
+      "pct": -11.83,
+      "volume": 14228246,
+      "avg_volume": 13695858.18,
+      "volume_surge": 3.89
     },
     "BPM": {
       "name": "BPM Minerals",
       "code": "BPM",
-      "price": 0.18,
-      "change": 0.01,
-      "pct": 5.88,
-      "volume": 551921,
-      "avg_volume": 105015.95,
-      "volume_surge": 425.56
+      "price": 0.182,
+      "change": 0.012,
+      "pct": 7.06,
+      "volume": 642091,
+      "avg_volume": 109114.59,
+      "volume_surge": 488.46
     },
     "BMR": {
       "name": "Ballymore Resources",
       "code": "BMR",
-      "price": 0.127,
-      "change": -0.003,
-      "pct": -2.31,
-      "volume": 173081,
-      "avg_volume": 150933.73,
-      "volume_surge": 14.67
+      "price": 0.13,
+      "change": 0.0,
+      "pct": 0.0,
+      "volume": 230161,
+      "avg_volume": 153528.27,
+      "volume_surge": 49.91
     },
     "FML": {
       "name": "Focus Minerals",
       "code": "FML",
-      "price": 2.08,
-      "change": 0.44,
-      "pct": 26.83,
-      "volume": 171998,
-      "avg_volume": 227544.73,
-      "volume_surge": -24.41
+      "price": 2.09,
+      "change": 0.45,
+      "pct": 27.44,
+      "volume": 237705,
+      "avg_volume": 230531.41,
+      "volume_surge": 3.11
     },
     "TTM": {
       "name": "Titan Minerals",
       "code": "TTM",
-      "price": 0.64,
-      "change": -0.035,
-      "pct": -5.19,
-      "volume": 191087,
-      "avg_volume": 202821.59,
-      "volume_surge": -5.79
+      "price": 0.65,
+      "change": -0.025,
+      "pct": -3.7,
+      "volume": 253903,
+      "avg_volume": 205676.86,
+      "volume_surge": 23.45
     },
     "NMR": {
       "name": "Native Mineral Resources",
@@ -749,9 +749,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.065,
       "change": 0.017,
       "pct": 35.42,
-      "volume": 1391739,
-      "avg_volume": 1591632.77,
-      "volume_surge": -12.56
+      "volume": 1399739,
+      "avg_volume": 1591996.41,
+      "volume_surge": -12.08
     },
     "LSA": {
       "name": "Lachlan Star Ltd",
@@ -759,39 +759,39 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.11,
       "change": -0.01,
       "pct": -8.33,
-      "volume": 125583,
-      "avg_volume": 134817.18,
-      "volume_surge": -6.85
+      "volume": 131539,
+      "avg_volume": 135087.91,
+      "volume_surge": -2.63
     },
     "SKS": {
       "name": "SKS Technologies Group Ltd",
       "code": "SKS",
-      "price": 8.58,
-      "change": 0.24,
-      "pct": 2.88,
-      "volume": 239030,
-      "avg_volume": 505196.55,
-      "volume_surge": -52.69
+      "price": 8.44,
+      "change": 0.1,
+      "pct": 1.2,
+      "volume": 347174,
+      "avg_volume": 510112.18,
+      "volume_surge": -31.94
     },
     "MP1": {
       "name": "Megaport Ltd",
       "code": "MP1",
-      "price": 19.93,
-      "change": -0.15,
-      "pct": -0.75,
-      "volume": 306367,
-      "avg_volume": 1606037.55,
-      "volume_surge": -80.92
+      "price": 19.92,
+      "change": -0.16,
+      "pct": -0.8,
+      "volume": 488449,
+      "avg_volume": 1614314.0,
+      "volume_surge": -69.74
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
       "code": "EDU",
-      "price": 1.175,
-      "change": 0.225,
-      "pct": 23.68,
-      "volume": 314832,
-      "avg_volume": 221802.41,
-      "volume_surge": 41.94
+      "price": 1.16,
+      "change": 0.21,
+      "pct": 22.11,
+      "volume": 347660,
+      "avg_volume": 223294.59,
+      "volume_surge": 55.7
     },
     "GNP": {
       "name": "Genusplus Group Ltd",
@@ -799,89 +799,89 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.1,
       "change": -0.29,
       "pct": -3.09,
-      "volume": 459249,
-      "avg_volume": 680576.68,
-      "volume_surge": -32.52
+      "volume": 582778,
+      "avg_volume": 686191.64,
+      "volume_surge": -15.07
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
       "code": "4DX",
-      "price": 4.355,
-      "change": 0.395,
-      "pct": 9.97,
-      "volume": 4816225,
-      "avg_volume": 5845407.68,
-      "volume_surge": -17.61
+      "price": 4.4,
+      "change": 0.44,
+      "pct": 11.11,
+      "volume": 5852856,
+      "avg_volume": 5892527.27,
+      "volume_surge": -0.67
     },
     "PME": {
       "name": "Pro Medicus Ltd",
       "code": "PME",
-      "price": 175.735,
-      "change": -21.335,
-      "pct": -10.83,
-      "volume": 77793,
-      "avg_volume": 247173.09,
-      "volume_surge": -68.53
+      "price": 176.61,
+      "change": -20.46,
+      "pct": -10.38,
+      "volume": 149441,
+      "avg_volume": 250429.82,
+      "volume_surge": -40.33
     },
     "EIQ": {
       "name": "Echoiq Ltd",
       "code": "EIQ",
-      "price": 1.615,
-      "change": -0.045,
-      "pct": -2.71,
-      "volume": 3248532,
-      "avg_volume": 3285783.82,
-      "volume_surge": -1.13
+      "price": 1.56,
+      "change": -0.1,
+      "pct": -6.02,
+      "volume": 4045803,
+      "avg_volume": 3322023.41,
+      "volume_surge": 21.79
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
       "code": "NEU",
-      "price": 22.94,
-      "change": 6.42,
-      "pct": 38.86,
-      "volume": 476462,
-      "avg_volume": 513927.91,
-      "volume_surge": -7.29
+      "price": 23.0,
+      "change": 6.48,
+      "pct": 39.23,
+      "volume": 778175,
+      "avg_volume": 527642.14,
+      "volume_surge": 47.48
     },
     "AYA": {
       "name": "ARTRYA Ltd",
       "code": "AYA",
-      "price": 4.46,
-      "change": -1.31,
-      "pct": -22.7,
-      "volume": 155183,
-      "avg_volume": 752091.18,
-      "volume_surge": -79.37
+      "price": 4.43,
+      "change": -1.34,
+      "pct": -23.22,
+      "volume": 199935,
+      "avg_volume": 754125.36,
+      "volume_surge": -73.49
     },
     "LTR": {
       "name": "Liontown Ltd",
       "code": "LTR",
-      "price": 1.205,
-      "change": -0.285,
-      "pct": -19.13,
-      "volume": 29536180,
-      "avg_volume": 36813225.45,
-      "volume_surge": -19.77
+      "price": 1.2,
+      "change": -0.29,
+      "pct": -19.46,
+      "volume": 38081623,
+      "avg_volume": 37201654.68,
+      "volume_surge": 2.37
     },
     "PLS": {
       "name": "PLS Group Ltd",
       "code": "PLS",
-      "price": 4.705,
-      "change": 0.075,
-      "pct": 1.62,
-      "volume": 13856354,
-      "avg_volume": 22835469.82,
-      "volume_surge": -39.32
+      "price": 4.72,
+      "change": 0.09,
+      "pct": 1.94,
+      "volume": 20407824,
+      "avg_volume": 23133263.91,
+      "volume_surge": -11.78
     },
     "WC8": {
       "name": "Wildcat Resources Ltd",
       "code": "WC8",
-      "price": 0.397,
-      "change": -0.078,
-      "pct": -16.42,
-      "volume": 4502518,
-      "avg_volume": 3869429.73,
-      "volume_surge": 16.36
+      "price": 0.4,
+      "change": -0.075,
+      "pct": -15.79,
+      "volume": 6879375,
+      "avg_volume": 3977468.68,
+      "volume_surge": 72.96
     },
     "POD": {
       "name": "Podium Minerals",
@@ -889,12 +889,33 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.04,
       "change": 0.005,
       "pct": 14.29,
-      "volume": 618888,
-      "avg_volume": 694904.18,
-      "volume_surge": -10.94
+      "volume": 619151,
+      "avg_volume": 694916.14,
+      "volume_surge": -10.9
     }
   },
   "announcements": [
+    {
+      "code": "MM1",
+      "name": "Midas Minerals",
+      "title": "Midas Minerals (ASX:MM1) Expands High-Grade Copper-Silver Zone At Otavi Project",
+      "link": "https://www.marketindex.com.au/asx/mm1/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Clears Final Approvals For Ravensthorpe Gold Project",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6) Advances Bullabulling With AUD 220m Franco-Nevada Funding",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "10 Aug 2026"
+    },
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
@@ -931,6 +952,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Aug 2026"
     },
     {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE) Expands Monte Alto Into a Major Critical Minerals District",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
       "code": "BPM",
       "name": "BPM Minerals",
       "title": "What Is Driving BPM Minerals (ASX:BPM) Through Its Next Drilling Phase?",
@@ -950,22 +978,29 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "Artrya (ASX:AYA) Moves From FDA Clearances to US Hospital Adoption",
       "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "10 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Posts Record FY26 Spodumene Sales As Mid-Stream Plant Ramps Up",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "10 Aug 2026"
     }
   ],
-  "gold_change": 9.5,
-  "gold_pct": -0.22,
-  "silver_change": 0.251,
-  "silver_pct": 0.4,
-  "platinum_change": 1.7,
-  "platinum_pct": 0.1,
-  "palladium_change": 8.5,
-  "palladium_pct": -0.62,
-  "copper_change": 0.0173,
-  "copper_pct": 0.26,
-  "nickel_change": 33.0,
-  "nickel_pct": -0.19,
-  "zinc_change": 8.05,
-  "zinc_pct": -0.22,
+  "gold_change": 15.42,
+  "gold_pct": 0.36,
+  "silver_change": 0.7,
+  "silver_pct": 1.1,
+  "platinum_change": 9.7,
+  "platinum_pct": 0.55,
+  "palladium_change": 1.5,
+  "palladium_pct": 0.11,
+  "copper_change": 0.0425,
+  "copper_pct": 0.65,
+  "nickel_change": 7.0,
+  "nickel_pct": -0.04,
+  "zinc_change": 17.5,
+  "zinc_pct": 0.47,
   "lithium_change": 1750.0,
   "lithium_pct": 1.23,
   "uranium_change": 0.0,
@@ -980,200 +1015,256 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BPM",
       "name": "BPM Minerals",
-      "volume": 551921,
-      "avg_volume": 105015.95,
-      "volume_surge": 425.56
+      "volume": 642091,
+      "avg_volume": 109114.59,
+      "volume_surge": 488.46
     },
     {
       "code": "SKY",
       "name": "SKY Metals Ltd",
-      "volume": 4337558,
-      "avg_volume": 1454054.23,
-      "volume_surge": 198.31
-    },
-    {
-      "code": "MM1",
-      "name": "Midas Minerals",
-      "volume": 1625341,
-      "avg_volume": 557446.64,
-      "volume_surge": 191.57
-    },
-    {
-      "code": "MM8",
-      "name": "Medallion Metals",
-      "volume": 1815698,
-      "avg_volume": 719167.09,
-      "volume_surge": 152.47
-    },
-    {
-      "code": "ENR",
-      "name": "Encounter Resources",
-      "volume": 1038990,
-      "avg_volume": 434035.59,
-      "volume_surge": 139.38
-    },
-    {
-      "code": "SGC",
-      "name": "Sinclair Gold Ltd",
-      "volume": 234042,
-      "avg_volume": 98654.91,
-      "volume_surge": 137.23
+      "volume": 5018468,
+      "avg_volume": 1485004.68,
+      "volume_surge": 237.94
     },
     {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
-      "volume": 24436855,
-      "avg_volume": 10349481.5,
-      "volume_surge": 136.12
+      "volume": 35745665,
+      "avg_volume": 10863518.32,
+      "volume_surge": 229.04
+    },
+    {
+      "code": "MM1",
+      "name": "Midas Minerals",
+      "volume": 1857861,
+      "avg_volume": 568015.73,
+      "volume_surge": 227.08
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "volume": 2162601,
+      "avg_volume": 734935.41,
+      "volume_surge": 194.26
     },
     {
       "code": "BGD",
       "name": "Barton Gold Holdings",
-      "volume": 461089,
-      "avg_volume": 197851.18,
-      "volume_surge": 133.05
+      "volume": 559068,
+      "avg_volume": 202304.77,
+      "volume_surge": 176.35
     },
     {
-      "code": "LRV",
-      "name": "Larvotto Resources",
-      "volume": 3334979,
-      "avg_volume": 1688794.95,
-      "volume_surge": 97.48
+      "code": "SGC",
+      "name": "Sinclair Gold Ltd",
+      "volume": 268748,
+      "avg_volume": 100232.45,
+      "volume_surge": 168.12
     },
     {
-      "code": "SPD",
-      "name": "Southern Palladium",
-      "volume": 219852,
-      "avg_volume": 115365.86,
-      "volume_surge": 90.57
-    },
-    {
-      "code": "MKR",
-      "name": "Manuka Resources",
-      "volume": 4961976,
-      "avg_volume": 2782784.41,
-      "volume_surge": 78.31
+      "code": "ENR",
+      "name": "Encounter Resources",
+      "volume": 1115180,
+      "avg_volume": 437498.77,
+      "volume_surge": 154.9
     },
     {
       "code": "TGN",
       "name": "Tungsten Mining",
-      "volume": 1299330,
-      "avg_volume": 742212.5,
-      "volume_surge": 75.06
+      "volume": 1959051,
+      "avg_volume": 772199.82,
+      "volume_surge": 153.7
     },
     {
-      "code": "GML",
-      "name": "Gateway Mining Ltd",
-      "volume": 2367306,
-      "avg_volume": 1476904.23,
-      "volume_surge": 60.29
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "volume": 264475,
+      "avg_volume": 117394.18,
+      "volume_surge": 125.29
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "volume": 6328274,
+      "avg_volume": 2844888.86,
+      "volume_surge": 122.44
     },
     {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "volume": 954207,
-      "avg_volume": 633909.27,
-      "volume_surge": 50.53
+      "volume": 1357308,
+      "avg_volume": 652232.05,
+      "volume_surge": 108.1
+    },
+    {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "volume": 3517166,
+      "avg_volume": 1697076.18,
+      "volume_surge": 107.25
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "volume": 6879375,
+      "avg_volume": 3977468.68,
+      "volume_surge": 72.96
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "volume": 11162890,
+      "avg_volume": 6719372.86,
+      "volume_surge": 66.13
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "volume": 2390002,
+      "avg_volume": 1477935.86,
+      "volume_surge": 61.71
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "volume": 3498512,
+      "avg_volume": 2187200.73,
+      "volume_surge": 59.95
+    },
+    {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "volume": 347660,
+      "avg_volume": 223294.59,
+      "volume_surge": 55.7
     }
   ],
   "volume_surges": [
     {
       "code": "BPM",
       "name": "BPM Minerals",
-      "volume": 551921,
-      "avg_volume": 105015.95,
-      "volume_surge": 425.56
+      "volume": 642091,
+      "avg_volume": 109114.59,
+      "volume_surge": 488.46
     },
     {
       "code": "SKY",
       "name": "SKY Metals Ltd",
-      "volume": 4337558,
-      "avg_volume": 1454054.23,
-      "volume_surge": 198.31
-    },
-    {
-      "code": "MM1",
-      "name": "Midas Minerals",
-      "volume": 1625341,
-      "avg_volume": 557446.64,
-      "volume_surge": 191.57
-    },
-    {
-      "code": "MM8",
-      "name": "Medallion Metals",
-      "volume": 1815698,
-      "avg_volume": 719167.09,
-      "volume_surge": 152.47
-    },
-    {
-      "code": "ENR",
-      "name": "Encounter Resources",
-      "volume": 1038990,
-      "avg_volume": 434035.59,
-      "volume_surge": 139.38
-    },
-    {
-      "code": "SGC",
-      "name": "Sinclair Gold Ltd",
-      "volume": 234042,
-      "avg_volume": 98654.91,
-      "volume_surge": 137.23
+      "volume": 5018468,
+      "avg_volume": 1485004.68,
+      "volume_surge": 237.94
     },
     {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
-      "volume": 24436855,
-      "avg_volume": 10349481.5,
-      "volume_surge": 136.12
+      "volume": 35745665,
+      "avg_volume": 10863518.32,
+      "volume_surge": 229.04
+    },
+    {
+      "code": "MM1",
+      "name": "Midas Minerals",
+      "volume": 1857861,
+      "avg_volume": 568015.73,
+      "volume_surge": 227.08
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "volume": 2162601,
+      "avg_volume": 734935.41,
+      "volume_surge": 194.26
     },
     {
       "code": "BGD",
       "name": "Barton Gold Holdings",
-      "volume": 461089,
-      "avg_volume": 197851.18,
-      "volume_surge": 133.05
+      "volume": 559068,
+      "avg_volume": 202304.77,
+      "volume_surge": 176.35
     },
     {
-      "code": "LRV",
-      "name": "Larvotto Resources",
-      "volume": 3334979,
-      "avg_volume": 1688794.95,
-      "volume_surge": 97.48
+      "code": "SGC",
+      "name": "Sinclair Gold Ltd",
+      "volume": 268748,
+      "avg_volume": 100232.45,
+      "volume_surge": 168.12
     },
     {
-      "code": "SPD",
-      "name": "Southern Palladium",
-      "volume": 219852,
-      "avg_volume": 115365.86,
-      "volume_surge": 90.57
-    },
-    {
-      "code": "MKR",
-      "name": "Manuka Resources",
-      "volume": 4961976,
-      "avg_volume": 2782784.41,
-      "volume_surge": 78.31
+      "code": "ENR",
+      "name": "Encounter Resources",
+      "volume": 1115180,
+      "avg_volume": 437498.77,
+      "volume_surge": 154.9
     },
     {
       "code": "TGN",
       "name": "Tungsten Mining",
-      "volume": 1299330,
-      "avg_volume": 742212.5,
-      "volume_surge": 75.06
+      "volume": 1959051,
+      "avg_volume": 772199.82,
+      "volume_surge": 153.7
     },
     {
-      "code": "GML",
-      "name": "Gateway Mining Ltd",
-      "volume": 2367306,
-      "avg_volume": 1476904.23,
-      "volume_surge": 60.29
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "volume": 264475,
+      "avg_volume": 117394.18,
+      "volume_surge": 125.29
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "volume": 6328274,
+      "avg_volume": 2844888.86,
+      "volume_surge": 122.44
     },
     {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "volume": 954207,
-      "avg_volume": 633909.27,
-      "volume_surge": 50.53
+      "volume": 1357308,
+      "avg_volume": 652232.05,
+      "volume_surge": 108.1
+    },
+    {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "volume": 3517166,
+      "avg_volume": 1697076.18,
+      "volume_surge": 107.25
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "volume": 6879375,
+      "avg_volume": 3977468.68,
+      "volume_surge": 72.96
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "volume": 11162890,
+      "avg_volume": 6719372.86,
+      "volume_surge": 66.13
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "volume": 2390002,
+      "avg_volume": 1477935.86,
+      "volume_surge": 61.71
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "volume": 3498512,
+      "avg_volume": 2187200.73,
+      "volume_surge": 59.95
+    },
+    {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "volume": 347660,
+      "avg_volume": 223294.59,
+      "volume_surge": 55.7
     }
   ],
   "volume_drops": [
@@ -1185,144 +1276,88 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -95.3
     },
     {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "volume": 917632,
-      "avg_volume": 5094968.55,
-      "volume_surge": -81.99
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "volume": 306367,
-      "avg_volume": 1606037.55,
-      "volume_surge": -80.92
+      "code": "TNC",
+      "name": "True North Copper",
+      "volume": 49370,
+      "avg_volume": 214505.82,
+      "volume_surge": -76.98
     },
     {
       "code": "AYA",
       "name": "ARTRYA Ltd",
-      "volume": 155183,
-      "avg_volume": 752091.18,
-      "volume_surge": -79.37
+      "volume": 199935,
+      "avg_volume": 754125.36,
+      "volume_surge": -73.49
     },
     {
-      "code": "TNC",
-      "name": "True North Copper",
-      "volume": 48739,
-      "avg_volume": 214477.14,
-      "volume_surge": -77.28
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "volume": 77793,
-      "avg_volume": 247173.09,
-      "volume_surge": -68.53
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "volume": 488449,
+      "avg_volume": 1614314.0,
+      "volume_surge": -69.74
     },
     {
       "code": "CRS",
       "name": "Caprice Resources",
-      "volume": 748776,
-      "avg_volume": 2327852.14,
-      "volume_surge": -67.83
+      "volume": 987772,
+      "avg_volume": 2338715.59,
+      "volume_surge": -57.76
+    },
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "volume": 2230931,
+      "avg_volume": 5154663.95,
+      "volume_surge": -56.72
     },
     {
       "code": "CBE",
       "name": "Cobre Ltd",
-      "volume": 1501766,
-      "avg_volume": 4215192.91,
-      "volume_surge": -64.37
-    },
-    {
-      "code": "BNZ",
-      "name": "BENZ Mining Corp",
-      "volume": 443206,
-      "avg_volume": 1242520.45,
-      "volume_surge": -64.33
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "volume": 156236,
-      "avg_volume": 358842.91,
-      "volume_surge": -56.46
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "volume": 239030,
-      "avg_volume": 505196.55,
-      "volume_surge": -52.69
-    },
-    {
-      "code": "DVP",
-      "name": "Develop Global",
-      "volume": 852999,
-      "avg_volume": 1753381.59,
-      "volume_surge": -51.35
-    },
-    {
-      "code": "TM1",
-      "name": "Terra Metals",
-      "volume": 675431,
-      "avg_volume": 1372186.73,
-      "volume_surge": -50.78
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "volume": 15335006,
-      "avg_volume": 30260780.82,
-      "volume_surge": -49.32
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "volume": 228588,
-      "avg_volume": 400251.41,
-      "volume_surge": -42.89
+      "volume": 2186690,
+      "avg_volume": 4246325.82,
+      "volume_surge": -48.5
     },
     {
       "code": "GA8",
       "name": "Goldarc Resources",
-      "volume": 450601,
-      "avg_volume": 784750.5,
-      "volume_surge": -42.58
+      "volume": 467315,
+      "avg_volume": 785510.23,
+      "volume_surge": -40.51
     },
     {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "volume": 13856354,
-      "avg_volume": 22835469.82,
-      "volume_surge": -39.32
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "volume": 149441,
+      "avg_volume": 250429.82,
+      "volume_surge": -40.33
     },
     {
-      "code": "LM1",
-      "name": "Leeuwin Metals Ltd",
-      "volume": 75975,
-      "avg_volume": 114821.14,
-      "volume_surge": -33.83
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "volume": 19275215,
+      "avg_volume": 30439881.23,
+      "volume_surge": -36.68
     },
     {
-      "code": "BM1",
-      "name": "Ballard Mining Ltd",
-      "volume": 235706,
-      "avg_volume": 350628.73,
-      "volume_surge": -32.78
+      "code": "TM1",
+      "name": "Terra Metals",
+      "volume": 877326,
+      "avg_volume": 1381363.77,
+      "volume_surge": -36.49
     },
     {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "volume": 459249,
-      "avg_volume": 680576.68,
-      "volume_surge": -32.52
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "volume": 837781,
+      "avg_volume": 1260455.68,
+      "volume_surge": -33.53
     },
     {
-      "code": "CYM",
-      "name": "Cyprium Metals",
-      "volume": 731219,
-      "avg_volume": 1058255.32,
-      "volume_surge": -30.9
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "volume": 347174,
+      "avg_volume": 510112.18,
+      "volume_surge": -31.94
     }
   ]
 };
