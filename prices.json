@@ -1,11 +1,11 @@
 {
-  "gold": 4327.78,
-  "silver": 63.78,
-  "platinum": 1752.0,
-  "palladium": 1367.5,
-  "copper": 6.6075,
-  "nickel": 16925.0,
-  "zinc": 3702.3,
+  "gold": 4325.62,
+  "silver": 63.858,
+  "platinum": 1737.4,
+  "palladium": 1361.0,
+  "copper": 6.5839,
+  "nickel": 16847.0,
+  "zinc": 3711.35,
   "lithium": 144500.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Aug 2026, 12:36",
+  "_last_updated": "10 Aug 2026, 14:08",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 54036.93,
-      "change": 151.83,
-      "pct": 0.28,
+      "price": 53908.45,
+      "change": -128.48,
+      "pct": -0.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 12:36",
+      "updated": "10 Aug, 14:08",
       "hist": [
-        44175.61,
         43975.09,
         44458.61,
         44922.27,
@@ -276,16 +275,17 @@
         54085.88,
         54349.12,
         53885.1,
-        54036.93
+        54036.93,
+        53908.45
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26690.62,
-      "change": 342.22,
-      "pct": 1.3,
+      "price": 26679.79,
+      "change": -10.82,
+      "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 12:36"
+      "updated": "10 Aug, 14:08"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -31.0,
       "pct": -0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 12:36"
+      "updated": "10 Aug, 14:08"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -27.2,
       "pct": -0.3,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 12:36"
+      "updated": "10 Aug, 14:08"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10875.56,
-      "change": -25.53,
-      "pct": -0.23,
+      "price": 10849.48,
+      "change": -51.61,
+      "pct": -0.47,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Aug, 12:36"
+      "updated": "10 Aug, 14:08"
     }
   },
   "watchlist": {
@@ -350,8 +350,8 @@
       "change": 1.35,
       "pct": 52.33,
       "volume": 837781,
-      "avg_volume": 1260455.68,
-      "volume_surge": -33.53
+      "avg_volume": 1262489.55,
+      "volume_surge": -33.64
     },
     "MM1": {
       "name": "Midas Minerals",
@@ -460,8 +460,8 @@
       "change": 0.195,
       "pct": 31.45,
       "volume": 14371288,
-      "avg_volume": 12260997.05,
-      "volume_surge": 17.21
+      "avg_volume": 12373366.91,
+      "volume_surge": 16.15
     },
     "OBM": {
       "name": "Ora Banda Mining Ltd",
@@ -470,8 +470,8 @@
       "change": 0.245,
       "pct": 21.87,
       "volume": 11162890,
-      "avg_volume": 6719372.86,
-      "volume_surge": 66.13
+      "avg_volume": 6728300.45,
+      "volume_surge": 65.91
     },
     "DVP": {
       "name": "Develop Global",
@@ -480,8 +480,8 @@
       "change": -0.93,
       "pct": -15.42,
       "volume": 1792744,
-      "avg_volume": 1796097.27,
-      "volume_surge": -0.19
+      "avg_volume": 1803353.77,
+      "volume_surge": -0.59
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -490,8 +490,8 @@
       "change": 0.78,
       "pct": 13.54,
       "volume": 1450893,
-      "avg_volume": 1198490.05,
-      "volume_surge": 21.06
+      "avg_volume": 1198581.41,
+      "volume_surge": 21.05
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -660,8 +660,8 @@
       "change": 0.105,
       "pct": 5.83,
       "volume": 3214475,
-      "avg_volume": 2983891.68,
-      "volume_surge": 7.73
+      "avg_volume": 2984172.36,
+      "volume_surge": 7.72
     },
     "BRE": {
       "name": "Brazilian Rare Earths Ltd",
@@ -780,7 +780,7 @@
       "change": -0.16,
       "pct": -0.8,
       "volume": 488449,
-      "avg_volume": 1614314.0,
+      "avg_volume": 1614403.32,
       "volume_surge": -69.74
     },
     "EDU": {
@@ -800,8 +800,8 @@
       "change": -0.29,
       "pct": -3.09,
       "volume": 582778,
-      "avg_volume": 686191.64,
-      "volume_surge": -15.07
+      "avg_volume": 686910.23,
+      "volume_surge": -15.16
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -810,8 +810,8 @@
       "change": 0.44,
       "pct": 11.11,
       "volume": 5852856,
-      "avg_volume": 5892527.27,
-      "volume_surge": -0.67
+      "avg_volume": 5892715.91,
+      "volume_surge": -0.68
     },
     "PME": {
       "name": "Pro Medicus Ltd",
@@ -820,8 +820,8 @@
       "change": -20.46,
       "pct": -10.38,
       "volume": 149441,
-      "avg_volume": 250429.82,
-      "volume_surge": -40.33
+      "avg_volume": 250688.91,
+      "volume_surge": -40.39
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -840,8 +840,8 @@
       "change": 6.48,
       "pct": 39.23,
       "volume": 778175,
-      "avg_volume": 527642.14,
-      "volume_surge": 47.48
+      "avg_volume": 527683.73,
+      "volume_surge": 47.47
     },
     "AYA": {
       "name": "ARTRYA Ltd",
@@ -860,8 +860,8 @@
       "change": -0.29,
       "pct": -19.46,
       "volume": 38081623,
-      "avg_volume": 37201654.68,
-      "volume_surge": 2.37
+      "avg_volume": 37202431.73,
+      "volume_surge": 2.36
     },
     "PLS": {
       "name": "PLS Group Ltd",
@@ -870,8 +870,8 @@
       "change": 0.09,
       "pct": 1.94,
       "volume": 20407824,
-      "avg_volume": 23133263.91,
-      "volume_surge": -11.78
+      "avg_volume": 23134451.18,
+      "volume_surge": -11.79
     },
     "WC8": {
       "name": "Wildcat Resources Ltd",
@@ -894,211 +894,21 @@
       "volume_surge": -10.9
     }
   },
-  "announcements": [
-    {
-      "code": "MM1",
-      "name": "Midas Minerals",
-      "title": "Midas Minerals (ASX:MM1) Expands High-Grade Copper-Silver Zone At Otavi Project",
-      "link": "https://www.marketindex.com.au/asx/mm1/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "BCN",
-      "name": "Beacon Minerals",
-      "title": "Beacon Minerals (ASX:BCN) \u2014 Steady Gold Production and Maiden Dividend Delivery",
-      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "title": "Solstice Minerals (ASX:SLS) Extends Nanadie Copper-Gold Zones With Fresh Drilling",
-      "link": "https://www.marketindex.com.au/asx/sls/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "MM8",
-      "name": "Medallion Metals",
-      "title": "Medallion Metals (ASX:MM8) Clears Final Approvals For Ravensthorpe Gold Project",
-      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "WTM",
-      "name": "Waratah Minerals Ltd",
-      "title": "Waratah Minerals (ASX:WTM) Extends Spur Gold Corridor To Six Kilometres",
-      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Builds a Strategic Tungsten Platform Across Australia and Europe",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6) Advances Bullabulling With AUD 220m Franco-Nevada Funding",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "What Makes Ora Banda Mining (ASX:OBM) Shaping the ASX Story?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "DVP",
-      "name": "Develop Global",
-      "title": "Develop Global (ASX:DVP) Builds Multi-Project Mining Platform Across Copper, Zinc and Lithium",
-      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL) \u2014 Gold Production and Plutonic Growth Plans",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "AZY",
-      "name": "Antipa Minerals",
-      "title": "Antipa Minerals (ASX:AZY) \u2014 Paterson Province Gold-Copper Portfolio Advances",
-      "link": "https://www.marketindex.com.au/asx/azy/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper (ASX:TNC) Confirms Broad Aquila Copper System",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "GA8",
-      "name": "Goldarc Resources",
-      "title": "StockTake: GoldArc Resources",
-      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "SKY",
-      "name": "SKY Metals Ltd",
-      "title": "Sky Metals (ASX:SKY) Expands Tallebung Silver Resource As Tin Study Advances",
-      "link": "https://www.marketindex.com.au/asx/sky/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE) \u2014 Copper Exploration and Development Across Multiple Jurisdictions",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "USL",
-      "name": "Unico Silver Ltd",
-      "title": "Unico Silver (ASX:USL) Secures 10,172 Hectares Around Joaquin Project",
-      "link": "https://www.marketindex.com.au/asx/usl/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "BM1",
-      "name": "Ballard Mining Ltd",
-      "title": "Ballard Mining (ASX:BM1) Builds Mt Ida Into a Larger Western Australian Gold Project",
-      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) Builds a High-Grade Canadian Copper-Gold Development Story",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Expands Monte Alto Into a Major Critical Minerals District",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "LIN",
-      "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources Ltd Share Price - LIN, RNS News, Articles, Quotes, & Charts (ASX:LIN)",
-      "link": "https://www.marketindex.com.au/asx/lin/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "CYM",
-      "name": "Cyprium Metals",
-      "title": "Cyprium Metals (ASX:CYM) \u2014 Nifty Copper Restart and Development Plans",
-      "link": "https://www.marketindex.com.au/asx/cym/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "SGQ",
-      "name": "ST George Mining",
-      "title": "St George Mining (ASX:SGQ) Reports Record 207m Arax\u00e1 Rare Earths Intercept",
-      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "BPM",
-      "name": "BPM Minerals",
-      "title": "What Is Driving BPM Minerals (ASX:BPM) Through Its Next Drilling Phase?",
-      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "TTM",
-      "name": "Titan Minerals",
-      "title": "Titan Minerals (ASX:TTM) Confirms Hancock Earn-In At Linderos Copper Project",
-      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Builds a New Frontier in Lung Imaging as US Growth Accelerates",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "AYA",
-      "name": "ARTRYA Ltd",
-      "title": "Artrya (ASX:AYA) Moves From FDA Clearances to US Hospital Adoption",
-      "link": "https://www.marketindex.com.au/asx/aya/announcements",
-      "date": "10 Aug 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS) Posts Record FY26 Spodumene Sales As Mid-Stream Plant Ramps Up",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "10 Aug 2026"
-    }
-  ],
-  "gold_change": 15.65,
-  "gold_pct": -0.36,
-  "silver_change": 0.238,
-  "silver_pct": 0.38,
-  "platinum_change": 7.6,
-  "platinum_pct": -0.43,
-  "palladium_change": 11.0,
-  "palladium_pct": -0.8,
-  "copper_change": 0.037,
-  "copper_pct": 0.56,
-  "nickel_change": 45.0,
-  "nickel_pct": -0.27,
-  "zinc_change": 4.95,
-  "zinc_pct": 0.13,
+  "announcements": [],
+  "gold_change": 17.81,
+  "gold_pct": -0.41,
+  "silver_change": 0.316,
+  "silver_pct": 0.5,
+  "platinum_change": 22.2,
+  "platinum_pct": -1.26,
+  "palladium_change": 17.5,
+  "palladium_pct": -1.27,
+  "copper_change": 0.0134,
+  "copper_pct": 0.2,
+  "nickel_change": 123.0,
+  "nickel_pct": -0.73,
+  "zinc_change": 14.0,
+  "zinc_pct": 0.38,
   "lithium_change": 1750.0,
   "lithium_pct": 1.23,
   "uranium_change": 0.0,
@@ -1212,8 +1022,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 11162890,
-      "avg_volume": 6719372.86,
-      "volume_surge": 66.13
+      "avg_volume": 6728300.45,
+      "volume_surge": 65.91
     },
     {
       "code": "GML",
@@ -1340,8 +1150,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 11162890,
-      "avg_volume": 6719372.86,
-      "volume_surge": 66.13
+      "avg_volume": 6728300.45,
+      "volume_surge": 65.91
     },
     {
       "code": "GML",
@@ -1391,7 +1201,7 @@
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 488449,
-      "avg_volume": 1614314.0,
+      "avg_volume": 1614403.32,
       "volume_surge": -69.74
     },
     {
@@ -1426,8 +1236,8 @@
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "volume": 149441,
-      "avg_volume": 250429.82,
-      "volume_surge": -40.33
+      "avg_volume": 250688.91,
+      "volume_surge": -40.39
     },
     {
       "code": "EQR",
@@ -1447,8 +1257,8 @@
       "code": "BNZ",
       "name": "BENZ Mining Corp",
       "volume": 837781,
-      "avg_volume": 1260455.68,
-      "volume_surge": -33.53
+      "avg_volume": 1262489.55,
+      "volume_surge": -33.64
     },
     {
       "code": "SKS",
