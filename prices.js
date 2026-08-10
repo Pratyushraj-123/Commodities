@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4358.85,
-  "silver": 64.242,
-  "platinum": 1769.3,
-  "palladium": 1380.0,
-  "copper": 6.613,
-  "nickel": 16963.0,
-  "zinc": 3714.85,
+  "gold": 4346.94,
+  "silver": 64.198,
+  "platinum": 1752.0,
+  "palladium": 1366.5,
+  "copper": 6.6064,
+  "nickel": 17014.0,
+  "zinc": 3725.35,
   "lithium": 144500.0,
   "uranium": 86.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Aug 2026, 07:00",
+  "_last_updated": "10 Aug 2026, 09:02",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 151.83,
       "pct": 0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 07:00",
+      "updated": "10 Aug, 09:02",
       "hist": [
         44175.61,
         43975.09,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 342.22,
       "pct": 1.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Aug, 07:00"
+      "updated": "10 Aug, 09:02"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -31.0,
       "pct": -0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 07:00"
+      "updated": "10 Aug, 09:02"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -27.2,
       "pct": -0.3,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Aug, 07:00"
+      "updated": "10 Aug, 09:02"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10901.09,
-      "change": 33.19,
-      "pct": 0.31,
+      "price": 10874.38,
+      "change": -26.71,
+      "pct": -0.25,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Aug, 07:00"
+      "updated": "10 Aug, 09:02"
     }
   },
   "watchlist": {
@@ -903,10 +903,38 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Aug 2026"
     },
     {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Beacon Minerals (ASX:BCN) \u2014 Steady Gold Production and Maiden Dividend Delivery",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS) Extends Nanadie Copper-Gold Zones With Fresh Drilling",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
       "code": "MM8",
       "name": "Medallion Metals",
       "title": "Medallion Metals (ASX:MM8) Clears Final Approvals For Ravensthorpe Gold Project",
       "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals (ASX:WTM) Extends Spur Gold Corridor To Six Kilometres",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Builds a Strategic Tungsten Platform Across Australia and Europe",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "10 Aug 2026"
     },
     {
@@ -924,10 +952,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Aug 2026"
     },
     {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP) Builds Multi-Project Mining Platform Across Copper, Zinc and Lithium",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL) \u2014 Gold Production and Plutonic Growth Plans",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "title": "Antipa Minerals (ASX:AZY) Advances Minyari Toward a Potential Gold-Copper Development Pathway",
+      "title": "Antipa Minerals (ASX:AZY) \u2014 Paterson Province Gold-Copper Portfolio Advances",
       "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Confirms Broad Aquila Copper System",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "10 Aug 2026"
     },
     {
@@ -940,8 +989,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CBE",
       "name": "Cobre Ltd",
-      "title": "Cobre (ASX:CBE) Builds Dual Copper Growth Platform Across Chile and Botswana",
+      "title": "Cobre (ASX:CBE) \u2014 Copper Exploration and Development Across Multiple Jurisdictions",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "title": "Unico Silver (ASX:USL) Secures 10,172 Hectares Around Joaquin Project",
+      "link": "https://www.marketindex.com.au/asx/usl/announcements",
       "date": "10 Aug 2026"
     },
     {
@@ -959,10 +1015,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Aug 2026"
     },
     {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Cyprium Metals (ASX:CYM) \u2014 Nifty Copper Restart and Development Plans",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining (ASX:SGQ) Reports Record 207m Arax\u00e1 Rare Earths Intercept",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
       "code": "BPM",
       "name": "BPM Minerals",
       "title": "What Is Driving BPM Minerals (ASX:BPM) Through Its Next Drilling Phase?",
       "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "10 Aug 2026"
+    },
+    {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "title": "Titan Minerals (ASX:TTM) Confirms Hancock Earn-In At Linderos Copper Project",
+      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
       "date": "10 Aug 2026"
     },
     {
@@ -987,20 +1064,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Aug 2026"
     }
   ],
-  "gold_change": 15.42,
-  "gold_pct": 0.36,
-  "silver_change": 0.7,
-  "silver_pct": 1.1,
-  "platinum_change": 9.7,
-  "platinum_pct": 0.55,
-  "palladium_change": 1.5,
-  "palladium_pct": 0.11,
-  "copper_change": 0.0425,
-  "copper_pct": 0.65,
-  "nickel_change": 7.0,
-  "nickel_pct": -0.04,
-  "zinc_change": 17.5,
-  "zinc_pct": 0.47,
+  "gold_change": 3.51,
+  "gold_pct": 0.08,
+  "silver_change": 0.656,
+  "silver_pct": 1.03,
+  "platinum_change": 7.6,
+  "platinum_pct": -0.43,
+  "palladium_change": 12.0,
+  "palladium_pct": -0.87,
+  "copper_change": 0.0359,
+  "copper_pct": 0.55,
+  "nickel_change": 44.0,
+  "nickel_pct": 0.26,
+  "zinc_change": 28.0,
+  "zinc_pct": 0.76,
   "lithium_change": 1750.0,
   "lithium_pct": 1.23,
   "uranium_change": 0.0,
