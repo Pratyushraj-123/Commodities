@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4370.44,
-  "silver": 64.693,
-  "platinum": 1753.5,
-  "palladium": 1366.5,
-  "copper": 6.6109,
+  "gold": 4370.26,
+  "silver": 64.68,
+  "platinum": 1753.9,
+  "palladium": 1367.0,
+  "copper": 6.6105,
   "nickel": 16820.0,
   "zinc": 3730.65,
   "lithium": 144750.0,
-  "uranium": 86.8,
+  "uranium": 86.9,
   "cobalt": 56290.0,
   "rareearth": 250.2,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "11 Aug 2026, 20:29",
+  "_last_updated": "11 Aug 2026, 21:31",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -184.13,
       "pct": -0.34,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 20:29",
+      "updated": "11 Aug, 21:31",
       "hist": [
         44458.61,
         44922.27,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -159.91,
       "pct": -0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 20:29"
+      "updated": "11 Aug, 21:31"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 18.0,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 20:29"
+      "updated": "11 Aug, 21:31"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 17.7,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 20:29"
+      "updated": "11 Aug, 21:31"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -18.31,
       "pct": -0.17,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "11 Aug, 20:29"
+      "updated": "11 Aug, 21:31"
     }
   },
   "watchlist": {
@@ -905,7 +905,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MM1",
       "name": "Midas Minerals",
-      "title": "Midas Minerals (ASX:MM1): Namibian Copper-Silver Discovery Drives Exploration Re-Rating",
+      "title": "Midas Minerals (ASX:MM1) Extends Rally As Otavi Drilling Delivers High Grades",
       "link": "https://www.marketindex.com.au/asx/mm1/announcements",
       "date": "11 Aug 2026"
     },
@@ -977,6 +977,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Cobre Ltd",
       "title": "CBE Stock Price and Chart \u2014 ASX:CBE",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Is Up 18.0% After New High-Grade Green Bay Core Zone Drill Results",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
       "date": "11 Aug 2026"
     },
     {
@@ -1057,24 +1064,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "11 Aug 2026"
     }
   ],
-  "gold_change": 20.9,
+  "gold_change": 21.08,
   "gold_pct": -0.48,
-  "silver_change": 1.012,
-  "silver_pct": -1.54,
-  "platinum_change": 0.1,
-  "platinum_pct": -0.01,
-  "palladium_change": 15.0,
-  "palladium_pct": -1.09,
-  "copper_change": 0.0164,
-  "copper_pct": 0.25,
+  "silver_change": 1.025,
+  "silver_pct": -1.56,
+  "platinum_change": 0.5,
+  "platinum_pct": 0.03,
+  "palladium_change": 14.0,
+  "palladium_pct": -1.01,
+  "copper_change": 0.016,
+  "copper_pct": 0.24,
   "nickel_change": 125.0,
   "nickel_pct": -0.74,
   "zinc_change": 3.8,
   "zinc_pct": -0.1,
   "lithium_change": 250.0,
   "lithium_pct": 0.17,
-  "uranium_change": 0.3,
-  "uranium_pct": 0.35,
+  "uranium_change": 0.1,
+  "uranium_pct": 0.12,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
