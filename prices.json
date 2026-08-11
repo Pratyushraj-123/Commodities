@@ -1,11 +1,11 @@
 {
-  "gold": 4366.55,
-  "silver": 64.43,
-  "platinum": 1746.7,
-  "palladium": 1375.5,
-  "copper": 6.6095,
-  "nickel": 16867.0,
-  "zinc": 3731.8,
+  "gold": 4358.06,
+  "silver": 64.44,
+  "platinum": 1748.1,
+  "palladium": 1374.0,
+  "copper": 6.625,
+  "nickel": 16877.0,
+  "zinc": 3714.55,
   "lithium": 144750.0,
   "uranium": 86.8,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "11 Aug 2026, 06:40",
+  "_last_updated": "11 Aug 2026, 07:59",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -60.95,
       "pct": -0.11,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 06:40",
+      "updated": "11 Aug, 07:59",
       "hist": [
         43975.09,
         44458.61,
@@ -285,7 +285,7 @@
       "change": -85.26,
       "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 06:40"
+      "updated": "11 Aug, 07:59"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 18.0,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 06:40"
+      "updated": "11 Aug, 07:59"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 17.7,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 06:40"
+      "updated": "11 Aug, 07:59"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10862.5,
-      "change": -38.59,
-      "pct": -0.35,
+      "price": 10839.35,
+      "change": -23.15,
+      "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "11 Aug, 06:40"
+      "updated": "11 Aug, 07:59"
     }
   },
   "watchlist": {
@@ -509,9 +509,9 @@
       "price": 0.965,
       "change": 0.185,
       "pct": 23.72,
-      "volume": 700505,
-      "avg_volume": 226287.0,
-      "volume_surge": 209.56
+      "volume": 701035,
+      "avg_volume": 226311.09,
+      "volume_surge": 209.77
     },
     "AZY": {
       "name": "Antipa Minerals",
@@ -959,6 +959,13 @@
       "date": "11 Aug 2026"
     },
     {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "GA8 hits best yet at Mt Stirling Well",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
       "code": "SKY",
       "name": "SKY Metals Ltd",
       "title": "Sky Metals (ASX:SKY): Tallebung Tin Project Advances Through Resource Growth",
@@ -1001,27 +1008,41 @@
       "date": "11 Aug 2026"
     },
     {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) in Focus as Investors Assess the Future of Network Connectivity",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Could Pro Medicus (ASX:PME) and Breville (ASX:BRG) Keep Growing?",
+      "title": "Can Pro Medicus (ASX:PME) Prove Imaging Contracts Deployment?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Doubles in a Year, Lithium Sales and Cash Generation on Investor\u2019s Radar",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "11 Aug 2026"
     }
   ],
-  "gold_change": 24.79,
-  "gold_pct": -0.56,
-  "silver_change": 1.275,
-  "silver_pct": -1.94,
-  "platinum_change": 6.9,
-  "platinum_pct": -0.39,
-  "palladium_change": 6.0,
-  "palladium_pct": -0.43,
-  "copper_change": 0.015,
-  "copper_pct": 0.23,
-  "nickel_change": 78.0,
-  "nickel_pct": -0.46,
-  "zinc_change": 2.65,
-  "zinc_pct": -0.07,
+  "gold_change": 33.28,
+  "gold_pct": -0.76,
+  "silver_change": 1.265,
+  "silver_pct": -1.93,
+  "platinum_change": 5.5,
+  "platinum_pct": -0.31,
+  "palladium_change": 7.5,
+  "palladium_pct": -0.54,
+  "copper_change": 0.0305,
+  "copper_pct": 0.46,
+  "nickel_change": 68.0,
+  "nickel_pct": -0.4,
+  "zinc_change": 19.9,
+  "zinc_pct": -0.53,
   "lithium_change": 250.0,
   "lithium_pct": 0.17,
   "uranium_change": 0.3,
@@ -1064,9 +1085,9 @@
     {
       "code": "BGD",
       "name": "Barton Gold Holdings",
-      "volume": 700505,
-      "avg_volume": 226287.0,
-      "volume_surge": 209.56
+      "volume": 701035,
+      "avg_volume": 226311.09,
+      "volume_surge": 209.77
     },
     {
       "code": "SGQ",
@@ -1178,9 +1199,9 @@
     {
       "code": "BGD",
       "name": "Barton Gold Holdings",
-      "volume": 700505,
-      "avg_volume": 226287.0,
-      "volume_surge": 209.56
+      "volume": 701035,
+      "avg_volume": 226311.09,
+      "volume_surge": 209.77
     },
     {
       "code": "SGQ",
