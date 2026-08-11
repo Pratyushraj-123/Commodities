@@ -1,11 +1,11 @@
 {
-  "gold": 4385.8,
-  "silver": 65.186,
-  "platinum": 1782.9,
-  "palladium": 1384.5,
-  "copper": 6.6593,
-  "nickel": 16868.0,
-  "zinc": 3743.7,
+  "gold": 4391.29,
+  "silver": 65.019,
+  "platinum": 1764.9,
+  "palladium": 1374.5,
+  "copper": 6.6391,
+  "nickel": 16818.0,
+  "zinc": 3742.45,
   "lithium": 144750.0,
   "uranium": 86.8,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "11 Aug 2026, 11:33",
+  "_last_updated": "11 Aug 2026, 12:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -60.95,
       "pct": -0.11,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 11:33",
+      "updated": "11 Aug, 12:33",
       "hist": [
         43975.09,
         44458.61,
@@ -285,7 +285,7 @@
       "change": -85.26,
       "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Aug, 11:33"
+      "updated": "11 Aug, 12:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 18.0,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 11:33"
+      "updated": "11 Aug, 12:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 17.7,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Aug, 11:33"
+      "updated": "11 Aug, 12:33"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10859.53,
-      "change": -2.97,
-      "pct": -0.03,
+      "price": 10869.54,
+      "change": 7.04,
+      "pct": 0.06,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "11 Aug, 11:33"
+      "updated": "11 Aug, 12:33"
     }
   },
   "watchlist": {
@@ -1015,10 +1015,24 @@
       "date": "11 Aug 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX) Ends Lower as Markets Review Emerging Healthcare Technology Opportunities",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) AI Radiology Platform Expands: Key Trends to Watch",
+      "title": "Pro Medicus (ASX:PME) Shares Rise as Healthcare Technology Gains Momentum",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "11 Aug 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown Resources (ASX:LTR): Kathleen Valley Progress: Key Trends to Watch",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "11 Aug 2026"
     },
     {
@@ -1029,20 +1043,20 @@
       "date": "11 Aug 2026"
     }
   ],
-  "gold_change": 5.54,
-  "gold_pct": -0.13,
-  "silver_change": 0.519,
-  "silver_pct": -0.79,
-  "platinum_change": 29.3,
-  "platinum_pct": 1.67,
-  "palladium_change": 3.0,
-  "palladium_pct": 0.22,
-  "copper_change": 0.0648,
-  "copper_pct": 0.98,
-  "nickel_change": 77.0,
-  "nickel_pct": -0.46,
-  "zinc_change": 9.25,
-  "zinc_pct": 0.25,
+  "gold_change": 0.05,
+  "gold_pct": 0.0,
+  "silver_change": 0.686,
+  "silver_pct": -1.04,
+  "platinum_change": 11.3,
+  "platinum_pct": 0.64,
+  "palladium_change": 7.0,
+  "palladium_pct": -0.51,
+  "copper_change": 0.0446,
+  "copper_pct": 0.68,
+  "nickel_change": 127.0,
+  "nickel_pct": -0.75,
+  "zinc_change": 8.0,
+  "zinc_pct": 0.21,
   "lithium_change": 250.0,
   "lithium_pct": 0.17,
   "uranium_change": 0.3,
