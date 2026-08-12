@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4408.6,
-  "silver": 65.319,
-  "platinum": 1763.4,
-  "palladium": 1371.0,
-  "copper": 6.631,
+  "gold": 4402.58,
+  "silver": 65.175,
+  "platinum": 1758.4,
+  "palladium": 1367.0,
+  "copper": 6.5912,
   "nickel": 16890.0,
   "zinc": 3737.25,
   "lithium": 148000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 21:31",
+  "_last_updated": "12 Aug 2026, 22:25",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.58,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 21:31",
+      "updated": "12 Aug, 22:25",
       "hist": [
         44922.27,
         44911.26,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 21:31"
+      "updated": "12 Aug, 22:25"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 21:31"
+      "updated": "12 Aug, 22:25"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 21:31"
+      "updated": "12 Aug, 22:25"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -11.04,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 21:31"
+      "updated": "12 Aug, 22:25"
     }
   },
   "watchlist": {
@@ -799,9 +799,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.05,
       "change": 0.08,
       "pct": 0.89,
-      "volume": 728780,
+      "volume": 693410,
       "avg_volume": 692098.43,
-      "volume_surge": 5.3
+      "volume_surge": 0.19
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -945,6 +945,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "12 Aug 2026"
     },
     {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper Limited (ASX:TNC) Share Price Falls as Investors Monitor Copper Project Progress",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
       "code": "BCA",
       "name": "Black Canyon Ltd",
       "title": "Black Canyon Limited (ASX:BCA) Shares Rise as Wandanya Manganese Work Advances",
@@ -1078,16 +1085,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "12 Aug 2026"
     }
   ],
-  "gold_change": 38.34,
-  "gold_pct": 0.88,
-  "silver_change": 0.647,
-  "silver_pct": 1.0,
-  "platinum_change": 8.5,
-  "platinum_pct": 0.48,
-  "palladium_change": 1.0,
-  "palladium_pct": 0.07,
-  "copper_change": 0.019,
-  "copper_pct": 0.29,
+  "gold_change": 32.32,
+  "gold_pct": 0.74,
+  "silver_change": 0.503,
+  "silver_pct": 0.78,
+  "platinum_change": 3.5,
+  "platinum_pct": 0.2,
+  "palladium_change": 3.0,
+  "palladium_pct": -0.22,
+  "copper_change": 0.0208,
+  "copper_pct": -0.31,
   "nickel_change": 70.0,
   "nickel_pct": 0.42,
   "zinc_change": 6.6,
