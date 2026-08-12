@@ -1,11 +1,11 @@
 {
-  "gold": 4403.34,
-  "silver": 65.911,
-  "platinum": 1769.2,
-  "palladium": 1373.5,
-  "copper": 6.647,
-  "nickel": 16812.0,
-  "zinc": 3757.65,
+  "gold": 4403.57,
+  "silver": 66.168,
+  "platinum": 1763.4,
+  "palladium": 1369.5,
+  "copper": 6.6627,
+  "nickel": 16867.0,
+  "zinc": 3766.8,
   "lithium": 148000.0,
   "uranium": 86.9,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 07:00",
+  "_last_updated": "12 Aug 2026, 08:55",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -184.13,
       "pct": -0.34,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 07:00",
+      "updated": "12 Aug, 08:55",
       "hist": [
         44458.61,
         44922.27,
@@ -285,7 +285,7 @@
       "change": -159.91,
       "pct": -0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 07:00"
+      "updated": "12 Aug, 08:55"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 07:00"
+      "updated": "12 Aug, 08:55"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 07:00"
+      "updated": "12 Aug, 08:55"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10844.19,
-      "change": -18.31,
-      "pct": -0.17,
+      "price": 10835.35,
+      "change": -8.84,
+      "pct": -0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 07:00"
+      "updated": "12 Aug, 08:55"
     }
   },
   "watchlist": {
@@ -799,9 +799,9 @@
       "price": 9.05,
       "change": -0.34,
       "pct": -3.62,
-      "volume": 728780,
-      "avg_volume": 692098.43,
-      "volume_surge": 5.3
+      "volume": 693410,
+      "avg_volume": 690560.61,
+      "volume_surge": 0.41
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -890,8 +890,8 @@
       "change": 0.005,
       "pct": 14.29,
       "volume": 619151,
-      "avg_volume": 671780.86,
-      "volume_surge": -7.83
+      "avg_volume": 642573.0,
+      "volume_surge": -3.65
     }
   },
   "announcements": [
@@ -917,6 +917,20 @@
       "date": "12 Aug 2026"
     },
     {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Critical Minerals Strategy Gains Attention Ahead of Speewah Study",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining (ASX:TGN): Critical Minerals, Project Development and Growth Outlook",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources (ASX:EQR) Re-Rates as Tungsten Supply Story Strengthens",
@@ -938,10 +952,24 @@
       "date": "12 Aug 2026"
     },
     {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre (ASX:CBE) Copper Production Shift Puts Explorer Back in Market Focus",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
       "code": "USL",
       "name": "Unico Silver Ltd",
       "title": "Unico Silver (ASX:USL) Expands Cerro Le\u00f3n as Silver Prices Surge",
       "link": "https://www.marketindex.com.au/asx/usl/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Leeuwin Metals (ASX:LM1) Marda Gold Growth Story Gains Investor Attention Ahead of Next Catalyst",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
       "date": "12 Aug 2026"
     },
     {
@@ -996,8 +1024,15 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "What Is Bringing Weebit Nano (ASX:WBT), NEXTDC (ASX:NXT), Megaport (ASX:MP1) and TechnologyOne (ASX:TNE) Into Focus Now?",
+      "title": "Megaport (ASX:MP1) Rises as AI Infrastructure Expansion Gains Scale",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "Respiratory Technology in Focus: Why 4DMedical (ASX:4DX) Remains on the Healthcare Innovation Radar?",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "12 Aug 2026"
     },
     {
@@ -1010,7 +1045,7 @@
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "title": "EchoIQ (ASX:EIQ) Mayo Clinic and Pro Medicus Deals Put Medical-AI Stock on the Global Commercialisation Radar",
+      "title": "EchoIQ (ASX:EIQ): AI-Powered Cardiac Diagnostics and Healthcare Technology",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
       "date": "12 Aug 2026"
     },
@@ -1024,7 +1059,7 @@
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR) Builds Cash as Kathleen Valley Ramps",
+      "title": "Liontown (ASX:LTR) Gains as Kathleen Valley Builds Cash",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "12 Aug 2026"
     },
@@ -1043,20 +1078,20 @@
       "date": "12 Aug 2026"
     }
   ],
-  "gold_change": 33.08,
+  "gold_change": 33.31,
   "gold_pct": 0.76,
-  "silver_change": 1.239,
-  "silver_pct": 1.92,
-  "platinum_change": 14.3,
-  "platinum_pct": 0.81,
-  "palladium_change": 3.5,
-  "palladium_pct": 0.26,
-  "copper_change": 0.035,
-  "copper_pct": 0.53,
-  "nickel_change": 8.0,
-  "nickel_pct": -0.05,
-  "zinc_change": 27.0,
-  "zinc_pct": 0.72,
+  "silver_change": 1.496,
+  "silver_pct": 2.31,
+  "platinum_change": 8.5,
+  "platinum_pct": 0.48,
+  "palladium_change": 0.5,
+  "palladium_pct": -0.04,
+  "copper_change": 0.0507,
+  "copper_pct": 0.77,
+  "nickel_change": 47.0,
+  "nickel_pct": 0.28,
+  "zinc_change": 36.15,
+  "zinc_pct": 0.97,
   "lithium_change": 3250.0,
   "lithium_pct": 2.25,
   "uranium_change": 0.1,
