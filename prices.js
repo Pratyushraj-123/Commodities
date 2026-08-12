@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4428.4,
-  "silver": 66.178,
-  "platinum": 1787.1,
-  "palladium": 1384.0,
-  "copper": 6.635,
-  "nickel": 16877.0,
-  "zinc": 3754.0,
+  "gold": 4421.05,
+  "silver": 65.83,
+  "platinum": 1784.4,
+  "palladium": 1382.5,
+  "copper": 6.6006,
+  "nickel": 16865.0,
+  "zinc": 3750.2,
   "lithium": 148000.0,
   "uranium": 86.9,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 14:09",
+  "_last_updated": "12 Aug 2026, 15:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53754.82,
-      "change": -37.03,
-      "pct": -0.07,
+      "price": 53806.42,
+      "change": 14.57,
+      "pct": 0.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 14:09",
+      "updated": "12 Aug, 15:45",
       "hist": [
         44458.61,
         44922.27,
@@ -261,12 +261,15 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -274,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         54036.93,
         53975.98,
         53791.85,
-        53752.71
+        53806.42
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26609.71,
-      "change": 164.27,
-      "pct": 0.62,
+      "price": 26551.95,
+      "change": 106.51,
+      "pct": 0.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 14:09"
+      "updated": "12 Aug, 15:45"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 14:09"
+      "updated": "12 Aug, 15:45"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 14:09"
+      "updated": "12 Aug, 15:45"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10838.36,
-      "change": -5.83,
-      "pct": -0.05,
+      "price": 10825.49,
+      "change": -18.7,
+      "pct": -0.17,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 14:09"
+      "updated": "12 Aug, 15:45"
     }
   },
   "watchlist": {
@@ -617,9 +620,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.345,
       "change": 0.035,
       "pct": 11.29,
-      "volume": 6565329,
+      "volume": 6587270,
       "avg_volume": 4460619.57,
-      "volume_surge": 47.18
+      "volume_surge": 47.68
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -877,9 +880,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.415,
       "change": 0.025,
       "pct": 6.41,
-      "volume": 9675572,
+      "volume": 9765194,
       "avg_volume": 4310805.3,
-      "volume_surge": 124.45
+      "volume_surge": 126.53
     },
     "POD": {
       "name": "Podium Minerals",
@@ -1083,20 +1086,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "12 Aug 2026"
     }
   ],
-  "gold_change": 58.14,
-  "gold_pct": 1.33,
-  "silver_change": 1.506,
-  "silver_pct": 2.33,
-  "platinum_change": 32.2,
-  "platinum_pct": 1.83,
-  "palladium_change": 14.5,
-  "palladium_pct": 1.06,
-  "copper_change": 0.023,
-  "copper_pct": 0.35,
-  "nickel_change": 57.0,
-  "nickel_pct": 0.34,
-  "zinc_change": 23.35,
-  "zinc_pct": 0.63,
+  "gold_change": 50.79,
+  "gold_pct": 1.16,
+  "silver_change": 1.158,
+  "silver_pct": 1.79,
+  "platinum_change": 29.5,
+  "platinum_pct": 1.68,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.91,
+  "copper_change": 0.0114,
+  "copper_pct": -0.17,
+  "nickel_change": 45.0,
+  "nickel_pct": 0.27,
+  "zinc_change": 19.55,
+  "zinc_pct": 0.52,
   "lithium_change": 3250.0,
   "lithium_pct": 2.25,
   "uranium_change": 0.1,
@@ -1146,9 +1149,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
-      "volume": 9675572,
+      "volume": 9765194,
       "avg_volume": 4310805.3,
-      "volume_surge": 124.45
+      "volume_surge": 126.53
     },
     {
       "code": "SGC",
@@ -1239,9 +1242,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
-      "volume": 9675572,
+      "volume": 9765194,
       "avg_volume": 4310805.3,
-      "volume_surge": 124.45
+      "volume_surge": 126.53
     },
     {
       "code": "SGC",
