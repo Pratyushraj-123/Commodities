@@ -8,6 +8,7 @@ import os
 import socket
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 
 # Set global socket timeout to 5.0s to prevent network requests from hanging indefinitely
 socket.setdefaulttimeout(5.0)
@@ -196,16 +197,38 @@ def fetch_single_stock_quote(code, name):
             meta = result['meta']
             
             price = float(meta.get('regularMarketPrice', 0))
-            prev_close = float(meta.get('chartPreviousClose', 0))
-            change = price - prev_close
-            pct = (change / prev_close) * 100 if prev_close else 0
             
             # Volume surge calculation
             current_vol = float(meta.get('regularMarketVolume', 0))
             
+            timestamps = result.get('timestamp', [])
             indicators = result.get('indicators', {}).get('quote', [{}])[0]
-            volumes = [v for v in indicators.get('volume', []) if v is not None]
+            close = indicators.get('close', [])
             
+            # Get valid close prices and their timestamps
+            valid_data = [(t, c) for t, c in zip(timestamps, close) if c is not None]
+            
+            baseline_close = 0.0
+            if len(valid_data) >= 2:
+                last_ts, last_close = valid_data[-1]
+                prev_ts, prev_close = valid_data[-2]
+                
+                gmt_offset = meta.get('gmtoffset', 36000)
+                last_date = datetime.fromtimestamp(last_ts + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
+                current_date = datetime.fromtimestamp(time.time() + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
+                
+                if last_date == current_date:
+                    baseline_close = prev_close
+                else:
+                    baseline_close = prev_close
+                    price = last_close
+            else:
+                baseline_close = float(meta.get('chartPreviousClose', price))
+                
+            change = price - baseline_close
+            pct = (change / baseline_close) * 100 if baseline_close else 0
+            
+            volumes = [v for v in indicators.get('volume', []) if v is not None]
             avg_vol_30d = 0.0
             volume_surge_pct = 0.0
             if volumes:
