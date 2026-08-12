@@ -1,10 +1,10 @@
 {
-  "gold": 4402.02,
-  "silver": 65.384,
-  "platinum": 1769.7,
-  "palladium": 1374.0,
-  "copper": 6.5914,
-  "nickel": 16900.0,
+  "gold": 4411.32,
+  "silver": 65.48,
+  "platinum": 1770.0,
+  "palladium": 1376.0,
+  "copper": 6.5939,
+  "nickel": 16890.0,
   "zinc": 3737.25,
   "lithium": 148000.0,
   "uranium": 86.9,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 17:46",
+  "_last_updated": "12 Aug 2026, 18:42",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53833.24,
-      "change": 41.39,
-      "pct": 0.08,
+      "price": 53839.0,
+      "change": 47.15,
+      "pct": 0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 17:46",
+      "updated": "12 Aug, 18:41",
       "hist": [
         44458.61,
         44922.27,
@@ -277,16 +277,16 @@
         54036.93,
         53975.98,
         53791.85,
-        53832.53
+        53839.0
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26607.35,
-      "change": 161.9,
-      "pct": 0.61,
+      "price": 26639.91,
+      "change": 194.46,
+      "pct": 0.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 17:46"
+      "updated": "12 Aug, 18:41"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 17:46"
+      "updated": "12 Aug, 18:41"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 17:46"
+      "updated": "12 Aug, 18:41"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": -11.04,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 17:46"
+      "updated": "12 Aug, 18:42"
     }
   },
   "watchlist": {
@@ -800,9 +800,9 @@
       "price": 9.05,
       "change": 0.08,
       "pct": 0.89,
-      "volume": 693410,
+      "volume": 728780,
       "avg_volume": 692098.43,
-      "volume_surge": 0.19
+      "volume_surge": 5.3
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -1086,18 +1086,18 @@
       "date": "12 Aug 2026"
     }
   ],
-  "gold_change": 31.76,
-  "gold_pct": 0.73,
-  "silver_change": 0.712,
-  "silver_pct": 1.1,
-  "platinum_change": 14.8,
-  "platinum_pct": 0.84,
-  "palladium_change": 4.0,
-  "palladium_pct": 0.29,
-  "copper_change": 0.0206,
-  "copper_pct": -0.31,
-  "nickel_change": 80.0,
-  "nickel_pct": 0.48,
+  "gold_change": 41.06,
+  "gold_pct": 0.94,
+  "silver_change": 0.808,
+  "silver_pct": 1.25,
+  "platinum_change": 15.1,
+  "platinum_pct": 0.86,
+  "palladium_change": 6.0,
+  "palladium_pct": 0.44,
+  "copper_change": 0.0181,
+  "copper_pct": -0.27,
+  "nickel_change": 70.0,
+  "nickel_pct": 0.42,
   "zinc_change": 6.6,
   "zinc_pct": 0.18,
   "lithium_change": 3250.0,
