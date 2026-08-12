@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4413.83,
-  "silver": 66.291,
-  "platinum": 1804.6,
-  "palladium": 1406.0,
-  "copper": 6.6487,
-  "nickel": 16905.0,
-  "zinc": 3768.75,
+  "gold": 4423.06,
+  "silver": 66.493,
+  "platinum": 1793.8,
+  "palladium": 1395.0,
+  "copper": 6.667,
+  "nickel": 16947.0,
+  "zinc": 3780.0,
   "lithium": 148000.0,
   "uranium": 86.9,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 11:36",
+  "_last_updated": "12 Aug 2026, 12:35",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -184.13,
       "pct": -0.34,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 11:36",
+      "updated": "12 Aug, 12:35",
       "hist": [
         44458.61,
         44922.27,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -159.91,
       "pct": -0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 11:36"
+      "updated": "12 Aug, 12:35"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 11:36"
+      "updated": "12 Aug, 12:35"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 11:36"
+      "updated": "12 Aug, 12:35"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10851.89,
-      "change": 7.7,
-      "pct": 0.07,
+      "price": 10844.11,
+      "change": -0.08,
+      "pct": -0.0,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 11:36"
+      "updated": "12 Aug, 12:35"
     }
   },
   "watchlist": {
@@ -894,21 +894,211 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -3.65
     }
   },
-  "announcements": [],
-  "gold_change": 43.57,
-  "gold_pct": 1.0,
-  "silver_change": 1.619,
-  "silver_pct": 2.5,
-  "platinum_change": 49.7,
-  "platinum_pct": 2.83,
-  "palladium_change": 36.0,
-  "palladium_pct": 2.63,
-  "copper_change": 0.0367,
-  "copper_pct": 0.56,
-  "nickel_change": 85.0,
-  "nickel_pct": 0.51,
-  "zinc_change": 38.1,
-  "zinc_pct": 1.02,
+  "announcements": [
+    {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold (ASX:PC2) Builds Spring Hill Momentum Ahead of Assays",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals (ASX:TM1) Extends Dante Momentum After High-Grade Drilling",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Moves From Approval Toward Gold Development",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Critical Minerals Strategy Gains Attention Ahead of Speewah Study",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining (ASX:TGN): Critical Minerals, Project Development and Growth Outlook",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Re-Rates as Tungsten Supply Story Strengthens",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Could Ora Banda (ASX:OBM) Be Hiding More Value Than It Seems?",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper Limited (ASX:TNC) Share Price Falls as Investors Monitor Copper Project Progress",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Black Canyon Limited (ASX:BCA) Shares Rise as Wandanya Manganese Work Advances",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre (ASX:CBE) Copper Production Shift Puts Explorer Back in Market Focus",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "title": "Unico Silver (ASX:USL) Expands Cerro Le\u00f3n as Silver Prices Surge",
+      "link": "https://www.marketindex.com.au/asx/usl/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Leeuwin Metals (ASX:LM1) Marda Gold Growth Story Gains Investor Attention Ahead of Next Catalyst",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Hits Spectacular Copper-Gold Grades Ahead of Green Bay Study",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Could Lindian (ASX:LIN) Be Entering a New Rare Earths Phase?",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Cyprium Metals Limited (ASX:CYM) Gains as Nifty Copper Story Develops",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "BPM",
+      "name": "BPM Minerals",
+      "title": "BPM Minerals (ASX:BPM) Expands Gold Search Beyond Beachcomber",
+      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "BMR",
+      "name": "Ballymore Resources",
+      "title": "Ballymore Resources (ASX:BMR) Expands North Queensland Exploration Optionality",
+      "link": "https://www.marketindex.com.au/asx/bmr/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "NMR",
+      "name": "Native Mineral Resources",
+      "title": "What Is Shaping Native Mineral Resources (ASX:NMR) Now?",
+      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies (ASX:SKS) Tests Data-Centre Growth Against Higher Expectations",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport (ASX:MP1) Rises as AI Infrastructure Expansion Gains Scale",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "Respiratory Technology in Focus: Why 4DMedical (ASX:4DX) Remains on the Healthcare Innovation Radar?",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Pro Medicus (ASX:PME) Secures Multi-Year US Healthcare Imaging Contract",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "EchoIQ (ASX:EIQ): AI-Powered Cardiac Diagnostics and Healthcare Technology",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "How Are Telix Pharmaceuticals (ASX:TLX), Neuren Pharmaceuticals (ASX:NEU), CLINUVEL (ASX:CUV) and PolyNovo (ASX:PNV) Responding to Sector Change?",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown (ASX:LTR) Gains as Kathleen Valley Builds Cash",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Extends Lithium Rally as Expansion Accelerates",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "12 Aug 2026"
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Wildcat Resources Limited (ASX:WC8) Gains as Tabba Tabba DFS Progresses",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "12 Aug 2026"
+    }
+  ],
+  "gold_change": 52.8,
+  "gold_pct": 1.21,
+  "silver_change": 1.821,
+  "silver_pct": 2.82,
+  "platinum_change": 38.9,
+  "platinum_pct": 2.22,
+  "palladium_change": 25.0,
+  "palladium_pct": 1.82,
+  "copper_change": 0.055,
+  "copper_pct": 0.83,
+  "nickel_change": 127.0,
+  "nickel_pct": 0.75,
+  "zinc_change": 49.35,
+  "zinc_pct": 1.32,
   "lithium_change": 3250.0,
   "lithium_pct": 2.25,
   "uranium_change": 0.1,
