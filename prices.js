@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4407.53,
-  "silver": 65.252,
-  "platinum": 1764.2,
-  "palladium": 1372.5,
-  "copper": 6.5833,
+  "gold": 4408.6,
+  "silver": 65.319,
+  "platinum": 1763.4,
+  "palladium": 1371.0,
+  "copper": 6.631,
   "nickel": 16890.0,
   "zinc": 3737.25,
   "lithium": 148000.0,
-  "uranium": 86.9,
+  "uranium": 87.15,
   "cobalt": 56290.0,
   "rareearth": 248.2,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "12 Aug 2026, 20:27",
+  "_last_updated": "12 Aug 2026, 21:31",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.58,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 20:27",
+      "updated": "12 Aug, 21:31",
       "hist": [
         44922.27,
         44911.26,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Aug, 20:27"
+      "updated": "12 Aug, 21:31"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.2,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 20:27"
+      "updated": "12 Aug, 21:31"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.5,
       "pct": -0.45,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Aug, 20:27"
+      "updated": "12 Aug, 21:31"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -11.04,
       "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Aug, 20:27"
+      "updated": "12 Aug, 21:31"
     }
   },
   "watchlist": {
@@ -480,8 +480,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.15,
       "pct": 3.02,
       "volume": 1068893,
-      "avg_volume": 1789017.35,
-      "volume_surge": -40.25
+      "avg_volume": 1789309.87,
+      "volume_surge": -40.26
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -490,8 +490,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.01,
       "pct": -0.15,
       "volume": 1386102,
-      "avg_volume": 1235123.22,
-      "volume_surge": 12.22
+      "avg_volume": 1242350.13,
+      "volume_surge": 11.57
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -660,8 +660,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.01,
       "pct": -0.5,
       "volume": 3301056,
-      "avg_volume": 3054367.04,
-      "volume_surge": 8.08
+      "avg_volume": 3064209.13,
+      "volume_surge": 7.73
     },
     "BRE": {
       "name": "Brazilian Rare Earths Ltd",
@@ -670,8 +670,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.01,
       "pct": 0.24,
       "volume": 213356,
-      "avg_volume": 366675.78,
-      "volume_surge": -41.81
+      "avg_volume": 372023.78,
+      "volume_surge": -42.65
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
@@ -680,8 +680,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.045,
       "pct": -5.23,
       "volume": 15294095,
-      "avg_volume": 11804605.91,
-      "volume_surge": 29.56
+      "avg_volume": 11829040.35,
+      "volume_surge": 29.29
     },
     "CYM": {
       "name": "Cyprium Metals",
@@ -860,8 +860,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.065,
       "pct": 5.51,
       "volume": 31877935,
-      "avg_volume": 36723705.96,
-      "volume_surge": -13.2
+      "avg_volume": 36739833.78,
+      "volume_surge": -13.23
     },
     "PLS": {
       "name": "PLS Group Ltd",
@@ -942,13 +942,6 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Ora Banda Mining Ltd",
       "title": "Could Ora Banda (ASX:OBM) Be Hiding More Value Than It Seems?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "12 Aug 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper Limited (ASX:TNC) Share Price Falls as Investors Monitor Copper Project Progress",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "12 Aug 2026"
     },
     {
@@ -1085,24 +1078,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "12 Aug 2026"
     }
   ],
-  "gold_change": 37.27,
-  "gold_pct": 0.85,
-  "silver_change": 0.58,
-  "silver_pct": 0.9,
-  "platinum_change": 9.3,
-  "platinum_pct": 0.53,
-  "palladium_change": 2.5,
-  "palladium_pct": 0.18,
-  "copper_change": 0.0287,
-  "copper_pct": -0.43,
+  "gold_change": 38.34,
+  "gold_pct": 0.88,
+  "silver_change": 0.647,
+  "silver_pct": 1.0,
+  "platinum_change": 8.5,
+  "platinum_pct": 0.48,
+  "palladium_change": 1.0,
+  "palladium_pct": 0.07,
+  "copper_change": 0.019,
+  "copper_pct": 0.29,
   "nickel_change": 70.0,
   "nickel_pct": 0.42,
   "zinc_change": 6.6,
   "zinc_pct": 0.18,
   "lithium_change": 3250.0,
   "lithium_pct": 2.25,
-  "uranium_change": 0.1,
-  "uranium_pct": 0.12,
+  "uranium_change": 0.25,
+  "uranium_pct": 0.29,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 7500.0,
@@ -1377,15 +1370,15 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
       "volume": 213356,
-      "avg_volume": 366675.78,
-      "volume_surge": -41.81
+      "avg_volume": 372023.78,
+      "volume_surge": -42.65
     },
     {
       "code": "DVP",
       "name": "Develop Global",
       "volume": 1068893,
-      "avg_volume": 1789017.35,
-      "volume_surge": -40.25
+      "avg_volume": 1789309.87,
+      "volume_surge": -40.26
     },
     {
       "code": "MI6",
