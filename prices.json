@@ -1,10 +1,10 @@
 {
-  "gold": 4358.01,
-  "silver": 64.683,
-  "platinum": 1728.1,
-  "palladium": 1321.0,
-  "copper": 6.59,
-  "nickel": 16770.0,
+  "gold": 4358.07,
+  "silver": 64.652,
+  "platinum": 1725.6,
+  "palladium": 1320.5,
+  "copper": 6.5813,
+  "nickel": 16760.0,
   "zinc": 3737.45,
   "lithium": 147500.0,
   "uranium": 87.15,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 17:45",
+  "_last_updated": "13 Aug 2026, 18:42",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53739.21,
-      "change": -31.06,
-      "pct": -0.06,
+      "price": 53820.43,
+      "change": 50.16,
+      "pct": 0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 17:45",
+      "updated": "13 Aug, 18:42",
       "hist": [
         44922.27,
         44911.26,
@@ -277,16 +277,16 @@
         53975.98,
         53791.85,
         53770.27,
-        53740.54
+        53820.43
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26790.15,
-      "change": 201.66,
-      "pct": 0.76,
+      "price": 26819.81,
+      "change": 231.32,
+      "pct": 0.87,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 17:45"
+      "updated": "13 Aug, 18:42"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 17:45"
+      "updated": "13 Aug, 18:42"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 17:45"
+      "updated": "13 Aug, 18:42"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": -60.48,
       "pct": -0.56,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 17:45"
+      "updated": "13 Aug, 18:42"
     }
   },
   "watchlist": {
@@ -480,9 +480,9 @@
       "price": 5.07,
       "change": -0.04,
       "pct": -0.78,
-      "volume": 872713,
+      "volume": 864669,
       "avg_volume": 1751231.38,
-      "volume_surge": -50.17
+      "volume_surge": -50.63
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -520,9 +520,9 @@
       "price": 0.625,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 432362,
+      "volume": 420259,
       "avg_volume": 672521.67,
-      "volume_surge": -35.71
+      "volume_surge": -37.51
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -690,9 +690,9 @@
       "price": 0.49,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1510405,
+      "volume": 1484605,
       "avg_volume": 1108880.71,
-      "volume_surge": 36.21
+      "volume_surge": 33.88
     },
     "SGQ": {
       "name": "ST George Mining",
@@ -700,9 +700,9 @@
       "price": 0.085,
       "change": -0.001,
       "pct": -1.16,
-      "volume": 12514276,
+      "volume": 12338570,
       "avg_volume": 15259352.46,
-      "volume_surge": -17.99
+      "volume_surge": -19.14
     },
     "BPM": {
       "name": "BPM Minerals",
@@ -770,9 +770,9 @@
       "price": 9.15,
       "change": 0.15,
       "pct": 1.67,
-      "volume": 451255,
+      "volume": 447736,
       "avg_volume": 518964.21,
-      "volume_surge": -13.05
+      "volume_surge": -13.73
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -820,9 +820,9 @@
       "price": 183.71,
       "change": 2.04,
       "pct": 1.12,
-      "volume": 230616,
+      "volume": 228379,
       "avg_volume": 240521.08,
-      "volume_surge": -4.12
+      "volume_surge": -5.05
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -850,9 +850,9 @@
       "price": 4.69,
       "change": -0.11,
       "pct": -2.29,
-      "volume": 765219,
+      "volume": 757685,
       "avg_volume": 731925.75,
-      "volume_surge": 4.55
+      "volume_surge": 3.52
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -1037,18 +1037,18 @@
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 50.59,
+  "gold_change": 50.53,
   "gold_pct": -1.15,
-  "silver_change": 0.638,
-  "silver_pct": -0.98,
-  "platinum_change": 41.2,
-  "platinum_pct": -2.33,
-  "palladium_change": 53.0,
-  "palladium_pct": -3.86,
-  "copper_change": 0.007,
-  "copper_pct": -0.11,
-  "nickel_change": 120.0,
-  "nickel_pct": -0.71,
+  "silver_change": 0.669,
+  "silver_pct": -1.02,
+  "platinum_change": 43.7,
+  "platinum_pct": -2.47,
+  "palladium_change": 53.5,
+  "palladium_pct": -3.89,
+  "copper_change": 0.0157,
+  "copper_pct": -0.24,
+  "nickel_change": 130.0,
+  "nickel_pct": -0.77,
   "zinc_change": 0.2,
   "zinc_pct": 0.01,
   "lithium_change": 500.0,
@@ -1251,9 +1251,9 @@
     {
       "code": "DVP",
       "name": "Develop Global",
-      "volume": 872713,
+      "volume": 864669,
       "avg_volume": 1751231.38,
-      "volume_surge": -50.17
+      "volume_surge": -50.63
     },
     {
       "code": "WTM",
@@ -1293,9 +1293,9 @@
     {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "volume": 432362,
+      "volume": 420259,
       "avg_volume": 672521.67,
-      "volume_surge": -35.71
+      "volume_surge": -37.51
     },
     {
       "code": "FML",
