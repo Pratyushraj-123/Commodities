@@ -1,11 +1,11 @@
 {
-  "gold": 4372.19,
-  "silver": 64.582,
-  "platinum": 1728.8,
-  "palladium": 1323.0,
-  "copper": 6.5917,
-  "nickel": 16747.0,
-  "zinc": 3730.9,
+  "gold": 4368.93,
+  "silver": 64.773,
+  "platinum": 1729.5,
+  "palladium": 1324.5,
+  "copper": 6.6043,
+  "nickel": 16783.0,
+  "zinc": 3748.95,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 14:10",
+  "_last_updated": "13 Aug 2026, 15:44",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53957.14,
-      "change": 186.87,
-      "pct": 0.35,
+      "price": 53693.07,
+      "change": -77.2,
+      "pct": -0.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 14:10",
+      "updated": "13 Aug, 15:44",
       "hist": [
         44922.27,
         44911.26,
@@ -277,16 +277,16 @@
         53975.98,
         53791.85,
         53770.27,
-        53958.68
+        53693.07
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26844.27,
-      "change": 255.78,
-      "pct": 0.96,
+      "price": 26757.37,
+      "change": 168.88,
+      "pct": 0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 14:10"
+      "updated": "13 Aug, 15:44"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 14:10"
+      "updated": "13 Aug, 15:44"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 14:10"
+      "updated": "13 Aug, 15:44"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10795.51,
-      "change": -37.64,
-      "pct": -0.35,
+      "price": 10757.25,
+      "change": -75.9,
+      "pct": -0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 14:10"
+      "updated": "13 Aug, 15:44"
     }
   },
   "watchlist": {
@@ -770,9 +770,9 @@
       "price": 9.15,
       "change": 0.15,
       "pct": 1.67,
-      "volume": 447736,
+      "volume": 451255,
       "avg_volume": 518964.21,
-      "volume_surge": -13.73
+      "volume_surge": -13.05
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -997,7 +997,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) Expands Medical Imaging Software Globally Market Outlook",
+      "title": "Pro Medicus (ASX:PME): What Could Come Next for Its AI Strategy Among AI Stocks?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "13 Aug 2026"
     },
@@ -1037,20 +1037,20 @@
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 36.41,
-  "gold_pct": -0.83,
-  "silver_change": 0.739,
-  "silver_pct": -1.13,
-  "platinum_change": 40.5,
-  "platinum_pct": -2.29,
-  "palladium_change": 51.0,
-  "palladium_pct": -3.71,
-  "copper_change": 0.0053,
-  "copper_pct": -0.08,
-  "nickel_change": 143.0,
-  "nickel_pct": -0.85,
-  "zinc_change": 6.35,
-  "zinc_pct": -0.17,
+  "gold_change": 39.67,
+  "gold_pct": -0.9,
+  "silver_change": 0.548,
+  "silver_pct": -0.84,
+  "platinum_change": 39.8,
+  "platinum_pct": -2.25,
+  "palladium_change": 48.5,
+  "palladium_pct": -3.53,
+  "copper_change": 0.0073,
+  "copper_pct": 0.11,
+  "nickel_change": 107.0,
+  "nickel_pct": -0.63,
+  "zinc_change": 11.7,
+  "zinc_pct": 0.31,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
