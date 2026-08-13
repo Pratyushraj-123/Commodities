@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4380.88,
-  "silver": 64.621,
-  "platinum": 1731.6,
-  "palladium": 1344.5,
-  "copper": 6.5536,
-  "nickel": 16842.0,
-  "zinc": 3734.2,
+  "gold": 4393.01,
+  "silver": 65.013,
+  "platinum": 1741.7,
+  "palladium": 1348.5,
+  "copper": 6.5583,
+  "nickel": 16843.0,
+  "zinc": 3735.0,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 09:57",
+  "_last_updated": "13 Aug 2026, 10:55",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.63,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 09:57",
+      "updated": "13 Aug, 10:55",
       "hist": [
         44922.27,
         44911.26,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 09:57"
+      "updated": "13 Aug, 10:55"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 09:57"
+      "updated": "13 Aug, 10:55"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 09:57"
+      "updated": "13 Aug, 10:55"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10797.47,
-      "change": -35.68,
-      "pct": -0.33,
+      "price": 10800.81,
+      "change": -32.34,
+      "pct": -0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 09:57"
+      "updated": "13 Aug, 10:55"
     }
   },
   "watchlist": {
@@ -819,9 +819,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 183.71,
       "change": 2.04,
       "pct": 1.12,
-      "volume": 228379,
-      "avg_volume": 240384.5,
-      "volume_surge": -4.99
+      "volume": 230616,
+      "avg_volume": 240477.71,
+      "volume_surge": -4.1
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -931,6 +931,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     },
     {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "title": "Lachlan Star (ASX:LSA) Rises as New Waverley Gold Drilling Moves Into the Follow-Up Phase",
+      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
       "title": "SKS Technologies Group Ltd (ASX:SKS) Climbs: Will Data Centre Demand Sustain the Momentum?",
@@ -973,20 +980,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 27.72,
-  "gold_pct": -0.63,
-  "silver_change": 0.7,
-  "silver_pct": -1.07,
-  "platinum_change": 37.7,
-  "platinum_pct": -2.13,
-  "palladium_change": 29.5,
-  "palladium_pct": -2.15,
-  "copper_change": 0.0434,
-  "copper_pct": -0.66,
-  "nickel_change": 48.0,
+  "gold_change": 15.59,
+  "gold_pct": -0.35,
+  "silver_change": 0.308,
+  "silver_pct": -0.47,
+  "platinum_change": 27.6,
+  "platinum_pct": -1.56,
+  "palladium_change": 25.5,
+  "palladium_pct": -1.86,
+  "copper_change": 0.0387,
+  "copper_pct": -0.59,
+  "nickel_change": 47.0,
   "nickel_pct": -0.28,
-  "zinc_change": 3.05,
-  "zinc_pct": -0.08,
+  "zinc_change": 2.25,
+  "zinc_pct": -0.06,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
