@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4393.01,
-  "silver": 65.013,
-  "platinum": 1741.7,
-  "palladium": 1348.5,
-  "copper": 6.5583,
-  "nickel": 16843.0,
-  "zinc": 3735.0,
+  "gold": 4387.91,
+  "silver": 64.932,
+  "platinum": 1736.3,
+  "palladium": 1342.0,
+  "copper": 6.5664,
+  "nickel": 16860.0,
+  "zinc": 3731.0,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 10:55",
+  "_last_updated": "13 Aug 2026, 11:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.63,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 10:55",
+      "updated": "13 Aug, 11:36",
       "hist": [
         44922.27,
         44911.26,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 10:55"
+      "updated": "13 Aug, 11:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 10:55"
+      "updated": "13 Aug, 11:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 10:55"
+      "updated": "13 Aug, 11:36"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10800.81,
-      "change": -32.34,
-      "pct": -0.3,
+      "price": 10809.98,
+      "change": -23.17,
+      "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 10:55"
+      "updated": "13 Aug, 11:36"
     }
   },
   "watchlist": {
@@ -479,9 +479,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 5.07,
       "change": -0.04,
       "pct": -0.78,
-      "volume": 872713,
-      "avg_volume": 1751118.33,
-      "volume_surge": -50.16
+      "volume": 864669,
+      "avg_volume": 1750783.17,
+      "volume_surge": -50.61
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -519,9 +519,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.625,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 432362,
-      "avg_volume": 672521.67,
-      "volume_surge": -35.71
+      "volume": 420259,
+      "avg_volume": 672017.38,
+      "volume_surge": -37.46
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -619,9 +619,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.325,
       "change": -0.02,
       "pct": -5.8,
-      "volume": 4444346,
-      "avg_volume": 4459941.5,
-      "volume_surge": -0.35
+      "volume": 4334000,
+      "avg_volume": 4455343.75,
+      "volume_surge": -2.72
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -896,6 +896,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Beyond the Daily Drop: What Investors Are Watching at Minerals 260 (ASX:MI6)?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Which ASX Stocks Are Drawing Attention as Ora Banda Mining (ASX:OBM) and Alkane Resources (ASX:ALK) Expand?",
@@ -924,10 +931,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     },
     {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM): Copper-Gold Ambitions Keep Exploration Story Under Review",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
       "title": "Brazilian Rare Earths (ASX:BRE) Outlines US$7.9bn NPV in Rocha da Rocha Scoping Study",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Critical Minerals Spotlight: Why Investors Are Tracking Lindian Resources (ASX:LIN)?",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
       "date": "13 Aug 2026"
     },
     {
@@ -954,7 +975,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Why Pro Medicus (ASX:PME) Could Be One to Watch in Technology Stocks?",
+      "title": "Pro Medicus (ASX:PME) Expands Medical Imaging Software Globally Market Outlook",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "13 Aug 2026"
     },
@@ -980,20 +1001,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 15.59,
-  "gold_pct": -0.35,
-  "silver_change": 0.308,
-  "silver_pct": -0.47,
-  "platinum_change": 27.6,
-  "platinum_pct": -1.56,
-  "palladium_change": 25.5,
-  "palladium_pct": -1.86,
-  "copper_change": 0.0387,
-  "copper_pct": -0.59,
-  "nickel_change": 47.0,
-  "nickel_pct": -0.28,
-  "zinc_change": 2.25,
-  "zinc_pct": -0.06,
+  "gold_change": 20.69,
+  "gold_pct": -0.47,
+  "silver_change": 0.39,
+  "silver_pct": -0.6,
+  "platinum_change": 33.0,
+  "platinum_pct": -1.87,
+  "palladium_change": 32.0,
+  "palladium_pct": -2.33,
+  "copper_change": 0.0306,
+  "copper_pct": -0.46,
+  "nickel_change": 30.0,
+  "nickel_pct": -0.18,
+  "zinc_change": 6.25,
+  "zinc_pct": -0.17,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
@@ -1194,9 +1215,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "DVP",
       "name": "Develop Global",
-      "volume": 872713,
-      "avg_volume": 1751118.33,
-      "volume_surge": -50.16
+      "volume": 864669,
+      "avg_volume": 1750783.17,
+      "volume_surge": -50.61
     },
     {
       "code": "WTM",
@@ -1236,9 +1257,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "volume": 432362,
-      "avg_volume": 672521.67,
-      "volume_surge": -35.71
+      "volume": 420259,
+      "avg_volume": 672017.38,
+      "volume_surge": -37.46
     },
     {
       "code": "FML",
