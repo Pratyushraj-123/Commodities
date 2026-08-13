@@ -1,11 +1,11 @@
 {
-  "gold": 4387.91,
-  "silver": 64.932,
-  "platinum": 1736.3,
-  "palladium": 1342.0,
-  "copper": 6.5664,
-  "nickel": 16860.0,
-  "zinc": 3731.0,
+  "gold": 4390.79,
+  "silver": 64.987,
+  "platinum": 1737.7,
+  "palladium": 1336.0,
+  "copper": 6.5984,
+  "nickel": 16848.0,
+  "zinc": 3729.1,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 11:36",
+  "_last_updated": "13 Aug 2026, 12:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -21.63,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 11:36",
+      "updated": "13 Aug, 12:36",
       "hist": [
         44922.27,
         44911.26,
@@ -285,7 +285,7 @@
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 11:36"
+      "updated": "13 Aug, 12:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 11:36"
+      "updated": "13 Aug, 12:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 11:36"
+      "updated": "13 Aug, 12:36"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10809.98,
-      "change": -23.17,
-      "pct": -0.21,
+      "price": 10800.09,
+      "change": -33.06,
+      "pct": -0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 11:36"
+      "updated": "13 Aug, 12:36"
     }
   },
   "watchlist": {
@@ -479,9 +479,9 @@
       "price": 5.07,
       "change": -0.04,
       "pct": -0.78,
-      "volume": 864669,
-      "avg_volume": 1750783.17,
-      "volume_surge": -50.61
+      "volume": 872713,
+      "avg_volume": 1751118.33,
+      "volume_surge": -50.16
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -519,9 +519,9 @@
       "price": 0.625,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 420259,
-      "avg_volume": 672017.38,
-      "volume_surge": -37.46
+      "volume": 432362,
+      "avg_volume": 672521.67,
+      "volume_surge": -35.71
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -619,9 +619,9 @@
       "price": 0.325,
       "change": -0.02,
       "pct": -5.8,
-      "volume": 4334000,
-      "avg_volume": 4455343.75,
-      "volume_surge": -2.72
+      "volume": 4444346,
+      "avg_volume": 4459941.5,
+      "volume_surge": -0.35
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -896,6 +896,13 @@
   },
   "announcements": [
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "Beyond the Daily Drop: What Investors Are Watching at EQ Resources (ASX:EQR)?",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
       "code": "MI6",
       "name": "Minerals 260",
       "title": "Beyond the Daily Drop: What Investors Are Watching at Minerals 260 (ASX:MI6)?",
@@ -905,8 +912,15 @@
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Which ASX Stocks Are Drawing Attention as Ora Banda Mining (ASX:OBM) and Alkane Resources (ASX:ALK) Expand?",
+      "title": "Ora Banda Mining (ASX:OBM) Expands Resource Estimates Substantially Market",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP) Remains on Investor Radar Amid Mining Services and Project Activity",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
       "date": "13 Aug 2026"
     },
     {
@@ -940,7 +954,7 @@
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Outlines US$7.9bn NPV in Rocha da Rocha Scoping Study",
+      "title": "Brazilian Rare Earths (ASX:BRE) Scoping Study Outlines Large-Scale Heavy Rare Earth Development Pathway",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "13 Aug 2026"
     },
@@ -973,6 +987,13 @@
       "date": "13 Aug 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMEDICAL Ltd (ASX: 4DX) Share Price Falls 5.10% as Stock Trades Within Its Daily Range",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Pro Medicus (ASX:PME) Expands Medical Imaging Software Globally Market Outlook",
@@ -989,8 +1010,22 @@
     {
       "code": "AYA",
       "name": "ARTRYA Ltd",
-      "title": "Artrya (ASX:AYA) Pulls Back After a Major Run as US Salix Rollout Advances",
+      "title": "ARTRYA Ltd (ASX: AYA) Share Price Eases 2.29% After Volatile Session",
       "link": "https://www.marketindex.com.au/asx/aya/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown Resources (ASX:LTR) Lithium Asset Development Progresses Market",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "13 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "Pilbara Lithium (ASX:PLS) Stocks Climb on EV Demand Tailwinds Market Outlook",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "13 Aug 2026"
     },
     {
@@ -1001,20 +1036,20 @@
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 20.69,
-  "gold_pct": -0.47,
-  "silver_change": 0.39,
-  "silver_pct": -0.6,
-  "platinum_change": 33.0,
-  "platinum_pct": -1.87,
-  "palladium_change": 32.0,
-  "palladium_pct": -2.33,
-  "copper_change": 0.0306,
-  "copper_pct": -0.46,
-  "nickel_change": 30.0,
-  "nickel_pct": -0.18,
-  "zinc_change": 6.25,
-  "zinc_pct": -0.17,
+  "gold_change": 17.81,
+  "gold_pct": -0.4,
+  "silver_change": 0.334,
+  "silver_pct": -0.51,
+  "platinum_change": 31.6,
+  "platinum_pct": -1.79,
+  "palladium_change": 38.0,
+  "palladium_pct": -2.77,
+  "copper_change": 0.0014,
+  "copper_pct": 0.02,
+  "nickel_change": 42.0,
+  "nickel_pct": -0.25,
+  "zinc_change": 8.15,
+  "zinc_pct": -0.22,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
@@ -1215,9 +1250,9 @@
     {
       "code": "DVP",
       "name": "Develop Global",
-      "volume": 864669,
-      "avg_volume": 1750783.17,
-      "volume_surge": -50.61
+      "volume": 872713,
+      "avg_volume": 1751118.33,
+      "volume_surge": -50.16
     },
     {
       "code": "WTM",
@@ -1257,9 +1292,9 @@
     {
       "code": "AZY",
       "name": "Antipa Minerals",
-      "volume": 420259,
-      "avg_volume": 672017.38,
-      "volume_surge": -37.46
+      "volume": 432362,
+      "avg_volume": 672521.67,
+      "volume_surge": -35.71
     },
     {
       "code": "FML",
