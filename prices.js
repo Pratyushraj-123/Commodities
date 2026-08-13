@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4379.13,
-  "silver": 64.749,
-  "platinum": 1746.3,
-  "palladium": 1354.5,
-  "copper": 6.5216,
-  "nickel": 16745.0,
-  "zinc": 3705.95,
+  "gold": 4376.57,
+  "silver": 64.468,
+  "platinum": 1726.7,
+  "palladium": 1340.5,
+  "copper": 6.5141,
+  "nickel": 16802.0,
+  "zinc": 3721.7,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 07:04",
+  "_last_updated": "13 Aug 2026, 08:58",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.63,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 07:04",
+      "updated": "13 Aug, 08:58",
       "hist": [
         44922.27,
         44911.26,
@@ -260,15 +260,12 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
-        52224.64,
-        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
-        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -285,7 +282,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 07:04"
+      "updated": "13 Aug, 08:58"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +290,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 07:04"
+      "updated": "13 Aug, 08:58"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +298,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 07:04"
+      "updated": "13 Aug, 08:58"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10833.15,
-      "change": 0.0,
-      "pct": 0.0,
+      "price": 10802.36,
+      "change": -30.79,
+      "pct": -0.28,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 07:04"
+      "updated": "13 Aug, 08:58"
     }
   },
   "watchlist": {
@@ -479,9 +476,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 5.07,
       "change": -0.04,
       "pct": -0.78,
-      "volume": 872713,
-      "avg_volume": 1751118.33,
-      "volume_surge": -50.16
+      "volume": 864669,
+      "avg_volume": 1750783.17,
+      "volume_surge": -50.61
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -557,11 +554,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "True North Copper",
       "code": "TNC",
       "price": 0.43,
-      "change": -0.02,
-      "pct": -4.44,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 583992,
-      "avg_volume": 247375.7,
-      "volume_surge": 136.07
+      "avg_volume": 237068.38,
+      "volume_surge": 146.34
     },
     "GML": {
       "name": "Gateway Mining Ltd",
@@ -619,9 +616,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.325,
       "change": -0.02,
       "pct": -5.8,
-      "volume": 4444346,
-      "avg_volume": 4459941.5,
-      "volume_surge": -0.35
+      "volume": 4334000,
+      "avg_volume": 4455343.75,
+      "volume_surge": -2.72
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -699,9 +696,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.085,
       "change": -0.001,
       "pct": -1.16,
-      "volume": 12514276,
-      "avg_volume": 15259352.46,
-      "volume_surge": -17.99
+      "volume": 12338570,
+      "avg_volume": 15252031.38,
+      "volume_surge": -19.1
     },
     "BPM": {
       "name": "BPM Minerals",
@@ -769,9 +766,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.15,
       "change": 0.15,
       "pct": 1.67,
-      "volume": 451255,
-      "avg_volume": 518964.21,
-      "volume_surge": -13.05
+      "volume": 447736,
+      "avg_volume": 518817.58,
+      "volume_surge": -13.7
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -819,9 +816,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 183.71,
       "change": 2.04,
       "pct": 1.12,
-      "volume": 230616,
-      "avg_volume": 240477.71,
-      "volume_surge": -4.1
+      "volume": 228379,
+      "avg_volume": 240384.5,
+      "volume_surge": -4.99
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -849,9 +846,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.69,
       "change": -0.11,
       "pct": -2.29,
-      "volume": 765219,
-      "avg_volume": 731925.75,
-      "volume_surge": 4.55
+      "volume": 757685,
+      "avg_volume": 731611.83,
+      "volume_surge": 3.56
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -926,7 +923,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Scoping Study Outlines Large-Scale Heavy Rare Earth Development Pathway",
+      "title": "Brazilian Rare Earths (ASX:BRE) Outlines US$7.9bn NPV in Rocha da Rocha Scoping Study",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "13 Aug 2026"
     },
@@ -973,20 +970,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 29.47,
-  "gold_pct": -0.67,
-  "silver_change": 0.572,
-  "silver_pct": -0.88,
-  "platinum_change": 23.0,
-  "platinum_pct": -1.3,
-  "palladium_change": 19.5,
-  "palladium_pct": -1.42,
-  "copper_change": 0.0754,
-  "copper_pct": -1.14,
-  "nickel_change": 145.0,
-  "nickel_pct": -0.86,
-  "zinc_change": 31.3,
-  "zinc_pct": -0.84,
+  "gold_change": 32.03,
+  "gold_pct": -0.73,
+  "silver_change": 0.853,
+  "silver_pct": -1.31,
+  "platinum_change": 42.6,
+  "platinum_pct": -2.41,
+  "palladium_change": 32.5,
+  "palladium_pct": -2.37,
+  "copper_change": 0.0829,
+  "copper_pct": -1.26,
+  "nickel_change": 88.0,
+  "nickel_pct": -0.52,
+  "zinc_change": 15.55,
+  "zinc_pct": -0.42,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
@@ -1051,8 +1048,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "TNC",
       "name": "True North Copper",
       "volume": 583992,
-      "avg_volume": 247375.7,
-      "volume_surge": 136.07
+      "avg_volume": 237068.38,
+      "volume_surge": 146.34
     },
     {
       "code": "MKR",
@@ -1116,8 +1113,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "TNC",
       "name": "True North Copper",
       "volume": 583992,
-      "avg_volume": 247375.7,
-      "volume_surge": 136.07
+      "avg_volume": 237068.38,
+      "volume_surge": 146.34
     },
     {
       "code": "MKR",
@@ -1187,9 +1184,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "DVP",
       "name": "Develop Global",
-      "volume": 872713,
-      "avg_volume": 1751118.33,
-      "volume_surge": -50.16
+      "volume": 864669,
+      "avg_volume": 1750783.17,
+      "volume_surge": -50.61
     },
     {
       "code": "WTM",
