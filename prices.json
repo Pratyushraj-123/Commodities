@@ -1,9 +1,9 @@
 {
-  "gold": 4364.37,
-  "silver": 64.712,
-  "platinum": 1728.4,
-  "palladium": 1322.0,
-  "copper": 6.5874,
+  "gold": 4358.01,
+  "silver": 64.683,
+  "platinum": 1728.1,
+  "palladium": 1321.0,
+  "copper": 6.59,
   "nickel": 16770.0,
   "zinc": 3737.45,
   "lithium": 147500.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 16:40",
+  "_last_updated": "13 Aug 2026, 17:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53708.37,
-      "change": -61.9,
-      "pct": -0.12,
+      "price": 53739.21,
+      "change": -31.06,
+      "pct": -0.06,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 16:40",
+      "updated": "13 Aug, 17:45",
       "hist": [
         44922.27,
         44911.26,
@@ -277,16 +277,16 @@
         53975.98,
         53791.85,
         53770.27,
-        53708.37
+        53740.54
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26752.94,
-      "change": 164.45,
-      "pct": 0.62,
+      "price": 26790.15,
+      "change": 201.66,
+      "pct": 0.76,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 16:40"
+      "updated": "13 Aug, 17:45"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 16:40"
+      "updated": "13 Aug, 17:45"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 16:40"
+      "updated": "13 Aug, 17:45"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": -60.48,
       "pct": -0.56,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 16:40"
+      "updated": "13 Aug, 17:45"
     }
   },
   "watchlist": {
@@ -955,7 +955,7 @@
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Scoping Study Outlines Large-Scale Heavy Rare Earth Development Pathway",
+      "title": "Brazilian Rare Earths (ASX:BRE) Outlines US$7.9bn NPV in Rocha da Rocha Scoping Study",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "13 Aug 2026"
     },
@@ -997,7 +997,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME): What Could Come Next for Its AI Strategy Among AI Stocks?",
+      "title": "Pro Medicus (ASX:PME) Expands Medical Imaging Software Globally Market Outlook",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "13 Aug 2026"
     },
@@ -1037,16 +1037,16 @@
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 44.23,
-  "gold_pct": -1.0,
-  "silver_change": 0.609,
-  "silver_pct": -0.93,
-  "platinum_change": 40.9,
-  "platinum_pct": -2.31,
-  "palladium_change": 52.0,
-  "palladium_pct": -3.78,
-  "copper_change": 0.0096,
-  "copper_pct": -0.15,
+  "gold_change": 50.59,
+  "gold_pct": -1.15,
+  "silver_change": 0.638,
+  "silver_pct": -0.98,
+  "platinum_change": 41.2,
+  "platinum_pct": -2.33,
+  "palladium_change": 53.0,
+  "palladium_pct": -3.86,
+  "copper_change": 0.007,
+  "copper_pct": -0.11,
   "nickel_change": 120.0,
   "nickel_pct": -0.71,
   "zinc_change": 0.2,
