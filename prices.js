@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4376.57,
-  "silver": 64.468,
-  "platinum": 1726.7,
-  "palladium": 1340.5,
-  "copper": 6.5141,
-  "nickel": 16802.0,
-  "zinc": 3721.7,
+  "gold": 4380.88,
+  "silver": 64.621,
+  "platinum": 1731.6,
+  "palladium": 1344.5,
+  "copper": 6.5536,
+  "nickel": 16842.0,
+  "zinc": 3734.2,
   "lithium": 147500.0,
   "uranium": 87.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "13 Aug 2026, 08:58",
+  "_last_updated": "13 Aug 2026, 09:57",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.63,
       "pct": -0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 08:58",
+      "updated": "13 Aug, 09:57",
       "hist": [
         44922.27,
         44911.26,
@@ -260,12 +260,15 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -282,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 143.04,
       "pct": 0.54,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "13 Aug, 08:58"
+      "updated": "13 Aug, 09:57"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.1,
       "pct": -0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 08:58"
+      "updated": "13 Aug, 09:57"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -62.2,
       "pct": -0.68,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "13 Aug, 08:58"
+      "updated": "13 Aug, 09:57"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10802.36,
-      "change": -30.79,
-      "pct": -0.28,
+      "price": 10797.47,
+      "change": -35.68,
+      "pct": -0.33,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "13 Aug, 08:58"
+      "updated": "13 Aug, 09:57"
     }
   },
   "watchlist": {
@@ -476,9 +479,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 5.07,
       "change": -0.04,
       "pct": -0.78,
-      "volume": 864669,
-      "avg_volume": 1750783.17,
-      "volume_surge": -50.61
+      "volume": 872713,
+      "avg_volume": 1751118.33,
+      "volume_surge": -50.16
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -616,9 +619,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.325,
       "change": -0.02,
       "pct": -5.8,
-      "volume": 4334000,
-      "avg_volume": 4455343.75,
-      "volume_surge": -2.72
+      "volume": 4444346,
+      "avg_volume": 4459941.5,
+      "volume_surge": -0.35
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -644,11 +647,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Leeuwin Metals Ltd",
       "code": "LM1",
       "price": 0.18,
-      "change": 0.01,
-      "pct": 5.88,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 1955,
-      "avg_volume": 121452.22,
-      "volume_surge": -98.39
+      "avg_volume": 116473.17,
+      "volume_surge": -98.32
     },
     "FFM": {
       "name": "Firefly Metals Ltd",
@@ -696,9 +699,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.085,
       "change": -0.001,
       "pct": -1.16,
-      "volume": 12338570,
-      "avg_volume": 15252031.38,
-      "volume_surge": -19.1
+      "volume": 12514276,
+      "avg_volume": 15259352.46,
+      "volume_surge": -17.99
     },
     "BPM": {
       "name": "BPM Minerals",
@@ -766,9 +769,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.15,
       "change": 0.15,
       "pct": 1.67,
-      "volume": 447736,
-      "avg_volume": 518817.58,
-      "volume_surge": -13.7
+      "volume": 451255,
+      "avg_volume": 518964.21,
+      "volume_surge": -13.05
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -846,9 +849,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.69,
       "change": -0.11,
       "pct": -2.29,
-      "volume": 757685,
-      "avg_volume": 731611.83,
-      "volume_surge": 3.56
+      "volume": 765219,
+      "avg_volume": 731925.75,
+      "volume_surge": 4.55
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -930,7 +933,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
-      "title": "Can SKS Technologies (ASX:SKS) Extend Its AI Infrastructure Momentum?",
+      "title": "SKS Technologies Group Ltd (ASX:SKS) Climbs: Will Data Centre Demand Sustain the Momentum?",
       "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "13 Aug 2026"
     },
@@ -970,20 +973,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "13 Aug 2026"
     }
   ],
-  "gold_change": 32.03,
-  "gold_pct": -0.73,
-  "silver_change": 0.853,
-  "silver_pct": -1.31,
-  "platinum_change": 42.6,
-  "platinum_pct": -2.41,
-  "palladium_change": 32.5,
-  "palladium_pct": -2.37,
-  "copper_change": 0.0829,
-  "copper_pct": -1.26,
-  "nickel_change": 88.0,
-  "nickel_pct": -0.52,
-  "zinc_change": 15.55,
-  "zinc_pct": -0.42,
+  "gold_change": 27.72,
+  "gold_pct": -0.63,
+  "silver_change": 0.7,
+  "silver_pct": -1.07,
+  "platinum_change": 37.7,
+  "platinum_pct": -2.13,
+  "palladium_change": 29.5,
+  "palladium_pct": -2.15,
+  "copper_change": 0.0434,
+  "copper_pct": -0.66,
+  "nickel_change": 48.0,
+  "nickel_pct": -0.28,
+  "zinc_change": 3.05,
+  "zinc_pct": -0.08,
   "lithium_change": 500.0,
   "lithium_pct": -0.34,
   "uranium_change": 0.25,
@@ -1129,8 +1132,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "LM1",
       "name": "Leeuwin Metals Ltd",
       "volume": 1955,
-      "avg_volume": 121452.22,
-      "volume_surge": -98.39
+      "avg_volume": 116473.17,
+      "volume_surge": -98.32
     },
     {
       "code": "PC2",
@@ -1184,9 +1187,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "DVP",
       "name": "Develop Global",
-      "volume": 864669,
-      "avg_volume": 1750783.17,
-      "volume_surge": -50.61
+      "volume": 872713,
+      "avg_volume": 1751118.33,
+      "volume_surge": -50.16
     },
     {
       "code": "WTM",
