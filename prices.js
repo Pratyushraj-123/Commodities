@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4384.68,
-  "silver": 64.809,
-  "platinum": 1757.7,
-  "palladium": 1324.5,
-  "copper": 6.5938,
+  "gold": 4379.83,
+  "silver": 64.879,
+  "platinum": 1757.6,
+  "palladium": 1323.0,
+  "copper": 6.5826,
   "nickel": 16775.0,
-  "zinc": 3758.3,
+  "zinc": 3758.25,
   "lithium": 151500.0,
   "uranium": 87.25,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 16:36",
+  "_last_updated": "14 Aug 2026, 17:41",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53730.13,
-      "change": -109.86,
-      "pct": -0.2,
+      "price": 53693.11,
+      "change": -146.88,
+      "pct": -0.27,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 16:36",
+      "updated": "14 Aug, 17:41",
       "hist": [
         44911.26,
         44946.12,
@@ -274,16 +274,16 @@ window.LIVE_COMMODITY_PRICES = {
         53791.85,
         53770.27,
         53839.99,
-        53729.99
+        53692.58
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26698.19,
-      "change": -104.83,
-      "pct": -0.39,
+      "price": 26679.16,
+      "change": -123.86,
+      "pct": -0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 16:36"
+      "updated": "14 Aug, 17:41"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +291,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 16:36"
+      "updated": "14 Aug, 17:41"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,7 +299,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 16:36"
+      "updated": "14 Aug, 17:41"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -307,7 +307,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -22.56,
       "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 16:36"
+      "updated": "14 Aug, 17:41"
     }
   },
   "watchlist": {
@@ -467,9 +467,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.31,
       "change": -0.04,
       "pct": -2.96,
-      "volume": 7046644,
+      "volume": 7195539,
       "avg_volume": 9096516.75,
-      "volume_surge": -22.53
+      "volume_surge": -20.9
     },
     "DVP": {
       "name": "Develop Global",
@@ -617,9 +617,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.32,
       "change": -0.005,
       "pct": -1.54,
-      "volume": 4254115,
+      "volume": 4507989,
       "avg_volume": 4425795.71,
-      "volume_surge": -3.88
+      "volume_surge": 1.86
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -797,9 +797,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.15,
       "change": 0.05,
       "pct": 0.55,
-      "volume": 250933,
+      "volume": 253675,
       "avg_volume": 668187.0,
-      "volume_surge": -62.45
+      "volume_surge": -62.04
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -817,9 +817,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 178.86,
       "change": -4.85,
       "pct": -2.64,
-      "volume": 200910,
+      "volume": 200556,
       "avg_volume": 237794.12,
-      "volume_surge": -15.51
+      "volume_surge": -15.66
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -985,19 +985,19 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 35.13,
-  "gold_pct": 0.81,
-  "silver_change": 0.387,
-  "silver_pct": 0.6,
-  "platinum_change": 25.5,
+  "gold_change": 30.28,
+  "gold_pct": 0.7,
+  "silver_change": 0.457,
+  "silver_pct": 0.71,
+  "platinum_change": 25.4,
   "platinum_pct": 1.47,
-  "palladium_change": 1.5,
-  "palladium_pct": -0.11,
-  "copper_change": 0.0013,
-  "copper_pct": 0.02,
+  "palladium_change": 3.0,
+  "palladium_pct": -0.23,
+  "copper_change": 0.0099,
+  "copper_pct": -0.15,
   "nickel_change": 15.0,
   "nickel_pct": 0.09,
-  "zinc_change": 20.85,
+  "zinc_change": 20.8,
   "zinc_pct": 0.56,
   "lithium_change": 4000.0,
   "lithium_pct": 2.71,
@@ -1220,9 +1220,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "GNP",
       "name": "Genusplus Group Ltd",
-      "volume": 250933,
+      "volume": 253675,
       "avg_volume": 668187.0,
-      "volume_surge": -62.45
+      "volume_surge": -62.04
     },
     {
       "code": "GA8",
