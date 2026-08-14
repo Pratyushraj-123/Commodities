@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4373.35,
-  "silver": 64.683,
-  "platinum": 1757.9,
-  "palladium": 1318.0,
-  "copper": 6.589,
+  "gold": 4374.99,
+  "silver": 64.673,
+  "platinum": 1756.9,
+  "palladium": 1316.5,
+  "copper": 6.5946,
   "nickel": 16810.0,
   "zinc": 3758.25,
   "lithium": 151500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 20:17",
+  "_last_updated": "14 Aug 2026, 21:12",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.58,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 20:17",
+      "updated": "14 Aug, 21:12",
       "hist": [
         44946.12,
         44911.82,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -73.86,
       "pct": -0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 20:17"
+      "updated": "14 Aug, 21:12"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 20:17"
+      "updated": "14 Aug, 21:12"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 20:17"
+      "updated": "14 Aug, 21:12"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -22.56,
       "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 20:17"
+      "updated": "14 Aug, 21:12"
     }
   },
   "watchlist": {
@@ -896,13 +896,6 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "BCN",
-      "name": "Beacon Minerals",
-      "title": "Beacon Minerals Finalizes Distribution of 36 Million Forrestania Resources Shares to Qualified Shareholders",
-      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
-      "date": "14 Aug 2026"
-    },
-    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX:TGN): Share Price Jumps Nearly 2% - Here\u2019s What Driving the Move",
@@ -980,16 +973,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 23.8,
-  "gold_pct": 0.55,
-  "silver_change": 0.261,
-  "silver_pct": 0.41,
-  "platinum_change": 25.7,
-  "platinum_pct": 1.48,
-  "palladium_change": 8.0,
-  "palladium_pct": -0.6,
-  "copper_change": 0.0035,
-  "copper_pct": -0.05,
+  "gold_change": 25.44,
+  "gold_pct": 0.58,
+  "silver_change": 0.251,
+  "silver_pct": 0.39,
+  "platinum_change": 24.7,
+  "platinum_pct": 1.43,
+  "palladium_change": 9.5,
+  "palladium_pct": -0.72,
+  "copper_change": 0.0021,
+  "copper_pct": 0.03,
   "nickel_change": 50.0,
   "nickel_pct": 0.3,
   "zinc_change": 20.8,
