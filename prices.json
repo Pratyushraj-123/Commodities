@@ -1,9 +1,9 @@
 {
   "gold": 4375.5,
-  "silver": 64.682,
-  "platinum": 1756.7,
-  "palladium": 1315.5,
-  "copper": 6.5954,
+  "silver": 64.661,
+  "platinum": 1756.8,
+  "palladium": 1316.5,
+  "copper": 6.589,
   "nickel": 16810.0,
   "zinc": 3758.25,
   "lithium": 151500.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 22:08",
+  "_last_updated": "14 Aug 2026, 23:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -107.58,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 22:08",
+      "updated": "14 Aug, 23:09",
       "hist": [
         44946.12,
         44911.82,
@@ -285,7 +285,7 @@
       "change": -73.86,
       "pct": -0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 22:08"
+      "updated": "14 Aug, 23:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 22:08"
+      "updated": "14 Aug, 23:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 22:08"
+      "updated": "14 Aug, 23:09"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": -22.56,
       "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 22:08"
+      "updated": "14 Aug, 23:09"
     }
   },
   "watchlist": {
@@ -975,14 +975,14 @@
   ],
   "gold_change": 25.95,
   "gold_pct": 0.6,
-  "silver_change": 0.26,
-  "silver_pct": 0.4,
-  "platinum_change": 24.5,
-  "platinum_pct": 1.41,
-  "palladium_change": 10.5,
-  "palladium_pct": -0.79,
-  "copper_change": 0.0029,
-  "copper_pct": 0.04,
+  "silver_change": 0.239,
+  "silver_pct": 0.37,
+  "platinum_change": 24.6,
+  "platinum_pct": 1.42,
+  "palladium_change": 9.5,
+  "palladium_pct": -0.72,
+  "copper_change": 0.0035,
+  "copper_pct": -0.05,
   "nickel_change": 50.0,
   "nickel_pct": 0.3,
   "zinc_change": 20.8,
