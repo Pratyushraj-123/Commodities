@@ -1,11 +1,11 @@
 {
-  "gold": 4354.29,
-  "silver": 64.77,
-  "platinum": 1737.1,
-  "palladium": 1317.0,
-  "copper": 6.5708,
-  "nickel": 16665.0,
-  "zinc": 3767.5,
+  "gold": 4350.42,
+  "silver": 64.647,
+  "platinum": 1733.1,
+  "palladium": 1309.5,
+  "copper": 6.5703,
+  "nickel": 16690.0,
+  "zinc": 3769.2,
   "lithium": 151500.0,
   "uranium": 87.25,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 09:47",
+  "_last_updated": "14 Aug 2026, 10:44",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 69.69,
       "pct": 0.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 09:47",
+      "updated": "14 Aug, 10:44",
       "hist": [
         44911.26,
         44946.12,
@@ -259,12 +259,15 @@
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -282,7 +285,7 @@
       "change": 214.54,
       "pct": 0.81,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 09:47"
+      "updated": "14 Aug, 10:44"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +293,7 @@
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 09:47"
+      "updated": "14 Aug, 10:44"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +301,15 @@
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 09:47"
+      "updated": "14 Aug, 10:44"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10754.86,
-      "change": -17.81,
-      "pct": -0.17,
+      "price": 10764.49,
+      "change": -8.18,
+      "pct": -0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 09:47"
+      "updated": "14 Aug, 10:44"
     }
   },
   "watchlist": {
@@ -336,9 +339,9 @@
       "price": 0.385,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1822418,
-      "avg_volume": 4518637.5,
-      "volume_surge": -59.67
+      "volume": 1829123,
+      "avg_volume": 4518916.88,
+      "volume_surge": -59.52
     },
     "BNZ": {
       "name": "BENZ Mining Corp",
@@ -386,9 +389,9 @@
       "price": 0.51,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1177093,
-      "avg_volume": 850643.79,
-      "volume_surge": 38.38
+      "volume": 1199274,
+      "avg_volume": 851568.0,
+      "volume_surge": 40.83
     },
     "WTM": {
       "name": "Waratah Minerals Ltd",
@@ -466,9 +469,9 @@
       "price": 1.31,
       "change": -0.04,
       "pct": -2.96,
-      "volume": 7046644,
-      "avg_volume": 9090080.29,
-      "volume_surge": -22.48
+      "volume": 7195539,
+      "avg_volume": 9096284.25,
+      "volume_surge": -20.9
     },
     "DVP": {
       "name": "Develop Global",
@@ -476,9 +479,9 @@
       "price": 4.73,
       "change": -0.34,
       "pct": -6.71,
-      "volume": 1343922,
-      "avg_volume": 1774162.88,
-      "volume_surge": -24.25
+      "volume": 1389335,
+      "avg_volume": 1776055.08,
+      "volume_surge": -21.77
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -554,11 +557,11 @@
       "name": "True North Copper",
       "code": "TNC",
       "price": 0.43,
-      "change": 0.0,
-      "pct": 0.0,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
     },
     "GML": {
       "name": "Gateway Mining Ltd",
@@ -596,9 +599,9 @@
       "price": 0.23,
       "change": 0.01,
       "pct": 4.55,
-      "volume": 1301995,
-      "avg_volume": 1408701.21,
-      "volume_surge": -7.57
+      "volume": 1344767,
+      "avg_volume": 1410483.38,
+      "volume_surge": -4.66
     },
     "BCA": {
       "name": "Black Canyon Ltd",
@@ -616,9 +619,9 @@
       "price": 0.32,
       "change": -0.005,
       "pct": -1.54,
-      "volume": 4254115,
-      "avg_volume": 4415217.62,
-      "volume_surge": -3.65
+      "volume": 4507989,
+      "avg_volume": 4425795.71,
+      "volume_surge": 1.86
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -796,9 +799,9 @@
       "price": 9.15,
       "change": 0.05,
       "pct": 0.55,
-      "volume": 250933,
-      "avg_volume": 668072.75,
-      "volume_surge": -62.44
+      "volume": 253675,
+      "avg_volume": 668187.0,
+      "volume_surge": -62.04
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -816,9 +819,9 @@
       "price": 178.86,
       "change": -4.85,
       "pct": -2.64,
-      "volume": 200556,
-      "avg_volume": 237770.21,
-      "volume_surge": -15.65
+      "volume": 200910,
+      "avg_volume": 237784.96,
+      "volume_surge": -15.51
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -944,7 +947,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Why Pro Medicus (ASX:PME) Could Be a Healthcare Stock to Watch Now?",
+      "title": "Can Pro Medicus (ASX:PME) Clarify the Clinical Delivery Test?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "14 Aug 2026"
     },
@@ -984,20 +987,20 @@
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 4.74,
-  "gold_pct": 0.11,
-  "silver_change": 0.348,
-  "silver_pct": 0.54,
-  "platinum_change": 4.9,
-  "platinum_pct": 0.28,
-  "palladium_change": 9.0,
-  "palladium_pct": -0.68,
-  "copper_change": 0.0217,
-  "copper_pct": -0.33,
-  "nickel_change": 95.0,
-  "nickel_pct": -0.57,
-  "zinc_change": 30.05,
-  "zinc_pct": 0.8,
+  "gold_change": 0.87,
+  "gold_pct": 0.02,
+  "silver_change": 0.225,
+  "silver_pct": 0.35,
+  "platinum_change": 0.9,
+  "platinum_pct": 0.05,
+  "palladium_change": 16.5,
+  "palladium_pct": -1.24,
+  "copper_change": 0.0222,
+  "copper_pct": -0.34,
+  "nickel_change": 70.0,
+  "nickel_pct": -0.42,
+  "zinc_change": 31.75,
+  "zinc_pct": 0.85,
   "lithium_change": 4000.0,
   "lithium_pct": 2.71,
   "uranium_change": 0.1,
@@ -1017,18 +1020,18 @@
       "volume_surge": 237.68
     },
     {
+      "code": "TNC",
+      "name": "True North Copper",
+      "volume": 583992,
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
+    },
+    {
       "code": "TVN",
       "name": "Tivan Ltd",
       "volume": 6681984,
       "avg_volume": 2705119.83,
       "volume_surge": 147.01
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
     },
     {
       "code": "POD",
@@ -1096,18 +1099,18 @@
       "volume_surge": 237.68
     },
     {
+      "code": "TNC",
+      "name": "True North Copper",
+      "volume": 583992,
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
+    },
+    {
       "code": "TVN",
       "name": "Tivan Ltd",
       "volume": 6681984,
       "avg_volume": 2705119.83,
       "volume_surge": 147.01
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
     },
     {
       "code": "POD",
@@ -1219,9 +1222,9 @@
     {
       "code": "GNP",
       "name": "Genusplus Group Ltd",
-      "volume": 250933,
-      "avg_volume": 668072.75,
-      "volume_surge": -62.44
+      "volume": 253675,
+      "avg_volume": 668187.0,
+      "volume_surge": -62.04
     },
     {
       "code": "GA8",
@@ -1233,9 +1236,9 @@
     {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "volume": 1822418,
-      "avg_volume": 4518637.5,
-      "volume_surge": -59.67
+      "volume": 1829123,
+      "avg_volume": 4518916.88,
+      "volume_surge": -59.52
     },
     {
       "code": "EDU",
