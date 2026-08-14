@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4334.9,
-  "silver": 64.307,
-  "platinum": 1725.1,
-  "palladium": 1309.5,
-  "copper": 6.5723,
-  "nickel": 16642.0,
-  "zinc": 3732.0,
+  "gold": 4345.73,
+  "silver": 64.683,
+  "platinum": 1732.0,
+  "palladium": 1311.0,
+  "copper": 6.5672,
+  "nickel": 16638.0,
+  "zinc": 3768.1,
   "lithium": 151500.0,
   "uranium": 87.25,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 07:01",
+  "_last_updated": "14 Aug 2026, 08:52",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 69.69,
       "pct": 0.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 07:01",
+      "updated": "14 Aug, 08:52",
       "hist": [
         44911.26,
         44946.12,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 214.54,
       "pct": 0.81,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 07:01"
+      "updated": "14 Aug, 08:52"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 07:01"
+      "updated": "14 Aug, 08:52"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 07:01"
+      "updated": "14 Aug, 08:52"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10772.67,
-      "change": -60.53,
-      "pct": -0.56,
+      "price": 10744.17,
+      "change": -28.5,
+      "pct": -0.26,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 07:01"
+      "updated": "14 Aug, 08:52"
     }
   },
   "watchlist": {
@@ -339,9 +339,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.385,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1822418,
-      "avg_volume": 4518637.5,
-      "volume_surge": -59.67
+      "volume": 1829123,
+      "avg_volume": 4518916.88,
+      "volume_surge": -59.52
     },
     "BNZ": {
       "name": "BENZ Mining Corp",
@@ -479,9 +479,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.73,
       "change": -0.34,
       "pct": -6.71,
-      "volume": 1343922,
-      "avg_volume": 1774162.88,
-      "volume_surge": -24.25
+      "volume": 1389335,
+      "avg_volume": 1776055.08,
+      "volume_surge": -21.77
     },
     "CYL": {
       "name": "Catalyst Metals",
@@ -557,11 +557,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "True North Copper",
       "code": "TNC",
       "price": 0.43,
-      "change": 0.0,
-      "pct": 0.0,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
     },
     "GML": {
       "name": "Gateway Mining Ltd",
@@ -667,11 +667,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Brazilian Rare Earths Ltd",
       "code": "BRE",
       "price": 4.73,
-      "change": 0.47,
-      "pct": 11.03,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 1367128,
-      "avg_volume": 422455.52,
-      "volume_surge": 223.61
+      "avg_volume": 404853.21,
+      "volume_surge": 237.68
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
@@ -799,9 +799,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.15,
       "change": 0.05,
       "pct": 0.55,
-      "volume": 253675,
-      "avg_volume": 668187.0,
-      "volume_surge": -62.04
+      "volume": 250933,
+      "avg_volume": 668072.75,
+      "volume_surge": -62.44
     },
     "4DX": {
       "name": "4DMEDICAL Ltd",
@@ -896,6 +896,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Beacon Minerals Finalizes Distribution of 36 Million Forrestania Resources Shares to Qualified Shareholders",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "14 Aug 2026"
+    },
+    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX:TGN): Share Price Jumps Nearly 2% - Here\u2019s What Driving the Move",
@@ -910,10 +917,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     },
     {
+      "code": "CRS",
+      "name": "Caprice Resources",
+      "title": "Caprice Resources (ASX:CRS) Builds A High-Grade Gold Story At Vadrians As Metallurgy Points To Simple Processing",
+      "link": "https://www.marketindex.com.au/asx/crs/announcements",
+      "date": "14 Aug 2026"
+    },
+    {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Black Canyon (ASX:BCA) Advances Wandanya Manganese Project Toward Resource Estimate",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "14 Aug 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "What Is Megaport (ASX:MP1) Signalling on the Execution Debate?",
+      "title": "What Could Drive Megaport (ASX:MP1) as AI Compute Demand Builds?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "14 Aug 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "What Does 4DMedical\u2019s (ASX:4DX) Expanded Share Base Mean for the Medical Imaging Company?",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "14 Aug 2026"
     },
     {
@@ -959,20 +987,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 14.65,
-  "gold_pct": -0.34,
-  "silver_change": 0.115,
-  "silver_pct": -0.18,
-  "platinum_change": 7.1,
-  "platinum_pct": -0.41,
-  "palladium_change": 16.5,
-  "palladium_pct": -1.24,
-  "copper_change": 0.0202,
-  "copper_pct": -0.31,
-  "nickel_change": 118.0,
-  "nickel_pct": -0.7,
-  "zinc_change": 5.45,
-  "zinc_pct": -0.15,
+  "gold_change": 3.82,
+  "gold_pct": -0.09,
+  "silver_change": 0.261,
+  "silver_pct": 0.41,
+  "platinum_change": 0.2,
+  "platinum_pct": -0.01,
+  "palladium_change": 15.0,
+  "palladium_pct": -1.13,
+  "copper_change": 0.0253,
+  "copper_pct": -0.38,
+  "nickel_change": 122.0,
+  "nickel_pct": -0.73,
+  "zinc_change": 30.65,
+  "zinc_pct": 0.82,
   "lithium_change": 4000.0,
   "lithium_pct": 2.71,
   "uranium_change": 0.1,
@@ -988,8 +1016,15 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
       "volume": 1367128,
-      "avg_volume": 422455.52,
-      "volume_surge": 223.61
+      "avg_volume": 404853.21,
+      "volume_surge": 237.68
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "volume": 583992,
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
     },
     {
       "code": "TVN",
@@ -997,13 +1032,6 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 6681984,
       "avg_volume": 2705119.83,
       "volume_surge": 147.01
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
     },
     {
       "code": "POD",
@@ -1067,8 +1095,15 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
       "volume": 1367128,
-      "avg_volume": 422455.52,
-      "volume_surge": 223.61
+      "avg_volume": 404853.21,
+      "volume_surge": 237.68
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "volume": 583992,
+      "avg_volume": 229924.25,
+      "volume_surge": 153.99
     },
     {
       "code": "TVN",
@@ -1076,13 +1111,6 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 6681984,
       "avg_volume": 2705119.83,
       "volume_surge": 147.01
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "volume": 583992,
-      "avg_volume": 239920.96,
-      "volume_surge": 143.41
     },
     {
       "code": "POD",
@@ -1194,9 +1222,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "GNP",
       "name": "Genusplus Group Ltd",
-      "volume": 253675,
-      "avg_volume": 668187.0,
-      "volume_surge": -62.04
+      "volume": 250933,
+      "avg_volume": 668072.75,
+      "volume_surge": -62.44
     },
     {
       "code": "GA8",
@@ -1208,9 +1236,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "volume": 1822418,
-      "avg_volume": 4518637.5,
-      "volume_surge": -59.67
+      "volume": 1829123,
+      "avg_volume": 4518916.88,
+      "volume_surge": -59.52
     },
     {
       "code": "EDU",
