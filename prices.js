@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4350.42,
-  "silver": 64.647,
-  "platinum": 1733.1,
-  "palladium": 1309.5,
-  "copper": 6.5703,
-  "nickel": 16690.0,
-  "zinc": 3769.2,
+  "gold": 4357.26,
+  "silver": 64.772,
+  "platinum": 1735.1,
+  "palladium": 1313.5,
+  "copper": 6.5816,
+  "nickel": 16739.0,
+  "zinc": 3766.85,
   "lithium": 151500.0,
   "uranium": 87.25,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 10:44",
+  "_last_updated": "14 Aug 2026, 11:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 69.69,
       "pct": 0.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 10:44",
+      "updated": "14 Aug, 11:33",
       "hist": [
         44911.26,
         44946.12,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 214.54,
       "pct": 0.81,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 10:44"
+      "updated": "14 Aug, 11:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 10:44"
+      "updated": "14 Aug, 11:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 10:44"
+      "updated": "14 Aug, 11:33"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10764.49,
-      "change": -8.18,
-      "pct": -0.08,
+      "price": 10761.71,
+      "change": -10.96,
+      "pct": -0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 10:44"
+      "updated": "14 Aug, 11:33"
     }
   },
   "watchlist": {
@@ -947,7 +947,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Can Pro Medicus (ASX:PME) Clarify the Clinical Delivery Test?",
+      "title": "Should Pro Medicus\u2019 7-Year, Usage-Based St. Luke\u2019s Deal Require Action From ASX:PME Investors?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "14 Aug 2026"
     },
@@ -987,20 +987,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 0.87,
-  "gold_pct": 0.02,
-  "silver_change": 0.225,
-  "silver_pct": 0.35,
-  "platinum_change": 0.9,
-  "platinum_pct": 0.05,
-  "palladium_change": 16.5,
-  "palladium_pct": -1.24,
-  "copper_change": 0.0222,
-  "copper_pct": -0.34,
-  "nickel_change": 70.0,
-  "nickel_pct": -0.42,
-  "zinc_change": 31.75,
-  "zinc_pct": 0.85,
+  "gold_change": 7.71,
+  "gold_pct": 0.18,
+  "silver_change": 0.35,
+  "silver_pct": 0.54,
+  "platinum_change": 2.9,
+  "platinum_pct": 0.17,
+  "palladium_change": 12.5,
+  "palladium_pct": -0.94,
+  "copper_change": 0.0109,
+  "copper_pct": -0.17,
+  "nickel_change": 21.0,
+  "nickel_pct": -0.13,
+  "zinc_change": 29.4,
+  "zinc_pct": 0.79,
   "lithium_change": 4000.0,
   "lithium_pct": 2.71,
   "uranium_change": 0.1,
