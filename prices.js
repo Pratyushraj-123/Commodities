@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4388.47,
-  "silver": 65.043,
-  "platinum": 1751.1,
-  "palladium": 1320.0,
-  "copper": 6.5682,
-  "nickel": 16758.0,
-  "zinc": 3754.1,
+  "gold": 4384.68,
+  "silver": 64.809,
+  "platinum": 1757.7,
+  "palladium": 1324.5,
+  "copper": 6.5938,
+  "nickel": 16775.0,
+  "zinc": 3758.3,
   "lithium": 151500.0,
   "uranium": 87.25,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Aug 2026, 15:38",
+  "_last_updated": "14 Aug 2026, 16:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53734.27,
-      "change": -105.72,
+      "price": 53730.13,
+      "change": -109.86,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 15:38",
+      "updated": "14 Aug, 16:36",
       "hist": [
         44911.26,
         44946.12,
@@ -274,16 +274,16 @@ window.LIVE_COMMODITY_PRICES = {
         53791.85,
         53770.27,
         53839.99,
-        53734.27
+        53729.99
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26678.7,
-      "change": -124.33,
-      "pct": -0.46,
+      "price": 26698.19,
+      "change": -104.83,
+      "pct": -0.39,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Aug, 15:38"
+      "updated": "14 Aug, 16:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +291,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -94.2,
       "pct": -1.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 15:38"
+      "updated": "14 Aug, 16:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,15 +299,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -92.2,
       "pct": -1.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Aug, 15:38"
+      "updated": "14 Aug, 16:36"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10753.55,
-      "change": -19.12,
-      "pct": -0.18,
+      "price": 10750.11,
+      "change": -22.56,
+      "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Aug, 15:38"
+      "updated": "14 Aug, 16:36"
     }
   },
   "watchlist": {
@@ -387,9 +387,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.51,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1177093,
+      "volume": 1199274,
       "avg_volume": 851568.0,
-      "volume_surge": 38.23
+      "volume_surge": 40.83
     },
     "WTM": {
       "name": "Waratah Minerals Ltd",
@@ -597,9 +597,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.23,
       "change": 0.01,
       "pct": 4.55,
-      "volume": 1301995,
+      "volume": 1344767,
       "avg_volume": 1410483.38,
-      "volume_surge": -7.69
+      "volume_surge": -4.66
     },
     "BCA": {
       "name": "Black Canyon Ltd",
@@ -817,9 +817,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 178.86,
       "change": -4.85,
       "pct": -2.64,
-      "volume": 200556,
+      "volume": 200910,
       "avg_volume": 237794.12,
-      "volume_surge": -15.66
+      "volume_surge": -15.51
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -985,20 +985,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Aug 2026"
     }
   ],
-  "gold_change": 38.92,
-  "gold_pct": 0.89,
-  "silver_change": 0.621,
-  "silver_pct": 0.96,
-  "platinum_change": 18.9,
-  "platinum_pct": 1.09,
-  "palladium_change": 6.0,
-  "palladium_pct": -0.45,
-  "copper_change": 0.0243,
-  "copper_pct": -0.37,
-  "nickel_change": 2.0,
-  "nickel_pct": -0.01,
-  "zinc_change": 16.65,
-  "zinc_pct": 0.45,
+  "gold_change": 35.13,
+  "gold_pct": 0.81,
+  "silver_change": 0.387,
+  "silver_pct": 0.6,
+  "platinum_change": 25.5,
+  "platinum_pct": 1.47,
+  "palladium_change": 1.5,
+  "palladium_pct": -0.11,
+  "copper_change": 0.0013,
+  "copper_pct": 0.02,
+  "nickel_change": 15.0,
+  "nickel_pct": 0.09,
+  "zinc_change": 20.85,
+  "zinc_pct": 0.56,
   "lithium_change": 4000.0,
   "lithium_pct": 2.71,
   "uranium_change": 0.1,
