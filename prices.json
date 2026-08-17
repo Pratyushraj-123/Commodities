@@ -1,11 +1,11 @@
 {
-  "gold": 4386.36,
-  "silver": 65.293,
-  "platinum": 1766.9,
-  "palladium": 1324.5,
-  "copper": 6.582,
-  "nickel": 16777.0,
-  "zinc": 3744.95,
+  "gold": 4410.99,
+  "silver": 65.711,
+  "platinum": 1777.9,
+  "palladium": 1334.0,
+  "copper": 6.6018,
+  "nickel": 16819.0,
+  "zinc": 3759.55,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 13:29",
+  "_last_updated": "17 Aug 2026, 14:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53732.41,
-      "change": -107.59,
-      "pct": -0.2,
+      "price": 53617.93,
+      "change": -114.48,
+      "pct": -0.21,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 13:29",
+      "updated": "17 Aug, 14:14",
       "hist": [
-        44946.12,
         44911.82,
         44922.27,
         44938.31,
@@ -258,12 +257,15 @@
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -273,16 +275,17 @@
         53791.85,
         53770.27,
         53839.99,
-        53732.41
+        53732.41,
+        53617.93
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26729.16,
-      "change": -73.84,
-      "pct": -0.28,
+      "price": 26751.47,
+      "change": 22.31,
+      "pct": 0.08,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 13:29"
+      "updated": "17 Aug, 14:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +293,7 @@
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 13:29"
+      "updated": "17 Aug, 14:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +301,15 @@
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 13:29"
+      "updated": "17 Aug, 14:14"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10730.09,
-      "change": -20.02,
-      "pct": -0.19,
+      "price": 10743.6,
+      "change": -6.51,
+      "pct": -0.06,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 13:29"
+      "updated": "17 Aug, 14:14"
     }
   },
   "watchlist": {
@@ -434,8 +437,8 @@
       "name": "EQ Resources Ltd",
       "code": "EQR",
       "price": 0.31,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 23348655,
       "avg_volume": 32281457.18,
       "volume_surge": -27.67
@@ -516,9 +519,9 @@
       "price": 0.625,
       "change": 0.025,
       "pct": 4.17,
-      "volume": 643564,
-      "avg_volume": 700524.0,
-      "volume_surge": -8.13
+      "volume": 678666,
+      "avg_volume": 702119.55,
+      "volume_surge": -3.34
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -526,9 +529,9 @@
       "price": 0.445,
       "change": 0.02,
       "pct": 4.71,
-      "volume": 824080,
-      "avg_volume": 1562878.68,
-      "volume_surge": -47.27
+      "volume": 845291,
+      "avg_volume": 1563842.82,
+      "volume_surge": -45.95
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -544,8 +547,8 @@
       "name": "Caprice Resources",
       "code": "CRS",
       "price": 0.09,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 2129402,
       "avg_volume": 2453363.59,
       "volume_surge": -13.2
@@ -564,8 +567,8 @@
       "name": "Gateway Mining Ltd",
       "code": "GML",
       "price": 0.078,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 2223381,
       "avg_volume": 1789265.41,
       "volume_surge": 24.26
@@ -616,9 +619,9 @@
       "price": 0.34,
       "change": 0.02,
       "pct": 6.25,
-      "volume": 3031174,
-      "avg_volume": 4073612.95,
-      "volume_surge": -25.59
+      "volume": 3068907,
+      "avg_volume": 4075328.09,
+      "volume_surge": -24.7
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -644,8 +647,8 @@
       "name": "Leeuwin Metals Ltd",
       "code": "LM1",
       "price": 0.185,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 2653,
       "avg_volume": 83272.32,
       "volume_surge": -96.81
@@ -664,8 +667,8 @@
       "name": "Brazilian Rare Earths Ltd",
       "code": "BRE",
       "price": 4.73,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 1367128,
       "avg_volume": 386753.23,
       "volume_surge": 253.49
@@ -726,9 +729,9 @@
       "price": 2.03,
       "change": 0.13,
       "pct": 6.84,
-      "volume": 132495,
-      "avg_volume": 240816.23,
-      "volume_surge": -44.98
+      "volume": 132628,
+      "avg_volume": 240822.27,
+      "volume_surge": -44.93
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -745,7 +748,7 @@
       "code": "NMR",
       "price": 0.068,
       "change": 0.001,
-      "pct": 1.49,
+      "pct": 0.75,
       "volume": 776898,
       "avg_volume": 1863368.64,
       "volume_surge": -58.31
@@ -776,9 +779,9 @@
       "price": 21.43,
       "change": -0.05,
       "pct": -0.23,
-      "volume": 1412260,
-      "avg_volume": 1561788.23,
-      "volume_surge": -9.57
+      "volume": 1414111,
+      "avg_volume": 1561872.36,
+      "volume_surge": -9.46
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -884,8 +887,8 @@
       "name": "Podium Minerals",
       "code": "POD",
       "price": 0.034,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 1.47,
       "volume": 856110,
       "avg_volume": 1097531.23,
       "volume_surge": -22.0
@@ -1000,7 +1003,7 @@
     {
       "code": "SGQ",
       "name": "ST George Mining",
-      "title": "St George Mining (ASX:SGQ) Gains 15.06% as Arax\u00e1 Drilling Extends Rare Earths and Niobium Scale",
+      "title": "St George Mining (ASX:SGQ) Shares on Investor\u2019s Radar \u2013 Here\u2019s Why",
       "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "17 Aug 2026"
     },
@@ -1061,20 +1064,20 @@
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 10.86,
-  "gold_pct": 0.25,
-  "silver_change": 0.632,
-  "silver_pct": 0.98,
-  "platinum_change": 10.0,
-  "platinum_pct": 0.57,
-  "palladium_change": 1.0,
-  "palladium_pct": -0.08,
-  "copper_change": 0.0175,
-  "copper_pct": -0.27,
-  "nickel_change": 33.0,
-  "nickel_pct": -0.2,
-  "zinc_change": 13.3,
-  "zinc_pct": -0.35,
+  "gold_change": 35.49,
+  "gold_pct": 0.81,
+  "silver_change": 1.05,
+  "silver_pct": 1.62,
+  "platinum_change": 21.0,
+  "platinum_pct": 1.2,
+  "palladium_change": 8.5,
+  "palladium_pct": 0.64,
+  "copper_change": 0.0023,
+  "copper_pct": 0.03,
+  "nickel_change": 9.0,
+  "nickel_pct": 0.05,
+  "zinc_change": 1.3,
+  "zinc_pct": 0.03,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
@@ -1310,9 +1313,9 @@
     {
       "code": "STN",
       "name": "Saturn Metals Ltd",
-      "volume": 824080,
-      "avg_volume": 1562878.68,
-      "volume_surge": -47.27
+      "volume": 845291,
+      "avg_volume": 1563842.82,
+      "volume_surge": -45.95
     },
     {
       "code": "SKS",
@@ -1324,9 +1327,9 @@
     {
       "code": "FML",
       "name": "Focus Minerals",
-      "volume": 132495,
-      "avg_volume": 240816.23,
-      "volume_surge": -44.98
+      "volume": 132628,
+      "avg_volume": 240822.27,
+      "volume_surge": -44.93
     },
     {
       "code": "BGD",
