@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4410.99,
-  "silver": 65.711,
-  "platinum": 1777.9,
-  "palladium": 1334.0,
-  "copper": 6.6018,
-  "nickel": 16819.0,
-  "zinc": 3759.55,
+  "gold": 4419.29,
+  "silver": 66.344,
+  "platinum": 1792.8,
+  "palladium": 1335.0,
+  "copper": 6.6034,
+  "nickel": 16808.0,
+  "zinc": 3764.4,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 14:14",
+  "_last_updated": "17 Aug 2026, 15:12",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53617.93,
-      "change": -114.48,
-      "pct": -0.21,
+      "price": 53545.42,
+      "change": -186.99,
+      "pct": -0.35,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 14:14",
+      "updated": "17 Aug, 15:12",
       "hist": [
         44911.82,
         44922.27,
@@ -276,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         53770.27,
         53839.99,
         53732.41,
-        53617.93
+        53548.96
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26751.47,
-      "change": 22.31,
-      "pct": 0.08,
+      "price": 26768.2,
+      "change": 39.04,
+      "pct": 0.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 14:14"
+      "updated": "17 Aug, 15:12"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 14:14"
+      "updated": "17 Aug, 15:12"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 14:14"
+      "updated": "17 Aug, 15:12"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10743.6,
-      "change": -6.51,
-      "pct": -0.06,
+      "price": 10727.28,
+      "change": -22.83,
+      "pct": -0.21,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 14:14"
+      "updated": "17 Aug, 15:12"
     }
   },
   "watchlist": {
@@ -1001,6 +1001,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "17 Aug 2026"
     },
     {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE) Readies Pilot Plant",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
       "code": "SGQ",
       "name": "ST George Mining",
       "title": "St George Mining (ASX:SGQ) Shares on Investor\u2019s Radar \u2013 Here\u2019s Why",
@@ -1064,20 +1071,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 35.49,
-  "gold_pct": 0.81,
-  "silver_change": 1.05,
-  "silver_pct": 1.62,
-  "platinum_change": 21.0,
-  "platinum_pct": 1.2,
-  "palladium_change": 8.5,
-  "palladium_pct": 0.64,
-  "copper_change": 0.0023,
-  "copper_pct": 0.03,
-  "nickel_change": 9.0,
-  "nickel_pct": 0.05,
-  "zinc_change": 1.3,
-  "zinc_pct": 0.03,
+  "gold_change": 43.79,
+  "gold_pct": 1.0,
+  "silver_change": 1.683,
+  "silver_pct": 2.6,
+  "platinum_change": 35.9,
+  "platinum_pct": 2.04,
+  "palladium_change": 9.5,
+  "palladium_pct": 0.72,
+  "copper_change": 0.0039,
+  "copper_pct": 0.06,
+  "nickel_change": 2.0,
+  "nickel_pct": -0.01,
+  "zinc_change": 6.15,
+  "zinc_pct": 0.16,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
