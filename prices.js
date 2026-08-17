@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4393.21,
-  "silver": 65.625,
-  "platinum": 1765.9,
-  "palladium": 1323.0,
-  "copper": 6.6567,
-  "nickel": 16837.0,
-  "zinc": 3760.0,
+  "gold": 4386.36,
+  "silver": 65.293,
+  "platinum": 1766.9,
+  "palladium": 1324.5,
+  "copper": 6.582,
+  "nickel": 16777.0,
+  "zinc": 3744.95,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 12:14",
+  "_last_updated": "17 Aug 2026, 13:29",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.59,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 12:14",
+      "updated": "17 Aug, 13:29",
       "hist": [
         44946.12,
         44911.82,
@@ -258,15 +258,12 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
-        52224.64,
-        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
-        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -285,7 +282,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -73.84,
       "pct": -0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 12:14"
+      "updated": "17 Aug, 13:29"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +290,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 12:14"
+      "updated": "17 Aug, 13:29"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +298,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 12:14"
+      "updated": "17 Aug, 13:29"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10762.72,
-      "change": 12.61,
-      "pct": 0.12,
+      "price": 10730.09,
+      "change": -20.02,
+      "pct": -0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 12:14"
+      "updated": "17 Aug, 13:29"
     }
   },
   "watchlist": {
@@ -519,9 +516,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.625,
       "change": 0.025,
       "pct": 4.17,
-      "volume": 678666,
-      "avg_volume": 702119.55,
-      "volume_surge": -3.34
+      "volume": 643564,
+      "avg_volume": 700524.0,
+      "volume_surge": -8.13
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -529,9 +526,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.445,
       "change": 0.02,
       "pct": 4.71,
-      "volume": 845291,
-      "avg_volume": 1563842.82,
-      "volume_surge": -45.95
+      "volume": 824080,
+      "avg_volume": 1562878.68,
+      "volume_surge": -47.27
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -619,9 +616,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.34,
       "change": 0.02,
       "pct": 6.25,
-      "volume": 3068907,
-      "avg_volume": 4075328.09,
-      "volume_surge": -24.7
+      "volume": 3031174,
+      "avg_volume": 4073612.95,
+      "volume_surge": -25.59
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -729,9 +726,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 2.03,
       "change": 0.13,
       "pct": 6.84,
-      "volume": 132628,
-      "avg_volume": 240822.27,
-      "volume_surge": -44.93
+      "volume": 132495,
+      "avg_volume": 240816.23,
+      "volume_surge": -44.98
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -779,9 +776,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 21.43,
       "change": -0.05,
       "pct": -0.23,
-      "volume": 1414111,
-      "avg_volume": 1561872.36,
-      "volume_surge": -9.46
+      "volume": 1412260,
+      "avg_volume": 1561788.23,
+      "volume_surge": -9.57
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -1017,7 +1014,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Why Megaport (ASX:MP1) Pivots Toward Compute Services",
+      "title": "Megaport (ASX:MP1) Gains as Cloud Interconnect Demand Lifts",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "17 Aug 2026"
     },
@@ -1064,20 +1061,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 17.71,
-  "gold_pct": 0.4,
-  "silver_change": 0.964,
-  "silver_pct": 1.49,
-  "platinum_change": 9.0,
-  "platinum_pct": 0.51,
-  "palladium_change": 2.5,
-  "palladium_pct": -0.19,
-  "copper_change": 0.0572,
-  "copper_pct": 0.87,
-  "nickel_change": 27.0,
-  "nickel_pct": 0.16,
-  "zinc_change": 1.75,
-  "zinc_pct": 0.05,
+  "gold_change": 10.86,
+  "gold_pct": 0.25,
+  "silver_change": 0.632,
+  "silver_pct": 0.98,
+  "platinum_change": 10.0,
+  "platinum_pct": 0.57,
+  "palladium_change": 1.0,
+  "palladium_pct": -0.08,
+  "copper_change": 0.0175,
+  "copper_pct": -0.27,
+  "nickel_change": 33.0,
+  "nickel_pct": -0.2,
+  "zinc_change": 13.3,
+  "zinc_pct": -0.35,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
@@ -1313,9 +1310,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "STN",
       "name": "Saturn Metals Ltd",
-      "volume": 845291,
-      "avg_volume": 1563842.82,
-      "volume_surge": -45.95
+      "volume": 824080,
+      "avg_volume": 1562878.68,
+      "volume_surge": -47.27
     },
     {
       "code": "SKS",
@@ -1327,9 +1324,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FML",
       "name": "Focus Minerals",
-      "volume": 132628,
-      "avg_volume": 240822.27,
-      "volume_surge": -44.93
+      "volume": 132495,
+      "avg_volume": 240816.23,
+      "volume_surge": -44.98
     },
     {
       "code": "BGD",
