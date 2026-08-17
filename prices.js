@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4397.41,
-  "silver": 65.531,
-  "platinum": 1759.1,
+  "gold": 4396.9,
+  "silver": 65.572,
+  "platinum": 1766.9,
   "palladium": 1332.5,
-  "copper": 6.6708,
-  "nickel": 16829.0,
-  "zinc": 3763.9,
+  "copper": 6.6829,
+  "nickel": 16846.0,
+  "zinc": 3768.3,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 09:25",
+  "_last_updated": "17 Aug 2026, 10:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.59,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 09:25",
+      "updated": "17 Aug, 10:17",
       "hist": [
         44946.12,
         44911.82,
@@ -258,12 +258,15 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -282,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -73.84,
       "pct": -0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 09:25"
+      "updated": "17 Aug, 10:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 09:25"
+      "updated": "17 Aug, 10:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 09:25"
+      "updated": "17 Aug, 10:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10763.91,
-      "change": 13.8,
-      "pct": 0.13,
+      "price": 10750.09,
+      "change": -0.02,
+      "pct": -0.0,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 09:25"
+      "updated": "17 Aug, 10:17"
     }
   },
   "watchlist": {
@@ -616,9 +619,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.34,
       "change": 0.02,
       "pct": 6.25,
-      "volume": 3031174,
-      "avg_volume": 4073612.95,
-      "volume_surge": -25.59
+      "volume": 3068907,
+      "avg_volume": 4075328.09,
+      "volume_surge": -24.7
     },
     "USL": {
       "name": "Unico Silver Ltd",
@@ -726,9 +729,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 2.03,
       "change": 0.13,
       "pct": 6.84,
-      "volume": 132495,
-      "avg_volume": 240816.23,
-      "volume_surge": -44.98
+      "volume": 132628,
+      "avg_volume": 240822.27,
+      "volume_surge": -44.93
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -776,9 +779,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 21.43,
       "change": -0.05,
       "pct": -0.23,
-      "volume": 1412260,
-      "avg_volume": 1561788.23,
-      "volume_surge": -9.57
+      "volume": 1414111,
+      "avg_volume": 1561872.36,
+      "volume_surge": -9.46
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -928,6 +931,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "17 Aug 2026"
     },
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6) Advances Bullabulling Gold Development Towards 2027 Investment Decision",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Ora Banda Mining (ASX:OBM) Shares Rise Today, Little Gem Drilling Expands Gold Footprint",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
       "code": "DVP",
       "name": "Develop Global",
       "title": "Develop Global (ASX: DVP) Secures A$275 Million Yitirrti Processing Plant Contract",
@@ -1000,8 +1017,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Why Megaport (ASX:MP1) Pivots Toward Compute Services",
+      "title": "Could Breville (ASX:BRG) and Megaport (ASX:MP1) Shape the Next Chapter?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "GenusPlus Group (ASX:GNP) Expands Infrastructure Platform Through Energy and Industrial Growth",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
       "date": "17 Aug 2026"
     },
     {
@@ -1040,20 +1064,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 21.91,
-  "gold_pct": 0.5,
-  "silver_change": 0.87,
-  "silver_pct": 1.35,
-  "platinum_change": 2.2,
-  "platinum_pct": 0.13,
+  "gold_change": 21.4,
+  "gold_pct": 0.49,
+  "silver_change": 0.911,
+  "silver_pct": 1.41,
+  "platinum_change": 10.0,
+  "platinum_pct": 0.57,
   "palladium_change": 7.0,
   "palladium_pct": 0.53,
-  "copper_change": 0.0713,
-  "copper_pct": 1.08,
-  "nickel_change": 19.0,
-  "nickel_pct": 0.11,
-  "zinc_change": 5.65,
-  "zinc_pct": 0.15,
+  "copper_change": 0.0834,
+  "copper_pct": 1.26,
+  "nickel_change": 36.0,
+  "nickel_pct": 0.21,
+  "zinc_change": 10.05,
+  "zinc_pct": 0.27,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
@@ -1303,9 +1327,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "FML",
       "name": "Focus Minerals",
-      "volume": 132495,
-      "avg_volume": 240816.23,
-      "volume_surge": -44.98
+      "volume": 132628,
+      "avg_volume": 240822.27,
+      "volume_surge": -44.93
     },
     {
       "code": "BGD",
