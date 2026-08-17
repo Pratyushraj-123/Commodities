@@ -1,9 +1,9 @@
 {
-  "gold": 4415.97,
-  "silver": 65.781,
-  "platinum": 1780.8,
-  "palladium": 1327.5,
-  "copper": 6.5983,
+  "gold": 4415.71,
+  "silver": 65.753,
+  "platinum": 1780.7,
+  "palladium": 1329.0,
+  "copper": 6.5951,
   "nickel": 16750.0,
   "zinc": 3760.8,
   "lithium": 153000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 21:13",
+  "_last_updated": "17 Aug 2026, 22:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -272.63,
       "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 21:13",
+      "updated": "17 Aug, 22:09",
       "hist": [
         44911.82,
         44922.27,
@@ -285,7 +285,7 @@
       "change": -84.25,
       "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 21:13"
+      "updated": "17 Aug, 22:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 21:13"
+      "updated": "17 Aug, 22:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 21:13"
+      "updated": "17 Aug, 22:09"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": -29.81,
       "pct": -0.28,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 21:13"
+      "updated": "17 Aug, 22:09"
     }
   },
   "watchlist": {
@@ -940,7 +940,7 @@
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Shares Rise Today, Little Gem Drilling Expands Gold Footprint",
+      "title": "What Moved Ora Banda Mining Ltd (ASX:OBM) Higher on 17 August 2026?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "17 Aug 2026"
     },
@@ -1024,7 +1024,7 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Gains as Cloud Interconnect Demand Lifts",
+      "title": "Megaport (ASX:MP1) Shares Slip as Global Network Expansion Stays in Focus",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "17 Aug 2026"
     },
@@ -1059,7 +1059,7 @@
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR) Sets FY27 Benchmarks as Kathleen Valley Ramp-Up Continues",
+      "title": "Liontown Ltd (ASX:LTR): Worth Watching After Today Rise?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "17 Aug 2026"
     },
@@ -1071,16 +1071,16 @@
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 40.47,
+  "gold_change": 40.21,
   "gold_pct": 0.92,
-  "silver_change": 1.12,
-  "silver_pct": 1.73,
-  "platinum_change": 24.3,
-  "platinum_pct": 1.38,
-  "palladium_change": 2.0,
-  "palladium_pct": 0.15,
-  "copper_change": 0.0012,
-  "copper_pct": -0.02,
+  "silver_change": 1.092,
+  "silver_pct": 1.69,
+  "platinum_change": 23.8,
+  "platinum_pct": 1.35,
+  "palladium_change": 3.5,
+  "palladium_pct": 0.26,
+  "copper_change": 0.0044,
+  "copper_pct": -0.07,
   "nickel_change": 60.0,
   "nickel_pct": -0.36,
   "zinc_change": 2.55,
