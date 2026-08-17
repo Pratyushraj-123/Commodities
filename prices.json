@@ -1,11 +1,11 @@
 {
-  "gold": 4419.29,
-  "silver": 66.344,
-  "platinum": 1792.8,
-  "palladium": 1335.0,
-  "copper": 6.6034,
-  "nickel": 16808.0,
-  "zinc": 3764.4,
+  "gold": 4426.69,
+  "silver": 66.347,
+  "platinum": 1790.8,
+  "palladium": 1338.0,
+  "copper": 6.5972,
+  "nickel": 16788.0,
+  "zinc": 3765.5,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 15:12",
+  "_last_updated": "17 Aug 2026, 16:10",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53545.42,
-      "change": -186.99,
-      "pct": -0.35,
+      "price": 53559.08,
+      "change": -173.33,
+      "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 15:12",
+      "updated": "17 Aug, 16:10",
       "hist": [
         44911.82,
         44922.27,
@@ -276,16 +276,16 @@
         53770.27,
         53839.99,
         53732.41,
-        53548.96
+        53559.84
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26768.2,
-      "change": 39.04,
-      "pct": 0.15,
+      "price": 26741.78,
+      "change": 12.62,
+      "pct": 0.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 15:12"
+      "updated": "17 Aug, 16:10"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 15:12"
+      "updated": "17 Aug, 16:10"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 15:12"
+      "updated": "17 Aug, 16:10"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10727.28,
-      "change": -22.83,
-      "pct": -0.21,
+      "price": 10720.3,
+      "change": -29.81,
+      "pct": -0.28,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 15:12"
+      "updated": "17 Aug, 16:10"
     }
   },
   "watchlist": {
@@ -1001,16 +1001,9 @@
       "date": "17 Aug 2026"
     },
     {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Readies Pilot Plant",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "17 Aug 2026"
-    },
-    {
       "code": "SGQ",
       "name": "ST George Mining",
-      "title": "St George Mining (ASX:SGQ) Shares on Investor\u2019s Radar \u2013 Here\u2019s Why",
+      "title": "St George Mining (ASX:SGQ) Gains 15.06% as Arax\u00e1 Drilling Extends Rare Earths and Niobium Scale",
       "link": "https://www.marketindex.com.au/asx/sgq/announcements",
       "date": "17 Aug 2026"
     },
@@ -1071,20 +1064,20 @@
       "date": "17 Aug 2026"
     }
   ],
-  "gold_change": 43.79,
-  "gold_pct": 1.0,
-  "silver_change": 1.683,
-  "silver_pct": 2.6,
-  "platinum_change": 35.9,
-  "platinum_pct": 2.04,
-  "palladium_change": 9.5,
-  "palladium_pct": 0.72,
-  "copper_change": 0.0039,
-  "copper_pct": 0.06,
-  "nickel_change": 2.0,
-  "nickel_pct": -0.01,
-  "zinc_change": 6.15,
-  "zinc_pct": 0.16,
+  "gold_change": 51.19,
+  "gold_pct": 1.17,
+  "silver_change": 1.686,
+  "silver_pct": 2.61,
+  "platinum_change": 33.9,
+  "platinum_pct": 1.93,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.94,
+  "copper_change": 0.0023,
+  "copper_pct": -0.03,
+  "nickel_change": 22.0,
+  "nickel_pct": -0.13,
+  "zinc_change": 7.25,
+  "zinc_pct": 0.19,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
