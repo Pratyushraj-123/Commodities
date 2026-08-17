@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4402.6,
-  "silver": 65.609,
-  "platinum": 1768.9,
-  "palladium": 1336.5,
-  "copper": 6.68,
-  "nickel": 16862.0,
-  "zinc": 3761.35,
+  "gold": 4397.41,
+  "silver": 65.531,
+  "platinum": 1759.1,
+  "palladium": 1332.5,
+  "copper": 6.6708,
+  "nickel": 16829.0,
+  "zinc": 3763.9,
   "lithium": 153000.0,
   "uranium": 87.45,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Aug 2026, 08:26",
+  "_last_updated": "17 Aug 2026, 09:25",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.59,
       "pct": -0.2,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 08:26",
+      "updated": "17 Aug, 09:25",
       "hist": [
         44946.12,
         44911.82,
@@ -282,7 +282,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -73.84,
       "pct": -0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Aug, 08:26"
+      "updated": "17 Aug, 09:25"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +290,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -42.0,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 08:26"
+      "updated": "17 Aug, 09:25"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +298,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -38.5,
       "pct": -0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Aug, 08:26"
+      "updated": "17 Aug, 09:25"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10766.07,
-      "change": 15.96,
-      "pct": 0.15,
+      "price": 10763.91,
+      "change": 13.8,
+      "pct": 0.13,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Aug, 08:26"
+      "updated": "17 Aug, 09:25"
     }
   },
   "watchlist": {
@@ -516,9 +516,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.625,
       "change": 0.025,
       "pct": 4.17,
-      "volume": 643564,
-      "avg_volume": 700524.0,
-      "volume_surge": -8.13
+      "volume": 678666,
+      "avg_volume": 702119.55,
+      "volume_surge": -3.34
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -526,9 +526,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.445,
       "change": 0.02,
       "pct": 4.71,
-      "volume": 824080,
-      "avg_volume": 1562878.68,
-      "volume_surge": -47.27
+      "volume": 845291,
+      "avg_volume": 1563842.82,
+      "volume_surge": -45.95
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -891,21 +891,169 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -22.0
     }
   },
-  "announcements": [],
-  "gold_change": 27.1,
-  "gold_pct": 0.62,
-  "silver_change": 0.948,
-  "silver_pct": 1.47,
-  "platinum_change": 12.0,
-  "platinum_pct": 0.68,
-  "palladium_change": 11.0,
-  "palladium_pct": 0.83,
-  "copper_change": 0.0805,
-  "copper_pct": 1.22,
-  "nickel_change": 52.0,
-  "nickel_pct": 0.31,
-  "zinc_change": 3.1,
-  "zinc_pct": 0.08,
+  "announcements": [
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Moves Tycho Gold Project Toward Mining With AUD 27mn Contract",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) Shares up Nearly 8% Today, Lounge Lizard Gold Mineralisation Results in Focus",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals (ASX: WTM) Identifies New High-Grade Gold Zone Along 6km Spur Corridor",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (ASX:LRV) Moves Hillgrove Toward First Production",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Nears Speewah Decision as Funding Path Takes Shape",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX: DVP) Secures A$275 Million Yitirrti Processing Plant Contract",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL) Shares Rise 7% Today, Liquidity Expands to A$531 Million",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN) Moves Apollo Hill Toward Development With Funding in Place",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX: TNC) Raises A$20 Million to Fund Mt Oxide Growth and Cloncurry Studies",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "SGC",
+      "name": "Sinclair Gold Ltd",
+      "title": "Sinclair Gold (ASX:SGC) Rises 11.23% as 50,000m Mt Henry Campaign Targets Resource Growth",
+      "link": "https://www.marketindex.com.au/asx/sgc/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "GoldArc scores 1m at 59.9g/t gold",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Sky Metals (ASX: SKY) Advances Tallebung Project as Investors Assess Development Pathway and Funding Requirements",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals Ltd (ASX:FFM): Is the Rally Justified?",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining (ASX:SGQ) Gains 15.06% as Arax\u00e1 Drilling Extends Rare Earths and Niobium Scale",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "Could SKS Technologies (ASX:SKS) Be an Undiscovered ASX Growth Story?",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Why Megaport (ASX:MP1) Pivots Toward Compute Services",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Pro Medicus (ASX:PME) Shares Dip as Contract Pipeline and FY26 Results Draw Focus",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "Echo IQ (ASX:EIQ) Stock Up 638% in a Year: What\u2019s Driving the AI Healthcare Expansion?",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "Neuren Pharmaceuticals (ASX:NEU) Shares in Focus as DAYBUE Growth Supports Higher Royalty Outlook",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown Resources (ASX:LTR) Sets FY27 Benchmarks as Kathleen Valley Ramp-Up Continues",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "17 Aug 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS) Climbs With Record FY26 Sales and P2000 Plans in View",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "17 Aug 2026"
+    }
+  ],
+  "gold_change": 21.91,
+  "gold_pct": 0.5,
+  "silver_change": 0.87,
+  "silver_pct": 1.35,
+  "platinum_change": 2.2,
+  "platinum_pct": 0.13,
+  "palladium_change": 7.0,
+  "palladium_pct": 0.53,
+  "copper_change": 0.0713,
+  "copper_pct": 1.08,
+  "nickel_change": 19.0,
+  "nickel_pct": 0.11,
+  "zinc_change": 5.65,
+  "zinc_pct": 0.15,
   "lithium_change": 1500.0,
   "lithium_pct": 0.99,
   "uranium_change": 0.2,
@@ -1141,9 +1289,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "STN",
       "name": "Saturn Metals Ltd",
-      "volume": 824080,
-      "avg_volume": 1562878.68,
-      "volume_surge": -47.27
+      "volume": 845291,
+      "avg_volume": 1563842.82,
+      "volume_surge": -45.95
     },
     {
       "code": "SKS",
