@@ -1,11 +1,11 @@
 {
-  "gold": 4391.41,
-  "silver": 65.045,
-  "platinum": 1755.7,
-  "palladium": 1317.5,
-  "copper": 6.5389,
-  "nickel": 16907.0,
-  "zinc": 3730.6,
+  "gold": 4391.18,
+  "silver": 65.002,
+  "platinum": 1756.2,
+  "palladium": 1309.0,
+  "copper": 6.5435,
+  "nickel": 16871.0,
+  "zinc": 3716.3,
   "lithium": 153500.0,
   "uranium": 87.75,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Aug 2026, 12:16",
+  "_last_updated": "18 Aug 2026, 13:32",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53459.78,
-      "change": -272.62,
-      "pct": -0.51,
+      "price": 53336.97,
+      "change": -122.81,
+      "pct": -0.23,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 12:16",
+      "updated": "18 Aug, 13:32",
       "hist": [
         44911.82,
         44922.27,
@@ -275,16 +275,17 @@
         53791.85,
         53770.27,
         53839.99,
-        53732.41
+        53732.41,
+        53336.97
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26644.91,
-      "change": -84.25,
-      "pct": -0.32,
+      "price": 26343.96,
+      "change": -300.95,
+      "pct": -1.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 12:16"
+      "updated": "18 Aug, 13:32"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +293,7 @@
       "change": -45.2,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 12:16"
+      "updated": "18 Aug, 13:32"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +301,15 @@
       "change": -41.8,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 12:16"
+      "updated": "18 Aug, 13:32"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10729.88,
-      "change": 9.58,
-      "pct": 0.09,
+      "price": 10750.27,
+      "change": 29.97,
+      "pct": 0.28,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Aug, 12:16"
+      "updated": "18 Aug, 13:32"
     }
   },
   "watchlist": {
@@ -916,6 +917,13 @@
       "date": "18 Aug 2026"
     },
     {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold Reports High-Grade Assays from Infill and Extensional Drilling at Tolmer Deposit",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "18 Aug 2026"
+    },
+    {
       "code": "AZY",
       "name": "Antipa Minerals",
       "title": "Antipa Minerals Limited's (ASX:AZY) largest shareholders are individual investors with 53% ownership, institutions own 23%",
@@ -1014,20 +1022,20 @@
       "date": "18 Aug 2026"
     }
   ],
-  "gold_change": 24.63,
+  "gold_change": 24.86,
   "gold_pct": -0.56,
-  "silver_change": 0.722,
-  "silver_pct": -1.1,
-  "platinum_change": 33.2,
-  "platinum_pct": -1.86,
-  "palladium_change": 19.5,
-  "palladium_pct": -1.46,
-  "copper_change": 0.0651,
-  "copper_pct": -0.99,
-  "nickel_change": 157.0,
-  "nickel_pct": 0.94,
-  "zinc_change": 30.2,
-  "zinc_pct": -0.8,
+  "silver_change": 0.765,
+  "silver_pct": -1.16,
+  "platinum_change": 32.7,
+  "platinum_pct": -1.83,
+  "palladium_change": 28.0,
+  "palladium_pct": -2.09,
+  "copper_change": 0.0605,
+  "copper_pct": -0.92,
+  "nickel_change": 121.0,
+  "nickel_pct": 0.72,
+  "zinc_change": 44.5,
+  "zinc_pct": -1.18,
   "lithium_change": 500.0,
   "lithium_pct": 0.33,
   "uranium_change": 0.3,
