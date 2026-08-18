@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4392.72,
-  "silver": 64.982,
-  "platinum": 1756.2,
-  "palladium": 1320.0,
-  "copper": 6.5161,
-  "nickel": 16799.0,
-  "zinc": 3721.5,
+  "gold": 4391.68,
+  "silver": 64.936,
+  "platinum": 1751.8,
+  "palladium": 1317.0,
+  "copper": 6.5146,
+  "nickel": 16868.0,
+  "zinc": 3714.95,
   "lithium": 153500.0,
   "uranium": 87.75,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Aug 2026, 08:18",
+  "_last_updated": "18 Aug 2026, 09:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -272.62,
       "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 08:18",
+      "updated": "18 Aug, 09:18",
       "hist": [
         44911.82,
         44922.27,
@@ -284,7 +284,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -84.25,
       "pct": -0.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 08:18"
+      "updated": "18 Aug, 09:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +292,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -45.2,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 08:18"
+      "updated": "18 Aug, 09:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +300,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.8,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 08:18"
+      "updated": "18 Aug, 09:18"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10715.49,
-      "change": -4.81,
-      "pct": -0.04,
+      "price": 10710.89,
+      "change": -9.41,
+      "pct": -0.09,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Aug, 08:18"
+      "updated": "18 Aug, 09:18"
     }
   },
   "watchlist": {
@@ -366,11 +366,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Beacon Minerals",
       "code": "BCN",
       "price": 3.09,
-      "change": 0.12,
-      "pct": 4.04,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 48605,
-      "avg_volume": 66416.05,
-      "volume_surge": -26.82
+      "avg_volume": 63397.14,
+      "volume_surge": -23.33
     },
     "SLS": {
       "name": "Solstice Minerals",
@@ -716,11 +716,11 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Ballymore Resources",
       "code": "BMR",
       "price": 0.145,
-      "change": -0.005,
-      "pct": -3.33,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 60040,
-      "avg_volume": 159673.86,
-      "volume_surge": -62.4
+      "avg_volume": 152415.95,
+      "volume_surge": -60.61
     },
     "FML": {
       "name": "Focus Minerals",
@@ -728,9 +728,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.97,
       "change": -0.06,
       "pct": -2.96,
-      "volume": 195168,
-      "avg_volume": 240463.5,
-      "volume_surge": -18.84
+      "volume": 195138,
+      "avg_volume": 240462.14,
+      "volume_surge": -18.85
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -768,9 +768,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 8.57,
       "change": -0.73,
       "pct": -7.85,
-      "volume": 1069889,
-      "avg_volume": 535738.32,
-      "volume_surge": 99.7
+      "volume": 1042542,
+      "avg_volume": 534495.27,
+      "volume_surge": 95.05
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -979,6 +979,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "18 Aug 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "Is 4DMedical\u2019s (ASX:4DX) Azra AI Tie-Up Quietly Redefining Its Lung-Health Platform Strategy?",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "18 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Pro Medicus (ASX:PME) share price soars 12% on strong FY26 result",
@@ -1007,20 +1014,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "18 Aug 2026"
     }
   ],
-  "gold_change": 23.32,
-  "gold_pct": -0.53,
-  "silver_change": 0.785,
-  "silver_pct": -1.19,
-  "platinum_change": 32.7,
-  "platinum_pct": -1.83,
-  "palladium_change": 17.0,
-  "palladium_pct": -1.27,
-  "copper_change": 0.0879,
-  "copper_pct": -1.33,
-  "nickel_change": 49.0,
-  "nickel_pct": 0.29,
-  "zinc_change": 39.3,
-  "zinc_pct": -1.04,
+  "gold_change": 24.36,
+  "gold_pct": -0.55,
+  "silver_change": 0.831,
+  "silver_pct": -1.26,
+  "platinum_change": 37.1,
+  "platinum_pct": -2.07,
+  "palladium_change": 20.0,
+  "palladium_pct": -1.5,
+  "copper_change": 0.0894,
+  "copper_pct": -1.35,
+  "nickel_change": 118.0,
+  "nickel_pct": 0.7,
+  "zinc_change": 45.85,
+  "zinc_pct": -1.22,
   "lithium_change": 500.0,
   "lithium_pct": 0.33,
   "uranium_change": 0.3,
@@ -1075,18 +1082,18 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": 133.32
     },
     {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "volume": 1069889,
-      "avg_volume": 535738.32,
-      "volume_surge": 99.7
-    },
-    {
       "code": "LRV",
       "name": "Larvotto Resources",
       "volume": 3201294,
       "avg_volume": 1614869.45,
       "volume_surge": 98.24
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "volume": 1042542,
+      "avg_volume": 534495.27,
+      "volume_surge": 95.05
     },
     {
       "code": "SLS",
@@ -1182,18 +1189,18 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": 133.32
     },
     {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "volume": 1069889,
-      "avg_volume": 535738.32,
-      "volume_surge": 99.7
-    },
-    {
       "code": "LRV",
       "name": "Larvotto Resources",
       "volume": 3201294,
       "avg_volume": 1614869.45,
       "volume_surge": 98.24
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "volume": 1042542,
+      "avg_volume": 534495.27,
+      "volume_surge": 95.05
     },
     {
       "code": "SLS",
@@ -1292,8 +1299,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BMR",
       "name": "Ballymore Resources",
       "volume": 60040,
-      "avg_volume": 159673.86,
-      "volume_surge": -62.4
+      "avg_volume": 152415.95,
+      "volume_surge": -60.61
     },
     {
       "code": "SPD",
