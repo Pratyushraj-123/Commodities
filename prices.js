@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4365.67,
-  "silver": 63.924,
-  "platinum": 1733.6,
-  "palladium": 1294.5,
-  "copper": 6.4808,
+  "gold": 4357.33,
+  "silver": 63.806,
+  "platinum": 1726.5,
+  "palladium": 1290.0,
+  "copper": 6.4685,
   "nickel": 16775.0,
   "zinc": 3696.2,
   "lithium": 153500.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Aug 2026, 17:14",
+  "_last_updated": "18 Aug 2026, 18:16",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53384.3,
-      "change": -75.48,
-      "pct": -0.14,
+      "price": 53387.69,
+      "change": -72.09,
+      "pct": -0.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 17:14",
+      "updated": "18 Aug, 18:16",
       "hist": [
         44911.82,
         44922.27,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53839.99,
         53732.41,
         53459.78,
-        53384.3
+        53387.54
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26362.69,
-      "change": -282.22,
-      "pct": -1.06,
+      "price": 26315.03,
+      "change": -329.88,
+      "pct": -1.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 17:14"
+      "updated": "18 Aug, 18:16"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -45.2,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 17:14"
+      "updated": "18 Aug, 18:16"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.8,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 17:14"
+      "updated": "18 Aug, 18:16"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 7.74,
       "pct": 0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Aug, 17:14"
+      "updated": "18 Aug, 18:16"
     }
   },
   "watchlist": {
@@ -830,9 +830,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.525,
       "change": -0.025,
       "pct": -1.61,
-      "volume": 2039915,
+      "volume": 2026262,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.03
+      "volume_surge": -36.46
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
@@ -974,6 +974,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "18 Aug 2026"
     },
     {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "Can SKS Technologies Group (ASX:SKS) Shares Justify A Premium P/E?",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
+      "date": "18 Aug 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
       "title": "Megaport Pushes Into AI Networking Infrastructure (ASX:MP1)",
@@ -1016,16 +1023,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "18 Aug 2026"
     }
   ],
-  "gold_change": 50.37,
-  "gold_pct": -1.14,
-  "silver_change": 1.843,
-  "silver_pct": -2.8,
-  "platinum_change": 55.3,
-  "platinum_pct": -3.09,
-  "palladium_change": 42.5,
-  "palladium_pct": -3.18,
-  "copper_change": 0.1232,
-  "copper_pct": -1.87,
+  "gold_change": 58.71,
+  "gold_pct": -1.33,
+  "silver_change": 1.961,
+  "silver_pct": -2.98,
+  "platinum_change": 62.4,
+  "platinum_pct": -3.49,
+  "palladium_change": 47.0,
+  "palladium_pct": -3.52,
+  "copper_change": 0.1355,
+  "copper_pct": -2.05,
   "nickel_change": 25.0,
   "nickel_pct": 0.15,
   "zinc_change": 64.6,
@@ -1349,9 +1356,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "volume": 2039915,
+      "volume": 2026262,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.03
+      "volume_surge": -36.46
     },
     {
       "code": "OBM",
