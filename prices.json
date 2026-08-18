@@ -1,10 +1,10 @@
 {
-  "gold": 4357.33,
-  "silver": 63.806,
-  "platinum": 1726.5,
-  "palladium": 1290.0,
-  "copper": 6.4685,
-  "nickel": 16775.0,
+  "gold": 4357.36,
+  "silver": 63.845,
+  "platinum": 1726.6,
+  "palladium": 1292.5,
+  "copper": 6.4656,
+  "nickel": 16790.0,
   "zinc": 3696.2,
   "lithium": 153500.0,
   "uranium": 87.75,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Aug 2026, 18:16",
+  "_last_updated": "18 Aug 2026, 19:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53387.69,
-      "change": -72.09,
-      "pct": -0.13,
+      "price": 53381.92,
+      "change": -77.86,
+      "pct": -0.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 18:16",
+      "updated": "18 Aug, 19:18",
       "hist": [
         44911.82,
         44922.27,
@@ -277,16 +277,16 @@
         53839.99,
         53732.41,
         53459.78,
-        53387.54
+        53381.92
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26315.03,
-      "change": -329.88,
-      "pct": -1.24,
+      "price": 26289.67,
+      "change": -355.24,
+      "pct": -1.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 18:16"
+      "updated": "18 Aug, 19:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -45.2,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 18:16"
+      "updated": "18 Aug, 19:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -41.8,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 18:16"
+      "updated": "18 Aug, 19:18"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": 7.74,
       "pct": 0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Aug, 18:16"
+      "updated": "18 Aug, 19:18"
     }
   },
   "watchlist": {
@@ -830,9 +830,9 @@
       "price": 1.525,
       "change": -0.025,
       "pct": -1.61,
-      "volume": 2026262,
+      "volume": 2039915,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.46
+      "volume_surge": -36.03
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
@@ -1023,18 +1023,18 @@
       "date": "18 Aug 2026"
     }
   ],
-  "gold_change": 58.71,
+  "gold_change": 58.68,
   "gold_pct": -1.33,
-  "silver_change": 1.961,
-  "silver_pct": -2.98,
-  "platinum_change": 62.4,
-  "platinum_pct": -3.49,
-  "palladium_change": 47.0,
-  "palladium_pct": -3.52,
-  "copper_change": 0.1355,
-  "copper_pct": -2.05,
-  "nickel_change": 25.0,
-  "nickel_pct": 0.15,
+  "silver_change": 1.922,
+  "silver_pct": -2.92,
+  "platinum_change": 62.3,
+  "platinum_pct": -3.48,
+  "palladium_change": 44.5,
+  "palladium_pct": -3.33,
+  "copper_change": 0.1384,
+  "copper_pct": -2.1,
+  "nickel_change": 40.0,
+  "nickel_pct": 0.24,
   "zinc_change": 64.6,
   "zinc_pct": -1.72,
   "lithium_change": 500.0,
@@ -1356,9 +1356,9 @@
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "volume": 2026262,
+      "volume": 2039915,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.46
+      "volume_surge": -36.03
     },
     {
       "code": "OBM",
