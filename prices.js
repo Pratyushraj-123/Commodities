@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4391.18,
-  "silver": 65.002,
-  "platinum": 1756.2,
-  "palladium": 1309.0,
-  "copper": 6.5435,
-  "nickel": 16871.0,
-  "zinc": 3716.3,
+  "gold": 4397.61,
+  "silver": 64.662,
+  "platinum": 1748.4,
+  "palladium": 1300.0,
+  "copper": 6.5214,
+  "nickel": 16866.0,
+  "zinc": 3715.85,
   "lithium": 153500.0,
   "uranium": 87.75,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Aug 2026, 13:32",
+  "_last_updated": "18 Aug 2026, 14:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53336.97,
-      "change": -122.81,
-      "pct": -0.23,
+      "price": 53452.93,
+      "change": -6.85,
+      "pct": -0.01,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 13:32",
+      "updated": "18 Aug, 14:18",
       "hist": [
         44911.82,
         44922.27,
@@ -257,15 +257,12 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
-        52224.64,
-        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
-        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -276,16 +273,16 @@ window.LIVE_COMMODITY_PRICES = {
         53770.27,
         53839.99,
         53732.41,
-        53336.97
+        53451.74
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26343.96,
-      "change": -300.95,
-      "pct": -1.13,
+      "price": 26318.24,
+      "change": -326.67,
+      "pct": -1.23,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Aug, 13:32"
+      "updated": "18 Aug, 14:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +290,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -45.2,
       "pct": -0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 13:32"
+      "updated": "18 Aug, 14:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +298,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -41.8,
       "pct": -0.46,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Aug, 13:32"
+      "updated": "18 Aug, 14:18"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10750.27,
-      "change": 29.97,
-      "pct": 0.28,
+      "price": 10762.43,
+      "change": 42.13,
+      "pct": 0.39,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Aug, 13:32"
+      "updated": "18 Aug, 14:19"
     }
   },
   "watchlist": {
@@ -319,9 +316,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.96,
       "change": 0.01,
       "pct": 1.05,
-      "volume": 391949,
+      "volume": 386949,
       "avg_volume": 341247.09,
-      "volume_surge": 14.86
+      "volume_surge": 13.39
     },
     "TM1": {
       "name": "Terra Metals",
@@ -599,9 +596,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.205,
       "change": -0.015,
       "pct": -6.82,
-      "volume": 3496060,
+      "volume": 3493566,
       "avg_volume": 1498388.73,
-      "volume_surge": 133.32
+      "volume_surge": 133.15
     },
     "BCA": {
       "name": "Black Canyon Ltd",
@@ -729,9 +726,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.97,
       "change": -0.06,
       "pct": -2.96,
-      "volume": 195168,
+      "volume": 195138,
       "avg_volume": 240463.5,
-      "volume_surge": -18.84
+      "volume_surge": -18.85
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -747,7 +744,7 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Native Mineral Resources",
       "code": "NMR",
       "price": 0.068,
-      "change": 0.0,
+      "change": 0.001,
       "pct": 0.74,
       "volume": 1809444,
       "avg_volume": 1928129.95,
@@ -757,8 +754,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Lachlan Star Ltd",
       "code": "LSA",
       "price": 0.15,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 267296,
       "avg_volume": 247662.86,
       "volume_surge": 7.93
@@ -769,9 +766,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 8.57,
       "change": -0.73,
       "pct": -7.85,
-      "volume": 1069889,
+      "volume": 1042542,
       "avg_volume": 535738.32,
-      "volume_surge": 99.7
+      "volume_surge": 94.6
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -829,9 +826,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.525,
       "change": -0.025,
       "pct": -1.61,
-      "volume": 2039915,
+      "volume": 2026262,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.03
+      "volume_surge": -36.46
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
@@ -870,8 +867,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.16,
       "pct": -3.14,
       "volume": 26090070,
-      "avg_volume": 23307953.0,
-      "volume_surge": 11.94
+      "avg_volume": 23315684.32,
+      "volume_surge": 11.9
     },
     "WC8": {
       "name": "Wildcat Resources Ltd",
@@ -1022,20 +1019,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "18 Aug 2026"
     }
   ],
-  "gold_change": 24.86,
-  "gold_pct": -0.56,
-  "silver_change": 0.765,
-  "silver_pct": -1.16,
-  "platinum_change": 32.7,
-  "platinum_pct": -1.83,
-  "palladium_change": 28.0,
-  "palladium_pct": -2.09,
-  "copper_change": 0.0605,
-  "copper_pct": -0.92,
-  "nickel_change": 121.0,
-  "nickel_pct": 0.72,
-  "zinc_change": 44.5,
-  "zinc_pct": -1.18,
+  "gold_change": 18.43,
+  "gold_pct": -0.42,
+  "silver_change": 1.105,
+  "silver_pct": -1.68,
+  "platinum_change": 40.5,
+  "platinum_pct": -2.26,
+  "palladium_change": 37.0,
+  "palladium_pct": -2.77,
+  "copper_change": 0.0826,
+  "copper_pct": -1.25,
+  "nickel_change": 116.0,
+  "nickel_pct": 0.69,
+  "zinc_change": 44.95,
+  "zinc_pct": -1.2,
   "lithium_change": 500.0,
   "lithium_pct": 0.33,
   "uranium_change": 0.3,
@@ -1085,16 +1082,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SKY",
       "name": "SKY Metals Ltd",
-      "volume": 3496060,
+      "volume": 3493566,
       "avg_volume": 1498388.73,
-      "volume_surge": 133.32
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "volume": 1069889,
-      "avg_volume": 535738.32,
-      "volume_surge": 99.7
+      "volume_surge": 133.15
     },
     {
       "code": "LRV",
@@ -1102,6 +1092,13 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 3201294,
       "avg_volume": 1614869.45,
       "volume_surge": 98.24
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "volume": 1042542,
+      "avg_volume": 535738.32,
+      "volume_surge": 94.6
     },
     {
       "code": "SLS",
@@ -1192,16 +1189,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SKY",
       "name": "SKY Metals Ltd",
-      "volume": 3496060,
+      "volume": 3493566,
       "avg_volume": 1498388.73,
-      "volume_surge": 133.32
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "volume": 1069889,
-      "avg_volume": 535738.32,
-      "volume_surge": 99.7
+      "volume_surge": 133.15
     },
     {
       "code": "LRV",
@@ -1209,6 +1199,13 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 3201294,
       "avg_volume": 1614869.45,
       "volume_surge": 98.24
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "volume": 1042542,
+      "avg_volume": 535738.32,
+      "volume_surge": 94.6
     },
     {
       "code": "SLS",
@@ -1355,9 +1352,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "volume": 2039915,
+      "volume": 2026262,
       "avg_volume": 3189095.64,
-      "volume_surge": -36.03
+      "volume_surge": -36.46
     },
     {
       "code": "OBM",
