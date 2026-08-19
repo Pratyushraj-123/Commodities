@@ -1,10 +1,10 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4488.21,
-  "silver": 65.814,
-  "platinum": 1812.6,
-  "palladium": 1330.0,
-  "copper": 6.4699,
-  "nickel": 17110.0,
+  "gold": 4503.43,
+  "silver": 66.264,
+  "platinum": 1825.9,
+  "palladium": 1335.0,
+  "copper": 6.4787,
+  "nickel": 17130.0,
   "zinc": 3708.6,
   "lithium": 151650.0,
   "uranium": 88.15,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 18:13",
+  "_last_updated": "19 Aug 2026, 19:15",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53462.87,
-      "change": 119.47,
+      "price": 53458.37,
+      "change": 114.97,
       "pct": 0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 18:13",
+      "updated": "19 Aug, 19:15",
       "hist": [
         44922.27,
         44938.31,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53732.41,
         53459.78,
         53343.4,
-        53462.87
+        53458.49
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26337.6,
-      "change": 47.89,
-      "pct": 0.18,
+      "price": 26353.34,
+      "change": 63.63,
+      "pct": 0.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 18:13"
+      "updated": "19 Aug, 19:15"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 18:13"
+      "updated": "19 Aug, 19:15"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 18:13"
+      "updated": "19 Aug, 19:15"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 15.31,
       "pct": 0.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 18:13"
+      "updated": "19 Aug, 19:15"
     }
   },
   "watchlist": {
@@ -911,13 +911,6 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Gains as Investors Assess Tungsten Production Growth and Expansion Plans",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "19 Aug 2026"
-    },
-    {
       "code": "ENR",
       "name": "Encounter Resources",
       "title": "Encounter Resources (ASX:ENR) Advances Aileron Niobium Project Through Major Drill Programme",
@@ -1002,18 +995,18 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 153.29,
-  "gold_pct": 3.54,
-  "silver_change": 2.494,
-  "silver_pct": 3.94,
-  "platinum_change": 78.8,
-  "platinum_pct": 4.54,
-  "palladium_change": 36.5,
-  "palladium_pct": 2.82,
-  "copper_change": 0.0126,
-  "copper_pct": -0.19,
-  "nickel_change": 320.0,
-  "nickel_pct": 1.91,
+  "gold_change": 168.51,
+  "gold_pct": 3.89,
+  "silver_change": 2.944,
+  "silver_pct": 4.65,
+  "platinum_change": 92.1,
+  "platinum_pct": 5.31,
+  "palladium_change": 41.5,
+  "palladium_pct": 3.21,
+  "copper_change": 0.0038,
+  "copper_pct": -0.06,
+  "nickel_change": 340.0,
+  "nickel_pct": 2.03,
   "zinc_change": 12.7,
   "zinc_pct": 0.34,
   "lithium_change": 1850.0,
