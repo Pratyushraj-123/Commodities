@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4354.54,
-  "silver": 63.094,
-  "platinum": 1734.6,
-  "palladium": 1289.0,
-  "copper": 6.4073,
-  "nickel": 16844.0,
-  "zinc": 3668.4,
+  "gold": 4362.54,
+  "silver": 63.206,
+  "platinum": 1738.4,
+  "palladium": 1291.5,
+  "copper": 6.4129,
+  "nickel": 16875.0,
+  "zinc": 3668.35,
   "lithium": 151650.0,
   "uranium": 88.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 09:18",
+  "_last_updated": "19 Aug 2026, 10:13",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -116.4,
       "pct": -0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 09:18",
+      "updated": "19 Aug, 10:13",
       "hist": [
         44922.27,
         44938.31,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -355.2,
       "pct": -1.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 09:18"
+      "updated": "19 Aug, 10:13"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 09:18"
+      "updated": "19 Aug, 10:13"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 09:18"
+      "updated": "19 Aug, 10:13"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10713.95,
-      "change": -14.09,
-      "pct": -0.13,
+      "price": 10706.9,
+      "change": -21.14,
+      "pct": -0.2,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 09:18"
+      "updated": "19 Aug, 10:13"
     }
   },
   "watchlist": {
@@ -399,9 +399,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.61,
       "change": 0.04,
       "pct": 7.02,
-      "volume": 2488168,
-      "avg_volume": 790483.65,
-      "volume_surge": 214.77
+      "volume": 2454724,
+      "avg_volume": 789029.57,
+      "volume_surge": 211.11
     },
     "LRV": {
       "name": "Larvotto Resources",
@@ -429,9 +429,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.22,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1232460,
-      "avg_volume": 879255.39,
-      "volume_surge": 40.17
+      "volume": 1230900,
+      "avg_volume": 879187.57,
+      "volume_surge": 40.0
     },
     "EQR": {
       "name": "EQ Resources Ltd",
@@ -519,9 +519,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.61,
       "change": -0.005,
       "pct": -0.81,
-      "volume": 720406,
-      "avg_volume": 713330.87,
-      "volume_surge": 0.99
+      "volume": 677431,
+      "avg_volume": 711462.39,
+      "volume_surge": -4.78
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -529,9 +529,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.435,
       "change": -0.005,
       "pct": -1.14,
-      "volume": 1454142,
-      "avg_volume": 1561206.48,
-      "volume_surge": -6.86
+      "volume": 1453204,
+      "avg_volume": 1561165.7,
+      "volume_surge": -6.92
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -629,9 +629,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.755,
       "change": -0.015,
       "pct": -1.95,
-      "volume": 1819294,
-      "avg_volume": 2427790.52,
-      "volume_surge": -25.06
+      "volume": 1806998,
+      "avg_volume": 2427255.91,
+      "volume_surge": -25.55
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -669,9 +669,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.05,
       "change": -0.25,
       "pct": -5.81,
-      "volume": 1119901,
-      "avg_volume": 463813.43,
-      "volume_surge": 141.46
+      "volume": 1118357,
+      "avg_volume": 463746.3,
+      "volume_surge": 141.16
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
@@ -729,9 +729,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.945,
       "change": -0.025,
       "pct": -1.27,
-      "volume": 287961,
-      "avg_volume": 242528.61,
-      "volume_surge": 18.73
+      "volume": 286916,
+      "avg_volume": 242483.17,
+      "volume_surge": 18.32
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -849,9 +849,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.65,
       "change": -0.06,
       "pct": -1.27,
-      "volume": 599335,
-      "avg_volume": 757842.39,
-      "volume_surge": -20.92
+      "volume": 578961,
+      "avg_volume": 756956.57,
+      "volume_surge": -23.51
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -910,6 +910,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
+      "code": "ENR",
+      "name": "Encounter Resources",
+      "title": "Encounter Resources (ASX:ENR) Advances Aileron Niobium Project Through Major Drill Programme",
+      "link": "https://www.marketindex.com.au/asx/enr/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
       "code": "MI6",
       "name": "Minerals 260",
       "title": "Minerals 260 (ASX:MI6) Gains Attention After Major Resource Upgrade and Pre-Feasibility Study Milestones",
@@ -935,6 +942,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Catalyst Metals",
       "title": "Catalyst Metals (ASX:CYL) Gains Attention After Record Quarter and Gold Resource Expansion Update",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies (ASX:SKS) Stock Outlook: What Lies Ahead",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "19 Aug 2026"
     },
     {
@@ -966,20 +980,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 19.62,
-  "gold_pct": 0.45,
-  "silver_change": 0.226,
-  "silver_pct": -0.36,
-  "platinum_change": 0.8,
-  "platinum_pct": 0.05,
-  "palladium_change": 4.5,
-  "palladium_pct": -0.35,
-  "copper_change": 0.0752,
-  "copper_pct": -1.16,
-  "nickel_change": 54.0,
-  "nickel_pct": 0.32,
-  "zinc_change": 27.5,
-  "zinc_pct": -0.74,
+  "gold_change": 27.62,
+  "gold_pct": 0.64,
+  "silver_change": 0.114,
+  "silver_pct": -0.18,
+  "platinum_change": 4.6,
+  "platinum_pct": 0.27,
+  "palladium_change": 2.0,
+  "palladium_pct": -0.15,
+  "copper_change": 0.0696,
+  "copper_pct": -1.07,
+  "nickel_change": 85.0,
+  "nickel_pct": 0.51,
+  "zinc_change": 27.55,
+  "zinc_pct": -0.75,
   "lithium_change": 1850.0,
   "lithium_pct": -1.21,
   "uranium_change": 0.4,
@@ -1001,9 +1015,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
-      "volume": 2488168,
-      "avg_volume": 790483.65,
-      "volume_surge": 214.77
+      "volume": 2454724,
+      "avg_volume": 789029.57,
+      "volume_surge": 211.11
     },
     {
       "code": "BPM",
@@ -1022,9 +1036,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1119901,
-      "avg_volume": 463813.43,
-      "volume_surge": 141.46
+      "volume": 1118357,
+      "avg_volume": 463746.3,
+      "volume_surge": 141.16
     },
     {
       "code": "CBE",
@@ -1080,9 +1094,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
-      "volume": 2488168,
-      "avg_volume": 790483.65,
-      "volume_surge": 214.77
+      "volume": 2454724,
+      "avg_volume": 789029.57,
+      "volume_surge": 211.11
     },
     {
       "code": "BPM",
@@ -1101,9 +1115,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1119901,
-      "avg_volume": 463813.43,
-      "volume_surge": 141.46
+      "volume": 1118357,
+      "avg_volume": 463746.3,
+      "volume_surge": 141.16
     },
     {
       "code": "CBE",
