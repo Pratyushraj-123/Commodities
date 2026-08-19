@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4368.25,
-  "silver": 63.745,
-  "platinum": 1745.5,
-  "palladium": 1292.0,
-  "copper": 6.4123,
-  "nickel": 16861.0,
-  "zinc": 3657.25,
+  "gold": 4464.32,
+  "silver": 65.406,
+  "platinum": 1784.4,
+  "palladium": 1327.5,
+  "copper": 6.4729,
+  "nickel": 16983.0,
+  "zinc": 3717.4,
   "lithium": 151650.0,
   "uranium": 88.15,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 12:16",
+  "_last_updated": "19 Aug 2026, 13:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53343.4,
-      "change": -116.4,
-      "pct": -0.22,
+      "price": 53443.01,
+      "change": 99.61,
+      "pct": 0.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 12:16",
+      "updated": "19 Aug, 13:33",
       "hist": [
         44922.27,
         44938.31,
@@ -273,16 +273,17 @@ window.LIVE_COMMODITY_PRICES = {
         53839.99,
         53732.41,
         53459.78,
-        53343.4
+        53343.4,
+        53443.01
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26289.71,
-      "change": -355.2,
-      "pct": -1.33,
+      "price": 26397.33,
+      "change": 107.62,
+      "pct": 0.41,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 12:16"
+      "updated": "19 Aug, 13:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +291,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 12:16"
+      "updated": "19 Aug, 13:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +299,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 12:16"
+      "updated": "19 Aug, 13:33"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10726.59,
-      "change": -1.45,
+      "price": 10727.05,
+      "change": -0.99,
       "pct": -0.01,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 12:16"
+      "updated": "19 Aug, 13:33"
     }
   },
   "watchlist": {
@@ -326,9 +327,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.225,
       "change": -0.015,
       "pct": -6.25,
-      "volume": 987171,
-      "avg_volume": 1121693.35,
-      "volume_surge": -11.99
+      "volume": 996029,
+      "avg_volume": 1122078.48,
+      "volume_surge": -11.23
     },
     "FRS": {
       "name": "Forrestania Resources",
@@ -516,9 +517,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.61,
       "change": -0.005,
       "pct": -0.81,
-      "volume": 677431,
-      "avg_volume": 711462.39,
-      "volume_surge": -4.78
+      "volume": 720406,
+      "avg_volume": 713330.87,
+      "volume_surge": 0.99
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -666,9 +667,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.05,
       "change": -0.25,
       "pct": -5.81,
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
@@ -726,9 +727,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.945,
       "change": -0.025,
       "pct": -1.27,
-      "volume": 286916,
-      "avg_volume": 242483.17,
-      "volume_surge": 18.32
+      "volume": 287961,
+      "avg_volume": 242528.61,
+      "volume_surge": 18.73
     },
     "TTM": {
       "name": "Titan Minerals",
@@ -846,9 +847,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.65,
       "change": -0.06,
       "pct": -1.27,
-      "volume": 578961,
-      "avg_volume": 756956.57,
-      "volume_surge": -23.51
+      "volume": 599335,
+      "avg_volume": 757842.39,
+      "volume_surge": -20.92
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -949,6 +950,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Black Canyon (ASX:BCA) Share Price Advances Ahead of Wandanya Manganese Resource Update",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN) Under Investor Watch After SARECO Acquisition and Project Update",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
       "title": "SKS Technologies (ASX:SKS) Stock Outlook: What Lies Ahead",
@@ -984,20 +999,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 33.33,
-  "gold_pct": 0.77,
-  "silver_change": 0.425,
-  "silver_pct": 0.67,
-  "platinum_change": 11.7,
-  "platinum_pct": 0.67,
-  "palladium_change": 1.5,
-  "palladium_pct": -0.12,
-  "copper_change": 0.0702,
-  "copper_pct": -1.08,
-  "nickel_change": 71.0,
-  "nickel_pct": 0.42,
-  "zinc_change": 38.65,
-  "zinc_pct": -1.05,
+  "gold_change": 129.4,
+  "gold_pct": 2.99,
+  "silver_change": 2.086,
+  "silver_pct": 3.3,
+  "platinum_change": 50.6,
+  "platinum_pct": 2.92,
+  "palladium_change": 34.0,
+  "palladium_pct": 2.63,
+  "copper_change": 0.0096,
+  "copper_pct": -0.15,
+  "nickel_change": 193.0,
+  "nickel_pct": 1.15,
+  "zinc_change": 21.5,
+  "zinc_pct": 0.58,
   "lithium_change": 1850.0,
   "lithium_pct": -1.21,
   "uranium_change": 0.4,
@@ -1040,9 +1055,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     {
       "code": "CBE",
@@ -1119,9 +1134,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     {
       "code": "CBE",
