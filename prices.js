@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4361.41,
-  "silver": 63.244,
-  "platinum": 1733.4,
-  "palladium": 1292.5,
-  "copper": 6.4297,
-  "nickel": 16843.0,
-  "zinc": 3678.65,
+  "gold": 4354.54,
+  "silver": 63.094,
+  "platinum": 1734.6,
+  "palladium": 1289.0,
+  "copper": 6.4073,
+  "nickel": 16844.0,
+  "zinc": 3668.4,
   "lithium": 151650.0,
   "uranium": 88.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 08:19",
+  "_last_updated": "19 Aug 2026, 09:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -116.4,
       "pct": -0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 08:19",
+      "updated": "19 Aug, 09:18",
       "hist": [
         44922.27,
         44938.31,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -355.2,
       "pct": -1.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 08:19"
+      "updated": "19 Aug, 09:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 08:19"
+      "updated": "19 Aug, 09:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 08:19"
+      "updated": "19 Aug, 09:18"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10725.37,
-      "change": -2.67,
-      "pct": -0.02,
+      "price": 10713.95,
+      "change": -14.09,
+      "pct": -0.13,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 08:19"
+      "updated": "19 Aug, 09:18"
     }
   },
   "watchlist": {
@@ -903,6 +903,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Gains as Investors Assess Tungsten Production Growth and Expansion Plans",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
       "code": "MI6",
       "name": "Minerals 260",
       "title": "Minerals 260 (ASX:MI6) Gains Attention After Major Resource Upgrade and Pre-Feasibility Study Milestones",
@@ -921,6 +928,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Develop Global",
       "title": "Develop Global (ASX:DVP) Under Investor Watch After Yitirrti Processing Plant Contract Milestone",
       "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL) Gains Attention After Record Quarter and Gold Resource Expansion Update",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
       "date": "19 Aug 2026"
     },
     {
@@ -952,20 +966,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 26.49,
-  "gold_pct": 0.61,
-  "silver_change": 0.076,
-  "silver_pct": -0.12,
-  "platinum_change": 0.4,
-  "platinum_pct": -0.02,
-  "palladium_change": 1.0,
-  "palladium_pct": -0.08,
-  "copper_change": 0.0528,
-  "copper_pct": -0.81,
-  "nickel_change": 53.0,
+  "gold_change": 19.62,
+  "gold_pct": 0.45,
+  "silver_change": 0.226,
+  "silver_pct": -0.36,
+  "platinum_change": 0.8,
+  "platinum_pct": 0.05,
+  "palladium_change": 4.5,
+  "palladium_pct": -0.35,
+  "copper_change": 0.0752,
+  "copper_pct": -1.16,
+  "nickel_change": 54.0,
   "nickel_pct": 0.32,
-  "zinc_change": 17.25,
-  "zinc_pct": -0.47,
+  "zinc_change": 27.5,
+  "zinc_pct": -0.74,
   "lithium_change": 1850.0,
   "lithium_pct": -1.21,
   "uranium_change": 0.4,
