@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4521.26,
-  "silver": 66.968,
-  "platinum": 1834.3,
-  "palladium": 1344.0,
-  "copper": 6.5008,
+  "gold": 4521.67,
+  "silver": 67.03,
+  "platinum": 1833.1,
+  "palladium": 1343.0,
+  "copper": 6.5024,
   "nickel": 17130.0,
   "zinc": 3708.1,
   "lithium": 151650.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 22:10",
+  "_last_updated": "19 Aug 2026, 23:10",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 119.65,
       "pct": 0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 22:10",
+      "updated": "19 Aug, 23:10",
       "hist": [
         44938.31,
         44785.5,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 41.38,
       "pct": 0.16,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 22:10"
+      "updated": "19 Aug, 23:10"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 22:10"
+      "updated": "19 Aug, 23:10"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 22:10"
+      "updated": "19 Aug, 23:10"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 15.31,
       "pct": 0.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 22:10"
+      "updated": "19 Aug, 23:10"
     }
   },
   "watchlist": {
@@ -966,6 +966,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "title": "We're Keeping An Eye On Titan Minerals' (ASX:TTM) Cash Burn Rate",
+      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
       "title": "SKS Technologies (ASX:SKS) Stock Outlook: What Lies Ahead",
@@ -982,7 +989,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "Can 4DMedical (ASX:4DX) Turn Its Azra AI Partnership Into a Bigger Lung-Health Opportunity?",
+      "title": "4DMedical (ASX:4DX) Could Be 24% Undervalued On Azra AI Partnership",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "19 Aug 2026"
     },
@@ -1001,16 +1008,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 186.34,
-  "gold_pct": 4.3,
-  "silver_change": 3.648,
-  "silver_pct": 5.76,
-  "platinum_change": 100.5,
-  "platinum_pct": 5.8,
-  "palladium_change": 50.5,
-  "palladium_pct": 3.9,
-  "copper_change": 0.0183,
-  "copper_pct": 0.28,
+  "gold_change": 186.75,
+  "gold_pct": 4.31,
+  "silver_change": 3.71,
+  "silver_pct": 5.86,
+  "platinum_change": 99.3,
+  "platinum_pct": 5.73,
+  "palladium_change": 49.5,
+  "palladium_pct": 3.83,
+  "copper_change": 0.0199,
+  "copper_pct": 0.31,
   "nickel_change": 340.0,
   "nickel_pct": 2.03,
   "zinc_change": 12.2,
