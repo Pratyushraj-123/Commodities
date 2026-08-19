@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4362.54,
-  "silver": 63.206,
-  "platinum": 1738.4,
-  "palladium": 1291.5,
-  "copper": 6.4129,
-  "nickel": 16875.0,
-  "zinc": 3668.35,
+  "gold": 4372.58,
+  "silver": 63.389,
+  "platinum": 1742.4,
+  "palladium": 1296.0,
+  "copper": 6.4119,
+  "nickel": 16889.0,
+  "zinc": 3665.35,
   "lithium": 151650.0,
   "uranium": 88.15,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 10:13",
+  "_last_updated": "19 Aug 2026, 11:12",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -116.4,
       "pct": -0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 10:13",
+      "updated": "19 Aug, 11:12",
       "hist": [
         44922.27,
         44938.31,
@@ -256,15 +256,12 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
-        52224.64,
-        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
-        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -285,7 +282,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -355.2,
       "pct": -1.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 10:13"
+      "updated": "19 Aug, 11:12"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +290,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 10:13"
+      "updated": "19 Aug, 11:12"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +298,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 10:13"
+      "updated": "19 Aug, 11:12"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10706.9,
-      "change": -21.14,
-      "pct": -0.2,
+      "price": 10712.4,
+      "change": -15.64,
+      "pct": -0.15,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 10:13"
+      "updated": "19 Aug, 11:12"
     }
   },
   "watchlist": {
@@ -429,9 +426,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.22,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1230900,
-      "avg_volume": 879187.57,
-      "volume_surge": 40.0
+      "volume": 1232460,
+      "avg_volume": 879255.39,
+      "volume_surge": 40.17
     },
     "EQR": {
       "name": "EQ Resources Ltd",
@@ -519,9 +516,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.61,
       "change": -0.005,
       "pct": -0.81,
-      "volume": 677431,
-      "avg_volume": 711462.39,
-      "volume_surge": -4.78
+      "volume": 720406,
+      "avg_volume": 713330.87,
+      "volume_surge": 0.99
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -903,6 +900,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     },
     {
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "Benz Mining (ASX:BNZ): Icon Deposit Drilling and Glenburgh Gold Growth Strategy Remain in Focus",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "19 Aug 2026"
+    },
+    {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "EQ Resources (ASX:EQR) Gains as Investors Assess Tungsten Production Growth and Expansion Plans",
@@ -975,25 +979,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR): Kathleen Valley Expansion, Lithium Production Growth and Cost Outlook Remain in Focus",
+      "title": "Liontown (ASX:LTR) Approaches FY26 Results With Kathleen Valley Cost Outlook in Focus",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 27.62,
-  "gold_pct": 0.64,
-  "silver_change": 0.114,
-  "silver_pct": -0.18,
-  "platinum_change": 4.6,
-  "platinum_pct": 0.27,
-  "palladium_change": 2.0,
-  "palladium_pct": -0.15,
-  "copper_change": 0.0696,
-  "copper_pct": -1.07,
-  "nickel_change": 85.0,
-  "nickel_pct": 0.51,
-  "zinc_change": 27.55,
-  "zinc_pct": -0.75,
+  "gold_change": 37.66,
+  "gold_pct": 0.87,
+  "silver_change": 0.069,
+  "silver_pct": 0.11,
+  "platinum_change": 8.6,
+  "platinum_pct": 0.5,
+  "palladium_change": 2.5,
+  "palladium_pct": 0.19,
+  "copper_change": 0.0706,
+  "copper_pct": -1.09,
+  "nickel_change": 99.0,
+  "nickel_pct": 0.59,
+  "zinc_change": 30.55,
+  "zinc_pct": -0.83,
   "lithium_change": 1850.0,
   "lithium_pct": -1.21,
   "uranium_change": 0.4,
