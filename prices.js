@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4486.49,
-  "silver": 65.653,
-  "platinum": 1791.0,
-  "palladium": 1325.0,
-  "copper": 6.4819,
-  "nickel": 17094.0,
-  "zinc": 3706.25,
+  "gold": 4498.48,
+  "silver": 65.93,
+  "platinum": 1814.6,
+  "palladium": 1333.5,
+  "copper": 6.4985,
+  "nickel": 17098.0,
+  "zinc": 3706.27,
   "lithium": 151650.0,
   "uranium": 88.15,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Aug 2026, 15:17",
+  "_last_updated": "19 Aug 2026, 16:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53634.4,
-      "change": 291.0,
-      "pct": 0.55,
+      "price": 53559.59,
+      "change": 216.19,
+      "pct": 0.41,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 15:17",
+      "updated": "19 Aug, 16:14",
       "hist": [
         44922.27,
         44938.31,
@@ -256,12 +256,15 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -274,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53732.41,
         53459.78,
         53343.4,
-        53634.49
+        53566.03
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26404.34,
-      "change": 114.63,
-      "pct": 0.44,
+      "price": 26441.64,
+      "change": 151.93,
+      "pct": 0.58,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Aug, 15:17"
+      "updated": "19 Aug, 16:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -19.4,
       "pct": -0.21,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 15:17"
+      "updated": "19 Aug, 16:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -21.2,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Aug, 15:17"
+      "updated": "19 Aug, 16:14"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10750.26,
-      "change": 22.22,
-      "pct": 0.21,
+      "price": 10743.35,
+      "change": 15.31,
+      "pct": 0.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Aug, 15:17"
+      "updated": "19 Aug, 16:14"
     }
   },
   "watchlist": {
@@ -327,9 +330,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.24,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 987171,
-      "avg_volume": 1121693.35,
-      "volume_surge": -11.99
+      "volume": 996029,
+      "avg_volume": 1122078.48,
+      "volume_surge": -11.23
     },
     "FRS": {
       "name": "Forrestania Resources",
@@ -517,9 +520,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.615,
       "change": -0.01,
       "pct": -1.6,
-      "volume": 720406,
-      "avg_volume": 713330.87,
-      "volume_surge": 0.99
+      "volume": 677431,
+      "avg_volume": 711462.39,
+      "volume_surge": -4.78
     },
     "STN": {
       "name": "Saturn Metals Ltd",
@@ -527,9 +530,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.44,
       "change": -0.005,
       "pct": -1.12,
-      "volume": 1454142,
-      "avg_volume": 1561206.48,
-      "volume_surge": -6.86
+      "volume": 1453204,
+      "avg_volume": 1561165.7,
+      "volume_surge": -6.92
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -627,9 +630,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.77,
       "change": -0.045,
       "pct": -5.52,
-      "volume": 1819294,
-      "avg_volume": 2427790.52,
-      "volume_surge": -25.06
+      "volume": 1806998,
+      "avg_volume": 2427255.91,
+      "volume_surge": -25.55
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -667,9 +670,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.3,
       "change": -0.43,
       "pct": -9.09,
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     "LIN": {
       "name": "Lindian Resources Ltd",
@@ -847,9 +850,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.71,
       "change": -0.24,
       "pct": -4.85,
-      "volume": 599335,
-      "avg_volume": 757842.39,
-      "volume_surge": -20.92
+      "volume": 578961,
+      "avg_volume": 756956.57,
+      "volume_surge": -23.51
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -999,19 +1002,19 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "19 Aug 2026"
     }
   ],
-  "gold_change": 151.57,
-  "gold_pct": 3.5,
-  "silver_change": 2.333,
-  "silver_pct": 3.69,
-  "platinum_change": 57.2,
-  "platinum_pct": 3.3,
-  "palladium_change": 31.5,
-  "palladium_pct": 2.44,
-  "copper_change": 0.0006,
-  "copper_pct": -0.01,
-  "nickel_change": 304.0,
-  "nickel_pct": 1.81,
-  "zinc_change": 10.35,
+  "gold_change": 163.56,
+  "gold_pct": 3.77,
+  "silver_change": 2.61,
+  "silver_pct": 4.12,
+  "platinum_change": 80.8,
+  "platinum_pct": 4.66,
+  "palladium_change": 40.0,
+  "palladium_pct": 3.09,
+  "copper_change": 0.016,
+  "copper_pct": 0.25,
+  "nickel_change": 308.0,
+  "nickel_pct": 1.84,
+  "zinc_change": 10.37,
   "zinc_pct": 0.28,
   "lithium_change": 1850.0,
   "lithium_pct": -1.21,
@@ -1055,9 +1058,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     {
       "code": "CBE",
@@ -1134,9 +1137,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "volume": 1118357,
-      "avg_volume": 463746.3,
-      "volume_surge": 141.16
+      "volume": 1119901,
+      "avg_volume": 463813.43,
+      "volume_surge": 141.46
     },
     {
       "code": "CBE",
