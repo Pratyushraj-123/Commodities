@@ -1,9 +1,9 @@
 {
-  "gold": 4469.9,
-  "silver": 68.078,
-  "platinum": 1842.0,
+  "gold": 4517.66,
+  "silver": 68.106,
+  "platinum": 1841.3,
   "palladium": 1334.0,
-  "copper": 6.4756,
+  "copper": 6.4721,
   "nickel": 16945.0,
   "zinc": 3748.6,
   "lithium": 151000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 21:14",
+  "_last_updated": "20 Aug 2026, 22:12",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -703.84,
       "pct": -1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 21:14",
+      "updated": "20 Aug, 22:12",
       "hist": [
         44785.5,
         45631.74,
@@ -285,7 +285,7 @@
       "change": -263.92,
       "pct": -1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 21:14"
+      "updated": "20 Aug, 22:12"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 21:14"
+      "updated": "20 Aug, 22:12"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 21:14"
+      "updated": "20 Aug, 22:12"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 4.81,
       "pct": 0.04,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 21:14"
+      "updated": "20 Aug, 22:12"
     }
   },
   "watchlist": {
@@ -470,8 +470,8 @@
       "change": 0.195,
       "pct": 14.03,
       "volume": 21881494,
-      "avg_volume": 9824765.92,
-      "volume_surge": 122.72
+      "avg_volume": 9852182.58,
+      "volume_surge": 122.1
     },
     "DVP": {
       "name": "Develop Global",
@@ -490,8 +490,8 @@
       "change": 0.11,
       "pct": 1.69,
       "volume": 2492484,
-      "avg_volume": 1354715.38,
-      "volume_surge": 83.99
+      "avg_volume": 1362720.08,
+      "volume_surge": 82.91
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -840,8 +840,8 @@
       "change": 0.29,
       "pct": 1.27,
       "volume": 763946,
-      "avg_volume": 588988.38,
-      "volume_surge": 29.7
+      "avg_volume": 589203.92,
+      "volume_surge": 29.66
     },
     "AYA": {
       "name": "ARTRYA Ltd",
@@ -860,8 +860,8 @@
       "change": 0.055,
       "pct": 4.78,
       "volume": 34725178,
-      "avg_volume": 38952716.54,
-      "volume_surge": -10.85
+      "avg_volume": 38954672.25,
+      "volume_surge": -10.86
     },
     "PLS": {
       "name": "PLS Group Ltd",
@@ -1036,16 +1036,16 @@
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 47.88,
-  "gold_pct": -1.06,
-  "silver_change": 1.152,
-  "silver_pct": 1.72,
-  "platinum_change": 31.5,
-  "platinum_pct": 1.74,
+  "gold_change": 0.12,
+  "gold_pct": 0.0,
+  "silver_change": 1.18,
+  "silver_pct": 1.76,
+  "platinum_change": 30.8,
+  "platinum_pct": 1.7,
   "palladium_change": 0.5,
   "palladium_pct": -0.04,
-  "copper_change": 0.0119,
-  "copper_pct": -0.18,
+  "copper_change": 0.0154,
+  "copper_pct": -0.24,
   "nickel_change": 185.0,
   "nickel_pct": -1.08,
   "zinc_change": 40.5,
@@ -1163,8 +1163,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 21881494,
-      "avg_volume": 9824765.92,
-      "volume_surge": 122.72
+      "avg_volume": 9852182.58,
+      "volume_surge": 122.1
     },
     {
       "code": "WTM",
@@ -1212,8 +1212,8 @@
       "code": "CYL",
       "name": "Catalyst Metals",
       "volume": 2492484,
-      "avg_volume": 1354715.38,
-      "volume_surge": 83.99
+      "avg_volume": 1362720.08,
+      "volume_surge": 82.91
     },
     {
       "code": "PME",
@@ -1326,8 +1326,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 21881494,
-      "avg_volume": 9824765.92,
-      "volume_surge": 122.72
+      "avg_volume": 9852182.58,
+      "volume_surge": 122.1
     },
     {
       "code": "WTM",
@@ -1375,8 +1375,8 @@
       "code": "CYL",
       "name": "Catalyst Metals",
       "volume": 2492484,
-      "avg_volume": 1354715.38,
-      "volume_surge": 83.99
+      "avg_volume": 1362720.08,
+      "volume_surge": 82.91
     },
     {
       "code": "PME",
