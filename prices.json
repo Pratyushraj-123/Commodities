@@ -1,9 +1,9 @@
 {
-  "gold": 4517.66,
-  "silver": 68.106,
-  "platinum": 1841.3,
-  "palladium": 1334.0,
-  "copper": 6.4721,
+  "gold": 4527.95,
+  "silver": 68.334,
+  "platinum": 1839.1,
+  "palladium": 1340.0,
+  "copper": 6.48,
   "nickel": 16945.0,
   "zinc": 3748.6,
   "lithium": 151000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 22:12",
+  "_last_updated": "20 Aug 2026, 23:12",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -703.84,
       "pct": -1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 22:12",
+      "updated": "20 Aug, 23:12",
       "hist": [
         44785.5,
         45631.74,
@@ -254,15 +254,12 @@
         52552.97,
         52146.42,
         51839.26,
-        52224.64,
-        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
-        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -285,7 +282,7 @@
       "change": -263.92,
       "pct": -1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 22:12"
+      "updated": "20 Aug, 23:12"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +290,7 @@
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 22:12"
+      "updated": "20 Aug, 23:12"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +298,7 @@
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 22:12"
+      "updated": "20 Aug, 23:12"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +306,7 @@
       "change": 4.81,
       "pct": 0.04,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 22:12"
+      "updated": "20 Aug, 23:12"
     }
   },
   "watchlist": {
@@ -489,9 +486,9 @@
       "price": 6.62,
       "change": 0.11,
       "pct": 1.69,
-      "volume": 2492484,
+      "volume": 2475197,
       "avg_volume": 1362720.08,
-      "volume_surge": 82.91
+      "volume_surge": 81.64
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -539,9 +536,9 @@
       "price": 0.08,
       "change": 0.002,
       "pct": 2.56,
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     "CRS": {
       "name": "Caprice Resources",
@@ -579,9 +576,9 @@
       "price": 1.4,
       "change": 0.095,
       "pct": 7.28,
-      "volume": 660595,
+      "volume": 660185,
       "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume_surge": 319.94
     },
     "GA8": {
       "name": "Goldarc Resources",
@@ -629,9 +626,9 @@
       "price": 0.88,
       "change": 0.125,
       "pct": 16.56,
-      "volume": 6627602,
+      "volume": 6625876,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.64
+      "volume_surge": 154.57
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -769,9 +766,9 @@
       "price": 8.39,
       "change": -0.35,
       "pct": -4.0,
-      "volume": 610177,
+      "volume": 596542,
       "avg_volume": 545550.88,
-      "volume_surge": 11.85
+      "volume_surge": 9.35
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -779,9 +776,9 @@
       "price": 19.31,
       "change": -1.03,
       "pct": -5.06,
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -849,9 +846,9 @@
       "price": 5.05,
       "change": 0.4,
       "pct": 8.6,
-      "volume": 851883,
+      "volume": 850508,
       "avg_volume": 761760.75,
-      "volume_surge": 11.83
+      "volume_surge": 11.65
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -1036,16 +1033,16 @@
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 0.12,
-  "gold_pct": 0.0,
-  "silver_change": 1.18,
-  "silver_pct": 1.76,
-  "platinum_change": 30.8,
-  "platinum_pct": 1.7,
-  "palladium_change": 0.5,
-  "palladium_pct": -0.04,
-  "copper_change": 0.0154,
-  "copper_pct": -0.24,
+  "gold_change": 10.17,
+  "gold_pct": 0.23,
+  "silver_change": 1.408,
+  "silver_pct": 2.1,
+  "platinum_change": 28.6,
+  "platinum_pct": 1.58,
+  "palladium_change": 5.5,
+  "palladium_pct": 0.41,
+  "copper_change": 0.0075,
+  "copper_pct": -0.12,
   "nickel_change": 185.0,
   "nickel_pct": -1.08,
   "zinc_change": 40.5,
@@ -1071,9 +1068,9 @@
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660595,
+      "volume": 660185,
       "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume_surge": 319.94
     },
     {
       "code": "TTM",
@@ -1085,9 +1082,9 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     {
       "code": "TGN",
@@ -1127,9 +1124,9 @@
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "volume": 6627602,
+      "volume": 6625876,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.64
+      "volume_surge": 154.57
     },
     {
       "code": "LM1",
@@ -1141,9 +1138,9 @@
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     {
       "code": "SLS",
@@ -1211,9 +1208,9 @@
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2492484,
+      "volume": 2475197,
       "avg_volume": 1362720.08,
-      "volume_surge": 82.91
+      "volume_surge": 81.64
     },
     {
       "code": "PME",
@@ -1234,9 +1231,9 @@
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660595,
+      "volume": 660185,
       "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume_surge": 319.94
     },
     {
       "code": "TTM",
@@ -1248,9 +1245,9 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     {
       "code": "TGN",
@@ -1290,9 +1287,9 @@
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "volume": 6627602,
+      "volume": 6625876,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.64
+      "volume_surge": 154.57
     },
     {
       "code": "LM1",
@@ -1304,9 +1301,9 @@
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     {
       "code": "SLS",
@@ -1374,9 +1371,9 @@
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2492484,
+      "volume": 2475197,
       "avg_volume": 1362720.08,
-      "volume_surge": 82.91
+      "volume_surge": 81.64
     },
     {
       "code": "PME",
