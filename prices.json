@@ -1,11 +1,11 @@
 {
-  "gold": 4490.29,
-  "silver": 67.4,
-  "platinum": 1812.1,
-  "palladium": 1325.0,
-  "copper": 6.4223,
-  "nickel": 16838.0,
-  "zinc": 3738.85,
+  "gold": 4540.09,
+  "silver": 68.95,
+  "platinum": 1837.8,
+  "palladium": 1340.0,
+  "copper": 6.4672,
+  "nickel": 16874.0,
+  "zinc": 3758.45,
   "lithium": 151000.0,
   "uranium": 88.25,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 14:22",
+  "_last_updated": "20 Aug 2026, 15:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53035.19,
-      "change": -427.86,
-      "pct": -0.8,
+      "price": 53124.54,
+      "change": -338.51,
+      "pct": -0.63,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 14:21",
+      "updated": "20 Aug, 15:20",
       "hist": [
         44938.31,
         44785.5,
@@ -255,12 +255,15 @@
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -274,16 +277,16 @@
         53459.78,
         53343.4,
         53463.05,
-        53035.19
+        53124.54
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26153.66,
-      "change": -177.43,
-      "pct": -0.67,
+      "price": 26129.43,
+      "change": -201.66,
+      "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 14:22"
+      "updated": "20 Aug, 15:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +294,7 @@
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 14:22"
+      "updated": "20 Aug, 15:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,15 +302,15 @@
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 14:22"
+      "updated": "20 Aug, 15:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10723.68,
-      "change": -19.67,
-      "pct": -0.18,
+      "price": 10764.07,
+      "change": 20.72,
+      "pct": 0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 14:22"
+      "updated": "20 Aug, 15:20"
     }
   },
   "watchlist": {
@@ -537,9 +540,9 @@
       "price": 0.08,
       "change": 0.002,
       "pct": 2.56,
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     "CRS": {
       "name": "Caprice Resources",
@@ -627,9 +630,9 @@
       "price": 0.88,
       "change": 0.125,
       "pct": 16.56,
-      "volume": 6625876,
+      "volume": 6627602,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.57
+      "volume_surge": 154.64
     },
     "BM1": {
       "name": "Ballard Mining Ltd",
@@ -777,9 +780,9 @@
       "price": 19.31,
       "change": -1.03,
       "pct": -5.06,
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -847,9 +850,9 @@
       "price": 5.05,
       "change": 0.4,
       "pct": 8.6,
-      "volume": 850508,
+      "volume": 851883,
       "avg_volume": 761760.75,
-      "volume_surge": 11.65
+      "volume_surge": 11.83
     },
     "LTR": {
       "name": "Liontown Ltd",
@@ -1027,20 +1030,20 @@
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 27.49,
-  "gold_pct": -0.61,
-  "silver_change": 0.474,
-  "silver_pct": 0.71,
-  "platinum_change": 1.6,
-  "platinum_pct": 0.09,
-  "palladium_change": 9.5,
-  "palladium_pct": -0.71,
-  "copper_change": 0.0652,
-  "copper_pct": -1.01,
-  "nickel_change": 292.0,
-  "nickel_pct": -1.71,
-  "zinc_change": 30.75,
-  "zinc_pct": 0.83,
+  "gold_change": 22.31,
+  "gold_pct": 0.49,
+  "silver_change": 2.024,
+  "silver_pct": 3.02,
+  "platinum_change": 27.3,
+  "platinum_pct": 1.51,
+  "palladium_change": 5.5,
+  "palladium_pct": 0.41,
+  "copper_change": 0.0203,
+  "copper_pct": -0.31,
+  "nickel_change": 256.0,
+  "nickel_pct": -1.5,
+  "zinc_change": 50.35,
+  "zinc_pct": 1.36,
   "lithium_change": 650.0,
   "lithium_pct": -0.43,
   "uranium_change": 0.1,
@@ -1076,9 +1079,9 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     {
       "code": "TGN",
@@ -1118,9 +1121,9 @@
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "volume": 6625876,
+      "volume": 6627602,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.57
+      "volume_surge": 154.64
     },
     {
       "code": "LM1",
@@ -1132,9 +1135,9 @@
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     {
       "code": "SLS",
@@ -1239,9 +1242,9 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5074410,
+      "volume": 5065261,
       "avg_volume": 1678155.08,
-      "volume_surge": 202.38
+      "volume_surge": 201.84
     },
     {
       "code": "TGN",
@@ -1281,9 +1284,9 @@
     {
       "code": "USL",
       "name": "Unico Silver Ltd",
-      "volume": 6625876,
+      "volume": 6627602,
       "avg_volume": 2602782.67,
-      "volume_surge": 154.57
+      "volume_surge": 154.64
     },
     {
       "code": "LM1",
@@ -1295,9 +1298,9 @@
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9937128,
+      "volume": 9778116,
       "avg_volume": 4023990.17,
-      "volume_surge": 146.95
+      "volume_surge": 143.0
     },
     {
       "code": "SLS",
