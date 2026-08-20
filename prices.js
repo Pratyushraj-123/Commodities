@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4540.09,
-  "silver": 68.95,
-  "platinum": 1837.8,
-  "palladium": 1340.0,
-  "copper": 6.4672,
-  "nickel": 16874.0,
-  "zinc": 3758.45,
+  "gold": 4509.06,
+  "silver": 68.034,
+  "platinum": 1835.4,
+  "palladium": 1336.5,
+  "copper": 6.457,
+  "nickel": 16885.0,
+  "zinc": 3752.63,
   "lithium": 151000.0,
   "uranium": 88.25,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 15:20",
+  "_last_updated": "20 Aug 2026, 16:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53124.54,
-      "change": -338.51,
-      "pct": -0.63,
+      "price": 53000.67,
+      "change": -462.38,
+      "pct": -0.86,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 15:20",
+      "updated": "20 Aug, 16:17",
       "hist": [
         44938.31,
         44785.5,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53459.78,
         53343.4,
         53463.05,
-        53124.54
+        53000.67
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26129.43,
-      "change": -201.66,
-      "pct": -0.77,
+      "price": 26090.41,
+      "change": -240.68,
+      "pct": -0.91,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 15:20"
+      "updated": "20 Aug, 16:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 15:20"
+      "updated": "20 Aug, 16:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 15:20"
+      "updated": "20 Aug, 16:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10764.07,
-      "change": 20.72,
-      "pct": 0.19,
+      "price": 10748.16,
+      "change": 4.81,
+      "pct": 0.04,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 15:20"
+      "updated": "20 Aug, 16:17"
     }
   },
   "watchlist": {
@@ -490,9 +490,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 6.62,
       "change": 0.11,
       "pct": 1.69,
-      "volume": 2475197,
+      "volume": 2492484,
       "avg_volume": 1354715.38,
-      "volume_surge": 82.71
+      "volume_surge": 83.99
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -540,9 +540,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.08,
       "change": 0.002,
       "pct": 2.56,
-      "volume": 9778116,
+      "volume": 9937128,
       "avg_volume": 4023990.17,
-      "volume_surge": 143.0
+      "volume_surge": 146.95
     },
     "CRS": {
       "name": "Caprice Resources",
@@ -580,9 +580,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.4,
       "change": 0.095,
       "pct": 7.28,
-      "volume": 660185,
+      "volume": 660595,
       "avg_volume": 157208.62,
-      "volume_surge": 319.94
+      "volume_surge": 320.2
     },
     "GA8": {
       "name": "Goldarc Resources",
@@ -770,9 +770,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 8.39,
       "change": -0.35,
       "pct": -4.0,
-      "volume": 596542,
+      "volume": 610177,
       "avg_volume": 545550.88,
-      "volume_surge": 9.35
+      "volume_surge": 11.85
     },
     "MP1": {
       "name": "Megaport Ltd",
@@ -780,9 +780,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 19.31,
       "change": -1.03,
       "pct": -5.06,
-      "volume": 5065261,
+      "volume": 5074410,
       "avg_volume": 1678155.08,
-      "volume_surge": 201.84
+      "volume_surge": 202.38
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -925,6 +925,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "20 Aug 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQR.AX may pursue aggressive buybacks and a U.S. listing, Jonah Lupton believes",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "20 Aug 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Rises 14% as 120% One-Year Gain Puts Davyhurst Scale in Focus",
@@ -1030,20 +1037,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 22.31,
-  "gold_pct": 0.49,
-  "silver_change": 2.024,
-  "silver_pct": 3.02,
-  "platinum_change": 27.3,
-  "platinum_pct": 1.51,
-  "palladium_change": 5.5,
-  "palladium_pct": 0.41,
-  "copper_change": 0.0203,
-  "copper_pct": -0.31,
-  "nickel_change": 256.0,
-  "nickel_pct": -1.5,
-  "zinc_change": 50.35,
-  "zinc_pct": 1.36,
+  "gold_change": 8.72,
+  "gold_pct": -0.19,
+  "silver_change": 1.108,
+  "silver_pct": 1.65,
+  "platinum_change": 24.9,
+  "platinum_pct": 1.38,
+  "palladium_change": 2.0,
+  "palladium_pct": 0.15,
+  "copper_change": 0.0305,
+  "copper_pct": -0.47,
+  "nickel_change": 245.0,
+  "nickel_pct": -1.43,
+  "zinc_change": 44.53,
+  "zinc_pct": 1.2,
   "lithium_change": 650.0,
   "lithium_pct": -0.43,
   "uranium_change": 0.1,
@@ -1065,9 +1072,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660185,
+      "volume": 660595,
       "avg_volume": 157208.62,
-      "volume_surge": 319.94
+      "volume_surge": 320.2
     },
     {
       "code": "TTM",
@@ -1079,9 +1086,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5065261,
+      "volume": 5074410,
       "avg_volume": 1678155.08,
-      "volume_surge": 201.84
+      "volume_surge": 202.38
     },
     {
       "code": "TGN",
@@ -1135,9 +1142,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9778116,
+      "volume": 9937128,
       "avg_volume": 4023990.17,
-      "volume_surge": 143.0
+      "volume_surge": 146.95
     },
     {
       "code": "SLS",
@@ -1205,9 +1212,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2475197,
+      "volume": 2492484,
       "avg_volume": 1354715.38,
-      "volume_surge": 82.71
+      "volume_surge": 83.99
     },
     {
       "code": "PME",
@@ -1228,9 +1235,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660185,
+      "volume": 660595,
       "avg_volume": 157208.62,
-      "volume_surge": 319.94
+      "volume_surge": 320.2
     },
     {
       "code": "TTM",
@@ -1242,9 +1249,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "volume": 5065261,
+      "volume": 5074410,
       "avg_volume": 1678155.08,
-      "volume_surge": 201.84
+      "volume_surge": 202.38
     },
     {
       "code": "TGN",
@@ -1298,9 +1305,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9778116,
+      "volume": 9937128,
       "avg_volume": 4023990.17,
-      "volume_surge": 143.0
+      "volume_surge": 146.95
     },
     {
       "code": "SLS",
@@ -1368,9 +1375,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2475197,
+      "volume": 2492484,
       "avg_volume": 1354715.38,
-      "volume_surge": 82.71
+      "volume_surge": 83.99
     },
     {
       "code": "PME",
