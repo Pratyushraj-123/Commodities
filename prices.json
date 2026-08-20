@@ -1,9 +1,9 @@
 {
-  "gold": 4508.52,
-  "silver": 68.169,
-  "platinum": 1834.9,
-  "palladium": 1336.5,
-  "copper": 6.4555,
+  "gold": 4509.4,
+  "silver": 67.842,
+  "platinum": 1828.2,
+  "palladium": 1331.5,
+  "copper": 6.4661,
   "nickel": 16852.0,
   "zinc": 3748.85,
   "lithium": 151000.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 17:16",
+  "_last_updated": "20 Aug 2026, 18:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52995.76,
-      "change": -467.29,
-      "pct": -0.87,
+      "price": 52836.56,
+      "change": -626.49,
+      "pct": -1.17,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 17:16",
+      "updated": "20 Aug, 18:17",
       "hist": [
         44938.31,
         44785.5,
@@ -274,16 +274,16 @@
         53459.78,
         53343.4,
         53463.05,
-        52995.76
+        52836.56
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26104.82,
-      "change": -226.27,
-      "pct": -0.86,
+      "price": 26030.56,
+      "change": -300.53,
+      "pct": -1.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 17:16"
+      "updated": "20 Aug, 18:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -291,7 +291,7 @@
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 17:16"
+      "updated": "20 Aug, 18:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -299,7 +299,7 @@
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 17:16"
+      "updated": "20 Aug, 18:17"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -307,7 +307,7 @@
       "change": 4.81,
       "pct": 0.04,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 17:16"
+      "updated": "20 Aug, 18:17"
     }
   },
   "watchlist": {
@@ -922,6 +922,13 @@
       "date": "20 Aug 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQR.AX may pursue aggressive buybacks and a U.S. listing, Jonah Lupton believes",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "20 Aug 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Rises 14% as 120% One-Year Gain Puts Davyhurst Scale in Focus",
@@ -1027,16 +1034,16 @@
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 9.26,
-  "gold_pct": -0.2,
-  "silver_change": 1.243,
-  "silver_pct": 1.86,
-  "platinum_change": 24.4,
-  "platinum_pct": 1.35,
-  "palladium_change": 2.0,
-  "palladium_pct": 0.15,
-  "copper_change": 0.032,
-  "copper_pct": -0.49,
+  "gold_change": 8.38,
+  "gold_pct": -0.19,
+  "silver_change": 0.916,
+  "silver_pct": 1.37,
+  "platinum_change": 17.7,
+  "platinum_pct": 0.98,
+  "palladium_change": 3.0,
+  "palladium_pct": -0.22,
+  "copper_change": 0.0214,
+  "copper_pct": -0.33,
   "nickel_change": 278.0,
   "nickel_pct": -1.62,
   "zinc_change": 40.75,
