@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4495.94,
-  "silver": 66.814,
-  "platinum": 1813.5,
-  "palladium": 1335.0,
-  "copper": 6.4635,
-  "nickel": 16923.0,
-  "zinc": 3717.85,
+  "gold": 4490.65,
+  "silver": 66.673,
+  "platinum": 1810.9,
+  "palladium": 1330.5,
+  "copper": 6.4616,
+  "nickel": 16885.0,
+  "zinc": 3742.05,
   "lithium": 151000.0,
   "uranium": 88.25,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "20 Aug 2026, 08:20",
+  "_last_updated": "20 Aug 2026, 09:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 119.65,
       "pct": 0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 08:20",
+      "updated": "20 Aug, 09:20",
       "hist": [
         44938.31,
         44785.5,
@@ -255,12 +255,15 @@ window.LIVE_COMMODITY_PRICES = {
         52552.97,
         52146.42,
         51839.26,
+        52224.64,
+        52218.58,
         51711.65,
         51947.25,
         52210.08,
         52747.32,
         51594.14,
         52208.06,
+        52485.03,
         53178.41,
         54085.88,
         54349.12,
@@ -282,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 41.38,
       "pct": 0.16,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "20 Aug, 08:20"
+      "updated": "20 Aug, 09:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -290,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 13.8,
       "pct": 0.15,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 08:20"
+      "updated": "20 Aug, 09:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -298,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 15.0,
       "pct": 0.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "20 Aug, 08:20"
+      "updated": "20 Aug, 09:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10711.93,
-      "change": -31.42,
-      "pct": -0.29,
+      "price": 10723.07,
+      "change": -20.28,
+      "pct": -0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "20 Aug, 08:20"
+      "updated": "20 Aug, 09:20"
     }
   },
   "watchlist": {
@@ -486,9 +489,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 6.62,
       "change": 0.11,
       "pct": 1.69,
-      "volume": 2475197,
-      "avg_volume": 1353995.08,
-      "volume_surge": 82.81
+      "volume": 2492484,
+      "avg_volume": 1354715.38,
+      "volume_surge": 83.99
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -536,9 +539,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.08,
       "change": 0.002,
       "pct": 2.56,
-      "volume": 9778116,
-      "avg_volume": 4017364.67,
-      "volume_surge": 143.4
+      "volume": 9937128,
+      "avg_volume": 4023990.17,
+      "volume_surge": 146.95
     },
     "CRS": {
       "name": "Caprice Resources",
@@ -576,9 +579,9 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.4,
       "change": 0.095,
       "pct": 7.28,
-      "volume": 660595,
-      "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume": 660185,
+      "avg_volume": 157191.54,
+      "volume_surge": 319.99
     },
     "GA8": {
       "name": "Goldarc Resources",
@@ -717,8 +720,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 5842,
-      "avg_volume": 146043.17,
-      "volume_surge": -96.0
+      "avg_volume": 139958.04,
+      "volume_surge": -95.83
     },
     "FML": {
       "name": "Focus Minerals",
@@ -951,7 +954,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "The Bull Case For Megaport (ASX:MP1) Could Change Following FY26 Revenue Surge But Deeper Losses",
+      "title": "Megaport (ASX:MP1) books A$506m of AI contracts as pipeline tops A$1.3bn",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "20 Aug 2026"
     },
@@ -979,7 +982,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "AYA",
       "name": "ARTRYA Ltd",
-      "title": "Could ImExHS (ASX:IME), Singular Health Group (ASX:SHG) and Artrya (ASX:AYA) Shape Australia\u2019s AI Healthcare Imaging Market?",
+      "title": "Artrya (ASX:AYA) Surges as Investors Track US Customer Growth and Regulatory Milestones",
       "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "20 Aug 2026"
     },
@@ -998,20 +1001,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "20 Aug 2026"
     }
   ],
-  "gold_change": 21.84,
-  "gold_pct": -0.48,
-  "silver_change": 0.113,
-  "silver_pct": -0.17,
-  "platinum_change": 3.0,
-  "platinum_pct": 0.17,
-  "palladium_change": 0.5,
-  "palladium_pct": 0.04,
-  "copper_change": 0.024,
-  "copper_pct": -0.37,
-  "nickel_change": 207.0,
-  "nickel_pct": -1.21,
-  "zinc_change": 9.75,
-  "zinc_pct": 0.26,
+  "gold_change": 27.13,
+  "gold_pct": -0.6,
+  "silver_change": 0.254,
+  "silver_pct": -0.38,
+  "platinum_change": 0.4,
+  "platinum_pct": 0.02,
+  "palladium_change": 4.0,
+  "palladium_pct": -0.3,
+  "copper_change": 0.0259,
+  "copper_pct": -0.4,
+  "nickel_change": 245.0,
+  "nickel_pct": -1.43,
+  "zinc_change": 33.95,
+  "zinc_pct": 0.92,
   "lithium_change": 650.0,
   "lithium_pct": -0.43,
   "uranium_change": 0.1,
@@ -1033,9 +1036,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660595,
-      "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume": 660185,
+      "avg_volume": 157191.54,
+      "volume_surge": 319.99
     },
     {
       "code": "TTM",
@@ -1103,9 +1106,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9778116,
-      "avg_volume": 4017364.67,
-      "volume_surge": 143.4
+      "volume": 9937128,
+      "avg_volume": 4023990.17,
+      "volume_surge": 146.95
     },
     {
       "code": "SLS",
@@ -1173,9 +1176,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2475197,
-      "avg_volume": 1353995.08,
-      "volume_surge": 82.81
+      "volume": 2492484,
+      "avg_volume": 1354715.38,
+      "volume_surge": 83.99
     },
     {
       "code": "PME",
@@ -1196,9 +1199,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "volume": 660595,
-      "avg_volume": 157208.62,
-      "volume_surge": 320.2
+      "volume": 660185,
+      "avg_volume": 157191.54,
+      "volume_surge": 319.99
     },
     {
       "code": "TTM",
@@ -1266,9 +1269,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MKR",
       "name": "Manuka Resources",
-      "volume": 9778116,
-      "avg_volume": 4017364.67,
-      "volume_surge": 143.4
+      "volume": 9937128,
+      "avg_volume": 4023990.17,
+      "volume_surge": 146.95
     },
     {
       "code": "SLS",
@@ -1336,9 +1339,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "volume": 2475197,
-      "avg_volume": 1353995.08,
-      "volume_surge": 82.81
+      "volume": 2492484,
+      "avg_volume": 1354715.38,
+      "volume_surge": 83.99
     },
     {
       "code": "PME",
@@ -1353,8 +1356,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BMR",
       "name": "Ballymore Resources",
       "volume": 5842,
-      "avg_volume": 146043.17,
-      "volume_surge": -96.0
+      "avg_volume": 139958.04,
+      "volume_surge": -95.83
     },
     {
       "code": "BCA",
