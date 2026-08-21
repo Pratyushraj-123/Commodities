@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4604.49,
-  "silver": 68.956,
-  "platinum": 1890.9,
-  "palladium": 1353.0,
-  "copper": 6.5753,
+  "gold": 4607.35,
+  "silver": 68.947,
+  "platinum": 1891.4,
+  "palladium": 1353.5,
+  "copper": 6.5755,
   "nickel": 17045.0,
   "zinc": 3823.15,
   "lithium": 152250.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Aug 2026, 22:09",
+  "_last_updated": "21 Aug 2026, 23:10",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 517.8,
       "pct": 0.98,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 22:09",
+      "updated": "21 Aug, 23:10",
       "hist": [
         45631.74,
         45282.47,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 113.29,
       "pct": 0.43,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 22:09"
+      "updated": "21 Aug, 23:10"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 5.1,
       "pct": 0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 22:09"
+      "updated": "21 Aug, 23:10"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 6.7,
       "pct": 0.07,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 22:09"
+      "updated": "21 Aug, 23:10"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 68.4,
       "pct": 0.64,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Aug, 22:09"
+      "updated": "21 Aug, 23:10"
     }
   },
   "watchlist": {
@@ -903,6 +903,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Aug 2026"
     },
     {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals Posts $20.1M Loss in H1 2026 Amid Extensive 80,000-Metre Spur Gold Project Drilling",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX:TGN) Advances Watershed Project as Tungsten Supply Themes Support Interest",
@@ -947,7 +954,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
-      "title": "Lindian Resources (ASX:LIN): Can Kangankunde Make the Leap Into Production?",
+      "title": "Is Lindian Resources (ASX:LIN) Expensive As Kangankunde Stays On Track For Q4 2026?",
       "link": "https://www.marketindex.com.au/asx/lin/announcements",
       "date": "21 Aug 2026"
     },
@@ -1015,16 +1022,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Aug 2026"
     }
   ],
-  "gold_change": 88.71,
-  "gold_pct": 1.96,
-  "silver_change": 0.881,
-  "silver_pct": 1.29,
-  "platinum_change": 51.8,
-  "platinum_pct": 2.82,
-  "palladium_change": 14.5,
-  "palladium_pct": 1.08,
-  "copper_change": 0.1153,
-  "copper_pct": 1.78,
+  "gold_change": 91.57,
+  "gold_pct": 2.03,
+  "silver_change": 0.872,
+  "silver_pct": 1.28,
+  "platinum_change": 52.3,
+  "platinum_pct": 2.84,
+  "palladium_change": 15.0,
+  "palladium_pct": 1.12,
+  "copper_change": 0.1155,
+  "copper_pct": 1.79,
   "nickel_change": 100.0,
   "nickel_pct": 0.59,
   "zinc_change": 74.55,
