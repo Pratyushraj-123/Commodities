@@ -1,11 +1,11 @@
 {
-  "gold": 4579.19,
-  "silver": 69.229,
-  "platinum": 1887.6,
-  "palladium": 1350.5,
-  "copper": 6.5756,
-  "nickel": 16980.0,
-  "zinc": 3805.35,
+  "gold": 4588.69,
+  "silver": 69.639,
+  "platinum": 1889.5,
+  "palladium": 1357.5,
+  "copper": 6.5904,
+  "nickel": 16997.0,
+  "zinc": 3810.7,
   "lithium": 152250.0,
   "uranium": 88.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Aug 2026, 10:16",
+  "_last_updated": "21 Aug 2026, 11:13",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -703.89,
       "pct": -1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 10:16",
+      "updated": "21 Aug, 11:13",
       "hist": [
         44785.5,
         45631.74,
@@ -285,7 +285,7 @@
       "change": -263.92,
       "pct": -1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 10:16"
+      "updated": "21 Aug, 11:13"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 5.1,
       "pct": 0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 10:16"
+      "updated": "21 Aug, 11:13"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 6.7,
       "pct": 0.07,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 10:16"
+      "updated": "21 Aug, 11:13"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10746.09,
-      "change": -2.07,
-      "pct": -0.02,
+      "price": 10760.68,
+      "change": 12.52,
+      "pct": 0.12,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Aug, 10:16"
+      "updated": "21 Aug, 11:13"
     }
   },
   "watchlist": {
@@ -1022,20 +1022,20 @@
       "date": "21 Aug 2026"
     }
   ],
-  "gold_change": 63.41,
-  "gold_pct": 1.4,
-  "silver_change": 1.154,
-  "silver_pct": 1.69,
-  "platinum_change": 48.5,
-  "platinum_pct": 2.64,
-  "palladium_change": 12.0,
-  "palladium_pct": 0.9,
-  "copper_change": 0.1156,
-  "copper_pct": 1.79,
-  "nickel_change": 35.0,
-  "nickel_pct": 0.21,
-  "zinc_change": 56.75,
-  "zinc_pct": 1.51,
+  "gold_change": 72.91,
+  "gold_pct": 1.61,
+  "silver_change": 1.564,
+  "silver_pct": 2.3,
+  "platinum_change": 50.4,
+  "platinum_pct": 2.74,
+  "palladium_change": 19.0,
+  "palladium_pct": 1.42,
+  "copper_change": 0.1304,
+  "copper_pct": 2.02,
+  "nickel_change": 52.0,
+  "nickel_pct": 0.31,
+  "zinc_change": 62.1,
+  "zinc_pct": 1.66,
   "lithium_change": 1250.0,
   "lithium_pct": 0.83,
   "uranium_change": 0.25,
