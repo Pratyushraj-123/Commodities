@@ -1,11 +1,11 @@
 {
-  "gold": 4561.17,
-  "silver": 68.947,
-  "platinum": 1882.7,
-  "palladium": 1358.0,
-  "copper": 6.5491,
-  "nickel": 16914.0,
-  "zinc": 3795.55,
+  "gold": 4573.54,
+  "silver": 69.357,
+  "platinum": 1901.9,
+  "palladium": 1363.5,
+  "copper": 6.5583,
+  "nickel": 16965.0,
+  "zinc": 3798.75,
   "lithium": 152250.0,
   "uranium": 88.5,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Aug 2026, 07:32",
+  "_last_updated": "21 Aug 2026, 08:22",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -703.89,
       "pct": -1.32,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 07:32",
+      "updated": "21 Aug, 08:22",
       "hist": [
         44785.5,
         45631.74,
@@ -285,7 +285,7 @@
       "change": -263.92,
       "pct": -1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Aug, 07:32"
+      "updated": "21 Aug, 08:22"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 5.1,
       "pct": 0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 07:32"
+      "updated": "21 Aug, 08:22"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 6.7,
       "pct": 0.07,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Aug, 07:32"
+      "updated": "21 Aug, 08:22"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10763.46,
-      "change": 15.3,
-      "pct": 0.14,
+      "price": 10768.74,
+      "change": 20.58,
+      "pct": 0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Aug, 07:32"
+      "updated": "21 Aug, 08:22"
     }
   },
   "watchlist": {
@@ -910,10 +910,31 @@
       "date": "21 Aug 2026"
     },
     {
+      "code": "AZY",
+      "name": "Antipa Minerals",
+      "title": "Antipa Minerals Limited (ASX:AZY) Advances Minyari Dome Development Strategy With Drilling and Study Progress",
+      "link": "https://www.marketindex.com.au/asx/azy/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
       "code": "MKR",
       "name": "Manuka Resources",
       "title": "Manuka Resources (ASX:MKR) Restarts Gold Processing With Silver Expansion Planned for 2026",
       "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE) Advances Rare Earth Development Strategy Through Project Studies",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
+      "code": "SKS",
+      "name": "SKS Technologies Group Ltd",
+      "title": "SKS Technologies (ASX:SKS) Heads Into Results With Data-Centre Work Driving the Order Story",
+      "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "21 Aug 2026"
     },
     {
@@ -924,9 +945,23 @@
       "date": "21 Aug 2026"
     },
     {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "GenusPlus Group (ASX:GNP) Enters FY26 Results With Energy Infrastructure Demand in Focus",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX) Moves Toward FY26 Results With US Commercialisation in Focus",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "21 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) Signs 7-Year, A$25 Million Contract with Valley Health",
+      "title": "Pro Medicus (ASX:PME) Focuses on Medical Imaging Growth After FY26 Results",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "21 Aug 2026"
     },
@@ -947,7 +982,7 @@
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "What Could Put Liontown Resources (ASX:LTR) Back on the ASX Radar?",
+      "title": "ASX Movers Today: Liontown Resources (ASX:LTR) in focus as fresh reporting catalysts reshapes Lithium Stocks",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "21 Aug 2026"
     },
@@ -959,20 +994,20 @@
       "date": "21 Aug 2026"
     }
   ],
-  "gold_change": 45.39,
-  "gold_pct": 1.01,
-  "silver_change": 0.872,
-  "silver_pct": 1.28,
-  "platinum_change": 43.6,
-  "platinum_pct": 2.37,
-  "palladium_change": 19.5,
-  "palladium_pct": 1.46,
-  "copper_change": 0.0891,
-  "copper_pct": 1.38,
-  "nickel_change": 31.0,
-  "nickel_pct": -0.18,
-  "zinc_change": 46.95,
-  "zinc_pct": 1.25,
+  "gold_change": 57.76,
+  "gold_pct": 1.28,
+  "silver_change": 1.282,
+  "silver_pct": 1.88,
+  "platinum_change": 62.8,
+  "platinum_pct": 3.41,
+  "palladium_change": 25.0,
+  "palladium_pct": 1.87,
+  "copper_change": 0.0983,
+  "copper_pct": 1.52,
+  "nickel_change": 20.0,
+  "nickel_pct": 0.12,
+  "zinc_change": 50.15,
+  "zinc_pct": 1.34,
   "lithium_change": 1250.0,
   "lithium_pct": 0.83,
   "uranium_change": 0.25,
