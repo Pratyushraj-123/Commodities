@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4635.72,
-  "silver": 68.676,
-  "platinum": 1890.2,
-  "palladium": 1342.5,
-  "copper": 6.5924,
-  "nickel": 16952.0,
-  "zinc": 3844.15,
+  "gold": 4643.25,
+  "silver": 68.957,
+  "platinum": 1894.5,
+  "palladium": 1349.5,
+  "copper": 6.5894,
+  "nickel": 16984.0,
+  "zinc": 3843.6,
   "lithium": 160500.0,
   "uranium": 88.85,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "24 Aug 2026, 09:32",
+  "_last_updated": "24 Aug 2026, 10:24",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 517.81,
       "pct": 0.98,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 09:32",
+      "updated": "24 Aug, 10:24",
       "hist": [
         45631.74,
         45282.47,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 113.26,
       "pct": 0.43,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 09:32"
+      "updated": "24 Aug, 10:24"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 44.2,
       "pct": 0.49,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 09:32"
+      "updated": "24 Aug, 10:24"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 43.5,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 09:32"
+      "updated": "24 Aug, 10:24"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10839.43,
-      "change": 22.87,
-      "pct": 0.21,
+      "price": 10835.43,
+      "change": 18.87,
+      "pct": 0.17,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Aug, 09:32"
+      "updated": "24 Aug, 10:24"
     }
   },
   "watchlist": {
@@ -912,7 +912,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
-      "title": "What's Sending Benz Mining (ASX:BNZ) Stock Higher Today?",
+      "title": "Is Benz Mining Corp (ASX:BNZ) Stock Worth a Look After Its $150 Million Raise?",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
       "date": "24 Aug 2026"
     },
@@ -959,20 +959,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "24 Aug 2026"
     }
   ],
-  "gold_change": 28.37,
-  "gold_pct": 0.62,
-  "silver_change": 0.271,
-  "silver_pct": -0.39,
-  "platinum_change": 5.5,
-  "platinum_pct": -0.29,
-  "palladium_change": 8.0,
-  "palladium_pct": -0.59,
-  "copper_change": 0.0129,
-  "copper_pct": 0.2,
-  "nickel_change": 93.0,
-  "nickel_pct": -0.55,
-  "zinc_change": 21.0,
-  "zinc_pct": 0.55,
+  "gold_change": 35.9,
+  "gold_pct": 0.78,
+  "silver_change": 0.01,
+  "silver_pct": 0.01,
+  "platinum_change": 1.2,
+  "platinum_pct": -0.06,
+  "palladium_change": 1.0,
+  "palladium_pct": -0.07,
+  "copper_change": 0.0099,
+  "copper_pct": 0.15,
+  "nickel_change": 61.0,
+  "nickel_pct": -0.36,
+  "zinc_change": 20.45,
+  "zinc_pct": 0.53,
   "lithium_change": 8250.0,
   "lithium_pct": 5.42,
   "uranium_change": 0.35,
