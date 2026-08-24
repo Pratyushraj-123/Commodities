@@ -1,11 +1,11 @@
 {
-  "gold": 4655.74,
-  "silver": 69.277,
-  "platinum": 1896.4,
-  "palladium": 1352.0,
-  "copper": 6.5891,
-  "nickel": 17093.0,
-  "zinc": 3845.55,
+  "gold": 4666.97,
+  "silver": 69.023,
+  "platinum": 1901.4,
+  "palladium": 1363.0,
+  "copper": 6.6058,
+  "nickel": 17061.0,
+  "zinc": 3825.4,
   "lithium": 160500.0,
   "uranium": 88.85,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "24 Aug 2026, 12:18",
+  "_last_updated": "24 Aug 2026, 13:56",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53277.01,
-      "change": 517.81,
-      "pct": 0.98,
+      "price": 53451.7,
+      "change": 174.69,
+      "pct": 0.33,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 12:18",
+      "updated": "24 Aug, 13:56",
       "hist": [
-        45631.74,
         45282.47,
         45418.07,
         45565.23,
@@ -276,16 +275,17 @@
         53343.4,
         53463.05,
         52759.21,
-        53277.01
+        53277.01,
+        53451.7
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26180.46,
-      "change": 113.26,
-      "pct": 0.43,
+      "price": 25956.22,
+      "change": -224.24,
+      "pct": -0.86,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 12:18"
+      "updated": "24 Aug, 13:56"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 44.2,
       "pct": 0.49,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 12:18"
+      "updated": "24 Aug, 13:56"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 43.5,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 12:18"
+      "updated": "24 Aug, 13:56"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10818.06,
-      "change": 1.5,
-      "pct": 0.01,
+      "price": 10825.25,
+      "change": 8.69,
+      "pct": 0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Aug, 12:18"
+      "updated": "24 Aug, 13:56"
     }
   },
   "watchlist": {
@@ -933,7 +933,7 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Can Megaport (ASX:MP1) Ride the Next AI Network Wave?",
+      "title": "Megaport (ASX:MP1) FY26 Growth Strategy Shifts Investor Focus Towards Execution",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "24 Aug 2026"
     },
@@ -947,32 +947,32 @@
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR): Kathleen Valley Cash Generation Meets a Higher-Cost FY27",
+      "title": "Liontown (ASX:LTR): The Key Factors Shaping Its Production Growth and Expansion Plans",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "24 Aug 2026"
     },
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS) Reports Record FY26 Production as Growth Projects Advance",
+      "title": "PLS Group (ASX:PLS) Restores Dividend Flow After Record FY26 Lithium Recovery",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "24 Aug 2026"
     }
   ],
-  "gold_change": 48.39,
-  "gold_pct": 1.05,
-  "silver_change": 0.33,
-  "silver_pct": 0.48,
-  "platinum_change": 0.7,
-  "platinum_pct": 0.04,
-  "palladium_change": 1.5,
-  "palladium_pct": 0.11,
-  "copper_change": 0.0096,
-  "copper_pct": 0.15,
-  "nickel_change": 48.0,
-  "nickel_pct": 0.28,
-  "zinc_change": 22.4,
-  "zinc_pct": 0.59,
+  "gold_change": 59.62,
+  "gold_pct": 1.29,
+  "silver_change": 0.076,
+  "silver_pct": 0.11,
+  "platinum_change": 5.7,
+  "platinum_pct": 0.3,
+  "palladium_change": 12.5,
+  "palladium_pct": 0.93,
+  "copper_change": 0.0263,
+  "copper_pct": 0.4,
+  "nickel_change": 16.0,
+  "nickel_pct": 0.09,
+  "zinc_change": 2.25,
+  "zinc_pct": 0.06,
   "lithium_change": 8250.0,
   "lithium_pct": 5.42,
   "uranium_change": 0.35,
