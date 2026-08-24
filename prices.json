@@ -1,9 +1,9 @@
 {
-  "gold": 4650.83,
-  "silver": 68.955,
-  "platinum": 1890.2,
-  "palladium": 1359.5,
-  "copper": 6.5967,
+  "gold": 4659.71,
+  "silver": 69.098,
+  "platinum": 1893.4,
+  "palladium": 1362.0,
+  "copper": 6.5947,
   "nickel": 17015.0,
   "zinc": 3828.8,
   "lithium": 160500.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "24 Aug 2026, 21:15",
+  "_last_updated": "24 Aug 2026, 22:11",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 140.15,
       "pct": 0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 21:15",
+      "updated": "24 Aug, 22:11",
       "hist": [
         45282.47,
         45418.07,
@@ -285,7 +285,7 @@
       "change": -200.26,
       "pct": -0.76,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Aug, 21:15"
+      "updated": "24 Aug, 22:11"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 44.2,
       "pct": 0.49,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 21:15"
+      "updated": "24 Aug, 22:11"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 43.5,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Aug, 21:15"
+      "updated": "24 Aug, 22:11"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 37.76,
       "pct": 0.35,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Aug, 21:15"
+      "updated": "24 Aug, 22:11"
     }
   },
   "watchlist": {
@@ -460,8 +460,8 @@
       "change": 0.005,
       "pct": 0.58,
       "volume": 11507726,
-      "avg_volume": 11405753.23,
-      "volume_surge": 0.89
+      "avg_volume": 11426530.14,
+      "volume_surge": 0.71
     },
     "OBM": {
       "name": "Ora Banda Mining Ltd",
@@ -490,8 +490,8 @@
       "change": -0.02,
       "pct": -0.29,
       "volume": 1979501,
-      "avg_volume": 1533362.41,
-      "volume_surge": 29.1
+      "avg_volume": 1539271.5,
+      "volume_surge": 28.6
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -860,8 +860,8 @@
       "change": 0.055,
       "pct": 4.33,
       "volume": 50662463,
-      "avg_volume": 39668854.95,
-      "volume_surge": 27.71
+      "avg_volume": 40164333.27,
+      "volume_surge": 26.14
     },
     "PLS": {
       "name": "PLS Group Ltd",
@@ -924,6 +924,13 @@
       "date": "24 Aug 2026"
     },
     {
+      "code": "SGC",
+      "name": "Sinclair Gold Ltd",
+      "title": "Stria Receives Conditional Approval on Change of Business Transaction",
+      "link": "https://www.marketindex.com.au/asx/sgc/announcements",
+      "date": "24 Aug 2026"
+    },
+    {
       "code": "GA8",
       "name": "Goldarc Resources",
       "title": "GA8 extends Whistler gold profile",
@@ -973,16 +980,16 @@
       "date": "24 Aug 2026"
     }
   ],
-  "gold_change": 43.48,
-  "gold_pct": 0.94,
-  "silver_change": 0.008,
-  "silver_pct": 0.01,
-  "platinum_change": 5.5,
-  "platinum_pct": -0.29,
-  "palladium_change": 9.0,
-  "palladium_pct": 0.67,
-  "copper_change": 0.0172,
-  "copper_pct": 0.26,
+  "gold_change": 52.36,
+  "gold_pct": 1.14,
+  "silver_change": 0.151,
+  "silver_pct": 0.22,
+  "platinum_change": 0.5,
+  "platinum_pct": -0.03,
+  "palladium_change": 11.5,
+  "palladium_pct": 0.85,
+  "copper_change": 0.0152,
+  "copper_pct": 0.23,
   "nickel_change": 30.0,
   "nickel_pct": -0.18,
   "zinc_change": 5.65,
