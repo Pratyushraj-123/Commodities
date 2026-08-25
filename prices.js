@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4638.03,
-  "silver": 68.089,
-  "platinum": 1858.3,
-  "palladium": 1334.5,
-  "copper": 6.5914,
-  "nickel": 16886.0,
-  "zinc": 3838.7,
+  "gold": 4630.59,
+  "silver": 67.905,
+  "platinum": 1859.9,
+  "palladium": 1327.0,
+  "copper": 6.6139,
+  "nickel": 16855.0,
+  "zinc": 3836.7,
   "lithium": 157000.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Aug 2026, 08:24",
+  "_last_updated": "25 Aug 2026, 09:21",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 140.16,
       "pct": 0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 08:24",
+      "updated": "25 Aug, 09:21",
       "hist": [
         45282.47,
         45418.07,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -200.31,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 08:24"
+      "updated": "25 Aug, 09:21"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 105.7,
       "pct": 1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 08:24"
+      "updated": "25 Aug, 09:21"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 104.0,
       "pct": 1.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 08:24"
+      "updated": "25 Aug, 09:21"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10858.95,
-      "change": 4.63,
-      "pct": 0.04,
+      "price": 10866.3,
+      "change": 11.98,
+      "pct": 0.11,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Aug, 08:24"
+      "updated": "25 Aug, 09:21"
     }
   },
   "watchlist": {
@@ -896,6 +896,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold (ASX: PC2) Up 21.7% in a Month \u2014 Is the Stock Worth Watching After Strong Metallurgy Results?",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
       "title": "WTM extends Consols system",
@@ -987,20 +994,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     }
   ],
-  "gold_change": 13.97,
-  "gold_pct": -0.3,
-  "silver_change": 0.85,
-  "silver_pct": -1.23,
-  "platinum_change": 30.9,
-  "platinum_pct": -1.64,
-  "palladium_change": 29.0,
-  "palladium_pct": -2.13,
-  "copper_change": 0.0076,
-  "copper_pct": -0.12,
-  "nickel_change": 129.0,
-  "nickel_pct": -0.76,
-  "zinc_change": 9.9,
-  "zinc_pct": 0.26,
+  "gold_change": 21.41,
+  "gold_pct": -0.46,
+  "silver_change": 1.034,
+  "silver_pct": -1.5,
+  "platinum_change": 29.3,
+  "platinum_pct": -1.55,
+  "palladium_change": 36.5,
+  "palladium_pct": -2.68,
+  "copper_change": 0.0149,
+  "copper_pct": 0.23,
+  "nickel_change": 160.0,
+  "nickel_pct": -0.94,
+  "zinc_change": 7.9,
+  "zinc_pct": 0.21,
   "lithium_change": 3500.0,
   "lithium_pct": -2.18,
   "uranium_change": 0.7,
