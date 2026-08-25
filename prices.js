@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4630.59,
-  "silver": 67.905,
-  "platinum": 1859.9,
+  "gold": 4636.72,
+  "silver": 67.97,
+  "platinum": 1858.3,
   "palladium": 1327.0,
-  "copper": 6.6139,
-  "nickel": 16855.0,
-  "zinc": 3836.7,
+  "copper": 6.639,
+  "nickel": 16878.0,
+  "zinc": 3850.6,
   "lithium": 157000.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Aug 2026, 09:21",
+  "_last_updated": "25 Aug 2026, 10:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 140.16,
       "pct": 0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 09:21",
+      "updated": "25 Aug, 10:17",
       "hist": [
         45282.47,
         45418.07,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -200.31,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 09:21"
+      "updated": "25 Aug, 10:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 105.7,
       "pct": 1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 09:21"
+      "updated": "25 Aug, 10:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 104.0,
       "pct": 1.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 09:21"
+      "updated": "25 Aug, 10:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10866.3,
-      "change": 11.98,
+      "price": 10866.37,
+      "change": 12.05,
       "pct": 0.11,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Aug, 09:21"
+      "updated": "25 Aug, 10:17"
     }
   },
   "watchlist": {
@@ -989,25 +989,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "What Does Pilbara Minerals (ASX:PLS) Signal for Lithium Stocks?",
+      "title": "What Does Pilbara Minerals (ASX:PLS) Signal for Dividend Stocks?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "25 Aug 2026"
     }
   ],
-  "gold_change": 21.41,
-  "gold_pct": -0.46,
-  "silver_change": 1.034,
-  "silver_pct": -1.5,
-  "platinum_change": 29.3,
-  "platinum_pct": -1.55,
+  "gold_change": 15.28,
+  "gold_pct": -0.33,
+  "silver_change": 0.969,
+  "silver_pct": -1.41,
+  "platinum_change": 30.9,
+  "platinum_pct": -1.64,
   "palladium_change": 36.5,
   "palladium_pct": -2.68,
-  "copper_change": 0.0149,
-  "copper_pct": 0.23,
-  "nickel_change": 160.0,
-  "nickel_pct": -0.94,
-  "zinc_change": 7.9,
-  "zinc_pct": 0.21,
+  "copper_change": 0.04,
+  "copper_pct": 0.61,
+  "nickel_change": 137.0,
+  "nickel_pct": -0.8,
+  "zinc_change": 21.8,
+  "zinc_pct": 0.57,
   "lithium_change": 3500.0,
   "lithium_pct": -2.18,
   "uranium_change": 0.7,
