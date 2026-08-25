@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4640.97,
-  "silver": 68.012,
-  "platinum": 1857.4,
-  "palladium": 1329.5,
-  "copper": 6.6408,
-  "nickel": 16900.0,
-  "zinc": 3851.75,
+  "gold": 4638.12,
+  "silver": 68.042,
+  "platinum": 1858.0,
+  "palladium": 1331.0,
+  "copper": 6.636,
+  "nickel": 16914.0,
+  "zinc": 3857.25,
   "lithium": 157000.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Aug 2026, 11:14",
+  "_last_updated": "25 Aug 2026, 12:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53417.2,
-      "change": 140.2,
+      "price": 53417.16,
+      "change": 140.16,
       "pct": 0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 11:14",
+      "updated": "25 Aug, 12:19",
       "hist": [
         45282.47,
         45418.07,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -200.31,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 11:14"
+      "updated": "25 Aug, 12:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 105.7,
       "pct": 1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 11:14"
+      "updated": "25 Aug, 12:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 104.0,
       "pct": 1.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 11:14"
+      "updated": "25 Aug, 12:19"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10880.45,
-      "change": 63.85,
-      "pct": 0.59,
+      "price": 10870.66,
+      "change": 54.06,
+      "pct": 0.5,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Aug, 11:14"
+      "updated": "25 Aug, 12:19"
     }
   },
   "watchlist": {
@@ -912,8 +912,15 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "TVN",
       "name": "Tivan Ltd",
-      "title": "Tivan (ASX:TVN) Unlocks Next Exploration Phase With Walshy\u2019s Wall Drill Program Approval",
+      "title": "Tivan Ltd Share Price - TVN, RNS News, Articles, Quotes, & Charts (ASX:TVN)",
       "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "Is EQ Resources (ASX:EQR) Emerging as a Key Tungsten Player in the Western Supply Chain?",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "25 Aug 2026"
     },
     {
@@ -928,6 +935,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Ora Banda Mining Ltd",
       "title": "What Is Putting Ora Banda (ASX:OBM) on the Gold Radar?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Can Catalyst Metals (ASX:CYL) Unlock the Next Phase of Gold Growth Through Its Expanding Production Base?",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
       "date": "25 Aug 2026"
     },
     {
@@ -952,9 +966,23 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     },
     {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "Could FireFly Metals (ASX:FFM) Turn Green Bay Into a Major Copper-Gold Growth Story?",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN) Gains Momentum as Rare Earths Development Strategy Progresses",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "What Could Megaport (ASX:MP1) Change for AI?",
+      "title": "Megaport (ASX:MP1) Gains Attention After FY26 Growth Milestones and Technology Investments",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "25 Aug 2026"
     },
@@ -973,6 +1001,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     },
     {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "Echo IQ (ASX:EIQ) Moves Higher While AI Healthcare Platform Development Gains Market Attention",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
       "title": "Neuren Pharmaceuticals (ASX:NEU) Secures European Approval for DAYBU, First Rett Syndrome Treatment in the EU",
@@ -982,7 +1017,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "What Is Liontown (ASX:LTR) Doing to Reinforce Its Balance?",
+      "title": "Liontown (ASX:LTR) in Focus as Investors Weigh Lithium Costs Against Kathleen Valley Growth Potential",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "25 Aug 2026"
     },
@@ -994,20 +1029,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     }
   ],
-  "gold_change": 11.03,
-  "gold_pct": -0.24,
-  "silver_change": 0.927,
-  "silver_pct": -1.34,
-  "platinum_change": 31.8,
-  "platinum_pct": -1.68,
-  "palladium_change": 34.0,
-  "palladium_pct": -2.49,
-  "copper_change": 0.0418,
-  "copper_pct": 0.63,
-  "nickel_change": 115.0,
-  "nickel_pct": -0.68,
-  "zinc_change": 22.95,
-  "zinc_pct": 0.6,
+  "gold_change": 13.88,
+  "gold_pct": -0.3,
+  "silver_change": 0.897,
+  "silver_pct": -1.3,
+  "platinum_change": 31.2,
+  "platinum_pct": -1.65,
+  "palladium_change": 32.5,
+  "palladium_pct": -2.38,
+  "copper_change": 0.037,
+  "copper_pct": 0.56,
+  "nickel_change": 101.0,
+  "nickel_pct": -0.6,
+  "zinc_change": 28.45,
+  "zinc_pct": 0.74,
   "lithium_change": 3500.0,
   "lithium_pct": -2.18,
   "uranium_change": 0.7,
