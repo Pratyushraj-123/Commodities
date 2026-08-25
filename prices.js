@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4641.38,
-  "silver": 68.406,
-  "platinum": 1860.5,
-  "palladium": 1331.0,
-  "copper": 6.6657,
-  "nickel": 17027.0,
-  "zinc": 3888.1,
+  "gold": 4644.95,
+  "silver": 68.66,
+  "platinum": 1864.5,
+  "palladium": 1336.0,
+  "copper": 6.7021,
+  "nickel": 17010.0,
+  "zinc": 3887.2,
   "lithium": 157000.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Aug 2026, 15:30",
+  "_last_updated": "25 Aug 2026, 16:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53465.9,
-      "change": 48.74,
-      "pct": 0.09,
+      "price": 53472.99,
+      "change": 55.83,
+      "pct": 0.1,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 15:30",
+      "updated": "25 Aug, 16:20",
       "hist": [
         45282.47,
         45418.07,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52759.21,
         53277.01,
         53417.16,
-        53465.9
+        53472.85
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26126.9,
-      "change": 146.71,
-      "pct": 0.56,
+      "price": 26131.15,
+      "change": 150.96,
+      "pct": 0.58,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 15:30"
+      "updated": "25 Aug, 16:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 105.7,
       "pct": 1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 15:30"
+      "updated": "25 Aug, 16:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 104.0,
       "pct": 1.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 15:30"
+      "updated": "25 Aug, 16:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10881.81,
-      "change": 65.21,
-      "pct": 0.6,
+      "price": 10886.16,
+      "change": 69.56,
+      "pct": 0.64,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Aug, 15:30"
+      "updated": "25 Aug, 16:20"
     }
   },
   "watchlist": {
@@ -904,6 +904,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     },
     {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "WTM extends Consols system",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
       "code": "TVN",
       "name": "Tivan Ltd",
       "title": "Tivan Ltd Share Price - TVN, RNS News, Articles, Quotes, & Charts (ASX:TVN)",
@@ -1030,20 +1037,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Aug 2026"
     }
   ],
-  "gold_change": 10.62,
-  "gold_pct": -0.23,
-  "silver_change": 0.533,
-  "silver_pct": -0.77,
-  "platinum_change": 28.7,
-  "platinum_pct": -1.52,
-  "palladium_change": 32.0,
-  "palladium_pct": -2.35,
-  "copper_change": 0.0667,
-  "copper_pct": 1.01,
-  "nickel_change": 12.0,
-  "nickel_pct": 0.07,
-  "zinc_change": 59.3,
-  "zinc_pct": 1.55,
+  "gold_change": 7.05,
+  "gold_pct": -0.15,
+  "silver_change": 0.279,
+  "silver_pct": -0.4,
+  "platinum_change": 24.7,
+  "platinum_pct": -1.31,
+  "palladium_change": 27.5,
+  "palladium_pct": -2.02,
+  "copper_change": 0.1031,
+  "copper_pct": 1.56,
+  "nickel_change": 5.0,
+  "nickel_pct": -0.03,
+  "zinc_change": 58.4,
+  "zinc_pct": 1.53,
   "lithium_change": 3500.0,
   "lithium_pct": -2.18,
   "uranium_change": 0.7,
