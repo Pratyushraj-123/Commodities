@@ -1,10 +1,10 @@
 {
-  "gold": 4648.16,
-  "silver": 68.846,
-  "platinum": 1863.7,
-  "palladium": 1331.0,
-  "copper": 6.6949,
-  "nickel": 17030.0,
+  "gold": 4666.92,
+  "silver": 69.245,
+  "platinum": 1871.7,
+  "palladium": 1336.5,
+  "copper": 6.7057,
+  "nickel": 17050.0,
   "zinc": 3887.15,
   "lithium": 157000.0,
   "uranium": 89.55,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Aug 2026, 18:18",
+  "_last_updated": "25 Aug 2026, 19:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53522.82,
-      "change": 105.66,
-      "pct": 0.2,
+      "price": 53532.21,
+      "change": 115.05,
+      "pct": 0.22,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 18:18",
+      "updated": "25 Aug, 19:19",
       "hist": [
         45282.47,
         45418.07,
@@ -277,16 +277,16 @@
         52759.21,
         53277.01,
         53417.16,
-        53522.82
+        53532.21
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26088.44,
-      "change": 108.25,
-      "pct": 0.42,
+      "price": 26097.05,
+      "change": 116.86,
+      "pct": 0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Aug, 18:18"
+      "updated": "25 Aug, 19:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": 105.7,
       "pct": 1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 18:18"
+      "updated": "25 Aug, 19:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": 104.0,
       "pct": 1.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Aug, 18:18"
+      "updated": "25 Aug, 19:19"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": 69.56,
       "pct": 0.64,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Aug, 18:18"
+      "updated": "25 Aug, 19:19"
     }
   },
   "watchlist": {
@@ -946,6 +946,13 @@
       "date": "25 Aug 2026"
     },
     {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP) Builds Growth Momentum with Record Revenue and Favourable Financial Flexibility",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
       "code": "CYL",
       "name": "Catalyst Metals",
       "title": "Can Catalyst Metals (ASX:CYL) Unlock the Next Phase of Gold Growth Through Its Expanding Production Base?",
@@ -978,6 +985,13 @@
       "name": "Firefly Metals Ltd",
       "title": "Could FireFly Metals (ASX:FFM) Turn Green Bay Into a Major Copper-Gold Growth Story?",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "25 Aug 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Could Brazilian Rare Earths (ASX:BRE) Become a Major Rare Earths Growth Story Through Rocha da Rocha?",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "25 Aug 2026"
     },
     {
@@ -1037,18 +1051,18 @@
       "date": "25 Aug 2026"
     }
   ],
-  "gold_change": 3.84,
-  "gold_pct": -0.08,
-  "silver_change": 0.093,
-  "silver_pct": -0.13,
-  "platinum_change": 25.5,
-  "platinum_pct": -1.35,
-  "palladium_change": 32.5,
-  "palladium_pct": -2.38,
-  "copper_change": 0.0959,
-  "copper_pct": 1.45,
-  "nickel_change": 15.0,
-  "nickel_pct": 0.09,
+  "gold_change": 14.92,
+  "gold_pct": 0.32,
+  "silver_change": 0.306,
+  "silver_pct": 0.44,
+  "platinum_change": 17.5,
+  "platinum_pct": -0.93,
+  "palladium_change": 27.0,
+  "palladium_pct": -1.98,
+  "copper_change": 0.1067,
+  "copper_pct": 1.62,
+  "nickel_change": 35.0,
+  "nickel_pct": 0.21,
   "zinc_change": 58.35,
   "zinc_pct": 1.52,
   "lithium_change": 3500.0,
