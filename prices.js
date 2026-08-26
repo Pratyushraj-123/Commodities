@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4599.58,
-  "silver": 67.965,
-  "platinum": 1849.6,
-  "palladium": 1332.0,
-  "copper": 6.5973,
-  "nickel": 16872.0,
-  "zinc": 3888.7,
+  "gold": 4594.08,
+  "silver": 68.106,
+  "platinum": 1843.8,
+  "palladium": 1329.0,
+  "copper": 6.602,
+  "nickel": 16895.0,
+  "zinc": 3885.43,
   "lithium": 152750.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "26 Aug 2026, 16:06",
+  "_last_updated": "26 Aug 2026, 18:30",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53471.14,
-      "change": -106.26,
-      "pct": -0.2,
+      "price": 53435.81,
+      "change": -141.59,
+      "pct": -0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Aug, 16:06",
+      "updated": "26 Aug, 18:30",
       "hist": [
         45418.07,
         45565.23,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53277.01,
         53417.16,
         53577.4,
-        53470.61
+        53435.81
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26065.67,
-      "change": -85.63,
-      "pct": -0.33,
+      "price": 26113.06,
+      "change": -38.24,
+      "pct": -0.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Aug, 16:06"
+      "updated": "26 Aug, 18:30"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -36.8,
       "pct": -0.4,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Aug, 16:06"
+      "updated": "26 Aug, 18:30"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -35.8,
       "pct": -0.39,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Aug, 16:06"
+      "updated": "26 Aug, 18:30"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -8.04,
       "pct": -0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "26 Aug, 16:06"
+      "updated": "26 Aug, 18:30"
     }
   },
   "watchlist": {
@@ -932,13 +932,6 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "26 Aug 2026"
     },
     {
-      "code": "ENR",
-      "name": "Encounter Resources",
-      "title": "CRS hunts for minerals in West Arunta",
-      "link": "https://www.marketindex.com.au/asx/enr/announcements",
-      "date": "26 Aug 2026"
-    },
-    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Shares Confront Record Growth And Thinner Margins",
@@ -1044,20 +1037,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "26 Aug 2026"
     }
   ],
-  "gold_change": 58.53,
-  "gold_pct": -1.26,
-  "silver_change": 0.631,
-  "silver_pct": -0.92,
-  "platinum_change": 11.9,
-  "platinum_pct": -0.64,
-  "palladium_change": 1.5,
-  "palladium_pct": -0.11,
-  "copper_change": 0.1122,
-  "copper_pct": -1.67,
-  "nickel_change": 178.0,
-  "nickel_pct": -1.04,
-  "zinc_change": 1.25,
-  "zinc_pct": 0.03,
+  "gold_change": 64.03,
+  "gold_pct": -1.37,
+  "silver_change": 0.49,
+  "silver_pct": -0.71,
+  "platinum_change": 17.7,
+  "platinum_pct": -0.95,
+  "palladium_change": 4.5,
+  "palladium_pct": -0.34,
+  "copper_change": 0.1075,
+  "copper_pct": -1.6,
+  "nickel_change": 155.0,
+  "nickel_pct": -0.91,
+  "zinc_change": 2.02,
+  "zinc_pct": -0.05,
   "lithium_change": 4250.0,
   "lithium_pct": -2.71,
   "uranium_change": 0.0,
