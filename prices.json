@@ -1,11 +1,11 @@
 {
-  "gold": 4618.58,
-  "silver": 68.52,
-  "platinum": 1867.4,
-  "palladium": 1339.0,
-  "copper": 6.7112,
-  "nickel": 16990.0,
-  "zinc": 3903.0,
+  "gold": 4618.21,
+  "silver": 68.523,
+  "platinum": 1871.9,
+  "palladium": 1338.5,
+  "copper": 6.7047,
+  "nickel": 16967.0,
+  "zinc": 3918.15,
   "lithium": 152750.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 44.5,
   "fluorite": 580.0,
-  "_last_updated": "26 Aug 2026, 09:26",
+  "_last_updated": "26 Aug 2026, 10:21",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 160.24,
       "pct": 0.3,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Aug, 09:26",
+      "updated": "26 Aug, 10:21",
       "hist": [
         45418.07,
         45565.23,
@@ -285,7 +285,7 @@
       "change": 171.11,
       "pct": 0.66,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "26 Aug, 09:26"
+      "updated": "26 Aug, 10:21"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -36.8,
       "pct": -0.4,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Aug, 09:26"
+      "updated": "26 Aug, 10:21"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": -35.8,
       "pct": -0.39,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "26 Aug, 09:26"
+      "updated": "26 Aug, 10:21"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10884.5,
-      "change": -1.66,
-      "pct": -0.02,
+      "price": 10873.42,
+      "change": -12.74,
+      "pct": -0.12,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "26 Aug, 09:26"
+      "updated": "26 Aug, 10:21"
     }
   },
   "watchlist": {
@@ -917,6 +917,13 @@
       "date": "26 Aug 2026"
     },
     {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN) Advances Apollo Hill Toward Its Next Development Milestones",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "26 Aug 2026"
+    },
+    {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
       "title": "Sinclair Gold (ASX:SGC) Triggers $5m Milestone Payment as Mt Henry Drilling Passes 20,000m",
@@ -935,6 +942,13 @@
       "name": "Cobre Ltd",
       "title": "Cobre Ltd (ASX:CBE): Examining the Copper Explorer's Strong Share Price Run",
       "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "26 Aug 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Ballard Mining (ASX:BM1) Pushes Ahead With Gold Drilling Along the Ballard Fault",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
       "date": "26 Aug 2026"
     },
     {
@@ -966,6 +980,13 @@
       "date": "26 Aug 2026"
     },
     {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "GenusPlus Group (ASX:GNP) Shares Trail Record Growth As Margins Tighten",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
+      "date": "26 Aug 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "ASX 300: What Could Pro Medicus (ASX:PME) Change for Growth?",
@@ -987,20 +1008,20 @@
       "date": "26 Aug 2026"
     }
   ],
-  "gold_change": 39.53,
-  "gold_pct": -0.85,
-  "silver_change": 0.076,
+  "gold_change": 39.9,
+  "gold_pct": -0.86,
+  "silver_change": 0.073,
   "silver_pct": -0.11,
-  "platinum_change": 5.9,
-  "platinum_pct": 0.32,
-  "palladium_change": 5.5,
-  "palladium_pct": 0.41,
-  "copper_change": 0.0017,
-  "copper_pct": 0.03,
-  "nickel_change": 60.0,
-  "nickel_pct": -0.35,
-  "zinc_change": 15.55,
-  "zinc_pct": 0.4,
+  "platinum_change": 10.4,
+  "platinum_pct": 0.56,
+  "palladium_change": 5.0,
+  "palladium_pct": 0.37,
+  "copper_change": 0.0048,
+  "copper_pct": -0.07,
+  "nickel_change": 83.0,
+  "nickel_pct": -0.48,
+  "zinc_change": 30.7,
+  "zinc_pct": 0.79,
   "lithium_change": 4250.0,
   "lithium_pct": -2.71,
   "uranium_change": 0.0,
