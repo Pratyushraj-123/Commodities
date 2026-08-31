@@ -1,9 +1,9 @@
 {
-  "gold": 4430.75,
-  "silver": 66.267,
-  "platinum": 1802.1,
+  "gold": 4447.29,
+  "silver": 66.518,
+  "platinum": 1800.3,
   "palladium": 1380.5,
-  "copper": 6.5849,
+  "copper": 6.5944,
   "nickel": 16770.0,
   "zinc": 3857.8,
   "lithium": 158500.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "31 Aug 2026, 15:32",
+  "_last_updated": "31 Aug 2026, 21:08",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53212.76,
-      "change": -347.23,
-      "pct": -0.65,
+      "price": 53185.9,
+      "change": -374.09,
+      "pct": -0.7,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Aug, 15:32",
+      "updated": "31 Aug, 21:08",
       "hist": [
         45295.81,
         45271.23,
@@ -276,16 +276,16 @@
         53463.88,
         53569.44,
         53559.99,
-        53212.91
+        53185.9
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26290.46,
-      "change": -111.96,
-      "pct": -0.42,
+      "price": 26370.89,
+      "change": -31.53,
+      "pct": -0.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "31 Aug, 15:32"
+      "updated": "31 Aug, 21:08"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -16.3,
       "pct": -0.18,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Aug, 15:32"
+      "updated": "31 Aug, 21:08"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": -18.3,
       "pct": -0.2,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "31 Aug, 15:32"
+      "updated": "31 Aug, 21:08"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 31.76,
       "pct": 0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "31 Aug, 15:32"
+      "updated": "31 Aug, 21:08"
     }
   },
   "watchlist": {
@@ -919,7 +919,7 @@
     {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
-      "title": "Waratah Minerals (ASX:WTM): The Gold-Copper Story to Watch",
+      "title": "Companies Like Waratah Minerals (ASX:WTM) Are In A Position To Invest In Growth",
       "link": "https://www.marketindex.com.au/asx/wtm/announcements",
       "date": "31 Aug 2026"
     },
@@ -935,6 +935,13 @@
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX: TGN) Advances Two Development Studies: Can Its Tungsten Pipeline Move Forward?",
       "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "31 Aug 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "Jonah Lupton: EQR.AX surges 100 percent as market cap reaches $2B",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "31 Aug 2026"
     },
     {
@@ -1052,7 +1059,7 @@
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "title": "EchoIQ (ASX: EIQ) Rises 3%: Can Pro Medicus and FDA Progress Unlock the Next Stage?",
+      "title": "ASX Growth Companies With High Insider Ownership",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
       "date": "31 Aug 2026"
     },
@@ -1071,20 +1078,20 @@
       "date": "31 Aug 2026"
     }
   ],
-  "gold_change": 22.25,
-  "gold_pct": -0.5,
-  "silver_change": 0.115,
-  "silver_pct": 0.17,
-  "platinum_change": 52.2,
-  "platinum_pct": -2.82,
+  "gold_change": 5.71,
+  "gold_pct": -0.13,
+  "silver_change": 0.366,
+  "silver_pct": 0.55,
+  "platinum_change": 54.0,
+  "platinum_pct": -2.91,
   "palladium_change": 66.5,
   "palladium_pct": -4.6,
-  "copper_change": 0.0229,
-  "copper_pct": 0.35,
+  "copper_change": 0.0324,
+  "copper_pct": 0.49,
   "nickel_change": 0.0,
   "nickel_pct": 0.0,
-  "zinc_change": 17.75,
-  "zinc_pct": -0.46,
+  "zinc_change": 0.0,
+  "zinc_pct": 0.0,
   "lithium_change": 5500.0,
   "lithium_pct": 3.59,
   "uranium_change": 0.55,
