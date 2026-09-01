@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4331.9,
-  "silver": 64.252,
-  "platinum": 1753.9,
-  "palladium": 1318.5,
-  "copper": 6.4288,
+  "gold": 4328.43,
+  "silver": 64.068,
+  "platinum": 1748.9,
+  "palladium": 1319.0,
+  "copper": 6.431,
   "nickel": 16675.0,
-  "zinc": 3908.9,
+  "zinc": 3907.8,
   "lithium": 160000.0,
   "uranium": 89.35,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "01 Sep 2026, 18:53",
+  "_last_updated": "01 Sep 2026, 21:26",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52731.25,
-      "change": -454.65,
-      "pct": -0.85,
+      "price": 52766.88,
+      "change": -419.02,
+      "pct": -0.79,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 18:53",
+      "updated": "01 Sep, 21:26",
       "hist": [
         45295.81,
         45271.23,
@@ -276,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         53463.88,
         53569.44,
         53185.9,
-        52731.25
+        52766.88
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26043.15,
-      "change": -327.74,
-      "pct": -1.24,
+      "price": 26099.77,
+      "change": -271.12,
+      "pct": -1.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 18:53"
+      "updated": "01 Sep, 21:26"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -25.6,
       "pct": -0.28,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 18:53"
+      "updated": "01 Sep, 21:26"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -26.6,
       "pct": -0.29,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 18:53"
+      "updated": "01 Sep, 21:26"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -34.98,
       "pct": -0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "01 Sep, 18:53"
+      "updated": "01 Sep, 21:26"
     }
   },
   "watchlist": {
@@ -903,6 +903,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "01 Sep 2026"
     },
     {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Is Catalyst Metals\u2019 Profit and Sales Surge Reshaping The Investment Case For Catalyst Metals (ASX:CYL)?",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "01 Sep 2026"
+    },
+    {
       "code": "GA8",
       "name": "Goldarc Resources",
       "title": "GA8 confirms blind Whistler gold vein system",
@@ -924,9 +931,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "01 Sep 2026"
     },
     {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "title": "ASX Penny Stocks To Watch In September 2026",
+      "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "01 Sep 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What Could Make Pro Medicus (ASX:PME) a Key Name Among Growth Stocks?",
+      "title": "Revenue Jumps 23% and New Contracts Top $400m \u2014 Can Pro Medicus\u2019 (ASX:PME) Rally Keep Running?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "01 Sep 2026"
     },
@@ -952,20 +966,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "01 Sep 2026"
     }
   ],
-  "gold_change": 109.24,
-  "gold_pct": -2.46,
-  "silver_change": 2.268,
-  "silver_pct": -3.41,
-  "platinum_change": 40.3,
-  "platinum_pct": -2.25,
-  "palladium_change": 60.0,
-  "palladium_pct": -4.35,
-  "copper_change": 0.1647,
-  "copper_pct": -2.5,
+  "gold_change": 112.71,
+  "gold_pct": -2.54,
+  "silver_change": 2.452,
+  "silver_pct": -3.69,
+  "platinum_change": 45.3,
+  "platinum_pct": -2.52,
+  "palladium_change": 58.5,
+  "palladium_pct": -4.24,
+  "copper_change": 0.1625,
+  "copper_pct": -2.46,
   "nickel_change": 230.0,
   "nickel_pct": -1.36,
-  "zinc_change": 51.1,
-  "zinc_pct": 1.32,
+  "zinc_change": 50.0,
+  "zinc_pct": 1.3,
   "lithium_change": 1500.0,
   "lithium_pct": 0.95,
   "uranium_change": 0.5,
