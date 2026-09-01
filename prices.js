@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4382.63,
-  "silver": 65.078,
-  "platinum": 1778.5,
-  "palladium": 1345.0,
-  "copper": 6.5094,
-  "nickel": 16752.0,
-  "zinc": 3935.85,
+  "gold": 4358.94,
+  "silver": 64.787,
+  "platinum": 1771.7,
+  "palladium": 1335.0,
+  "copper": 6.4983,
+  "nickel": 16669.0,
+  "zinc": 3916.63,
   "lithium": 160000.0,
   "uranium": 89.35,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "01 Sep 2026, 10:33",
+  "_last_updated": "01 Sep 2026, 15:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53185.9,
-      "change": -374.1,
-      "pct": -0.7,
+      "price": 52991.9,
+      "change": -194.0,
+      "pct": -0.36,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 10:33",
+      "updated": "01 Sep, 15:14",
       "hist": [
         45295.81,
         45271.23,
@@ -275,16 +275,17 @@ window.LIVE_COMMODITY_PRICES = {
         53577.4,
         53463.88,
         53569.44,
-        53185.9
+        53185.9,
+        52992.05
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26370.89,
-      "change": -31.53,
-      "pct": -0.12,
+      "price": 26147.96,
+      "change": -222.93,
+      "pct": -0.85,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 10:33"
+      "updated": "01 Sep, 15:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -25.6,
       "pct": -0.28,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 10:33"
+      "updated": "01 Sep, 15:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -26.6,
       "pct": -0.29,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 10:33"
+      "updated": "01 Sep, 15:14"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10723.59,
-      "change": -100.67,
-      "pct": -0.93,
+      "price": 10767.03,
+      "change": -57.23,
+      "pct": -0.53,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "01 Sep, 10:33"
+      "updated": "01 Sep, 15:14"
     }
   },
   "watchlist": {
@@ -379,8 +380,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.1,
       "pct": 4.78,
       "volume": 833658,
-      "avg_volume": 668695.09,
-      "volume_surge": 24.67
+      "avg_volume": 710588.68,
+      "volume_surge": 17.32
     },
     "MM8": {
       "name": "Medallion Metals",
@@ -416,8 +417,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Tivan Ltd",
       "code": "TVN",
       "price": 0.245,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 2880677,
       "avg_volume": 2969385.91,
       "volume_surge": -2.99
@@ -436,8 +437,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "EQ Resources Ltd",
       "code": "EQR",
       "price": 0.425,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 27156851,
       "avg_volume": 31086689.45,
       "volume_surge": -12.64
@@ -459,8 +460,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.02,
       "pct": -2.29,
       "volume": 8843488,
-      "avg_volume": 11762545.59,
-      "volume_surge": -24.82
+      "avg_volume": 11866500.14,
+      "volume_surge": -25.48
     },
     "OBM": {
       "name": "Ora Banda Mining Ltd",
@@ -529,8 +530,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.03,
       "pct": 6.12,
       "volume": 4300985,
-      "avg_volume": 2414861.23,
-      "volume_surge": 78.1
+      "avg_volume": 2416520.32,
+      "volume_surge": 77.98
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -566,8 +567,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Gateway Mining Ltd",
       "code": "GML",
       "price": 0.082,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 3379935,
       "avg_volume": 2218895.64,
       "volume_surge": 52.33
@@ -686,8 +687,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Cyprium Metals",
       "code": "CYM",
       "price": 0.54,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 342351,
       "avg_volume": 1013423.18,
       "volume_surge": -66.22
@@ -756,8 +757,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Lachlan Star Ltd",
       "code": "LSA",
       "price": 0.15,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 1070144,
       "avg_volume": 438667.59,
       "volume_surge": 143.95
@@ -806,8 +807,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "4DMEDICAL Ltd",
       "code": "4DX",
       "price": 3.42,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 4505983,
       "avg_volume": 4779859.09,
       "volume_surge": -5.73
@@ -932,7 +933,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR) Strengthens Its Lithium Growth Pipeline With Strategic Entry Into Argentina",
+      "title": "Liontown (ASX:LTR) Is Up 7.9% After First Profitable Year And Stronger Balance Sheet \u2013 Has The Bull Case Changed?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "01 Sep 2026"
     },
@@ -944,20 +945,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "01 Sep 2026"
     }
   ],
-  "gold_change": 58.51,
-  "gold_pct": -1.32,
-  "silver_change": 1.442,
-  "silver_pct": -2.17,
-  "platinum_change": 15.7,
-  "platinum_pct": -0.88,
-  "palladium_change": 33.5,
-  "palladium_pct": -2.43,
-  "copper_change": 0.0841,
-  "copper_pct": -1.28,
-  "nickel_change": 153.0,
-  "nickel_pct": -0.91,
-  "zinc_change": 78.05,
-  "zinc_pct": 2.02,
+  "gold_change": 82.2,
+  "gold_pct": -1.85,
+  "silver_change": 1.733,
+  "silver_pct": -2.61,
+  "platinum_change": 22.5,
+  "platinum_pct": -1.25,
+  "palladium_change": 43.5,
+  "palladium_pct": -3.16,
+  "copper_change": 0.0952,
+  "copper_pct": -1.44,
+  "nickel_change": 236.0,
+  "nickel_pct": -1.39,
+  "zinc_change": 58.83,
+  "zinc_pct": 1.52,
   "lithium_change": 1500.0,
   "lithium_pct": 0.95,
   "uranium_change": 0.5,
@@ -1015,8 +1016,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "STN",
       "name": "Saturn Metals Ltd",
       "volume": 4300985,
-      "avg_volume": 2414861.23,
-      "volume_surge": 78.1
+      "avg_volume": 2416520.32,
+      "volume_surge": 77.98
     },
     {
       "code": "EDU",
@@ -1080,8 +1081,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "STN",
       "name": "Saturn Metals Ltd",
       "volume": 4300985,
-      "avg_volume": 2414861.23,
-      "volume_surge": 78.1
+      "avg_volume": 2416520.32,
+      "volume_surge": 77.98
     },
     {
       "code": "EDU",
