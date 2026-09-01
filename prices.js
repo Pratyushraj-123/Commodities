@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4328.43,
-  "silver": 64.068,
-  "platinum": 1748.9,
-  "palladium": 1319.0,
-  "copper": 6.431,
+  "gold": 4332.01,
+  "silver": 64.185,
+  "platinum": 1748.5,
+  "palladium": 1319.5,
+  "copper": 6.4415,
   "nickel": 16675.0,
   "zinc": 3907.8,
   "lithium": 160000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "01 Sep 2026, 21:26",
+  "_last_updated": "01 Sep 2026, 23:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -419.02,
       "pct": -0.79,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 21:26",
+      "updated": "01 Sep, 23:36",
       "hist": [
         45295.81,
         45271.23,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -271.12,
       "pct": -1.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "01 Sep, 21:26"
+      "updated": "01 Sep, 23:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -25.6,
       "pct": -0.28,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 21:26"
+      "updated": "01 Sep, 23:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -26.6,
       "pct": -0.29,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "01 Sep, 21:26"
+      "updated": "01 Sep, 23:36"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -34.98,
       "pct": -0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "01 Sep, 21:26"
+      "updated": "01 Sep, 23:36"
     }
   },
   "watchlist": {
@@ -460,7 +460,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.02,
       "pct": -2.29,
       "volume": 8843488,
-      "avg_volume": 11866500.14,
+      "avg_volume": 11867595.41,
       "volume_surge": -25.48
     },
     "OBM": {
@@ -470,8 +470,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.02,
       "pct": 1.31,
       "volume": 4256552,
-      "avg_volume": 11283081.18,
-      "volume_surge": -62.27
+      "avg_volume": 11283793.0,
+      "volume_surge": -62.28
     },
     "DVP": {
       "name": "Develop Global",
@@ -480,7 +480,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.09,
       "pct": 1.66,
       "volume": 584503,
-      "avg_volume": 1288460.5,
+      "avg_volume": 1288607.77,
       "volume_surge": -54.64
     },
     "CYL": {
@@ -490,8 +490,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.24,
       "pct": 3.68,
       "volume": 958539,
-      "avg_volume": 1674333.05,
-      "volume_surge": -42.75
+      "avg_volume": 1674808.86,
+      "volume_surge": -42.77
     },
     "SPD": {
       "name": "Southern Palladium",
@@ -660,8 +660,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.08,
       "pct": 4.43,
       "volume": 3441174,
-      "avg_volume": 3088441.05,
-      "volume_surge": 11.42
+      "avg_volume": 3088939.05,
+      "volume_surge": 11.4
     },
     "BRE": {
       "name": "Brazilian Rare Earths Ltd",
@@ -780,8 +780,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.57,
       "pct": 3.45,
       "volume": 1431016,
-      "avg_volume": 1629812.0,
-      "volume_surge": -12.2
+      "avg_volume": 1629955.45,
+      "volume_surge": -12.21
     },
     "EDU": {
       "name": "EDU Holdings Ltd",
@@ -810,7 +810,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 4505983,
-      "avg_volume": 4779859.09,
+      "avg_volume": 4780114.91,
       "volume_surge": -5.73
     },
     "PME": {
@@ -820,8 +820,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -2.97,
       "pct": -1.66,
       "volume": 174157,
-      "avg_volume": 269614.82,
-      "volume_surge": -35.41
+      "avg_volume": 269673.32,
+      "volume_surge": -35.42
     },
     "EIQ": {
       "name": "Echoiq Ltd",
@@ -830,8 +830,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.1,
       "pct": -7.07,
       "volume": 3634858,
-      "avg_volume": 3018454.55,
-      "volume_surge": 20.42
+      "avg_volume": 3028409.09,
+      "volume_surge": 20.03
     },
     "NEU": {
       "name": "Neuren Pharmaceuticals Ltd",
@@ -840,8 +840,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.15,
       "pct": 0.76,
       "volume": 472075,
-      "avg_volume": 687772.18,
-      "volume_surge": -31.36
+      "avg_volume": 687862.09,
+      "volume_surge": -31.37
     },
     "AYA": {
       "name": "ARTRYA Ltd",
@@ -860,8 +860,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.08,
       "pct": 6.53,
       "volume": 64650411,
-      "avg_volume": 44607562.95,
-      "volume_surge": 44.93
+      "avg_volume": 44618293.18,
+      "volume_surge": 44.9
     },
     "PLS": {
       "name": "PLS Group Ltd",
@@ -870,7 +870,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.08,
       "pct": 1.48,
       "volume": 15558676,
-      "avg_volume": 24072768.91,
+      "avg_volume": 24074857.45,
       "volume_surge": -35.37
     },
     "WC8": {
@@ -926,7 +926,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "What Could Make Megaport (ASX:MP1) a Key AI Stock as Demand Expands?",
+      "title": "Where Does Megaport (ASX:MP1) Valuation Sit After Earnings And 2027 Guidance?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "01 Sep 2026"
     },
@@ -935,6 +935,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "EDU Holdings Ltd",
       "title": "ASX Penny Stocks To Watch In September 2026",
       "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "01 Sep 2026"
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "3 ASX Stocks Estimated To Be Undervalued In September 2026",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
       "date": "01 Sep 2026"
     },
     {
@@ -966,16 +973,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "01 Sep 2026"
     }
   ],
-  "gold_change": 112.71,
-  "gold_pct": -2.54,
-  "silver_change": 2.452,
-  "silver_pct": -3.69,
-  "platinum_change": 45.3,
-  "platinum_pct": -2.52,
-  "palladium_change": 58.5,
-  "palladium_pct": -4.24,
-  "copper_change": 0.1625,
-  "copper_pct": -2.46,
+  "gold_change": 109.13,
+  "gold_pct": -2.46,
+  "silver_change": 2.335,
+  "silver_pct": -3.51,
+  "platinum_change": 45.7,
+  "platinum_pct": -2.55,
+  "palladium_change": 59.0,
+  "palladium_pct": -4.28,
+  "copper_change": 0.152,
+  "copper_pct": -2.31,
   "nickel_change": 230.0,
   "nickel_pct": -1.36,
   "zinc_change": 50.0,
@@ -1167,8 +1174,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 4256552,
-      "avg_volume": 11283081.18,
-      "volume_surge": -62.27
+      "avg_volume": 11283793.0,
+      "volume_surge": -62.28
     },
     {
       "code": "BNZ",
@@ -1195,7 +1202,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "DVP",
       "name": "Develop Global",
       "volume": 584503,
-      "avg_volume": 1288460.5,
+      "avg_volume": 1288607.77,
       "volume_surge": -54.64
     },
     {
@@ -1251,8 +1258,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "CYL",
       "name": "Catalyst Metals",
       "volume": 958539,
-      "avg_volume": 1674333.05,
-      "volume_surge": -42.75
+      "avg_volume": 1674808.86,
+      "volume_surge": -42.77
     },
     {
       "code": "SGQ",
@@ -1272,22 +1279,22 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "volume": 174157,
-      "avg_volume": 269614.82,
-      "volume_surge": -35.41
+      "avg_volume": 269673.32,
+      "volume_surge": -35.42
     },
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
       "volume": 15558676,
-      "avg_volume": 24072768.91,
+      "avg_volume": 24074857.45,
       "volume_surge": -35.37
     },
     {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
       "volume": 472075,
-      "avg_volume": 687772.18,
-      "volume_surge": -31.36
+      "avg_volume": 687862.09,
+      "volume_surge": -31.37
     }
   ]
 };
