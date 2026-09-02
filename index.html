@@ -322,6 +322,40 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
     <div class="left-col">
       <div class="tlbl">Select Commodity</div>
       <div class="tabs" id="tabsEl"></div>
+
+      <!-- ── MULTI-DAY BREAKOUT & ACCUMULATION SIGNALS (TOP BANNER) ── -->
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin: 14px 0 16px 0;">
+        
+        <!-- Box 1: 3-Day Price Jump (18%+) -> Blue Theme -->
+        <div style="border: 2px solid #1d4ed8; background: #eff6ff; border-radius: 8px; padding: 10px 12px; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.08);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid rgba(29, 78, 216, 0.2);">
+            <div style="display:flex; align-items:center; gap:6px;">
+              <span style="font-size:14px;">🚀</span>
+              <span style="font-size:11px; font-weight:800; color:#1e3a8a; letter-spacing:0.5px; font-family:var(--fn);">3-DAY PRICE JUMP (18%+)</span>
+            </div>
+            <span style="font-size:9px; font-weight:700; background:#1d4ed8; color:#ffffff; padding:2px 5px; border-radius:3px; font-family:var(--mo);">PRICE BREAKOUT</span>
+          </div>
+          <div id="priceJumpContainer" style="display:flex; flex-direction:column; gap:6px; max-height:140px; overflow-y:auto;">
+            <!-- Dynamically populated 3-day price jumps -->
+          </div>
+        </div>
+
+        <!-- Box 2: 3-Day Sustained Volume Surge (50%+) -> Dark Orange Theme -->
+        <div style="border: 2px solid #c2410c; background: #fff7ed; border-radius: 8px; padding: 10px 12px; box-shadow: 0 4px 10px rgba(194, 65, 12, 0.08);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid rgba(194, 65, 12, 0.2);">
+            <div style="display:flex; align-items:center; gap:6px;">
+              <span style="font-size:14px;">📊</span>
+              <span style="font-size:11px; font-weight:800; color:#7c2d12; letter-spacing:0.5px; font-family:var(--fn);">3-DAY VOLUME ACCUMULATION</span>
+            </div>
+            <span style="font-size:9px; font-weight:700; background:#c2410c; color:#ffffff; padding:2px 5px; border-radius:3px; font-family:var(--mo);">50%+ MOMENTUM</span>
+          </div>
+          <div id="volumeGrowthContainer" style="display:flex; flex-direction:column; gap:6px; max-height:140px; overflow-y:auto;">
+            <!-- Dynamically populated 3-day volume growth alerts -->
+          </div>
+        </div>
+
+      </div>
+
       <div id="panelsEl"></div>
     </div>
     <div class="right-col">
@@ -1111,6 +1145,20 @@ function applyApiPrices(apiPrices) {
   } else {
     renderVolumeDrops([]);
   }
+
+  // Render 3-Day Price Jumps if present
+  if (apiPrices.price_jump_alerts) {
+    renderPriceJumpAlerts(apiPrices.price_jump_alerts);
+  } else {
+    renderPriceJumpAlerts([]);
+  }
+
+  // Render 3-Day Sustained Volume Growth if present
+  if (apiPrices.volume_growth_alerts) {
+    renderVolumeGrowthAlerts(apiPrices.volume_growth_alerts);
+  } else {
+    renderVolumeGrowthAlerts([]);
+  }
   
   if (apiPrices._last_updated) {
     document.getElementById('tsEl').textContent = 'Live Prices: ' + apiPrices._last_updated;
@@ -1445,6 +1493,113 @@ function renderVolumeDrops(drops) {
       <div class="index-stats" style="align-items:flex-end;">
         <span style="font-size:12px; font-weight:700; color:#a855f7; font-family:var(--mo);">${surge.toFixed(1)}% Drop</span>
         <span style="font-size:9px; color:var(--mu); font-family:var(--mo);">Vol: ${formatVol(item.volume)} (Avg: ${formatVol(item.avg_volume)})</span>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderPriceJumpAlerts(alerts) {
+  const container = document.getElementById('priceJumpContainer');
+  if (!container) return;
+  container.innerHTML = '';
+  
+  if (!alerts || alerts.length === 0) {
+    container.innerHTML = `
+      <div style="font-size:11px; color:#1e40af; font-weight:500; padding:10px; text-align:center; background:rgba(255,255,255,0.7); border:1px dashed rgba(29,78,216,0.3); border-radius:5px; font-family:var(--fn);">
+        ℹ️ No companies with ≥ 18% price jump in last 3 days.
+      </div>
+    `;
+    return;
+  }
+  
+  alerts.forEach(item => {
+    const code = item.code.toUpperCase();
+    const jump = item.jump_pct || 0;
+    
+    const card = document.createElement('a');
+    card.href = `https://www.tradingview.com/symbols/ASX-${code}/`;
+    card.target = '_blank';
+    card.style.textDecoration = 'none';
+    card.style.display = 'flex';
+    card.style.justifyContent = 'space-between';
+    card.style.alignItems = 'center';
+    card.style.background = '#ffffff';
+    card.style.border = '1px solid rgba(29, 78, 216, 0.3)';
+    card.style.borderRadius = '5px';
+    card.style.padding = '6px 10px';
+    card.style.transition = 'all 0.15s ease';
+    card.title = `Click to view ${item.name} (${code}) on TradingView`;
+    
+    card.onmouseover = () => { card.style.borderColor = '#1d4ed8'; card.style.boxShadow = '0 2px 6px rgba(29,78,216,0.15)'; };
+    card.onmouseout = () => { card.style.borderColor = 'rgba(29, 78, 216, 0.3)'; card.style.boxShadow = 'none'; };
+    
+    card.innerHTML = `
+      <div style="display:flex; align-items:center; gap:6px;">
+        <span style="font-size:10px; font-weight:800; background:#1d4ed8; color:#ffffff; padding:1px 5px; border-radius:3px; font-family:var(--mo);">${code}</span>
+        <span style="font-size:11px; font-weight:700; color:#0f172a;">${item.name}</span>
+      </div>
+      <div style="text-align:right;">
+        <span style="font-size:12px; font-weight:800; color:#1d4ed8; font-family:var(--mo);">+${jump.toFixed(1)}%</span>
+        <span style="font-size:9px; color:#334155; font-family:var(--mo); display:block;">A$${item.start_price.toFixed(3)} → A$${item.current_price.toFixed(3)} ↗</span>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderVolumeGrowthAlerts(alerts) {
+  const container = document.getElementById('volumeGrowthContainer');
+  if (!container) return;
+  container.innerHTML = '';
+  
+  if (!alerts || alerts.length === 0) {
+    container.innerHTML = `
+      <div style="font-size:11px; color:#9a3412; font-weight:500; padding:10px; text-align:center; background:rgba(255,255,255,0.7); border:1px dashed rgba(194,65,12,0.3); border-radius:5px; font-family:var(--fn);">
+        ℹ️ No sustained 3-day volume accumulation signals today.
+      </div>
+    `;
+    return;
+  }
+  
+  const formatVol = v => {
+    if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return (v / 1e3).toFixed(0) + 'K';
+    return v;
+  };
+  
+  alerts.forEach(item => {
+    const code = item.code.toUpperCase();
+    const surge = item.surge_pct || 0;
+    const trendStr = (item.vol_trend && item.vol_trend.length >= 3) 
+      ? `${formatVol(item.vol_trend[0])} → ${formatVol(item.vol_trend[1])} → ${formatVol(item.vol_trend[2])}`
+      : `Vol: ${formatVol(item.vol_trend ? item.vol_trend[item.vol_trend.length-1] : 0)}`;
+    
+    const card = document.createElement('a');
+    card.href = `https://www.tradingview.com/symbols/ASX-${code}/`;
+    card.target = '_blank';
+    card.style.textDecoration = 'none';
+    card.style.display = 'flex';
+    card.style.justifyContent = 'space-between';
+    card.style.alignItems = 'center';
+    card.style.background = '#ffffff';
+    card.style.border = '1px solid rgba(194, 65, 12, 0.3)';
+    card.style.borderRadius = '5px';
+    card.style.padding = '6px 10px';
+    card.style.transition = 'all 0.15s ease';
+    card.title = `Click to view ${item.name} (${code}) on TradingView`;
+    
+    card.onmouseover = () => { card.style.borderColor = '#c2410c'; card.style.boxShadow = '0 2px 6px rgba(194,65,12,0.15)'; };
+    card.onmouseout = () => { card.style.borderColor = 'rgba(194, 65, 12, 0.3)'; card.style.boxShadow = 'none'; };
+    
+    card.innerHTML = `
+      <div style="display:flex; align-items:center; gap:6px;">
+        <span style="font-size:10px; font-weight:800; background:#c2410c; color:#ffffff; padding:1px 5px; border-radius:3px; font-family:var(--mo);">${code}</span>
+        <span style="font-size:11px; font-weight:700; color:#0f172a;">${item.name}</span>
+      </div>
+      <div style="text-align:right;">
+        <span style="font-size:12px; font-weight:800; color:#c2410c; font-family:var(--mo);">+${surge.toFixed(0)}% Surge</span>
+        <span style="font-size:9px; color:#334155; font-family:var(--mo); display:block;">${trendStr} ↗</span>
       </div>
     `;
     container.appendChild(card);

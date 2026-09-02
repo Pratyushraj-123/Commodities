@@ -236,6 +236,33 @@ def fetch_single_stock_quote(code, name):
                 if avg_vol_30d > 0:
                     volume_surge_pct = ((current_vol - avg_vol_30d) / avg_vol_30d) * 100
             
+            # 3-Day Price Jump calculation
+            price_3d_start = 0.0
+            price_3d_jump_pct = 0.0
+            if len(valid_data) >= 4:
+                price_3d_start = float(valid_data[-4][1])
+                if price_3d_start > 0:
+                    price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
+            elif len(valid_data) >= 2:
+                price_3d_start = float(valid_data[0][1])
+                if price_3d_start > 0:
+                    price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
+                    
+            # 3-Day Sustained Volume calculation
+            vol_3d_trend = []
+            vol_3d_surge_pct = 0.0
+            is_vol_sustained = False
+            if len(volumes) >= 3:
+                v1, v2, v3 = int(volumes[-3]), int(volumes[-2]), int(volumes[-1])
+                vol_3d_trend = [v1, v2, v3]
+                if avg_vol_30d > 0:
+                    surge_v1 = ((v1 - avg_vol_30d) / avg_vol_30d) * 100
+                    surge_v2 = ((v2 - avg_vol_30d) / avg_vol_30d) * 100
+                    surge_v3 = ((v3 - avg_vol_30d) / avg_vol_30d) * 100
+                    vol_3d_surge_pct = surge_v3
+                    if (v3 >= v2 >= v1 or (surge_v3 >= 50.0 and v3 >= v2)) and (surge_v1 >= 30.0 or surge_v2 >= 30.0 or surge_v3 >= 50.0):
+                        is_vol_sustained = True
+            
             return code, {
                 "name": name,
                 "code": code,
@@ -244,7 +271,12 @@ def fetch_single_stock_quote(code, name):
                 "pct": round(pct, 2),
                 "volume": int(current_vol),
                 "avg_volume": round(avg_vol_30d, 2),
-                "volume_surge": round(volume_surge_pct, 2)
+                "volume_surge": round(volume_surge_pct, 2),
+                "price_3d_start": round(price_3d_start, 3),
+                "price_3d_jump": round(price_3d_jump_pct, 2),
+                "vol_3d_trend": vol_3d_trend,
+                "vol_3d_surge": round(vol_3d_surge_pct, 2),
+                "vol_3d_sustained": is_vol_sustained
             }
     except Exception:
         return code, None
@@ -348,6 +380,9 @@ def run_scraper():
         # Compile volume surges (>= 50%) and volume drops (<= -30%)
         volume_surges = []
         volume_drops = []
+        price_jump_alerts = []
+        volume_growth_alerts = []
+
         for code, stock in prices["watchlist"].items():
             surge = stock.get("volume_surge", 0.0)
             item_data = {
@@ -362,16 +397,41 @@ def run_scraper():
             elif surge <= -30.0:
                 volume_drops.append(item_data)
                 
-        # Sort surges descending (highest surge first)
+            # Check 3-Day Price Jump (>= 18%)
+            jump = stock.get("price_3d_jump", 0.0)
+            if jump >= 18.0:
+                price_jump_alerts.append({
+                    "code": code,
+                    "name": stock.get("name"),
+                    "start_price": stock.get("price_3d_start", 0.0),
+                    "current_price": stock.get("price", 0.0),
+                    "jump_pct": jump
+                })
+                
+            # Check 3-Day Sustained Volume Surge
+            if stock.get("vol_3d_sustained"):
+                volume_growth_alerts.append({
+                    "code": code,
+                    "name": stock.get("name"),
+                    "vol_trend": stock.get("vol_3d_trend", []),
+                    "avg_volume": stock.get("avg_volume", 0.0),
+                    "surge_pct": stock.get("vol_3d_surge", 0.0)
+                })
+                
+        # Sort arrays
         volume_surges.sort(key=lambda x: x["volume_surge"], reverse=True)
-        # Sort drops ascending (steepest drop first)
         volume_drops.sort(key=lambda x: x["volume_surge"])
+        price_jump_alerts.sort(key=lambda x: x["jump_pct"], reverse=True)
+        volume_growth_alerts.sort(key=lambda x: x["surge_pct"], reverse=True)
         
         prices["volume_surges"] = volume_surges
         prices["volume_drops"] = volume_drops
         prices["volume_alerts"] = volume_surges
+        prices["price_jump_alerts"] = price_jump_alerts
+        prices["volume_growth_alerts"] = volume_growth_alerts
         
         print(f"Compiled {len(volume_surges)} volume surges (>=50%) and {len(volume_drops)} volume drops (<=-30%).")
+        print(f"Compiled {len(price_jump_alerts)} 3-day price jumps (>=18%) and {len(volume_growth_alerts)} 3-day sustained volume surges.")
     except Exception as e:
         print(f"Error updating watchlist: {e}")
         
