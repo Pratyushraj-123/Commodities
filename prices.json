@@ -1,9 +1,9 @@
 {
-  "gold": 4387.78,
-  "silver": 65.333,
-  "platinum": 1767.6,
-  "palladium": 1366.5,
-  "copper": 6.5154,
+  "gold": 4382.16,
+  "silver": 65.293,
+  "platinum": 1765.1,
+  "palladium": 1361.5,
+  "copper": 6.5155,
   "nickel": 16895.0,
   "zinc": 3857.55,
   "lithium": 156500.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Sep 2026, 21:35",
+  "_last_updated": "02 Sep 2026, 23:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 295.07,
       "pct": 0.56,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 21:35",
+      "updated": "02 Sep, 23:36",
       "hist": [
         45271.23,
         45621.29,
@@ -274,6 +274,7 @@
         53577.4,
         53463.88,
         53569.44,
+        53559.99,
         53185.9,
         52766.88,
         53061.95
@@ -285,7 +286,7 @@
       "change": 118.06,
       "pct": 0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 21:35"
+      "updated": "02 Sep, 23:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": -97.6,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 21:35"
+      "updated": "02 Sep, 23:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +302,7 @@
       "change": -97.5,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 21:35"
+      "updated": "02 Sep, 23:36"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +310,7 @@
       "change": -32.83,
       "pct": -0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Sep, 21:35"
+      "updated": "02 Sep, 23:36"
     }
   },
   "watchlist": {
@@ -1446,13 +1447,6 @@
       "date": "02 Sep 2026"
     },
     {
-      "code": "BMR",
-      "name": "Ballymore Resources",
-      "title": "Ballymore Resources EM Survey Results Reveal Major Discovery Potential",
-      "link": "https://www.marketindex.com.au/asx/bmr/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
       "code": "NMR",
       "name": "Native Mineral Resources",
       "title": "Native Mineral Resources (ASX:NMR) Posts Record 1,080.5oz Gold Outturn at Blackjack in August",
@@ -1481,15 +1475,15 @@
       "date": "02 Sep 2026"
     }
   ],
-  "gold_change": 59.06,
-  "gold_pct": 1.36,
-  "silver_change": 1.267,
-  "silver_pct": 1.98,
-  "platinum_change": 1.9,
-  "platinum_pct": 0.11,
-  "palladium_change": 36.0,
-  "palladium_pct": 2.71,
-  "copper_change": 0.0089,
+  "gold_change": 53.44,
+  "gold_pct": 1.23,
+  "silver_change": 1.227,
+  "silver_pct": 1.92,
+  "platinum_change": 1.0,
+  "platinum_pct": -0.06,
+  "palladium_change": 31.0,
+  "palladium_pct": 2.33,
+  "copper_change": 0.009,
   "copper_pct": 0.14,
   "nickel_change": 220.0,
   "nickel_pct": 1.32,
