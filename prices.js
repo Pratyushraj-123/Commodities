@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4366.39,
-  "silver": 64.902,
-  "platinum": 1767.0,
-  "palladium": 1357.5,
-  "copper": 6.5186,
-  "nickel": 16884.0,
-  "zinc": 3867.15,
+  "gold": 4373.19,
+  "silver": 65.087,
+  "platinum": 1763.2,
+  "palladium": 1365.0,
+  "copper": 6.5092,
+  "nickel": 16895.0,
+  "zinc": 3858.3,
   "lithium": 156500.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Sep 2026, 15:22",
+  "_last_updated": "02 Sep 2026, 18:59",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53077.96,
-      "change": 311.08,
-      "pct": 0.59,
+      "price": 53002.55,
+      "change": 235.67,
+      "pct": 0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 15:22",
+      "updated": "02 Sep, 18:59",
       "hist": [
         45295.81,
         45271.23,
@@ -275,18 +275,19 @@ window.LIVE_COMMODITY_PRICES = {
         53577.4,
         53463.88,
         53569.44,
+        53559.99,
         53185.9,
         52766.88,
-        53077.98
+        53002.55
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26223.76,
-      "change": 123.98,
-      "pct": 0.48,
+      "price": 26190.77,
+      "change": 91.0,
+      "pct": 0.35,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 15:22"
+      "updated": "02 Sep, 18:59"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +295,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.6,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 15:22"
+      "updated": "02 Sep, 18:59"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +303,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.5,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 15:22"
+      "updated": "02 Sep, 18:59"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10768.93,
-      "change": -20.35,
-      "pct": -0.19,
+      "price": 10756.45,
+      "change": -32.83,
+      "pct": -0.3,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Sep, 15:22"
+      "updated": "02 Sep, 18:59"
     }
   },
   "watchlist": {
@@ -1419,17 +1420,10 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "LRV",
-      "name": "Larvotto Resources",
-      "title": "Larvotto Resources (ASX:LRV): Hillgrove, Midas and Exploration Assets Shape Future Growth",
-      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Posts Second Consecutive Month of Record A$55.1 Million Revenue on Tungsten Sales",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Ora Banda Mining Stock And 2 Australian Cash Rich Penny Stocks",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "02 Sep 2026"
     },
     {
@@ -1447,13 +1441,6 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Sep 2026"
     },
     {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper (ASX:TNC) Grows Mt Oxide Discovery to 2.3km Strike With New 300m-Wide Chidna Zone",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
       "code": "GML",
       "name": "Gateway Mining Ltd",
       "title": "Gateway Mining (ASX:GML) The First Fresh-Rock Hit That Could Re-Rate Cowza",
@@ -1468,10 +1455,10 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Sep 2026"
     },
     {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE): From Exploration Success to Integrated Rare Earths Development",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "code": "BMR",
+      "name": "Ballymore Resources",
+      "title": "Ballymore Resources EM Survey Results Reveal Major Discovery Potential",
+      "link": "https://www.marketindex.com.au/asx/bmr/announcements",
       "date": "02 Sep 2026"
     },
     {
@@ -1484,7 +1471,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Can Pro Medicus (ASX:PME) Stay on the Growth Stocks Radar?",
+      "title": "Why Did Pro Medicus (ASX:PME) Draw Attention Among Healthcare Stocks?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "02 Sep 2026"
     },
@@ -1503,20 +1490,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Sep 2026"
     }
   ],
-  "gold_change": 37.67,
-  "gold_pct": 0.87,
-  "silver_change": 0.836,
-  "silver_pct": 1.3,
-  "platinum_change": 0.6,
-  "platinum_pct": 0.03,
-  "palladium_change": 27.0,
-  "palladium_pct": 2.03,
-  "copper_change": 0.0121,
-  "copper_pct": 0.19,
-  "nickel_change": 209.0,
-  "nickel_pct": 1.26,
-  "zinc_change": 40.65,
-  "zinc_pct": -1.04,
+  "gold_change": 44.47,
+  "gold_pct": 1.03,
+  "silver_change": 1.021,
+  "silver_pct": 1.59,
+  "platinum_change": 3.2,
+  "platinum_pct": -0.18,
+  "palladium_change": 35.5,
+  "palladium_pct": 2.67,
+  "copper_change": 0.0027,
+  "copper_pct": 0.04,
+  "nickel_change": 220.0,
+  "nickel_pct": 1.32,
+  "zinc_change": 49.5,
+  "zinc_pct": -1.27,
   "lithium_change": 3500.0,
   "lithium_pct": -2.19,
   "uranium_change": 0.2,
