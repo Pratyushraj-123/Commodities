@@ -1,11 +1,11 @@
 {
-  "gold": 4324.14,
-  "silver": 64.232,
-  "platinum": 1740.1,
-  "palladium": 1327.0,
-  "copper": 6.5089,
-  "nickel": 16636.0,
-  "zinc": 3862.18,
+  "gold": 4366.39,
+  "silver": 64.902,
+  "platinum": 1767.0,
+  "palladium": 1357.5,
+  "copper": 6.5186,
+  "nickel": 16884.0,
+  "zinc": 3867.15,
   "lithium": 156500.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Sep 2026, 11:46",
+  "_last_updated": "02 Sep 2026, 15:22",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52766.88,
-      "change": -419.02,
-      "pct": -0.79,
+      "price": 53077.96,
+      "change": 311.08,
+      "pct": 0.59,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 11:46",
+      "updated": "02 Sep, 15:22",
       "hist": [
         45295.81,
         45271.23,
@@ -275,18 +275,18 @@
         53577.4,
         53463.88,
         53569.44,
-        53559.99,
         53185.9,
-        52766.88
+        52766.88,
+        53077.98
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26099.77,
-      "change": -271.12,
-      "pct": -1.03,
+      "price": 26223.76,
+      "change": 123.98,
+      "pct": 0.48,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 11:46"
+      "updated": "02 Sep, 15:22"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -97.6,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 11:46"
+      "updated": "02 Sep, 15:22"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@
       "change": -97.5,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 11:46"
+      "updated": "02 Sep, 15:22"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10750.92,
-      "change": -38.36,
-      "pct": -0.36,
+      "price": 10768.93,
+      "change": -20.35,
+      "pct": -0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Sep, 11:46"
+      "updated": "02 Sep, 15:22"
     }
   },
   "watchlist": {
@@ -359,16 +359,16 @@
       "change": -0.01,
       "pct": -2.7,
       "volume": 6866185,
-      "avg_volume": 7199040.7,
-      "volume_surge": -4.62,
+      "avg_volume": 7278605.91,
+      "volume_surge": -5.67,
       "price_3d_start": 0.365,
       "price_3d_jump": -1.37,
       "vol_3d_trend": [
         8065356,
         3856731,
-        6866185
+        8696185
       ],
-      "vol_3d_surge": -4.62,
+      "vol_3d_surge": 19.48,
       "vol_3d_sustained": false
     },
     "BNZ": {
@@ -587,16 +587,16 @@
       "change": -0.045,
       "pct": -5.26,
       "volume": 7527648,
-      "avg_volume": 11678902.04,
-      "volume_surge": -35.54,
+      "avg_volume": 11680162.48,
+      "volume_surge": -35.55,
       "price_3d_start": 0.9,
       "price_3d_jump": -10.0,
       "vol_3d_trend": [
         17872624,
         11154584,
-        7527648
+        7556638
       ],
-      "vol_3d_surge": -35.54,
+      "vol_3d_surge": -35.3,
       "vol_3d_sustained": false
     },
     "OBM": {
@@ -606,16 +606,16 @@
       "change": -0.095,
       "pct": -6.13,
       "volume": 8283089,
-      "avg_volume": 11153327.61,
-      "volume_surge": -25.73,
+      "avg_volume": 11154305.43,
+      "volume_surge": -25.74,
       "price_3d_start": 1.59,
       "price_3d_jump": -8.49,
       "vol_3d_trend": [
         17004289,
         4272212,
-        8283089
+        8305579
       ],
-      "vol_3d_surge": -25.73,
+      "vol_3d_surge": -25.54,
       "vol_3d_sustained": false
     },
     "DVP": {
@@ -625,16 +625,16 @@
       "change": -0.24,
       "pct": -4.36,
       "volume": 1156146,
-      "avg_volume": 1282848.57,
-      "volume_surge": -9.88,
+      "avg_volume": 1283036.39,
+      "volume_surge": -9.89,
       "price_3d_start": 5.77,
       "price_3d_jump": -8.84,
       "vol_3d_trend": [
         1197292,
         587743,
-        1156146
+        1160466
       ],
-      "vol_3d_surge": -9.88,
+      "vol_3d_surge": -9.55,
       "vol_3d_sustained": false
     },
     "CYL": {
@@ -644,16 +644,16 @@
       "change": -0.1,
       "pct": -1.48,
       "volume": 2510177,
-      "avg_volume": 1711129.22,
-      "volume_surge": 46.7,
+      "avg_volume": 1711305.3,
+      "volume_surge": 46.68,
       "price_3d_start": 6.84,
       "price_3d_jump": -2.63,
       "vol_3d_trend": [
         2204981,
         969007,
-        2510177
+        2514227
       ],
-      "vol_3d_surge": 46.7,
+      "vol_3d_surge": 46.92,
       "vol_3d_sustained": false
     },
     "SPD": {
@@ -774,8 +774,8 @@
       "name": "True North Copper",
       "code": "TNC",
       "price": 0.365,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 238377,
       "avg_volume": 570144.48,
       "volume_surge": -58.19,
@@ -932,7 +932,7 @@
       "avg_volume": 484612.43,
       "volume_surge": -45.62,
       "price_3d_start": 0.74,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         669005,
         568042,
@@ -967,16 +967,16 @@
       "change": -0.145,
       "pct": -7.69,
       "volume": 5709318,
-      "avg_volume": 3202868.57,
-      "volume_surge": 78.26,
+      "avg_volume": 3203409.0,
+      "volume_surge": 78.23,
       "price_3d_start": 1.905,
       "price_3d_jump": -8.66,
       "vol_3d_trend": [
         4960354,
         3452130,
-        5709318
+        5721748
       ],
-      "vol_3d_surge": 78.26,
+      "vol_3d_surge": 78.61,
       "vol_3d_sustained": true
     },
     "BRE": {
@@ -1065,7 +1065,7 @@
       "avg_volume": 180032.61,
       "volume_surge": -72.67,
       "price_3d_start": 0.185,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         88709,
         163048,
@@ -1195,16 +1195,16 @@
       "change": -0.71,
       "pct": -4.15,
       "volume": 1179261,
-      "avg_volume": 1610360.04,
-      "volume_surge": -26.77,
+      "avg_volume": 1610531.78,
+      "volume_surge": -26.78,
       "price_3d_start": 16.86,
       "price_3d_jump": -2.73,
       "vol_3d_trend": [
         1473367,
         1434172,
-        1179261
+        1183211
       ],
-      "vol_3d_surge": -26.77,
+      "vol_3d_surge": -26.53,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1252,16 +1252,16 @@
       "change": -0.03,
       "pct": -0.88,
       "volume": 4026056,
-      "avg_volume": 4747329.74,
-      "volume_surge": -15.19,
+      "avg_volume": 4747692.78,
+      "volume_surge": -15.2,
       "price_3d_start": 3.64,
       "price_3d_jump": -6.87,
       "vol_3d_trend": [
         5074441,
         4511611,
-        4026056
+        4034406
       ],
-      "vol_3d_surge": -15.19,
+      "vol_3d_surge": -15.02,
       "vol_3d_sustained": false
     },
     "PME": {
@@ -1271,16 +1271,16 @@
       "change": -4.0,
       "pct": -2.27,
       "volume": 243953,
-      "avg_volume": 268555.04,
-      "volume_surge": -9.16,
+      "avg_volume": 268593.74,
+      "volume_surge": -9.17,
       "price_3d_start": 181.48,
       "price_3d_jump": -4.99,
       "vol_3d_trend": [
         252383,
         175444,
-        243953
+        244843
       ],
-      "vol_3d_surge": -9.16,
+      "vol_3d_surge": -8.84,
       "vol_3d_sustained": false
     },
     "EIQ": {
@@ -1309,16 +1309,16 @@
       "change": 0.07,
       "pct": 0.35,
       "volume": 571639,
-      "avg_volume": 682808.91,
-      "volume_surge": -16.28,
+      "avg_volume": 684479.04,
+      "volume_surge": -16.49,
       "price_3d_start": 20.45,
       "price_3d_jump": -2.4,
       "vol_3d_trend": [
         941982,
         474053,
-        571639
+        610052
       ],
-      "vol_3d_surge": -16.28,
+      "vol_3d_surge": -10.87,
       "vol_3d_sustained": false
     },
     "AYA": {
@@ -1347,16 +1347,16 @@
       "change": -0.065,
       "pct": -4.98,
       "volume": 56096600,
-      "avg_volume": 45117350.0,
+      "avg_volume": 45118845.65,
       "volume_surge": 24.33,
       "price_3d_start": 1.195,
       "price_3d_jump": 3.77,
       "vol_3d_trend": [
         51215274,
         64886476,
-        56096600
+        56131000
       ],
-      "vol_3d_surge": 24.33,
+      "vol_3d_surge": 24.41,
       "vol_3d_sustained": false
     },
     "PLS": {
@@ -1366,16 +1366,16 @@
       "change": -0.29,
       "pct": -5.29,
       "volume": 25848247,
-      "avg_volume": 24151961.35,
-      "volume_surge": 7.02,
+      "avg_volume": 24161880.13,
+      "volume_surge": 6.98,
       "price_3d_start": 5.36,
       "price_3d_jump": -3.17,
       "vol_3d_trend": [
         38999864,
         15604624,
-        25848247
+        26076379
       ],
-      "vol_3d_surge": 7.02,
+      "vol_3d_surge": 7.92,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1417,21 +1417,106 @@
       "vol_3d_sustained": false
     }
   },
-  "announcements": [],
-  "gold_change": 4.58,
-  "gold_pct": -0.11,
-  "silver_change": 0.166,
-  "silver_pct": 0.26,
-  "platinum_change": 26.3,
-  "platinum_pct": -1.49,
-  "palladium_change": 3.5,
-  "palladium_pct": -0.26,
-  "copper_change": 0.0024,
-  "copper_pct": 0.04,
-  "nickel_change": 39.0,
-  "nickel_pct": -0.23,
-  "zinc_change": 45.62,
-  "zinc_pct": -1.17,
+  "announcements": [
+    {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (ASX:LRV): Hillgrove, Midas and Exploration Assets Shape Future Growth",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Posts Second Consecutive Month of Record A$55.1 Million Revenue on Tungsten Sales",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL) Advances Plutonic Growth Strategy with New Cinnamon Gold Results",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "title": "Manuka Resources Names Dieter Engelhardt Group Metallurgist and Strategic Projects Manager",
+      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Grows Mt Oxide Discovery to 2.3km Strike With New 300m-Wide Chidna Zone",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML) The First Fresh-Rock Hit That Could Re-Rate Cowza",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "Firefly Metals (ASX:FFM): Copper-Gold Development Strategy Keeps Green Bay Project in Focus",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE): From Exploration Success to Integrated Rare Earths Development",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "NMR",
+      "name": "Native Mineral Resources",
+      "title": "Native Mineral Resources (ASX:NMR) Posts Record 1,080.5oz Gold Outturn at Blackjack in August",
+      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Can Pro Medicus (ASX:PME) Stay on the Growth Stocks Radar?",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Why Could Liontown (ASX:LTR) Enter the Lithium Stocks Spotlight?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "02 Sep 2026"
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Technical Analysis of Wildcat Resources Ltd. (ASX:WC8)",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "02 Sep 2026"
+    }
+  ],
+  "gold_change": 37.67,
+  "gold_pct": 0.87,
+  "silver_change": 0.836,
+  "silver_pct": 1.3,
+  "platinum_change": 0.6,
+  "platinum_pct": 0.03,
+  "palladium_change": 27.0,
+  "palladium_pct": 2.03,
+  "copper_change": 0.0121,
+  "copper_pct": 0.19,
+  "nickel_change": 209.0,
+  "nickel_pct": 1.26,
+  "zinc_change": 40.65,
+  "zinc_pct": -1.04,
   "lithium_change": 3500.0,
   "lithium_pct": -2.19,
   "uranium_change": 0.2,
@@ -1489,8 +1574,8 @@
       "code": "FFM",
       "name": "Firefly Metals Ltd",
       "volume": 5709318,
-      "avg_volume": 3202868.57,
-      "volume_surge": 78.26
+      "avg_volume": 3203409.0,
+      "volume_surge": 78.23
     },
     {
       "code": "SLS",
@@ -1554,8 +1639,8 @@
       "code": "FFM",
       "name": "Firefly Metals Ltd",
       "volume": 5709318,
-      "avg_volume": 3202868.57,
-      "volume_surge": 78.26
+      "avg_volume": 3203409.0,
+      "volume_surge": 78.23
     },
     {
       "code": "SLS",
@@ -1689,8 +1774,8 @@
       "code": "MI6",
       "name": "Minerals 260",
       "volume": 7527648,
-      "avg_volume": 11678902.04,
-      "volume_surge": -35.54
+      "avg_volume": 11680162.48,
+      "volume_surge": -35.55
     },
     {
       "code": "SKY",
@@ -1770,10 +1855,10 @@
       "vol_trend": [
         4960354,
         3452130,
-        5709318
+        5721748
       ],
-      "avg_volume": 3202868.57,
-      "surge_pct": 78.26
+      "avg_volume": 3203409.0,
+      "surge_pct": 78.61
     },
     {
       "code": "MKR",
