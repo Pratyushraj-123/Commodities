@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4313.41,
-  "silver": 63.789,
-  "platinum": 1730.8,
-  "palladium": 1311.0,
-  "copper": 6.4302,
-  "nickel": 16536.0,
-  "zinc": 3838.35,
+  "gold": 4324.14,
+  "silver": 64.232,
+  "platinum": 1740.1,
+  "palladium": 1327.0,
+  "copper": 6.5089,
+  "nickel": 16636.0,
+  "zinc": 3862.18,
   "lithium": 156500.0,
   "uranium": 89.55,
   "cobalt": 56290.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Sep 2026, 14:30",
+  "_last_updated": "02 Sep 2026, 11:46",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -419.02,
       "pct": -0.79,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 14:30",
+      "updated": "02 Sep, 11:46",
       "hist": [
         45295.81,
         45271.23,
@@ -275,6 +275,7 @@ window.LIVE_COMMODITY_PRICES = {
         53577.4,
         53463.88,
         53569.44,
+        53559.99,
         53185.9,
         52766.88
       ]
@@ -285,7 +286,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -271.12,
       "pct": -1.03,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Sep, 14:30"
+      "updated": "02 Sep, 11:46"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.6,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 14:30"
+      "updated": "02 Sep, 11:46"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.5,
       "pct": -1.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Sep, 14:30"
+      "updated": "02 Sep, 11:46"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10742.64,
-      "change": -46.64,
-      "pct": -0.43,
+      "price": 10750.92,
+      "change": -38.36,
+      "pct": -0.36,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Sep, 14:30"
+      "updated": "02 Sep, 11:46"
     }
   },
   "watchlist": {
@@ -1416,106 +1417,21 @@ window.LIVE_COMMODITY_PRICES = {
       "vol_3d_sustained": false
     }
   },
-  "announcements": [
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL) Advances Plutonic Growth Strategy with New Cinnamon Gold Results",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "MKR",
-      "name": "Manuka Resources",
-      "title": "Manuka Resources Names Dieter Engelhardt Group Metallurgist and Strategic Projects Manager",
-      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper (ASX:TNC) Grows Mt Oxide Discovery to 2.3km Strike With New 300m-Wide Chidna Zone",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "GML",
-      "name": "Gateway Mining Ltd",
-      "title": "Gateway Mining (ASX:GML) Confirms High-Grade Fresh Rock Gold Discovery at Cowza",
-      "link": "https://www.marketindex.com.au/asx/gml/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "Will Green Bay\u2019s Upgraded Economics and A$150m Raise Change FireFly Metals\u2019 (ASX:FFM) Narrative",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE): From Exploration Success to Integrated Rare Earths Development",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "NMR",
-      "name": "Native Mineral Resources",
-      "title": "Native Mineral Resources (ASX:NMR) Posts Record 1,080.5oz Gold Outturn at Blackjack in August",
-      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMEDICAL (ASX:4DX) Gains 4% as CT:VQ Expansion Keeps Stock in Focus",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Can Pro Medicus (ASX:PME) Stay on the Growth Stocks Radar?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Investors Shouldn't Be Too Comfortable With Neuren Pharmaceuticals' (ASX:NEU) Earnings",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Why Could Liontown (ASX:LTR) Enter the Lithium Stocks Spotlight?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "02 Sep 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Technical Analysis of Wildcat Resources Ltd. (ASX:WC8)",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "02 Sep 2026"
-    }
-  ],
-  "gold_change": 15.31,
-  "gold_pct": -0.35,
-  "silver_change": 0.277,
-  "silver_pct": -0.43,
-  "platinum_change": 35.6,
-  "platinum_pct": -2.02,
-  "palladium_change": 19.5,
-  "palladium_pct": -1.47,
-  "copper_change": 0.0763,
-  "copper_pct": -1.17,
-  "nickel_change": 139.0,
-  "nickel_pct": -0.83,
-  "zinc_change": 69.45,
-  "zinc_pct": -1.78,
+  "announcements": [],
+  "gold_change": 4.58,
+  "gold_pct": -0.11,
+  "silver_change": 0.166,
+  "silver_pct": 0.26,
+  "platinum_change": 26.3,
+  "platinum_pct": -1.49,
+  "palladium_change": 3.5,
+  "palladium_pct": -0.26,
+  "copper_change": 0.0024,
+  "copper_pct": 0.04,
+  "nickel_change": 39.0,
+  "nickel_pct": -0.23,
+  "zinc_change": 45.62,
+  "zinc_pct": -1.17,
   "lithium_change": 3500.0,
   "lithium_pct": -2.19,
   "uranium_change": 0.2,
