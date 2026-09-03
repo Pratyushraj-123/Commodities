@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4499.87,
-  "silver": 67.228,
-  "platinum": 1836.5,
-  "palladium": 1426.0,
-  "copper": 6.578,
-  "nickel": 16780.0,
-  "zinc": 3894.5,
+  "gold": 4478.63,
+  "silver": 66.913,
+  "platinum": 1829.4,
+  "palladium": 1435.5,
+  "copper": 6.5828,
+  "nickel": 16905.0,
+  "zinc": 3892.15,
   "lithium": 156000.0,
   "uranium": 89.5,
   "cobalt": 56290.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Sep 2026, 15:15",
+  "_last_updated": "03 Sep 2026, 18:54",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53599.27,
-      "change": 537.32,
-      "pct": 1.01,
+      "price": 53674.49,
+      "change": 612.54,
+      "pct": 1.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 15:15",
+      "updated": "03 Sep, 18:54",
       "hist": [
         45271.23,
         45621.29,
@@ -278,16 +278,16 @@ window.LIVE_COMMODITY_PRICES = {
         53185.9,
         52766.88,
         53061.95,
-        53599.27
+        53674.79
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26529.56,
-      "change": 311.74,
-      "pct": 1.19,
+      "price": 26618.71,
+      "change": 400.88,
+      "pct": 1.53,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 15:15"
+      "updated": "03 Sep, 18:54"
     },
     "asx200": {
       "name": "ASX 200",
@@ -295,7 +295,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -46.6,
       "pct": -0.51,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 15:15"
+      "updated": "03 Sep, 18:54"
     },
     "asx300": {
       "name": "ASX 300",
@@ -303,15 +303,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -49.5,
       "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 15:15"
+      "updated": "03 Sep, 18:54"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10821.84,
-      "change": 65.39,
-      "pct": 0.61,
+      "price": 10831.52,
+      "change": 75.07,
+      "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Sep, 15:15"
+      "updated": "03 Sep, 18:54"
     }
   },
   "watchlist": {
@@ -1420,10 +1420,24 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Beacon Minerals (ASX:BCN): Iguana Reserve Growth Supports a Longer Production Outlook",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
       "code": "SLS",
       "name": "Solstice Minerals",
       "title": "Solstice Minerals (ASX:SLS) Soars 650% Over the Year \u2014 Should You Consider This Copper-Gold Stock?",
       "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining (ASX:TGN) Up 335% Over the Year \u2014 Is Mt Mulgine Reason Enough to Watch This Stock?",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
       "date": "03 Sep 2026"
     },
     {
@@ -1434,10 +1448,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Sep 2026"
     },
     {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre Limited (ASX:CBE) Climbs 550% in a Year \u2014 Is It Time to Watch This Copper Stock?",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
       "code": "USL",
       "name": "Unico Silver Ltd",
       "title": "Unico Silver (ASX:USL): Bigger Resources, More Metallurgy and a Revised PFS Timeline",
       "link": "https://www.marketindex.com.au/asx/usl/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN) Shares Drop 9% Despite Carester Deal for Kazakhstan Oxide Facility",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Focus Minerals (ASX:FML) Up 247% Over the Year \u2014 Should You Consider Watching This Gold Producer?",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
       "date": "03 Sep 2026"
     },
     {
@@ -1460,26 +1495,33 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "How Did Pro Medicus (ASX:PME) Move Into AI Stocks Focus?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "03 Sep 2026"
+    },
+    {
+      "code": "POD",
+      "name": "Podium Minerals",
+      "title": "Podium Minerals (ASX:POD) Edges Higher\u2014Can Parks Reef Funding Accelerate the Next Phase?",
+      "link": "https://www.marketindex.com.au/asx/pod/announcements",
+      "date": "03 Sep 2026"
     }
   ],
-  "gold_change": 112.09,
-  "gold_pct": 2.55,
-  "silver_change": 1.911,
-  "silver_pct": 2.93,
-  "platinum_change": 71.9,
-  "platinum_pct": 4.07,
-  "palladium_change": 65.5,
-  "palladium_pct": 4.81,
-  "copper_change": 0.077,
-  "copper_pct": 1.18,
-  "nickel_change": 115.0,
-  "nickel_pct": -0.68,
-  "zinc_change": 36.95,
-  "zinc_pct": 0.96,
+  "gold_change": 90.85,
+  "gold_pct": 2.07,
+  "silver_change": 1.596,
+  "silver_pct": 2.44,
+  "platinum_change": 64.8,
+  "platinum_pct": 3.67,
+  "palladium_change": 75.0,
+  "palladium_pct": 5.51,
+  "copper_change": 0.0818,
+  "copper_pct": 1.26,
+  "nickel_change": 10.0,
+  "nickel_pct": 0.06,
+  "zinc_change": 34.6,
+  "zinc_pct": 0.9,
   "lithium_change": 500.0,
   "lithium_pct": -0.32,
-  "uranium_change": 0.05,
-  "uranium_pct": -0.06,
+  "uranium_change": 0.0,
+  "uranium_pct": 0.0,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
