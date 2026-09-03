@@ -1,9 +1,9 @@
 {
-  "gold": 4473.63,
-  "silver": 66.971,
-  "platinum": 1829.9,
-  "palladium": 1435.5,
-  "copper": 6.577,
+  "gold": 4474.34,
+  "silver": 66.953,
+  "platinum": 1834.0,
+  "palladium": 1433.0,
+  "copper": 6.585,
   "nickel": 16905.0,
   "zinc": 3891.9,
   "lithium": 156000.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Sep 2026, 21:26",
+  "_last_updated": "03 Sep 2026, 23:34",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 624.16,
       "pct": 1.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 21:26",
+      "updated": "03 Sep, 23:34",
       "hist": [
         45621.29,
         45400.86,
@@ -286,7 +286,7 @@
       "change": 366.23,
       "pct": 1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 21:26"
+      "updated": "03 Sep, 23:34"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -46.6,
       "pct": -0.51,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 21:26"
+      "updated": "03 Sep, 23:34"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": -49.5,
       "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 21:26"
+      "updated": "03 Sep, 23:34"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": 75.07,
       "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Sep, 21:26"
+      "updated": "03 Sep, 23:34"
     }
   },
   "watchlist": {
@@ -1475,6 +1475,13 @@
       "date": "03 Sep 2026"
     },
     {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining (ASX:SGQ): Arax\u00e1 Pilot Plant Work Adds Momentum to Rare Earths Development",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
       "code": "FML",
       "name": "Focus Minerals",
       "title": "Focus Minerals (ASX:FML) Up 247% Over the Year \u2014 Should You Consider Watching This Gold Producer?",
@@ -1510,6 +1517,13 @@
       "date": "03 Sep 2026"
     },
     {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "From Tabba Tabba to Bolt Cutter: How Wildcat Resources (ASX:WC8) Is Building Scale",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
       "code": "POD",
       "name": "Podium Minerals",
       "title": "Podium Minerals (ASX:POD) Edges Higher\u2014Can Parks Reef Funding Accelerate the Next Phase?",
@@ -1517,16 +1531,16 @@
       "date": "03 Sep 2026"
     }
   ],
-  "gold_change": 85.85,
-  "gold_pct": 1.96,
-  "silver_change": 1.654,
-  "silver_pct": 2.53,
-  "platinum_change": 65.3,
-  "platinum_pct": 3.7,
-  "palladium_change": 75.0,
-  "palladium_pct": 5.51,
-  "copper_change": 0.076,
-  "copper_pct": 1.17,
+  "gold_change": 86.56,
+  "gold_pct": 1.97,
+  "silver_change": 1.636,
+  "silver_pct": 2.51,
+  "platinum_change": 69.4,
+  "platinum_pct": 3.93,
+  "palladium_change": 72.5,
+  "palladium_pct": 5.33,
+  "copper_change": 0.084,
+  "copper_pct": 1.29,
   "nickel_change": 10.0,
   "nickel_pct": 0.06,
   "zinc_change": 34.35,
