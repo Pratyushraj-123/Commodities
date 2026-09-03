@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4478.63,
-  "silver": 66.913,
-  "platinum": 1829.4,
+  "gold": 4473.63,
+  "silver": 66.971,
+  "platinum": 1829.9,
   "palladium": 1435.5,
-  "copper": 6.5828,
+  "copper": 6.577,
   "nickel": 16905.0,
-  "zinc": 3892.15,
+  "zinc": 3891.9,
   "lithium": 156000.0,
   "uranium": 89.5,
   "cobalt": 56290.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "03 Sep 2026, 18:54",
+  "_last_updated": "03 Sep 2026, 21:26",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53674.49,
-      "change": 612.54,
-      "pct": 1.15,
+      "price": 53686.11,
+      "change": 624.16,
+      "pct": 1.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 18:54",
+      "updated": "03 Sep, 21:26",
       "hist": [
-        45271.23,
         45621.29,
         45400.86,
         45514.95,
@@ -278,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         53185.9,
         52766.88,
         53061.95,
-        53674.79
+        53686.11
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26618.71,
-      "change": 400.88,
-      "pct": 1.53,
+      "price": 26584.06,
+      "change": 366.23,
+      "pct": 1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Sep, 18:54"
+      "updated": "03 Sep, 21:26"
     },
     "asx200": {
       "name": "ASX 200",
@@ -295,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -46.6,
       "pct": -0.51,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 18:54"
+      "updated": "03 Sep, 21:26"
     },
     "asx300": {
       "name": "ASX 300",
@@ -303,7 +302,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -49.5,
       "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Sep, 18:54"
+      "updated": "03 Sep, 21:26"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -311,7 +310,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 75.07,
       "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Sep, 18:54"
+      "updated": "03 Sep, 21:26"
     }
   },
   "watchlist": {
@@ -512,16 +511,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.005,
       "pct": -2.22,
       "volume": 1954148,
-      "avg_volume": 2851815.58,
+      "avg_volume": 2851828.25,
       "volume_surge": -31.48,
       "price_3d_start": 0.245,
       "price_3d_jump": -10.2,
       "vol_3d_trend": [
         2880677,
         1162936,
-        1954148
+        1954452
       ],
-      "vol_3d_surge": -31.48,
+      "vol_3d_surge": -31.47,
       "vol_3d_sustained": false
     },
     "TGN": {
@@ -1367,16 +1366,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.01,
       "pct": 0.19,
       "volume": 19562827,
-      "avg_volume": 23989450.5,
-      "volume_surge": -18.45,
+      "avg_volume": 23990540.83,
+      "volume_surge": -18.46,
       "price_3d_start": 5.4,
       "price_3d_jump": -3.7,
       "vol_3d_trend": [
         15604624,
         26497640,
-        19602308
+        19628476
       ],
-      "vol_3d_surge": -18.29,
+      "vol_3d_surge": -18.18,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1431,6 +1430,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Solstice Minerals",
       "title": "Solstice Minerals (ASX:SLS) Soars 650% Over the Year \u2014 Should You Consider This Copper-Gold Stock?",
       "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8): Gold-Copper Development Gains Momentum Ahead of 2027 Production",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
       "date": "03 Sep 2026"
     },
     {
@@ -1497,6 +1503,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Sep 2026"
     },
     {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Earnings Beat: Liontown Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "03 Sep 2026"
+    },
+    {
       "code": "POD",
       "name": "Podium Minerals",
       "title": "Podium Minerals (ASX:POD) Edges Higher\u2014Can Parks Reef Funding Accelerate the Next Phase?",
@@ -1504,20 +1517,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "03 Sep 2026"
     }
   ],
-  "gold_change": 90.85,
-  "gold_pct": 2.07,
-  "silver_change": 1.596,
-  "silver_pct": 2.44,
-  "platinum_change": 64.8,
-  "platinum_pct": 3.67,
+  "gold_change": 85.85,
+  "gold_pct": 1.96,
+  "silver_change": 1.654,
+  "silver_pct": 2.53,
+  "platinum_change": 65.3,
+  "platinum_pct": 3.7,
   "palladium_change": 75.0,
   "palladium_pct": 5.51,
-  "copper_change": 0.0818,
-  "copper_pct": 1.26,
+  "copper_change": 0.076,
+  "copper_pct": 1.17,
   "nickel_change": 10.0,
   "nickel_pct": 0.06,
-  "zinc_change": 34.6,
-  "zinc_pct": 0.9,
+  "zinc_change": 34.35,
+  "zinc_pct": 0.89,
   "lithium_change": 500.0,
   "lithium_pct": -0.32,
   "uranium_change": 0.0,
@@ -1838,7 +1851,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "TVN",
       "name": "Tivan Ltd",
       "volume": 1954148,
-      "avg_volume": 2851815.58,
+      "avg_volume": 2851828.25,
       "volume_surge": -31.48
     }
   ],
