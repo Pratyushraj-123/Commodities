@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4429.83,
-  "silver": 66.193,
+  "gold": 4432.56,
+  "silver": 66.199,
   "platinum": 1828.5,
-  "palladium": 1399.5,
-  "copper": 6.5783,
+  "palladium": 1400.0,
+  "copper": 6.5805,
   "nickel": 16835.0,
   "zinc": 3929.55,
   "lithium": 152000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "04 Sep 2026, 21:04",
+  "_last_updated": "04 Sep 2026, 23:27",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -271.86,
       "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 21:04",
+      "updated": "04 Sep, 23:27",
       "hist": [
         45400.86,
         45514.95,
@@ -286,7 +286,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -77.07,
       "pct": -0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 21:04"
+      "updated": "04 Sep, 23:27"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 27.5,
       "pct": 0.31,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 21:04"
+      "updated": "04 Sep, 23:27"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.6,
       "pct": 0.32,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 21:04"
+      "updated": "04 Sep, 23:27"
     },
     "ftse": {
       "name": "FTSE 100",
       "price": 10831.09,
-      "change": -0.43,
+      "change": -0.41,
       "pct": -0.0,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "04 Sep, 21:04"
+      "updated": "04 Sep, 23:27"
     }
   },
   "watchlist": {
@@ -1426,6 +1426,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     },
     {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Extends Its Run as Exploration Interest Builds",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS) Closed 8% Higher as Bluetooth Drilling Expands the Yarri Gold Story",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
       "title": "Waratah Minerals (ASX:WTM) Closed 6.6% Higher as Gum Flat Reveals a Broader Gold Zone",
@@ -1433,10 +1447,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     },
     {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN): Can Fluorite Milestones Move Speewah Towards Development?",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Advances Davyhurst Growth Strategy Through Production Expansion and Resource Growth",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Sky Metals (ASX:SKY) Advances Tallebung Tin Project Through Resource Growth and Development Studies",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1451,6 +1479,20 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Leeuwin Metals Ltd",
       "title": "Leeuwin Metals (ASX:LM1) Climbs as Investors Revisit Its Exploration Pipeline",
       "link": "https://www.marketindex.com.au/asx/lm1/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Closes ~A$180M Equity Raising to Advance Green Bay Copper-Gold Project",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE): Can Monte Alto Turn Scoping Ambition Into Project Progress?",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1475,10 +1517,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX) Jumps 4.65% \u2014 Why the Lung Imaging Tech Stock Is Making Moves",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Pro Medicus (ASX:PME) Draws Attention as Premium Medical Imaging Stock Approaches Monday Ex-Dividend Date",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
       "code": "EIQ",
       "name": "Echoiq Ltd",
       "title": "EchoIQ (ASX:EIQ) Extends Its One-Year Surge\u2014Can Cardiac AI Support the Valuation?",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "AYA",
+      "name": "ARTRYA Ltd",
+      "title": "Artrya (ASX:AYA) Up 0.84% \u2014 AI Heart Imaging Company Holds Cash Despite Widening Loss",
+      "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1496,6 +1559,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     },
     {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Wildcat Resources (ASX:WC8): Will the Tabba Tabba Study Define a Financeable Lithium Project?",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
       "code": "POD",
       "name": "Podium Minerals",
       "title": "Podium Minerals (ASX:POD) Secures Full $4 Million Funding Commitment for Project Advancement Activities",
@@ -1503,16 +1573,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     }
   ],
-  "gold_change": 43.8,
-  "gold_pct": -0.98,
-  "silver_change": 0.771,
-  "silver_pct": -1.15,
+  "gold_change": 41.07,
+  "gold_pct": -0.92,
+  "silver_change": 0.765,
+  "silver_pct": -1.14,
   "platinum_change": 5.5,
   "platinum_pct": -0.3,
   "palladium_change": 40.0,
   "palladium_pct": -2.78,
-  "copper_change": 0.0013,
-  "copper_pct": 0.02,
+  "copper_change": 0.0035,
+  "copper_pct": 0.05,
   "nickel_change": 70.0,
   "nickel_pct": -0.41,
   "zinc_change": 37.65,
