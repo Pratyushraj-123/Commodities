@@ -1,10 +1,10 @@
 {
-  "gold": 4424.22,
-  "silver": 65.992,
-  "platinum": 1821.2,
-  "palladium": 1397.5,
-  "copper": 6.5647,
-  "nickel": 16830.0,
+  "gold": 4429.83,
+  "silver": 66.193,
+  "platinum": 1828.5,
+  "palladium": 1399.5,
+  "copper": 6.5783,
+  "nickel": 16835.0,
   "zinc": 3929.55,
   "lithium": 152000.0,
   "uranium": 89.5,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "04 Sep 2026, 18:35",
+  "_last_updated": "04 Sep 2026, 21:04",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53436.44,
-      "change": -249.67,
-      "pct": -0.47,
+      "price": 53414.25,
+      "change": -271.86,
+      "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 18:35",
+      "updated": "04 Sep, 21:04",
       "hist": [
-        45621.29,
         45400.86,
         45514.95,
         45711.34,
@@ -278,16 +277,16 @@
         52766.88,
         53061.95,
         53686.11,
-        53436.05
+        53414.25
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26476.98,
-      "change": -107.08,
-      "pct": -0.4,
+      "price": 26506.99,
+      "change": -77.07,
+      "pct": -0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 18:35"
+      "updated": "04 Sep, 21:04"
     },
     "asx200": {
       "name": "ASX 200",
@@ -295,7 +294,7 @@
       "change": 27.5,
       "pct": 0.31,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 18:35"
+      "updated": "04 Sep, 21:04"
     },
     "asx300": {
       "name": "ASX 300",
@@ -303,7 +302,7 @@
       "change": 28.6,
       "pct": 0.32,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 18:35"
+      "updated": "04 Sep, 21:04"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -311,7 +310,7 @@
       "change": -0.43,
       "pct": -0.0,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "04 Sep, 18:35"
+      "updated": "04 Sep, 21:04"
     }
   },
   "watchlist": {
@@ -588,16 +587,16 @@
       "change": 0.02,
       "pct": 2.52,
       "volume": 6563881,
-      "avg_volume": 11371944.92,
-      "volume_surge": -42.28,
+      "avg_volume": 11402730.5,
+      "volume_surge": -42.44,
       "price_3d_start": 0.855,
       "price_3d_jump": -4.68,
       "vol_3d_trend": [
         7556638,
         7858716,
-        6575521
+        7314375
       ],
-      "vol_3d_surge": -42.18,
+      "vol_3d_surge": -35.85,
       "vol_3d_sustained": false
     },
     "OBM": {
@@ -607,16 +606,16 @@
       "change": 0.085,
       "pct": 5.65,
       "volume": 54343790,
-      "avg_volume": 13067276.33,
-      "volume_surge": 315.88,
+      "avg_volume": 13091752.08,
+      "volume_surge": 315.1,
       "price_3d_start": 1.55,
       "price_3d_jump": 2.58,
       "vol_3d_trend": [
         8305579,
         8378016,
-        54352818
+        54940236
       ],
-      "vol_3d_surge": 315.95,
+      "vol_3d_surge": 319.66,
       "vol_3d_sustained": true
     },
     "DVP": {
@@ -1044,16 +1043,16 @@
       "change": -0.001,
       "pct": -1.27,
       "volume": 7961183,
-      "avg_volume": 17958693.62,
-      "volume_surge": -55.67,
+      "avg_volume": 17965866.79,
+      "volume_surge": -55.69,
       "price_3d_start": 0.084,
       "price_3d_jump": -7.14,
       "vol_3d_trend": [
         19257321,
         10167750,
-        7961183
+        8133339
       ],
-      "vol_3d_surge": -55.67,
+      "vol_3d_surge": -54.73,
       "vol_3d_sustained": false
     },
     "BPM": {
@@ -1196,16 +1195,16 @@
       "change": 0.67,
       "pct": 4.11,
       "volume": 1598545,
-      "avg_volume": 1608219.21,
-      "volume_surge": -0.6,
+      "avg_volume": 1625777.96,
+      "volume_surge": -1.68,
       "price_3d_start": 17.11,
       "price_3d_jump": -0.7,
       "vol_3d_trend": [
         1183211,
         1139847,
-        1610133
+        2031543
       ],
-      "vol_3d_surge": 0.12,
+      "vol_3d_surge": 24.96,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1234,16 +1233,16 @@
       "change": 0.14,
       "pct": 1.69,
       "volume": 665596,
-      "avg_volume": 753754.54,
-      "volume_surge": -11.7,
+      "avg_volume": 754216.58,
+      "volume_surge": -11.75,
       "price_3d_start": 8.37,
       "price_3d_jump": 0.84,
       "vol_3d_trend": [
         519496,
         293272,
-        674346
+        685435
       ],
-      "vol_3d_surge": -10.54,
+      "vol_3d_surge": -9.12,
       "vol_3d_sustained": false
     },
     "4DX": {
@@ -1272,16 +1271,16 @@
       "change": 1.25,
       "pct": 0.72,
       "volume": 223339,
-      "avg_volume": 270175.0,
-      "volume_surge": -17.34,
+      "avg_volume": 271247.88,
+      "volume_surge": -17.66,
       "price_3d_start": 176.42,
       "price_3d_jump": -1.4,
       "vol_3d_trend": [
         246843,
         212138,
-        223699
+        249448
       ],
-      "vol_3d_surge": -17.2,
+      "vol_3d_surge": -8.04,
       "vol_3d_sustained": false
     },
     "EIQ": {
@@ -1427,20 +1426,6 @@
       "date": "04 Sep 2026"
     },
     {
-      "code": "FRS",
-      "name": "Forrestania Resources",
-      "title": "Forrestania Resources (ASX:FRS) Extends Its Run as Exploration Interest Builds",
-      "link": "https://www.marketindex.com.au/asx/frs/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "title": "Solstice Minerals (ASX:SLS) Closed 8% Higher as Bluetooth Drilling Expands the Yarri Gold Story",
-      "link": "https://www.marketindex.com.au/asx/sls/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
       "title": "Waratah Minerals (ASX:WTM) Closed 6.6% Higher as Gum Flat Reveals a Broader Gold Zone",
@@ -1448,24 +1433,10 @@
       "date": "04 Sep 2026"
     },
     {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan (ASX:TVN): Can Fluorite Milestones Move Speewah Towards Development?",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "Ora Banda Mining (ASX:OBM) Advances Davyhurst Growth Strategy Through Production Expansion and Resource Growth",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
-      "code": "SKY",
-      "name": "SKY Metals Ltd",
-      "title": "Sky Metals (ASX:SKY) Advances Tallebung Tin Project Through Resource Growth and Development Studies",
-      "link": "https://www.marketindex.com.au/asx/sky/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1483,20 +1454,6 @@
       "date": "04 Sep 2026"
     },
     {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) Closes ~A$180M Equity Raising to Advance Green Bay Copper-Gold Project",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE): Can Monte Alto Turn Scoping Ambition Into Project Progress?",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
       "code": "BPM",
       "name": "BPM Minerals",
       "title": "BPM Minerals (ASX:BPM) Advances Forelands Gold Project Through Largest-Ever Drilling Campaign",
@@ -1511,17 +1468,10 @@
       "date": "04 Sep 2026"
     },
     {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Jumps 4.65% \u2014 Why the Lung Imaging Tech Stock Is Making Moves",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) Draws Attention as Premium Medical Imaging Stock Approaches Monday Ex-Dividend Date",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "How Investors May Respond To GenusPlus Group (ASX:GNP) Surging Dividends And Earnings Expansion",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1529,13 +1479,6 @@
       "name": "Echoiq Ltd",
       "title": "EchoIQ (ASX:EIQ) Extends Its One-Year Surge\u2014Can Cardiac AI Support the Valuation?",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
-      "code": "AYA",
-      "name": "ARTRYA Ltd",
-      "title": "Artrya (ASX:AYA) Up 0.84% \u2014 AI Heart Imaging Company Holds Cash Despite Widening Loss",
-      "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1553,13 +1496,6 @@
       "date": "04 Sep 2026"
     },
     {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources (ASX:WC8): Will the Tabba Tabba Study Define a Financeable Lithium Project?",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "04 Sep 2026"
-    },
-    {
       "code": "POD",
       "name": "Podium Minerals",
       "title": "Podium Minerals (ASX:POD) Secures Full $4 Million Funding Commitment for Project Advancement Activities",
@@ -1567,18 +1503,18 @@
       "date": "04 Sep 2026"
     }
   ],
-  "gold_change": 49.41,
-  "gold_pct": -1.1,
-  "silver_change": 0.972,
-  "silver_pct": -1.45,
-  "platinum_change": 12.8,
-  "platinum_pct": -0.7,
-  "palladium_change": 42.5,
-  "palladium_pct": -2.95,
-  "copper_change": 0.0123,
-  "copper_pct": -0.19,
-  "nickel_change": 75.0,
-  "nickel_pct": -0.44,
+  "gold_change": 43.8,
+  "gold_pct": -0.98,
+  "silver_change": 0.771,
+  "silver_pct": -1.15,
+  "platinum_change": 5.5,
+  "platinum_pct": -0.3,
+  "palladium_change": 40.0,
+  "palladium_pct": -2.78,
+  "copper_change": 0.0013,
+  "copper_pct": 0.02,
+  "nickel_change": 70.0,
+  "nickel_pct": -0.41,
   "zinc_change": 37.65,
   "zinc_pct": 0.97,
   "lithium_change": 4000.0,
@@ -1596,8 +1532,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 54343790,
-      "avg_volume": 13067276.33,
-      "volume_surge": 315.88
+      "avg_volume": 13091752.08,
+      "volume_surge": 315.1
     },
     {
       "code": "LM1",
@@ -1654,8 +1590,8 @@
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "volume": 54343790,
-      "avg_volume": 13067276.33,
-      "volume_surge": 315.88
+      "avg_volume": 13091752.08,
+      "volume_surge": 315.1
     },
     {
       "code": "LM1",
@@ -1768,8 +1704,8 @@
       "code": "SGQ",
       "name": "ST George Mining",
       "volume": 7961183,
-      "avg_volume": 17958693.62,
-      "volume_surge": -55.67
+      "avg_volume": 17965866.79,
+      "volume_surge": -55.69
     },
     {
       "code": "DVP",
@@ -1831,8 +1767,8 @@
       "code": "MI6",
       "name": "Minerals 260",
       "volume": 6563881,
-      "avg_volume": 11371944.92,
-      "volume_surge": -42.28
+      "avg_volume": 11402730.5,
+      "volume_surge": -42.44
     },
     {
       "code": "LSA",
@@ -1885,10 +1821,10 @@
       "vol_trend": [
         8305579,
         8378016,
-        54352818
+        54940236
       ],
-      "avg_volume": 13067276.33,
-      "surge_pct": 315.95
+      "avg_volume": 13091752.08,
+      "surge_pct": 319.66
     },
     {
       "code": "PC2",
