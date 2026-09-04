@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4469.26,
-  "silver": 66.587,
-  "platinum": 1812.8,
-  "palladium": 1420.0,
-  "copper": 6.5599,
-  "nickel": 16740.0,
-  "zinc": 3899.8,
+  "gold": 4469.4,
+  "silver": 66.887,
+  "platinum": 1814.8,
+  "palladium": 1425.0,
+  "copper": 6.5724,
+  "nickel": 16813.0,
+  "zinc": 3925.33,
   "lithium": 152000.0,
   "uranium": 89.5,
   "cobalt": 50665.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "04 Sep 2026, 06:34",
+  "_last_updated": "04 Sep 2026, 11:47",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 624.21,
       "pct": 1.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 06:34",
+      "updated": "04 Sep, 11:46",
       "hist": [
         45621.29,
         45400.86,
@@ -276,7 +276,8 @@ window.LIVE_COMMODITY_PRICES = {
         53559.99,
         53185.9,
         52766.88,
-        53061.95
+        53061.95,
+        53686.11
       ]
     },
     "nasdaq": {
@@ -285,7 +286,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 366.23,
       "pct": 1.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Sep, 06:34"
+      "updated": "04 Sep, 11:46"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 27.5,
       "pct": 0.31,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 06:34"
+      "updated": "04 Sep, 11:46"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.6,
       "pct": 0.32,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Sep, 06:34"
+      "updated": "04 Sep, 11:46"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10831.52,
-      "change": 75.02,
-      "pct": 0.7,
+      "price": 10827.2,
+      "change": -4.32,
+      "pct": -0.04,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "04 Sep, 06:34"
+      "updated": "04 Sep, 11:46"
     }
   },
   "watchlist": {
@@ -1345,17 +1346,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.225,
       "change": 0.035,
       "pct": 2.94,
-      "volume": 43758277,
-      "avg_volume": 45499068.17,
-      "volume_surge": -3.83,
+      "volume": 43798687,
+      "avg_volume": 45500751.92,
+      "volume_surge": -3.74,
       "price_3d_start": 1.305,
       "price_3d_jump": -6.13,
       "vol_3d_trend": [
         56131000,
         43019033,
-        43758277
+        43798687
       ],
-      "vol_3d_surge": -3.83,
+      "vol_3d_surge": -3.74,
       "vol_3d_sustained": false
     },
     "PLS": {
@@ -1418,17 +1419,31 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "LRV",
-      "name": "Larvotto Resources",
-      "title": "Larvotto pushes on with new Hillgrove targets",
-      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "Perennial Value Management Withdraws as Substantial Holder in PC Gold Ltd (ASX:PC2)",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Extends Its Run as Exploration Interest Builds",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
       "date": "04 Sep 2026"
     },
     {
       "code": "TVN",
       "name": "Tivan Ltd",
-      "title": "Tivan Limited Establishes New Corporate Headquarters in Darwin's Fannie Bay",
+      "title": "Tivan (ASX:TVN): Can Fluorite Milestones Move Speewah Towards Development?",
       "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Leeuwin Metals (ASX:LM1) Climbs as Investors Revisit Its Exploration Pipeline",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1436,6 +1451,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Firefly Metals Ltd",
       "title": "FireFly Metals (ASX:FFM) Closes ~A$180M Equity Raising to Advance Green Bay Copper-Gold Project",
       "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "04 Sep 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE): Can Monte Alto Turn Scoping Ambition Into Project Progress?",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1448,7 +1470,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "Can 4DMedical's (ASX:4DX) Rising Revenue Offset Its Deepening Losses?",
+      "title": "4DMedical (ASX:4DX) Jumps 4.65% \u2014 Why the Lung Imaging Tech Stock Is Making Moves",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "04 Sep 2026"
     },
@@ -1467,17 +1489,17 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     },
     {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Did Liontown (ASX:LTR) Just Beat Analyst Forecasts?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "code": "AYA",
+      "name": "ARTRYA Ltd",
+      "title": "Artrya (ASX:AYA) Up 0.84% \u2014 AI Heart Imaging Company Holds Cash Despite Widening Loss",
+      "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "04 Sep 2026"
     },
     {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "Could Pilbara Minerals (ASX:PLS) Reset Attention?",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Could Liontown Resources (ASX:LTR) Draw Attention Among Lithium Stocks as Battery Materials Regain Focus?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "04 Sep 2026"
     },
     {
@@ -1495,20 +1517,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "04 Sep 2026"
     }
   ],
-  "gold_change": 4.37,
-  "gold_pct": -0.1,
-  "silver_change": 0.377,
-  "silver_pct": -0.56,
-  "platinum_change": 21.2,
-  "platinum_pct": -1.16,
-  "palladium_change": 20.0,
-  "palladium_pct": -1.39,
-  "copper_change": 0.0171,
-  "copper_pct": -0.26,
-  "nickel_change": 165.0,
-  "nickel_pct": -0.97,
-  "zinc_change": 7.9,
-  "zinc_pct": 0.2,
+  "gold_change": 4.23,
+  "gold_pct": -0.09,
+  "silver_change": 0.077,
+  "silver_pct": -0.11,
+  "platinum_change": 19.2,
+  "platinum_pct": -1.05,
+  "palladium_change": 15.0,
+  "palladium_pct": -1.04,
+  "copper_change": 0.0046,
+  "copper_pct": -0.07,
+  "nickel_change": 92.0,
+  "nickel_pct": -0.55,
+  "zinc_change": 33.43,
+  "zinc_pct": 0.86,
   "lithium_change": 4000.0,
   "lithium_pct": -2.56,
   "uranium_change": 0.0,
