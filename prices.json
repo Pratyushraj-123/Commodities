@@ -1,9 +1,9 @@
 {
-  "gold": 4404.98,
-  "silver": 66.14,
-  "platinum": 1835.0,
-  "palladium": 1401.5,
-  "copper": 6.5503,
+  "gold": 4425.58,
+  "silver": 66.596,
+  "platinum": 1845.3,
+  "palladium": 1413.0,
+  "copper": 6.6487,
   "nickel": 16690.0,
   "zinc": 3973.05,
   "lithium": 147500.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "07 Sep 2026, 21:48",
+  "_last_updated": "07 Sep 2026, 23:49",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -271.85,
       "pct": -0.51,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Sep, 21:48",
+      "updated": "07 Sep, 23:49",
       "hist": [
         45400.86,
         45514.95,
@@ -286,7 +286,7 @@
       "change": -77.11,
       "pct": -0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "07 Sep, 21:48"
+      "updated": "07 Sep, 23:49"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": 5.0,
       "pct": 0.06,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Sep, 21:48"
+      "updated": "07 Sep, 23:49"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +302,7 @@
       "change": 4.2,
       "pct": 0.05,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "07 Sep, 21:48"
+      "updated": "07 Sep, 23:49"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +310,7 @@
       "change": -8.96,
       "pct": -0.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "07 Sep, 21:48"
+      "updated": "07 Sep, 23:49"
     }
   },
   "watchlist": {
@@ -1484,7 +1484,7 @@
     {
       "code": "TTM",
       "name": "Titan Minerals",
-      "title": "Titan Minerals (ASX: TTM) \u2014 Is This Ecuador-Focused Gold and Copper Explorer Worth Watching?",
+      "title": "Titan Minerals extends high-grade gold-silver mineralisation in Ecuador",
       "link": "https://www.marketindex.com.au/asx/ttm/announcements",
       "date": "07 Sep 2026"
     },
@@ -1517,16 +1517,16 @@
       "date": "07 Sep 2026"
     }
   ],
-  "gold_change": 27.58,
-  "gold_pct": -0.62,
-  "silver_change": 0.15,
-  "silver_pct": 0.23,
-  "platinum_change": 9.0,
-  "platinum_pct": 0.49,
-  "palladium_change": 2.5,
-  "palladium_pct": -0.18,
-  "copper_change": 0.0467,
-  "copper_pct": -0.71,
+  "gold_change": 6.98,
+  "gold_pct": -0.16,
+  "silver_change": 0.606,
+  "silver_pct": 0.92,
+  "platinum_change": 19.3,
+  "platinum_pct": 1.06,
+  "palladium_change": 9.0,
+  "palladium_pct": 0.64,
+  "copper_change": 0.0517,
+  "copper_pct": 0.78,
   "nickel_change": 145.0,
   "nickel_pct": -0.86,
   "zinc_change": 45.3,
