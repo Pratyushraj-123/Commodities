@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4404.08,
-  "silver": 66.145,
-  "platinum": 1840.1,
-  "palladium": 1390.0,
-  "copper": 6.743,
-  "nickel": 16807.0,
-  "zinc": 4008.4,
+  "gold": 4396.56,
+  "silver": 66.259,
+  "platinum": 1850.5,
+  "palladium": 1370.0,
+  "copper": 6.76,
+  "nickel": 16829.0,
+  "zinc": 3994.65,
   "lithium": 146750.0,
   "uranium": 89.5,
   "cobalt": 46430.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "08 Sep 2026, 11:46",
+  "_last_updated": "08 Sep 2026, 15:23",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 53414.25,
-      "change": -271.85,
-      "pct": -0.51,
+      "price": 52843.84,
+      "change": -570.41,
+      "pct": -1.07,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Sep, 11:46",
+      "updated": "08 Sep, 15:23",
       "hist": [
-        45400.86,
         45514.95,
         45711.34,
         45490.92,
@@ -277,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52766.88,
         53061.95,
         53686.11,
-        53414.25
+        53414.25,
+        52842.41
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26506.99,
-      "change": -77.11,
-      "pct": -0.29,
+      "price": 26468.28,
+      "change": -38.71,
+      "pct": -0.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "08 Sep, 11:46"
+      "updated": "08 Sep, 15:23"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -85.1,
       "pct": -0.94,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Sep, 11:46"
+      "updated": "08 Sep, 15:23"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -82.9,
       "pct": -0.93,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "08 Sep, 11:46"
+      "updated": "08 Sep, 15:23"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10823.25,
-      "change": -7.85,
+      "price": 10823.22,
+      "change": -7.88,
       "pct": -0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "08 Sep, 11:46"
+      "updated": "08 Sep, 15:23"
     }
   },
   "watchlist": {
@@ -435,16 +435,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.04,
       "pct": -1.48,
       "volume": 1209637,
-      "avg_volume": 916512.59,
-      "volume_surge": 31.98,
+      "avg_volume": 922656.73,
+      "volume_surge": 31.1,
       "price_3d_start": 2.25,
       "price_3d_jump": 18.67,
       "vol_3d_trend": [
         1046064,
         2060200,
-        1209637
+        1344808
       ],
-      "vol_3d_surge": 31.98,
+      "vol_3d_surge": 45.75,
       "vol_3d_sustained": false
     },
     "MM8": {
@@ -717,8 +717,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Saturn Metals Ltd",
       "code": "STN",
       "price": 0.555,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 2292932,
       "avg_volume": 2402924.0,
       "volume_surge": -4.58,
@@ -793,8 +793,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Gateway Mining Ltd",
       "code": "GML",
       "price": 0.096,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 9805409,
       "avg_volume": 3648303.55,
       "volume_surge": 168.77,
@@ -1040,8 +1040,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "ST George Mining",
       "code": "SGQ",
       "price": 0.078,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 5284916,
       "avg_volume": 18164956.41,
       "volume_surge": -70.91,
@@ -1141,7 +1141,7 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 2363221.68,
       "volume_surge": 60.73,
       "price_3d_start": 0.071,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         2945723,
         2340157,
@@ -1195,16 +1195,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.02,
       "pct": 0.12,
       "volume": 1073566,
-      "avg_volume": 1626150.64,
-      "volume_surge": -33.98,
+      "avg_volume": 1629848.59,
+      "volume_surge": -34.13,
       "price_3d_start": 16.32,
       "price_3d_jump": 5.09,
       "vol_3d_trend": [
         2031543,
         1521703,
-        1073566
+        1154921
       ],
-      "vol_3d_surge": -33.98,
+      "vol_3d_surge": -29.14,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1650,20 +1650,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "08 Sep 2026"
     }
   ],
-  "gold_change": 0.9,
-  "gold_pct": -0.02,
-  "silver_change": 0.005,
-  "silver_pct": 0.01,
-  "platinum_change": 2.7,
-  "platinum_pct": -0.15,
-  "palladium_change": 22.0,
-  "palladium_pct": -1.56,
-  "copper_change": 0.146,
-  "copper_pct": 2.21,
-  "nickel_change": 117.0,
-  "nickel_pct": 0.7,
-  "zinc_change": 35.35,
-  "zinc_pct": 0.89,
+  "gold_change": 8.42,
+  "gold_pct": -0.19,
+  "silver_change": 0.119,
+  "silver_pct": 0.18,
+  "platinum_change": 8.2,
+  "platinum_pct": 0.44,
+  "palladium_change": 42.0,
+  "palladium_pct": -2.97,
+  "copper_change": 0.163,
+  "copper_pct": 2.47,
+  "nickel_change": 139.0,
+  "nickel_pct": 0.83,
+  "zinc_change": 21.6,
+  "zinc_pct": 0.54,
   "lithium_change": 750.0,
   "lithium_pct": -0.51,
   "uranium_change": 0.0,
@@ -1998,8 +1998,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 1073566,
-      "avg_volume": 1626150.64,
-      "volume_surge": -33.98
+      "avg_volume": 1629848.59,
+      "volume_surge": -34.13
     },
     {
       "code": "TVN",
