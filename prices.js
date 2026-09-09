@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4392.92,
-  "silver": 66.269,
-  "platinum": 1854.0,
-  "palladium": 1365.5,
-  "copper": 6.6727,
-  "nickel": 16820.0,
-  "zinc": 4019.9,
+  "gold": 4421.55,
+  "silver": 68.034,
+  "platinum": 1931.8,
+  "palladium": 1386.5,
+  "copper": 6.7563,
+  "nickel": 16888.0,
+  "zinc": 4048.0,
   "lithium": 145750.0,
   "uranium": 89.65,
   "cobalt": 44940.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "09 Sep 2026, 10:09",
+  "_last_updated": "09 Sep 2026, 14:49",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52786.07,
-      "change": -628.13,
-      "pct": -1.18,
+      "price": 52486.72,
+      "change": -299.35,
+      "pct": -0.57,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 10:09",
+      "updated": "09 Sep, 14:49",
       "hist": [
         45711.34,
         45490.92,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         53061.95,
         53686.11,
         53414.25,
-        52786.07
+        52786.07,
+        52486.72
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26421.41,
-      "change": -85.58,
-      "pct": -0.32,
+      "price": 26316.62,
+      "change": -104.8,
+      "pct": -0.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 10:09"
+      "updated": "09 Sep, 14:49"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -99.5,
       "pct": -1.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 10:09"
+      "updated": "09 Sep, 14:49"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.4,
       "pct": -1.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 10:09"
+      "updated": "09 Sep, 14:49"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10757.47,
-      "change": -54.19,
-      "pct": -0.5,
+      "price": 10673.93,
+      "change": -137.73,
+      "pct": -1.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Sep, 10:09"
+      "updated": "09 Sep, 14:49"
     }
   },
   "watchlist": {
@@ -317,8 +318,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "PC Gold",
       "code": "PC2",
       "price": 1.09,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 70609,
       "avg_volume": 244420.17,
       "volume_surge": -71.11,
@@ -336,8 +337,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Terra Metals",
       "code": "TM1",
       "price": 0.215,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 476770,
       "avg_volume": 924060.57,
       "volume_surge": -48.4,
@@ -697,8 +698,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Antipa Minerals",
       "code": "AZY",
       "price": 0.61,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 446755,
       "avg_volume": 903829.26,
       "volume_surge": -50.57,
@@ -1270,16 +1271,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -3.08,
       "pct": -1.82,
       "volume": 186853,
-      "avg_volume": 257227.83,
-      "volume_surge": -27.36,
+      "avg_volume": 257270.35,
+      "volume_surge": -27.37,
       "price_3d_start": 173.95,
       "price_3d_jump": -4.28,
       "vol_3d_trend": [
         106580,
         129927,
-        186853
+        187831
       ],
-      "vol_3d_surge": -27.36,
+      "vol_3d_surge": -26.99,
       "vol_3d_sustained": false
     },
     "EIQ": {
@@ -1327,16 +1328,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.11,
       "pct": 2.81,
       "volume": 1435473,
-      "avg_volume": 760084.65,
-      "volume_surge": 88.86,
+      "avg_volume": 760094.22,
+      "volume_surge": 88.85,
       "price_3d_start": 4.18,
       "price_3d_jump": -3.83,
       "vol_3d_trend": [
         1731340,
         1735825,
-        1435473
+        1435693
       ],
-      "vol_3d_surge": 88.86,
+      "vol_3d_surge": 88.88,
       "vol_3d_sustained": false
     },
     "LTR": {
@@ -1365,16 +1366,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.08,
       "pct": 1.62,
       "volume": 18296450,
-      "avg_volume": 23297298.74,
+      "avg_volume": 23298919.48,
       "volume_surge": -21.47,
       "price_3d_start": 5.09,
       "price_3d_jump": -1.57,
       "vol_3d_trend": [
         23112239,
         16961508,
-        18296450
+        18333727
       ],
-      "vol_3d_surge": -21.47,
+      "vol_3d_surge": -21.31,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1441,7 +1442,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MI6",
       "name": "Minerals 260",
-      "title": "What Made (ASX:MI6) One of the Top All Ordinaries\u2019 Strong Movers?",
+      "title": "Minerals 260 Ltd (ASX:MI6) Stock Surges \u2014 What Is Driving Investor Optimism Today?",
       "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "09 Sep 2026"
     },
@@ -1450,6 +1451,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Catalyst Metals",
       "title": "Catalyst Metals (ASX:CYL) Grows Keillor Gold Resource by 280% on Plutonic Belt",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "09 Sep 2026"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Why Investors Are Optimistic About Southern Palladium (ASX:SPD) Stock Today",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
       "date": "09 Sep 2026"
     },
     {
@@ -1518,14 +1526,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) in Focus as FY27 Execution Becomes the Next Test",
+      "title": "Pro Medicus (ASX:PME): Medical Imaging Software, US Contract Expansion and Growth Outlook",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "09 Sep 2026"
     },
     {
       "code": "EIQ",
       "name": "Echoiq Ltd",
-      "title": "FDA Rules Echo IQ (ASX:EIQ) Heart Failure Tool Not Substantially Equivalent",
+      "title": "Why Investors Are Selling Echo IQ Ltd (ASX:EIQ) Stock \u2014 FDA Rejection Halves Share Price",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
       "date": "09 Sep 2026"
     },
@@ -1551,20 +1559,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "09 Sep 2026"
     }
   ],
-  "gold_change": 37.12,
-  "gold_pct": 0.85,
-  "silver_change": 0.516,
-  "silver_pct": 0.79,
-  "platinum_change": 0.8,
-  "platinum_pct": 0.04,
-  "palladium_change": 3.5,
-  "palladium_pct": -0.26,
-  "copper_change": 0.0663,
-  "copper_pct": -0.98,
-  "nickel_change": 65.0,
-  "nickel_pct": 0.39,
-  "zinc_change": 12.6,
-  "zinc_pct": 0.31,
+  "gold_change": 65.75,
+  "gold_pct": 1.51,
+  "silver_change": 2.281,
+  "silver_pct": 3.47,
+  "platinum_change": 78.6,
+  "platinum_pct": 4.24,
+  "palladium_change": 17.5,
+  "palladium_pct": 1.28,
+  "copper_change": 0.0173,
+  "copper_pct": 0.26,
+  "nickel_change": 133.0,
+  "nickel_pct": 0.8,
+  "zinc_change": 40.7,
+  "zinc_pct": 1.02,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
   "uranium_change": 0.15,
@@ -1608,8 +1616,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "AYA",
       "name": "ARTRYA Ltd",
       "volume": 1435473,
-      "avg_volume": 760084.65,
-      "volume_surge": 88.86
+      "avg_volume": 760094.22,
+      "volume_surge": 88.85
     },
     {
       "code": "NMR",
@@ -1687,8 +1695,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "AYA",
       "name": "ARTRYA Ltd",
       "volume": 1435473,
-      "avg_volume": 760084.65,
-      "volume_surge": 88.86
+      "avg_volume": 760094.22,
+      "volume_surge": 88.85
     },
     {
       "code": "NMR",
