@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4401.83,
-  "silver": 67.277,
-  "platinum": 1904.2,
-  "palladium": 1365.5,
-  "copper": 6.767,
+  "gold": 4395.04,
+  "silver": 67.243,
+  "platinum": 1910.1,
+  "palladium": 1370.5,
+  "copper": 6.7727,
   "nickel": 16875.0,
   "zinc": 4036.65,
   "lithium": 145750.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "09 Sep 2026, 21:17",
+  "_last_updated": "09 Sep 2026, 23:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -405.41,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 21:17",
+      "updated": "09 Sep, 23:33",
       "hist": [
         45490.92,
         46108.0,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -168.07,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 21:17"
+      "updated": "09 Sep, 23:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -99.5,
       "pct": -1.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 21:17"
+      "updated": "09 Sep, 23:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.4,
       "pct": -1.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 21:17"
+      "updated": "09 Sep, 23:33"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -141.6,
       "pct": -1.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Sep, 21:17"
+      "updated": "09 Sep, 23:33"
     }
   },
   "watchlist": {
@@ -1418,13 +1418,6 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "TM1",
-      "name": "Terra Metals",
-      "title": "Terra Metals starts Phase 3 drilling at Dante",
-      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
-      "date": "09 Sep 2026"
-    },
-    {
       "code": "FRS",
       "name": "Forrestania Resources",
       "title": "Forrestania Resources (ASX:FRS) Locks in Key Agreements to Advance Restart at Lake Johnston and Edna May",
@@ -1553,7 +1546,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown Brings Lithium Pathway to Market (ASX:LTR)",
+      "title": "Should Argentine Brine Entry Require Action From Liontown (ASX:LTR) Investors?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "09 Sep 2026"
     },
@@ -1565,16 +1558,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "09 Sep 2026"
     }
   ],
-  "gold_change": 46.03,
-  "gold_pct": 1.06,
-  "silver_change": 1.524,
-  "silver_pct": 2.32,
-  "platinum_change": 50.8,
-  "platinum_pct": 2.74,
-  "palladium_change": 3.5,
-  "palladium_pct": -0.26,
-  "copper_change": 0.028,
-  "copper_pct": 0.42,
+  "gold_change": 39.24,
+  "gold_pct": 0.9,
+  "silver_change": 1.49,
+  "silver_pct": 2.27,
+  "platinum_change": 56.9,
+  "platinum_pct": 3.07,
+  "palladium_change": 1.5,
+  "palladium_pct": 0.11,
+  "copper_change": 0.0337,
+  "copper_pct": 0.5,
   "nickel_change": 120.0,
   "nickel_pct": 0.72,
   "zinc_change": 29.35,
