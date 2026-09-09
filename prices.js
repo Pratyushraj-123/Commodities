@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4417.76,
-  "silver": 67.926,
-  "platinum": 1916.2,
-  "palladium": 1379.0,
-  "copper": 6.7997,
-  "nickel": 16895.0,
-  "zinc": 4037.45,
+  "gold": 4401.83,
+  "silver": 67.277,
+  "platinum": 1904.2,
+  "palladium": 1365.5,
+  "copper": 6.767,
+  "nickel": 16875.0,
+  "zinc": 4036.65,
   "lithium": 145750.0,
   "uranium": 89.65,
   "cobalt": 44940.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "09 Sep 2026, 18:02",
+  "_last_updated": "09 Sep 2026, 21:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52485.21,
-      "change": -300.86,
-      "pct": -0.57,
+      "price": 52380.66,
+      "change": -405.41,
+      "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 18:02",
+      "updated": "09 Sep, 21:17",
       "hist": [
-        45711.34,
         45490.92,
         46108.0,
         45834.22,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         53686.11,
         53414.25,
         52786.07,
-        52485.3
+        52380.66
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26278.14,
-      "change": -143.28,
-      "pct": -0.54,
+      "price": 26253.34,
+      "change": -168.07,
+      "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Sep, 18:02"
+      "updated": "09 Sep, 21:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -99.5,
       "pct": -1.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 18:02"
+      "updated": "09 Sep, 21:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -97.4,
       "pct": -1.09,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Sep, 18:02"
+      "updated": "09 Sep, 21:17"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -141.6,
       "pct": -1.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Sep, 18:02"
+      "updated": "09 Sep, 21:17"
     }
   },
   "watchlist": {
@@ -1005,16 +1004,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.015,
       "pct": 2.16,
       "volume": 8831941,
-      "avg_volume": 13720117.87,
-      "volume_surge": -35.63,
+      "avg_volume": 13768104.83,
+      "volume_surge": -35.85,
       "price_3d_start": 0.67,
       "price_3d_jump": 5.97,
       "vol_3d_trend": [
         11864663,
         10514685,
-        8831941
+        9935641
       ],
-      "vol_3d_surge": -35.63,
+      "vol_3d_surge": -27.84,
       "vol_3d_sustained": false
     },
     "CYM": {
@@ -1347,16 +1346,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.015,
       "pct": 1.26,
       "volume": 37654317,
-      "avg_volume": 43553198.83,
-      "volume_surge": -13.54,
+      "avg_volume": 43556070.35,
+      "volume_surge": -13.55,
       "price_3d_start": 1.225,
       "price_3d_jump": -1.22,
       "vol_3d_trend": [
         37563963,
         27427441,
-        37654317
+        37720362
       ],
-      "vol_3d_surge": -13.54,
+      "vol_3d_surge": -13.4,
       "vol_3d_sustained": false
     },
     "PLS": {
@@ -1461,6 +1460,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "09 Sep 2026"
     },
     {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining secures $45M for Yandal Project",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "09 Sep 2026"
+    },
+    {
       "code": "CBE",
       "name": "Cobre Ltd",
       "title": "Cobre (ASX:CBE) Third-Party Ore Deals Could Fill the Copper Cash Flow Gap",
@@ -1505,7 +1511,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1): Why This Network-as-a-Service Giant Is Betting Big on AI Infrastructure",
+      "title": "What Does Megaport's (ASX:MP1) AI Compute Bet Signal?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "09 Sep 2026"
     },
@@ -1559,20 +1565,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "09 Sep 2026"
     }
   ],
-  "gold_change": 61.96,
-  "gold_pct": 1.42,
-  "silver_change": 2.173,
-  "silver_pct": 3.31,
-  "platinum_change": 63.0,
-  "platinum_pct": 3.4,
-  "palladium_change": 10.0,
-  "palladium_pct": 0.73,
-  "copper_change": 0.0607,
-  "copper_pct": 0.9,
-  "nickel_change": 140.0,
-  "nickel_pct": 0.84,
-  "zinc_change": 30.15,
-  "zinc_pct": 0.75,
+  "gold_change": 46.03,
+  "gold_pct": 1.06,
+  "silver_change": 1.524,
+  "silver_pct": 2.32,
+  "platinum_change": 50.8,
+  "platinum_pct": 2.74,
+  "palladium_change": 3.5,
+  "palladium_pct": -0.26,
+  "copper_change": 0.028,
+  "copper_pct": 0.42,
+  "nickel_change": 120.0,
+  "nickel_pct": 0.72,
+  "zinc_change": 29.35,
+  "zinc_pct": 0.73,
   "lithium_change": 1000.0,
   "lithium_pct": -0.68,
   "uranium_change": 0.15,
@@ -1900,8 +1906,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
       "volume": 8831941,
-      "avg_volume": 13720117.87,
-      "volume_surge": -35.63
+      "avg_volume": 13768104.83,
+      "volume_surge": -35.85
     },
     {
       "code": "TNC",
