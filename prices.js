@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4334.71,
-  "silver": 63.83,
-  "platinum": 1787.6,
-  "palladium": 1293.0,
-  "copper": 6.4347,
+  "gold": 4310.9,
+  "silver": 62.861,
+  "platinum": 1785.6,
+  "palladium": 1291.5,
+  "copper": 6.4473,
   "nickel": 16625.0,
-  "zinc": 3876.35,
+  "zinc": 3875.4,
   "lithium": 144750.0,
   "uranium": 90.0,
   "cobalt": 43690.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Sep 2026, 18:42",
+  "_last_updated": "10 Sep 2026, 21:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52001.6,
-      "change": -379.06,
-      "pct": -0.72,
+      "price": 52064.1,
+      "change": -316.56,
+      "pct": -0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 18:42",
+      "updated": "10 Sep, 21:14",
       "hist": [
-        45490.92,
         46108.0,
         45834.22,
         45883.45,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         53414.25,
         52786.07,
         52380.66,
-        52002.05
+        52064.1
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26093.42,
-      "change": -159.92,
-      "pct": -0.61,
+      "price": 26081.72,
+      "change": -171.62,
+      "pct": -0.65,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 18:42"
+      "updated": "10 Sep, 21:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -101.4,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 18:42"
+      "updated": "10 Sep, 21:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -100.7,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 18:42"
+      "updated": "10 Sep, 21:14"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -202.78,
       "pct": -1.88,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Sep, 18:42"
+      "updated": "10 Sep, 21:14"
     }
   },
   "watchlist": {
@@ -1442,7 +1441,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Expands the Scale of Its Davyhurst Gold Strategy",
+      "title": "Ora Banda Mining (ASX:OBM) Gains as Waihi Underground Mining Commences and Gold Strategy Advances",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "10 Sep 2026"
     },
@@ -1559,20 +1558,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     }
   ],
-  "gold_change": 63.44,
-  "gold_pct": -1.44,
-  "silver_change": 3.439,
-  "silver_pct": -5.11,
-  "platinum_change": 131.4,
-  "platinum_pct": -6.85,
-  "palladium_change": 88.0,
-  "palladium_pct": -6.37,
-  "copper_change": 0.3688,
-  "copper_pct": -5.42,
+  "gold_change": 87.25,
+  "gold_pct": -1.98,
+  "silver_change": 4.408,
+  "silver_pct": -6.55,
+  "platinum_change": 133.4,
+  "platinum_pct": -6.95,
+  "palladium_change": 89.5,
+  "palladium_pct": -6.48,
+  "copper_change": 0.3562,
+  "copper_pct": -5.24,
   "nickel_change": 250.0,
   "nickel_pct": -1.48,
-  "zinc_change": 160.3,
-  "zinc_pct": -3.97,
+  "zinc_change": 161.25,
+  "zinc_pct": -3.99,
   "lithium_change": 1000.0,
   "lithium_pct": -0.69,
   "uranium_change": 0.35,
