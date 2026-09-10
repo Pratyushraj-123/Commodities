@@ -1,8 +1,8 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4310.9,
-  "silver": 62.861,
-  "platinum": 1785.6,
-  "palladium": 1291.5,
+  "gold": 4318.32,
+  "silver": 63.542,
+  "platinum": 1801.1,
+  "palladium": 1292.0,
   "copper": 6.4473,
   "nickel": 16625.0,
   "zinc": 3875.4,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Sep 2026, 21:14",
+  "_last_updated": "10 Sep 2026, 23:26",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -316.56,
       "pct": -0.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 21:14",
+      "updated": "10 Sep, 23:26",
       "hist": [
         46108.0,
         45834.22,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -171.62,
       "pct": -0.65,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 21:14"
+      "updated": "10 Sep, 23:26"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -101.4,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 21:14"
+      "updated": "10 Sep, 23:26"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -100.7,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 21:14"
+      "updated": "10 Sep, 23:26"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -202.78,
       "pct": -1.88,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Sep, 21:14"
+      "updated": "10 Sep, 23:26"
     }
   },
   "watchlist": {
@@ -1516,13 +1516,6 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     },
     {
-      "code": "EDU",
-      "name": "EDU Holdings Ltd",
-      "title": "EDU Holdings Executes On-Market Buy-Back of 78,632 Shares on 9 September 2026",
-      "link": "https://www.marketindex.com.au/asx/edu/announcements",
-      "date": "10 Sep 2026"
-    },
-    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Pro Medicus (ASX:PME): Can imaging expansion persist?",
@@ -1558,14 +1551,14 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     }
   ],
-  "gold_change": 87.25,
-  "gold_pct": -1.98,
-  "silver_change": 4.408,
-  "silver_pct": -6.55,
-  "platinum_change": 133.4,
-  "platinum_pct": -6.95,
-  "palladium_change": 89.5,
-  "palladium_pct": -6.48,
+  "gold_change": 79.83,
+  "gold_pct": -1.82,
+  "silver_change": 3.727,
+  "silver_pct": -5.54,
+  "platinum_change": 117.9,
+  "platinum_pct": -6.14,
+  "palladium_change": 89.0,
+  "palladium_pct": -6.44,
   "copper_change": 0.3562,
   "copper_pct": -5.24,
   "nickel_change": 250.0,
