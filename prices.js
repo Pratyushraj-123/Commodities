@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4417.81,
-  "silver": 67.621,
-  "platinum": 1893.0,
-  "palladium": 1363.5,
-  "copper": 6.7919,
-  "nickel": 16850.0,
-  "zinc": 4007.35,
+  "gold": 4376.87,
+  "silver": 65.637,
+  "platinum": 1837.6,
+  "palladium": 1328.0,
+  "copper": 6.505,
+  "nickel": 16723.0,
+  "zinc": 3946.35,
   "lithium": 144750.0,
-  "uranium": 89.65,
+  "uranium": 90.0,
   "cobalt": 43690.0,
   "rareearth": 247.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "10 Sep 2026, 06:40",
+  "_last_updated": "10 Sep 2026, 11:52",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -405.44,
       "pct": -0.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 06:40",
+      "updated": "10 Sep, 11:52",
       "hist": [
         45490.92,
         46108.0,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -168.07,
       "pct": -0.64,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "10 Sep, 06:40"
+      "updated": "10 Sep, 11:52"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -101.4,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 06:40"
+      "updated": "10 Sep, 11:52"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -100.7,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "10 Sep, 06:40"
+      "updated": "10 Sep, 11:52"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10670.06,
-      "change": -141.64,
-      "pct": -1.31,
+      "price": 10645.06,
+      "change": -166.64,
+      "pct": -1.54,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "10 Sep, 06:40"
+      "updated": "10 Sep, 11:52"
     }
   },
   "watchlist": {
@@ -868,20 +868,20 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Black Canyon Ltd",
       "code": "BCA",
       "price": 0.305,
-      "change": -0.01,
-      "pct": -3.17,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 107279,
-      "avg_volume": 69449.74,
-      "volume_surge": 54.47,
+      "avg_volume": 66556.0,
+      "volume_surge": 61.19,
       "price_3d_start": 0.315,
       "price_3d_jump": -3.17,
       "vol_3d_trend": [
-        0,
         37057,
-        107279
+        107279,
+        0
       ],
-      "vol_3d_surge": 54.47,
-      "vol_3d_sustained": true
+      "vol_3d_surge": -100.0,
+      "vol_3d_sustained": false
     },
     "CBE": {
       "name": "Cobre Ltd",
@@ -1041,17 +1041,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.073,
       "change": -0.003,
       "pct": -3.95,
-      "volume": 20684740,
-      "avg_volume": 17850754.17,
-      "volume_surge": 15.88,
+      "volume": 20686877,
+      "avg_volume": 17850843.21,
+      "volume_surge": 15.89,
       "price_3d_start": 0.078,
       "price_3d_jump": -6.41,
       "vol_3d_trend": [
         5284916,
         8104319,
-        20684740
+        20686877
       ],
-      "vol_3d_surge": 15.88,
+      "vol_3d_surge": 15.89,
       "vol_3d_sustained": false
     },
     "BPM": {
@@ -1418,9 +1418,16 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto Resources (ASX:LRV) Ticks Up - Could Momentum Be Building?",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
       "code": "TGN",
       "name": "Tungsten Mining",
-      "title": "Tungsten Mining (ASX:TGN) Achieves Full Permitting at Watershed Project, Early Construction Works Advance Toward H1 2027 First Production",
+      "title": "Tungsten Mining (ASX:TGN) Rallies Into Focus - What Is Fueling Investor Interest?",
       "link": "https://www.marketindex.com.au/asx/tgn/announcements",
       "date": "10 Sep 2026"
     },
@@ -1439,6 +1446,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     },
     {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Edges Higher - Is a Bigger ASX Move Brewing?",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
       "code": "GML",
       "name": "Gateway Mining Ltd",
       "title": "Gateway Mining (ASX:GML) Defines New Cowza-Style Gold Target at Pewy, Yandal Project",
@@ -1446,9 +1460,23 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     },
     {
+      "code": "GA8",
+      "name": "Goldarc Resources",
+      "title": "GoldArc Resources Announces Record Drilling and $2.9 Million Net Loss in H1 2026",
+      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre (ASX:CBE) Gains Ground - What Investors Should Watch Next?",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
       "code": "LM1",
       "name": "Leeuwin Metals Ltd",
-      "title": "Leeuwin Metals (ASX:LM1) Secures New Tenements in Forrestania and Lake Johnston Region",
+      "title": "Leeuwin Metals (ASX:LM1) Ticks Up - Could Momentum Be Building?",
       "link": "https://www.marketindex.com.au/asx/lm1/announcements",
       "date": "10 Sep 2026"
     },
@@ -1460,10 +1488,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     },
     {
+      "code": "EDU",
+      "name": "EDU Holdings Ltd",
+      "title": "EDU Holdings Executes On-Market Buy-Back of 78,632 Shares on 9 September 2026",
+      "link": "https://www.marketindex.com.au/asx/edu/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "Pro Medicus (ASX:PME): Can imaging expansion persist?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
+      "code": "EIQ",
+      "name": "Echoiq Ltd",
+      "title": "EchoIQ (ASX:EIQ) Slides Hard - Is There More Downside Ahead?",
+      "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "10 Sep 2026"
+    },
+    {
+      "code": "AYA",
+      "name": "ARTRYA Ltd",
+      "title": "Why Did ARTRYA (ASX: AYA) Stock Fall 15% Today?",
+      "link": "https://www.marketindex.com.au/asx/aya/announcements",
       "date": "10 Sep 2026"
     },
     {
@@ -1481,24 +1530,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "10 Sep 2026"
     }
   ],
-  "gold_change": 19.66,
-  "gold_pct": 0.45,
-  "silver_change": 0.352,
-  "silver_pct": 0.52,
-  "platinum_change": 26.0,
-  "platinum_pct": -1.35,
-  "palladium_change": 17.5,
-  "palladium_pct": -1.27,
-  "copper_change": 0.0116,
-  "copper_pct": -0.17,
-  "nickel_change": 35.0,
-  "nickel_pct": -0.21,
-  "zinc_change": 29.3,
-  "zinc_pct": -0.73,
+  "gold_change": 21.28,
+  "gold_pct": -0.48,
+  "silver_change": 1.632,
+  "silver_pct": -2.43,
+  "platinum_change": 81.4,
+  "platinum_pct": -4.24,
+  "palladium_change": 53.0,
+  "palladium_pct": -3.84,
+  "copper_change": 0.2985,
+  "copper_pct": -4.39,
+  "nickel_change": 153.0,
+  "nickel_pct": -0.9,
+  "zinc_change": 90.3,
+  "zinc_pct": -2.24,
   "lithium_change": 1000.0,
   "lithium_pct": -0.69,
-  "uranium_change": 0.15,
-  "uranium_pct": 0.17,
+  "uranium_change": 0.35,
+  "uranium_pct": 0.39,
   "cobalt_change": 1250.0,
   "cobalt_pct": -2.78,
   "rareearth_change": 0.0,
@@ -1559,8 +1608,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BCA",
       "name": "Black Canyon Ltd",
       "volume": 107279,
-      "avg_volume": 69449.74,
-      "volume_surge": 54.47
+      "avg_volume": 66556.0,
+      "volume_surge": 61.19
     }
   ],
   "volume_surges": [
@@ -1617,8 +1666,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "BCA",
       "name": "Black Canyon Ltd",
       "volume": 107279,
-      "avg_volume": 69449.74,
-      "volume_surge": 54.47
+      "avg_volume": 66556.0,
+      "volume_surge": 61.19
     }
   ],
   "volume_drops": [
@@ -1873,17 +1922,6 @@ window.LIVE_COMMODITY_PRICES = {
       ],
       "avg_volume": 3849879.67,
       "surge_pct": 89.39
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "vol_trend": [
-        0,
-        37057,
-        107279
-      ],
-      "avg_volume": 69449.74,
-      "surge_pct": 54.47
     }
   ]
 };
