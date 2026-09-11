@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4362.98,
-  "silver": 64.355,
-  "platinum": 1793.6,
-  "palladium": 1321.0,
-  "copper": 6.4689,
-  "nickel": 16459.0,
-  "zinc": 3862.65,
+  "gold": 4345.59,
+  "silver": 64.26,
+  "platinum": 1795.9,
+  "palladium": 1318.0,
+  "copper": 6.4701,
+  "nickel": 16525.0,
+  "zinc": 3865.15,
   "lithium": 142250.0,
   "uranium": 90.2,
   "cobalt": 42940.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "11 Sep 2026, 15:16",
+  "_last_updated": "11 Sep 2026, 18:46",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52540.1,
-      "change": 476.0,
-      "pct": 0.91,
+      "price": 52580.81,
+      "change": 516.71,
+      "pct": 0.99,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Sep, 15:16",
+      "updated": "11 Sep, 18:46",
       "hist": [
         46108.0,
         45834.22,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52786.07,
         52380.66,
         52064.1,
-        52540.1
+        52580.81
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26392.7,
-      "change": 310.97,
-      "pct": 1.19,
+      "price": 26372.75,
+      "change": 291.03,
+      "pct": 1.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Sep, 15:16"
+      "updated": "11 Sep, 18:46"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -170.2,
       "pct": -1.91,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Sep, 15:16"
+      "updated": "11 Sep, 18:46"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -169.1,
       "pct": -1.91,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Sep, 15:16"
+      "updated": "11 Sep, 18:46"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10647.52,
-      "change": -22.58,
-      "pct": -0.21,
+      "price": 10650.44,
+      "change": -19.66,
+      "pct": -0.18,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "11 Sep, 15:16"
+      "updated": "11 Sep, 18:46"
     }
   },
   "watchlist": {
@@ -1517,6 +1517,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "11 Sep 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX): A 78% One-Year Gain Sharpens Focus on Clinical Adoption",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "11 Sep 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "title": "PRO Medicus (ASX:PME) in Focus: Could This ASX Healthcare Stock Be One to Watch in September 2026?",
@@ -1526,7 +1533,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "What Could Liontown Limited (ASX:LTR) Mean for ASX Lithium Stocks?",
+      "title": "Where Does Liontown Head After Its Record Run (ASX:LTR)?",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "11 Sep 2026"
     },
@@ -1538,20 +1545,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "11 Sep 2026"
     }
   ],
-  "gold_change": 45.64,
-  "gold_pct": 1.06,
-  "silver_change": 0.807,
-  "silver_pct": 1.27,
-  "platinum_change": 7.5,
-  "platinum_pct": -0.42,
-  "palladium_change": 26.0,
-  "palladium_pct": 2.01,
-  "copper_change": 0.0019,
-  "copper_pct": 0.03,
-  "nickel_change": 167.0,
-  "nickel_pct": -1.0,
-  "zinc_change": 12.75,
-  "zinc_pct": -0.33,
+  "gold_change": 28.25,
+  "gold_pct": 0.65,
+  "silver_change": 0.712,
+  "silver_pct": 1.12,
+  "platinum_change": 5.2,
+  "platinum_pct": -0.29,
+  "palladium_change": 23.0,
+  "palladium_pct": 1.78,
+  "copper_change": 0.0031,
+  "copper_pct": 0.05,
+  "nickel_change": 100.0,
+  "nickel_pct": -0.6,
+  "zinc_change": 10.25,
+  "zinc_pct": -0.26,
   "lithium_change": 2500.0,
   "lithium_pct": -1.73,
   "uranium_change": 0.2,
