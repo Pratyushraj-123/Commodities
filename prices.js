@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
   "gold": 4350.36,
   "silver": 64.266,
-  "platinum": 1801.6,
-  "palladium": 1315.0,
+  "platinum": 1797.6,
+  "palladium": 1324.0,
   "copper": 6.4695,
   "nickel": 16525.0,
   "zinc": 3865.55,
   "lithium": 142250.0,
-  "uranium": 90.2,
+  "uranium": 90.15,
   "cobalt": 42940.0,
   "rareearth": 247.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "11 Sep 2026, 23:34",
+  "_last_updated": "12 Sep 2026, 14:25",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 509.19,
       "pct": 0.98,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Sep, 23:34",
+      "updated": "12 Sep, 14:25",
       "hist": [
         45834.22,
         45883.45,
@@ -285,31 +285,31 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 251.31,
       "pct": 0.96,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "11 Sep, 23:34"
+      "updated": "12 Sep, 14:25"
     },
     "asx200": {
       "name": "ASX 200",
       "price": 8741.2,
-      "change": -170.2,
-      "pct": -1.91,
+      "change": -78.2,
+      "pct": -0.89,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Sep, 23:34"
+      "updated": "12 Sep, 14:25"
     },
     "asx300": {
       "name": "ASX 300",
       "price": 8673.2,
-      "change": -169.1,
-      "pct": -1.91,
+      "change": -78.7,
+      "pct": -0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "11 Sep, 23:34"
+      "updated": "12 Sep, 14:25"
     },
     "ftse": {
       "name": "FTSE 100",
       "price": 10650.44,
-      "change": -19.66,
-      "pct": -0.18,
+      "change": 41.52,
+      "pct": 0.39,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "11 Sep, 23:34"
+      "updated": "12 Sep, 14:25"
     }
   },
   "watchlist": {
@@ -1418,147 +1418,28 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "BNZ",
-      "name": "BENZ Mining Corp",
-      "title": "Gold Exploration Momentum Under Review as Investors Track Benz Mining (ASX:BNZ) Progress",
-      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan (ASX:TVN) Secures Molyhil Approvals as Project Milestones Advance",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "TGN",
-      "name": "Tungsten Mining",
-      "title": "How Does Tungsten Mining NL (ASX:TGN) Matter for ASX Penny Stocks?",
-      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR) Under Review as Tungsten Growth Momentum Remains in Focus",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "Minerals 260 (ASX:MI6): Gold Development Momentum Meets Market Pressure",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Beyond the Daily Drop: How Investors Are Tracking Ora Banda Mining (ASX:OBM) Growth Plans?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "DVP",
-      "name": "Develop Global",
-      "title": "Beyond the Daily Sell-Off: What Investors Are Watching Across Develop Global (ASX:DVP)?",
-      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL) Faces Market Pressure Amid Volatility Among ASX Mining Stocks",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "True North Copper: Copper Produced Responsibly",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "FFM",
-      "name": "Firefly Metals Ltd",
-      "title": "FireFly Metals (ASX:FFM) Moves Lower While A$180 Million Funding Supports Green Bay Growth",
-      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "BRE",
-      "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths (ASX:BRE) Shares Decline Amid Weakness Among ASX Mining Stocks",
-      "link": "https://www.marketindex.com.au/asx/bre/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "BPM",
-      "name": "BPM Minerals",
-      "title": "BPM Minerals (ASX:BPM) Secures Drilling Approvals for Bonnie and Clyde",
-      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "FML",
-      "name": "Focus Minerals",
-      "title": "Focus Minerals (ASX:FML) Shares Look Cheap Backed By 29.4% Margin",
-      "link": "https://www.marketindex.com.au/asx/fml/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "How Does Megaport Limited (ASX:MP1) Matter for ASX Midcap Stocks?",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "EDU",
-      "name": "EDU Holdings Ltd",
-      "title": "EDU Holdings (ASX:EDU) Share Price Up 110% in a Year: Can This Education Stock Keep Climbing?",
-      "link": "https://www.marketindex.com.au/asx/edu/announcements",
-      "date": "11 Sep 2026"
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "We Think Saturn Metals (ASX:STN) Needs To Drive Business Growth Carefully",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "12 Sep 2026"
     },
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX): A 78% One-Year Gain Sharpens Focus on Clinical Adoption",
+      "title": "4DMedical Ltd Share Price - 4DX, RNS News, Articles, Quotes, & Charts (ASXDX:)",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "PRO Medicus (ASX:PME) in Focus: Could This ASX Healthcare Stock Be One to Watch in September 2026?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Where Does Liontown Head After Its Record Run (ASX:LTR)?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "11 Sep 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "Pilbara Minerals (ASX:PLS) Up 129% in a Year: Is the Lithium Rally Still Worth Watching?",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "11 Sep 2026"
+      "date": "12 Sep 2026"
     }
   ],
   "gold_change": 33.02,
   "gold_pct": 0.76,
   "silver_change": 0.717,
   "silver_pct": 1.13,
-  "platinum_change": 0.5,
-  "platinum_pct": 0.03,
-  "palladium_change": 20.0,
-  "palladium_pct": 1.54,
+  "platinum_change": 3.5,
+  "platinum_pct": -0.19,
+  "palladium_change": 29.0,
+  "palladium_pct": 2.24,
   "copper_change": 0.0025,
   "copper_pct": 0.04,
   "nickel_change": 100.0,
@@ -1567,8 +1448,8 @@ window.LIVE_COMMODITY_PRICES = {
   "zinc_pct": -0.25,
   "lithium_change": 2500.0,
   "lithium_pct": -1.73,
-  "uranium_change": 0.2,
-  "uranium_pct": 0.22,
+  "uranium_change": 0.05,
+  "uranium_pct": -0.06,
   "cobalt_change": 750.0,
   "cobalt_pct": -1.72,
   "rareearth_change": 0.0,
@@ -1833,7 +1714,15 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -30.91
     }
   ],
-  "price_jump_alerts": [],
+  "price_jump_alerts": [
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "start_price": 0.345,
+      "current_price": 0.39,
+      "jump_pct": 13.04
+    }
+  ],
   "volume_growth_alerts": [
     {
       "code": "FML",

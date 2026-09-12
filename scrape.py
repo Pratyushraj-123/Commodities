@@ -397,9 +397,9 @@ def run_scraper():
             elif surge <= -30.0:
                 volume_drops.append(item_data)
                 
-            # Check 3-Day Price Jump (>= 18%)
+            # Check 3-Day Price Jump (>= 13%)
             jump = stock.get("price_3d_jump", 0.0)
-            if jump >= 18.0:
+            if jump >= 13.0:
                 price_jump_alerts.append({
                     "code": code,
                     "name": stock.get("name"),
@@ -431,7 +431,7 @@ def run_scraper():
         prices["volume_growth_alerts"] = volume_growth_alerts
         
         print(f"Compiled {len(volume_surges)} volume surges (>=50%) and {len(volume_drops)} volume drops (<=-30%).")
-        print(f"Compiled {len(price_jump_alerts)} 3-day price jumps (>=18%) and {len(volume_growth_alerts)} 3-day sustained volume surges.")
+        print(f"Compiled {len(price_jump_alerts)} 3-day price jumps (>=13%) and {len(volume_growth_alerts)} 3-day sustained volume surges.")
     except Exception as e:
         print(f"Error updating watchlist: {e}")
         
