@@ -320,8 +320,37 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
 <div class="main">
   <div class="dashboard-grid">
     <div class="left-col">
-      <div class="tlbl">Select Commodity</div>
-      <div class="tabs" id="tabsEl"></div>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 6px;">
+        <div style="flex: 1 1 500px; min-width: 300px;">
+          <div class="tlbl">Select Commodity</div>
+          <div class="tabs" id="tabsEl" style="margin-bottom: 0;"></div>
+        </div>
+        
+        <!-- Shanghai Metal Market (SMM) News Redirect Button -->
+        <div style="flex: 0 1 320px; min-width: 260px; margin-top: 14px;">
+          <a href="https://news.metal.com/" target="_blank" style="text-decoration:none; display:block;">
+            <div style="background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%); border: 2px solid #0284c7; border-radius: 8px; padding: 10px 14px; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.1); transition: all 0.2s ease; cursor: pointer;"
+                 onmouseover="this.style.borderColor='#0369a1'; this.style.boxShadow='0 6px 16px rgba(2, 132, 199, 0.2)'; this.style.transform='translateY(-1px)';"
+                 onmouseout="this.style.borderColor='#0284c7'; this.style.boxShadow='0 4px 12px rgba(2, 132, 199, 0.1)'; this.style.transform='translateY(0)';"
+            >
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 4px;">
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span style="font-size:15px;">📰</span>
+                  <span style="font-size:11px; font-weight:800; color:#0369a1; letter-spacing:0.5px; font-family:var(--fn);">SHANGHAI METALS MARKET</span>
+                </div>
+                <span style="font-size:9px; font-weight:700; background:#0284c7; color:#ffffff; padding:2px 5px; border-radius:3px; font-family:var(--mo);">SMM NEWS</span>
+              </div>
+              <p style="font-size:11px; color:#334155; margin:0 0 6px 0; line-height:1.4; font-family:var(--fn);">
+                China spot metals pricing, industry announcements & macro supply/demand news.
+              </p>
+              <div style="display:flex; align-items:center; justify-content:flex-end; gap:4px; font-size:11px; font-weight:700; color:#0284c7; font-family:var(--fn);">
+                <span>Open SMM (news.metal.com)</span>
+                <span style="font-size:12px;">↗</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
       <!-- ── MULTI-DAY BREAKOUT & ACCUMULATION SIGNALS (TOP BANNER) ── -->
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin: 14px 0 16px 0;">
