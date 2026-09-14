@@ -1,11 +1,11 @@
 {
-  "gold": 4293.3,
-  "silver": 63.32,
-  "platinum": 1768.4,
-  "palladium": 1295.5,
-  "copper": 6.3259,
+  "gold": 4295.77,
+  "silver": 63.202,
+  "platinum": 1771.1,
+  "palladium": 1296.0,
+  "copper": 6.3262,
   "nickel": 16440.0,
-  "zinc": 3803.1,
+  "zinc": 3807.1,
   "lithium": 138650.0,
   "uranium": 90.15,
   "cobalt": 42380.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Sep 2026, 19:37",
+  "_last_updated": "14 Sep 2026, 22:46",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52454.04,
-      "change": -119.25,
-      "pct": -0.23,
+      "price": 52421.2,
+      "change": -152.09,
+      "pct": -0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Sep, 19:37",
+      "updated": "14 Sep, 22:46",
       "hist": [
         45883.45,
         45757.9,
@@ -276,16 +276,16 @@
         52380.66,
         52064.1,
         52573.29,
-        52454.04
+        52421.2
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26243.6,
-      "change": -89.43,
-      "pct": -0.34,
+      "price": 26186.41,
+      "change": -146.62,
+      "pct": -0.56,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Sep, 19:37"
+      "updated": "14 Sep, 22:46"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 8.7,
       "pct": 0.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Sep, 19:37"
+      "updated": "14 Sep, 22:46"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 6.6,
       "pct": 0.08,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Sep, 19:37"
+      "updated": "14 Sep, 22:46"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 47.13,
       "pct": 0.44,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Sep, 19:37"
+      "updated": "14 Sep, 22:46"
     }
   },
   "watchlist": {
@@ -1427,7 +1427,7 @@
     {
       "code": "SLS",
       "name": "Solstice Minerals",
-      "title": "Solstice Minerals Allocates 500,000 Shares for Acquisition of Yundamindra Area Rights",
+      "title": "SLS.AX Price History for Solstice FPO [Sls] Stock",
       "link": "https://www.marketindex.com.au/asx/sls/announcements",
       "date": "14 Sep 2026"
     },
@@ -1579,20 +1579,20 @@
       "date": "14 Sep 2026"
     }
   ],
-  "gold_change": 57.06,
-  "gold_pct": -1.31,
-  "silver_change": 0.946,
-  "silver_pct": -1.47,
-  "platinum_change": 29.2,
-  "platinum_pct": -1.62,
-  "palladium_change": 28.5,
-  "palladium_pct": -2.15,
-  "copper_change": 0.1436,
+  "gold_change": 54.59,
+  "gold_pct": -1.25,
+  "silver_change": 1.064,
+  "silver_pct": -1.66,
+  "platinum_change": 26.5,
+  "platinum_pct": -1.47,
+  "palladium_change": 28.0,
+  "palladium_pct": -2.11,
+  "copper_change": 0.1433,
   "copper_pct": -2.22,
   "nickel_change": 85.0,
   "nickel_pct": -0.51,
-  "zinc_change": 62.45,
-  "zinc_pct": -1.62,
+  "zinc_change": 58.45,
+  "zinc_pct": -1.51,
   "lithium_change": 3600.0,
   "lithium_pct": -2.53,
   "uranium_change": 0.05,
