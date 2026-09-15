@@ -1,11 +1,11 @@
 {
-  "gold": 4285.86,
-  "silver": 63.214,
-  "platinum": 1766.1,
-  "palladium": 1292.0,
-  "copper": 6.3507,
-  "nickel": 15945.0,
-  "zinc": 3794.55,
+  "gold": 4301.39,
+  "silver": 63.786,
+  "platinum": 1785.9,
+  "palladium": 1312.5,
+  "copper": 6.387,
+  "nickel": 15940.0,
+  "zinc": 3819.75,
   "lithium": 135850.0,
   "uranium": 90.0,
   "cobalt": 41850.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "15 Sep 2026, 15:17",
+  "_last_updated": "15 Sep 2026, 19:17",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51917.68,
-      "change": -503.52,
-      "pct": -0.96,
+      "price": 52062.6,
+      "change": -358.6,
+      "pct": -0.68,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Sep, 15:17",
+      "updated": "15 Sep, 19:17",
       "hist": [
         45883.45,
         45757.9,
@@ -277,16 +277,16 @@
         52064.1,
         52573.29,
         52421.2,
-        51917.68
+        52070.08
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26006.08,
-      "change": -180.34,
-      "pct": -0.69,
+      "price": 25965.77,
+      "change": -220.65,
+      "pct": -0.84,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Sep, 15:17"
+      "updated": "15 Sep, 19:17"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": -68.7,
       "pct": -0.79,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Sep, 15:17"
+      "updated": "15 Sep, 19:17"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@
       "change": -68.4,
       "pct": -0.79,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Sep, 15:17"
+      "updated": "15 Sep, 19:17"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10649.51,
-      "change": -48.06,
-      "pct": -0.45,
+      "price": 10658.13,
+      "change": -39.44,
+      "pct": -0.37,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "15 Sep, 15:17"
+      "updated": "15 Sep, 19:17"
     }
   },
   "watchlist": {
@@ -1440,6 +1440,13 @@
       "date": "15 Sep 2026"
     },
     {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8) September 2026 Update: Cosmic Boy Development Progress and Gold Project Milestones in Focus",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "15 Sep 2026"
+    },
+    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX:TGN) Latest Updates: Watershed Approval and Mt Mulgine Development Progress",
@@ -1493,6 +1500,13 @@
       "name": "True North Copper",
       "title": "True North Copper (ASX:TNC): Mt Oxide Discovery Growth and Copper Exploration Outlook",
       "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "15 Sep 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre (ASX:CBE): Sierra Atacama Copper Growth Strategy and Botswana Exploration Pipeline in Focus",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
       "date": "15 Sep 2026"
     },
     {
@@ -1594,20 +1608,20 @@
       "date": "15 Sep 2026"
     }
   ],
-  "gold_change": 13.23,
-  "gold_pct": -0.31,
-  "silver_change": 0.016,
-  "silver_pct": -0.02,
-  "platinum_change": 13.7,
-  "platinum_pct": -0.77,
-  "palladium_change": 15.5,
-  "palladium_pct": -1.19,
-  "copper_change": 0.0207,
-  "copper_pct": 0.33,
-  "nickel_change": 495.0,
-  "nickel_pct": -3.01,
-  "zinc_change": 12.55,
-  "zinc_pct": -0.33,
+  "gold_change": 2.3,
+  "gold_pct": 0.05,
+  "silver_change": 0.556,
+  "silver_pct": 0.88,
+  "platinum_change": 6.1,
+  "platinum_pct": 0.34,
+  "palladium_change": 4.5,
+  "palladium_pct": 0.34,
+  "copper_change": 0.057,
+  "copper_pct": 0.9,
+  "nickel_change": 500.0,
+  "nickel_pct": -3.04,
+  "zinc_change": 12.65,
+  "zinc_pct": 0.33,
   "lithium_change": 2800.0,
   "lithium_pct": -2.02,
   "uranium_change": 0.15,
