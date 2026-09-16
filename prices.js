@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4344.18,
-  "silver": 64.571,
-  "platinum": 1786.9,
-  "palladium": 1322.5,
-  "copper": 6.4265,
-  "nickel": 16251.0,
-  "zinc": 3838.23,
+  "gold": 4357.65,
+  "silver": 64.8,
+  "platinum": 1799.5,
+  "palladium": 1321.0,
+  "copper": 6.4332,
+  "nickel": 16156.0,
+  "zinc": 3817.35,
   "lithium": 132200.0,
   "uranium": 89.95,
   "cobalt": 41200.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Sep 2026, 10:20",
+  "_last_updated": "16 Sep 2026, 15:10",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52093.11,
-      "change": -328.09,
-      "pct": -0.63,
+      "price": 52113.77,
+      "change": 20.66,
+      "pct": 0.04,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Sep, 10:20",
+      "updated": "16 Sep, 15:10",
       "hist": [
         45757.9,
         46018.32,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52064.1,
         52573.29,
         52421.2,
-        52093.11
+        52093.11,
+        52114.83
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25981.57,
-      "change": -204.84,
-      "pct": -0.78,
+      "price": 26213.42,
+      "change": 231.85,
+      "pct": 0.89,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Sep, 10:20"
+      "updated": "16 Sep, 15:10"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -53.4,
       "pct": -0.61,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Sep, 10:20"
+      "updated": "16 Sep, 15:10"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -51.7,
       "pct": -0.6,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Sep, 10:20"
+      "updated": "16 Sep, 15:10"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10702.29,
-      "change": 44.16,
-      "pct": 0.41,
+      "price": 10691.44,
+      "change": 33.31,
+      "pct": 0.31,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Sep, 10:20"
+      "updated": "16 Sep, 15:10"
     }
   },
   "watchlist": {
@@ -754,8 +755,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Caprice Resources",
       "code": "CRS",
       "price": 0.079,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 826965,
       "avg_volume": 3782488.7,
       "volume_surge": -78.14,
@@ -1194,16 +1195,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.13,
       "pct": 0.77,
       "volume": 1165266,
-      "avg_volume": 1773441.74,
-      "volume_surge": -34.29,
+      "avg_volume": 1773494.87,
+      "volume_surge": -34.3,
       "price_3d_start": 17.83,
       "price_3d_jump": -5.1,
       "vol_3d_trend": [
         2154423,
         1427403,
-        1165266
+        1166488
       ],
-      "vol_3d_surge": -34.29,
+      "vol_3d_surge": -34.23,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1270,16 +1271,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.14,
       "pct": -0.08,
       "volume": 128020,
-      "avg_volume": 250545.35,
-      "volume_surge": -48.9,
+      "avg_volume": 250563.35,
+      "volume_surge": -48.91,
       "price_3d_start": 164.35,
       "price_3d_jump": 0.58,
       "vol_3d_trend": [
         174585,
         187885,
-        128020
+        128434
       ],
-      "vol_3d_surge": -48.9,
+      "vol_3d_surge": -48.74,
       "vol_3d_sustained": false
     },
     "EIQ": {
@@ -1308,16 +1309,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.36,
       "pct": -1.74,
       "volume": 437956,
-      "avg_volume": 530729.57,
-      "volume_surge": -17.48,
+      "avg_volume": 530766.17,
+      "volume_surge": -17.49,
       "price_3d_start": 20.25,
       "price_3d_jump": 0.54,
       "vol_3d_trend": [
         396632,
         356143,
-        437956
+        438798
       ],
-      "vol_3d_surge": -17.48,
+      "vol_3d_surge": -17.33,
       "vol_3d_sustained": false
     },
     "AYA": {
@@ -1346,16 +1347,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.02,
       "pct": -1.92,
       "volume": 45892600,
-      "avg_volume": 45195480.52,
+      "avg_volume": 45196134.96,
       "volume_surge": 1.54,
       "price_3d_start": 1.07,
       "price_3d_jump": -4.67,
       "vol_3d_trend": [
         28423011,
         31295342,
-        45892600
+        45907652
       ],
-      "vol_3d_surge": 1.54,
+      "vol_3d_surge": 1.57,
       "vol_3d_sustained": false
     },
     "PLS": {
@@ -1365,16 +1366,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.01,
       "pct": -0.23,
       "volume": 24359646,
-      "avg_volume": 24436042.09,
-      "volume_surge": -0.31,
+      "avg_volume": 24437030.52,
+      "volume_surge": -0.32,
       "price_3d_start": 4.52,
       "price_3d_jump": -5.97,
       "vol_3d_trend": [
         20543044,
         28510801,
-        24359646
+        24382380
       ],
-      "vol_3d_surge": -0.31,
+      "vol_3d_surge": -0.22,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1416,21 +1417,225 @@ window.LIVE_COMMODITY_PRICES = {
       "vol_3d_sustained": false
     }
   },
-  "announcements": [],
-  "gold_change": 51.88,
-  "gold_pct": 1.21,
-  "silver_change": 0.926,
-  "silver_pct": 1.45,
-  "platinum_change": 9.9,
-  "platinum_pct": 0.56,
-  "palladium_change": 20.0,
-  "palladium_pct": 1.54,
-  "copper_change": 0.058,
-  "copper_pct": 0.91,
-  "nickel_change": 311.0,
-  "nickel_pct": 1.95,
-  "zinc_change": 18.1,
-  "zinc_pct": 0.47,
+  "announcements": [
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources (ASX:FRS) Integrates Edna May Into Its Gold Portfolio",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "Benz Mining (ASX:BNZ): Funding, Exploration Targets and Next Project Milestones",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Brightstar Resources (ASX:BTR), Solstice Minerals (ASX:SLS) and Power Minerals (ASX:PNN) Report New Drill Results",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals (ASX:WTM) Reports Over 89% Gold Recoveries From Consols Zone Test Work",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "LRV",
+      "name": "Larvotto Resources",
+      "title": "Larvotto spins the rig within Hillgrove",
+      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Tungsten Mining (ASX:TGN) Shares Rise as Watershed Testwork Confirms Saleable Concentrate",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR): Tungsten Production Growth and Mt Carbine Expansion Update",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6): Bullabulling Gold Project Development Update",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "Ora Banda Mining (ASX:OBM) Opens a New Underground Chapter at Waihi",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP): Quarterly Results and Mining Services Expansion Review",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals (ASX:CYL): What the Latest Gold Updates Mean for Its Next Growth Phase",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold (ASX:BGD) Shares Rise Nearly 5% as Tunkillia Assays Confirm New High-Grade Zone",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "title": "PolarX (ASX:PXX), Sunstone Metals (ASX:STM) and Manuka Resources (ASX:MKR) Set Out Their Next Field Steps",
+      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper (ASX:TNC) Raises A$0.75 Million Through Share Purchase Plan",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML) Funds Expanded Drilling Across Yandal",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM): Resource Growth, Drilling Progress and Copper Project Update",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "BRE",
+      "name": "Brazilian Rare Earths Ltd",
+      "title": "Brazilian Rare Earths (ASX:BRE): Is Monte Alto Reshaping Plans?",
+      "link": "https://www.marketindex.com.au/asx/bre/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "LIN",
+      "name": "Lindian Resources Ltd",
+      "title": "Lindian Resources (ASX:LIN): Kangankunde Rare Earths Project Development Update",
+      "link": "https://www.marketindex.com.au/asx/lin/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining (ASX:SGQ) Moves Araxa Ore into Pilot-Scale Testing",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "BPM",
+      "name": "BPM Minerals",
+      "title": "BPM Minerals Announces Annual General Meeting on 22 October 2026 Featuring Eight Key Resolutions",
+      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "FML",
+      "name": "Focus Minerals",
+      "title": "Why Focus Minerals (ASX:FML) Is on Investors' Radar This September",
+      "link": "https://www.marketindex.com.au/asx/fml/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "NMR",
+      "name": "Native Mineral Resources",
+      "title": "Native Mineral Resources (ASX:NMR) Produces 501 Ounces of Dor\u00e9 in Third Consecutive Weekly Blackjack Smelt",
+      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Is Network Demand Steady Amid AI Nerves (ASX:MP1)?",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "title": "GenusPlus Group (ASX:GNP): Transmission Projects, Earnings Growth and Future Focus Areas",
+      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX): Lung Imaging Technology and FY2026 Business Update",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "What Is Driving Pro Medicus Lower as Yields Climb (ASX:PME)?",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "What Lithium Prices Mean for ASX Battery Materials Stocks Pilbara Minerals (ASX:PLS), Liontown (ASX:LTR) and Elevra Lithium (ASX:ELV)",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "What Lithium Prices Mean for ASX Battery Materials Stocks Pilbara Minerals (ASX:PLS), Liontown (ASX:LTR) and Elevra Lithium (ASX:ELV)",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "16 Sep 2026"
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Which Drilling Results Matter for Wildcat Resources (ASX:WC8)?",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "16 Sep 2026"
+    }
+  ],
+  "gold_change": 65.35,
+  "gold_pct": 1.52,
+  "silver_change": 1.155,
+  "silver_pct": 1.81,
+  "platinum_change": 22.5,
+  "platinum_pct": 1.27,
+  "palladium_change": 18.5,
+  "palladium_pct": 1.42,
+  "copper_change": 0.0647,
+  "copper_pct": 1.02,
+  "nickel_change": 216.0,
+  "nickel_pct": 1.36,
+  "zinc_change": 2.78,
+  "zinc_pct": -0.07,
   "lithium_change": 3650.0,
   "lithium_pct": -2.69,
   "uranium_change": 0.05,
@@ -1653,8 +1858,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "PME",
       "name": "Pro Medicus Ltd",
       "volume": 128020,
-      "avg_volume": 250545.35,
-      "volume_surge": -48.9
+      "avg_volume": 250563.35,
+      "volume_surge": -48.91
     },
     {
       "code": "MKR",
@@ -1702,8 +1907,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 1165266,
-      "avg_volume": 1773441.74,
-      "volume_surge": -34.29
+      "avg_volume": 1773494.87,
+      "volume_surge": -34.3
     },
     {
       "code": "BMR",
