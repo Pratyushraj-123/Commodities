@@ -1,11 +1,11 @@
 {
-  "gold": 4267.7,
-  "silver": 63.333,
-  "platinum": 1758.6,
-  "palladium": 1289.0,
-  "copper": 6.3586,
+  "gold": 4261.01,
+  "silver": 62.878,
+  "platinum": 1759.4,
+  "palladium": 1286.0,
+  "copper": 6.3662,
   "nickel": 16150.0,
-  "zinc": 3811.15,
+  "zinc": 3811.0,
   "lithium": 132200.0,
   "uranium": 89.95,
   "cobalt": 41200.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Sep 2026, 19:07",
+  "_last_updated": "16 Sep 2026, 22:24",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51504.34,
-      "change": -588.77,
-      "pct": -1.13,
+      "price": 51461.9,
+      "change": -631.21,
+      "pct": -1.21,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Sep, 19:07",
+      "updated": "16 Sep, 22:24",
       "hist": [
-        45757.9,
         46018.32,
         46142.42,
         46315.27,
@@ -277,16 +276,16 @@
         52573.29,
         52421.2,
         52093.11,
-        51504.17
+        51461.9
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25970.68,
-      "change": -10.89,
-      "pct": -0.04,
+      "price": 25978.42,
+      "change": -3.15,
+      "pct": -0.01,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Sep, 19:07"
+      "updated": "16 Sep, 22:24"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": -53.4,
       "pct": -0.61,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Sep, 19:07"
+      "updated": "16 Sep, 22:24"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": -51.7,
       "pct": -0.6,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Sep, 19:07"
+      "updated": "16 Sep, 22:24"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": 30.34,
       "pct": 0.28,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Sep, 19:07"
+      "updated": "16 Sep, 22:24"
     }
   },
   "watchlist": {
@@ -1447,13 +1446,6 @@
       "date": "16 Sep 2026"
     },
     {
-      "code": "LRV",
-      "name": "Larvotto Resources",
-      "title": "Larvotto spins the rig within Hillgrove",
-      "link": "https://www.marketindex.com.au/asx/lrv/announcements",
-      "date": "16 Sep 2026"
-    },
-    {
       "code": "TGN",
       "name": "Tungsten Mining",
       "title": "Tungsten Mining (ASX:TGN) Shares Rise as Watershed Testwork Confirms Saleable Concentrate",
@@ -1622,19 +1614,19 @@
       "date": "16 Sep 2026"
     }
   ],
-  "gold_change": 24.6,
-  "gold_pct": -0.57,
-  "silver_change": 0.312,
-  "silver_pct": -0.49,
-  "platinum_change": 18.4,
-  "platinum_pct": -1.04,
-  "palladium_change": 13.5,
-  "palladium_pct": -1.04,
-  "copper_change": 0.0099,
-  "copper_pct": -0.16,
+  "gold_change": 31.29,
+  "gold_pct": -0.73,
+  "silver_change": 0.767,
+  "silver_pct": -1.21,
+  "platinum_change": 17.6,
+  "platinum_pct": -0.99,
+  "palladium_change": 16.5,
+  "palladium_pct": -1.27,
+  "copper_change": 0.0023,
+  "copper_pct": -0.04,
   "nickel_change": 210.0,
   "nickel_pct": 1.32,
-  "zinc_change": 8.98,
+  "zinc_change": 9.13,
   "zinc_pct": -0.24,
   "lithium_change": 3650.0,
   "lithium_pct": -2.69,
