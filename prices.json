@@ -1,11 +1,11 @@
 {
-  "gold": 4363.74,
-  "silver": 65.856,
-  "platinum": 1792.3,
-  "palladium": 1300.5,
-  "copper": 6.5822,
-  "nickel": 16267.0,
-  "zinc": 3882.9,
+  "gold": 4350.72,
+  "silver": 65.264,
+  "platinum": 1784.7,
+  "palladium": 1295.0,
+  "copper": 6.5345,
+  "nickel": 16265.0,
+  "zinc": 3888.45,
   "lithium": 133200.0,
   "uranium": 89.75,
   "cobalt": 40675.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "17 Sep 2026, 15:20",
+  "_last_updated": "17 Sep 2026, 19:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51758.13,
-      "change": 296.23,
-      "pct": 0.58,
+      "price": 51809.59,
+      "change": 347.69,
+      "pct": 0.68,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Sep, 15:20",
+      "updated": "17 Sep, 19:19",
       "hist": [
         46018.32,
         46142.42,
@@ -277,16 +277,16 @@
         52421.2,
         52093.11,
         51461.9,
-        51759.29
+        51808.12
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26369.16,
-      "change": 390.74,
-      "pct": 1.5,
+      "price": 26420.3,
+      "change": 441.88,
+      "pct": 1.7,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "17 Sep, 15:20"
+      "updated": "17 Sep, 19:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@
       "change": 59.9,
       "pct": 0.69,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Sep, 15:20"
+      "updated": "17 Sep, 19:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@
       "change": 60.1,
       "pct": 0.7,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "17 Sep, 15:20"
+      "updated": "17 Sep, 19:19"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10806.17,
-      "change": 148.07,
-      "pct": 1.39,
+      "price": 10816.14,
+      "change": 158.04,
+      "pct": 1.48,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "17 Sep, 15:20"
+      "updated": "17 Sep, 19:19"
     }
   },
   "watchlist": {
@@ -1426,6 +1426,13 @@
       "date": "17 Sep 2026"
     },
     {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources Ltd (ASX:FRS) in Focus: Exploration Portfolio and TOV Zinc Update",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "17 Sep 2026"
+    },
+    {
       "code": "SLS",
       "name": "Solstice Minerals",
       "title": "Solstice Minerals (ASX:SLS) Advances Nanadie Copper-Gold Discovery",
@@ -1470,7 +1477,7 @@
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "title": "Catalyst Metals (ASX:CYL): Why This Gold Stock Is Attracting Attention After a 32% Reserve Increase",
+      "title": "3 ASX Mining Stocks on Investors' Radar: Perseus Mining (ASX:PRU), Catalyst Metals (ASX:CYL) and Westgold Resources (ASX:WGX)",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
       "date": "17 Sep 2026"
     },
@@ -1491,7 +1498,7 @@
     {
       "code": "GA8",
       "name": "Goldarc Resources",
-      "title": "Goldarc Resources Limited (ASX: GA8) - Announcements",
+      "title": "Goldarc Resources Limited (ASX:GA8)",
       "link": "https://www.marketindex.com.au/asx/ga8/announcements",
       "date": "17 Sep 2026"
     },
@@ -1533,7 +1540,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What Does Pro Medicus (ASX:PME) Mean for AI Stocks Now?",
+      "title": "What Does Pro Medicus (ASX:PME) Mean for Growth Stocks?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "17 Sep 2026"
     },
@@ -1559,20 +1566,20 @@
       "date": "17 Sep 2026"
     }
   ],
-  "gold_change": 99.97,
-  "gold_pct": 2.34,
-  "silver_change": 2.615,
-  "silver_pct": 4.13,
-  "platinum_change": 6.4,
-  "platinum_pct": 0.36,
-  "palladium_change": 13.0,
-  "palladium_pct": -0.99,
-  "copper_change": 0.1507,
-  "copper_pct": 2.34,
-  "nickel_change": 117.0,
-  "nickel_pct": 0.72,
-  "zinc_change": 71.9,
-  "zinc_pct": 1.89,
+  "gold_change": 86.95,
+  "gold_pct": 2.04,
+  "silver_change": 2.023,
+  "silver_pct": 3.2,
+  "platinum_change": 1.2,
+  "platinum_pct": -0.07,
+  "palladium_change": 18.5,
+  "palladium_pct": -1.41,
+  "copper_change": 0.103,
+  "copper_pct": 1.6,
+  "nickel_change": 115.0,
+  "nickel_pct": 0.71,
+  "zinc_change": 77.45,
+  "zinc_pct": 2.03,
   "lithium_change": 1000.0,
   "lithium_pct": 0.76,
   "uranium_change": 0.2,
