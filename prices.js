@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "18 Sep 2026, 22:52",
+  "_last_updated": "19 Sep 2026, 00:42",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -95.4,
       "pct": -0.18,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Sep, 22:52",
+      "updated": "19 Sep, 00:42",
       "hist": [
         46315.27,
         46381.54,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 104.24,
       "pct": 0.39,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "18 Sep, 22:52"
+      "updated": "19 Sep, 00:42"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 34.7,
       "pct": 0.4,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Sep, 22:52"
+      "updated": "19 Sep, 00:42"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 38.0,
       "pct": 0.44,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "18 Sep, 22:52"
+      "updated": "19 Sep, 00:42"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -29.37,
       "pct": -0.27,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "18 Sep, 22:52"
+      "updated": "19 Sep, 00:42"
     }
   },
   "watchlist": {
@@ -1418,123 +1418,11 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "WTM",
-      "name": "Waratah Minerals Ltd",
-      "title": "Waratah Minerals' (ASX:WTM): Six-Kilometre Gold Corridor Confirmed at Spur",
-      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "TVN",
-      "name": "Tivan Ltd",
-      "title": "Tivan Limited (ASX: TVN) - Share Price",
-      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources (ASX:EQR): Nevada Tungsten Move Changes the Story",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) and 2 Australian Penny Stocks to Watch",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "Cash Reserves Matter for Catalyst Metals (ASX:CYL): Cash Reserves and Key Developments",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "AZY",
-      "name": "Antipa Minerals",
-      "title": "Antipa Minerals (ASX:AZY): Gold Copper Angle and Key Developments",
-      "link": "https://www.marketindex.com.au/asx/azy/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "CRS",
-      "name": "Caprice Resources",
-      "title": "Caprice Resources (ASX:CRS) Focuses on Costs as Island Gold Exploration Continues",
-      "link": "https://www.marketindex.com.au/asx/crs/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "TNC",
-      "name": "True North Copper",
-      "title": "Inside True North Copper (ASX:TNC): The Factors Driving Investor Interest",
-      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "GA8",
-      "name": "Goldarc Resources",
-      "title": "Goldarc Resources Limited (ASX: GA8) - Share Price",
-      "link": "https://www.marketindex.com.au/asx/ga8/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "title": "Black Canyon Limited (ASX:BCA): Next Financial Report and Key Developments",
-      "link": "https://www.marketindex.com.au/asx/bca/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "TTM",
-      "name": "Titan Minerals",
-      "title": "Why Titan Minerals (ASX:TTM) Is on Investors' Radar",
-      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "NMR",
-      "name": "Native Mineral Resources",
-      "title": "Native Mineral Resources (ASX:NMR) Is on Investors\u2019 Radar as Funding Choices Shape Its Gold Growth Path",
-      "link": "https://www.marketindex.com.au/asx/nmr/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1): Cloud Connectivity Platform and Digital Infrastructure Growth",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "Could 4DMedical (ASX:4DX) Rally Signal a Bigger Shift?",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals (ASX:NEU): Drug Pipeline Builds Beyond DAYBUE Royalty Base",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "AYA",
-      "name": "ARTRYA Ltd",
-      "title": "Is Artrya (ASX:AYA) Stay on Traders\u2019 Radar in Today\u2019s Session?",
-      "link": "https://www.marketindex.com.au/asx/aya/announcements",
-      "date": "18 Sep 2026"
-    },
-    {
-      "code": "WC8",
-      "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources (ASX:WC8) Initiates Trading Halt Ahead of Capital Raising Announcement",
-      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
-      "date": "18 Sep 2026"
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "St George Mining boosts Mt Alexander lithium potential",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "19 Sep 2026"
     }
   ],
   "gold_change": 42.06,
