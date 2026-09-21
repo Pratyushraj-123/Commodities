@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4354.56,
-  "silver": 65.918,
-  "platinum": 1798.9,
-  "palladium": 1320.0,
-  "copper": 6.6668,
-  "nickel": 16193.0,
-  "zinc": 3936.4,
+  "gold": 4339.04,
+  "silver": 66.076,
+  "platinum": 1809.5,
+  "palladium": 1321.0,
+  "copper": 6.7164,
+  "nickel": 16265.0,
+  "zinc": 3935.35,
   "lithium": 134400.0,
   "uranium": 89.7,
   "cobalt": 39780.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Sep 2026, 07:16",
+  "_last_updated": "21 Sep 2026, 14:33",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51682.64,
-      "change": -95.36,
-      "pct": -0.18,
+      "price": 51903.87,
+      "change": 221.23,
+      "pct": 0.43,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Sep, 07:16",
+      "updated": "21 Sep, 14:33",
       "hist": [
-        46315.27,
         46381.54,
         46292.78,
         46121.28,
@@ -276,16 +275,17 @@ window.LIVE_COMMODITY_PRICES = {
         52093.11,
         51461.9,
         51778.04,
-        51682.64
+        51682.64,
+        51902.96
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26522.54,
-      "change": 104.24,
-      "pct": 0.39,
+      "price": 26936.38,
+      "change": 413.83,
+      "pct": 1.56,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Sep, 07:16"
+      "updated": "21 Sep, 14:33"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.7,
       "pct": 0.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Sep, 07:16"
+      "updated": "21 Sep, 14:33"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.1,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Sep, 07:16"
+      "updated": "21 Sep, 14:33"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10679.58,
-      "change": 20.45,
-      "pct": 0.19,
+      "price": 10732.52,
+      "change": 73.39,
+      "pct": 0.69,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Sep, 07:16"
+      "updated": "21 Sep, 14:33"
     }
   },
   "watchlist": {
@@ -529,16 +529,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 2903816,
-      "avg_volume": 5362912.0,
-      "volume_surge": -45.85,
-      "price_3d_start": 0.38,
-      "price_3d_jump": 1.32,
+      "avg_volume": 5119143.27,
+      "volume_surge": -43.28,
+      "price_3d_start": 0.395,
+      "price_3d_jump": -2.53,
       "vol_3d_trend": [
-        6818399,
         3031122,
-        2903816
+        2903816,
+        0
       ],
-      "vol_3d_surge": -45.85,
+      "vol_3d_surge": -100.0,
       "vol_3d_sustained": false
     },
     "EQR": {
@@ -548,16 +548,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.02,
       "pct": -4.12,
       "volume": 183982504,
-      "avg_volume": 70811997.64,
-      "volume_surge": 159.82,
+      "avg_volume": 70902906.73,
+      "volume_surge": 159.49,
       "price_3d_start": 0.465,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         83027127,
         438540130,
-        183982504
+        185982504
       ],
-      "vol_3d_surge": 159.82,
+      "vol_3d_surge": 162.31,
       "vol_3d_sustained": false
     },
     "ENR": {
@@ -855,7 +855,7 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 1416927.95,
       "volume_surge": -90.04,
       "price_3d_start": 0.2,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         86828,
         942063,
@@ -912,7 +912,7 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 3268307.18,
       "volume_surge": -46.21,
       "price_3d_start": 0.8,
-      "price_3d_jump": 5.62,
+      "price_3d_jump": 5.63,
       "vol_3d_trend": [
         4508515,
         15811197,
@@ -1058,8 +1058,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "BPM Minerals",
       "code": "BPM",
       "price": 0.23,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 500508,
       "avg_volume": 486962.5,
       "volume_surge": 2.78,
@@ -1076,21 +1076,21 @@ window.LIVE_COMMODITY_PRICES = {
     "BMR": {
       "name": "Ballymore Resources",
       "code": "BMR",
-      "price": 0.13,
-      "change": 0.0,
-      "pct": 0.0,
+      "price": 0.14,
+      "change": 0.01,
+      "pct": 7.69,
       "volume": 57000,
-      "avg_volume": 82390.81,
-      "volume_surge": -30.82,
-      "price_3d_start": 0.13,
-      "price_3d_jump": 0.0,
+      "avg_volume": 81236.68,
+      "volume_surge": -29.83,
+      "price_3d_start": 0.125,
+      "price_3d_jump": 12.0,
       "vol_3d_trend": [
-        40822,
         97031,
-        292247
+        292247,
+        57000
       ],
-      "vol_3d_surge": 254.71,
-      "vol_3d_sustained": true
+      "vol_3d_surge": -29.83,
+      "vol_3d_sustained": false
     },
     "FML": {
       "name": "Focus Minerals",
@@ -1134,8 +1134,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Native Mineral Resources",
       "code": "NMR",
       "price": 0.063,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 3211854,
       "avg_volume": 2378898.14,
       "volume_surge": 35.01,
@@ -1418,10 +1418,52 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold Limited(ASX: PC2) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals Limited(ASX: TM1) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
-      "title": "Benz Mining Corp.(ASX: BNZ) added to S&P/ASX 300 Index",
+      "title": "Benz Mining Corp.(ASX: BNZ) added to S&P/ASX Small Ordinaries Index",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "MM1",
+      "name": "Midas Minerals",
+      "title": "Midas Minerals Limited(ASX: MM1) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/mm1/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Beacon Minerals (ASX:BCN) Puts Gold Margins Under the Spotlight at Coolgardie",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Medallion Metals (ASX:MM8): Why Balance Sheet Capacity Matters as Ravensthorpe Advances",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "WTM",
+      "name": "Waratah Minerals Ltd",
+      "title": "Waratah Minerals Limited(ASX: WTM) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/wtm/announcements",
       "date": "21 Sep 2026"
     },
     {
@@ -1441,14 +1483,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MI6",
       "name": "Minerals 260",
-      "title": "Minerals 260 Limited(ASX: MI6) dropped from S&P/ASX Emerging Companies Index",
+      "title": "Why Minerals 260 (ASX:MI6) Is Down 8.5% And What's Next After $280m Equity Raise",
       "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "21 Sep 2026"
     },
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining (ASX:OBM) Expands Davyhurst Gold Resources and Production Plans",
+      "title": "Ora Banda Mining (ASX:OBM): Can Davyhurst Expansion Deliver the Next Phase of Gold Growth?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "21 Sep 2026"
     },
@@ -1474,10 +1516,38 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Sep 2026"
     },
     {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "Saturn Metals (ASX:STN): Can Apollo Hill\u2019s Scale Translate Into Viable Gold Economics?",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "GML",
+      "name": "Gateway Mining Ltd",
+      "title": "Gateway Mining (ASX:GML): Why Working Capital Matters for Its Yandal Gold Strategy",
+      "link": "https://www.marketindex.com.au/asx/gml/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
       "title": "Sinclair Gold (ASX:SGC) Extends Mt Henry Mineralisation Well Beyond 1.8Moz Resource",
       "link": "https://www.marketindex.com.au/asx/sgc/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Sky Metals Limited(ASX: SKY) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre Limited(ASX: CBE) added to S&P/ASX All Ordinaries Index",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
       "date": "21 Sep 2026"
     },
     {
@@ -1488,9 +1558,23 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Sep 2026"
     },
     {
+      "code": "LM1",
+      "name": "Leeuwin Metals Ltd",
+      "title": "Leeuwin Metals (ASX:LM1): Funding Runway in Focus Across Gold, Nickel and Lithium",
+      "link": "https://www.marketindex.com.au/asx/lm1/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "FFM",
+      "name": "Firefly Metals Ltd",
+      "title": "FireFly Metals (ASX:FFM) Links Green Bay\u2019s Development Case to the Copper Price",
+      "link": "https://www.marketindex.com.au/asx/ffm/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
       "code": "BRE",
       "name": "Brazilian Rare Earths Ltd",
-      "title": "Brazilian Rare Earths Limited(ASX: BRE) added to S&P/ASX 300 Index",
+      "title": "Brazilian Rare Earths (ASX:BRE): Can High-Grade Discoveries Withstand Rare-Earth Price Swings?",
       "link": "https://www.marketindex.com.au/asx/bre/announcements",
       "date": "21 Sep 2026"
     },
@@ -1544,10 +1628,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Sep 2026"
     },
     {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Could Pro Medicus (ASX:PME) Extend Its Healthcare Run?",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
       "code": "EIQ",
       "name": "Echoiq Ltd",
       "title": "Echo IQ Limited(ASX: EIQ) added to S&P/ASX 300 Index",
       "link": "https://www.marketindex.com.au/asx/eiq/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "What Does Neuren Pharmaceuticals (ASX:NEU) Mean for Healthcare?",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
       "date": "21 Sep 2026"
     },
     {
@@ -1558,27 +1656,34 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Sep 2026"
     },
     {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "How Battery Demand Connects to the Lithium Business of S&P/ASX 200's PLS Group (ASX:PLS)",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
-      "title": "Wildcat Resources (ASX:WC8) A$60m Raise Keeps Tabba Tabba on the Fast Track",
+      "title": "Wildcat Resources (ASX:WC8) Raises A$60 Million to Advance Tabba Tabba Development",
       "link": "https://www.marketindex.com.au/asx/wc8/announcements",
       "date": "21 Sep 2026"
     }
   ],
-  "gold_change": 28.89,
-  "gold_pct": -0.66,
-  "silver_change": 0.318,
-  "silver_pct": -0.48,
-  "platinum_change": 7.5,
-  "platinum_pct": -0.42,
-  "palladium_change": 0.5,
-  "palladium_pct": 0.04,
-  "copper_change": 0.0518,
-  "copper_pct": 0.78,
-  "nickel_change": 42.0,
-  "nickel_pct": -0.26,
-  "zinc_change": 2.57,
-  "zinc_pct": 0.07,
+  "gold_change": 44.41,
+  "gold_pct": -1.01,
+  "silver_change": 0.16,
+  "silver_pct": -0.24,
+  "platinum_change": 3.1,
+  "platinum_pct": 0.17,
+  "palladium_change": 1.5,
+  "palladium_pct": 0.11,
+  "copper_change": 0.1014,
+  "copper_pct": 1.53,
+  "nickel_change": 30.0,
+  "nickel_pct": 0.18,
+  "zinc_change": 1.52,
+  "zinc_pct": 0.04,
   "lithium_change": 100.0,
   "lithium_pct": 0.07,
   "uranium_change": 0.0,
@@ -1601,8 +1706,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "volume": 183982504,
-      "avg_volume": 70811997.64,
-      "volume_surge": 159.82
+      "avg_volume": 70902906.73,
+      "volume_surge": 159.49
     },
     {
       "code": "LSA",
@@ -1652,8 +1757,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "volume": 183982504,
-      "avg_volume": 70811997.64,
-      "volume_surge": 159.82
+      "avg_volume": 70902906.73,
+      "volume_surge": 159.49
     },
     {
       "code": "LSA",
@@ -1819,13 +1924,6 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -46.21
     },
     {
-      "code": "TGN",
-      "name": "Tungsten Mining",
-      "volume": 2903816,
-      "avg_volume": 5362912.0,
-      "volume_surge": -45.85
-    },
-    {
       "code": "MKR",
       "name": "Manuka Resources",
       "volume": 7737229,
@@ -1838,6 +1936,13 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 26033479,
       "avg_volume": 45984269.55,
       "volume_surge": -43.39
+    },
+    {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "volume": 2903816,
+      "avg_volume": 5119143.27,
+      "volume_surge": -43.28
     },
     {
       "code": "LIN",
@@ -1873,13 +1978,6 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 1616716,
       "avg_volume": 2528494.14,
       "volume_surge": -36.06
-    },
-    {
-      "code": "BMR",
-      "name": "Ballymore Resources",
-      "volume": 57000,
-      "avg_volume": 82390.81,
-      "volume_surge": -30.82
     },
     {
       "code": "FRS",
@@ -1934,17 +2032,6 @@ window.LIVE_COMMODITY_PRICES = {
     }
   ],
   "volume_growth_alerts": [
-    {
-      "code": "BMR",
-      "name": "Ballymore Resources",
-      "vol_trend": [
-        40822,
-        97031,
-        292247
-      ],
-      "avg_volume": 82390.81,
-      "surge_pct": 254.71
-    },
     {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
