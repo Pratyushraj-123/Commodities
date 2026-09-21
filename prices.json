@@ -1,11 +1,11 @@
 {
-  "gold": 4339.04,
-  "silver": 66.076,
-  "platinum": 1809.5,
+  "gold": 4347.07,
+  "silver": 66.126,
+  "platinum": 1808.2,
   "palladium": 1321.0,
-  "copper": 6.7164,
-  "nickel": 16265.0,
-  "zinc": 3935.35,
+  "copper": 6.7082,
+  "nickel": 16385.0,
+  "zinc": 3935.23,
   "lithium": 134400.0,
   "uranium": 89.7,
   "cobalt": 39780.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Sep 2026, 14:33",
+  "_last_updated": "21 Sep 2026, 19:45",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51903.87,
-      "change": 221.23,
-      "pct": 0.43,
+      "price": 52100.75,
+      "change": 418.11,
+      "pct": 0.81,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Sep, 14:33",
+      "updated": "21 Sep, 19:45",
       "hist": [
         46381.54,
         46292.78,
@@ -276,16 +276,16 @@
         51461.9,
         51778.04,
         51682.64,
-        51902.96
+        52099.66
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26936.38,
-      "change": 413.83,
-      "pct": 1.56,
+      "price": 27158.35,
+      "change": 635.81,
+      "pct": 2.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Sep, 14:33"
+      "updated": "21 Sep, 19:45"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 0.7,
       "pct": 0.01,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Sep, 14:33"
+      "updated": "21 Sep, 19:45"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 0.1,
       "pct": 0.0,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Sep, 14:33"
+      "updated": "21 Sep, 19:45"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10732.52,
-      "change": 73.39,
-      "pct": 0.69,
+      "price": 10739.01,
+      "change": 79.88,
+      "pct": 0.75,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Sep, 14:33"
+      "updated": "21 Sep, 19:45"
     }
   },
   "watchlist": {
@@ -1194,16 +1194,16 @@
       "change": 0.31,
       "pct": 1.67,
       "volume": 1045949,
-      "avg_volume": 1644168.68,
-      "volume_surge": -36.38,
+      "avg_volume": 1646187.14,
+      "volume_surge": -36.46,
       "price_3d_start": 16.92,
       "price_3d_jump": 11.41,
       "vol_3d_trend": [
         1435438,
         2303209,
-        1045949
+        1090355
       ],
-      "vol_3d_surge": -36.38,
+      "vol_3d_surge": -33.76,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1232,16 +1232,16 @@
       "change": -0.39,
       "pct": -4.12,
       "volume": 1369755,
-      "avg_volume": 1321158.59,
-      "volume_surge": 3.68,
+      "avg_volume": 1327462.32,
+      "volume_surge": 3.19,
       "price_3d_start": 8.14,
       "price_3d_jump": 11.43,
       "vol_3d_trend": [
         844942,
         12352921,
-        1369755
+        1508437
       ],
-      "vol_3d_surge": 3.68,
+      "vol_3d_surge": 13.63,
       "vol_3d_sustained": false
     },
     "4DX": {
@@ -1434,7 +1434,7 @@
     {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
-      "title": "Benz Mining Corp.(ASX: BNZ) added to S&P/ASX Small Ordinaries Index",
+      "title": "Benz Mining Corp.(ASX: BNZ) added to S&P/ASX 300 Index",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
       "date": "21 Sep 2026"
     },
@@ -1471,6 +1471,13 @@
       "name": "Larvotto Resources",
       "title": "Larvotto Resources (ASX:LRV) Produces First Antimony and Gold Concentrate at Hillgrove",
       "link": "https://www.marketindex.com.au/asx/lrv/announcements",
+      "date": "21 Sep 2026"
+    },
+    {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX:TVN) Falls Nearly 5% After Major Timor-Leste Licence Expansion \u2014 Buying Opportunity or Warning Sign?",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
       "date": "21 Sep 2026"
     },
     {
@@ -1616,7 +1623,7 @@
     {
       "code": "GNP",
       "name": "Genusplus Group Ltd",
-      "title": "GenusPlus Group Ltd(ASX: GNP) added to S&P/ASX 300 Index",
+      "title": "GenusPlus Group Ltd(ASX: GNP) added to S&P/ASX Small Ordinaries Index",
       "link": "https://www.marketindex.com.au/asx/gnp/announcements",
       "date": "21 Sep 2026"
     },
@@ -1670,19 +1677,19 @@
       "date": "21 Sep 2026"
     }
   ],
-  "gold_change": 44.41,
-  "gold_pct": -1.01,
-  "silver_change": 0.16,
-  "silver_pct": -0.24,
-  "platinum_change": 3.1,
-  "platinum_pct": 0.17,
+  "gold_change": 36.38,
+  "gold_pct": -0.83,
+  "silver_change": 0.11,
+  "silver_pct": -0.17,
+  "platinum_change": 1.8,
+  "platinum_pct": 0.1,
   "palladium_change": 1.5,
   "palladium_pct": 0.11,
-  "copper_change": 0.1014,
-  "copper_pct": 1.53,
-  "nickel_change": 30.0,
-  "nickel_pct": 0.18,
-  "zinc_change": 1.52,
+  "copper_change": 0.0932,
+  "copper_pct": 1.41,
+  "nickel_change": 150.0,
+  "nickel_pct": 0.92,
+  "zinc_change": 1.4,
   "zinc_pct": 0.04,
   "lithium_change": 100.0,
   "lithium_pct": 0.07,
@@ -1969,8 +1976,8 @@
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 1045949,
-      "avg_volume": 1644168.68,
-      "volume_surge": -36.38
+      "avg_volume": 1646187.14,
+      "volume_surge": -36.46
     },
     {
       "code": "STN",
