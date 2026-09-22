@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4320.33,
-  "silver": 65.315,
-  "platinum": 1781.9,
-  "palladium": 1304.0,
-  "copper": 6.7339,
-  "nickel": 16419.0,
-  "zinc": 3915.45,
+  "gold": 4325.42,
+  "silver": 65.646,
+  "platinum": 1794.6,
+  "palladium": 1305.5,
+  "copper": 6.7693,
+  "nickel": 16524.0,
+  "zinc": 3949.6,
   "lithium": 134450.0,
   "uranium": 89.7,
   "cobalt": 39680.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Sep 2026, 06:52",
+  "_last_updated": "22 Sep 2026, 12:07",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 366.23,
       "pct": 0.71,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Sep, 06:52",
+      "updated": "22 Sep, 12:07",
       "hist": [
         46381.54,
         46292.78,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 599.55,
       "pct": 2.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Sep, 06:52"
+      "updated": "22 Sep, 12:07"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 26.6,
       "pct": 0.3,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Sep, 06:52"
+      "updated": "22 Sep, 12:07"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 28.0,
       "pct": 0.32,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Sep, 06:52"
+      "updated": "22 Sep, 12:07"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10739.01,
-      "change": 79.91,
-      "pct": 0.75,
+      "price": 10749.73,
+      "change": 10.72,
+      "pct": 0.1,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Sep, 06:52"
+      "updated": "22 Sep, 12:07"
     }
   },
   "watchlist": {
@@ -906,19 +906,19 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Unico Silver Ltd",
       "code": "USL",
       "price": 0.845,
-      "change": -0.055,
-      "pct": -6.11,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 1757871,
-      "avg_volume": 3268818.67,
-      "volume_surge": -46.22,
-      "price_3d_start": 0.8,
-      "price_3d_jump": 5.63,
+      "avg_volume": 3120236.0,
+      "volume_surge": -43.66,
+      "price_3d_start": 0.795,
+      "price_3d_jump": 6.29,
       "vol_3d_trend": [
-        4508515,
         15811197,
-        1757871
+        1757871,
+        0
       ],
-      "vol_3d_surge": -46.22,
+      "vol_3d_surge": -100.0,
       "vol_3d_sustained": false
     },
     "BM1": {
@@ -1427,7 +1427,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "WTM",
       "name": "Waratah Minerals Ltd",
-      "title": "Waratah Minerals (ASX:WTM) Shares Rise After Best Gold Intercept Yet at Spur Discovery",
+      "title": "Waratah Minerals (ASX:WTM) Rallies as Spur Drilling Delivers Its Best Gold Intercept Yet",
       "link": "https://www.marketindex.com.au/asx/wtm/announcements",
       "date": "22 Sep 2026"
     },
@@ -1476,25 +1476,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Does Midstream Processing Change PLS Group (ASX:PLS)?",
+      "title": "Why Could Pilbara Minerals (ASX:PLS) Matter Now?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "22 Sep 2026"
     }
   ],
-  "gold_change": 22.69,
-  "gold_pct": -0.52,
-  "silver_change": 0.688,
-  "silver_pct": -1.04,
-  "platinum_change": 19.5,
-  "platinum_pct": -1.08,
-  "palladium_change": 12.5,
-  "palladium_pct": -0.95,
-  "copper_change": 0.0474,
-  "copper_pct": 0.71,
-  "nickel_change": 1.0,
-  "nickel_pct": -0.01,
-  "zinc_change": 15.6,
-  "zinc_pct": -0.4,
+  "gold_change": 17.6,
+  "gold_pct": -0.41,
+  "silver_change": 0.357,
+  "silver_pct": -0.54,
+  "platinum_change": 6.8,
+  "platinum_pct": -0.38,
+  "palladium_change": 11.0,
+  "palladium_pct": -0.84,
+  "copper_change": 0.0828,
+  "copper_pct": 1.24,
+  "nickel_change": 139.0,
+  "nickel_pct": 0.85,
+  "zinc_change": 18.55,
+  "zinc_pct": 0.47,
   "lithium_change": 50.0,
   "lithium_pct": 0.04,
   "uranium_change": 0.0,
@@ -1857,8 +1857,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "USL",
       "name": "Unico Silver Ltd",
       "volume": 1757871,
-      "avg_volume": 3268818.67,
-      "volume_surge": -46.22
+      "avg_volume": 3120236.0,
+      "volume_surge": -43.66
     },
     {
       "code": "EDU",
