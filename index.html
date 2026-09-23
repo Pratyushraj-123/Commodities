@@ -413,7 +413,7 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
       <div class="sidebar-card" style="margin-top: 16px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bd);">
           <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">📰 Official ASX Announcements</h3>
-          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">58 Companies</span>
+          <span style="font-size:10px; color:var(--mu); font-family:var(--mo);">60 Companies</span>
         </div>
         <input type="text" id="announcementsSearchInp" placeholder="🔍 Search company filings (e.g. EQR, AYA, PLS)..." onkeyup="filterAnnouncements()" 
                style="width:100%; padding:6px 10px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none; margin-bottom:10px;">
@@ -455,13 +455,13 @@ body{background:var(--bg);color:var(--tx);font-family:var(--fn);font-size:14px;}
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid var(--bd);">
       <div style="display:flex; align-items:center; gap:8px;">
         <h3 class="sidebar-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none; font-size:13px; letter-spacing:1.5px;">⛏️ Company Watchlist</h3>
-        <span style="font-size:10px; color:var(--mu); font-family:var(--mo); background:var(--s2); padding:2px 6px; border-radius:3px; border:1px solid var(--bd2);">58 ASX Stocks</span>
+        <span style="font-size:10px; color:var(--mu); font-family:var(--mo); background:var(--s2); padding:2px 6px; border-radius:3px; border:1px solid var(--bd2);">60 ASX Stocks</span>
       </div>
-      <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 58 companies..." onkeyup="filterWatchlist()" 
+      <input type="text" id="watchlistSearchInp" placeholder="🔍 Search 60 companies..." onkeyup="filterWatchlist()" 
              style="width:280px; padding:6px 12px; font-size:11px; border:1px solid var(--bd2); border-radius:4px; background:var(--s2); color:var(--tx); outline:none;">
     </div>
     <div id="watchlistContainer" class="watchlist-grid">
-      <!-- Dynamically populated 58 ASX stock quotes in 3 columns -->
+      <!-- Dynamically populated 60 ASX stock quotes in 3 columns -->
     </div>
   </div>
 </div>
@@ -1648,10 +1648,11 @@ function renderWatchlistCards(watchlist) {
 const WATCHLIST_ORDER = [
   "PC2", "TM1", "FRS", "BNZ", "MM1", "BCN", "SLS", "MM8", "WTM",
   "LRV", "TVN", "TGN", "EQR", "ENR", "MI6", "OBM", "DVP", "CYL", "SPD",
-  "BGD", "AZY", "STN", "MKR", "CRS", "TNC", "GML", "SGC", "GA8", "SKY",
-  "BCA", "CBE", "USL", "BM1", "LM1", "FFM", "BRE", "LIN", "CYM", "SGQ",
+  "BGD", "STN", "MKR", "CRS", "TNC", "GML", "SGC", "GA8", "SKY",
+  "BCA", "CBE", "USL", "BM1", "LIN", "CYM", "SGQ",
   "BPM", "BMR", "FML", "TTM", "NMR", "LSA", "SKS", "MP1", "EDU", "GNP",
-  "4DX", "PME", "EIQ", "NEU", "AYA", "LTR", "PLS", "WC8", "POD"
+  "4DX", "PME", "NEU", "AYA", "LTR", "PLS", "WC8", "POD",
+  "KLI", "OMA", "KAO", "AAR", "KAN", "KRR", "BTR"
 ];
 
 function filterWatchlist() {

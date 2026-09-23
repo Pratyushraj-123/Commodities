@@ -61,22 +61,26 @@ SELECTED_ASX_COMPANIES = {
     "LRV": "Larvotto Resources", "TVN": "Tivan Ltd", "TGN": "Tungsten Mining",
     "EQR": "EQ Resources Ltd", "ENR": "Encounter Resources", "MI6": "Minerals 260",
     "OBM": "Ora Banda Mining Ltd", "DVP": "Develop Global", "CYL": "Catalyst Metals",
-    "SPD": "Southern Palladium", "BGD": "Barton Gold Holdings", "AZY": "Antipa Minerals",
+    "SPD": "Southern Palladium", "BGD": "Barton Gold Holdings",
     "STN": "Saturn Metals Ltd", "MKR": "Manuka Resources", "CRS": "Caprice Resources",
     "TNC": "True North Copper", "GML": "Gateway Mining Ltd", "SGC": "Sinclair Gold Ltd",
     "GA8": "Goldarc Resources", "SKY": "SKY Metals Ltd",
     
     # Column 2
     "BCA": "Black Canyon Ltd", "CBE": "Cobre Ltd", "USL": "Unico Silver Ltd",
-    "BM1": "Ballard Mining Ltd", "LM1": "Leeuwin Metals Ltd", "FFM": "Firefly Metals Ltd",
-    "BRE": "Brazilian Rare Earths Ltd", "LIN": "Lindian Resources Ltd", "CYM": "Cyprium Metals",
+    "BM1": "Ballard Mining Ltd", "LIN": "Lindian Resources Ltd", "CYM": "Cyprium Metals",
     "SGQ": "ST George Mining", "BPM": "BPM Minerals", "BMR": "Ballymore Resources",
     "FML": "Focus Minerals", "TTM": "Titan Minerals", "NMR": "Native Mineral Resources",
     "LSA": "Lachlan Star Ltd", "SKS": "SKS Technologies Group Ltd", "MP1": "Megaport Ltd",
     "EDU": "EDU Holdings Ltd", "GNP": "Genusplus Group Ltd", "4DX": "4DMEDICAL Ltd",
-    "PME": "Pro Medicus Ltd", "EIQ": "Echoiq Ltd", "NEU": "Neuren Pharmaceuticals Ltd",
+    "PME": "Pro Medicus Ltd", "NEU": "Neuren Pharmaceuticals Ltd",
     "AYA": "ARTRYA Ltd", "LTR": "Liontown Ltd", "PLS": "PLS Group Ltd",
-    "WC8": "Wildcat Resources Ltd", "POD": "Podium Minerals"
+    "WC8": "Wildcat Resources Ltd", "POD": "Podium Minerals",
+    
+    # Newly Added
+    "KLI": "Killi Resources Ltd", "OMA": "Omega Oil & Gas Ltd", "KAO": "Kaoko Metals Ltd",
+    "AAR": "Astral Resources NL", "KAN": "Kantra Copper Ltd", "KRR": "King River Resources Ltd",
+    "BTR": "Brightstar Resources Ltd"
 }
 
 def load_stored_prices():
