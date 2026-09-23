@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4334.52,
-  "silver": 66.139,
-  "platinum": 1814.0,
-  "palladium": 1303.5,
-  "copper": 6.7449,
-  "nickel": 16534.0,
-  "zinc": 3879.7,
+  "gold": 4315.2,
+  "silver": 65.185,
+  "platinum": 1779.6,
+  "palladium": 1284.0,
+  "copper": 6.7408,
+  "nickel": 16545.0,
+  "zinc": 3898.38,
   "lithium": 135200.0,
-  "uranium": 89.7,
+  "uranium": 89.75,
   "cobalt": 39640.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "23 Sep 2026, 12:19",
+  "_last_updated": "23 Sep 2026, 12:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -185.11,
       "pct": -0.36,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Sep, 12:19",
+      "updated": "23 Sep, 12:20",
       "hist": [
         46292.78,
         46121.28,
@@ -284,7 +284,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 122.18,
       "pct": 0.45,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Sep, 12:19"
+      "updated": "23 Sep, 12:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +292,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.4,
       "pct": 0.38,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Sep, 12:19"
+      "updated": "23 Sep, 12:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +300,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 35.2,
       "pct": 0.41,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Sep, 12:19"
+      "updated": "23 Sep, 12:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10708.33,
-      "change": -30.67,
-      "pct": -0.29,
+      "price": 10695.98,
+      "change": -12.35,
+      "pct": -0.12,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Sep, 12:19"
+      "updated": "23 Sep, 12:20"
     }
   },
   "watchlist": {
@@ -886,16 +886,16 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Unico Silver Ltd",
       "code": "USL",
       "price": 0.845,
-      "change": 0.0,
-      "pct": 0.0,
+      "change": -0.0,
+      "pct": -0.0,
       "volume": 1757871,
-      "avg_volume": 3120236.0,
-      "volume_surge": -43.66,
-      "price_3d_start": 0.795,
-      "price_3d_jump": 6.29,
+      "avg_volume": 2984573.57,
+      "volume_surge": -41.1,
+      "price_3d_start": 0.9,
+      "price_3d_jump": -6.11,
       "vol_3d_trend": [
-        15811197,
         1757871,
+        0,
         0
       ],
       "vol_3d_surge": -100.0,
@@ -1455,6 +1455,13 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Could FRS (ASX:FRS) Move Onto the ASX Radar After Its Latest Change of Director's Interest Notice Update?",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "23 Sep 2026"
+    },
+    {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
       "title": "BNZ Stock Price and Chart \u2014 ASX:BNZ",
@@ -1466,6 +1473,20 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Beacon Minerals",
       "title": "Beacon Minerals Limited (ASX:BCN) - Shares, Dividends & News",
       "link": "https://www.marketindex.com.au/asx/bcn/announcements",
+      "date": "23 Sep 2026"
+    },
+    {
+      "code": "MM8",
+      "name": "Medallion Metals",
+      "title": "Could Medallion Metals (ASX:MM8) Reveal More in Its Annual Report?",
+      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "23 Sep 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "What could MI6 (ASX:MI6) reveal after its holder update?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "23 Sep 2026"
     },
     {
@@ -1501,6 +1522,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Black Canyon Ltd",
       "title": "What could Black Canyon (ASX:BCA) reveal next?",
       "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "23 Sep 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Ballard Mining (ASX:BM1) delivers 1.84Moz Mt Ida resource",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
       "date": "23 Sep 2026"
     },
     {
@@ -1541,7 +1569,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "What Sets 4DMedical (ASX:4DX) and 2 ASX Growth Stocks Apart?",
+      "title": "Could 4DMedical (ASX:4DX) Draw Attention After a Holder Exit?",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "23 Sep 2026"
     },
@@ -1560,24 +1588,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "23 Sep 2026"
     }
   ],
-  "gold_change": 29.8,
-  "gold_pct": -0.68,
-  "silver_change": 0.916,
-  "silver_pct": -1.37,
-  "platinum_change": 11.5,
-  "platinum_pct": -0.63,
-  "palladium_change": 2.5,
-  "palladium_pct": -0.19,
-  "copper_change": 0.0146,
-  "copper_pct": -0.22,
-  "nickel_change": 32.0,
-  "nickel_pct": -0.19,
-  "zinc_change": 31.85,
-  "zinc_pct": -0.81,
+  "gold_change": 49.12,
+  "gold_pct": -1.13,
+  "silver_change": 1.87,
+  "silver_pct": -2.79,
+  "platinum_change": 45.9,
+  "platinum_pct": -2.51,
+  "palladium_change": 22.0,
+  "palladium_pct": -1.68,
+  "copper_change": 0.0187,
+  "copper_pct": -0.28,
+  "nickel_change": 20.0,
+  "nickel_pct": -0.12,
+  "zinc_change": 13.17,
+  "zinc_pct": -0.34,
   "lithium_change": 750.0,
   "lithium_pct": 0.56,
-  "uranium_change": 0.0,
-  "uranium_pct": 0.0,
+  "uranium_change": 0.05,
+  "uranium_pct": 0.06,
   "cobalt_change": 40.0,
   "cobalt_pct": -0.1,
   "rareearth_change": 2500.0,
@@ -1842,18 +1870,18 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -43.72
     },
     {
-      "code": "USL",
-      "name": "Unico Silver Ltd",
-      "volume": 1757871,
-      "avg_volume": 3120236.0,
-      "volume_surge": -43.66
-    },
-    {
       "code": "NMR",
       "name": "Native Mineral Resources",
       "volume": 1366859,
       "avg_volume": 2334996.39,
       "volume_surge": -41.46
+    },
+    {
+      "code": "USL",
+      "name": "Unico Silver Ltd",
+      "volume": 1757871,
+      "avg_volume": 2984573.57,
+      "volume_surge": -41.1
     },
     {
       "code": "BGD",
