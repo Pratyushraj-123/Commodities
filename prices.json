@@ -1,13 +1,13 @@
 {
-  "gold": 4275.34,
-  "silver": 64.08,
-  "platinum": 1753.4,
-  "palladium": 1273.5,
-  "copper": 6.6749,
-  "nickel": 16449.0,
-  "zinc": 3892.65,
+  "gold": 4269.6,
+  "silver": 63.606,
+  "platinum": 1753.8,
+  "palladium": 1277.5,
+  "copper": 6.6886,
+  "nickel": 16472.0,
+  "zinc": 3923.15,
   "lithium": 133150.0,
-  "uranium": 89.75,
+  "uranium": 89.55,
   "cobalt": 39640.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "24 Sep 2026, 06:48",
+  "_last_updated": "24 Sep 2026, 12:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": -352.11,
       "pct": -0.68,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Sep, 06:48",
+      "updated": "24 Sep, 12:20",
       "hist": [
         46121.28,
         45947.32,
@@ -284,7 +284,7 @@
       "change": -308.24,
       "pct": -1.13,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "24 Sep, 06:48"
+      "updated": "24 Sep, 12:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -292,7 +292,7 @@
       "change": -55.8,
       "pct": -0.64,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Sep, 06:48"
+      "updated": "24 Sep, 12:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -300,15 +300,15 @@
       "change": -54.0,
       "pct": -0.62,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "24 Sep, 06:48"
+      "updated": "24 Sep, 12:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10705.26,
-      "change": -3.04,
-      "pct": -0.03,
+      "price": 10712.98,
+      "change": 7.72,
+      "pct": 0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "24 Sep, 06:48"
+      "updated": "24 Sep, 12:20"
     }
   },
   "watchlist": {
@@ -1506,7 +1506,7 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "What Is Driving 4DMedical (ASX:4DX), Netwealth (ASX:NWL) and Megaport (ASX:MP1)?",
+      "title": "MP1 (ASX:MP1): Could Cloud Connectivity and Digital Infrastructure Keep Megaport in Focus?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "24 Sep 2026"
     },
@@ -1546,24 +1546,24 @@
       "date": "24 Sep 2026"
     }
   ],
-  "gold_change": 12.05,
-  "gold_pct": -0.28,
-  "silver_change": 0.361,
-  "silver_pct": -0.56,
-  "platinum_change": 4.8,
-  "platinum_pct": 0.27,
-  "palladium_change": 4.0,
-  "palladium_pct": 0.32,
-  "copper_change": 0.0031,
-  "copper_pct": -0.05,
-  "nickel_change": 21.0,
-  "nickel_pct": -0.13,
-  "zinc_change": 7.63,
-  "zinc_pct": -0.2,
+  "gold_change": 17.79,
+  "gold_pct": -0.41,
+  "silver_change": 0.834,
+  "silver_pct": -1.29,
+  "platinum_change": 5.2,
+  "platinum_pct": 0.3,
+  "palladium_change": 8.0,
+  "palladium_pct": 0.63,
+  "copper_change": 0.0106,
+  "copper_pct": 0.16,
+  "nickel_change": 8.0,
+  "nickel_pct": -0.05,
+  "zinc_change": 22.87,
+  "zinc_pct": 0.59,
   "lithium_change": 2050.0,
   "lithium_pct": -1.52,
-  "uranium_change": 0.05,
-  "uranium_pct": 0.06,
+  "uranium_change": 0.2,
+  "uranium_pct": -0.22,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
