@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4283.32,
-  "silver": 64.276,
-  "platinum": 1778.9,
-  "palladium": 1276.5,
-  "copper": 6.6996,
+  "gold": 4285.0,
+  "silver": 64.284,
+  "platinum": 1778.4,
+  "palladium": 1277.5,
+  "copper": 6.7058,
   "nickel": 16385.0,
-  "zinc": 3904.35,
+  "zinc": 3905.9,
   "lithium": 133150.0,
   "uranium": 89.45,
   "cobalt": 39640.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Sep 2026, 18:06",
+  "_last_updated": "25 Sep 2026, 21:52",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51767.84,
-      "change": 417.86,
-      "pct": 0.81,
+      "price": 51828.62,
+      "change": 478.64,
+      "pct": 0.93,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Sep, 18:06",
+      "updated": "25 Sep, 21:52",
       "hist": [
-        45947.32,
         46247.29,
         46316.07,
         46397.89,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51863.69,
         51511.59,
         51349.98,
-        51767.84
+        51828.62
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 27079.42,
-      "change": 140.05,
-      "pct": 0.52,
+      "price": 27068.72,
+      "change": 129.34,
+      "pct": 0.48,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Sep, 18:06"
+      "updated": "25 Sep, 21:52"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -100.3,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Sep, 18:06"
+      "updated": "25 Sep, 21:52"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -101.8,
       "pct": -1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Sep, 18:06"
+      "updated": "25 Sep, 21:52"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 15.26,
       "pct": 0.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Sep, 18:06"
+      "updated": "25 Sep, 21:52"
     }
   },
   "watchlist": {
@@ -1478,6 +1477,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Sep 2026"
     },
     {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Black Canyon produces higher grade manganese product",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "25 Sep 2026"
+    },
+    {
       "code": "MP1",
       "name": "Megaport Ltd",
       "title": "4DMedical (ASX:4DX), Netwealth (ASX:NWL) and Megaport (ASX:MP1): Australian Growth Stocks",
@@ -1506,20 +1512,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "25 Sep 2026"
     }
   ],
-  "gold_change": 8.67,
-  "gold_pct": 0.2,
-  "silver_change": 0.454,
-  "silver_pct": 0.71,
-  "platinum_change": 26.9,
-  "platinum_pct": 1.54,
-  "palladium_change": 5.5,
-  "palladium_pct": -0.43,
-  "copper_change": 0.0189,
-  "copper_pct": -0.28,
+  "gold_change": 10.35,
+  "gold_pct": 0.24,
+  "silver_change": 0.462,
+  "silver_pct": 0.72,
+  "platinum_change": 26.4,
+  "platinum_pct": 1.51,
+  "palladium_change": 4.5,
+  "palladium_pct": -0.35,
+  "copper_change": 0.0127,
+  "copper_pct": -0.19,
   "nickel_change": 145.0,
   "nickel_pct": -0.88,
-  "zinc_change": 72.5,
-  "zinc_pct": -1.82,
+  "zinc_change": 70.95,
+  "zinc_pct": -1.78,
   "lithium_change": 2050.0,
   "lithium_pct": -1.52,
   "uranium_change": 0.1,
