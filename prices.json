@@ -1,10 +1,10 @@
 {
   "gold": 4285.0,
-  "silver": 64.284,
+  "silver": 64.259,
   "platinum": 1778.4,
   "palladium": 1277.5,
-  "copper": 6.7058,
-  "nickel": 16385.0,
+  "copper": 6.695,
+  "nickel": 16360.0,
   "zinc": 3905.9,
   "lithium": 133150.0,
   "uranium": 89.45,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "25 Sep 2026, 21:52",
+  "_last_updated": "26 Sep 2026, 00:11",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 478.64,
       "pct": 0.93,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Sep, 21:52",
+      "updated": "26 Sep, 00:11",
       "hist": [
         46247.29,
         46316.07,
@@ -285,7 +285,7 @@
       "change": 129.34,
       "pct": 0.48,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "25 Sep, 21:52"
+      "updated": "26 Sep, 00:11"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": -100.3,
       "pct": -1.14,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Sep, 21:52"
+      "updated": "26 Sep, 00:11"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": -101.8,
       "pct": -1.17,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "25 Sep, 21:52"
+      "updated": "26 Sep, 00:11"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 15.26,
       "pct": 0.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "25 Sep, 21:52"
+      "updated": "26 Sep, 00:11"
     }
   },
   "watchlist": {
@@ -1456,74 +1456,32 @@
   },
   "announcements": [
     {
-      "code": "MM8",
-      "name": "Medallion Metals",
-      "title": "Medallion Metals (ASX:MM8): Is Profit Finally in Sight?",
-      "link": "https://www.marketindex.com.au/asx/mm8/announcements",
-      "date": "25 Sep 2026"
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 Limited's (ASX:MI6) Path To Profitability",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "26 Sep 2026"
     },
     {
-      "code": "EQR",
-      "name": "EQ Resources Ltd",
-      "title": "EQ Resources Stock Gains U.S. Tungsten JV Access Through Nevada Restart Deal",
-      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda builds ESG capability alongside Davyhurst expansion",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "title": "Black Canyon produces higher grade manganese product",
-      "link": "https://www.marketindex.com.au/asx/bca/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "4DMedical (ASX:4DX), Netwealth (ASX:NWL) and Megaport (ASX:MP1): Australian Growth Stocks",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX), Netwealth (ASX:NWL) and Megaport (ASX:MP1): Australian Growth Stocks",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Will Board Appointment Change Pro Medicus Stock Narrative",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "25 Sep 2026"
-    },
-    {
-      "code": "KRR",
-      "name": "King River Resources Ltd",
-      "title": "KRR Stock Price and Chart \u2014 ASX:KRR",
-      "link": "https://www.marketindex.com.au/asx/krr/announcements",
-      "date": "25 Sep 2026"
+      "code": "POD",
+      "name": "Podium Minerals",
+      "title": "Podium Minerals Limited (ASX:POD)",
+      "link": "https://www.marketindex.com.au/asx/pod/announcements",
+      "date": "26 Sep 2026"
     }
   ],
   "gold_change": 10.35,
   "gold_pct": 0.24,
-  "silver_change": 0.462,
-  "silver_pct": 0.72,
+  "silver_change": 0.436,
+  "silver_pct": 0.68,
   "platinum_change": 26.4,
   "platinum_pct": 1.51,
   "palladium_change": 4.5,
   "palladium_pct": -0.35,
-  "copper_change": 0.0127,
-  "copper_pct": -0.19,
-  "nickel_change": 145.0,
-  "nickel_pct": -0.88,
+  "copper_change": 0.0235,
+  "copper_pct": -0.35,
+  "nickel_change": 170.0,
+  "nickel_pct": -1.03,
   "zinc_change": 70.95,
   "zinc_pct": -1.78,
   "lithium_change": 2050.0,
