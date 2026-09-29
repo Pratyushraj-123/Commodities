@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4151.69,
-  "silver": 60.764,
-  "platinum": 1681.2,
-  "palladium": 1213.0,
-  "copper": 6.5457,
-  "nickel": 15915.0,
-  "zinc": 3864.75,
+  "gold": 4182.01,
+  "silver": 61.465,
+  "platinum": 1706.5,
+  "palladium": 1231.0,
+  "copper": 6.5992,
+  "nickel": 15985.0,
+  "zinc": 3865.2,
   "lithium": 123400.0,
   "uranium": 89.3,
   "cobalt": 39640.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "29 Sep 2026, 16:09",
+  "_last_updated": "29 Sep 2026, 21:05",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51160.33,
-      "change": -321.18,
-      "pct": -0.62,
+      "price": 51349.92,
+      "change": -131.59,
+      "pct": -0.26,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Sep, 16:09",
+      "updated": "29 Sep, 21:05",
       "hist": [
-        46316.07,
         46397.89,
         46441.1,
         46519.72,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51349.98,
         51828.62,
         51481.51,
-        51161.37
+        51349.92
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26790.15,
-      "change": -30.24,
-      "pct": -0.11,
+      "price": 26797.54,
+      "change": -22.84,
+      "pct": -0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Sep, 16:09"
+      "updated": "29 Sep, 21:05"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 44.3,
       "pct": 0.51,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Sep, 16:09"
+      "updated": "29 Sep, 21:05"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 41.4,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Sep, 16:09"
+      "updated": "29 Sep, 21:05"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -48.17,
       "pct": -0.45,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Sep, 16:09"
+      "updated": "29 Sep, 21:05"
     }
   },
   "watchlist": {
@@ -1119,16 +1118,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 1.78,
       "pct": 9.44,
       "volume": 3949142,
-      "avg_volume": 1589753.0,
-      "volume_surge": 148.41,
+      "avg_volume": 1590607.64,
+      "volume_surge": 148.28,
       "price_3d_start": 19.62,
       "price_3d_jump": 5.15,
       "vol_3d_trend": [
         1101908,
         1607602,
-        4065691
+        4084493
       ],
-      "vol_3d_surge": 155.74,
+      "vol_3d_surge": 156.79,
       "vol_3d_sustained": true
     },
     "EDU": {
@@ -1548,9 +1547,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Sep 2026"
     },
     {
+      "code": "BPM",
+      "name": "BPM Minerals",
+      "title": "We Think BPM Minerals (ASX:BPM) Can Afford To Drive Business Growth",
+      "link": "https://www.marketindex.com.au/asx/bpm/announcements",
+      "date": "29 Sep 2026"
+    },
+    {
       "code": "SKS",
       "name": "SKS Technologies Group Ltd",
-      "title": "Elsight (ASX:ELS), Koala (ASX:KOA) & SKS (ASX:SKS): ASX Growth Stocks to Watch",
+      "title": "Don't Ignore The Insider Selling In SKS Technologies Group",
       "link": "https://www.marketindex.com.au/asx/sks/announcements",
       "date": "29 Sep 2026"
     },
@@ -1618,20 +1624,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Sep 2026"
     }
   ],
-  "gold_change": 36.71,
-  "gold_pct": 0.89,
-  "silver_change": 0.137,
-  "silver_pct": 0.23,
-  "platinum_change": 42.9,
-  "platinum_pct": -2.49,
-  "palladium_change": 10.0,
-  "palladium_pct": -0.82,
-  "copper_change": 0.0238,
-  "copper_pct": -0.36,
-  "nickel_change": 250.0,
-  "nickel_pct": -1.55,
-  "zinc_change": 3.2,
-  "zinc_pct": 0.08,
+  "gold_change": 67.03,
+  "gold_pct": 1.63,
+  "silver_change": 0.837,
+  "silver_pct": 1.38,
+  "platinum_change": 17.6,
+  "platinum_pct": -1.02,
+  "palladium_change": 8.0,
+  "palladium_pct": 0.65,
+  "copper_change": 0.0297,
+  "copper_pct": 0.45,
+  "nickel_change": 180.0,
+  "nickel_pct": -1.11,
+  "zinc_change": 3.65,
+  "zinc_pct": 0.09,
   "lithium_change": 2950.0,
   "lithium_pct": -2.33,
   "uranium_change": 0.2,
@@ -1661,8 +1667,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 3949142,
-      "avg_volume": 1589753.0,
-      "volume_surge": 148.41
+      "avg_volume": 1590607.64,
+      "volume_surge": 148.28
     },
     {
       "code": "CRS",
@@ -1712,8 +1718,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 3949142,
-      "avg_volume": 1589753.0,
-      "volume_surge": 148.41
+      "avg_volume": 1590607.64,
+      "volume_surge": 148.28
     },
     {
       "code": "CRS",
@@ -1965,10 +1971,10 @@ window.LIVE_COMMODITY_PRICES = {
       "vol_trend": [
         1101908,
         1607602,
-        4065691
+        4084493
       ],
-      "avg_volume": 1589753.0,
-      "surge_pct": 155.74
+      "avg_volume": 1590607.64,
+      "surge_pct": 156.79
     },
     {
       "code": "CRS",
