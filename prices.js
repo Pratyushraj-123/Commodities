@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4143.66,
-  "silver": 60.704,
-  "platinum": 1689.6,
-  "palladium": 1228.0,
-  "copper": 6.5371,
-  "nickel": 16031.0,
-  "zinc": 3852.7,
+  "gold": 4151.69,
+  "silver": 60.764,
+  "platinum": 1681.2,
+  "palladium": 1213.0,
+  "copper": 6.5457,
+  "nickel": 15915.0,
+  "zinc": 3864.75,
   "lithium": 123400.0,
   "uranium": 89.3,
   "cobalt": 39640.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "29 Sep 2026, 09:07",
+  "_last_updated": "29 Sep 2026, 16:09",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51481.51,
-      "change": -347.09,
-      "pct": -0.67,
+      "price": 51160.33,
+      "change": -321.18,
+      "pct": -0.62,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Sep, 09:07",
+      "updated": "29 Sep, 16:09",
       "hist": [
         46316.07,
         46397.89,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         51511.59,
         51349.98,
         51828.62,
-        51481.51
+        51481.51,
+        51161.37
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26820.38,
-      "change": -248.34,
-      "pct": -0.92,
+      "price": 26790.15,
+      "change": -30.24,
+      "pct": -0.11,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "29 Sep, 09:07"
+      "updated": "29 Sep, 16:09"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 44.3,
       "pct": 0.51,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Sep, 09:07"
+      "updated": "29 Sep, 16:09"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 41.4,
       "pct": 0.48,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "29 Sep, 09:07"
+      "updated": "29 Sep, 16:09"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10714.68,
-      "change": 29.8,
-      "pct": 0.28,
+      "price": 10636.71,
+      "change": -48.17,
+      "pct": -0.45,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "29 Sep, 09:07"
+      "updated": "29 Sep, 16:09"
     }
   },
   "watchlist": {
@@ -488,8 +489,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Larvotto Resources",
       "code": "LRV",
       "price": 1.09,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 487119,
       "avg_volume": 2438682.32,
       "volume_surge": -80.03,
@@ -830,8 +831,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "SKY Metals Ltd",
       "code": "SKY",
       "price": 0.185,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 765465,
       "avg_volume": 1235934.91,
       "volume_surge": -38.07,
@@ -849,13 +850,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Black Canyon Ltd",
       "code": "BCA",
       "price": 0.305,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 110925,
       "avg_volume": 55576.09,
       "volume_surge": 99.59,
       "price_3d_start": 0.305,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         52849,
         64191,
@@ -925,8 +926,8 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Lindian Resources Ltd",
       "code": "LIN",
       "price": 0.595,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 14917539,
       "avg_volume": 18353642.27,
       "volume_surge": -18.72,
@@ -1118,16 +1119,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 1.78,
       "pct": 9.44,
       "volume": 3949142,
-      "avg_volume": 1584455.32,
-      "volume_surge": 149.24,
+      "avg_volume": 1589753.0,
+      "volume_surge": 148.41,
       "price_3d_start": 19.62,
       "price_3d_jump": 5.15,
       "vol_3d_trend": [
         1101908,
         1607602,
-        3949142
+        4065691
       ],
-      "vol_3d_surge": 149.24,
+      "vol_3d_surge": 155.74,
       "vol_3d_sustained": true
     },
     "EDU": {
@@ -1194,16 +1195,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 1.61,
       "pct": 0.99,
       "volume": 125692,
-      "avg_volume": 172457.45,
+      "avg_volume": 172460.86,
       "volume_surge": -27.12,
       "price_3d_start": 163.67,
       "price_3d_jump": 0.05,
       "vol_3d_trend": [
         134378,
         118186,
-        125692
+        125767
       ],
-      "vol_3d_surge": -27.12,
+      "vol_3d_surge": -27.08,
       "vol_3d_sustained": false
     },
     "NEU": {
@@ -1270,16 +1271,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.03,
       "pct": 0.78,
       "volume": 23255600,
-      "avg_volume": 25275153.05,
-      "volume_surge": -7.99,
+      "avg_volume": 25328484.68,
+      "volume_surge": -8.18,
       "price_3d_start": 3.94,
       "price_3d_jump": -1.78,
       "vol_3d_trend": [
         39922741,
         29322872,
-        23255600
+        24428896
       ],
-      "vol_3d_surge": -7.99,
+      "vol_3d_surge": -3.55,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1311,7 +1312,7 @@ window.LIVE_COMMODITY_PRICES = {
       "avg_volume": 1015313.36,
       "volume_surge": -98.32,
       "price_3d_start": 0.032,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         513689,
         1584516,
@@ -1381,13 +1382,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Astral Resources NL",
       "code": "AAR",
       "price": 0.185,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 966321,
       "avg_volume": 2954405.5,
       "volume_surge": -67.29,
       "price_3d_start": 0.185,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         2726759,
         1733414,
@@ -1470,6 +1471,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Sep 2026"
     },
     {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "Solstice Minerals (ASX:SLS): Nanadie Copper-Gold Drilling Expands Mineralised Footprint",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
+      "date": "29 Sep 2026"
+    },
+    {
       "code": "EQR",
       "name": "EQ Resources Ltd",
       "title": "What Does EQ Resources\u2019 (ASX:EQR) New Share Quotation Mean?",
@@ -1493,7 +1501,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "DVP",
       "name": "Develop Global",
-      "title": "Develop Global Limited (ASX:DVP): FY27 Guidance Outlines Production, Cost and Capital Plans",
+      "title": "Develop Global (ASX:DVP) Shares Face Margin Squeeze Despite Revenue Surge",
       "link": "https://www.marketindex.com.au/asx/dvp/announcements",
       "date": "29 Sep 2026"
     },
@@ -1549,7 +1557,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1): AI Infrastructure Contracts Expand Revenue Outlook and Capital Requirements",
+      "title": "Megaport (ASX:MP1) Jumps 7.80% on AI Contracts and FY27 Revenue Upgrade",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "29 Sep 2026"
     },
@@ -1568,9 +1576,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Sep 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX): What the S&P/ASX 200 Lung Imaging Company Outlined After the CT:VQ Launch",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "29 Sep 2026"
+    },
+    {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals (ASX:NEU): US Patent Allowance Supports Potential Trofinetide Protection Extension",
+      "title": "Neuren Pharmaceuticals (ASX:NEU): How Could the New Trofinetide Patent Extend Protection?",
       "link": "https://www.marketindex.com.au/asx/neu/announcements",
       "date": "29 Sep 2026"
     },
@@ -1603,20 +1618,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "29 Sep 2026"
     }
   ],
-  "gold_change": 28.68,
-  "gold_pct": 0.7,
-  "silver_change": 0.077,
-  "silver_pct": 0.13,
-  "platinum_change": 34.5,
-  "platinum_pct": -2.0,
-  "palladium_change": 5.0,
-  "palladium_pct": 0.41,
-  "copper_change": 0.0324,
-  "copper_pct": -0.49,
-  "nickel_change": 134.0,
-  "nickel_pct": -0.83,
-  "zinc_change": 8.85,
-  "zinc_pct": -0.23,
+  "gold_change": 36.71,
+  "gold_pct": 0.89,
+  "silver_change": 0.137,
+  "silver_pct": 0.23,
+  "platinum_change": 42.9,
+  "platinum_pct": -2.49,
+  "palladium_change": 10.0,
+  "palladium_pct": -0.82,
+  "copper_change": 0.0238,
+  "copper_pct": -0.36,
+  "nickel_change": 250.0,
+  "nickel_pct": -1.55,
+  "zinc_change": 3.2,
+  "zinc_pct": 0.08,
   "lithium_change": 2950.0,
   "lithium_pct": -2.33,
   "uranium_change": 0.2,
@@ -1646,8 +1661,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 3949142,
-      "avg_volume": 1584455.32,
-      "volume_surge": 149.24
+      "avg_volume": 1589753.0,
+      "volume_surge": 148.41
     },
     {
       "code": "CRS",
@@ -1697,8 +1712,8 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MP1",
       "name": "Megaport Ltd",
       "volume": 3949142,
-      "avg_volume": 1584455.32,
-      "volume_surge": 149.24
+      "avg_volume": 1589753.0,
+      "volume_surge": 148.41
     },
     {
       "code": "CRS",
@@ -1950,10 +1965,10 @@ window.LIVE_COMMODITY_PRICES = {
       "vol_trend": [
         1101908,
         1607602,
-        3949142
+        4065691
       ],
-      "avg_volume": 1584455.32,
-      "surge_pct": 149.24
+      "avg_volume": 1589753.0,
+      "surge_pct": 155.74
     },
     {
       "code": "CRS",
