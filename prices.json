@@ -1,11 +1,11 @@
 {
-  "gold": 4210.35,
-  "silver": 61.178,
-  "platinum": 1709.8,
-  "palladium": 1228.0,
-  "copper": 6.5852,
-  "nickel": 15982.0,
-  "zinc": 3863.15,
+  "gold": 4153.91,
+  "silver": 60.24,
+  "platinum": 1698.3,
+  "palladium": 1210.5,
+  "copper": 6.5537,
+  "nickel": 15920.0,
+  "zinc": 3826.8,
   "lithium": 122800.0,
   "uranium": 89.5,
   "cobalt": 39140.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Sep 2026, 13:04",
+  "_last_updated": "30 Sep 2026, 18:37",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51349.92,
-      "change": -131.58,
-      "pct": -0.26,
+      "price": 51145.31,
+      "change": -204.61,
+      "pct": -0.4,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Sep, 13:04",
+      "updated": "30 Sep, 18:37",
       "hist": [
         46397.89,
         46441.1,
@@ -276,16 +276,17 @@
         51349.98,
         51828.62,
         51481.51,
-        51349.92
+        51349.92,
+        51145.31
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26797.54,
-      "change": -22.84,
-      "pct": -0.09,
+      "price": 27007.94,
+      "change": 210.4,
+      "pct": 0.79,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Sep, 13:04"
+      "updated": "30 Sep, 18:37"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 109.6,
       "pct": 1.26,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Sep, 13:04"
+      "updated": "30 Sep, 18:37"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 108.2,
       "pct": 1.26,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Sep, 13:04"
+      "updated": "30 Sep, 18:37"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10646.89,
-      "change": 10.18,
-      "pct": 0.1,
+      "price": 10606.0,
+      "change": -30.71,
+      "pct": -0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Sep, 13:04"
+      "updated": "30 Sep, 18:37"
     }
   },
   "watchlist": {
@@ -488,8 +489,8 @@
       "name": "Larvotto Resources",
       "code": "LRV",
       "price": 1.09,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 1037527,
       "avg_volume": 2377762.52,
       "volume_surge": -56.37,
@@ -513,7 +514,7 @@
       "avg_volume": 1839905.96,
       "volume_surge": 18.77,
       "price_3d_start": 0.18,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         1719347,
         2131690,
@@ -586,16 +587,16 @@
       "change": -0.025,
       "pct": -2.78,
       "volume": 7813147,
-      "avg_volume": 16475142.35,
-      "volume_surge": -52.58,
+      "avg_volume": 16527257.96,
+      "volume_surge": -52.73,
       "price_3d_start": 0.94,
       "price_3d_jump": -6.91,
       "vol_3d_trend": [
         13842924,
         9316050,
-        7813147
+        9011806
       ],
-      "vol_3d_surge": -52.58,
+      "vol_3d_surge": -45.47,
       "vol_3d_sustained": false
     },
     "OBM": {
@@ -605,16 +606,16 @@
       "change": 0.01,
       "pct": 0.68,
       "volume": 7716944,
-      "avg_volume": 9803182.13,
+      "avg_volume": 9803269.09,
       "volume_surge": -21.28,
       "price_3d_start": 1.545,
       "price_3d_jump": -3.56,
       "vol_3d_trend": [
         7433762,
         7082251,
-        7716944
+        7718944
       ],
-      "vol_3d_surge": -21.28,
+      "vol_3d_surge": -21.26,
       "vol_3d_sustained": false
     },
     "DVP": {
@@ -1058,8 +1059,8 @@
       "name": "Native Mineral Resources",
       "code": "NMR",
       "price": 0.054,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 1879117,
       "avg_volume": 2458340.09,
       "volume_surge": -23.56,
@@ -1270,16 +1271,16 @@
       "change": -0.01,
       "pct": -0.26,
       "volume": 27863351,
-      "avg_volume": 25438696.26,
+      "avg_volume": 25438801.04,
       "volume_surge": 9.53,
       "price_3d_start": 3.84,
       "price_3d_jump": 0.52,
       "vol_3d_trend": [
         29322872,
         24428896,
-        27863351
+        27865761
       ],
-      "vol_3d_surge": 9.53,
+      "vol_3d_surge": 9.54,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1387,7 +1388,7 @@
       "avg_volume": 2899683.0,
       "volume_surge": -41.52,
       "price_3d_start": 0.18,
-      "price_3d_jump": -0.0,
+      "price_3d_jump": 0.0,
       "vol_3d_trend": [
         1733414,
         966321,
@@ -1419,8 +1420,8 @@
       "name": "King River Resources Ltd",
       "code": "KRR",
       "price": 0.079,
-      "change": -0.0,
-      "pct": -0.0,
+      "change": 0.0,
+      "pct": 0.0,
       "volume": 519507,
       "avg_volume": 1261570.3,
       "volume_surge": -58.82,
@@ -1484,6 +1485,13 @@
       "date": "30 Sep 2026"
     },
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Is Return To Profit Altering The Investment Case For Minerals 260 (ASX:MI6)?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "30 Sep 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
       "title": "3 Australian Penny Stocks With Revenue Up To A$3 Billion",
@@ -1512,6 +1520,13 @@
       "date": "30 Sep 2026"
     },
     {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre Limited Actuals & Estimates (ASX:CBE)",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "30 Sep 2026"
+    },
+    {
       "code": "LIN",
       "name": "Lindian Resources Ltd",
       "title": "How Is Lindian Resources Limited (ASX:LIN) Building a Rare Earths Supply Chain Platform Across the S&P/ASX 300 Materials Sector?",
@@ -1535,7 +1550,7 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Can Pro Medicus (ASX:PME) Keep Winning Big US Hospital Contracts?",
+      "title": "Pro Medicus Limited (ASX:PME): FY2026 Results Highlight Cloud Imaging Growth and Expanding Contract Pipeline",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "30 Sep 2026"
     },
@@ -1568,20 +1583,20 @@
       "date": "30 Sep 2026"
     }
   ],
-  "gold_change": 28.24,
-  "gold_pct": 0.68,
-  "silver_change": 0.274,
-  "silver_pct": -0.45,
-  "platinum_change": 29.7,
-  "platinum_pct": 1.77,
-  "palladium_change": 14.0,
-  "palladium_pct": 1.15,
-  "copper_change": 0.0417,
-  "copper_pct": 0.64,
-  "nickel_change": 3.0,
-  "nickel_pct": -0.02,
-  "zinc_change": 2.05,
-  "zinc_pct": -0.05,
+  "gold_change": 28.2,
+  "gold_pct": -0.67,
+  "silver_change": 1.212,
+  "silver_pct": -1.97,
+  "platinum_change": 18.2,
+  "platinum_pct": 1.08,
+  "palladium_change": 3.5,
+  "palladium_pct": -0.29,
+  "copper_change": 0.0102,
+  "copper_pct": 0.16,
+  "nickel_change": 65.0,
+  "nickel_pct": -0.41,
+  "zinc_change": 38.4,
+  "zinc_pct": -0.99,
   "lithium_change": 600.0,
   "lithium_pct": -0.49,
   "uranium_change": 0.2,
@@ -1846,8 +1861,8 @@
       "code": "MI6",
       "name": "Minerals 260",
       "volume": 7813147,
-      "avg_volume": 16475142.35,
-      "volume_surge": -52.58
+      "avg_volume": 16527257.96,
+      "volume_surge": -52.73
     },
     {
       "code": "AYA",
