@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4153.91,
-  "silver": 60.24,
-  "platinum": 1698.3,
-  "palladium": 1210.5,
-  "copper": 6.5537,
+  "gold": 4155.55,
+  "silver": 60.428,
+  "platinum": 1699.3,
+  "palladium": 1213.0,
+  "copper": 6.573,
   "nickel": 15920.0,
-  "zinc": 3826.8,
+  "zinc": 3826.5,
   "lithium": 122800.0,
-  "uranium": 89.5,
+  "uranium": 89.45,
   "cobalt": 39140.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "30 Sep 2026, 18:37",
+  "_last_updated": "30 Sep 2026, 22:40",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51145.31,
-      "change": -204.61,
-      "pct": -0.4,
+      "price": 50906.05,
+      "change": -443.87,
+      "pct": -0.86,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Sep, 18:37",
+      "updated": "30 Sep, 22:40",
       "hist": [
-        46397.89,
         46441.1,
         46519.72,
         46758.28,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51828.62,
         51481.51,
         51349.92,
-        51145.31
+        50906.05
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 27007.94,
-      "change": 210.4,
-      "pct": 0.79,
+      "price": 26861.06,
+      "change": 63.52,
+      "pct": 0.24,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Sep, 18:37"
+      "updated": "30 Sep, 22:40"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 109.6,
       "pct": 1.26,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Sep, 18:37"
+      "updated": "30 Sep, 22:40"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 108.2,
       "pct": 1.26,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Sep, 18:37"
+      "updated": "30 Sep, 22:40"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -30.71,
       "pct": -0.29,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Sep, 18:37"
+      "updated": "30 Sep, 22:40"
     }
   },
   "watchlist": {
@@ -1564,7 +1563,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "LTR",
       "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR) Board Approves $389M Kathleen Valley Expansion, Targeting 780,000 dmt/yr from FY30",
+      "title": "Liontown (ASX:LTR) Approves AUD 389 Million Kathleen Valley Lithium Expansion",
       "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "30 Sep 2026"
     },
@@ -1583,24 +1582,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "30 Sep 2026"
     }
   ],
-  "gold_change": 28.2,
-  "gold_pct": -0.67,
-  "silver_change": 1.212,
-  "silver_pct": -1.97,
-  "platinum_change": 18.2,
-  "platinum_pct": 1.08,
-  "palladium_change": 3.5,
-  "palladium_pct": -0.29,
-  "copper_change": 0.0102,
-  "copper_pct": 0.16,
+  "gold_change": 26.56,
+  "gold_pct": -0.64,
+  "silver_change": 1.024,
+  "silver_pct": -1.67,
+  "platinum_change": 19.2,
+  "platinum_pct": 1.14,
+  "palladium_change": 1.0,
+  "palladium_pct": -0.08,
+  "copper_change": 0.0295,
+  "copper_pct": 0.45,
   "nickel_change": 65.0,
   "nickel_pct": -0.41,
-  "zinc_change": 38.4,
-  "zinc_pct": -0.99,
+  "zinc_change": 38.7,
+  "zinc_pct": -1.0,
   "lithium_change": 600.0,
   "lithium_pct": -0.49,
-  "uranium_change": 0.2,
-  "uranium_pct": 0.22,
+  "uranium_change": 0.05,
+  "uranium_pct": -0.06,
   "cobalt_change": 500.0,
   "cobalt_pct": -1.26,
   "rareearth_change": 0.0,
