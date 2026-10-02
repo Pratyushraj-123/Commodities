@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4126.54,
-  "silver": 59.766,
-  "platinum": 1693.0,
-  "palladium": 1164.5,
-  "copper": 6.4868,
-  "nickel": 15556.0,
-  "zinc": 3694.5,
+  "gold": 4143.96,
+  "silver": 60.532,
+  "platinum": 1711.1,
+  "palladium": 1175.5,
+  "copper": 6.5318,
+  "nickel": 15530.0,
+  "zinc": 3698.35,
   "lithium": 122800.0,
   "uranium": 89.45,
   "cobalt": 39140.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Oct 2026, 15:58",
+  "_last_updated": "02 Oct 2026, 20:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51092.54,
-      "change": 165.98,
-      "pct": 0.33,
+      "price": 51176.96,
+      "change": 250.4,
+      "pct": 0.49,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Oct, 15:58",
+      "updated": "02 Oct, 20:19",
       "hist": [
-        46519.72,
         46758.28,
         46694.97,
         46602.98,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51349.92,
         50906.05,
         50926.56,
-        51092.54
+        51176.96
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 27188.31,
-      "change": 316.71,
-      "pct": 1.18,
+      "price": 27190.86,
+      "change": 319.27,
+      "pct": 1.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Oct, 15:58"
+      "updated": "02 Oct, 20:19"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.2,
       "pct": -1.22,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Oct, 15:58"
+      "updated": "02 Oct, 20:19"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -109.1,
       "pct": -1.25,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Oct, 15:58"
+      "updated": "02 Oct, 20:19"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.68,
       "pct": 0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Oct, 15:58"
+      "updated": "02 Oct, 20:19"
     }
   },
   "watchlist": {
@@ -587,16 +586,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.015,
       "pct": 1.76,
       "volume": 4947495,
-      "avg_volume": 15826460.04,
+      "avg_volume": 15828031.0,
       "volume_surge": -68.74,
       "price_3d_start": 0.9,
       "price_3d_jump": -3.89,
       "vol_3d_trend": [
         9011806,
         7948897,
-        4959959
+        4996091
       ],
-      "vol_3d_surge": -68.66,
+      "vol_3d_surge": -68.44,
       "vol_3d_sustained": false
     },
     "OBM": {
@@ -967,16 +966,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -0.002,
       "pct": -3.13,
       "volume": 11265217,
-      "avg_volume": 15315406.43,
+      "avg_volume": 15316649.04,
       "volume_surge": -26.45,
       "price_3d_start": 0.064,
       "price_3d_jump": -3.13,
       "vol_3d_trend": [
         6162261,
         24024884,
-        11265217
+        11293797
       ],
-      "vol_3d_surge": -26.45,
+      "vol_3d_surge": -26.26,
       "vol_3d_sustained": false
     },
     "BPM": {
@@ -1271,16 +1270,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.05,
       "pct": 1.37,
       "volume": 19739848,
-      "avg_volume": 24985262.22,
+      "avg_volume": 24985349.17,
       "volume_surge": -20.99,
       "price_3d_start": 3.87,
       "price_3d_jump": -4.39,
       "vol_3d_trend": [
         27865761,
         23414215,
-        20758880
+        20760880
       ],
-      "vol_3d_surge": -16.92,
+      "vol_3d_surge": -16.91,
       "vol_3d_sustained": false
     },
     "WC8": {
@@ -1485,6 +1484,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Oct 2026"
     },
     {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "title": "Black Canyon Limited Actuals & Estimates (ASX:BCA)",
+      "link": "https://www.marketindex.com.au/asx/bca/announcements",
+      "date": "02 Oct 2026"
+    },
+    {
       "code": "CBE",
       "name": "Cobre Ltd",
       "title": "Cobre Limited (ASX:CBE) Completion of A$90M Institutional Capital Raise",
@@ -1534,6 +1540,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Oct 2026"
     },
     {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Liontown (ASX:LTR) Has A Fresh Update, But What Are Investors Missing?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "02 Oct 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "How Investors Are Reacting To Pilbara Minerals (ASX:PLS) Pilgangoora Expansion Continues",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "02 Oct 2026"
+    },
+    {
       "code": "KAN",
       "name": "Kantra Copper Ltd",
       "title": "KAN dives deeper as Nugent delivers 70m hit",
@@ -1541,20 +1561,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "02 Oct 2026"
     }
   ],
-  "gold_change": 51.4,
-  "gold_pct": -1.23,
-  "silver_change": 0.734,
-  "silver_pct": -1.21,
-  "platinum_change": 29.8,
-  "platinum_pct": -1.73,
-  "palladium_change": 15.5,
-  "palladium_pct": -1.31,
-  "copper_change": 0.0048,
-  "copper_pct": 0.07,
-  "nickel_change": 54.0,
-  "nickel_pct": -0.35,
-  "zinc_change": 32.23,
-  "zinc_pct": -0.86,
+  "gold_change": 33.98,
+  "gold_pct": -0.81,
+  "silver_change": 0.032,
+  "silver_pct": 0.05,
+  "platinum_change": 11.7,
+  "platinum_pct": -0.68,
+  "palladium_change": 4.5,
+  "palladium_pct": -0.38,
+  "copper_change": 0.0498,
+  "copper_pct": 0.77,
+  "nickel_change": 80.0,
+  "nickel_pct": -0.51,
+  "zinc_change": 28.38,
+  "zinc_pct": -0.76,
   "lithium_change": 600.0,
   "lithium_pct": -0.49,
   "uranium_change": 0.0,
@@ -1742,7 +1762,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MI6",
       "name": "Minerals 260",
       "volume": 4947495,
-      "avg_volume": 15826460.04,
+      "avg_volume": 15828031.0,
       "volume_surge": -68.74
     },
     {
