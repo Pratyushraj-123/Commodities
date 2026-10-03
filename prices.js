@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4143.96,
-  "silver": 60.532,
-  "platinum": 1711.1,
-  "palladium": 1175.5,
-  "copper": 6.5318,
+  "gold": 4140.19,
+  "silver": 60.365,
+  "platinum": 1706.8,
+  "palladium": 1173.0,
+  "copper": 6.5305,
   "nickel": 15530.0,
   "zinc": 3698.35,
   "lithium": 122800.0,
-  "uranium": 89.45,
+  "uranium": 89.95,
   "cobalt": 39140.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "02 Oct 2026, 20:19",
+  "_last_updated": "03 Oct 2026, 00:01",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 250.4,
       "pct": 0.49,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Oct, 20:19",
+      "updated": "03 Oct, 00:01",
       "hist": [
         46758.28,
         46694.97,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 319.27,
       "pct": 1.19,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "02 Oct, 20:19"
+      "updated": "03 Oct, 00:01"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -107.2,
       "pct": -1.22,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Oct, 20:19"
+      "updated": "03 Oct, 00:01"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -109.1,
       "pct": -1.25,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "02 Oct, 20:19"
+      "updated": "03 Oct, 00:01"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 33.68,
       "pct": 0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "02 Oct, 20:19"
+      "updated": "03 Oct, 00:01"
     }
   },
   "watchlist": {
@@ -1456,129 +1456,45 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
-      "code": "MM1",
-      "name": "Midas Minerals",
-      "title": "Midas Minerals (ASX:MM1) - analisi del titolo",
-      "link": "https://www.marketindex.com.au/asx/mm1/announcements",
-      "date": "02 Oct 2026"
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Forrestania Resources Limited (ASX: FRS) - Dividends",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "03 Oct 2026"
     },
     {
-      "code": "TGN",
-      "name": "Tungsten Mining",
-      "title": "Tungsten Mining NL (ASX:TGN)",
-      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
-      "date": "02 Oct 2026"
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals Limited (ASX: CYL) - Announcements",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "03 Oct 2026"
     },
     {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Ora Banda Mining Ltd (ASX: OBM) - Financials",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "BGD",
-      "name": "Barton Gold Holdings",
-      "title": "Barton Gold Granted New Tunkillia Gold Project Tenement",
-      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "title": "Black Canyon Limited Actuals & Estimates (ASX:BCA)",
-      "link": "https://www.marketindex.com.au/asx/bca/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "CBE",
-      "name": "Cobre Ltd",
-      "title": "Cobre Limited (ASX:CBE) Completion of A$90M Institutional Capital Raise",
-      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "FML",
-      "name": "Focus Minerals",
-      "title": "Focus Minerals (ASX: FML) Soars 180% on Profit Breakthrough and Surging Gold Prices",
-      "link": "https://www.marketindex.com.au/asx/fml/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "LSA",
-      "name": "Lachlan Star Ltd",
-      "title": "Lachlan Star Ltd (ASX:LSA) Climbs 4.55% as New Waverley Gold Drilling And Nsw Exploration Remains in Focus",
-      "link": "https://www.marketindex.com.au/asx/lsa/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical Ltd (ASX:4DX) Is Drawing Investor Attention \u2014 Here\u2019s Why",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Why Pro Medicus Ltd (ASX:PME) Has Caught Investors\u2019 Attention",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Why Investors Are Keeping An Eye On Neuren Pharmaceuticals Ltd (ASX:NEU)",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "AYA",
-      "name": "ARTRYA Ltd",
-      "title": "Artrya (ASX:AYA) Signs Five-Year Salix Agreement With Huntsville Hospital Health System",
-      "link": "https://www.marketindex.com.au/asx/aya/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown (ASX:LTR) Has A Fresh Update, But What Are Investors Missing?",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "How Investors Are Reacting To Pilbara Minerals (ASX:PLS) Pilgangoora Expansion Continues",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "02 Oct 2026"
-    },
-    {
-      "code": "KAN",
-      "name": "Kantra Copper Ltd",
-      "title": "KAN dives deeper as Nugent delivers 70m hit",
-      "link": "https://www.marketindex.com.au/asx/kan/announcements",
-      "date": "02 Oct 2026"
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Cyprium Metals Limited (ASX: CYM) - Announcements",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
+      "date": "03 Oct 2026"
     }
   ],
-  "gold_change": 33.98,
-  "gold_pct": -0.81,
-  "silver_change": 0.032,
-  "silver_pct": 0.05,
-  "platinum_change": 11.7,
-  "platinum_pct": -0.68,
-  "palladium_change": 4.5,
-  "palladium_pct": -0.38,
-  "copper_change": 0.0498,
-  "copper_pct": 0.77,
+  "gold_change": 37.75,
+  "gold_pct": -0.9,
+  "silver_change": 0.135,
+  "silver_pct": -0.22,
+  "platinum_change": 16.0,
+  "platinum_pct": -0.93,
+  "palladium_change": 7.0,
+  "palladium_pct": -0.59,
+  "copper_change": 0.0485,
+  "copper_pct": 0.75,
   "nickel_change": 80.0,
   "nickel_pct": -0.51,
   "zinc_change": 28.38,
   "zinc_pct": -0.76,
   "lithium_change": 600.0,
   "lithium_pct": -0.49,
-  "uranium_change": 0.0,
-  "uranium_pct": 0.0,
+  "uranium_change": 0.5,
+  "uranium_pct": 0.56,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
