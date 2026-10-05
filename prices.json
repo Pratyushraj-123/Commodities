@@ -1,10 +1,10 @@
 {
-  "gold": 4129.41,
-  "silver": 60.969,
-  "platinum": 1722.1,
-  "palladium": 1176.0,
-  "copper": 6.5848,
-  "nickel": 15685.0,
+  "gold": 4140.56,
+  "silver": 61.146,
+  "platinum": 1731.9,
+  "palladium": 1181.0,
+  "copper": 6.5893,
+  "nickel": 15645.0,
   "zinc": 3742.3,
   "lithium": 122800.0,
   "uranium": 89.95,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "05 Oct 2026, 22:07",
+  "_last_updated": "05 Oct 2026, 18:52",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51251.92,
-      "change": 74.96,
-      "pct": 0.15,
+      "price": 51326.29,
+      "change": 149.33,
+      "pct": 0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Oct, 22:07",
+      "updated": "05 Oct, 18:52",
       "hist": [
         46694.97,
         46602.98,
@@ -276,16 +276,16 @@
         50906.05,
         50926.56,
         51176.96,
-        51251.92
+        51326.29
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 27413.92,
-      "change": 223.06,
-      "pct": 0.82,
+      "price": 27489.92,
+      "change": 299.06,
+      "pct": 1.1,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "05 Oct, 22:07"
+      "updated": "05 Oct, 18:52"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 4.3,
       "pct": 0.05,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Oct, 22:07"
+      "updated": "05 Oct, 18:52"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@
       "change": 4.2,
       "pct": 0.05,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "05 Oct, 22:07"
+      "updated": "05 Oct, 18:52"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@
       "change": 35.99,
       "pct": 0.34,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "05 Oct, 22:07"
+      "updated": "05 Oct, 18:52"
     }
   },
   "watchlist": {
@@ -1270,13 +1270,13 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 7917683,
-      "avg_volume": 23744948.09,
+      "avg_volume": 23750091.41,
       "volume_surge": -66.66,
       "price_3d_start": 3.65,
       "price_3d_jump": 1.92,
       "vol_3d_trend": [
         20760880,
-        7958723,
+        8071876,
         7917683
       ],
       "vol_3d_surge": -66.66,
@@ -1662,18 +1662,18 @@
       "date": "05 Oct 2026"
     }
   ],
-  "gold_change": 10.78,
-  "gold_pct": -0.26,
-  "silver_change": 0.604,
-  "silver_pct": 1.0,
-  "platinum_change": 22.1,
-  "platinum_pct": 1.3,
-  "palladium_change": 3.5,
-  "palladium_pct": 0.3,
-  "copper_change": 0.0928,
-  "copper_pct": 1.43,
-  "nickel_change": 155.0,
-  "nickel_pct": 1.0,
+  "gold_change": 0.37,
+  "gold_pct": 0.01,
+  "silver_change": 0.781,
+  "silver_pct": 1.29,
+  "platinum_change": 31.9,
+  "platinum_pct": 1.88,
+  "palladium_change": 8.5,
+  "palladium_pct": 0.72,
+  "copper_change": 0.0973,
+  "copper_pct": 1.5,
+  "nickel_change": 115.0,
+  "nickel_pct": 0.74,
   "zinc_change": 43.95,
   "zinc_pct": 1.19,
   "lithium_change": 600.0,
@@ -1877,7 +1877,7 @@
       "code": "PLS",
       "name": "PLS Group Ltd",
       "volume": 7917683,
-      "avg_volume": 23744948.09,
+      "avg_volume": 23750091.41,
       "volume_surge": -66.66
     },
     {
