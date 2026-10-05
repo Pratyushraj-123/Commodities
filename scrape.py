@@ -80,7 +80,7 @@ SELECTED_ASX_COMPANIES = {
     # Newly Added
     "KLI": "Killi Resources Ltd", "OMA": "Omega Oil & Gas Ltd", "KAO": "Kaoko Metals Ltd",
     "AAR": "Astral Resources NL", "KAN": "Kantra Copper Ltd", "KRR": "King River Resources Ltd",
-    "BTR": "Brightstar Resources Ltd"
+    "BTR": "Brightstar Resources Ltd", "MLX": "Metals X Ltd", "EMR": "Emerald Resources NL"
 }
 
 def load_stored_prices():
