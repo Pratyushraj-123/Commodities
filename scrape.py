@@ -78,9 +78,10 @@ SELECTED_ASX_COMPANIES = {
     "WC8": "Wildcat Resources Ltd", "POD": "Podium Minerals",
     
     # Newly Added
-    "KLI": "Killi Resources Ltd", "OMA": "Omega Oil & Gas Ltd", "KAO": "Kaoko Metals Ltd",
+    "KLI": "Killi Resources Ltd", "OMA": "Omega Oil & Gas Ltd",
     "AAR": "Astral Resources NL", "KAN": "Kantra Copper Ltd", "KRR": "King River Resources Ltd",
-    "BTR": "Brightstar Resources Ltd", "MLX": "Metals X Ltd", "EMR": "Emerald Resources NL"
+    "BTR": "Brightstar Resources Ltd", "MLX": "Metals X Ltd", "EMR": "Emerald Resources NL",
+    "SRL": "Sunrise Energy Metals Ltd", "MEK": "Meeka Metals Ltd", "GHM": "Golden Horse Minerals Ltd"
 }
 
 def load_stored_prices():
