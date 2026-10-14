@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4100.81,
-  "silver": 55.584,
-  "platinum": 1609.4,
-  "palladium": 1097.5,
-  "copper": 6.554,
+  "gold": 4107.71,
+  "silver": 55.653,
+  "platinum": 1606.5,
+  "palladium": 1098.5,
+  "copper": 6.5627,
   "nickel": 15530.0,
   "zinc": 3720.8,
   "lithium": 108250.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Oct 2026, 19:44",
+  "_last_updated": "14 Oct 2026, 22:43",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51553.33,
-      "change": -116.77,
-      "pct": -0.23,
+      "price": 51621.48,
+      "change": -48.62,
+      "pct": -0.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Oct, 19:44",
+      "updated": "14 Oct, 22:43",
       "hist": [
-        46270.46,
         46253.31,
         45952.24,
         46190.61,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51654.95,
         51850.55,
         51670.1,
-        51554.2
+        51621.48
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26688.19,
-      "change": -516.19,
-      "pct": -1.9,
+      "price": 26692.87,
+      "change": -511.51,
+      "pct": -1.88,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Oct, 19:44"
+      "updated": "14 Oct, 22:43"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -55.3,
       "pct": -0.63,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Oct, 19:44"
+      "updated": "14 Oct, 22:43"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -61.2,
       "pct": -0.7,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Oct, 19:44"
+      "updated": "14 Oct, 22:43"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 74.53,
       "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Oct, 19:44"
+      "updated": "14 Oct, 22:43"
     }
   },
   "watchlist": {
@@ -1563,7 +1562,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "BGD",
       "name": "Barton Gold Holdings",
-      "title": "What Did the Final Phase 2 Assays Show at Barton Gold's (ASX:BGD) Tunkillia Gold Project?",
+      "title": "Barton Gold Holdings Limited's (ASX:BGD) Shift From Loss To Profit",
       "link": "https://www.marketindex.com.au/asx/bgd/announcements",
       "date": "14 Oct 2026"
     },
@@ -1673,16 +1672,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Oct 2026"
     }
   ],
-  "gold_change": 60.7,
-  "gold_pct": -1.46,
-  "silver_change": 3.586,
-  "silver_pct": -6.06,
-  "platinum_change": 61.8,
-  "platinum_pct": -3.7,
-  "palladium_change": 30.0,
-  "palladium_pct": -2.66,
-  "copper_change": 0.124,
-  "copper_pct": -1.86,
+  "gold_change": 53.8,
+  "gold_pct": -1.29,
+  "silver_change": 3.517,
+  "silver_pct": -5.94,
+  "platinum_change": 64.7,
+  "platinum_pct": -3.87,
+  "palladium_change": 29.0,
+  "palladium_pct": -2.57,
+  "copper_change": 0.1153,
+  "copper_pct": -1.73,
   "nickel_change": 5.0,
   "nickel_pct": -0.03,
   "zinc_change": 3.75,
