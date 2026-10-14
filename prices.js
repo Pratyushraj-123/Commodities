@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4090.83,
-  "silver": 56.138,
-  "platinum": 1618.6,
-  "palladium": 1101.0,
-  "copper": 6.6198,
-  "nickel": 15525.0,
-  "zinc": 3724.45,
+  "gold": 4100.81,
+  "silver": 55.584,
+  "platinum": 1609.4,
+  "palladium": 1097.5,
+  "copper": 6.554,
+  "nickel": 15530.0,
+  "zinc": 3720.8,
   "lithium": 108250.0,
   "uranium": 90.0,
   "cobalt": 39345.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "14 Oct 2026, 15:33",
+  "_last_updated": "14 Oct 2026, 19:44",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51652.87,
-      "change": -17.23,
-      "pct": -0.03,
+      "price": 51553.33,
+      "change": -116.77,
+      "pct": -0.23,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Oct, 15:33",
+      "updated": "14 Oct, 19:44",
       "hist": [
         46270.46,
         46253.31,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         51654.95,
         51850.55,
         51670.1,
-        51654.14
+        51554.2
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26884.51,
-      "change": -319.87,
-      "pct": -1.18,
+      "price": 26688.19,
+      "change": -516.19,
+      "pct": -1.9,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "14 Oct, 15:33"
+      "updated": "14 Oct, 19:44"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -55.3,
       "pct": -0.63,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Oct, 15:33"
+      "updated": "14 Oct, 19:44"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -61.2,
       "pct": -0.7,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "14 Oct, 15:33"
+      "updated": "14 Oct, 19:44"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10721.69,
-      "change": 71.36,
-      "pct": 0.67,
+      "price": 10724.86,
+      "change": 74.53,
+      "pct": 0.7,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "14 Oct, 15:33"
+      "updated": "14 Oct, 19:44"
     }
   },
   "watchlist": {
@@ -320,18 +320,18 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.9,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 553044,
-      "avg_volume": 227946.75,
-      "volume_surge": 142.62,
+      "volume": 553361,
+      "avg_volume": 227959.96,
+      "volume_surge": 142.74,
       "price_3d_start": 0.99,
       "price_3d_jump": -9.09,
       "vol_3d_trend": [
         126931,
         553361,
-        553044
+        553361
       ],
-      "vol_3d_surge": 142.62,
-      "vol_3d_sustained": false
+      "vol_3d_surge": 142.74,
+      "vol_3d_sustained": true
     },
     "TM1": {
       "name": "Terra Metals",
@@ -339,18 +339,18 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.165,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 5982756,
-      "avg_volume": 1650159.08,
-      "volume_surge": 262.56,
+      "volume": 6273322,
+      "avg_volume": 1662266.0,
+      "volume_surge": 277.4,
       "price_3d_start": 0.195,
       "price_3d_jump": -15.38,
       "vol_3d_trend": [
         0,
         6273322,
-        5982756
+        6273322
       ],
-      "vol_3d_surge": 262.56,
-      "vol_3d_sustained": false
+      "vol_3d_surge": 277.4,
+      "vol_3d_sustained": true
     },
     "FRS": {
       "name": "Forrestania Resources",
@@ -415,15 +415,15 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 3.05,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 37680,
-      "avg_volume": 40106.0,
+      "volume": 37679,
+      "avg_volume": 40105.96,
       "volume_surge": -6.05,
       "price_3d_start": 3.05,
       "price_3d_jump": 0.0,
       "vol_3d_trend": [
         15778,
         37680,
-        37680
+        37679
       ],
       "vol_3d_surge": -6.05,
       "vol_3d_sustained": false
@@ -434,18 +434,18 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 2.41,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1192931,
-      "avg_volume": 888705.96,
-      "volume_surge": 34.23,
+      "volume": 1186203,
+      "avg_volume": 888425.62,
+      "volume_surge": 33.52,
       "price_3d_start": 2.67,
       "price_3d_jump": -9.74,
       "vol_3d_trend": [
         708444,
         1192931,
-        1192931
+        1186203
       ],
-      "vol_3d_surge": 34.23,
-      "vol_3d_sustained": true
+      "vol_3d_surge": 33.52,
+      "vol_3d_sustained": false
     },
     "MM8": {
       "name": "Medallion Metals",
@@ -472,17 +472,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.765,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 2230104,
-      "avg_volume": 1852332.88,
-      "volume_surge": 20.39,
+      "volume": 2222951,
+      "avg_volume": 1852034.83,
+      "volume_surge": 20.03,
       "price_3d_start": 0.735,
       "price_3d_jump": 4.08,
       "vol_3d_trend": [
         2612087,
         2248932,
-        2230104
+        2222951
       ],
-      "vol_3d_surge": 20.39,
+      "vol_3d_surge": 20.03,
       "vol_3d_sustained": false
     },
     "LRV": {
@@ -510,17 +510,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.165,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1727052,
-      "avg_volume": 2158756.46,
-      "volume_surge": -20.0,
+      "volume": 1675194,
+      "avg_volume": 2156595.71,
+      "volume_surge": -22.32,
       "price_3d_start": 0.175,
       "price_3d_jump": -5.71,
       "vol_3d_trend": [
         2909095,
         1727052,
-        1727052
+        1675194
       ],
-      "vol_3d_surge": -20.0,
+      "vol_3d_surge": -22.32,
       "vol_3d_sustained": false
     },
     "TGN": {
@@ -529,17 +529,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.21,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 4601714,
-      "avg_volume": 6243763.21,
-      "volume_surge": -26.3,
+      "volume": 4578929,
+      "avg_volume": 6242813.83,
+      "volume_surge": -26.65,
       "price_3d_start": 0.22,
       "price_3d_jump": -4.55,
       "vol_3d_trend": [
         4634134,
         4601714,
-        4601714
+        4578929
       ],
-      "vol_3d_surge": -26.3,
+      "vol_3d_surge": -26.65,
       "vol_3d_sustained": false
     },
     "EQR": {
@@ -587,13 +587,13 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 7310487,
-      "avg_volume": 15865560.83,
+      "avg_volume": 15865713.96,
       "volume_surge": -53.92,
       "price_3d_start": 0.83,
       "price_3d_jump": -1.81,
       "vol_3d_trend": [
         25519590,
-        7310487,
+        7314162,
         7310487
       ],
       "vol_3d_surge": -53.92,
@@ -606,16 +606,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 4929081,
-      "avg_volume": 5836987.33,
-      "volume_surge": -15.55,
+      "avg_volume": 5985320.67,
+      "volume_surge": -17.65,
       "price_3d_start": 1.44,
       "price_3d_jump": -5.21,
       "vol_3d_trend": [
         5687154,
-        4929081,
+        8489081,
         4929081
       ],
-      "vol_3d_surge": -15.55,
+      "vol_3d_surge": -17.65,
       "vol_3d_sustained": false
     },
     "DVP": {
@@ -624,17 +624,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 4.09,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1282030,
-      "avg_volume": 1326877.04,
-      "volume_surge": -3.38,
+      "volume": 1287369,
+      "avg_volume": 1327099.5,
+      "volume_surge": -2.99,
       "price_3d_start": 4.33,
       "price_3d_jump": -5.54,
       "vol_3d_trend": [
         1381826,
         1294026,
-        1282030
+        1287369
       ],
-      "vol_3d_surge": -3.38,
+      "vol_3d_surge": -2.99,
       "vol_3d_sustained": false
     },
     "CYL": {
@@ -662,17 +662,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.785,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 106328,
-      "avg_volume": 185334.42,
-      "volume_surge": -42.63,
+      "volume": 106180,
+      "avg_volume": 185328.25,
+      "volume_surge": -42.71,
       "price_3d_start": 1.68,
       "price_3d_jump": 6.25,
       "vol_3d_trend": [
         40099,
         107425,
-        106328
+        106180
       ],
-      "vol_3d_surge": -42.63,
+      "vol_3d_surge": -42.71,
       "vol_3d_sustained": false
     },
     "BGD": {
@@ -700,18 +700,18 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.445,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 2173712,
-      "avg_volume": 1093284.38,
-      "volume_surge": 98.82,
+      "volume": 2178412,
+      "avg_volume": 1093480.21,
+      "volume_surge": 99.22,
       "price_3d_start": 0.465,
       "price_3d_jump": -4.3,
       "vol_3d_trend": [
         694396,
         2178412,
-        2173712
+        2178412
       ],
-      "vol_3d_surge": 98.82,
-      "vol_3d_sustained": false
+      "vol_3d_surge": 99.22,
+      "vol_3d_sustained": true
     },
     "MKR": {
       "name": "Manuka Resources",
@@ -890,17 +890,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.645,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 2298071,
-      "avg_volume": 3036201.67,
-      "volume_surge": -24.31,
+      "volume": 2413724,
+      "avg_volume": 3041020.54,
+      "volume_surge": -20.63,
       "price_3d_start": 0.665,
       "price_3d_jump": -3.01,
       "vol_3d_trend": [
         2321769,
         2413724,
-        2298071
+        2413724
       ],
-      "vol_3d_surge": -24.31,
+      "vol_3d_surge": -20.63,
       "vol_3d_sustained": false
     },
     "BM1": {
@@ -1023,17 +1023,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.745,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 119143,
-      "avg_volume": 206738.71,
-      "volume_surge": -42.37,
+      "volume": 120240,
+      "avg_volume": 206784.42,
+      "volume_surge": -41.85,
       "price_3d_start": 1.8,
       "price_3d_jump": -3.06,
       "vol_3d_trend": [
         123157,
         120240,
-        119143
+        120240
       ],
-      "vol_3d_surge": -42.37,
+      "vol_3d_surge": -41.85,
       "vol_3d_sustained": false
     },
     "TTM": {
@@ -1042,17 +1042,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.525,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 178349,
-      "avg_volume": 358223.79,
-      "volume_surge": -50.21,
+      "volume": 177622,
+      "avg_volume": 358193.5,
+      "volume_surge": -50.41,
       "price_3d_start": 0.515,
       "price_3d_jump": 1.94,
       "vol_3d_trend": [
         518150,
         178349,
-        178349
+        177622
       ],
-      "vol_3d_surge": -50.21,
+      "vol_3d_surge": -50.41,
       "vol_3d_sustained": false
     },
     "NMR": {
@@ -1119,16 +1119,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 1917989,
-      "avg_volume": 1829433.88,
-      "volume_surge": 4.84,
+      "avg_volume": 1831156.75,
+      "volume_surge": 4.74,
       "price_3d_start": 19.68,
       "price_3d_jump": -11.64,
       "vol_3d_trend": [
         2808762,
-        1917989,
+        1959338,
         1917989
       ],
-      "vol_3d_surge": 4.84,
+      "vol_3d_surge": 4.74,
       "vol_3d_sustained": false
     },
     "EDU": {
@@ -1137,17 +1137,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.78,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 1633770,
-      "avg_volume": 348427.04,
-      "volume_surge": 368.9,
+      "volume": 1648738,
+      "avg_volume": 349050.71,
+      "volume_surge": 372.35,
       "price_3d_start": 0.975,
       "price_3d_jump": -20.0,
       "vol_3d_trend": [
         338991,
         1665304,
-        1633770
+        1648738
       ],
-      "vol_3d_surge": 368.9,
+      "vol_3d_surge": 372.35,
       "vol_3d_sustained": false
     },
     "GNP": {
@@ -1156,17 +1156,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 9.36,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 722542,
-      "avg_volume": 1153725.5,
-      "volume_surge": -37.37,
+      "volume": 719010,
+      "avg_volume": 1153578.33,
+      "volume_surge": -37.67,
       "price_3d_start": 9.29,
       "price_3d_jump": 0.75,
       "vol_3d_trend": [
         632718,
         722542,
-        722542
+        719010
       ],
-      "vol_3d_surge": -37.37,
+      "vol_3d_surge": -37.67,
       "vol_3d_sustained": false
     },
     "4DX": {
@@ -1175,15 +1175,15 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 3.8,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 3455996,
-      "avg_volume": 3972607.5,
+      "volume": 3455981,
+      "avg_volume": 3972606.88,
       "volume_surge": -13.0,
       "price_3d_start": 4.22,
       "price_3d_jump": -9.95,
       "vol_3d_trend": [
         4265955,
         3455996,
-        3455996
+        3455981
       ],
       "vol_3d_surge": -13.0,
       "vol_3d_sustained": false
@@ -1195,13 +1195,13 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 204175,
-      "avg_volume": 167220.54,
+      "avg_volume": 167222.29,
       "volume_surge": 22.1,
       "price_3d_start": 168.37,
       "price_3d_jump": -2.65,
       "vol_3d_trend": [
         170431,
-        204175,
+        204217,
         204175
       ],
       "vol_3d_surge": 22.1,
@@ -1214,17 +1214,17 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 441600,
-      "avg_volume": 338914.25,
-      "volume_surge": 30.3,
+      "avg_volume": 338923.42,
+      "volume_surge": 30.29,
       "price_3d_start": 20.21,
       "price_3d_jump": -4.01,
       "vol_3d_trend": [
         309518,
-        441600,
+        441820,
         441600
       ],
-      "vol_3d_surge": 30.3,
-      "vol_3d_sustained": true
+      "vol_3d_surge": 30.29,
+      "vol_3d_sustained": false
     },
     "AYA": {
       "name": "ARTRYA Ltd",
@@ -1271,17 +1271,17 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 45549324,
-      "avg_volume": 30170173.33,
+      "avg_volume": 30170220.88,
       "volume_surge": 50.97,
       "price_3d_start": 3.37,
       "price_3d_jump": -5.93,
       "vol_3d_trend": [
         68350851,
-        45549324,
+        45550465,
         45549324
       ],
       "vol_3d_surge": 50.97,
-      "vol_3d_sustained": true
+      "vol_3d_sustained": false
     },
     "WC8": {
       "name": "Wildcat Resources Ltd",
@@ -1365,17 +1365,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.155,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 5576840,
-      "avg_volume": 2327471.96,
-      "volume_surge": 139.61,
+      "volume": 5379474,
+      "avg_volume": 2319248.38,
+      "volume_surge": 131.95,
       "price_3d_start": 0.17,
       "price_3d_jump": -8.82,
       "vol_3d_trend": [
         2698146,
         5683691,
-        5576840
+        5379474
       ],
-      "vol_3d_surge": 139.61,
+      "vol_3d_surge": 131.95,
       "vol_3d_sustained": false
     },
     "KAN": {
@@ -1422,17 +1422,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.69,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 2935745,
-      "avg_volume": 9728697.04,
-      "volume_surge": -69.82,
+      "volume": 3026062,
+      "avg_volume": 9732460.25,
+      "volume_surge": -68.91,
       "price_3d_start": 0.675,
       "price_3d_jump": 2.22,
       "vol_3d_trend": [
         4656177,
         3026062,
-        2935745
+        3026062
       ],
-      "vol_3d_surge": -69.82,
+      "vol_3d_surge": -68.91,
       "vol_3d_sustained": false
     },
     "MLX": {
@@ -1441,17 +1441,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 1.845,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 2387448,
-      "avg_volume": 2978537.71,
-      "volume_surge": -19.84,
+      "volume": 2431739,
+      "avg_volume": 2980383.17,
+      "volume_surge": -18.41,
       "price_3d_start": 2.03,
       "price_3d_jump": -9.11,
       "vol_3d_trend": [
         1899260,
         2431739,
-        2387448
+        2431739
       ],
-      "vol_3d_surge": -19.84,
+      "vol_3d_surge": -18.41,
       "vol_3d_sustained": false
     },
     "EMR": {
@@ -1460,17 +1460,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 6.48,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 920261,
-      "avg_volume": 1355235.33,
-      "volume_surge": -32.1,
+      "volume": 913216,
+      "avg_volume": 1354941.79,
+      "volume_surge": -32.6,
       "price_3d_start": 6.76,
       "price_3d_jump": -4.14,
       "vol_3d_trend": [
         764853,
         941388,
-        920261
+        913216
       ],
-      "vol_3d_surge": -32.1,
+      "vol_3d_surge": -32.6,
       "vol_3d_sustained": false
     },
     "SRL": {
@@ -1479,17 +1479,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 15.57,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 560872,
-      "avg_volume": 973841.58,
-      "volume_surge": -42.41,
+      "volume": 557567,
+      "avg_volume": 973711.75,
+      "volume_surge": -42.74,
       "price_3d_start": 17.35,
       "price_3d_jump": -10.26,
       "vol_3d_trend": [
         1667616,
-        560968,
-        560872
+        561157,
+        557567
       ],
-      "vol_3d_surge": -42.41,
+      "vol_3d_surge": -42.74,
       "vol_3d_sustained": false
     },
     "MEK": {
@@ -1498,17 +1498,17 @@ window.LIVE_COMMODITY_PRICES = {
       "price": 0.084,
       "change": 0.0,
       "pct": 0.0,
-      "volume": 18041874,
-      "avg_volume": 28684359.83,
-      "volume_surge": -37.1,
+      "volume": 17798036,
+      "avg_volume": 28780358.62,
+      "volume_surge": -38.16,
       "price_3d_start": 0.087,
       "price_3d_jump": -3.45,
       "vol_3d_trend": [
         20248821,
-        18041874,
-        18041874
+        20589683,
+        17798036
       ],
-      "vol_3d_surge": -37.1,
+      "vol_3d_surge": -38.16,
       "vol_3d_sustained": false
     },
     "GHM": {
@@ -1673,20 +1673,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "14 Oct 2026"
     }
   ],
-  "gold_change": 70.68,
-  "gold_pct": -1.7,
-  "silver_change": 3.032,
-  "silver_pct": -5.12,
-  "platinum_change": 52.6,
-  "platinum_pct": -3.15,
-  "palladium_change": 26.5,
-  "palladium_pct": -2.35,
-  "copper_change": 0.0582,
-  "copper_pct": -0.87,
-  "nickel_change": 10.0,
-  "nickel_pct": -0.07,
-  "zinc_change": 0.1,
-  "zinc_pct": 0.0,
+  "gold_change": 60.7,
+  "gold_pct": -1.46,
+  "silver_change": 3.586,
+  "silver_pct": -6.06,
+  "platinum_change": 61.8,
+  "platinum_pct": -3.7,
+  "palladium_change": 30.0,
+  "palladium_pct": -2.66,
+  "copper_change": 0.124,
+  "copper_pct": -1.86,
+  "nickel_change": 5.0,
+  "nickel_pct": -0.03,
+  "zinc_change": 3.75,
+  "zinc_pct": -0.1,
   "lithium_change": 3400.0,
   "lithium_pct": -3.05,
   "uranium_change": 0.0,
@@ -1701,16 +1701,16 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EDU",
       "name": "EDU Holdings Ltd",
-      "volume": 1633770,
-      "avg_volume": 348427.04,
-      "volume_surge": 368.9
+      "volume": 1648738,
+      "avg_volume": 349050.71,
+      "volume_surge": 372.35
     },
     {
       "code": "TM1",
       "name": "Terra Metals",
-      "volume": 5982756,
-      "avg_volume": 1650159.08,
-      "volume_surge": 262.56
+      "volume": 6273322,
+      "avg_volume": 1662266.0,
+      "volume_surge": 277.4
     },
     {
       "code": "BMR",
@@ -1729,16 +1729,16 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PC2",
       "name": "PC Gold",
-      "volume": 553044,
-      "avg_volume": 227946.75,
-      "volume_surge": 142.62
+      "volume": 553361,
+      "avg_volume": 227959.96,
+      "volume_surge": 142.74
     },
     {
       "code": "AAR",
       "name": "Astral Resources NL",
-      "volume": 5576840,
-      "avg_volume": 2327471.96,
-      "volume_surge": 139.61
+      "volume": 5379474,
+      "avg_volume": 2319248.38,
+      "volume_surge": 131.95
     },
     {
       "code": "MM1",
@@ -1750,9 +1750,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "STN",
       "name": "Saturn Metals Ltd",
-      "volume": 2173712,
-      "avg_volume": 1093284.38,
-      "volume_surge": 98.82
+      "volume": 2178412,
+      "avg_volume": 1093480.21,
+      "volume_surge": 99.22
     },
     {
       "code": "WC8",
@@ -1786,7 +1786,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "PLS",
       "name": "PLS Group Ltd",
       "volume": 45549324,
-      "avg_volume": 30170173.33,
+      "avg_volume": 30170220.88,
       "volume_surge": 50.97
     }
   ],
@@ -1794,16 +1794,16 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "EDU",
       "name": "EDU Holdings Ltd",
-      "volume": 1633770,
-      "avg_volume": 348427.04,
-      "volume_surge": 368.9
+      "volume": 1648738,
+      "avg_volume": 349050.71,
+      "volume_surge": 372.35
     },
     {
       "code": "TM1",
       "name": "Terra Metals",
-      "volume": 5982756,
-      "avg_volume": 1650159.08,
-      "volume_surge": 262.56
+      "volume": 6273322,
+      "avg_volume": 1662266.0,
+      "volume_surge": 277.4
     },
     {
       "code": "BMR",
@@ -1822,16 +1822,16 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PC2",
       "name": "PC Gold",
-      "volume": 553044,
-      "avg_volume": 227946.75,
-      "volume_surge": 142.62
+      "volume": 553361,
+      "avg_volume": 227959.96,
+      "volume_surge": 142.74
     },
     {
       "code": "AAR",
       "name": "Astral Resources NL",
-      "volume": 5576840,
-      "avg_volume": 2327471.96,
-      "volume_surge": 139.61
+      "volume": 5379474,
+      "avg_volume": 2319248.38,
+      "volume_surge": 131.95
     },
     {
       "code": "MM1",
@@ -1843,9 +1843,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "STN",
       "name": "Saturn Metals Ltd",
-      "volume": 2173712,
-      "avg_volume": 1093284.38,
-      "volume_surge": 98.82
+      "volume": 2178412,
+      "avg_volume": 1093480.21,
+      "volume_surge": 99.22
     },
     {
       "code": "WC8",
@@ -1879,7 +1879,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "PLS",
       "name": "PLS Group Ltd",
       "volume": 45549324,
-      "avg_volume": 30170173.33,
+      "avg_volume": 30170220.88,
       "volume_surge": 50.97
     }
   ],
@@ -1913,18 +1913,18 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -71.56
     },
     {
-      "code": "BTR",
-      "name": "Brightstar Resources Ltd",
-      "volume": 2935745,
-      "avg_volume": 9728697.04,
-      "volume_surge": -69.82
-    },
-    {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
       "volume": 53432,
       "avg_volume": 173041.75,
       "volume_surge": -69.12
+    },
+    {
+      "code": "BTR",
+      "name": "Brightstar Resources Ltd",
+      "volume": 3026062,
+      "avg_volume": 9732460.25,
+      "volume_surge": -68.91
     },
     {
       "code": "BM1",
@@ -1965,7 +1965,7 @@ window.LIVE_COMMODITY_PRICES = {
       "code": "MI6",
       "name": "Minerals 260",
       "volume": 7310487,
-      "avg_volume": 15865560.83,
+      "avg_volume": 15865713.96,
       "volume_surge": -53.92
     },
     {
@@ -1985,9 +1985,9 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "TTM",
       "name": "Titan Minerals",
-      "volume": 178349,
-      "avg_volume": 358223.79,
-      "volume_surge": -50.21
+      "volume": 177622,
+      "avg_volume": 358193.5,
+      "volume_surge": -50.41
     },
     {
       "code": "SKY",
@@ -2004,11 +2004,18 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -44.58
     },
     {
+      "code": "SRL",
+      "name": "Sunrise Energy Metals Ltd",
+      "volume": 557567,
+      "avg_volume": 973711.75,
+      "volume_surge": -42.74
+    },
+    {
       "code": "SPD",
       "name": "Southern Palladium",
-      "volume": 106328,
-      "avg_volume": 185334.42,
-      "volume_surge": -42.63
+      "volume": 106180,
+      "avg_volume": 185328.25,
+      "volume_surge": -42.71
     },
     {
       "code": "KAN",
@@ -2018,39 +2025,32 @@ window.LIVE_COMMODITY_PRICES = {
       "volume_surge": -42.55
     },
     {
-      "code": "SRL",
-      "name": "Sunrise Energy Metals Ltd",
-      "volume": 560872,
-      "avg_volume": 973841.58,
-      "volume_surge": -42.41
-    },
-    {
       "code": "FML",
       "name": "Focus Minerals",
-      "volume": 119143,
-      "avg_volume": 206738.71,
-      "volume_surge": -42.37
-    },
-    {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "volume": 722542,
-      "avg_volume": 1153725.5,
-      "volume_surge": -37.37
+      "volume": 120240,
+      "avg_volume": 206784.42,
+      "volume_surge": -41.85
     },
     {
       "code": "MEK",
       "name": "Meeka Metals Ltd",
-      "volume": 18041874,
-      "avg_volume": 28684359.83,
-      "volume_surge": -37.1
+      "volume": 17798036,
+      "avg_volume": 28780358.62,
+      "volume_surge": -38.16
+    },
+    {
+      "code": "GNP",
+      "name": "Genusplus Group Ltd",
+      "volume": 719010,
+      "avg_volume": 1153578.33,
+      "volume_surge": -37.67
     },
     {
       "code": "EMR",
       "name": "Emerald Resources NL",
-      "volume": 920261,
-      "avg_volume": 1355235.33,
-      "volume_surge": -32.1
+      "volume": 913216,
+      "avg_volume": 1354941.79,
+      "volume_surge": -32.6
     },
     {
       "code": "FRS",
@@ -2069,6 +2069,17 @@ window.LIVE_COMMODITY_PRICES = {
   ],
   "price_jump_alerts": [],
   "volume_growth_alerts": [
+    {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "vol_trend": [
+        0,
+        6273322,
+        6273322
+      ],
+      "avg_volume": 1662266.0,
+      "surge_pct": 277.4
+    },
     {
       "code": "BMR",
       "name": "Ballymore Resources",
@@ -2092,6 +2103,17 @@ window.LIVE_COMMODITY_PRICES = {
       "surge_pct": 192.87
     },
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "vol_trend": [
+        126931,
+        553361,
+        553361
+      ],
+      "avg_volume": 227959.96,
+      "surge_pct": 142.74
+    },
+    {
       "code": "MM1",
       "name": "Midas Minerals",
       "vol_trend": [
@@ -2101,6 +2123,17 @@ window.LIVE_COMMODITY_PRICES = {
       ],
       "avg_volume": 481426.88,
       "surge_pct": 128.72
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "vol_trend": [
+        694396,
+        2178412,
+        2178412
+      ],
+      "avg_volume": 1093480.21,
+      "surge_pct": 99.22
     },
     {
       "code": "WC8",
@@ -2147,17 +2180,6 @@ window.LIVE_COMMODITY_PRICES = {
       "surge_pct": 72.19
     },
     {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "vol_trend": [
-        68350851,
-        45549324,
-        45549324
-      ],
-      "avg_volume": 30170173.33,
-      "surge_pct": 50.97
-    },
-    {
       "code": "BCA",
       "name": "Black Canyon Ltd",
       "vol_trend": [
@@ -2178,28 +2200,6 @@ window.LIVE_COMMODITY_PRICES = {
       ],
       "avg_volume": 573449.58,
       "surge_pct": 34.61
-    },
-    {
-      "code": "SLS",
-      "name": "Solstice Minerals",
-      "vol_trend": [
-        708444,
-        1192931,
-        1192931
-      ],
-      "avg_volume": 888705.96,
-      "surge_pct": 34.23
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "vol_trend": [
-        309518,
-        441600,
-        441600
-      ],
-      "avg_volume": 338914.25,
-      "surge_pct": 30.3
     }
   ]
 };
