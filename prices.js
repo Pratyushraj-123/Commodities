@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4156.25,
-  "silver": 57.162,
-  "platinum": 1628.7,
-  "palladium": 1134.0,
-  "copper": 6.5208,
-  "nickel": 15181.0,
-  "zinc": 3676.8,
+  "gold": 4161.78,
+  "silver": 57.207,
+  "platinum": 1630.1,
+  "palladium": 1132.5,
+  "copper": 6.509,
+  "nickel": 15250.0,
+  "zinc": 3676.9,
   "lithium": 104400.0,
-  "uranium": 90.0,
+  "uranium": 90.3,
   "cobalt": 39345.0,
   "rareearth": 245.6,
   "antimony": 22500.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "15 Oct 2026, 15:20",
+  "_last_updated": "15 Oct 2026, 19:28",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52174.77,
-      "change": 553.29,
-      "pct": 1.07,
+      "price": 52211.09,
+      "change": 589.61,
+      "pct": 1.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Oct, 15:20",
+      "updated": "15 Oct, 19:28",
       "hist": [
         46253.31,
         45952.24,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         51850.55,
         51670.1,
         51621.48,
-        52174.77
+        52211.09
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26639.28,
-      "change": -53.59,
-      "pct": -0.2,
+      "price": 26724.49,
+      "change": 31.62,
+      "pct": 0.12,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "15 Oct, 15:20"
+      "updated": "15 Oct, 19:28"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -64.2,
       "pct": -0.73,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Oct, 15:20"
+      "updated": "15 Oct, 19:28"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -70.2,
       "pct": -0.81,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "15 Oct, 15:20"
+      "updated": "15 Oct, 19:28"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10861.92,
-      "change": 137.06,
-      "pct": 1.28,
+      "price": 10840.35,
+      "change": 115.49,
+      "pct": 1.08,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "15 Oct, 15:20"
+      "updated": "15 Oct, 19:28"
     }
   },
   "watchlist": {
@@ -435,16 +435,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 1038457,
-      "avg_volume": 904427.0,
-      "volume_surge": 14.82,
+      "avg_volume": 906442.25,
+      "volume_surge": 14.56,
       "price_3d_start": 2.43,
       "price_3d_jump": -9.47,
       "vol_3d_trend": [
         1192931,
-        1038457,
+        1086823,
         1038457
       ],
-      "vol_3d_surge": 14.82,
+      "vol_3d_surge": 14.56,
       "vol_3d_sustained": false
     },
     "MM8": {
@@ -606,16 +606,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 7130789,
-      "avg_volume": 6207558.58,
-      "volume_surge": 14.87,
+      "avg_volume": 6240855.88,
+      "volume_surge": 14.26,
       "price_3d_start": 1.4,
       "price_3d_jump": -5.71,
       "vol_3d_trend": [
         8489081,
-        7491567,
+        8290702,
         7130789
       ],
-      "vol_3d_surge": 14.87,
+      "vol_3d_surge": 14.26,
       "vol_3d_sustained": false
     },
     "DVP": {
@@ -1100,13 +1100,13 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 1895080,
-      "avg_volume": 1619175.08,
+      "avg_volume": 1619186.25,
       "volume_surge": 17.04,
       "price_3d_start": 6.89,
       "price_3d_jump": -1.6,
       "vol_3d_trend": [
         1550146,
-        1895080,
+        1895348,
         1895080
       ],
       "vol_3d_surge": 17.04,
@@ -1271,13 +1271,13 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 43832859,
-      "avg_volume": 31099933.96,
+      "avg_volume": 31099934.04,
       "volume_surge": 40.94,
       "price_3d_start": 3.08,
       "price_3d_jump": -3.57,
       "vol_3d_trend": [
         45550465,
-        44572623,
+        44572625,
         43832859
       ],
       "vol_3d_surge": 40.94,
@@ -1442,16 +1442,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 4506984,
-      "avg_volume": 3131243.46,
-      "volume_surge": 43.94,
+      "avg_volume": 3131477.58,
+      "volume_surge": 43.93,
       "price_3d_start": 1.925,
       "price_3d_jump": -14.55,
       "vol_3d_trend": [
         2431739,
-        4523052,
+        4528671,
         4506984
       ],
-      "vol_3d_surge": 43.94,
+      "vol_3d_surge": 43.93,
       "vol_3d_sustained": false
     },
     "EMR": {
@@ -1499,16 +1499,16 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 21062967,
-      "avg_volume": 29268443.08,
-      "volume_surge": -28.04,
+      "avg_volume": 29296721.0,
+      "volume_surge": -28.1,
       "price_3d_start": 0.088,
       "price_3d_jump": -9.09,
       "vol_3d_trend": [
         20589683,
-        21063016,
+        21741686,
         21062967
       ],
-      "vol_3d_surge": -28.04,
+      "vol_3d_surge": -28.1,
       "vol_3d_sustained": false
     },
     "GHM": {
@@ -1661,7 +1661,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "4DMedical (ASX:4DX) Growth Screen: Which Healthy High-Growth Stocks Stand Out?",
+      "title": "Why 4DMedical (ASX:4DX) Is Up 7.4% And What's Next",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "15 Oct 2026"
     },
@@ -1689,29 +1689,36 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "AAR",
       "name": "Astral Resources NL",
-      "title": "Which Theia Deeps Drill Results Point to Underground Upside at Astral Resources' (ASX:AAR) Mandilla?",
+      "title": "What Do the New Theia Deeps Holes Add to Astral Resources NL (ASX:AAR) Mandilla Gold Project?",
       "link": "https://www.marketindex.com.au/asx/aar/announcements",
+      "date": "15 Oct 2026"
+    },
+    {
+      "code": "MEK",
+      "name": "Meeka Metals Ltd",
+      "title": "Meeka Metals Ltd Share Price - MEK, RNS News, Articles, Quotes, & Charts (ASX:MEK)",
+      "link": "https://www.marketindex.com.au/asx/mek/announcements",
       "date": "15 Oct 2026"
     }
   ],
-  "gold_change": 50.68,
-  "gold_pct": 1.23,
-  "silver_change": 1.563,
-  "silver_pct": 2.81,
-  "platinum_change": 14.1,
-  "platinum_pct": 0.87,
-  "palladium_change": 37.5,
-  "palladium_pct": 3.42,
-  "copper_change": 0.0907,
-  "copper_pct": -1.37,
-  "nickel_change": 349.0,
-  "nickel_pct": -2.25,
-  "zinc_change": 44.0,
+  "gold_change": 56.21,
+  "gold_pct": 1.37,
+  "silver_change": 1.608,
+  "silver_pct": 2.89,
+  "platinum_change": 15.5,
+  "platinum_pct": 0.96,
+  "palladium_change": 36.5,
+  "palladium_pct": 3.33,
+  "copper_change": 0.1025,
+  "copper_pct": -1.55,
+  "nickel_change": 280.0,
+  "nickel_pct": -1.8,
+  "zinc_change": 43.9,
   "zinc_pct": -1.18,
   "lithium_change": 3850.0,
   "lithium_pct": -3.56,
-  "uranium_change": 0.0,
-  "uranium_pct": 0.0,
+  "uranium_change": 0.3,
+  "uranium_pct": 0.33,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
