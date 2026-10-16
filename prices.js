@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4159.13,
-  "silver": 56.906,
-  "platinum": 1632.1,
-  "palladium": 1113.0,
-  "copper": 6.5119,
+  "gold": 4166.39,
+  "silver": 56.976,
+  "platinum": 1639.7,
+  "palladium": 1115.0,
+  "copper": 6.5173,
   "nickel": 15370.0,
-  "zinc": 3695.5,
+  "zinc": 3696.3,
   "lithium": 102150.0,
   "uranium": 90.0,
   "cobalt": 39345.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "16 Oct 2026, 19:03",
+  "_last_updated": "16 Oct 2026, 22:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51895.82,
-      "change": -281.87,
-      "pct": -0.54,
+      "price": 52002.41,
+      "change": -175.28,
+      "pct": -0.34,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Oct, 19:03",
+      "updated": "16 Oct, 22:14",
       "hist": [
-        45952.24,
         46190.61,
         46706.58,
         46924.74,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         51670.1,
         51621.48,
         52177.69,
-        51895.82
+        52002.41
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26081.24,
-      "change": -631.78,
-      "pct": -2.37,
+      "price": 26140.03,
+      "change": -572.99,
+      "pct": -2.14,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "16 Oct, 19:03"
+      "updated": "16 Oct, 22:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 78.8,
       "pct": 0.9,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Oct, 19:03"
+      "updated": "16 Oct, 22:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 74.7,
       "pct": 0.86,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "16 Oct, 19:03"
+      "updated": "16 Oct, 22:14"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 41.55,
       "pct": 0.38,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "16 Oct, 19:03"
+      "updated": "16 Oct, 22:14"
     }
   },
   "watchlist": {
@@ -1561,10 +1560,31 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "16 Oct 2026"
     },
     {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan Limited Actuals & Estimates (ASX:TVN)",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "16 Oct 2026"
+    },
+    {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR) Shares Look Expensive Despite Their 7x Run",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "16 Oct 2026"
+    },
+    {
       "code": "CYL",
       "name": "Catalyst Metals",
       "title": "How Is Catalyst Metals (ASX:CYL) Trying to Double Its Plutonic Gold Output?",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "16 Oct 2026"
+    },
+    {
+      "code": "SKY",
+      "name": "SKY Metals Ltd",
+      "title": "Insider Sellers Might Regret Selling Sky Metals Shares at a Lower Price Than Current Market Value",
+      "link": "https://www.marketindex.com.au/asx/sky/announcements",
       "date": "16 Oct 2026"
     },
     {
@@ -1612,7 +1632,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Why Did PLS Group Limited (ASX:PLS) Approve the P2000 Expansion at Pilgangoora?",
+      "title": "Does Pilgangoora Expansion Change The Bull Case For PLS Group (ASX:PLS)?",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "16 Oct 2026"
     },
@@ -1636,22 +1656,29 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "Why Do the Latest Theia Deeps Drill Results Matter for Astral Resources (ASX:AAR) at Mandilla?",
       "link": "https://www.marketindex.com.au/asx/aar/announcements",
       "date": "16 Oct 2026"
+    },
+    {
+      "code": "MLX",
+      "name": "Metals X Ltd",
+      "title": "Metals X (ASX:MLX) Shares Look Undervalued As Its Big Run Meets Bid Interest",
+      "link": "https://www.marketindex.com.au/asx/mlx/announcements",
+      "date": "16 Oct 2026"
     }
   ],
-  "gold_change": 11.93,
-  "gold_pct": -0.29,
-  "silver_change": 0.5,
-  "silver_pct": -0.87,
-  "platinum_change": 10.6,
-  "platinum_pct": 0.65,
-  "palladium_change": 15.5,
-  "palladium_pct": -1.37,
-  "copper_change": 0.0004,
-  "copper_pct": 0.01,
+  "gold_change": 4.67,
+  "gold_pct": -0.11,
+  "silver_change": 0.43,
+  "silver_pct": -0.75,
+  "platinum_change": 18.2,
+  "platinum_pct": 1.12,
+  "palladium_change": 13.5,
+  "palladium_pct": -1.2,
+  "copper_change": 0.0058,
+  "copper_pct": 0.09,
   "nickel_change": 120.0,
   "nickel_pct": 0.79,
-  "zinc_change": 18.85,
-  "zinc_pct": 0.51,
+  "zinc_change": 19.65,
+  "zinc_pct": 0.53,
   "lithium_change": 2250.0,
   "lithium_pct": -2.16,
   "uranium_change": 0.0,
