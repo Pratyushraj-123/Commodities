@@ -237,7 +237,15 @@ def fetch_single_stock_quote(code, name):
                 change = float(change)
                 pct = float(pct)
             
-            volumes = [v for v in indicators.get('volume', []) if v is not None]
+            # Deduplicate volumes by unique trading date
+            daily_volumes = {}
+            for t, v in zip(timestamps, indicators.get('volume', [])):
+                if v is not None:
+                    d = datetime.fromtimestamp(t + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
+                    daily_volumes[d] = int(v)
+            sorted_vol_dates = sorted(daily_volumes.keys())
+            
+            volumes = list(daily_volumes.values())
             avg_vol_30d = 0.0
             volume_surge_pct = 0.0
             if volumes:
@@ -245,24 +253,37 @@ def fetch_single_stock_quote(code, name):
                 if avg_vol_30d > 0:
                     volume_surge_pct = ((current_vol - avg_vol_30d) / avg_vol_30d) * 100
             
-            # 3-Day Price Jump calculation using unique trading sessions
+            # 3-Day Price Jump calculation: checks 1-day, 2-day, and 3-day spans within the 3-day window
             price_3d_start = 0.0
             price_3d_jump_pct = 0.0
-            if len(sorted_dates) >= 4:
-                price_3d_start = float(daily_closes[sorted_dates[-4]])
-                if price_3d_start > 0:
-                    price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
-            elif len(sorted_dates) >= 2:
-                price_3d_start = float(daily_closes[sorted_dates[0]])
-                if price_3d_start > 0:
-                    price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
+            best_jump = -999.0
+            best_start = price
+            
+            for lookback in [1, 2, 3]:
+                idx = -(lookback + 1)
+                if len(sorted_dates) >= abs(idx):
+                    p_start = float(daily_closes[sorted_dates[idx]])
+                    if p_start > 0:
+                        j = ((price - p_start) / p_start) * 100
+                        if j > best_jump:
+                            best_jump = j
+                            best_start = p_start
+                            
+            if best_jump > -900:
+                price_3d_jump_pct = best_jump
+                price_3d_start = best_start
+            else:
+                price_3d_jump_pct = pct
+                price_3d_start = price - change
                     
-            # 3-Day Sustained Volume calculation
+            # 3-Day Sustained Volume calculation using distinct trading sessions
             vol_3d_trend = []
             vol_3d_surge_pct = 0.0
             is_vol_sustained = False
-            if len(volumes) >= 3:
-                v1, v2, v3 = int(volumes[-3]), int(volumes[-2]), int(volumes[-1])
+            if len(sorted_vol_dates) >= 3:
+                v1 = int(daily_volumes[sorted_vol_dates[-3]])
+                v2 = int(daily_volumes[sorted_vol_dates[-2]])
+                v3 = int(daily_volumes[sorted_vol_dates[-1]])
                 vol_3d_trend = [v1, v2, v3]
                 if avg_vol_30d > 0:
                     surge_v1 = ((v1 - avg_vol_30d) / avg_vol_30d) * 100
@@ -271,6 +292,8 @@ def fetch_single_stock_quote(code, name):
                     vol_3d_surge_pct = surge_v3
                     if (v3 >= v2 >= v1 or (surge_v3 >= 50.0 and v3 >= v2)) and (surge_v1 >= 30.0 or surge_v2 >= 30.0 or surge_v3 >= 50.0):
                         is_vol_sustained = True
+            elif len(sorted_vol_dates) >= 1:
+                vol_3d_trend = [int(daily_volumes[d]) for d in sorted_vol_dates]
             
             return code, {
                 "name": name,
