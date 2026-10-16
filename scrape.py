@@ -210,28 +210,32 @@ def fetch_single_stock_quote(code, name):
             indicators = result.get('indicators', {}).get('quote', [{}])[0]
             close = indicators.get('close', [])
             
-            # Get valid close prices and their timestamps
-            valid_data = [(t, c) for t, c in zip(timestamps, close) if c is not None]
+            # Deduplicate close prices by unique trading date using exchange timezone
+            gmt_offset = meta.get('gmtoffset', 36000)
+            daily_closes = {}
+            for t, c in zip(timestamps, close):
+                if c is not None:
+                    d = datetime.fromtimestamp(t + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
+                    daily_closes[d] = float(c)
+            sorted_dates = sorted(daily_closes.keys())
             
-            baseline_close = 0.0
-            if len(valid_data) >= 2:
-                last_ts, last_close = valid_data[-1]
-                prev_ts, prev_close = valid_data[-2]
+            # Calculate daily price change and percent
+            change = meta.get('fulldayChange')
+            pct = meta.get('fulldayChangePercent')
+            if pct is None:
+                pct = meta.get('regularMarketChangePercent')
                 
-                gmt_offset = meta.get('gmtoffset', 36000)
-                last_date = datetime.fromtimestamp(last_ts + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
-                current_date = datetime.fromtimestamp(time.time() + gmt_offset, timezone.utc).strftime('%Y-%m-%d')
-                
-                if last_date == current_date:
-                    baseline_close = prev_close
+            if change is None or pct is None:
+                if len(sorted_dates) >= 2:
+                    prev_close = daily_closes[sorted_dates[-2]]
+                    change = price - prev_close
+                    pct = (change / prev_close) * 100 if prev_close else 0.0
                 else:
-                    baseline_close = prev_close
-                    price = last_close
+                    change = 0.0
+                    pct = 0.0
             else:
-                baseline_close = float(meta.get('chartPreviousClose', price))
-                
-            change = price - baseline_close
-            pct = (change / baseline_close) * 100 if baseline_close else 0
+                change = float(change)
+                pct = float(pct)
             
             volumes = [v for v in indicators.get('volume', []) if v is not None]
             avg_vol_30d = 0.0
@@ -241,15 +245,15 @@ def fetch_single_stock_quote(code, name):
                 if avg_vol_30d > 0:
                     volume_surge_pct = ((current_vol - avg_vol_30d) / avg_vol_30d) * 100
             
-            # 3-Day Price Jump calculation
+            # 3-Day Price Jump calculation using unique trading sessions
             price_3d_start = 0.0
             price_3d_jump_pct = 0.0
-            if len(valid_data) >= 4:
-                price_3d_start = float(valid_data[-4][1])
+            if len(sorted_dates) >= 4:
+                price_3d_start = float(daily_closes[sorted_dates[-4]])
                 if price_3d_start > 0:
                     price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
-            elif len(valid_data) >= 2:
-                price_3d_start = float(valid_data[0][1])
+            elif len(sorted_dates) >= 2:
+                price_3d_start = float(daily_closes[sorted_dates[0]])
                 if price_3d_start > 0:
                     price_3d_jump_pct = ((price - price_3d_start) / price_3d_start) * 100
                     

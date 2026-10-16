@@ -1674,7 +1674,7 @@ function filterWatchlist() {
     
     count++;
     const isUp = (item.pct || 0) >= 0;
-    const sign = isUp ? '▲ +' : '▼ ';
+    const sign = isUp ? '▲ +' : '▼ -';
     const colorClass = isUp ? 'idx-up' : 'idx-dn';
     
     const row = document.createElement('a');
@@ -1685,8 +1685,6 @@ function filterWatchlist() {
 
     const chgVal = item.change || 0;
     const pctVal = item.pct || 0;
-    const isUpVal = pctVal >= 0;
-    const chgSign = isUpVal ? '+' : '-';
     
     row.innerHTML = `
       <div class="index-info">
@@ -1698,7 +1696,7 @@ function filterWatchlist() {
       <div class="index-stats">
         <span class="index-val" style="font-size:12px;">A$${(item.price || 0).toFixed(3)}</span>
         <span class="index-change ${colorClass}" style="font-size:9px;">
-          ${sign}${chgSign}A$${Math.abs(chgVal).toFixed(3)} (${Math.abs(pctVal).toFixed(2)}%)
+          ${sign}A$${Math.abs(chgVal).toFixed(3)} (${Math.abs(pctVal).toFixed(2)}%)
         </span>
       </div>
     `;
