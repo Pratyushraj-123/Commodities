@@ -1,11 +1,11 @@
 {
-  "gold": 4184.22,
-  "silver": 57.688,
-  "platinum": 1660.9,
-  "palladium": 1128.5,
-  "copper": 6.5756,
-  "nickel": 15444.0,
-  "zinc": 3696.3,
+  "gold": 4149.16,
+  "silver": 57.29,
+  "platinum": 1650.3,
+  "palladium": 1124.5,
+  "copper": 6.5052,
+  "nickel": 15564.0,
+  "zinc": 3720.55,
   "lithium": 102950.0,
   "uranium": 90.1,
   "cobalt": 36815.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "19 Oct 2026, 06:59",
+  "_last_updated": "19 Oct 2026, 14:20",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52002.41,
-      "change": -175.29,
-      "pct": -0.34,
+      "price": 52038.04,
+      "change": 35.63,
+      "pct": 0.07,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Oct, 06:59",
+      "updated": "19 Oct, 14:20",
       "hist": [
-        46190.61,
         46706.58,
         46924.74,
         46590.41,
@@ -276,16 +275,17 @@
         51670.1,
         51621.48,
         52177.69,
-        52002.41
+        52002.41,
+        52036.0
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26140.03,
-      "change": -572.97,
-      "pct": -2.14,
+      "price": 26502.32,
+      "change": 362.29,
+      "pct": 1.39,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "19 Oct, 06:59"
+      "updated": "19 Oct, 14:20"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 39.0,
       "pct": 0.44,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Oct, 06:59"
+      "updated": "19 Oct, 14:20"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 37.1,
       "pct": 0.43,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "19 Oct, 06:59"
+      "updated": "19 Oct, 14:20"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10881.9,
-      "change": 41.5,
-      "pct": 0.38,
+      "price": 10753.29,
+      "change": -128.61,
+      "pct": -1.18,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "19 Oct, 06:59"
+      "updated": "19 Oct, 14:20"
     }
   },
   "watchlist": {
@@ -1306,7 +1306,7 @@
       "code": "POD",
       "price": 0.026,
       "change": 0.0,
-      "pct": 0.0,
+      "pct": 1.92,
       "volume": 139462,
       "avg_volume": 641748.57,
       "volume_surge": -78.27,
@@ -1541,7 +1541,7 @@
     {
       "code": "TM1",
       "name": "Terra Metals",
-      "title": "Terra Metals (ASX:TM1) Slides 8% as Shares Ease",
+      "title": "Terra Metals (ASX:TM1): Southwest Drilling Extends Dante Mineralisation",
       "link": "https://www.marketindex.com.au/asx/tm1/announcements",
       "date": "19 Oct 2026"
     },
@@ -1562,7 +1562,7 @@
     {
       "code": "CYL",
       "name": "Catalyst Metals",
-      "title": "Catalyst Metals Ltd (ASX: CYL) Share Price, CYL Stock News, CYL Share Price & Updates",
+      "title": "Catalyst Metals Limited (CYL.AX) Stock Price, News, Quote & History",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
       "date": "19 Oct 2026"
     },
@@ -1597,7 +1597,7 @@
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Share Price, Forecast & Analysis",
+      "title": "Megaport Limited (ASX:MP1): Cloud Connectivity Operations and Financial Developments",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "19 Oct 2026"
     },
@@ -1606,6 +1606,20 @@
       "name": "Pro Medicus Ltd",
       "title": "Pro Medicus (ASX:PME) Signs A$24M Seven-Year Visage 7 Cloud Contract with Billings Clinic \u2013 Logan Health",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "19 Oct 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS): Lithium Operations and Financial Performance Draw Attention",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "19 Oct 2026"
+    },
+    {
+      "code": "OMA",
+      "name": "Omega Oil & Gas Ltd",
+      "title": "Omega Oil & Gas Limited (ASX:OMA): Canyon Appraisal Advances in Queensland",
+      "link": "https://www.marketindex.com.au/asx/oma/announcements",
       "date": "19 Oct 2026"
     },
     {
@@ -1625,25 +1639,25 @@
     {
       "code": "SRL",
       "name": "Sunrise Energy Metals Ltd",
-      "title": "Sunrise Energy Metals (ASX:SRL) Jumped, So What Is Behind The Latest Attention?",
+      "title": "What Does Sunrise Energy Metals\u2019 (ASX:SRL) Plan to Move to the US Mean for Its Share Price Story?",
       "link": "https://www.marketindex.com.au/asx/srl/announcements",
       "date": "19 Oct 2026"
     }
   ],
-  "gold_change": 17.83,
-  "gold_pct": 0.43,
-  "silver_change": 0.699,
-  "silver_pct": 1.23,
-  "platinum_change": 27.8,
-  "platinum_pct": 1.7,
-  "palladium_change": 10.0,
-  "palladium_pct": 0.89,
-  "copper_change": 0.0446,
-  "copper_pct": 0.68,
-  "nickel_change": 74.0,
-  "nickel_pct": 0.48,
-  "zinc_change": 19.65,
-  "zinc_pct": 0.53,
+  "gold_change": 17.23,
+  "gold_pct": -0.41,
+  "silver_change": 0.301,
+  "silver_pct": 0.53,
+  "platinum_change": 17.2,
+  "platinum_pct": 1.05,
+  "palladium_change": 6.0,
+  "palladium_pct": 0.54,
+  "copper_change": 0.0258,
+  "copper_pct": -0.4,
+  "nickel_change": 194.0,
+  "nickel_pct": 1.26,
+  "zinc_change": 24.25,
+  "zinc_pct": 0.66,
   "lithium_change": 800.0,
   "lithium_pct": 0.78,
   "uranium_change": 0.1,
