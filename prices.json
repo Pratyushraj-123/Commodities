@@ -1,11 +1,11 @@
 {
-  "gold": 4135.35,
-  "silver": 57.852,
-  "platinum": 1635.1,
-  "palladium": 1090.0,
-  "copper": 6.5381,
+  "gold": 4132.4,
+  "silver": 57.705,
+  "platinum": 1629.0,
+  "palladium": 1088.0,
+  "copper": 6.5206,
   "nickel": 16290.0,
-  "zinc": 3749.95,
+  "zinc": 3750.15,
   "lithium": 102700.0,
   "uranium": 90.15,
   "cobalt": 34620.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Oct 2026, 19:41",
+  "_last_updated": "21 Oct 2026, 22:48",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52758.35,
-      "change": 262.47,
-      "pct": 0.5,
+      "price": 52856.09,
+      "change": 360.21,
+      "pct": 0.69,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Oct, 19:41",
+      "updated": "21 Oct, 22:48",
       "hist": [
-        46924.74,
         46590.41,
         46734.61,
         47207.12,
@@ -277,16 +276,16 @@
         52002.41,
         51966.03,
         52495.88,
-        52760.37
+        52856.09
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26689.92,
-      "change": 265.1,
-      "pct": 1.0,
+      "price": 26702.86,
+      "change": 278.04,
+      "pct": 1.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Oct, 19:41"
+      "updated": "21 Oct, 22:48"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": -14.4,
       "pct": -0.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Oct, 19:41"
+      "updated": "21 Oct, 22:48"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": -15.9,
       "pct": -0.18,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Oct, 19:41"
+      "updated": "21 Oct, 22:48"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": 19.88,
       "pct": 0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Oct, 19:41"
+      "updated": "21 Oct, 22:48"
     }
   },
   "watchlist": {
@@ -1652,13 +1651,6 @@
       "date": "21 Oct 2026"
     },
     {
-      "code": "LTR",
-      "name": "Liontown Ltd",
-      "title": "Liontown Resources (ASX:LTR) Share Price, Forecast & Analysis",
-      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
-      "date": "21 Oct 2026"
-    },
-    {
       "code": "PLS",
       "name": "PLS Group Ltd",
       "title": "PLS Group (ASX:PLS) Prices US$700 Million of 8.00% Senior Unsecured Notes in 144A Offering",
@@ -1680,19 +1672,19 @@
       "date": "21 Oct 2026"
     }
   ],
-  "gold_change": 10.62,
-  "gold_pct": 0.26,
-  "silver_change": 0.114,
-  "silver_pct": -0.2,
-  "platinum_change": 21.4,
-  "platinum_pct": -1.29,
-  "palladium_change": 15.0,
-  "palladium_pct": -1.36,
-  "copper_change": 0.0284,
-  "copper_pct": -0.43,
+  "gold_change": 7.67,
+  "gold_pct": 0.19,
+  "silver_change": 0.261,
+  "silver_pct": -0.45,
+  "platinum_change": 27.5,
+  "platinum_pct": -1.66,
+  "palladium_change": 17.0,
+  "palladium_pct": -1.54,
+  "copper_change": 0.0459,
+  "copper_pct": -0.7,
   "nickel_change": 475.0,
   "nickel_pct": 3.0,
-  "zinc_change": 18.85,
+  "zinc_change": 19.05,
   "zinc_pct": 0.51,
   "lithium_change": 350.0,
   "lithium_pct": 0.34,
