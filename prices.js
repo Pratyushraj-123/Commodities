@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4138.37,
-  "silver": 57.746,
-  "platinum": 1644.2,
-  "palladium": 1095.0,
-  "copper": 6.5448,
-  "nickel": 16229.0,
-  "zinc": 3754.3,
+  "gold": 4135.35,
+  "silver": 57.852,
+  "platinum": 1635.1,
+  "palladium": 1090.0,
+  "copper": 6.5381,
+  "nickel": 16290.0,
+  "zinc": 3749.95,
   "lithium": 102700.0,
   "uranium": 90.15,
   "cobalt": 34620.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "21 Oct 2026, 15:39",
+  "_last_updated": "21 Oct 2026, 19:41",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52654.37,
-      "change": 158.49,
-      "pct": 0.3,
+      "price": 52758.35,
+      "change": 262.47,
+      "pct": 0.5,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Oct, 15:39",
+      "updated": "21 Oct, 19:41",
       "hist": [
         46924.74,
         46590.41,
@@ -277,16 +277,16 @@ window.LIVE_COMMODITY_PRICES = {
         52002.41,
         51966.03,
         52495.88,
-        52654.37
+        52760.37
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26720.3,
-      "change": 295.48,
-      "pct": 1.12,
+      "price": 26689.92,
+      "change": 265.1,
+      "pct": 1.0,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "21 Oct, 15:39"
+      "updated": "21 Oct, 19:41"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -14.4,
       "pct": -0.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Oct, 15:39"
+      "updated": "21 Oct, 19:41"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -15.9,
       "pct": -0.18,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "21 Oct, 15:39"
+      "updated": "21 Oct, 19:41"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10749.6,
-      "change": 16.6,
-      "pct": 0.15,
+      "price": 10752.88,
+      "change": 19.88,
+      "pct": 0.19,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "21 Oct, 15:39"
+      "updated": "21 Oct, 19:41"
     }
   },
   "watchlist": {
@@ -1547,6 +1547,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Oct 2026"
     },
     {
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources Limited (EQR.AX) stock price, news, quote and history - Yahoo Finance",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "21 Oct 2026"
+    },
+    {
       "code": "DVP",
       "name": "Develop Global",
       "title": "Does Develop Global (ASX:DVP) now have funding to deliver?",
@@ -1673,20 +1680,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "21 Oct 2026"
     }
   ],
-  "gold_change": 13.64,
-  "gold_pct": 0.33,
-  "silver_change": 0.22,
-  "silver_pct": -0.38,
-  "platinum_change": 12.3,
-  "platinum_pct": -0.74,
-  "palladium_change": 10.0,
-  "palladium_pct": -0.9,
-  "copper_change": 0.0217,
-  "copper_pct": -0.33,
-  "nickel_change": 414.0,
-  "nickel_pct": 2.62,
-  "zinc_change": 23.2,
-  "zinc_pct": 0.62,
+  "gold_change": 10.62,
+  "gold_pct": 0.26,
+  "silver_change": 0.114,
+  "silver_pct": -0.2,
+  "platinum_change": 21.4,
+  "platinum_pct": -1.29,
+  "palladium_change": 15.0,
+  "palladium_pct": -1.36,
+  "copper_change": 0.0284,
+  "copper_pct": -0.43,
+  "nickel_change": 475.0,
+  "nickel_pct": 3.0,
+  "zinc_change": 18.85,
+  "zinc_pct": 0.51,
   "lithium_change": 350.0,
   "lithium_pct": 0.34,
   "uranium_change": 0.0,
