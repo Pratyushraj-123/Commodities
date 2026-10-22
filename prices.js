@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4071.63,
-  "silver": 55.798,
-  "platinum": 1590.9,
-  "palladium": 1060.0,
-  "copper": 6.3744,
-  "nickel": 16093.0,
-  "zinc": 3684.2,
+  "gold": 4044.18,
+  "silver": 54.899,
+  "platinum": 1579.0,
+  "palladium": 1056.5,
+  "copper": 6.3668,
+  "nickel": 16040.0,
+  "zinc": 3676.95,
   "lithium": 99350.0,
   "uranium": 90.15,
   "cobalt": 34620.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Oct 2026, 12:32",
+  "_last_updated": "22 Oct 2026, 17:40",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52856.09,
-      "change": 360.19,
-      "pct": 0.69,
+      "price": 52796.07,
+      "change": -60.02,
+      "pct": -0.11,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 12:32",
+      "updated": "22 Oct, 17:40",
       "hist": [
         46590.41,
         46734.61,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         52002.41,
         51966.03,
         52495.88,
-        52856.09
+        52856.09,
+        52795.36
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26702.86,
-      "change": 278.04,
-      "pct": 1.05,
+      "price": 26059.57,
+      "change": -643.29,
+      "pct": -2.41,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 12:32"
+      "updated": "22 Oct, 17:40"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -23.7,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 12:32"
+      "updated": "22 Oct, 17:40"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -23.3,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 12:32"
+      "updated": "22 Oct, 17:40"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10725.75,
-      "change": -27.13,
-      "pct": -0.25,
+      "price": 10725.03,
+      "change": -27.85,
+      "pct": -0.26,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Oct, 12:32"
+      "updated": "22 Oct, 17:40"
     }
   },
   "watchlist": {
@@ -1623,20 +1624,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Oct 2026"
     }
   ],
-  "gold_change": 69.47,
-  "gold_pct": -1.68,
-  "silver_change": 2.16,
-  "silver_pct": -3.73,
-  "platinum_change": 45.0,
-  "platinum_pct": -2.75,
-  "palladium_change": 30.0,
-  "palladium_pct": -2.75,
-  "copper_change": 0.1686,
-  "copper_pct": -2.58,
-  "nickel_change": 197.0,
-  "nickel_pct": -1.21,
-  "zinc_change": 65.95,
-  "zinc_pct": -1.76,
+  "gold_change": 96.92,
+  "gold_pct": -2.34,
+  "silver_change": 3.059,
+  "silver_pct": -5.28,
+  "platinum_change": 56.9,
+  "platinum_pct": -3.48,
+  "palladium_change": 33.5,
+  "palladium_pct": -3.07,
+  "copper_change": 0.1762,
+  "copper_pct": -2.69,
+  "nickel_change": 250.0,
+  "nickel_pct": -1.53,
+  "zinc_change": 73.2,
+  "zinc_pct": -1.95,
   "lithium_change": 3350.0,
   "lithium_pct": -3.26,
   "uranium_change": 0.0,
