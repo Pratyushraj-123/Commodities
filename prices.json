@@ -1,10 +1,10 @@
 {
-  "gold": 4044.18,
-  "silver": 54.899,
-  "platinum": 1579.0,
-  "palladium": 1056.5,
-  "copper": 6.3668,
-  "nickel": 16040.0,
+  "gold": 4023.29,
+  "silver": 54.546,
+  "platinum": 1569.6,
+  "palladium": 1051.5,
+  "copper": 6.3645,
+  "nickel": 15995.0,
   "zinc": 3676.95,
   "lithium": 99350.0,
   "uranium": 90.15,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Oct 2026, 17:40",
+  "_last_updated": "22 Oct 2026, 20:51",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52796.07,
-      "change": -60.02,
-      "pct": -0.11,
+      "price": 52867.98,
+      "change": 11.89,
+      "pct": 0.02,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 17:40",
+      "updated": "22 Oct, 20:51",
       "hist": [
-        46590.41,
         46734.61,
         47207.12,
         47544.59,
@@ -277,16 +276,16 @@
         51966.03,
         52495.88,
         52856.09,
-        52795.36
+        52867.98
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26059.57,
-      "change": -643.29,
-      "pct": -2.41,
+      "price": 26008.86,
+      "change": -694.0,
+      "pct": -2.6,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 17:40"
+      "updated": "22 Oct, 20:51"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": -23.7,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 17:40"
+      "updated": "22 Oct, 20:51"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": -23.3,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 17:40"
+      "updated": "22 Oct, 20:51"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": -27.85,
       "pct": -0.26,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Oct, 17:40"
+      "updated": "22 Oct, 20:51"
     }
   },
   "watchlist": {
@@ -1547,6 +1546,13 @@
       "date": "22 Oct 2026"
     },
     {
+      "code": "OBM",
+      "name": "Ora Banda Mining Ltd",
+      "title": "ASX Penny Stocks: 3 Picks With Market Caps Over A$200M",
+      "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "22 Oct 2026"
+    },
+    {
       "code": "MKR",
       "name": "Manuka Resources",
       "title": "Manuka Resources (ASX: MKR) Receives A$1.64M From Gold and Silver Delivery to ABC Refinery",
@@ -1622,20 +1628,27 @@
       "title": "Omega Oil & Gas (ASX:OMA) Is Up 103.85% in a Year \u2014 But Is It Still Worth Watching?",
       "link": "https://www.marketindex.com.au/asx/oma/announcements",
       "date": "22 Oct 2026"
+    },
+    {
+      "code": "KAN",
+      "name": "Kantra Copper Ltd",
+      "title": "Kantra Copper (ASX:KAN) Stock Price",
+      "link": "https://www.marketindex.com.au/asx/kan/announcements",
+      "date": "22 Oct 2026"
     }
   ],
-  "gold_change": 96.92,
-  "gold_pct": -2.34,
-  "silver_change": 3.059,
-  "silver_pct": -5.28,
-  "platinum_change": 56.9,
-  "platinum_pct": -3.48,
-  "palladium_change": 33.5,
-  "palladium_pct": -3.07,
-  "copper_change": 0.1762,
-  "copper_pct": -2.69,
-  "nickel_change": 250.0,
-  "nickel_pct": -1.53,
+  "gold_change": 117.81,
+  "gold_pct": -2.84,
+  "silver_change": 3.412,
+  "silver_pct": -5.89,
+  "platinum_change": 66.3,
+  "platinum_pct": -4.05,
+  "palladium_change": 37.5,
+  "palladium_pct": -3.44,
+  "copper_change": 0.1785,
+  "copper_pct": -2.73,
+  "nickel_change": 295.0,
+  "nickel_pct": -1.81,
   "zinc_change": 73.2,
   "zinc_pct": -1.95,
   "lithium_change": 3350.0,
