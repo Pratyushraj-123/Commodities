@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4089.69,
-  "silver": 56.157,
-  "platinum": 1603.5,
-  "palladium": 1060.5,
-  "copper": 6.4188,
-  "nickel": 16055.0,
-  "zinc": 3715.8,
+  "gold": 4071.63,
+  "silver": 55.798,
+  "platinum": 1590.9,
+  "palladium": 1060.0,
+  "copper": 6.3744,
+  "nickel": 16093.0,
+  "zinc": 3684.2,
   "lithium": 99350.0,
   "uranium": 90.15,
   "cobalt": 34620.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.5,
   "fluorite": 580.0,
-  "_last_updated": "22 Oct 2026, 06:40",
+  "_last_updated": "22 Oct 2026, 12:32",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 360.19,
       "pct": 0.69,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 06:40",
+      "updated": "22 Oct, 12:32",
       "hist": [
         46590.41,
         46734.61,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 278.04,
       "pct": 1.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "22 Oct, 06:40"
+      "updated": "22 Oct, 12:32"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -23.7,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 06:40"
+      "updated": "22 Oct, 12:32"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -23.3,
       "pct": -0.27,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "22 Oct, 06:40"
+      "updated": "22 Oct, 12:32"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10752.88,
-      "change": 19.88,
-      "pct": 0.19,
+      "price": 10725.75,
+      "change": -27.13,
+      "pct": -0.25,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "22 Oct, 06:40"
+      "updated": "22 Oct, 12:32"
     }
   },
   "watchlist": {
@@ -1539,9 +1539,23 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Oct 2026"
     },
     {
+      "code": "TVN",
+      "name": "Tivan Ltd",
+      "title": "Tivan (ASX: TVN) Extends Molyhil JV Memoranda as Speewah Fluorite DFS Progresses",
+      "link": "https://www.marketindex.com.au/asx/tvn/announcements",
+      "date": "22 Oct 2026"
+    },
+    {
+      "code": "MKR",
+      "name": "Manuka Resources",
+      "title": "Manuka Resources (ASX: MKR) Receives A$1.64M From Gold and Silver Delivery to ABC Refinery",
+      "link": "https://www.marketindex.com.au/asx/mkr/announcements",
+      "date": "22 Oct 2026"
+    },
+    {
       "code": "GML",
       "name": "Gateway Mining Ltd",
-      "title": "Why Did Gateway Mining (ASX:GML) Slip Despite Cowza Success?",
+      "title": "Insiders Enjoy AU$646k Return After Buying Gateway Mining Stock",
       "link": "https://www.marketindex.com.au/asx/gml/announcements",
       "date": "22 Oct 2026"
     },
@@ -1555,7 +1569,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Why Did Megaport (ASX:MP1) Jump While Tech Sank?",
+      "title": "Is Megaport (ASX:MP1) A Bargain On Its Portugal Launch?",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "22 Oct 2026"
     },
@@ -1567,9 +1581,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "22 Oct 2026"
     },
     {
+      "code": "4DX",
+      "name": "4DMEDICAL Ltd",
+      "title": "4DMedical (ASX:4DX) Shares Could Still Be Cheap After A 7x Run",
+      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
+      "date": "22 Oct 2026"
+    },
+    {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Goodman Group (ASX:GMG), Pro Medicus (ASX:PME) and ResMed (ASX:RMD): What Lies Ahead?",
+      "title": "Pro Medicus Limited (ASX:PME): FY26 Earnings, Imaging Contracts and Product Expansion",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "22 Oct 2026"
     },
@@ -1583,7 +1604,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "Lynas Rare Earths (ASX:LYC), PLS Group (ASX:PLS) and Rio Tinto (ASX:RIO): Growth Prospects and Future Outlook",
+      "title": "PLS Group Limited (ASX:PLS): FY26 Earnings and Pilgangoora Expansion Plans",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "22 Oct 2026"
     },
@@ -1597,25 +1618,25 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "OMA",
       "name": "Omega Oil & Gas Ltd",
-      "title": "Is Omega Oil & Gas Ltd (ASX:OMA) on Investors\u2019 Radar?",
+      "title": "Omega Oil & Gas (ASX:OMA) Is Up 103.85% in a Year \u2014 But Is It Still Worth Watching?",
       "link": "https://www.marketindex.com.au/asx/oma/announcements",
       "date": "22 Oct 2026"
     }
   ],
-  "gold_change": 51.41,
-  "gold_pct": -1.24,
-  "silver_change": 1.801,
-  "silver_pct": -3.11,
-  "platinum_change": 32.4,
-  "platinum_pct": -1.98,
-  "palladium_change": 29.5,
-  "palladium_pct": -2.71,
-  "copper_change": 0.1242,
-  "copper_pct": -1.9,
-  "nickel_change": 35.0,
-  "nickel_pct": -0.22,
-  "zinc_change": 34.35,
-  "zinc_pct": -0.92,
+  "gold_change": 69.47,
+  "gold_pct": -1.68,
+  "silver_change": 2.16,
+  "silver_pct": -3.73,
+  "platinum_change": 45.0,
+  "platinum_pct": -2.75,
+  "palladium_change": 30.0,
+  "palladium_pct": -2.75,
+  "copper_change": 0.1686,
+  "copper_pct": -2.58,
+  "nickel_change": 197.0,
+  "nickel_pct": -1.21,
+  "zinc_change": 65.95,
+  "zinc_pct": -1.76,
   "lithium_change": 3350.0,
   "lithium_pct": -3.26,
   "uranium_change": 0.0,
