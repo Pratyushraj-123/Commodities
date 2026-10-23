@@ -1,9 +1,9 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3997.04,
-  "silver": 53.889,
+  "gold": 3993.96,
+  "silver": 53.878,
   "platinum": 1555.8,
-  "palladium": 1045.5,
-  "copper": 6.4705,
+  "palladium": 1046.5,
+  "copper": 6.4645,
   "nickel": 15865.0,
   "zinc": 3748.2,
   "lithium": 97000.0,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.0,
   "fluorite": 580.0,
-  "_last_updated": "23 Oct 2026, 20:54",
+  "_last_updated": "23 Oct 2026, 23:35",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -652.82,
       "pct": -1.23,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 20:54",
+      "updated": "23 Oct, 23:35",
       "hist": [
         47207.12,
         47544.59,
@@ -285,7 +285,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -53.52,
       "pct": -0.21,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 20:54"
+      "updated": "23 Oct, 23:35"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 20:54"
+      "updated": "23 Oct, 23:35"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -2.6,
       "pct": -0.03,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 20:54"
+      "updated": "23 Oct, 23:35"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -34.67,
       "pct": -0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Oct, 20:54"
+      "updated": "23 Oct, 23:35"
     }
   },
   "watchlist": {
@@ -1604,7 +1604,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "4DMedical Limited (ASX:4DX): FY26 Results, CT:VQ Rollout and Commercial Expansion",
+      "title": "Is 4DMedical (ASX:4DX) Still Reasonably Priced on Cash Flow After a Huge Run?",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "23 Oct 2026"
     },
@@ -1620,13 +1620,6 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "ARTRYA Ltd",
       "title": "Artrya Limited (ASX:AYA): FY26 Results, US Hospital Agreement and Salix Rollout",
       "link": "https://www.marketindex.com.au/asx/aya/announcements",
-      "date": "23 Oct 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS): Pilgangoora Expansion, FY26 Results and Project Plans",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "23 Oct 2026"
     },
     {
@@ -1658,16 +1651,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "23 Oct 2026"
     }
   ],
-  "gold_change": 27.78,
-  "gold_pct": -0.69,
-  "silver_change": 0.7,
-  "silver_pct": -1.28,
+  "gold_change": 30.86,
+  "gold_pct": -0.77,
+  "silver_change": 0.711,
+  "silver_pct": -1.3,
   "platinum_change": 21.1,
   "platinum_pct": -1.34,
-  "palladium_change": 11.0,
-  "palladium_pct": -1.04,
-  "copper_change": 0.108,
-  "copper_pct": 1.7,
+  "palladium_change": 10.0,
+  "palladium_pct": -0.95,
+  "copper_change": 0.102,
+  "copper_pct": 1.6,
   "nickel_change": 130.0,
   "nickel_pct": -0.81,
   "zinc_change": 71.75,
