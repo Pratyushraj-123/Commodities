@@ -1,13 +1,13 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4027.05,
-  "silver": 53.784,
-  "platinum": 1558.7,
-  "palladium": 1049.0,
-  "copper": 6.4379,
-  "nickel": 15817.0,
-  "zinc": 3730.3,
+  "gold": 3997.39,
+  "silver": 54.021,
+  "platinum": 1561.5,
+  "palladium": 1048.0,
+  "copper": 6.4676,
+  "nickel": 15865.0,
+  "zinc": 3748.0,
   "lithium": 97000.0,
-  "uranium": 90.15,
+  "uranium": 90.05,
   "cobalt": 34620.0,
   "rareearth": 244.4,
   "antimony": 22500.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 43.0,
   "fluorite": 580.0,
-  "_last_updated": "23 Oct 2026, 13:00",
+  "_last_updated": "23 Oct 2026, 17:58",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52867.98,
-      "change": 11.89,
-      "pct": 0.02,
+      "price": 52301.46,
+      "change": -566.52,
+      "pct": -1.07,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 13:00",
+      "updated": "23 Oct, 17:58",
       "hist": [
         46734.61,
         47207.12,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         51966.03,
         52495.88,
         52856.09,
-        52867.98
+        52867.98,
+        52301.46
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26008.86,
-      "change": -694.0,
-      "pct": -2.6,
+      "price": 26027.19,
+      "change": 18.33,
+      "pct": 0.07,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 13:00"
+      "updated": "23 Oct, 17:58"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 13:00"
+      "updated": "23 Oct, 17:58"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -2.6,
       "pct": -0.03,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 13:00"
+      "updated": "23 Oct, 17:58"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10659.74,
-      "change": -65.29,
-      "pct": -0.61,
+      "price": 10690.36,
+      "change": -34.67,
+      "pct": -0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Oct, 13:00"
+      "updated": "23 Oct, 17:58"
     }
   },
   "watchlist": {
@@ -1532,6 +1533,27 @@ window.LIVE_COMMODITY_PRICES = {
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold Ltd. Estimates \u2013 ASX:PC2",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
+      "code": "TM1",
+      "name": "Terra Metals",
+      "title": "Terra Metals Limited Estimates \u2013 ASX:TM1",
+      "link": "https://www.marketindex.com.au/asx/tm1/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
+      "code": "BNZ",
+      "name": "BENZ Mining Corp",
+      "title": "Benz Mining Corp. Shs Chess Depository Interests Repr 1 sh Estimates \u2013 ASX:BNZ",
+      "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
       "code": "ENR",
       "name": "Encounter Resources",
       "title": "What Do New Niobium and Copper Results Mean for Encounter Resources (ASX:ENR)?",
@@ -1562,7 +1584,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport (ASX:MP1) Share Price, Forecast & Analysis",
+      "title": "Three AI Infrastructure Contracts Worth About A$979 Million Push Megaport (ASX:MP1) to Raise FY27 Guidance",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "23 Oct 2026"
     },
@@ -1581,10 +1603,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "23 Oct 2026"
     },
     {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Pro Medicus Limited (PME.AX) Stock Price, News, Quote & History",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
       "code": "AYA",
       "name": "ARTRYA Ltd",
       "title": "Artrya Limited (ASX:AYA): FY26 Results, US Hospital Agreement and Salix Rollout",
       "link": "https://www.marketindex.com.au/asx/aya/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS): Pilgangoora Expansion, FY26 Results and Project Plans",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "23 Oct 2026"
     },
     {
@@ -1602,6 +1638,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "23 Oct 2026"
     },
     {
+      "code": "MLX",
+      "name": "Metals X Ltd",
+      "title": "Metals X Limited Estimates \u2013 ASX:MLX",
+      "link": "https://www.marketindex.com.au/asx/mlx/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
       "code": "SRL",
       "name": "Sunrise Energy Metals Ltd",
       "title": "Sunrise Energy Metals (ASX:SRL) Advances Syerston with US Financing Pathway in View",
@@ -1609,24 +1652,24 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "23 Oct 2026"
     }
   ],
-  "gold_change": 2.23,
-  "gold_pct": 0.06,
-  "silver_change": 0.805,
-  "silver_pct": -1.47,
-  "platinum_change": 18.2,
-  "platinum_pct": -1.15,
-  "palladium_change": 7.5,
-  "palladium_pct": -0.71,
-  "copper_change": 0.0754,
-  "copper_pct": 1.19,
-  "nickel_change": 178.0,
-  "nickel_pct": -1.11,
-  "zinc_change": 53.85,
-  "zinc_pct": 1.46,
+  "gold_change": 27.43,
+  "gold_pct": -0.68,
+  "silver_change": 0.568,
+  "silver_pct": -1.04,
+  "platinum_change": 15.4,
+  "platinum_pct": -0.98,
+  "palladium_change": 8.5,
+  "palladium_pct": -0.8,
+  "copper_change": 0.1051,
+  "copper_pct": 1.65,
+  "nickel_change": 130.0,
+  "nickel_pct": -0.81,
+  "zinc_change": 71.55,
+  "zinc_pct": 1.95,
   "lithium_change": 2350.0,
   "lithium_pct": -2.37,
-  "uranium_change": 0.0,
-  "uranium_pct": 0.0,
+  "uranium_change": 0.1,
+  "uranium_pct": -0.11,
   "cobalt_change": 0.0,
   "cobalt_pct": 0.0,
   "rareearth_change": 0.0,
