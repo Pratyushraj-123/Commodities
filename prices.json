@@ -1,11 +1,11 @@
 {
-  "gold": 3997.39,
-  "silver": 54.021,
-  "platinum": 1561.5,
-  "palladium": 1048.0,
-  "copper": 6.4676,
+  "gold": 3997.04,
+  "silver": 53.889,
+  "platinum": 1555.8,
+  "palladium": 1045.5,
+  "copper": 6.4705,
   "nickel": 15865.0,
-  "zinc": 3748.0,
+  "zinc": 3748.2,
   "lithium": 97000.0,
   "uranium": 90.05,
   "cobalt": 34620.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 43.0,
   "fluorite": 580.0,
-  "_last_updated": "23 Oct 2026, 17:58",
+  "_last_updated": "23 Oct 2026, 20:54",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52301.46,
-      "change": -566.52,
-      "pct": -1.07,
+      "price": 52215.16,
+      "change": -652.82,
+      "pct": -1.23,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 17:58",
+      "updated": "23 Oct, 20:54",
       "hist": [
-        46734.61,
         47207.12,
         47544.59,
         47706.37,
@@ -277,16 +276,16 @@
         52495.88,
         52856.09,
         52867.98,
-        52301.46
+        52215.16
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26027.19,
-      "change": 18.33,
-      "pct": 0.07,
+      "price": 25955.34,
+      "change": -53.52,
+      "pct": -0.21,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "23 Oct, 17:58"
+      "updated": "23 Oct, 20:54"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@
       "change": 2.0,
       "pct": 0.02,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 17:58"
+      "updated": "23 Oct, 20:54"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@
       "change": -2.6,
       "pct": -0.03,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "23 Oct, 17:58"
+      "updated": "23 Oct, 20:54"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@
       "change": -34.67,
       "pct": -0.32,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "23 Oct, 17:58"
+      "updated": "23 Oct, 20:54"
     }
   },
   "watchlist": {
@@ -1568,6 +1567,13 @@
       "date": "23 Oct 2026"
     },
     {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals Limited Estimates \u2013 ASX:CYL",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "23 Oct 2026"
+    },
+    {
       "code": "SKY",
       "name": "SKY Metals Ltd",
       "title": "Sky Metals (ASX:SKY) Takes Tallebung Tin Project Into Environmental Assessment After Pre-Feasibility Study",
@@ -1577,7 +1583,7 @@
     {
       "code": "BM1",
       "name": "Ballard Mining Ltd",
-      "title": "Ballard Mining Limited Lists 94,300 Shares After Performance Rights Conversion on 23 October 2026",
+      "title": "Ballard Mining Limited (BM1.AX) stock price, news, quote and history",
       "link": "https://www.marketindex.com.au/asx/bm1/announcements",
       "date": "23 Oct 2026"
     },
@@ -1652,19 +1658,19 @@
       "date": "23 Oct 2026"
     }
   ],
-  "gold_change": 27.43,
-  "gold_pct": -0.68,
-  "silver_change": 0.568,
-  "silver_pct": -1.04,
-  "platinum_change": 15.4,
-  "platinum_pct": -0.98,
-  "palladium_change": 8.5,
-  "palladium_pct": -0.8,
-  "copper_change": 0.1051,
-  "copper_pct": 1.65,
+  "gold_change": 27.78,
+  "gold_pct": -0.69,
+  "silver_change": 0.7,
+  "silver_pct": -1.28,
+  "platinum_change": 21.1,
+  "platinum_pct": -1.34,
+  "palladium_change": 11.0,
+  "palladium_pct": -1.04,
+  "copper_change": 0.108,
+  "copper_pct": 1.7,
   "nickel_change": 130.0,
   "nickel_pct": -0.81,
-  "zinc_change": 71.55,
+  "zinc_change": 71.75,
   "zinc_pct": 1.95,
   "lithium_change": 2350.0,
   "lithium_pct": -2.37,
