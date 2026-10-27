@@ -1,11 +1,11 @@
 {
-  "gold": 4006.68,
-  "silver": 53.274,
-  "platinum": 1510.8,
-  "palladium": 1032.5,
-  "copper": 6.5246,
-  "nickel": 15609.0,
-  "zinc": 3810.95,
+  "gold": 4011.66,
+  "silver": 53.462,
+  "platinum": 1511.7,
+  "palladium": 1016.0,
+  "copper": 6.5905,
+  "nickel": 15639.0,
+  "zinc": 3848.8,
   "lithium": 99350.0,
   "uranium": 90.1,
   "cobalt": 34620.0,
@@ -16,7 +16,7 @@
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "27 Oct 2026, 05:44",
+  "_last_updated": "27 Oct 2026, 11:06",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@
       "change": 146.38,
       "pct": 0.28,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Oct, 05:44",
+      "updated": "27 Oct, 11:06",
       "hist": [
         47544.59,
         47706.37,
@@ -285,7 +285,7 @@
       "change": 214.04,
       "pct": 0.82,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "27 Oct, 05:44"
+      "updated": "27 Oct, 11:06"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 54.9,
       "pct": 0.62,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Oct, 05:44"
+      "updated": "27 Oct, 11:06"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 58.5,
       "pct": 0.67,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "27 Oct, 05:44"
+      "updated": "27 Oct, 11:06"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10767.33,
-      "change": 76.93,
-      "pct": 0.72,
+      "price": 10694.32,
+      "change": -73.01,
+      "pct": -0.68,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "27 Oct, 05:44"
+      "updated": "27 Oct, 11:06"
     }
   },
   "watchlist": {
@@ -415,16 +415,16 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 27358,
-      "avg_volume": 47530.86,
-      "volume_surge": -42.44,
+      "avg_volume": 45370.36,
+      "volume_surge": -39.7,
       "price_3d_start": 2.66,
       "price_3d_jump": 7.52,
       "vol_3d_trend": [
-        42044,
         41593,
-        27358
+        27358,
+        0
       ],
-      "vol_3d_surge": -42.44,
+      "vol_3d_surge": -100.0,
       "vol_3d_sustained": false
     },
     "SLS": {
@@ -1004,14 +1004,14 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 1,
-      "avg_volume": 101104.95,
+      "avg_volume": 96509.27,
       "volume_surge": -100.0,
       "price_3d_start": 0.1,
       "price_3d_jump": -0.0,
       "vol_3d_trend": [
-        170913,
         0,
-        1
+        1,
+        0
       ],
       "vol_3d_surge": -100.0,
       "vol_3d_sustained": false
@@ -1080,16 +1080,16 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 349754,
-      "avg_volume": 232609.76,
-      "volume_surge": 50.36,
-      "price_3d_start": 0.08,
-      "price_3d_jump": -2.5,
+      "avg_volume": 222036.59,
+      "volume_surge": 57.52,
+      "price_3d_start": 0.078,
+      "price_3d_jump": -0.0,
       "vol_3d_trend": [
-        794180,
         367471,
-        349754
+        349754,
+        0
       ],
-      "vol_3d_surge": 50.36,
+      "vol_3d_surge": -100.0,
       "vol_3d_sustained": false
     },
     "SKS": {
@@ -1532,10 +1532,24 @@
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold (ASX:PC2) Lifts Spring Hill Resource 84% to 1.51 Million Ounces and Completes A$75 Million Placement",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
       "code": "MM8",
       "name": "Medallion Metals",
       "title": "How Does Medallion Metals (ASX:MM8) Respond?",
       "link": "https://www.marketindex.com.au/asx/mm8/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Minerals 260 (ASX:MI6) Secures $420 Million in Funding as Bullabulling DFS Targets First Quarter of 2027",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
       "date": "27 Oct 2026"
     },
     {
@@ -1546,10 +1560,31 @@
       "date": "27 Oct 2026"
     },
     {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP): How Is Pioneer Dome Lithium Progressing Toward FY27 Sales?",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
       "code": "BGD",
       "name": "Barton Gold Holdings",
       "title": "Barton Gold (ASX:BGD) Completes 38,760 m of Phase 2 Drilling at Tunkillia as Resource Updates Approach",
       "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
+      "code": "CRS",
+      "name": "Caprice Resources",
+      "title": "Caprice Resources (ASX:CRS): How Does Rare Earth Exploration Fit Its Gold-Focused Program?",
+      "link": "https://www.marketindex.com.au/asx/crs/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Why Sandfire (ASX:SFR), Cyprium (ASX:CYM) and Hot Chili (ASX:HCH) Are in Focus?",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
       "date": "27 Oct 2026"
     },
     {
@@ -1574,6 +1609,20 @@
       "date": "27 Oct 2026"
     },
     {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "PLS Group (ASX:PLS): How Are Lithium Sales, Pricing and Projects Shaping FY26?",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
+      "code": "WC8",
+      "name": "Wildcat Resources Ltd",
+      "title": "Wildcat Resources (ASX:WC8): How Does the Tabba Tabba Lithium Study Fit Alongside Its Gold Portfolio?",
+      "link": "https://www.marketindex.com.au/asx/wc8/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
       "code": "OMA",
       "name": "Omega Oil & Gas Ltd",
       "title": "Omega Oil & Gas Limited (ASX:OMA)",
@@ -1585,6 +1634,13 @@
       "name": "Astral Resources NL",
       "title": "Astral Resources (ASX:AAR) In-Fill Drilling at Mandilla Theia Pit Returns 1.51 g/t Average Grade",
       "link": "https://www.marketindex.com.au/asx/aar/announcements",
+      "date": "27 Oct 2026"
+    },
+    {
+      "code": "KAN",
+      "name": "Kantra Copper Ltd",
+      "title": "Kantra Copper (ASX:KAN) Presents Producer-to-Growth Strategy at IMARC",
+      "link": "https://www.marketindex.com.au/asx/kan/announcements",
       "date": "27 Oct 2026"
     },
     {
@@ -1623,20 +1679,20 @@
       "date": "27 Oct 2026"
     }
   ],
-  "gold_change": 10.04,
-  "gold_pct": -0.25,
-  "silver_change": 0.685,
-  "silver_pct": -1.27,
-  "platinum_change": 34.6,
-  "platinum_pct": -2.24,
-  "palladium_change": 20.0,
-  "palladium_pct": -1.9,
-  "copper_change": 0.0166,
-  "copper_pct": 0.26,
-  "nickel_change": 84.0,
-  "nickel_pct": 0.54,
-  "zinc_change": 13.88,
-  "zinc_pct": -0.36,
+  "gold_change": 5.06,
+  "gold_pct": -0.13,
+  "silver_change": 0.497,
+  "silver_pct": -0.92,
+  "platinum_change": 33.7,
+  "platinum_pct": -2.18,
+  "palladium_change": 36.5,
+  "palladium_pct": -3.47,
+  "copper_change": 0.0825,
+  "copper_pct": 1.27,
+  "nickel_change": 114.0,
+  "nickel_pct": 0.73,
+  "zinc_change": 23.97,
+  "zinc_pct": 0.63,
   "lithium_change": 1050.0,
   "lithium_pct": 1.07,
   "uranium_change": 0.05,
@@ -1677,18 +1733,18 @@
       "volume_surge": 68.98
     },
     {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "volume": 349754,
+      "avg_volume": 222036.59,
+      "volume_surge": 57.52
+    },
+    {
       "code": "TNC",
       "name": "True North Copper",
       "volume": 806115,
       "avg_volume": 520966.73,
       "volume_surge": 54.73
-    },
-    {
-      "code": "LSA",
-      "name": "Lachlan Star Ltd",
-      "volume": 349754,
-      "avg_volume": 232609.76,
-      "volume_surge": 50.36
     },
     {
       "code": "OBM",
@@ -1728,18 +1784,18 @@
       "volume_surge": 68.98
     },
     {
+      "code": "LSA",
+      "name": "Lachlan Star Ltd",
+      "volume": 349754,
+      "avg_volume": 222036.59,
+      "volume_surge": 57.52
+    },
+    {
       "code": "TNC",
       "name": "True North Copper",
       "volume": 806115,
       "avg_volume": 520966.73,
       "volume_surge": 54.73
-    },
-    {
-      "code": "LSA",
-      "name": "Lachlan Star Ltd",
-      "volume": 349754,
-      "avg_volume": 232609.76,
-      "volume_surge": 50.36
     },
     {
       "code": "OBM",
@@ -1754,7 +1810,7 @@
       "code": "BMR",
       "name": "Ballymore Resources",
       "volume": 1,
-      "avg_volume": 101104.95,
+      "avg_volume": 96509.27,
       "volume_surge": -100.0
     },
     {
@@ -1901,8 +1957,8 @@
       "code": "BCN",
       "name": "Beacon Minerals",
       "volume": 27358,
-      "avg_volume": 47530.86,
-      "volume_surge": -42.44
+      "avg_volume": 45370.36,
+      "volume_surge": -39.7
     },
     {
       "code": "MP1",
