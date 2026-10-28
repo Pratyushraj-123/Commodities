@@ -1,11 +1,11 @@
 {
-  "gold": 4031.8,
-  "silver": 53.914,
-  "platinum": 1537.1,
-  "palladium": 1025.5,
-  "copper": 6.6249,
-  "nickel": 15609.0,
-  "zinc": 3850.9,
+  "gold": 4048.72,
+  "silver": 53.955,
+  "platinum": 1557.5,
+  "palladium": 1021.0,
+  "copper": 6.6309,
+  "nickel": 15677.0,
+  "zinc": 3859.35,
   "lithium": 100050.0,
   "uranium": 89.9,
   "cobalt": 34620.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "28 Oct 2026, 06:22",
+  "_last_updated": "28 Oct 2026, 13:36",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52377.57,
-      "change": 15.97,
-      "pct": 0.03,
+      "price": 52464.73,
+      "change": 87.16,
+      "pct": 0.17,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Oct, 06:22",
+      "updated": "28 Oct, 13:36",
       "hist": [
         47706.37,
         47632.0,
@@ -276,16 +276,17 @@
         52867.98,
         52215.16,
         52361.58,
-        52377.57
+        52377.57,
+        52468.7
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 26477.81,
-      "change": 308.43,
-      "pct": 1.18,
+      "price": 26554.66,
+      "change": 76.85,
+      "pct": 0.29,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "28 Oct, 06:22"
+      "updated": "28 Oct, 13:36"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 37.4,
       "pct": 0.42,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Oct, 06:22"
+      "updated": "28 Oct, 13:36"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 43.3,
       "pct": 0.5,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "28 Oct, 06:22"
+      "updated": "28 Oct, 13:36"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10686.54,
-      "change": -80.76,
-      "pct": -0.75,
+      "price": 10712.98,
+      "change": 26.44,
+      "pct": 0.25,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "28 Oct, 06:22"
+      "updated": "28 Oct, 13:36"
     }
   },
   "watchlist": {
@@ -852,17 +853,17 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 480000,
-      "avg_volume": 284053.14,
-      "volume_surge": 68.98,
-      "price_3d_start": 0.305,
-      "price_3d_jump": -1.64,
+      "avg_volume": 271703.0,
+      "volume_surge": 76.66,
+      "price_3d_start": 0.3,
+      "price_3d_jump": -0.0,
       "vol_3d_trend": [
-        91810,
         26416,
-        480000
+        480000,
+        0
       ],
-      "vol_3d_surge": 68.98,
-      "vol_3d_sustained": true
+      "vol_3d_surge": -100.0,
+      "vol_3d_sustained": false
     },
     "CBE": {
       "name": "Cobre Ltd",
@@ -1004,13 +1005,13 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 1,
-      "avg_volume": 96509.27,
+      "avg_volume": 92313.22,
       "volume_surge": -100.0,
       "price_3d_start": 0.1,
       "price_3d_jump": -0.0,
       "vol_3d_trend": [
-        0,
         1,
+        0,
         0
       ],
       "vol_3d_surge": -100.0,
@@ -1532,10 +1533,24 @@
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "PC Gold Ltd (ASX:PC2): How Is Spring Hill Advancing After Its Resource Update?",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
       "code": "FRS",
       "name": "Forrestania Resources",
-      "title": "Forrestania Resources Ltd (ASX:FRS) Closes Edna May Purchase, Tops 2Moz in Resources and Holds $71.1M Cash",
+      "title": "Forrestania Resources Limited (ASX:FRS): How Are Its Gold Processing Plans Progressing?",
       "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "BCN",
+      "name": "Beacon Minerals",
+      "title": "Beacon Minerals (ASX:BCN): What Do Recent Production Figures Reveal Amid Share Weakness?",
+      "link": "https://www.marketindex.com.au/asx/bcn/announcements",
       "date": "28 Oct 2026"
     },
     {
@@ -1546,17 +1561,38 @@
       "date": "28 Oct 2026"
     },
     {
-      "code": "ENR",
-      "name": "Encounter Resources",
-      "title": "Encounter uncovers gold in Aileron niobium zones",
-      "link": "https://www.marketindex.com.au/asx/enr/announcements",
+      "code": "EQR",
+      "name": "EQ Resources Ltd",
+      "title": "EQ Resources (ASX:EQR): How Is Tungsten Production Shaping Its Financial Performance?",
+      "link": "https://www.marketindex.com.au/asx/eqr/announcements",
       "date": "28 Oct 2026"
     },
     {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Is Ora Banda Mining (ASX:OBM) Priced Fairly as Waihi Begins and Funding Grows?",
+      "title": "Ora Banda (ASX:OBM): Is the Soft Quarter Now in the Rear-View Mirror?",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Zinc Supply Tightens: Is Develop (ASX:DVP) Perfectly Placed?",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Is Southern Palladium (ASX:SPD) Moving Closer to Mining Bengwenyama?",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "Barton Gold Holdings Limited (ASX:BGD): Challenger Underground Resource Expands as Development Planning Continues",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
       "date": "28 Oct 2026"
     },
     {
@@ -1581,10 +1617,24 @@
       "date": "28 Oct 2026"
     },
     {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "Cobre Limited (ASX:CBE): How Is Sierra Atacama Reshaping Its Copper Operations?",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
       "code": "BM1",
       "name": "Ballard Mining Ltd",
       "title": "Is a Deep Conductor Hiding More Gold at Ballard Mining's (ASX:BM1) Mt Ida?",
       "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "CYM",
+      "name": "Cyprium Metals",
+      "title": "Cyprium Metals Limited (ASX:CYM): What Comes Next for the Nifty Copper Restart?",
+      "link": "https://www.marketindex.com.au/asx/cym/announcements",
       "date": "28 Oct 2026"
     },
     {
@@ -1618,7 +1668,7 @@
     {
       "code": "4DX",
       "name": "4DMEDICAL Ltd",
-      "title": "Can 4DMedical (ASX:4DX) turn record scan volumes and a Veterans Affairs deal into recurring revenue?",
+      "title": "4DMedical (ASX:4DX) Lifts Q1 FY27 Revenue 66% as Scan Volumes Hit Record",
       "link": "https://www.marketindex.com.au/asx/4dx/announcements",
       "date": "28 Oct 2026"
     },
@@ -1672,27 +1722,41 @@
       "date": "28 Oct 2026"
     },
     {
+      "code": "BTR",
+      "name": "Brightstar Resources Ltd",
+      "title": "Brightstar Resources (ASX:BTR): What Does New Drilling Mean for Sandstone?",
+      "link": "https://www.marketindex.com.au/asx/btr/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
+      "code": "MLX",
+      "name": "Metals X Ltd",
+      "title": "Aurelia Metals (ASX:AMI), Iluka Resources (ASX:ILU) and Metals X (ASX:MLX): Three September Quarter Reports Gaining Attention Today",
+      "link": "https://www.marketindex.com.au/asx/mlx/announcements",
+      "date": "28 Oct 2026"
+    },
+    {
       "code": "SRL",
       "name": "Sunrise Energy Metals Ltd",
-      "title": "Sunrise Energy Metals Limited (ASX: SRL) - Share Price",
+      "title": "Can Sunrise Energy Metals (ASX:SRL) Ride Out a Soft Nickel Market?",
       "link": "https://www.marketindex.com.au/asx/srl/announcements",
       "date": "28 Oct 2026"
     }
   ],
-  "gold_change": 28.4,
-  "gold_pct": -0.7,
-  "silver_change": 0.498,
-  "silver_pct": -0.92,
-  "platinum_change": 0.1,
-  "platinum_pct": -0.01,
-  "palladium_change": 2.5,
-  "palladium_pct": -0.24,
-  "copper_change": 0.0021,
-  "copper_pct": -0.03,
-  "nickel_change": 79.0,
-  "nickel_pct": 0.51,
-  "zinc_change": 4.88,
-  "zinc_pct": 0.13,
+  "gold_change": 11.48,
+  "gold_pct": -0.28,
+  "silver_change": 0.457,
+  "silver_pct": -0.84,
+  "platinum_change": 20.3,
+  "platinum_pct": 1.32,
+  "palladium_change": 7.5,
+  "palladium_pct": -0.73,
+  "copper_change": 0.0039,
+  "copper_pct": 0.06,
+  "nickel_change": 147.0,
+  "nickel_pct": 0.94,
+  "zinc_change": 13.33,
+  "zinc_pct": 0.35,
   "lithium_change": 700.0,
   "lithium_pct": 0.7,
   "uranium_change": 0.2,
@@ -1782,18 +1846,18 @@
       "volume_surge": 81.46
     },
     {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "volume": 480000,
+      "avg_volume": 271703.0,
+      "volume_surge": 76.66
+    },
+    {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
       "volume": 11055348,
       "avg_volume": 6353574.35,
       "volume_surge": 74.0
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "volume": 480000,
-      "avg_volume": 284053.14,
-      "volume_surge": 68.98
     },
     {
       "code": "MM1",
@@ -1882,18 +1946,18 @@
       "volume_surge": 81.46
     },
     {
+      "code": "BCA",
+      "name": "Black Canyon Ltd",
+      "volume": 480000,
+      "avg_volume": 271703.0,
+      "volume_surge": 76.66
+    },
+    {
       "code": "WC8",
       "name": "Wildcat Resources Ltd",
       "volume": 11055348,
       "avg_volume": 6353574.35,
       "volume_surge": 74.0
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "volume": 480000,
-      "avg_volume": 284053.14,
-      "volume_surge": 68.98
     },
     {
       "code": "MM1",
@@ -1908,7 +1972,7 @@
       "code": "BMR",
       "name": "Ballymore Resources",
       "volume": 1,
-      "avg_volume": 96509.27,
+      "avg_volume": 92313.22,
       "volume_surge": -100.0
     },
     {
@@ -2273,17 +2337,6 @@
       ],
       "avg_volume": 6353574.35,
       "surge_pct": 74.0
-    },
-    {
-      "code": "BCA",
-      "name": "Black Canyon Ltd",
-      "vol_trend": [
-        91810,
-        26416,
-        480000
-      ],
-      "avg_volume": 284053.14,
-      "surge_pct": 68.98
     },
     {
       "code": "MM1",
