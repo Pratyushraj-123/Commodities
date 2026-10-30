@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3872.36,
-  "silver": 49.137,
-  "platinum": 1431.3,
-  "palladium": 976.0,
-  "copper": 6.4432,
-  "nickel": 15359.0,
-  "zinc": 3837.35,
+  "gold": 3875.84,
+  "silver": 48.903,
+  "platinum": 1434.5,
+  "palladium": 977.5,
+  "copper": 6.4475,
+  "nickel": 15220.0,
+  "zinc": 3837.55,
   "lithium": 93600.0,
   "uranium": 92.25,
   "cobalt": 33510.0,
@@ -16,17 +16,16 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "30 Oct 2026, 19:44",
+  "_last_updated": "30 Oct 2026, 23:18",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51693.06,
-      "change": -649.5,
-      "pct": -1.24,
+      "price": 51770.31,
+      "change": -572.25,
+      "pct": -1.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Oct, 19:44",
+      "updated": "30 Oct, 23:18",
       "hist": [
-        47522.12,
         47562.87,
         47336.68,
         47085.24,
@@ -277,16 +276,16 @@ window.LIVE_COMMODITY_PRICES = {
         52377.57,
         52475.1,
         52342.56,
-        51693.06
+        51770.31
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25348.48,
-      "change": -836.24,
-      "pct": -3.19,
+      "price": 25437.0,
+      "change": -747.73,
+      "pct": -2.86,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "30 Oct, 19:44"
+      "updated": "30 Oct, 23:18"
     },
     "asx200": {
       "name": "ASX 200",
@@ -294,7 +293,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 60.8,
       "pct": 0.69,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Oct, 19:44"
+      "updated": "30 Oct, 23:18"
     },
     "asx300": {
       "name": "ASX 300",
@@ -302,7 +301,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 57.3,
       "pct": 0.65,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "30 Oct, 19:44"
+      "updated": "30 Oct, 23:18"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -310,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 7.71,
       "pct": 0.07,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "30 Oct, 19:44"
+      "updated": "30 Oct, 23:18"
     }
   },
   "watchlist": {
@@ -1794,7 +1793,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MP1",
       "name": "Megaport Ltd",
-      "title": "Megaport Limited (ASX:MP1): Network Revenue and AI Infrastructure Contracts",
+      "title": "Megaport Limited (MP1.AX) stock price, news, quote and history",
       "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "30 Oct 2026"
     },
@@ -1820,6 +1819,13 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "30 Oct 2026"
     },
     {
+      "code": "PME",
+      "name": "Pro Medicus Ltd",
+      "title": "Insights: Pro Medicus Limited (ASX:PME)",
+      "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "30 Oct 2026"
+    },
+    {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
       "title": "Insights: Neuren Pharmaceuticals Limited (ASX:NEU)",
@@ -1834,9 +1840,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "30 Oct 2026"
     },
     {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "Insights: Liontown Ltd (ASX:LTR)",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
+      "date": "30 Oct 2026"
+    },
+    {
       "code": "PLS",
       "name": "PLS Group Ltd",
-      "title": "PLS Group Limited (PLS.AX) Stock Price, News, Quote & History",
+      "title": "Insights: PLS Group Ltd (ASX:PLS)",
       "link": "https://www.marketindex.com.au/asx/pls/announcements",
       "date": "30 Oct 2026"
     },
@@ -1904,9 +1917,16 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "30 Oct 2026"
     },
     {
+      "code": "SRL",
+      "name": "Sunrise Energy Metals Ltd",
+      "title": "Sunrise Energy Metals Limited (SRL.AX) Seasonal returns chart",
+      "link": "https://www.marketindex.com.au/asx/srl/announcements",
+      "date": "30 Oct 2026"
+    },
+    {
       "code": "MEK",
       "name": "Meeka Metals Ltd",
-      "title": "Insights: Meeka Metals Ltd (ASX:MEK)",
+      "title": "Meeka Metals Limited (MEK.AX) Seasonal returns chart",
       "link": "https://www.marketindex.com.au/asx/mek/announcements",
       "date": "30 Oct 2026"
     },
@@ -1918,20 +1938,20 @@ window.LIVE_COMMODITY_PRICES = {
       "date": "30 Oct 2026"
     }
   ],
-  "gold_change": 148.95,
-  "gold_pct": -3.7,
-  "silver_change": 3.007,
-  "silver_pct": -5.77,
-  "platinum_change": 62.0,
-  "platinum_pct": -4.15,
-  "palladium_change": 28.5,
-  "palladium_pct": -2.84,
-  "copper_change": 0.1378,
-  "copper_pct": -2.09,
-  "nickel_change": 156.0,
-  "nickel_pct": -1.01,
-  "zinc_change": 41.38,
-  "zinc_pct": -1.07,
+  "gold_change": 145.47,
+  "gold_pct": -3.62,
+  "silver_change": 3.241,
+  "silver_pct": -6.22,
+  "platinum_change": 58.8,
+  "platinum_pct": -3.94,
+  "palladium_change": 27.0,
+  "palladium_pct": -2.69,
+  "copper_change": 0.1335,
+  "copper_pct": -2.03,
+  "nickel_change": 295.0,
+  "nickel_pct": -1.9,
+  "zinc_change": 41.18,
+  "zinc_pct": -1.06,
   "lithium_change": 2500.0,
   "lithium_pct": -2.6,
   "uranium_change": 0.75,
