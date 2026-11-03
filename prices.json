@@ -1,11 +1,11 @@
 {
-  "gold": 3908.68,
-  "silver": 48.967,
-  "platinum": 1424.1,
-  "palladium": 936.5,
-  "copper": 6.3524,
-  "nickel": 15369.0,
-  "zinc": 3814.0,
+  "gold": 3931.12,
+  "silver": 49.724,
+  "platinum": 1429.8,
+  "palladium": 934.0,
+  "copper": 6.3785,
+  "nickel": 15299.0,
+  "zinc": 3792.85,
   "lithium": 93800.0,
   "uranium": 92.15,
   "cobalt": 33510.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "03 Nov 2026, 10:08",
+  "_last_updated": "03 Nov 2026, 18:05",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51983.98,
-      "change": 213.67,
-      "pct": 0.41,
+      "price": 51820.34,
+      "change": -163.64,
+      "pct": -0.31,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Nov, 10:08",
+      "updated": "03 Nov, 18:05",
       "hist": [
         47336.68,
         47085.24,
@@ -276,16 +276,17 @@
         52475.1,
         52342.56,
         51770.31,
-        51983.98
+        51983.98,
+        51824.4
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25164.36,
-      "change": -272.63,
-      "pct": -1.07,
+      "price": 25428.81,
+      "change": 264.44,
+      "pct": 1.05,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "03 Nov, 10:08"
+      "updated": "03 Nov, 18:05"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": 30.3,
       "pct": 0.34,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Nov, 10:08"
+      "updated": "03 Nov, 18:05"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": 29.1,
       "pct": 0.33,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "03 Nov, 10:08"
+      "updated": "03 Nov, 18:05"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10705.54,
-      "change": -55.79,
-      "pct": -0.52,
+      "price": 10638.43,
+      "change": -122.9,
+      "pct": -1.14,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "03 Nov, 10:08"
+      "updated": "03 Nov, 18:05"
     }
   },
   "watchlist": {
@@ -1057,14 +1058,14 @@
     "NMR": {
       "name": "Native Mineral Resources",
       "code": "NMR",
-      "price": 0.037,
-      "change": -0.003,
-      "pct": -7.5,
+      "price": 0.038,
+      "change": -0.002,
+      "pct": -6.25,
       "volume": 618847,
       "avg_volume": 1722951.73,
       "volume_surge": -64.08,
       "price_3d_start": 0.039,
-      "price_3d_jump": -5.13,
+      "price_3d_jump": -2.56,
       "vol_3d_trend": [
         1872050,
         1678924,
@@ -1304,14 +1305,14 @@
     "POD": {
       "name": "Podium Minerals",
       "code": "POD",
-      "price": 0.022,
-      "change": 0.0,
-      "pct": 0.0,
+      "price": 0.023,
+      "change": 0.001,
+      "pct": 2.27,
       "volume": 209563,
       "avg_volume": 671392.59,
       "volume_surge": -68.79,
       "price_3d_start": 0.022,
-      "price_3d_jump": 0.0,
+      "price_3d_jump": 4.55,
       "vol_3d_trend": [
         964367,
         77283,
@@ -1532,10 +1533,31 @@
   },
   "announcements": [
     {
+      "code": "PC2",
+      "name": "PC Gold",
+      "title": "How PC Gold (ASX:PC2) Grew Its Spring Hill Resource 84% to 1.51Moz and Raised A$75 Million in One Quarter",
+      "link": "https://www.marketindex.com.au/asx/pc2/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "FRS",
+      "name": "Forrestania Resources",
+      "title": "Why Forrestania Resources (ASX:FRS) is lining up first ore at Edna May as its Zenith takeover closes",
+      "link": "https://www.marketindex.com.au/asx/frs/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
       "code": "BNZ",
       "name": "BENZ Mining Corp",
       "title": "Standing Out From the Pack: What Makes Benz Mining (ASX:BNZ) Different?",
       "link": "https://www.marketindex.com.au/asx/bnz/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "SLS",
+      "name": "Solstice Minerals",
+      "title": "How Are Copper Projects at Solstice (ASX:SLS), Sandfire (ASX:SFR) and Carnaby (ASX:CNB) Shaping Up?",
+      "link": "https://www.marketindex.com.au/asx/sls/announcements",
       "date": "03 Nov 2026"
     },
     {
@@ -1560,10 +1582,59 @@
       "date": "03 Nov 2026"
     },
     {
+      "code": "TGN",
+      "name": "Tungsten Mining",
+      "title": "Why Tungsten Mining (ASX:TGN) is funding one tungsten mine while drilling a bigger one",
+      "link": "https://www.marketindex.com.au/asx/tgn/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
       "code": "EQR",
       "name": "EQ Resources Ltd",
-      "title": "Record Quarter: Which EQ Resources (ASX:EQR) Mine Did the Heavy Lifting?",
+      "title": "EQ Resources (ASX:EQR) Reports Record Tungsten Revenue as Production Surges 81%",
       "link": "https://www.marketindex.com.au/asx/eqr/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "How Minerals 260 (ASX:MI6) Secured A$420 Million From Franco-Nevada to Advance Its 6.2Moz Bullabulling Gold Project",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "DVP",
+      "name": "Develop Global",
+      "title": "Develop Global (ASX:DVP) Advances Woodlawn Operations and Yitirrti Construction Programme",
+      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Catalyst Metals Heads These 3 Australian Penny Stocks To Watch",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "How Southern Palladium (ASX:SPD) More Than Doubled Its Project NPV to US$1.96 Billion in Its Updated PFS",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "BGD",
+      "name": "Barton Gold Holdings",
+      "title": "How Barton Gold (ASX:BGD) More Than Doubled Its Challenger Underground Resource to 230koz as Hub 1 Reaches 400koz Au",
+      "link": "https://www.marketindex.com.au/asx/bgd/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "STN",
+      "name": "Saturn Metals Ltd",
+      "title": "What Saturn Metals' (ASX:STN) Mining Lease Grant and $121M Cash Position Mean for the Apollo Hill Gold Project",
+      "link": "https://www.marketindex.com.au/asx/stn/announcements",
       "date": "03 Nov 2026"
     },
     {
@@ -1576,7 +1647,7 @@
     {
       "code": "SGC",
       "name": "Sinclair Gold Ltd",
-      "title": "When Will Sinclair Gold Ltd (ASX:SGC) Become Profitable?",
+      "title": "Why Sinclair Gold (ASX:SGC) is drilling beyond a doubled Mt Henry gold resource in Western Australia",
       "link": "https://www.marketindex.com.au/asx/sgc/announcements",
       "date": "03 Nov 2026"
     },
@@ -1585,6 +1656,41 @@
       "name": "SKY Metals Ltd",
       "title": "Hidden Tin Value? Is the Market Overlooking Sky Metals (ASX:SKY)?",
       "link": "https://www.marketindex.com.au/asx/sky/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "CBE",
+      "name": "Cobre Ltd",
+      "title": "How does Cobre (ASX:CBE) plan to lift copper output at its Sierra Atacama project in Chile?",
+      "link": "https://www.marketindex.com.au/asx/cbe/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "BM1",
+      "name": "Ballard Mining Ltd",
+      "title": "Could Ballard Mining (ASX:BM1) Be Sitting on a Much Bigger Gold System Than Its Current 1.84Moz Mt Ida MRE Reflects?",
+      "link": "https://www.marketindex.com.au/asx/bm1/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "SGQ",
+      "name": "ST George Mining",
+      "title": "How much has St George Mining (ASX:SGQ) strengthened its Arax\u00e1 rare earths and niobium resource?",
+      "link": "https://www.marketindex.com.au/asx/sgq/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "title": "What makes Titan Minerals' (ASX:TTM) new Dynasty gold-silver discovery different from its existing resource?",
+      "link": "https://www.marketindex.com.au/asx/ttm/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport Limited (ASX:MP1): Network Services, Compute and FY26 Financials",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
       "date": "03 Nov 2026"
     },
     {
@@ -1616,6 +1722,13 @@
       "date": "03 Nov 2026"
     },
     {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "Neuren Pharmaceuticals (ASX:NEU) Wins FDA Orphan Status, Is The Valuation Gap Still Compelling?",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
       "code": "AYA",
       "name": "ARTRYA Ltd",
       "title": "Artrya (ASX:AYA): Coronary Imaging Software and Its 2026 US Commercial Rollout",
@@ -1623,9 +1736,30 @@
       "date": "03 Nov 2026"
     },
     {
+      "code": "PLS",
+      "name": "PLS Group Ltd",
+      "title": "How PLS Group's (ASX:PLS) 20-Year Power Deal with Fortescue Could Cut Pilgangoora Operating Costs by $20 Per Tonne",
+      "link": "https://www.marketindex.com.au/asx/pls/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "AAR",
+      "name": "Astral Resources NL",
+      "title": "What Do Fresh Gold Drilling Results Mean for Auravelle (ASX:AUV), Astral (ASX:AAR) and Zenith (ASX:ZNC)?",
+      "link": "https://www.marketindex.com.au/asx/aar/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
+      "code": "BTR",
+      "name": "Brightstar Resources Ltd",
+      "title": "Brightstar Resources Limited (ASX:BTR): How Does Genesis Minerals' Investment Affect Its Gold Development Plans?",
+      "link": "https://www.marketindex.com.au/asx/btr/announcements",
+      "date": "03 Nov 2026"
+    },
+    {
       "code": "MLX",
       "name": "Metals X Ltd",
-      "title": "Deadline Looms: Will Metals X (ASX:MLX) Firm Up Its First Tin Bid by Friday?",
+      "title": "Metals X (ASX:MLX) Progresses Renison Tin Strategy Following October Exploration Updates",
       "link": "https://www.marketindex.com.au/asx/mlx/announcements",
       "date": "03 Nov 2026"
     },
@@ -1635,22 +1769,29 @@
       "title": "Sunrise Energy Metals Limited (SRL.AX) Analyst insights, Price targets and Recommendations",
       "link": "https://www.marketindex.com.au/asx/srl/announcements",
       "date": "03 Nov 2026"
+    },
+    {
+      "code": "GHM",
+      "name": "Golden Horse Minerals Ltd",
+      "title": "How Golden Horse Minerals (ASX:GHM) Is Defining a High-Grade Gold System at Hopes Hill",
+      "link": "https://www.marketindex.com.au/asx/ghm/announcements",
+      "date": "03 Nov 2026"
     }
   ],
-  "gold_change": 38.35,
-  "gold_pct": -0.97,
-  "silver_change": 1.685,
-  "silver_pct": -3.33,
-  "platinum_change": 30.3,
-  "platinum_pct": -2.08,
-  "palladium_change": 32.0,
-  "palladium_pct": -3.3,
-  "copper_change": 0.1911,
-  "copper_pct": -2.92,
-  "nickel_change": 131.0,
-  "nickel_pct": -0.84,
-  "zinc_change": 80.45,
-  "zinc_pct": -2.07,
+  "gold_change": 15.91,
+  "gold_pct": -0.4,
+  "silver_change": 0.928,
+  "silver_pct": -1.83,
+  "platinum_change": 24.6,
+  "platinum_pct": -1.69,
+  "palladium_change": 34.5,
+  "palladium_pct": -3.56,
+  "copper_change": 0.165,
+  "copper_pct": -2.52,
+  "nickel_change": 201.0,
+  "nickel_pct": -1.3,
+  "zinc_change": 101.6,
+  "zinc_pct": -2.61,
   "lithium_change": 300.0,
   "lithium_pct": 0.32,
   "uranium_change": 0.4,
