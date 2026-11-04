@@ -1,11 +1,11 @@
 {
-  "gold": 4041.77,
-  "silver": 51.986,
-  "platinum": 1461.5,
-  "palladium": 992.0,
-  "copper": 6.4219,
-  "nickel": 15603.0,
-  "zinc": 3836.4,
+  "gold": 4062.25,
+  "silver": 52.211,
+  "platinum": 1496.5,
+  "palladium": 1003.5,
+  "copper": 6.3946,
+  "nickel": 15880.0,
+  "zinc": 3816.15,
   "lithium": 92850.0,
   "uranium": 92.05,
   "cobalt": 33525.0,
@@ -16,15 +16,15 @@
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "04 Nov 2026, 11:37",
+  "_last_updated": "04 Nov 2026, 18:53",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51786.72,
-      "change": -197.28,
-      "pct": -0.38,
+      "price": 53301.5,
+      "change": 1514.78,
+      "pct": 2.93,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Nov, 11:37",
+      "updated": "04 Nov, 18:53",
       "hist": [
         47085.24,
         47311.0,
@@ -276,16 +276,17 @@
         52342.56,
         51770.31,
         51983.98,
-        51786.72
+        51786.72,
+        53300.06
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25372.01,
-      "change": 207.65,
-      "pct": 0.83,
+      "price": 25822.05,
+      "change": 450.04,
+      "pct": 1.77,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "04 Nov, 11:37"
+      "updated": "04 Nov, 18:53"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@
       "change": -22.0,
       "pct": -0.25,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Nov, 11:37"
+      "updated": "04 Nov, 18:53"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@
       "change": -21.1,
       "pct": -0.24,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "04 Nov, 11:37"
+      "updated": "04 Nov, 18:53"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10768.51,
-      "change": 130.08,
-      "pct": 1.22,
+      "price": 10829.21,
+      "change": 190.78,
+      "pct": 1.79,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "04 Nov, 11:37"
+      "updated": "04 Nov, 18:53"
     }
   },
   "watchlist": {
@@ -1042,12 +1043,12 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 647630,
-      "avg_volume": 575302.14,
-      "volume_surge": 12.57,
-      "price_3d_start": 0.54,
-      "price_3d_jump": 1.85,
+      "avg_volume": 550289.0,
+      "volume_surge": 17.69,
+      "price_3d_start": 0.55,
+      "price_3d_jump": -0.0,
       "vol_3d_trend": [
-        647648,
+        0,
         0,
         0
       ],
@@ -1567,9 +1568,16 @@
       "date": "04 Nov 2026"
     },
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "What Do Minerals 260 Limited\u2019s (ASX:MI6) Bullabulling Plans Show in 2026?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "04 Nov 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "After the Breakdown: Where Does Ora Banda's (ASX:OBM) Chart Head Next?",
+      "title": "How Ora Banda Mining (ASX:OBM) Is Managing Production Costs and Plant Expansion",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
       "date": "04 Nov 2026"
     },
@@ -1618,7 +1626,7 @@
     {
       "code": "GML",
       "name": "Gateway Mining Ltd",
-      "title": "Back on Track: How Is Gateway Mining (ASX:GML) Restarting Its Yandal Drilling?",
+      "title": "Gateway Mining Limited (ASX:GML) Restarts Yandal Drilling Momentum After Contractor Delays",
       "link": "https://www.marketindex.com.au/asx/gml/announcements",
       "date": "04 Nov 2026"
     },
@@ -1632,7 +1640,7 @@
     {
       "code": "BCA",
       "name": "Black Canyon Ltd",
-      "title": "Can Black Canyon's (ASX:BCA) Wandanya Drilling Extend the Resource to the North?",
+      "title": "Is Black Canyon (ASX:BCA) Finding More Than Wandanya Up North?",
       "link": "https://www.marketindex.com.au/asx/bca/announcements",
       "date": "04 Nov 2026"
     },
@@ -1665,6 +1673,13 @@
       "date": "04 Nov 2026"
     },
     {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Can Megaport (ASX:MP1) Deliver Its FY27 Compute Expansion After a Wider FY26 Loss?",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "04 Nov 2026"
+    },
+    {
       "code": "GNP",
       "name": "Genusplus Group Ltd",
       "title": "GenusPlus Group (ASX:GNP): The Quiet Power Behind the Grid",
@@ -1681,8 +1696,22 @@
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "What does the Virtua Health contract mean for Pro Medicus Ltd. (ASX:PME) in the S&P/ASX 50?",
+      "title": "How Did Pro Medicus Limited (ASX:PME) Combine FY26 Imaging Revenue Growth With New Contracts?",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
+      "date": "04 Nov 2026"
+    },
+    {
+      "code": "NEU",
+      "name": "Neuren Pharmaceuticals Ltd",
+      "title": "How Are Royalties and Clinical Spending Shaping Neuren Pharmaceuticals (ASX:NEU) in 2026?",
+      "link": "https://www.marketindex.com.au/asx/neu/announcements",
+      "date": "04 Nov 2026"
+    },
+    {
+      "code": "LTR",
+      "name": "Liontown Ltd",
+      "title": "How Did Liontown Limited (ASX:LTR) Navigate Its FY26 Underground Transition?",
+      "link": "https://www.marketindex.com.au/asx/ltr/announcements",
       "date": "04 Nov 2026"
     },
     {
@@ -1726,22 +1755,29 @@
       "title": "How Emerald Resources (ASX:EMR) Plans to Move Beyond Okvau, With Dingo Range and Memot",
       "link": "https://www.marketindex.com.au/asx/emr/announcements",
       "date": "04 Nov 2026"
+    },
+    {
+      "code": "SRL",
+      "name": "Sunrise Energy Metals Ltd",
+      "title": "Sunrise Energy Metals Limited (SRL.AX) stock price, news, quote and history",
+      "link": "https://www.marketindex.com.au/asx/srl/announcements",
+      "date": "04 Nov 2026"
     }
   ],
-  "gold_change": 110.09,
-  "gold_pct": 2.8,
-  "silver_change": 2.194,
-  "silver_pct": 4.41,
-  "platinum_change": 31.5,
-  "platinum_pct": 2.2,
-  "palladium_change": 58.5,
-  "palladium_pct": 6.27,
-  "copper_change": 0.0434,
-  "copper_pct": 0.68,
-  "nickel_change": 188.0,
-  "nickel_pct": 1.22,
-  "zinc_change": 43.6,
-  "zinc_pct": 1.15,
+  "gold_change": 130.57,
+  "gold_pct": 3.32,
+  "silver_change": 2.419,
+  "silver_pct": 4.86,
+  "platinum_change": 66.5,
+  "platinum_pct": 4.65,
+  "palladium_change": 70.0,
+  "palladium_pct": 7.5,
+  "copper_change": 0.0161,
+  "copper_pct": 0.25,
+  "nickel_change": 465.0,
+  "nickel_pct": 3.02,
+  "zinc_change": 23.35,
+  "zinc_pct": 0.62,
   "lithium_change": 950.0,
   "lithium_pct": -1.01,
   "uranium_change": 0.1,
