@@ -1,10 +1,10 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 4065.85,
-  "silver": 51.892,
-  "platinum": 1534.2,
-  "palladium": 1020.5,
-  "copper": 6.2353,
-  "nickel": 16385.0,
+  "gold": 4070.41,
+  "silver": 51.88,
+  "platinum": 1537.0,
+  "palladium": 1021.5,
+  "copper": 6.244,
+  "nickel": 16313.0,
   "zinc": 3717.9,
   "lithium": 93600.0,
   "uranium": 91.95,
@@ -16,7 +16,7 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "06 Nov 2026, 21:47",
+  "_last_updated": "07 Nov 2026, 01:19",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
@@ -24,7 +24,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -237.33,
       "pct": -0.46,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Nov, 21:47",
+      "updated": "07 Nov, 01:19",
       "hist": [
         46987.1,
         47368.63,
@@ -285,23 +285,23 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 264.43,
       "pct": 1.09,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "06 Nov, 21:47"
+      "updated": "07 Nov, 01:19"
     },
     "asx200": {
       "name": "ASX 200",
       "price": 9020.8,
-      "change": 186.3,
-      "pct": 2.11,
+      "change": -44.3,
+      "pct": -0.49,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Nov, 21:47"
+      "updated": "07 Nov, 01:19"
     },
     "asx300": {
       "name": "ASX 300",
       "price": 8924.4,
-      "change": 182.6,
-      "pct": 2.09,
+      "change": -49.1,
+      "pct": -0.55,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "06 Nov, 21:47"
+      "updated": "07 Nov, 01:19"
     },
     "ftse": {
       "name": "FTSE 100",
@@ -309,7 +309,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": -108.72,
       "pct": -1.01,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "06 Nov, 21:47"
+      "updated": "07 Nov, 01:19"
     }
   },
   "watchlist": {
@@ -1530,141 +1530,21 @@ window.LIVE_COMMODITY_PRICES = {
       "vol_3d_sustained": false
     }
   },
-  "announcements": [
-    {
-      "code": "MI6",
-      "name": "Minerals 260",
-      "title": "How Minerals 260 Limited (ASX:MI6) Is Funding the Bullabulling Gold Project Towards Its Feasibility Study",
-      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "OBM",
-      "name": "Ora Banda Mining Ltd",
-      "title": "Why Did Ora Banda Mining's (ASX:OBM) September Quarter Raise Questions Over Costs and Its Davyhurst Expansion?",
-      "link": "https://www.marketindex.com.au/asx/obm/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "DVP",
-      "name": "Develop Global",
-      "title": "Where Does Record Woodlawn Output Leave Develop Global (ASX:DVP)?",
-      "link": "https://www.marketindex.com.au/asx/dvp/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "CYL",
-      "name": "Catalyst Metals",
-      "title": "How is Catalyst Metals Limited (ASX:CYL) turning Plutonic's record gold output into cash and growth options?",
-      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "CRS",
-      "name": "Caprice Resources",
-      "title": "Caprice Resources Limited (CRS.AX) Seasonal returns chart",
-      "link": "https://www.marketindex.com.au/asx/crs/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "USL",
-      "name": "Unico Silver Ltd",
-      "title": "Unico Silver (ASX:USL), Zinc of Ireland (ASX:ZMI) and Lindian Resources (ASX:LIN): What Are Their Latest Project Milestones?",
-      "link": "https://www.marketindex.com.au/asx/usl/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "SKS",
-      "name": "SKS Technologies Group Ltd",
-      "title": "SKS Technologies (ASX:SKS) Braves a Data Centre Backlash",
-      "link": "https://www.marketindex.com.au/asx/sks/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "MP1",
-      "name": "Megaport Ltd",
-      "title": "How Is Megaport Ltd. (ASX:MP1) Funding Its Move From Network Services Into AI Infrastructure?",
-      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "EDU",
-      "name": "EDU Holdings Ltd",
-      "title": "EDU Holdings Limited News \u2014 ASX:EDU",
-      "link": "https://www.marketindex.com.au/asx/edu/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "GNP",
-      "name": "Genusplus Group Ltd",
-      "title": "GenusPlus Group (ASX:GNP) Secures About $255 Million in Western Power and Fortescue Contracts: What the Infrastructure Awards Cover",
-      "link": "https://www.marketindex.com.au/asx/gnp/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "4DX",
-      "name": "4DMEDICAL Ltd",
-      "title": "4DMedical Limited (4DX.AX) stock price, news, quote and history",
-      "link": "https://www.marketindex.com.au/asx/4dx/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "PME",
-      "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME) Shares Slip Today: What Are Investors Watching After Two New US Contracts?",
-      "link": "https://www.marketindex.com.au/asx/pme/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "NEU",
-      "name": "Neuren Pharmaceuticals Ltd",
-      "title": "What Does the FDA's Orphan Drug Designation Mean for Neuren Pharmaceuticals (ASX:NEU)?",
-      "link": "https://www.marketindex.com.au/asx/neu/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "PLS",
-      "name": "PLS Group Ltd",
-      "title": "PLS Group (ASX:PLS) Shares Ease Today: What Is Keeping the Lithium Stock on Investors' Radar?",
-      "link": "https://www.marketindex.com.au/asx/pls/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "KAN",
-      "name": "Kantra Copper Ltd",
-      "title": "KAN.AX interactive stock chart | KANTRA FPO [KAN] stock",
-      "link": "https://www.marketindex.com.au/asx/kan/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "MLX",
-      "name": "Metals X Ltd",
-      "title": "Metals X Limited (MLX.AX) Seasonal returns chart - Yahoo Finance",
-      "link": "https://www.marketindex.com.au/asx/mlx/announcements",
-      "date": "06 Nov 2026"
-    },
-    {
-      "code": "EMR",
-      "name": "Emerald Resources NL",
-      "title": "Emerald Resources (ASX:EMR) Shares Ease Today: What Could Investors Watch From the Okvau Mine?",
-      "link": "https://www.marketindex.com.au/asx/emr/announcements",
-      "date": "06 Nov 2026"
-    }
-  ],
-  "gold_change": 21.85,
-  "gold_pct": -0.53,
-  "silver_change": 0.112,
-  "silver_pct": 0.22,
-  "platinum_change": 11.8,
-  "platinum_pct": 0.78,
-  "palladium_change": 24.0,
-  "palladium_pct": -2.3,
-  "copper_change": 0.0137,
-  "copper_pct": -0.22,
-  "nickel_change": 70.0,
-  "nickel_pct": 0.43,
-  "zinc_change": 78.55,
-  "zinc_pct": -2.07,
+  "announcements": [],
+  "gold_change": 17.29,
+  "gold_pct": -0.42,
+  "silver_change": 0.1,
+  "silver_pct": 0.19,
+  "platinum_change": 14.6,
+  "platinum_pct": 0.96,
+  "palladium_change": 23.0,
+  "palladium_pct": -2.2,
+  "copper_change": 0.005,
+  "copper_pct": -0.08,
+  "nickel_change": 72.0,
+  "nickel_pct": -0.44,
+  "zinc_change": 0.0,
+  "zinc_pct": 0.0,
   "lithium_change": 1900.0,
   "lithium_pct": 2.07,
   "uranium_change": 0.0,
