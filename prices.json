@@ -1,11 +1,11 @@
 {
-  "gold": 4109.3,
-  "silver": 52.727,
-  "platinum": 1549.1,
-  "palladium": 1021.5,
-  "copper": 6.3182,
-  "nickel": 16311.0,
-  "zinc": 3717.7,
+  "gold": 4140.5,
+  "silver": 52.99,
+  "platinum": 1579.1,
+  "palladium": 1036.0,
+  "copper": 6.3609,
+  "nickel": 16290.0,
+  "zinc": 3735.8,
   "lithium": 92500.0,
   "uranium": 91.85,
   "cobalt": 33525.0,
@@ -16,17 +16,16 @@
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "09 Nov 2026, 12:12",
+  "_last_updated": "09 Nov 2026, 22:44",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 51285.73,
-      "change": -237.37,
-      "pct": -0.46,
+      "price": 52389.75,
+      "change": 1104.02,
+      "pct": 2.15,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Nov, 12:12",
+      "updated": "09 Nov, 22:44",
       "hist": [
-        46987.1,
         47368.63,
         47927.96,
         48254.82,
@@ -276,16 +275,17 @@
         51786.72,
         53356.12,
         51523.06,
-        51285.73
+        51285.73,
+        52389.75
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 24579.42,
-      "change": 264.42,
-      "pct": 1.09,
+      "price": 25253.14,
+      "change": 673.72,
+      "pct": 2.74,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "09 Nov, 12:12"
+      "updated": "09 Nov, 22:44"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +293,7 @@
       "change": 8.9,
       "pct": 0.1,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Nov, 12:12"
+      "updated": "09 Nov, 22:44"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +301,15 @@
       "change": 12.0,
       "pct": 0.13,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "09 Nov, 12:12"
+      "updated": "09 Nov, 22:44"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10749.72,
-      "change": 75.78,
-      "pct": 0.71,
+      "price": 10782.87,
+      "change": 108.93,
+      "pct": 1.02,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "09 Nov, 12:12"
+      "updated": "09 Nov, 22:44"
     }
   },
   "watchlist": {
@@ -1042,8 +1042,8 @@
       "change": 0.0,
       "pct": 0.0,
       "volume": 647648,
-      "avg_volume": 484717.05,
-      "volume_surge": 33.61,
+      "avg_volume": 462684.45,
+      "volume_surge": 39.98,
       "price_3d_start": 0.55,
       "price_3d_jump": -0.0,
       "vol_3d_trend": [
@@ -1539,10 +1539,31 @@
       "date": "09 Nov 2026"
     },
     {
+      "code": "MI6",
+      "name": "Minerals 260",
+      "title": "Is Minerals 260 (ASX:MI6) Stock Getting Too Expensive On Earnings?",
+      "link": "https://www.marketindex.com.au/asx/mi6/announcements",
+      "date": "09 Nov 2026"
+    },
+    {
       "code": "OBM",
       "name": "Ora Banda Mining Ltd",
-      "title": "Orabanda Mining Limited (ASX:OBM): What Is the Drive to 300 Strategy Delivering?",
+      "title": "Ora Banda Mining (ASX:OBM) Shares May Still Be Below Fair Value",
       "link": "https://www.marketindex.com.au/asx/obm/announcements",
+      "date": "09 Nov 2026"
+    },
+    {
+      "code": "CYL",
+      "name": "Catalyst Metals",
+      "title": "Things Look Grim For Catalyst Metals Limited (ASX:CYL) After Today's Downgrade",
+      "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "09 Nov 2026"
+    },
+    {
+      "code": "TNC",
+      "name": "True North Copper",
+      "title": "True North Copper Limited (TNC.AX) Seasonal returns chart",
+      "link": "https://www.marketindex.com.au/asx/tnc/announcements",
       "date": "09 Nov 2026"
     },
     {
@@ -1560,6 +1581,13 @@
       "date": "09 Nov 2026"
     },
     {
+      "code": "MP1",
+      "name": "Megaport Ltd",
+      "title": "Megaport Limited (MP1.AX) stock price, news, quote and history",
+      "link": "https://www.marketindex.com.au/asx/mp1/announcements",
+      "date": "09 Nov 2026"
+    },
+    {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
       "title": "Industry Analysts Just Upgraded Their Neuren Pharmaceuticals Limited (ASX:NEU) Revenue Forecasts By 15%",
@@ -1574,20 +1602,20 @@
       "date": "09 Nov 2026"
     }
   ],
-  "gold_change": 38.89,
-  "gold_pct": 0.96,
-  "silver_change": 0.847,
-  "silver_pct": 1.63,
-  "platinum_change": 12.6,
-  "platinum_pct": 0.82,
-  "palladium_change": 4.5,
-  "palladium_pct": 0.44,
-  "copper_change": 0.1002,
-  "copper_pct": 1.61,
-  "nickel_change": 74.0,
-  "nickel_pct": -0.45,
-  "zinc_change": 0.2,
-  "zinc_pct": -0.01,
+  "gold_change": 70.09,
+  "gold_pct": 1.72,
+  "silver_change": 1.11,
+  "silver_pct": 2.14,
+  "platinum_change": 42.4,
+  "platinum_pct": 2.76,
+  "palladium_change": 20.5,
+  "palladium_pct": 2.02,
+  "copper_change": 0.1429,
+  "copper_pct": 2.3,
+  "nickel_change": 95.0,
+  "nickel_pct": -0.58,
+  "zinc_change": 17.9,
+  "zinc_pct": 0.48,
   "lithium_change": 1100.0,
   "lithium_pct": -1.18,
   "uranium_change": 0.1,
