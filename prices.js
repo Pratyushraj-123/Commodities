@@ -1,11 +1,11 @@
 window.LIVE_COMMODITY_PRICES = {
-  "gold": 3943.93,
-  "silver": 50.959,
-  "platinum": 1524.3,
-  "palladium": 1013.5,
-  "copper": 6.187,
-  "nickel": 16269.0,
-  "zinc": 3726.3,
+  "gold": 3880.23,
+  "silver": 50.135,
+  "platinum": 1519.8,
+  "palladium": 993.0,
+  "copper": 6.1781,
+  "nickel": 16205.0,
+  "zinc": 3723.15,
   "lithium": 90650.0,
   "uranium": 90.55,
   "cobalt": 33525.0,
@@ -16,15 +16,15 @@ window.LIVE_COMMODITY_PRICES = {
   "niobium": 50.0,
   "titanium": 41.0,
   "fluorite": 580.0,
-  "_last_updated": "12 Nov 2026, 11:55",
+  "_last_updated": "12 Nov 2026, 19:14",
   "indexes": {
     "dow": {
       "name": "Dow Jones",
-      "price": 52486.49,
-      "change": 254.59,
-      "pct": 0.49,
+      "price": 52491.71,
+      "change": 5.22,
+      "pct": 0.01,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Nov, 11:55",
+      "updated": "12 Nov, 19:14",
       "hist": [
         48254.82,
         47457.22,
@@ -276,16 +276,17 @@ window.LIVE_COMMODITY_PRICES = {
         51285.73,
         52389.75,
         52231.89,
-        52486.49
+        52486.49,
+        52491.71
       ]
     },
     "nasdaq": {
       "name": "Nasdaq",
-      "price": 25466.19,
-      "change": 400.31,
-      "pct": 1.6,
+      "price": 25421.89,
+      "change": -44.3,
+      "pct": -0.17,
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "updated": "12 Nov, 11:55"
+      "updated": "12 Nov, 19:14"
     },
     "asx200": {
       "name": "ASX 200",
@@ -293,7 +294,7 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 17.8,
       "pct": 0.19,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Nov, 11:55"
+      "updated": "12 Nov, 19:14"
     },
     "asx300": {
       "name": "ASX 300",
@@ -301,15 +302,15 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 14.7,
       "pct": 0.16,
       "flag": "\ud83c\udde6\ud83c\uddfa",
-      "updated": "12 Nov, 11:55"
+      "updated": "12 Nov, 19:14"
     },
     "ftse": {
       "name": "FTSE 100",
-      "price": 10873.84,
-      "change": 38.37,
-      "pct": 0.35,
+      "price": 10863.09,
+      "change": 27.62,
+      "pct": 0.25,
       "flag": "\ud83c\uddec\ud83c\udde7",
-      "updated": "12 Nov, 11:55"
+      "updated": "12 Nov, 19:14"
     }
   },
   "watchlist": {
@@ -1042,8 +1043,8 @@ window.LIVE_COMMODITY_PRICES = {
       "change": 0.0,
       "pct": 0.0,
       "volume": 647648,
-      "avg_volume": 435191.39,
-      "volume_surge": 48.82,
+      "avg_volume": 417058.42,
+      "volume_surge": 55.29,
       "price_3d_start": 0.55,
       "price_3d_jump": -0.0,
       "vol_3d_trend": [
@@ -1534,7 +1535,7 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "MM1",
       "name": "Midas Minerals",
-      "title": "What do the first Hartbeespoort holes mean for Midas Minerals' (ASX:MM1) Otavi copper project in Namibia?",
+      "title": "Midas Minerals Limited (MM1.AX) Stock Price, News, Quote & History",
       "link": "https://www.marketindex.com.au/asx/mm1/announcements",
       "date": "12 Nov 2026"
     },
@@ -1571,6 +1572,13 @@ window.LIVE_COMMODITY_PRICES = {
       "name": "Catalyst Metals",
       "title": "Where Is Catalyst (ASX:CYL) Finding Support After Its Slump?",
       "link": "https://www.marketindex.com.au/asx/cyl/announcements",
+      "date": "12 Nov 2026"
+    },
+    {
+      "code": "SPD",
+      "name": "Southern Palladium",
+      "title": "Southern Palladium Limited (SPD.AX) Stock Price, News, Quote & History",
+      "link": "https://www.marketindex.com.au/asx/spd/announcements",
       "date": "12 Nov 2026"
     },
     {
@@ -1618,14 +1626,14 @@ window.LIVE_COMMODITY_PRICES = {
     {
       "code": "PME",
       "name": "Pro Medicus Ltd",
-      "title": "Pro Medicus (ASX:PME): FY26 Imaging Contracts and Profit Measures Explained",
+      "title": "What a run of new US hospital contracts means for Pro Medicus (ASX:PME) ahead of its AGM",
       "link": "https://www.marketindex.com.au/asx/pme/announcements",
       "date": "12 Nov 2026"
     },
     {
       "code": "NEU",
       "name": "Neuren Pharmaceuticals Ltd",
-      "title": "Neuren Pharmaceuticals Limited (ASX:NEU) Discloses Departure of Director Patrick Davies and Final Interest Notice",
+      "title": "Can Neuren's (ASX:NEU) New Board Leader Steer Its Next Phase?",
       "link": "https://www.marketindex.com.au/asx/neu/announcements",
       "date": "12 Nov 2026"
     },
@@ -1677,22 +1685,29 @@ window.LIVE_COMMODITY_PRICES = {
       "title": "Which Emerald (ASX:EMR) Project Counts Most After a Bank's Call?",
       "link": "https://www.marketindex.com.au/asx/emr/announcements",
       "date": "12 Nov 2026"
+    },
+    {
+      "code": "SRL",
+      "name": "Sunrise Energy Metals Ltd",
+      "title": "Sunrise Energy Metals Limited (SRL.AX) stock price, news, quote and history",
+      "link": "https://www.marketindex.com.au/asx/srl/announcements",
+      "date": "12 Nov 2026"
     }
   ],
-  "gold_change": 43.91,
-  "gold_pct": -1.1,
-  "silver_change": 0.705,
-  "silver_pct": -1.36,
-  "platinum_change": 14.2,
-  "platinum_pct": -0.92,
-  "palladium_change": 32.5,
-  "palladium_pct": -3.11,
-  "copper_change": 0.0875,
-  "copper_pct": -1.39,
-  "nickel_change": 69.0,
-  "nickel_pct": 0.42,
-  "zinc_change": 30.6,
-  "zinc_pct": -0.81,
+  "gold_change": 107.61,
+  "gold_pct": -2.7,
+  "silver_change": 1.529,
+  "silver_pct": -2.96,
+  "platinum_change": 18.7,
+  "platinum_pct": -1.22,
+  "palladium_change": 53.0,
+  "palladium_pct": -5.07,
+  "copper_change": 0.0964,
+  "copper_pct": -1.54,
+  "nickel_change": 5.0,
+  "nickel_pct": 0.03,
+  "zinc_change": 33.75,
+  "zinc_pct": -0.9,
   "lithium_change": 200.0,
   "lithium_pct": 0.22,
   "uranium_change": 0.4,
@@ -1745,6 +1760,13 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 1741132,
       "avg_volume": 1106466.88,
       "volume_surge": 57.36
+    },
+    {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "volume": 647648,
+      "avg_volume": 417058.42,
+      "volume_surge": 55.29
     }
   ],
   "volume_surges": [
@@ -1789,6 +1811,13 @@ window.LIVE_COMMODITY_PRICES = {
       "volume": 1741132,
       "avg_volume": 1106466.88,
       "volume_surge": 57.36
+    },
+    {
+      "code": "TTM",
+      "name": "Titan Minerals",
+      "volume": 647648,
+      "avg_volume": 417058.42,
+      "volume_surge": 55.29
     }
   ],
   "volume_drops": [
